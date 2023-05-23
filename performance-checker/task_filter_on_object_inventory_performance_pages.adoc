@@ -1,0 +1,66 @@
+---
+permalink: performance-checker/task_filter_on_object_inventory_performance_pages.html 
+sidebar: sidebar 
+keywords: filter, data, object, inventory, performance, pages 
+summary: È possibile filtrare i dati nelle pagine Object Inventory Performance per individuare rapidamente i dati in base a criteri specifici. È possibile utilizzare il filtraggio per restringere il contenuto delle pagine Object Inventory Performance e visualizzare solo i risultati specificati. In questo modo si ottiene un metodo molto efficiente per visualizzare solo i dati relativi alle performance di cui si è interessati. 
+---
+= Filtraggio dei dati nelle pagine Object Inventory Performance
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile filtrare i dati nelle pagine Object Inventory Performance per individuare rapidamente i dati in base a criteri specifici. È possibile utilizzare il filtraggio per restringere il contenuto delle pagine Object Inventory Performance e visualizzare solo i risultati specificati. In questo modo si ottiene un metodo molto efficiente per visualizzare solo i dati relativi alle performance di cui si è interessati.
+
+È possibile utilizzare il pannello di filtraggio per personalizzare la vista a griglia in base alle proprie preferenze. Le opzioni di filtro disponibili si basano sul tipo di oggetto visualizzato nella griglia. Se i filtri sono attualmente applicati, il numero di filtri applicati viene visualizzato a destra del pulsante Filter (filtro).
+
+Sono supportati tre tipi di parametri di filtro.
+
+|===
+| Parametro | Convalida 
+
+
+ a| 
+Stringa (testo)
+ a| 
+Gli operatori sono *contains*, *inizia con*, *termina con* e *non contiene*.
+
+
+
+ a| 
+Numero
+ a| 
+Gli operatori sono *maggiori di*, *minori di*, *negli ultimi* e *tra*.
+
+
+
+ a| 
+Enum (testo)
+ a| 
+Gli operatori sono *IS* e *non*.
+
+|===
+I campi Column (colonna), Operator (operatore) e Value (valore) sono obbligatori per ciascun filtro; i filtri disponibili riflettono le colonne filtrabili nella pagina corrente. Il numero massimo di filtri che è possibile applicare è quattro. I risultati filtrati si basano su parametri di filtro combinati. I risultati filtrati si applicano a tutte le pagine della ricerca filtrata, non solo alla pagina attualmente visualizzata.
+
+È possibile aggiungere filtri utilizzando il pannello di filtraggio.
+
+. Nella parte superiore della pagina, fare clic sul pulsante *Filter* (filtro). Viene visualizzato il pannello Filtering (filtraggio).
+. Fare clic sull'elenco a discesa a sinistra e selezionare un oggetto, ad esempio _Cluster_ o un contatore delle prestazioni.
+. Fare clic sull'elenco a discesa centrale e selezionare l'operatore che si desidera utilizzare.
+. Nell'ultimo elenco, selezionare o inserire un valore per completare il filtro per l'oggetto.
+. Per aggiungere un altro filtro, fare clic su *+Aggiungi filtro*. Viene visualizzato un campo di filtro aggiuntivo. Completare questo filtro seguendo la procedura descritta nei passaggi precedenti. Si noti che quando si aggiunge il quarto filtro, il pulsante *+Aggiungi filtro* non viene più visualizzato.
+. Fare clic su *Applica filtro*. Le opzioni di filtro vengono applicate alla griglia e il numero di filtri viene visualizzato a destra del pulsante Filter (filtro).
+. Utilizzare il pannello di filtraggio per rimuovere i singoli filtri facendo clic sull'icona del cestino a destra del filtro da rimuovere.
+. Per rimuovere tutti i filtri, fare clic su *Reset* nella parte inferiore del pannello di filtraggio.
+
+
+
+
+== Esempio di filtraggio
+
+La figura mostra il pannello di filtraggio con tre filtri. Il pulsante *+Aggiungi filtro* viene visualizzato quando si dispone di un numero inferiore al massimo di quattro filtri.
+
+image::../media/opm_filtering_panel_draft_3.gif[bozza del pannello di filtraggio opm 3]
+
+Dopo aver fatto clic su *Apply Filter* (Applica filtro), il pannello Filtering (filtraggio) si chiude, applica i filtri e mostra il numero di filtri applicati (image:../media/opm_filters_applied.gif[""]).

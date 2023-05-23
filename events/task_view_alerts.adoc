@@ -1,0 +1,25 @@
+---
+permalink: events/task_view_alerts.html 
+sidebar: sidebar 
+keywords: view, alerts 
+summary: 'È possibile visualizzare l"elenco degli avvisi creati per diversi eventi dalla pagina Configurazione avvisi. È inoltre possibile visualizzare le proprietà degli avvisi, ad esempio la descrizione, il metodo e la frequenza di notifica, gli eventi che attivano l"avviso, i destinatari degli avvisi e le risorse interessate, ad esempio cluster, aggregati e volumi.' 
+---
+= Visualizzazione degli avvisi
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile visualizzare l'elenco degli avvisi creati per diversi eventi dalla pagina Configurazione avvisi. È inoltre possibile visualizzare le proprietà degli avvisi, ad esempio la descrizione, il metodo e la frequenza di notifica, gli eventi che attivano l'avviso, i destinatari degli avvisi e le risorse interessate, ad esempio cluster, aggregati e volumi.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+.Fase
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Alert Setup*.
++
+L'elenco degli avvisi viene visualizzato nella pagina Configurazione avvisi.
+
+

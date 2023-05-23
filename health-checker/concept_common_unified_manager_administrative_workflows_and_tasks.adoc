@@ -1,0 +1,50 @@
+---
+permalink: health-checker/concept_common_unified_manager_administrative_workflows_and_tasks.html 
+sidebar: sidebar 
+keywords: Common, unified, manager, health, workflows, tasks 
+summary: 'Alcuni dei flussi di lavoro e delle attività amministrative più comuni associati a Unified Manager includono la selezione dei cluster di storage da monitorare, la diagnosi di condizioni che influiscono negativamente sulla disponibilità, la capacità e la protezione dei dati, il ripristino dei dati persi, la configurazione e la gestione dei volumi, il raggruppamento e l"invio di dati diagnostici al supporto tecnico (se necessario).' 
+---
+= Flussi di lavoro e attività comuni per lo stato di salute di Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Alcuni dei flussi di lavoro e delle attività amministrative più comuni associati a Unified Manager includono la selezione dei cluster di storage da monitorare, la diagnosi di condizioni che influiscono negativamente sulla disponibilità, la capacità e la protezione dei dati, il ripristino dei dati persi, la configurazione e la gestione dei volumi, il raggruppamento e l'invio di dati diagnostici al supporto tecnico (se necessario).
+
+Unified Manager consente agli amministratori dello storage di visualizzare una dashboard, valutare la capacità complessiva, la disponibilità e lo stato di protezione dei cluster di storage gestiti, quindi identificare, individuare, diagnosticare e assegnare rapidamente eventuali problemi specifici che potrebbero insorgere.
+
+I problemi più importanti relativi a un cluster, a una macchina virtuale di storage, a un volume o a un volume FlexGroup che influiscono sulla capacità di storage o sulla disponibilità dei dati degli oggetti storage gestiti vengono visualizzati nei grafici di stato del sistema e negli eventi della pagina Dashboard. Quando vengono identificati problemi critici, questa pagina fornisce collegamenti a supporto dei flussi di lavoro appropriati per la risoluzione dei problemi.
+
+Unified Manager può anche essere incluso nei flussi di lavoro che includono i relativi strumenti di gestione, ad esempio OnCommand Workflow Automation (Wfa), per supportare la configurazione diretta delle risorse di storage.
+
+I flussi di lavoro comuni relativi alle seguenti attività amministrative sono descritti in questo documento:
+
+* Diagnosi e gestione dei problemi di disponibilità
++
+Se un guasto hardware o problemi di configurazione delle risorse di storage causano la visualizzazione degli eventi di disponibilità dei dati nella pagina Dashboard, gli amministratori dello storage possono seguire i collegamenti integrati per visualizzare le informazioni di connettività relative alla risorsa di storage interessata, visualizzare consigli per la risoluzione dei problemi e assegnare la risoluzione dei problemi ad altri amministratori.
+
+* Configurazione e monitoraggio degli incidenti relativi alle performance
++
+L'amministratore può monitorare e gestire le performance delle risorse del sistema di storage monitorate. Vedere link:../performance-checker/concept_introduction_to_unified_manager_performance_monitoring.html["Introduzione al monitoraggio delle performance di Active IQ Unified Manager"] per ulteriori informazioni.
+
+* Diagnosi e gestione dei problemi di capacità del volume
++
+Se nella pagina Dashboard vengono visualizzati problemi di capacità dello storage del volume, gli amministratori dello storage possono seguire i collegamenti integrati per visualizzare i trend attuali e storici relativi alla capacità dello storage del volume interessato, visualizzare consigli per la risoluzione dei problemi e assegnare la risoluzione dei problemi ad altri amministratori.
+
+* Configurazione, monitoraggio e diagnosi dei problemi relativi alle relazioni di protezione
++
+Dopo aver creato e configurato le relazioni di protezione, gli amministratori dello storage possono visualizzare i potenziali problemi relativi alle relazioni di protezione, lo stato corrente delle relazioni di protezione, le informazioni attuali e storiche sul successo dei lavori di protezione sulle relazioni interessate e i consigli per la risoluzione dei problemi. Vedere link:../data-protection/concept_create_and_monitor_protection_relationships.html["Creazione, monitoraggio e risoluzione dei problemi delle relazioni di protezione"] per ulteriori informazioni.
+
+* Creazione di file di backup e ripristino dei dati dai file di backup.
+* Associazione di oggetti storage con annotazioni
++
+Associando gli oggetti storage alle annotazioni, gli amministratori dello storage possono filtrare e visualizzare gli eventi correlati agli oggetti storage, consentendo agli amministratori dello storage di assegnare priorità e risolvere i problemi associati agli eventi.
+
+* Utilizzo delle API REST per gestire i cluster visualizzando le informazioni su stato, capacità e performance acquisite da Unified Manager. Vedere link:../api-automation/concept_get_started_with_um_apis.html["Introduzione alle API REST di Active IQ Unified Manager"] per ulteriori informazioni.
+* Invio di un pacchetto di supporto al supporto tecnico
++
+Gli amministratori dello storage possono recuperare e inviare un pacchetto di supporto al supporto tecnico utilizzando la console di manutenzione. I pacchetti di supporto devono essere inviati al supporto tecnico quando il problema richiede una diagnosi e una risoluzione dei problemi più dettagliate rispetto a quanto viene fornito da un messaggio AutoSupport.
+
+

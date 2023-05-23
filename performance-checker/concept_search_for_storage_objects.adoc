@@ -1,0 +1,35 @@
+---
+permalink: performance-checker/concept_search_for_storage_objects.html 
+sidebar: sidebar 
+keywords: search, storage, objects 
+summary: 'Per accedere rapidamente a un oggetto specifico, utilizzare il campo Search All Storage Objects (Cerca tutti gli oggetti di storage) nella parte superiore della barra dei menu. Questo metodo di ricerca globale in tutti gli oggetti consente di individuare rapidamente oggetti specifici in base al tipo. I risultati della ricerca sono ordinati in base al tipo di oggetto di storage ed è possibile filtrarli utilizzando il menu a discesa. Una ricerca valida deve contenere almeno tre caratteri.' 
+---
+= Ricerca di oggetti storage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Per accedere rapidamente a un oggetto specifico, è possibile utilizzare il campo *Search All Storage Objects* (Cerca tutti gli oggetti di storage) nella parte superiore della barra dei menu. Questo metodo di ricerca globale in tutti gli oggetti consente di individuare rapidamente oggetti specifici in base al tipo. I risultati della ricerca sono ordinati in base al tipo di oggetto di storage ed è possibile filtrarli utilizzando il menu a discesa. Una ricerca valida deve contenere almeno tre caratteri.
+
+La ricerca globale visualizza il numero totale di risultati, ma solo i primi 25 risultati sono accessibili. Per questo motivo, la funzionalità di ricerca globale può essere considerata come uno strumento di scelta rapida per trovare elementi specifici se si conoscono gli elementi che si desidera individuare rapidamente. Per risultati di ricerca completi, è possibile utilizzare la ricerca nelle pagine di inventario degli oggetti e la relativa funzionalità di filtraggio associata.
+
+È possibile fare clic sulla casella a discesa e selezionare *tutti* per eseguire contemporaneamente la ricerca in tutti gli oggetti e gli eventi. In alternativa, fare clic sulla casella a discesa per specificare il tipo di oggetto. Digitare un minimo di tre caratteri del nome dell'oggetto o dell'evento nel campo *Cerca tutti gli oggetti di storage*, quindi premere *Invio* per visualizzare i risultati della ricerca, ad esempio:
+
+* Cluster: Nomi dei cluster
+* Nodi: Nomi dei nodi
+* Aggregati: Nomi di aggregati
+* SVM: Nomi SVM
+* Volumi: Nomi dei volumi
+* LUN: Percorsi LUN
+
+
+image::../media/opm_search_field_jpg.gif[Campo di ricerca in Unified Manager]
+
+[NOTE]
+====
+Le LIF e le porte non sono ricercabili nella barra di ricerca globale.
+
+====
+In questo esempio, nella casella a discesa è selezionato il tipo di oggetto Volume. Digitando "`vol`" nel campo *Search All Storage Objects* viene visualizzato un elenco di tutti i volumi i cui nomi contengono questi caratteri. Per le ricerche di oggetti, è possibile fare clic su qualsiasi risultato di ricerca per accedere alla pagina Performance Explorer dell'oggetto. Per la ricerca degli eventi, facendo clic su un elemento nel risultato della ricerca si accede alla pagina Dettagli evento.

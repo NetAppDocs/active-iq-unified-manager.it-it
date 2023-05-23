@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task_configure_backup_location_for_windows_snapshot_backup.html 
+sidebar: sidebar 
+keywords: configure, backup, location, windows, snapshot copy, copies 
+summary: È necessario configurare il volume per la memorizzazione delle copie Snapshot dopo il backup di Unified Manager su Windows. 
+---
+= Configurazione della posizione di backup per Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È necessario configurare il volume per la memorizzazione delle copie Snapshot dopo il backup di Unified Manager su Windows.
+
+*Cosa ti serve*
+
+Il cluster, la VM di storage e il volume devono soddisfare i seguenti requisiti:
+
+* Requisiti del cluster:
++
+** È necessario installare ONTAP 9.3 o versione successiva
+** Deve essere geograficamente vicino al server Unified Manager
+** Viene monitorato da Unified Manager
+
+
+* Requisiti delle macchine virtuali per lo storage:
++
+** Connettività iSCSI sul cluster ONTAP
+** Il protocollo iSCSI deve essere attivato per la macchina configurata
+** Per la configurazione del backup, è necessario disporre di un volume e di un LUN dedicati. Il volume selezionato deve contenere un solo LUN e nient'altro.
+** La dimensione del LUN deve essere almeno il doppio della dimensione dei dati prevista per la gestione in 9.9 Active IQ Unified Manager.
++
+In questo modo vengono impostati anche gli stessi requisiti di dimensione sul volume.
+
+** Assicurarsi che sia selezionata l'opzione All Read/Write access (tutti gli accessi in lettura/scrittura
+** Assicurarsi che l'opzione accesso superutente sia impostata su "`any`" nel criterio di esportazione
+
+
+* Requisiti di volume e LUN:
++
+** Il volume deve avere una dimensione almeno doppia rispetto alla directory dei dati MySQL di Unified Manager.
+** Lo stile di protezione deve essere impostato su Windows
+** Il criterio locale di snapshot deve essere disattivato
+** La funzione di dimensionamento automatico del volume deve essere attivata
+** Il livello di servizio delle performance deve essere impostato su una policy con IOPS elevati e bassa latenza, ad esempio "`Extreme`"
+
+
+

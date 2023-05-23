@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/concept_monitor_cluster_object_navigation.html 
+sidebar: sidebar 
+keywords: monitor, cluster, object, navigation 
+summary: È possibile monitorare le performance di tutti gli oggetti in qualsiasi cluster gestito da Unified Manager. Il monitoraggio degli oggetti storage offre una panoramica delle performance di cluster e oggetti e include il monitoraggio degli eventi delle performance. È possibile visualizzare performance ed eventi a un livello elevato oppure esaminare ulteriormente i dettagli delle performance degli oggetti e degli eventi delle performance. 
+---
+= Monitorare la navigazione degli oggetti del cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile monitorare le performance di tutti gli oggetti in qualsiasi cluster gestito da Unified Manager. Il monitoraggio degli oggetti storage offre una panoramica delle performance di cluster e oggetti e include il monitoraggio degli eventi delle performance. È possibile visualizzare performance ed eventi a un livello elevato oppure esaminare ulteriormente i dettagli delle performance degli oggetti e degli eventi delle performance.
+
+Questo è un esempio di molte possibili esplorazioni degli oggetti del cluster:
+
+. Dalla pagina Dashboard, esaminare i dettagli nel pannello Performance Capacity (capacità delle performance) per identificare il cluster che utilizza la capacità di performance più elevata e fare clic sul grafico a barre per accedere all'elenco dei nodi per il cluster.
+. Identificare il nodo con il valore più elevato utilizzato per la capacità delle performance e fare clic su tale nodo.
+. Dalla pagina Node / Performance Explorer (Esplora nodi/prestazioni), fare clic su *Aggregates on this Node* (aggregati su questo nodo) dal menu View and compare (Visualizza e confronta).
+. Identificare l'aggregato che utilizza la capacità di performance più elevata e fare clic su tale aggregato.
+. Dalla pagina aggregate / Performance Explorer, fare clic su *Volumes on this aggregate* (volumi su questo aggregato) dal menu View and compare (Visualizza e confronta).
+. Identificare i volumi che utilizzano il maggior numero di IOPS.
+
+
+È necessario esaminare questi volumi per verificare se è necessario applicare una policy di QoS o una policy di Performance Service Level o modificare le impostazioni della policy, in modo che tali volumi non utilizzino una percentuale così elevata di IOPS sul cluster.
+
+image::../media/monitor_cluster_object.png[monitorare l'oggetto cluster]

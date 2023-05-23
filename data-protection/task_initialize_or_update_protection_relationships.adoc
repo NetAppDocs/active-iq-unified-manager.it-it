@@ -1,0 +1,54 @@
+---
+permalink: data-protection/task_initialize_or_update_protection_relationships.html 
+sidebar: sidebar 
+keywords: initialize, update, protection, relationships, volume, page 
+summary: 'Dalla pagina Volume Relationship (Relazioni volume), è possibile eseguire un primo trasferimento di riferimento su una nuova relazione di protezione o aggiornare una relazione se è già inizializzata e si desidera eseguire un aggiornamento incrementale manuale e non pianificato per il trasferimento immediato.' 
+---
+= Inizializzazione o aggiornamento delle relazioni di protezione dalla pagina Relazioni volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dalla pagina Volume Relationship (Relazioni volume), è possibile eseguire un primo trasferimento di riferimento su una nuova relazione di protezione o aggiornare una relazione se è già inizializzata e si desidera eseguire un aggiornamento incrementale manuale e non pianificato per il trasferimento immediato.
+
+
+NOTE: Non è possibile inizializzare o aggiornare i volumi protetti dai gruppi di coerenza.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+* È necessario aver configurato OnCommand Workflow Automation.
+
+
+.Fasi
+. Nella pagina *Relazioni volume*, fare clic con il pulsante destro del mouse su un volume e selezionare uno o più volumi con relazioni che si desidera aggiornare o inizializzare, quindi fare clic su *Inizializza/Aggiorna* nella barra degli strumenti.
++
+Viene visualizzata la finestra di dialogo *Inizializza/Aggiorna*.
+
+. Nella scheda *Opzioni di trasferimento*, selezionare una priorità di trasferimento e la velocità di trasferimento massima.
+. Fare clic su *Source Snapshot Copies*, quindi nella colonna *Snapshot Copy*, fare clic su *Default*.
++
+Viene visualizzata la finestra di dialogo Select Source Snapshot Copy (Seleziona copia snapshot di origine).
+
+. Se si desidera specificare una copia Snapshot esistente invece di trasferire la copia Snapshot predefinita, fare clic su *Existing Snapshot Copy* (Copia istantanea esistente) e selezionare una copia Snapshot dall'elenco.
+. Fare clic su *Invia*.
++
+Viene visualizzata nuovamente la finestra di dialogo *Inizializza/Aggiorna*.
+
+. Se sono state selezionate più origini da inizializzare o aggiornare, fare clic su *Default* per l'origine successiva per la quale si desidera specificare una copia Snapshot esistente.
+. Fare clic su *Submit* (Invia) per avviare il processo di inizializzazione o aggiornamento.
++
+Il processo di inizializzazione o aggiornamento viene avviato, viene visualizzata nuovamente la pagina rapporti volume e viene visualizzato un collegamento lavori nella parte superiore della pagina.
+
+. *Opzionale:* fare clic su *Visualizza processi* nella vista *Salute: Tutti i volumi* per tenere traccia dello stato di ogni processo di inizializzazione o di aggiornamento.
++
+Viene visualizzato un elenco filtrato di lavori.
+
+. *Opzionale:* fare clic su ciascun lavoro per visualizzarne i dettagli.
+. *Opzionale:* fare clic sulla freccia *Indietro* del browser per tornare alla pagina *Relazioni volume*.
++
+Al termine di tutte le attività, l'operazione di inizializzazione o aggiornamento è terminata.
+
+

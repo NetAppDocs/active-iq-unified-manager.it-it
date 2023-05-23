@@ -1,0 +1,26 @@
+---
+permalink: storage-mgmt/concept_introduction_to_unified_manager.html 
+sidebar: sidebar 
+keywords: introduction, active iq unified manager 
+summary: 'Active IQ Unified Manager (in precedenza Unified Manager di OnCommand) consente di monitorare e gestire lo stato di salute e le performance dei sistemi storage ONTAP da una singola interfaccia.' 
+---
+= Introduzione a Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager (in precedenza Unified Manager di OnCommand) consente di monitorare e gestire lo stato di salute e le performance dei sistemi storage ONTAP da una singola interfaccia.
+
+Unified Manager offre le seguenti funzionalità:
+
+* Rilevamento, monitoraggio e notifiche per i sistemi installati con il software ONTAP.
+* Dashboard per mostrare lo stato di capacità, sicurezza e performance dell'ambiente.
+* Miglioramento dell'infrastruttura di avvisi, eventi e soglie.
+* Visualizza grafici dettagliati che illustrano l'attività dei carichi di lavoro nel tempo, inclusi IOPS (operazioni), Mbps (throughput), latenza (tempo di risposta), utilizzo, capacità delle performance e rapporto cache.
+* Identifica i carichi di lavoro che stanno utilizzando in eccesso i componenti del cluster e i carichi di lavoro le cui performance sono influenzate dall'aumento dell'attività.
+* Fornisce le azioni correttive suggerite che possono essere eseguite per risolvere determinati incidenti ed eventi e un pulsante "Correggi" per alcuni eventi, in modo da poter risolvere il problema immediatamente.
+* Si integra con OnCommand Workflow Automation per eseguire flussi di lavoro di protezione automatizzati.
+* Possibilità di creare nuovi carichi di lavoro, come una LUN o una condivisione di file, direttamente da Unified Manager e assegnare un livello di servizio delle performance per definire gli obiettivi di performance e storage per gli utenti che accedono all'applicazione utilizzando tale carico di lavoro.
+

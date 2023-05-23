@@ -1,0 +1,452 @@
+---
+permalink: api-automation/concept_provision_file_share.html 
+sidebar: sidebar 
+keywords: provision, cifs, nfs, file, shares 
+summary: 'È possibile eseguire il provisioning delle condivisioni CIFS e delle condivisioni file NFS sulle macchine virtuali di storage (SVM) utilizzando le API di provisioning fornite come parte di Active IQ Unified Manager. Questo flusso di lavoro di provisioning descrive in dettaglio i passaggi per il recupero delle chiavi delle SVM, dei livelli di servizio delle performance e delle policy di efficienza dello storage prima di creare le condivisioni di file.' 
+---
+= Provisioning delle condivisioni di file CIFS e NFS tramite API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile eseguire il provisioning delle condivisioni CIFS e delle condivisioni file NFS sulle macchine virtuali di storage (SVM) utilizzando le API di provisioning fornite come parte di Active IQ Unified Manager. Questo flusso di lavoro di provisioning descrive in dettaglio i passaggi per il recupero delle chiavi delle SVM, dei livelli di servizio delle performance e delle policy di efficienza dello storage prima di creare le condivisioni di file.
+
+Il seguente diagramma illustra ogni fase di un flusso di lavoro di provisioning della condivisione file. Include il provisioning di condivisioni CIFS e file share NFS.
+
+image::../media/create_fileshares.gif[creare file eshare]
+
+[NOTE]
+====
+Verificare quanto segue:
+
+* I cluster ONTAP sono stati aggiunti a Unified Manager ed è stata ottenuta la chiave del cluster.
+* Le SVM sono state create sui cluster.
+* Le SVM supportano i servizi CIFS e NFS. Il provisioning delle condivisioni di file potrebbe non riuscire se le SVM non supportano i servizi richiesti.
+* La porta FCP è online per il provisioning delle porte.
+
+
+====
+. Determinare se le LIF dei dati o gli endpoint di accesso sono disponibili sulla SVM su cui si desidera creare la condivisione CIFS. Ottieni l'elenco degli endpoint di accesso disponibili su SVM:
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/access-endpoints`
+`/storage-provider/access-endpoints/\{key}`
+
+|===
++
+*CURL campione*
+
++
+[listing]
+----
+curl -X GET "https://<hostname>/api/storage-provider/access-endpoints?resource.key=7d5a59b3-953a-11e8-8857-00a098dcc959" -H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+----
+. Se l'endpoint di accesso è disponibile nell'elenco, ottenere la chiave dell'endpoint di accesso, altrimenti creare l'endpoint di accesso.
++
+[NOTE]
+====
+Assicurarsi di creare endpoint di accesso con il protocollo CIFS attivato. Il provisioning delle condivisioni CIFS non riesce a meno che non sia stato creato un endpoint di accesso con il protocollo CIFS attivato.
+
+====
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+POST
+ a| 
+`/storage-provider/access-endpoints`
+
+|===
++
+*CURL campione*
+
++
+Immettere i dettagli dell'endpoint di accesso che si desidera creare, come parametri di input.
+
++
+[listing]
+----
+curl -X POST "https://<hostname>/api/storage-provider/access-endpoints" -H "accept: application/json" -H "Content-Type: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+{ \"data_protocols\": \"nfs\",
+\"fileshare\": { \"key\": \"cbd1757b-0580-11e8-bd9d-00a098d39e12:type=volume,uuid=f3063d27-2c71-44e5-9a69-a3927c19c8fc\" },
+\"gateway\": \"10.132.72.12\",
+\"ip\": { \"address\": \"10.162.83.26\",
+\"ha_address\": \"10.142.83.26\",
+\"netmask\": \"255.255.0.0\" },
+\"lun\": { \"key\": \"cbd1757b-0580-11e8-bd9d-00a098d39e12:type=lun,uuid=d208cc7d-80a3-4755-93d4-5db2c38f55a6\" },
+\"mtu\": 15000, \"name\": \"aep1\",
+\"svm\": { \"key\": \"cbd1757b-0580-11e8-bd9d-00a178d39e12:type=vserver,uuid=1d1c3198-fc57-11e8-99ca-00a098d38e12\" },
+\"vlan\": 10}"
+----
++
+L'output JSON visualizza una chiave Job Object che è possibile utilizzare per verificare l'endpoint di accesso creato.
+
+. Verificare l'endpoint di accesso:
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+server di gestione
+ a| 
+OTTIENI
+ a| 
+`/management-server/jobs/\{key}`
+
+|===
+. Determinare se è necessario creare una condivisione CIFS o una condivisione file NFS. Per la creazione di condivisioni CIFS, seguire questi passaggi secondari:
++
+.. Determinare se il server CIFS è configurato sulla SVM, in modo da determinare se viene creata una mappatura Active Directory sulla SVM.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/active-directories-mappings`
+
+|===
+.. Se viene creata la mappatura di Active Directory, prendere la chiave, altrimenti creare la mappatura di Active Directory sulla SVM.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+POST
+ a| 
+`/storage-provider/active-directories-mappings`
+
+|===
++
+*CURL campione*
+
++
+È necessario inserire i dettagli per la creazione del mapping di Active Directory, come parametri di input.
+
++
+[listing]
+----
+curl -X POST "https://<hostname>/api/storage-provider/active-directories-mappings" -H "accept: application/json" -H "Content-Type: application/json" -H "Authorization: Basic <Base64EncodedCredentials>"
+{ \"_links\": {},
+\"dns\": \"10.000.000.000\",
+\"domain\": \"example.com\",
+\"password\": \"string\",
+\"svm\": { \"key\": \"9f4ddea-e395-11e9-b660-005056a71be9:type=vserver,uuid=191a554a-f0ce-11e9-b660-005056a71be9\" },
+\"username\": \"string\"}"
+----
++
+Si tratta di una chiamata sincrona ed è possibile verificare la creazione del mapping Active Directory nell'output. In caso di errore, viene visualizzato il messaggio di errore per risolvere il problema ed eseguire nuovamente la richiesta.
+
+
+
+. Ottenere la chiave SVM per la SVM su cui si desidera creare la condivisione CIFS o la condivisione file NFS, come descritto nell'argomento _Verifying SVM on Clusters_ workflow (verifica delle SVM sui cluster).
+. Ottenere la chiave per il livello di servizio Performance eseguendo la seguente API e recuperando la chiave dalla risposta.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/performance-service-levels`
+
+|===
++
+[NOTE]
+====
+È possibile recuperare i dettagli dei livelli di Performance Service definiti dal sistema impostando `system_defined` inserire il parametro in `true`. Dall'output, ottenere la chiave del Performance Service Level che si desidera applicare alla condivisione file.
+
+====
+. Facoltativamente, ottenere la chiave Storage Efficiency Policy per la Storage Efficiency Policy che si desidera applicare alla condivisione file eseguendo la seguente API e recuperando la chiave dalla risposta.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/storage-efficiency-policies`
+
+|===
+. Creare la condivisione file. È possibile creare una condivisione file che supporti CIFS e NFS specificando l'elenco di controllo degli accessi e la policy di esportazione. Le seguenti istruzioni forniscono informazioni se si desidera creare una condivisione file per il supporto di uno solo dei protocolli sul volume. È inoltre possibile aggiornare una condivisione file NFS per includere l'elenco di controllo degli accessi dopo aver creato la condivisione NFS. Per informazioni, consulta l'argomento _Modifica dei carichi di lavoro dello storage_.
++
+.. Per creare solo una condivisione CIFS, raccogliere le informazioni sull'elenco di controllo di accesso (ACL). Per creare la condivisione CIFS, fornire valori validi per i seguenti parametri di input. Per ogni gruppo di utenti assegnato, viene creato un ACL quando viene eseguita la condivisione CIFS/SMB. In base ai valori immessi per il mapping ACL e Active Directory, il controllo dell'accesso e il mapping vengono determinati per la condivisione CIFS al momento della creazione.
++
+*Un comando curl con valori di esempio*
+
++
+[listing]
+----
+{
+  "access_control": {
+    "acl": [
+      {
+        "permission": "read",
+        "user_or_group": "everyone"
+      }
+    ],
+    "active_directory_mapping": {
+      "key": "3b648c1b-d965-03b7-20da-61b791a6263c"
+    },
+----
+.. Per creare solo una condivisione file NFS, raccogliere le informazioni relative alla policy di esportazione. Per creare la condivisione file NFS, fornire valori validi per i seguenti parametri di input. In base ai valori, la policy di esportazione viene allegata alla condivisione file NFS al momento della creazione.
++
+[NOTE]
+====
+Durante il provisioning della condivisione NFS, è possibile creare una policy di esportazione fornendo tutti i valori richiesti oppure fornire la chiave della policy di esportazione e riutilizzare una policy di esportazione esistente. Se si desidera riutilizzare un criterio di esportazione per la VM di storage, è necessario aggiungere la chiave del criterio di esportazione. A meno che non si conosca la chiave, è possibile recuperare la chiave del criterio di esportazione utilizzando `/datacenter/protocols/nfs/export-policies` API. Per creare un nuovo criterio, è necessario immettere le regole come mostrato nell'esempio seguente. Per le regole inserite, l'API tenta di cercare un criterio di esportazione esistente in base all'host, alla VM di storage e alle regole corrispondenti. Se esiste già una policy di esportazione, viene utilizzata. In caso contrario, viene creata una nuova policy di esportazione.
+
+====
++
+*Un comando curl con valori di esempio*
+
++
+[listing]
+----
+"export_policy": {
+      "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641",
+      "name_tag": "ExportPolicyNameTag",
+      "rules": [
+        {
+          "clients": [
+            {
+              "match": "0.0.0.0/0"
+            }
+----
+
+
++
+Dopo aver configurato l'elenco di controllo degli accessi e la policy di esportazione, fornire i valori validi per i parametri di input obbligatori per le condivisioni di file CIFS e NFS:
+
+
+
+[NOTE]
+====
+La Storage Efficiency Policy è un parametro facoltativo per la creazione di condivisioni di file.
+
+====
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+POST
+ a| 
+`/storage-provider/file-shares`
+
+|===
+L'output JSON visualizza una chiave oggetto lavoro che è possibile utilizzare per verificare la condivisione file creata. . Verificare la creazione della condivisione del file utilizzando la chiave oggetto lavoro restituita durante l'interrogazione del lavoro:
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+server di gestione
+ a| 
+OTTIENI
+ a| 
+`/management-server/jobs/\{key}`
+
+|===
+Al termine della risposta, viene visualizzata la chiave della condivisione file creata.
+
+[listing]
+----
+
+    ],
+    "job_results": [
+        {
+            "name": "fileshareKey",
+            "value": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6"
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "/api/management-server/jobs/06a6148bf9e862df:-2611856e:16e8d47e722:-7f87"
+        }
+    }
+}
+----
+. Verificare la creazione della condivisione file eseguendo la seguente API con la chiave restituita:
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
++
+*Esempio di output JSON*
+
++
+Si può vedere che il metodo POST di `/storage-provider/file-shares` Richiama internamente tutte le API richieste per ciascuna delle funzioni e crea l'oggetto. Ad esempio, richiama `/storage-provider/performance-service-levels/` API per l'assegnazione del livello di servizio delle prestazioni nella condivisione file.
+
++
+[listing]
+----
+{
+    "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6",
+    "name": "FileShare_377",
+    "cluster": {
+        "uuid": "7d5a59b3-953a-11e8-8857-00a098dcc959",
+        "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=cluster,uuid=7d5a59b3-953a-11e8-8857-00a098dcc959",
+        "name": "AFFA300-206-68-70-72-74",
+        "_links": {
+            "self": {
+                "href": "/api/datacenter/cluster/clusters/7d5a59b3-953a-11e8-8857-00a098dcc959:type=cluster,uuid=7d5a59b3-953a-11e8-8857-00a098dcc959"
+            }
+        }
+    },
+    "svm": {
+        "uuid": "b106d7b1-51e9-11e9-8857-00a098dcc959",
+        "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=vserver,uuid=b106d7b1-51e9-11e9-8857-00a098dcc959",
+        "name": "RRT_ritu_vs1",
+        "_links": {
+            "self": {
+                "href": "/api/datacenter/svm/svms/7d5a59b3-953a-11e8-8857-00a098dcc959:type=vserver,uuid=b106d7b1-51e9-11e9-8857-00a098dcc959"
+            }
+        }
+    },
+    "assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+        }
+    },
+    "recommended_performance_service_level": {
+        "key": null,
+        "name": "Idle",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+    },
+    "space": {
+        "size": 104857600
+    },
+    "assigned_storage_efficiency_policy": {
+        "key": null,
+        "name": "Unassigned",
+        "_links": {}
+    },
+    "access_control": {
+        "acl": [
+            {
+                "user_or_group": "everyone",
+                "permission": "read"
+            }
+        ],
+        "export_policy": {
+            "id": 1460288880641,
+            "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641",
+            "name": "default",
+            "rules": [
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 1,
+                    "protocols": [
+                        "nfs3",
+                        "nfs4"
+                    ],
+                    "ro_rule": [
+                        "sys"
+                    ],
+                    "rw_rule": [
+                        "sys"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                },
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 2,
+                    "protocols": [
+                        "cifs"
+                    ],
+                    "ro_rule": [
+                        "ntlm"
+                    ],
+                    "rw_rule": [
+                        "ntlm"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "/api/datacenter/protocols/nfs/export-policies/7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641"
+                }
+            }
+        }
+    },
+    "_links": {
+        "self": {
+            "href": "/api/storage-provider/file-shares/7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6"
+        }
+    }
+}
+----
+

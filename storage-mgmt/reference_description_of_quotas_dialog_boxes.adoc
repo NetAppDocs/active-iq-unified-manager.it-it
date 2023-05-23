@@ -1,0 +1,14 @@
+---
+permalink: storage-mgmt/reference_description_of_quotas_dialog_boxes.html 
+sidebar: sidebar 
+keywords: description, quotas, dialog, boxes 
+summary: 'È possibile utilizzare l"opzione appropriata nella scheda quote utente e gruppo nella vista Health: All Storage VM per configurare il formato della notifica e-mail inviata quando si verifica un problema relativo alla quota e per configurare le regole per specificare gli indirizzi e-mail in base alla quota utente.' 
+---
+= Descrizione delle finestre di dialogo quote
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile utilizzare l'opzione appropriata nella scheda quote utente e gruppo nella vista Health: All Storage VM per configurare il formato della notifica e-mail inviata quando si verifica un problema relativo alla quota e per configurare le regole per specificare gli indirizzi e-mail in base alla quota utente.

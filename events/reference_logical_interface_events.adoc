@@ -1,0 +1,157 @@
+---
+permalink: events/reference_logical_interface_events.html 
+sidebar: sidebar 
+keywords: 'network, interface, (lif) events, impact area, availability, configuration, performance' 
+summary: 'Gli eventi dell"interfaccia di rete forniscono informazioni sullo stato dell"interfaccia di rete (LIF), in modo da poter monitorare eventuali problemi. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
+---
+= Eventi LIF (Network Interface)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Gli eventi dell'interfaccia di rete forniscono informazioni sullo stato dell'interfaccia di rete (LIF), in modo da poter monitorare eventuali problemi. Gli eventi sono raggruppati in base all'area di impatto e includono il nome dell'evento e della trap, il livello di impatto, il tipo di origine e la severità.
+
+
+
+== Area di impatto: Disponibilità
+
+|===
+| Nome evento (nome trap) | Livello di impatto | Tipo di origine | Severità 
+
+
+ a| 
+Stato interfaccia di rete inattivo (ocumEvtLifStatusDown)
+ a| 
+Rischio
+ a| 
+Interfaccia
+ a| 
+Errore
+
+
+
+ a| 
+Stato interfaccia di rete FC/FCoE inattivo (ocumEvtFCLifStatusDown)
+ a| 
+Rischio
+ a| 
+Interfaccia
+ a| 
+Errore
+
+
+
+ a| 
+Failover dell'interfaccia di rete non possibile (ocumEvtLifFailoverNotable)
+ a| 
+Rischio
+ a| 
+Interfaccia
+ a| 
+Attenzione
+
+
+
+ a| 
+Interfaccia di rete non sulla porta home (ocumEvtLifNotAtHomePort)
+ a| 
+Rischio
+ a| 
+Interfaccia
+ a| 
+Attenzione
+
+|===
+
+
+== Area di impatto: Configurazione
+
+|===
+| Nome evento (nome trap) | Livello di impatto | Tipo di origine | Severità 
+
+
+ a| 
+Routing interfaccia di rete non configurato (non applicabile)
+ a| 
+Evento
+ a| 
+Interfaccia
+ a| 
+Informazioni
+
+|===
+
+
+== Area di impatto: Performance
+
+|===
+| Nome evento (nome trap) | Livello di impatto | Tipo di origine | Severità 
+
+
+ a| 
+Violazione della soglia critica dell'interfaccia di rete MB/s (ocumNetworkLifMbpsIncident)
+ a| 
+Incidente
+ a| 
+Interfaccia
+ a| 
+Critico
+
+
+
+ a| 
+Network Interface MB/s Warning Threshold Breached(ocumNetworkLifMbpsWarning)
+ a| 
+Rischio
+ a| 
+Interfaccia
+ a| 
+Attenzione
+
+
+
+ a| 
+Violazione della soglia critica dell'interfaccia di rete FC in MB/s (ocumFcpLifMbpsIncident)
+ a| 
+Incidente
+ a| 
+Interfaccia
+ a| 
+Critico
+
+
+
+ a| 
+Soglia di avviso MB/s interfaccia di rete FC violata (ocumFcpLifMbpsWarning)
+ a| 
+Rischio
+ a| 
+Interfaccia
+ a| 
+Attenzione
+
+
+
+ a| 
+Soglia critica interfaccia di rete FC NVMf MB/s violata (ocumNvmfFcLifMbpsIncident)
+ a| 
+Incidente
+ a| 
+Interfaccia
+ a| 
+Critico
+
+
+
+ a| 
+NVMf FC Network Interface MB/s Warning Threshold Breached(ocumNvmfFcLifMbpsAvvertenza)
+ a| 
+Rischio
+ a| 
+Interfaccia
+ a| 
+Attenzione
+
+|===

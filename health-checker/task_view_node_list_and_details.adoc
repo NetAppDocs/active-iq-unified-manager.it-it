@@ -1,0 +1,55 @@
+---
+permalink: health-checker/task_view_node_list_and_details.html 
+sidebar: sidebar 
+keywords: view, node list, details 
+summary: 'È possibile utilizzare la vista Health: All Nodes (Salute: Tutti i nodi) per visualizzare l"elenco dei nodi nei cluster. È possibile utilizzare la pagina Cluster / Health Details per visualizzare informazioni dettagliate sui nodi che fanno parte del cluster monitorato.' 
+---
+= Visualizzazione dell'elenco dei nodi e dei dettagli
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile utilizzare la vista Health: All Nodes (Salute: Tutti i nodi) per visualizzare l'elenco dei nodi nei cluster. È possibile utilizzare la pagina Cluster / Health Details per visualizzare informazioni dettagliate sui nodi che fanno parte del cluster monitorato.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+È possibile visualizzare dettagli quali lo stato del nodo, il cluster che contiene il nodo, i dettagli della capacità aggregata (utilizzata e totale) e i dettagli della capacità raw (utilizzabile, spare e totale). È inoltre possibile ottenere informazioni su coppie ha, shelf di dischi e porte.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Nodes*.
+. Nella vista *Health: All Nodes* (Salute: Tutti i nodi), fare clic sul nodo di cui si desidera visualizzare i dettagli.
++
+Le informazioni dettagliate per il nodo selezionato vengono visualizzate nella pagina Cluster / Health details (Dettagli cluster/salute). Nel riquadro di sinistra viene visualizzato l'elenco delle coppie ha. Per impostazione predefinita, l'opzione ha Details (Dettagli ha) è aperta, che visualizza i dettagli dello stato ha e gli eventi correlati alla coppia ha selezionata.
+
+. Per visualizzare altri dettagli sul nodo, eseguire l'azione appropriata:
++
+[cols="2*"]
+|===
+| Per visualizzare... | Fare clic su... 
+
+
+ a| 
+Dettagli sugli shelf di dischi
+ a| 
+*Shelf di dischi*.
+
+
+
+ a| 
+Informazioni relative alla porta
+ a| 
+*Porte*.
+
+|===
+
+
+Per ulteriori informazioni, consulta:
+
+* link:../performance-checker/performance-view-all.html#performance-all-nodes-view["Performance: Vista di tutti i nodi"]
+* link:../performance-checker/concept_view_node_and_aggregate_available_iops_values.html["Visualizzazione dei valori IOPS disponibili di nodo e aggregazione"]
+* link:../performance-checker/concept_view_node_and_aggregate_performance_capacity_used_values.html["Visualizzazione dei valori utilizzati per la capacità di nodo e le performance aggregate"]
+

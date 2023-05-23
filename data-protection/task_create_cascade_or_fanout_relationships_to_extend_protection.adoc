@@ -1,0 +1,40 @@
+---
+permalink: data-protection/task_create_cascade_or_fanout_relationships_to_extend_protection.html 
+sidebar: sidebar 
+keywords: create, cascade fanout, relationships, extend protection, existing protection relationship 
+summary: È possibile estendere la protezione da una relazione esistente creando un fanout dal volume di origine o una cascata dal volume di destinazione di una relazione esistente. Questa operazione può essere eseguita quando è necessario copiare i dati da un sito a più siti o per fornire una protezione aggiuntiva creando più backup. 
+---
+= Creazione di relazioni a cascata o fan-out per estendere la protezione da una relazione di protezione esistente
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile estendere la protezione da una relazione esistente creando un fanout dal volume di origine o una cascata dal volume di destinazione di una relazione esistente. Questa operazione può essere eseguita quando è necessario copiare i dati da un sito a più siti o per fornire una protezione aggiuntiva creando più backup.
+
+È possibile estendere la protezione ai volumi utilizzando un gruppo di coerenza, un container che contiene diversi volumi in modo da poter gestire tutti i volumi come un'unica entità. Nella pagina Relazioni di Unified Manager è possibile visualizzare il gruppo di coerenza di SnapMirror Business Continuity (SM-BC) e la relazione del gruppo di coerenza sincrona.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+* È necessario aver impostato l'automazione del flusso di lavoro.
+
+
+.Fasi
+. Fare clic su *protezione* > *relazioni*. In alternativa, è possibile visualizzare le relazioni dalla pagina Dettagli volume.
+. Dalla pagina *Relazioni volume*, selezionare la relazione SnapMirror da cui si desidera estendere la protezione.
+. Sulla barra delle azioni, fare clic su *Estendi protezione*.
+. Nel menu, selezionare *da origine* o *da destinazione*, a seconda che si stia creando una relazione fanout dall'origine o una relazione a cascata dalla destinazione.
+. Selezionare *con SnapMirror* o *con SnapVault* a seconda del tipo di relazione di protezione che si sta creando.
++
+Viene visualizzata la finestra di dialogo *Configura protezione*.
+
++
+[NOTE]
+====
+Ciò è possibile dalla pagina dei dettagli di rapporto unificato/rapporto volume e volume/salute.
+
+====
+. Compilare le informazioni come indicato nella finestra di dialogo *Configura protezione*.
+

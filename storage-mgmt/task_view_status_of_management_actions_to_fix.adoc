@@ -1,0 +1,31 @@
+---
+permalink: storage-mgmt/task_view_status_of_management_actions_to_fix.html 
+sidebar: sidebar 
+keywords: view, status, management, actions, chosen, fix 
+summary: È possibile visualizzare lo stato di tutte le azioni di gestione che si è scelto di correggere nella pagina azioni di gestione. La maggior parte delle azioni viene visualizzata come completata abbastanza rapidamente dopo che Unified Manager invia il comando ONTAP al cluster. Tuttavia, alcune operazioni, ad esempio lo spostamento di un volume, possono richiedere più tempo. 
+---
+= Visualizzazione dello stato delle azioni di gestione che si è scelto di correggere
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile visualizzare lo stato di tutte le azioni di gestione che si è scelto di correggere nella pagina azioni di gestione. La maggior parte delle azioni viene visualizzata come *completata* abbastanza rapidamente dopo che Unified Manager ha inviato il comando ONTAP al cluster. Tuttavia, alcune operazioni, ad esempio lo spostamento di un volume, possono richiedere più tempo.
+
+Nella pagina delle azioni di gestione sono disponibili tre filtri:
+
+* *Completed* mostra sia le azioni di gestione completate correttamente che quelle non riuscite. Le azioni *Failed* forniscono un motivo per l'errore, in modo da poter risolvere il problema manualmente.
+* *In Progress* mostra sia le azioni di gestione in corso di implementazione che quelle pianificate per l'implementazione.
+* *Recommended* mostra tutte le azioni di gestione attualmente attive per tutti i cluster monitorati.
+
+
+.Fasi
+. Fare clic su *azioni di gestione* nel riquadro di navigazione a sinistra. In alternativa, fare clic su image:../media/more_icon.gif[""] Nella parte superiore del pannello *azioni di gestione* del pannello *Dashboard* e selezionare la vista che si desidera visualizzare.
++
+Viene visualizzata la pagina Management Actions (azioni di gestione).
+
+. Puoi fare clic sull'icona caret accanto all'azione di gestione nel campo *Descrizione* per visualizzare i dettagli sul problema e sul comando utilizzato per risolvere il problema.
+. Per visualizzare le azioni *non riuscite*, ordinare la colonna *Status* nella vista *Completed*. È possibile utilizzare lo strumento *Filter* per lo stesso scopo.
+. Se si desidera visualizzare ulteriori informazioni su un'azione di gestione non riuscita o se si decide di correggere un'azione di gestione consigliata, è possibile fare clic su *View Event Detail* (Visualizza dettagli evento) nell'area espansa dopo aver fatto clic sull'icona caret accanto all'azione di gestione. Da questa pagina è disponibile un pulsante *Correggi*.
+

@@ -1,0 +1,42 @@
+---
+permalink: health-checker/task_view_aggregate_list_and_details.html 
+sidebar: sidebar 
+keywords: view, aggregate list, details 
+summary: 'Dalla vista Health: All aggregates (Salute: Tutti gli aggregati), è possibile monitorare l"inventario degli aggregati. La vista capacità: Tutti gli aggregati consente di visualizzare informazioni sulla capacità e sull"utilizzo degli aggregati in tutti i cluster.' 
+---
+= Visualizzazione dell'elenco aggregato e dei dettagli
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dalla vista Health: All aggregates (Salute: Tutti gli aggregati), è possibile monitorare l'inventario degli aggregati. La vista capacità: Tutti gli aggregati consente di visualizzare informazioni sulla capacità e sull'utilizzo degli aggregati in tutti i cluster.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+È possibile visualizzare dettagli come la capacità aggregata e la configurazione e informazioni sui dischi dalla pagina aggregata/Dettagli sullo stato di salute. È possibile utilizzare questi dettagli prima di configurare le impostazioni di soglia, se necessario.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Aggregates*.
+. Scegliere uno dei seguenti modi per visualizzare i dettagli dell'aggregato:
++
+** Per visualizzare le informazioni sullo stato di tutti gli aggregati in tutti i cluster, nel menu View (Visualizza), selezionare Health: All aggregates view (Salute: Vista di tutti gli aggregati).
+** Per visualizzare informazioni sulla capacità e sull'utilizzo di tutti gli aggregati in tutti i cluster, nel menu View (Visualizza), selezionare Capacity: All aggregates view (capacità: Vista di tutti gli aggregati).
+** Per visualizzare i dettagli completi, fare clic sul nome dell'aggregato.
++
+È inoltre possibile visualizzare i dettagli completi facendo clic su *View Details* (Visualizza dettagli) nella finestra di dialogo Minimal Details (Dettagli minimi).
+
+
+
+. Visualizzare gli oggetti correlati all'aggregato facendo clic su *Visualizza correlati* nella finestra di dialogo Dettagli minimi.
+
+
+*Informazioni correlate*
+
+* link:../health-checker/reference_health_aggregate_details_page.html["Pagina aggregata/Dettagli salute"]
+* link:../performance-checker/performance-view-all.html#performance-all-aggregates-view["Performance: Vista di tutti gli aggregati"]
+* link:../reporting/concept_customize_aggregate_capacity_reports.html["Personalizzazione dei report sulla capacità aggregata"]
+

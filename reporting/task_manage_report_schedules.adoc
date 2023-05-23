@@ -1,0 +1,62 @@
+---
+permalink: reporting/task_manage_report_schedules.html 
+sidebar: sidebar 
+keywords:  
+summary: 'È possibile gestire le pianificazioni dei report dalla pagina Report Schedules (Pianificazioni report). È possibile visualizzare, modificare o eliminare le pianificazioni esistenti.' 
+---
+= Gestione delle pianificazioni dei report
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile gestire le pianificazioni dei report dalla pagina Report Schedules (Pianificazioni report). È possibile visualizzare, modificare o eliminare le pianificazioni esistenti.
+
+*Cosa ti serve*
+
+[NOTE]
+====
+Non è possibile pianificare nuovi report dalla pagina Report Schedules. È possibile aggiungere solo report pianificati dalle pagine di inventario degli oggetti.
+
+====
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Report Schedules*.
+. Nella pagina Report Schedules:
++
+[cols="2*"]
+|===
+| Se si desidera... | Quindi... 
+
+
+ a| 
+Visualizzare una pianificazione esistente
+ a| 
+Scorrere l'elenco dei report esistenti utilizzando le barre di scorrimento e i controlli delle pagine.
+
+
+
+ a| 
+Modificare una pianificazione esistente
+ a| 
+.. Fare clic sull'icona Altro image:../media/more_icon.gif[""] per la pianificazione che si desidera utilizzare.
+.. Fare clic su *Edit* (Modifica).
+.. Apportare le modifiche necessarie.
+.. Fare clic sul segno di spunta per salvare le modifiche.
+
+
+
+
+ a| 
+Eliminare una pianificazione esistente
+ a| 
+.. Fare clic sull'icona Altro image:../media/more_icon.gif[""] per la pianificazione che si desidera utilizzare.
+.. Fare clic su *Delete* (Elimina).
+.. Conferma la tua decisione.
+
+
+|===
+

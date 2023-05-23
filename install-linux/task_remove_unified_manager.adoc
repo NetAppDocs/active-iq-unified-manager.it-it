@@ -1,0 +1,39 @@
+---
+permalink: install-linux/task_remove_unified_manager.html 
+sidebar: sidebar 
+keywords: remove, unified manager 
+summary: 'È possibile arrestare e disinstallare Unified Manager dall"host Red Hat Enterprise Linux o CentOS con un singolo comando.' 
+---
+= Rimozione di Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile arrestare e disinstallare Unified Manager dall'host Red Hat Enterprise Linux o CentOS con un singolo comando.
+
+*Cosa ti serve*
+
+* È necessario disporre dell'accesso dell'utente root al server dal quale si desidera rimuovere Unified Manager.
+* Security-Enhanced Linux (SELinux) deve essere disattivato sul sistema Linux. Impostare la modalità runtime di SELinux su "`permissive`" utilizzando `setenforce 0` comando.
+* Tutti i cluster (origini dati) devono essere rimossi dal server Unified Manager prima di rimuovere il software.
+* È necessario eliminare manualmente le regole del firewall create per consentire o bloccare la porta MySQL 3306. Le regole del firewall non vengono eliminate automaticamente.
+
+
+.Fasi
+. Accedere come utente root al server sul quale si desidera rimuovere Unified Manager.
+. Arrestare e rimuovere Unified Manager dal server:
++
+`rpm -e netapp-um`
+
++
+Questo passaggio rimuove tutti i pacchetti RPM NetApp associati. Non rimuove i moduli software prerequisiti, come Java, MySQL e p7zip.
+
+. *Opzionale:* se necessario, rimuovere i moduli software di supporto, come Java, MySQL e p7zip:
++
+`rpm -e p7zip mysql-community-client mysql-community-server mysql-community-common mysql-community-libs java-x.y`
+
+
+
+Al termine di questa operazione, il software viene rimosso. Tutti i dati di `/opt/netapp/data` la directory viene spostata in `/opt/netapp/data/BACKUP` dopo la disinstallazione. La disinstallazione di Unified Manager rimuove anche i pacchetti Java e MySQL, a meno che i pacchetti non siano richiesti e utilizzati da qualsiasi altra applicazione del sistema. Tuttavia, i dati MySQL non vengono cancellati.

@@ -1,0 +1,137 @@
+---
+permalink: api-automation/concept_events_api.html 
+sidebar: sidebar 
+keywords: view, events, system, details 
+summary: 'L"API degli eventi consente di recuperare gli eventi generati per i cluster monitorati nel data center.' 
+---
+= Gestione di eventi e avvisi tramite API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Il `events`, `alerts`, e. `scripts` API in `management-server` Category consente di gestire gli eventi, gli avvisi e gli script associati agli avvisi nell'ambiente Active IQ Unified Manager.
+
+
+
+== Visualizzazione e modifica degli eventi
+
+Unified Manager riceve gli eventi generati su ONTAP per i cluster monitorati e gestiti da Unified Manager. Utilizzando queste API, è possibile visualizzare gli eventi generati per i cluster, risolverli e aggiornarli.
+
+Eseguendo il `GET` metodo per `/management-server/events` API, è possibile eseguire query sugli eventi nel data center, inclusi i dati storici. Utilizzare i filtri integrati, ad esempio nome, livello di impatto, area di impatto, severità, stato, nome della risorsa e tipo di risorsa, per visualizzare eventi specifici. I parametri relativi al tipo di risorsa e all'area restituiscono informazioni sull'oggetto di storage in cui si è verificato l'evento e l'area di impatto restituisce le informazioni relative al problema per cui viene generato l'evento, ad esempio disponibilità, capacità, configurazione, sicurezza, protezione e performance.
+
+Eseguendo l'operazione DI PATCH per questa API, è possibile attivare il flusso di lavoro di risoluzione per l'evento. È possibile assegnare un evento a se stessi o a un altro utente e confermare la ricezione dell'evento. Quando si eseguono le procedure relative alle risorse per risolvere il problema che ha generato l'evento, è possibile utilizzare questa API per contrassegnare l'evento come risolto.
+
+Per ulteriori informazioni sugli eventi, vedere link:../events/concept_manage_events.html["Gestione degli eventi"].
+
+[cols="4*"]
+|===
+| Categoria | Verbo HTTP | Percorso | Descrizione 
+
+
+ a| 
+server di gestione
+ a| 
+OTTIENI
+ a| 
+`/management-server/events`
+`/management-server/events/{key}`
+ a| 
+Quando si esegue il metodo Get ALL, il corpo della risposta è costituito dai dettagli degli eventi di tutti gli eventi nel data center. Quando si recuperano i dettagli dell'evento mediante una chiave specifica, è possibile visualizzare i dettagli di un evento specifico ed eseguire il successivo set di operazioni sulle risorse. Il corpo della risposta è costituito dai dettagli dell'evento.
+
+
+
+ a| 
+server di gestione
+ a| 
+PATCH
+ a| 
+`management-server/events/{key}`
+ a| 
+Eseguire questa API per assegnare un evento o modificare lo stato in riconosciuto o risolto. È inoltre possibile utilizzare questo metodo per assegnare l'evento a se stessi o a un altro utente. Si tratta di un'operazione sincrona.
+
+|===
+
+
+== Gestione degli avvisi
+
+Gli eventi vengono generati automaticamente e continuamente. Unified Manager genera un avviso solo quando un evento soddisfa determinati criteri di filtro. È possibile selezionare gli eventi per i quali devono essere generati gli avvisi. Utilizzando `/management-server/alerts` API, è possibile configurare gli avvisi per inviare automaticamente le notifiche quando si verificano eventi o eventi specifici di determinati tipi di severità.
+
+Per ulteriori informazioni sugli avvisi, vedere link:../events/concept_manage_alerts.html["Gestione degli avvisi"].
+
+[cols="4*"]
+|===
+| Categoria | Verbo HTTP | Percorso | Descrizione 
+
+
+ a| 
+server di gestione
+ a| 
+OTTIENI
+ a| 
+`/management-server/alerts`
+`/management-server/alerts/{key}`
+ a| 
+Eseguire una query su tutti gli avvisi esistenti nel proprio ambiente o su uno specifico avviso utilizzando il tasto alert. È possibile visualizzare le informazioni sugli avvisi generati nell'ambiente, ad esempio la descrizione dell'avviso, l'azione, l'ID e-mail a cui viene inviata la notifica, l'evento e la gravità.
+
+
+
+ a| 
+server di gestione
+ a| 
+POST
+ a| 
+`/management-server/alerts`
+ a| 
+Questo metodo consente di aggiungere avvisi per eventi specifici. È necessario aggiungere il nome dell'avviso, la risorsa fisica o logica o l'evento a cui è applicabile l'avviso, se l'avviso è attivato e se si stanno emettendo trap SNMP. È possibile aggiungere ulteriori dettagli per i quali si desidera generare l'avviso, ad esempio l'azione, l'ID e-mail di notifica, i dettagli dello script, nel caso in cui si aggiunga uno script di avviso e così via.
+
+
+
+ a| 
+server di gestione
+ a| 
+APPLICARE PATCH ed ELIMINARE
+ a| 
+`management-server/events/{key}`
+ a| 
+È possibile utilizzare questi metodi per modificare ed eliminare avvisi specifici. È possibile modificare diversi attributi, ad esempio descrizione, nome e attivazione e disattivazione dell'avviso. È possibile eliminare un avviso quando non è più necessario.
+
+|===
+
+NOTE: Durante la selezione di una risorsa per l'aggiunta di un avviso, tenere presente che la selezione di un cluster come risorsa non consente di selezionare automaticamente gli oggetti di storage all'interno di tale cluster. Ad esempio, se si crea un avviso per tutti gli eventi critici per tutti i cluster, si riceveranno avvisi solo per gli eventi critici del cluster. Non riceverai avvisi per eventi critici su nodi, aggregati e così via.
+
+
+
+== Gestione degli script
+
+Utilizzando `/management-server/scripts` API, è anche possibile associare un avviso a uno script eseguito quando viene attivato un avviso. È possibile utilizzare gli script per modificare o aggiornare automaticamente più oggetti di storage in Unified Manager. Lo script è associato a un avviso. Quando un evento attiva un avviso, lo script viene eseguito. È possibile caricare script personalizzati e testarne l'esecuzione quando viene generato un avviso. È possibile associare un avviso allo script in modo che venga eseguito quando viene generato un avviso per un evento in Unified Manager.
+
+Per ulteriori informazioni sugli script, vedere link:../events/concept_manage_scripts.html["Gestione degli script"].
+
+[cols="4*"]
+|===
+| Categoria | Verbo HTTP | Percorso | Descrizione 
+
+
+ a| 
+server di gestione
+ a| 
+OTTIENI
+ a| 
+`/management-server/scripts`
+ a| 
+Utilizzare questa API per eseguire query su tutti gli script esistenti nell'ambiente. Utilizzare il filtro standard e le operazioni Ordina per per visualizzare solo script specifici.
+
+
+
+ a| 
+server di gestione
+ a| 
+POST
+ a| 
+`/management-server/scripts`
+ a| 
+Utilizzare questa API per aggiungere una descrizione dello script e caricare il file di script associato a un avviso.
+
+|===

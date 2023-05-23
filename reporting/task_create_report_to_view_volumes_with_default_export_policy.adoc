@@ -1,0 +1,41 @@
+---
+permalink: reporting/task_create_report_to_view_volumes_with_default_export_policy.html 
+sidebar: sidebar 
+keywords: create, report, view, volumes, default, export, policy 
+summary: È possibile creare un report per trovare i volumi che utilizzano il criterio di esportazione predefinito. 
+---
+= Creazione di un report per visualizzare i volumi che utilizzano il criterio di esportazione predefinito
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report per trovare i volumi che utilizzano il criterio di esportazione predefinito.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Attenersi alla seguente procedura per creare una vista personalizzata per i volumi che utilizzano il criterio di esportazione predefinito, quindi pianificare la creazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *NFS shares*.
+. Selezionare *Mostra/Nascondi* per rimuovere le colonne non desiderate nel report.
+. Trascinare la colonna "`Export Policy`" vicino alla colonna "`Volume`".
+. Fare clic sull'icona del filtro, aggiungere il seguente filtro, quindi fare clic su *Applica filtro*:
++
+** Il criterio di esportazione contiene i valori predefiniti
+
+
+. Salvare la vista con un nome specifico che rifletta ciò che viene visualizzato, ad esempio "`volumi con una policy di esportazione predefinita`" e fare clic sul segno di spunta (image:../media/blue_check.gif[""]).
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina Report Schedule (Pianificazioni report) in modo da definire le caratteristiche di pianificazione per il nuovo report.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati visualizzati nel report, è possibile configurare un criterio di esportazione personalizzato.

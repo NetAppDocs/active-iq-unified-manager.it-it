@@ -1,0 +1,73 @@
+---
+permalink: storage-mgmt/concept_monitor_vms.html 
+sidebar: sidebar 
+keywords: monitor, virtual, machines, view, summary, topology, expand 
+summary: 'In caso di problemi di latenza nelle applicazioni delle macchine virtuali (VM), potrebbe essere necessario monitorare le macchine virtuali per analizzare e risolvere i problemi della causa. Le macchine virtuali sono disponibili quando il server vCenter e i cluster ONTAP che ospitano lo storage delle macchine virtuali vengono aggiunti a Unified Manager.' 
+---
+= Monitoraggio delle macchine virtuali
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+In caso di problemi di latenza nelle applicazioni delle macchine virtuali (VM), potrebbe essere necessario monitorare le macchine virtuali per analizzare e risolvere i problemi della causa. Le macchine virtuali sono disponibili quando il server vCenter e i cluster ONTAP che ospitano lo storage delle macchine virtuali vengono aggiunti a Unified Manager.
+
+I dettagli delle macchine virtuali sono disponibili nella pagina *VMWARE* > > *macchine virtuali*. Vengono visualizzate informazioni quali disponibilità, stato, capacità utilizzata e allocata, latenza di rete, IOPS e latenza di VM, datastore e host. Per una macchina virtuale che supporta più datastore, la griglia mostra le metriche del datastore con la latenza peggiore, con un asterisco (*) che indica ulteriori datastore. Facendo clic sull'icona, vengono visualizzate le metriche dell'archivio dati aggiuntivo. Alcune di queste colonne non sono disponibili per l'ordinamento e il filtraggio.
+
+[NOTE]
+====
+Per visualizzare una macchina virtuale e i relativi dettagli, è necessario completare il rilevamento (polling o raccolta di metriche) del cluster ONTAP. Se il cluster viene rimosso da Unified Manager, la macchina virtuale non è più disponibile, dopo il successivo ciclo di ricerca.
+
+====
+Da questa pagina è inoltre possibile visualizzare la topologia dettagliata di una macchina virtuale, visualizzando i componenti a cui è collegata la macchina virtuale, ad esempio l'host, il disco virtuale e il datastore ad essa collegato. La vista della topologia visualizza i componenti sottostanti nei rispettivi layer specifici, nel seguente ordine: *Virtual Disk* > *VM* > *host* > *Network* > *Datastore* > *VMDK*.
+
+È possibile determinare il percorso di i/o e le latenze a livello di componente da un aspetto topologico e identificare se lo storage è la causa del problema di performance. La vista riepilogativa della topologia visualizza il percorso di i/o ed evidenzia il componente che presenta problemi di IOPS e latenza per decidere le fasi di risoluzione dei problemi. È inoltre possibile avere una vista estesa della topologia che raffigura ciascun componente separatamente insieme alla latenza di tale componente. È possibile selezionare un componente per determinare il percorso di i/o evidenziato attraverso i livelli.
+
+
+
+== Visualizzazione della topologia di riepilogo
+
+Per determinare i problemi di performance visualizzando le VM in una topologia riepilogativa:
+
+. Accedere a *VMWARE* > *Virtual Machines*.
+. Cercare la macchina virtuale digitandone il nome nella casella di ricerca. Puoi anche filtrare i risultati della ricerca in base a criteri specifici facendo clic sul pulsante *Filter*. Tuttavia, se non si riesce a trovare la macchina virtuale, assicurarsi che il server vCenter corrispondente sia stato aggiunto e rilevato.
++
+[NOTE]
+====
+I server vCenter consentono l'utilizzo di caratteri speciali (ad esempio %, &, *, €, n., @, !, /, :, *, ?, "`, <, >, |, ;, ') nei nomi delle entità vSphere, ad esempio VM, cluster, datastore, cartella, o file. VMware vCenter Server e ESX/ESXi Server non escapano i caratteri speciali utilizzati nei nomi visualizzati. Tuttavia, quando il nome viene elaborato in Unified Manager, viene visualizzato in modo diverso. Ad esempio, una macchina virtuale denominata con il nome  `%$VC_AIQUM_clone_191124%` In vCenter Server viene visualizzato come `%25$VC_AIQUM_clone_191124%25` In Unified Manager. È necessario tenere nota di questo problema quando si esegue una query su una macchina virtuale con un nome contenente caratteri speciali.
+
+====
+. Controllare lo stato della macchina virtuale. Gli stati delle macchine virtuali vengono recuperati da vCenter Server. Sono disponibili i seguenti stati. Per ulteriori informazioni su questi stati, consultare la documentazione VMware.
++
+** Normale
+** Attenzione
+** Avviso
+** Non monitorato
+** Sconosciuto
+
+
+. Fare clic sulla freccia verso il basso accanto alla macchina virtuale per visualizzare la vista riepilogativa della topologia dei componenti nei livelli di calcolo, rete e storage. Viene evidenziato il nodo che presenta problemi di latenza. La vista di riepilogo mostra la latenza peggiore dei componenti. Ad esempio, se una macchina virtuale ha più di un disco virtuale, questa vista mostra il disco virtuale che ha la latenza peggiore tra tutti i dischi virtuali.
+. Per analizzare la latenza e il throughput del datastore in un determinato periodo di tempo, fare clic sul pulsante *workload Analyzer* nella parte superiore dell'icona dell'oggetto datastore. Si accede alla pagina workload Analysis (analisi del carico di lavoro), in cui è possibile selezionare un intervallo di tempo e visualizzare i grafici delle performance del datastore. Per ulteriori informazioni sull'analizzatore del carico di lavoro, consulta la sezione _risoluzione dei problemi relativi ai carichi di lavoro mediante l'analizzatore del carico di lavoro_.
+
+
+
+
+== Visualizzazione della topologia estesa
+
+È possibile eseguire il drill-down di ciascun componente separatamente visualizzando la topologia estesa della macchina virtuale.
+
+.Fasi
+. Dalla vista di riepilogo della topologia, fare clic su *Espandi topologia*. È possibile visualizzare la topologia dettagliata di ciascun componente separatamente con i numeri di latenza per ciascun oggetto. Se in una categoria sono presenti più nodi, ad esempio più nodi nel datastore o VMDK, il nodo con latenza peggiore viene evidenziato in rosso.
+. Per controllare il percorso io di un oggetto specifico, fare clic su tale oggetto per visualizzare il percorso io e la mappatura corrispondente. Ad esempio, per visualizzare la mappatura di un disco virtuale, fare clic sul disco virtuale per visualizzarne la mappatura evidenziata sul relativo VMDK. In caso di ritardo delle prestazioni di questi componenti, è possibile raccogliere più dati da ONTAP e risolvere il problema.
++
+[NOTE]
+====
+Le metriche non vengono riportate per i VMDK. Nella topologia, vengono visualizzati solo i nomi VMDK e non le metriche.
+
+====
+
+
+*Informazioni correlate*
+
+link:../performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html["Risoluzione dei problemi relativi ai carichi di lavoro con workload Analyzer"]

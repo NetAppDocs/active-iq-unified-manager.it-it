@@ -1,0 +1,30 @@
+---
+permalink: storage-mgmt/task_rediscover_clusters.html 
+sidebar: sidebar 
+keywords: rediscover clusters, 
+summary: È possibile riscoprire manualmente un cluster dalla pagina Cluster Setup per ottenere le informazioni più recenti sullo stato di salute, sullo stato di monitoraggio e sullo stato delle performance del cluster. 
+---
+= Riscoprendo i cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile riscoprire manualmente un cluster dalla pagina Cluster Setup per ottenere le informazioni più recenti sullo stato di salute, sullo stato di monitoraggio e sullo stato delle performance del cluster.
+
+È possibile riscoprire manualmente un cluster quando si desidera aggiornare il cluster, ad esempio aumentando le dimensioni di un aggregato quando lo spazio è insufficiente, e si desidera che Unified Manager rilevi le modifiche apportate.
+
+Quando Unified Manager viene associato a OnCommand Workflow Automation (WFA), l'associazione attiva la riacquisizione dei dati memorizzati nella cache da WFA.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Cluster Setup*.
+. Nella pagina *Cluster Setup*, fare clic su *riscopri*.
++
+Unified Manager rileva nuovamente il cluster selezionato e visualizza lo stato di salute e delle performance più recenti.
+
+
+
+*Informazioni correlate*
+
+link:../health-checker/task_view_cluster_list_and_details.html["Visualizzazione dell'elenco e dei dettagli del cluster"]

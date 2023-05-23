@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_edit_annotation_rules.html 
+sidebar: sidebar 
+keywords: edit, annotation rules 
+summary: 'È possibile modificare le regole di annotazione per modificare i gruppi di condizioni e le condizioni all"interno del gruppo di condizioni per aggiungere annotazioni o rimuovere annotazioni dagli oggetti di storage.' 
+---
+= Modifica delle regole di annotazione
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile modificare le regole di annotazione per modificare i gruppi di condizioni e le condizioni all'interno del gruppo di condizioni per aggiungere annotazioni o rimuovere annotazioni dagli oggetti di storage.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+Le annotazioni vengono dissociate dagli oggetti di storage quando si modificano le regole di annotazione associate.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Annotations*.
+. Nella scheda *Annotation Rules* (regole annotazione), selezionare la regola di annotazione che si desidera modificare, quindi fare clic su *Actions* > *Edit* (azioni*).
+. Nella finestra di dialogo *Edit Annotation Rule* (Modifica regola annotazione), modificare il nome della regola, il nome e il valore dell'annotazione, i gruppi di condizioni e le condizioni secondo necessità.
++
+Non è possibile modificare il tipo di oggetto di destinazione per una regola di annotazione.
+
+. Fare clic su *Save* (Salva).
+

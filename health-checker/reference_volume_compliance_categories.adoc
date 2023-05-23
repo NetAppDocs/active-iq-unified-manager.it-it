@@ -1,0 +1,49 @@
+---
+permalink: health-checker/reference_volume_compliance_categories.html 
+sidebar: sidebar 
+keywords: volume, encryption, compliance, categories 
+summary: 'Questa tabella descrive i parametri di crittografia del volume che Unified Manager valuta per determinare se i dati sui volumi sono adeguatamente protetti dall"accesso da parte di utenti non autorizzati.' 
+---
+= Categorie di compliance ai volumi
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Questa tabella descrive i parametri di crittografia del volume che Unified Manager valuta per determinare se i dati sui volumi sono adeguatamente protetti dall'accesso da parte di utenti non autorizzati.
+
+Si noti che i parametri di crittografia del volume non influiscono sul fatto che la VM del cluster o dello storage sia considerata conforme.
+
+[cols="2*"]
+|===
+| Parametro | Descrizione 
+
+
+ a| 
+Software crittografato
+ a| 
+Visualizza il numero di volumi protetti mediante le soluzioni di crittografia software NetApp Volume Encryption (NVE) o NetApp aggregate Encryption (NAE).
+
+
+
+ a| 
+Crittografia hardware
+ a| 
+Visualizza il numero di volumi protetti mediante la crittografia hardware NetApp Storage Encryption (NSE).
+
+
+
+ a| 
+Crittografia software e hardware
+ a| 
+Visualizza il numero di volumi protetti dalla crittografia software e hardware.
+
+
+
+ a| 
+Non crittografato
+ a| 
+Visualizza il numero di volumi non crittografati.
+
+|===

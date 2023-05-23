@@ -1,0 +1,24 @@
+---
+permalink: data-protection/task_view_job_details.html 
+sidebar: sidebar 
+keywords: view, job, details 
+summary: 'Dopo aver avviato un lavoro, è possibile monitorarne l"avanzamento dalla pagina Dettagli lavoro e monitorare le attività associate per individuare eventuali errori.' 
+---
+= Visualizzazione dei dettagli del lavoro
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dopo aver avviato un lavoro, è possibile monitorarne l'avanzamento dalla pagina Dettagli lavoro e monitorare le attività associate per individuare eventuali errori.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+.Fasi
+. Nel riquadro di spostamento di sinistra, fare clic su *protezione* > *lavori*.
+. Nella pagina lavori, fare clic sul nome di un lavoro nella colonna *Nome* per visualizzare l'elenco delle attività associate al lavoro.
+. Fare clic su un'attività per visualizzare ulteriori informazioni nel riquadro *Dettagli attività* e nel riquadro *messaggi attività* a destra dell'elenco attività.
+

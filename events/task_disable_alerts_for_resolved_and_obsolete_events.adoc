@@ -1,0 +1,43 @@
+---
+permalink: events/task_disable_alerts_for_resolved_and_obsolete_events.html 
+sidebar: sidebar 
+keywords: enable, disable, alerts, resolved, obsolete, events 
+summary: 'Per tutti gli eventi configurati per l"invio di avvisi, viene inviato un messaggio di avviso quando tali eventi passano attraverso tutti gli stati disponibili: Nuovo, confermato, risolto e obsoleto. Se non si desidera ricevere avvisi per gli eventi quando si spostano negli stati Resolved (risolto) e obsoleto, è possibile configurare un"impostazione globale per eliminare tali avvisi.' 
+---
+= Attivazione e disattivazione degli avvisi per gli eventi risolti e obsoleti
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Per tutti gli eventi configurati per l'invio di avvisi, viene inviato un messaggio di avviso quando tali eventi passano attraverso tutti gli stati disponibili: Nuovo, confermato, risolto e obsoleto. Se non si desidera ricevere avvisi per gli eventi quando si spostano negli stati Resolved (risolto) e obsoleto, è possibile configurare un'impostazione globale per eliminare tali avvisi.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+Per impostazione predefinita, gli avvisi non vengono inviati per gli eventi quando si spostano negli stati Resolved (risolto) e obsoleto.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Alert Setup*.
+. Nella pagina *Alert Setup*, eseguire una delle seguenti operazioni utilizzando il dispositivo di scorrimento accanto alla voce *Alerts for Resolved and obsolete events* (Avvisi per eventi risolti e obsoleti):
++
+|===
+| Per... | Eseguire questa operazione... 
+
+
+ a| 
+Interrompere l'invio di avvisi in caso di risoluzione o obsoleto degli eventi
+ a| 
+Spostare il dispositivo di scorrimento verso sinistra
+
+
+
+ a| 
+Inizia a inviare avvisi quando gli eventi vengono risolti o resi obsoleti
+ a| 
+Spostare il dispositivo di scorrimento verso destra
+
+|===
+

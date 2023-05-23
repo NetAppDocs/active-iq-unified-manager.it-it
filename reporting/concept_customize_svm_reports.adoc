@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_customize_svm_reports.html 
+sidebar: sidebar 
+keywords: customize, storage, vm reports 
+summary: È possibile creare report sulle macchine virtuali dello storage per analizzare le informazioni sui volumi e visualizzare lo stato generale e la disponibilità dello storage. Ad esempio, è possibile creare report per visualizzare le SVM che raggiungono il numero massimo di volumi e analizzare le SVM interrotte. 
+---
+= Personalizzazione dei report delle macchine virtuali di storage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare report sulle macchine virtuali dello storage per analizzare le informazioni sui volumi e visualizzare lo stato generale e la disponibilità dello storage. Ad esempio, è possibile creare report per visualizzare le SVM che raggiungono il numero massimo di volumi e analizzare le SVM interrotte.

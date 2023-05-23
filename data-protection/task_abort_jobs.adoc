@@ -1,0 +1,24 @@
+---
+permalink: data-protection/task_abort_jobs.html 
+sidebar: sidebar 
+keywords: abort, jobs 
+summary: È possibile utilizzare la pagina lavori per interrompere un lavoro se il completamento del lavoro richiede troppo tempo, se si verificano troppi errori o se non è più necessario. È possibile interrompere un lavoro solo se lo stato e il tipo lo consentono. È possibile interrompere qualsiasi processo in esecuzione. 
+---
+= Interruzione dei lavori
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile utilizzare la pagina lavori per interrompere un lavoro se il completamento del lavoro richiede troppo tempo, se si verificano troppi errori o se non è più necessario. È possibile interrompere un lavoro solo se lo stato e il tipo lo consentono. È possibile interrompere qualsiasi processo in esecuzione.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+.Fasi
+. Nel riquadro di spostamento di sinistra, fare clic su *protezione* > *lavori*.
+. Dall'elenco dei job, selezionare un job, quindi fare clic su *Interrompi*.
+. Alla richiesta di conferma, fare clic su *Sì* per interrompere il lavoro selezionato.
+

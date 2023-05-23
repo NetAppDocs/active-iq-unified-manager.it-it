@@ -1,0 +1,24 @@
+---
+permalink: events/concept_what_active_iq_platform_events_are.html 
+sidebar: sidebar 
+keywords: active iq, platform, events 
+summary: Unified Manager può visualizzare gli eventi rilevati dalla piattaforma Active IQ. Questi eventi vengono creati eseguendo una serie di regole per i messaggi AutoSupport generati da tutti i sistemi storage monitorati da Unified Manager. 
+---
+= Quali sono gli eventi della piattaforma Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager può visualizzare gli eventi rilevati dalla piattaforma Active IQ. Questi eventi vengono creati eseguendo una serie di regole per i messaggi AutoSupport generati da tutti i sistemi storage monitorati da Unified Manager.
+
+Per ulteriori informazioni, vedere link:../events/concept_how_active_iq_platform_events_are_generated.html["Come vengono generati gli eventi della piattaforma Active IQ"].
+
+Unified Manager verifica automaticamente la presenza di un nuovo file di regole e lo scarica solo quando sono presenti regole più recenti. Nei siti senza accesso alla rete esterna, è necessario caricare manualmente le regole da *Storage Management* > *Event Setup* > *Upload Rules*.
+
+Questi eventi di Active IQ non si sovrappongono agli eventi di Unified Manager esistenti e identificano incidenti o rischi relativi a configurazione del sistema, cablaggio, Best practice e problemi di disponibilità.
+
+Per ulteriori informazioni sull'attivazione degli eventi della piattaforma, vedere link:../config/concept_active_iq_platform_events.html["Attivazione degli eventi del portale Active IQ"]. Per ulteriori informazioni sul caricamento del file di regole, vedere link:../events/task_upload_new_active_iq_rules_file.html["Caricamento di un nuovo file di regole Active IQ"].
+
+NetApp Active IQ è un servizio basato sul cloud che offre analisi predittive e supporto proattivo per ottimizzare le operazioni del sistema storage nel cloud ibrido NetApp. Vedere https://www.netapp.com/us/products/data-infrastructure-management/active-iq.aspx["NetApp Active IQ"] per ulteriori informazioni.

@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_work_with_reports.html 
+sidebar: sidebar 
+keywords: work, reports 
+summary: Scopri come trovare e personalizzare le visualizzazioni delle pagine di inventario in report pianificati condivisibili. 
+---
+= Utilizzo dei report
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Scopri come trovare e personalizzare le visualizzazioni delle pagine di inventario in report pianificati condivisibili.

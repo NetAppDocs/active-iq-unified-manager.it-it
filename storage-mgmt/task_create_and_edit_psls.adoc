@@ -1,0 +1,59 @@
+---
+permalink: storage-mgmt/task_create_and_edit_psls.html 
+sidebar: sidebar 
+keywords: create, edit, performance, service, Levels 
+summary: Quando i livelli di Performance Service definiti dal sistema non corrispondono ai requisiti del carico di lavoro, puoi creare i tuoi livelli di Performance Service ottimizzati per i carichi di lavoro. 
+---
+= Creazione e modifica dei livelli di Performance Service
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando i livelli di Performance Service definiti dal sistema non corrispondono ai requisiti del carico di lavoro, puoi creare i tuoi livelli di Performance Service ottimizzati per i carichi di lavoro.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione.
+* Il nome del livello di servizio Performance deve essere univoco e non è possibile utilizzare le seguenti parole chiave riservate:
++
+`Prime`, `Extreme`, `Performance`, `Value`, `Unassigned`, `Learning`, `Idle`, `Default`, e. `None`.
+
+
+
+È possibile creare e modificare i livelli di Performance Service personalizzati dalla pagina Performance Service Levels definendo gli obiettivi del livello di servizio richiesti per le applicazioni che accederanno allo storage.
+
+[NOTE]
+====
+Non è possibile modificare un livello di servizio delle prestazioni se è attualmente assegnato a un carico di lavoro.
+
+====
+.Fasi
+. Nel riquadro di navigazione a sinistra sotto *Impostazioni*, selezionare *Criteri* > *livelli di servizio delle prestazioni*.
+. Nella pagina *Performance Service Level*, fare clic sul pulsante appropriato a seconda che si desideri creare un nuovo Performance Service Level o modificare un Performance Service Level esistente.
++
+|===
+| Per... | Attenersi alla procedura descritta di seguito... 
+
+
+ a| 
+Creare un nuovo livello di servizio per le performance
+ a| 
+Fare clic su *Aggiungi*.
+
+
+
+ a| 
+Modificare un livello di servizio delle performance esistente
+ a| 
+Selezionare un Performance Service Level esistente, quindi fare clic su *Edit* (Modifica).
+
+|===
++
+Viene visualizzata la pagina per aggiungere o modificare un livello di servizio delle prestazioni.
+
+. Personalizzare il Performance Service Level specificando gli obiettivi di performance, quindi fare clic su *Submit* per salvare il Performance Service Level.
+
+
+È possibile applicare il nuovo o modificato livello di servizio delle performance ai carichi di lavoro (LUN, condivisioni file NFS, condivisioni CIFS) dalla pagina dei carichi di lavoro o durante il provisioning di un nuovo carico di lavoro.

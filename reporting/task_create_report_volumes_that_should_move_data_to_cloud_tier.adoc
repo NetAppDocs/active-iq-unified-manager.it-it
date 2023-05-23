@@ -1,0 +1,49 @@
+---
+permalink: reporting/task_create_report_volumes_that_should_move_data_to_cloud_tier.html 
+sidebar: sidebar 
+keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier 
+summary: 'È possibile creare un report contenente l"elenco dei volumi che attualmente risiedono negli aggregati FabricPool, che hanno una raccomandazione cloud di livello e che hanno una grande quantità di dati cold. Questo report può aiutarti a decidere se modificare la policy di tiering per determinati volumi in "automatico" o "tutto" per trasferire più dati cold (inattivi) al livello cloud.' 
+---
+= Creazione di un report per identificare i volumi sugli aggregati FabricPool che devono spostare i dati nel Tier cloud
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report contenente l'elenco dei volumi che attualmente risiedono negli aggregati FabricPool, che hanno una raccomandazione cloud di livello e che hanno una grande quantità di dati cold. Questo report può aiutarti a decidere se modificare la policy di tiering per determinati volumi in "`auto`" o "`all`" per trasferire più dati cold (inattivi) al livello cloud.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+* È necessario aver configurato gli aggregati FabricPool e avere volumi su tali aggregati.
+
+
+Seguire i passaggi riportati di seguito per creare una vista personalizzata che visualizzi le colonne richieste nell'ordine corretto, quindi pianificare la creazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Volumes*.
+. Nel menu View (Visualizza), selezionare *Performance* (prestazioni) > *All Volumes* (tutti i volumi).
+. Nel selettore di colonna, assicurarsi che la colonna "`Disk Type`" (tipo di disco) venga visualizzata nella vista.
++
+Aggiungere o rimuovere altre colonne per creare una vista importante per il report.
+
+. Trascinare la colonna "`Disk Type`" (tipo di disco) vicino alla colonna "`Cloud Recommendation`" (Raccomandazione cloud).
+. Fare clic sull'icona del filtro, aggiungere i tre filtri seguenti, quindi fare clic su *Apply Filter* (Applica filtro):
++
+** Il tipo di disco contiene FabricPool
+** Cloud Recommendation contiene Tier
+** Cold Data superiore a 10 GBimage:../media/filter_cold_data.gif[""]
+
+
+. Fare clic sulla parte superiore della colonna Cold Data (dati a freddo) in modo che i volumi con il maggior numero di dati a freddo vengano visualizzati nella parte superiore della vista.
+. Salvare la vista con un nome per riflettere ciò che viene visualizzato, ad esempio "`VOL change Tiering policy`".image:../media/report_vol_cold_data.gif[""]
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina Report Schedule (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, è possibile utilizzare Gestione sistema o l'interfaccia CLI di ONTAP per modificare la policy di tiering in "`auto`" o "`all`" per alcuni volumi per trasferire più dati cold al livello cloud.

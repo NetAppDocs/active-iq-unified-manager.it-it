@@ -1,0 +1,113 @@
+---
+permalink: api-automation/concept_rest_api_access_and_authentication_in_um_apis.html 
+sidebar: sidebar 
+keywords: rest api, access, authentication, active iq, unified, manager 
+summary: 'L"API REST di Active IQ Unified Manager è accessibile utilizzando qualsiasi browser Web o piattaforma di programmazione in grado di emettere richieste HTTP. Unified Manager supporta un meccanismo di autenticazione HTTP di base. Prima di chiamare l"API REST di Unified Manager, è necessario autenticare un utente.' 
+---
+= Autenticazione e accesso API REST in Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+L'API REST di Active IQ Unified Manager è accessibile utilizzando qualsiasi client REST o piattaforma di programmazione in grado di emettere richieste HTTP con un meccanismo di autenticazione HTTP di base.
+
+Una richiesta e una risposta di esempio:
+
+* *Richiesta*
++
+[listing]
+----
+GET
+https://<IP address/hostname>:<port_number>/api/v2/datacenter/cluster/clusters
+----
+* *Risposta*
++
+[listing]
+----
+{
+  "records": [
+    {
+      "key": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster,uuid=4c6bf721-2e3f-11e9-a3e2-00a0985badbb",
+      "name": "fas8040-206-21",
+      "uuid": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb",
+      "contact": null,
+      "location": null,
+      "version": {
+        "full": "NetApp Release Dayblazer__9.5.0: Thu Jan 17 10:28:33 UTC 2019",
+        "generation": 9,
+        "major": 5,
+        "minor": 0
+      },
+      "isSanOptimized": false,
+      "management_ip": "10.226.207.25",
+      "nodes": [
+        {
+          "key": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=12cf06cc-2e3a-11e9-b9b4-00a0985badbb",
+          "uuid": "12cf06cc-2e3a-11e9-b9b4-00a0985badbb",
+          "name": "fas8040-206-21-01",
+          "_links": {
+            "self": {
+              "href": "/api/datacenter/cluster/nodes/4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=12cf06cc-2e3a-11e9-b9b4-00a0985badbb"
+            }
+          },
+          "location": null,
+          "version": {
+            "full": "NetApp Release Dayblazer__9.5.0: Thu Jan 17 10:28:33 UTC 2019",
+            "generation": 9,
+            "major": 5,
+            "minor": 0
+          },
+          "model": "FAS8040",
+          "uptime": 13924095,
+          "serial_number": "701424000157"
+        },
+        {
+          "key": "4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=1ed606ed-2e3a-11e9-a270-00a0985bb9b7",
+          "uuid": "1ed606ed-2e3a-11e9-a270-00a0985bb9b7",
+          "name": "fas8040-206-21-02",
+          "_links": {
+            "self": {
+              "href": "/api/datacenter/cluster/nodes/4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster_node,uuid=1ed606ed-2e3a-11e9-a270-00a0985bb9b7"
+            }
+          },
+          "location": null,
+          "version": {
+            "full": "NetApp Release Dayblazer__9.5.0: Thu Jan 17 10:28:33 UTC 2019",
+            "generation": 9,
+            "major": 5,
+            "minor": 0
+          },
+          "model": "FAS8040",
+          "uptime": 14012386,
+          "serial_number": "701424000564"
+        }
+      ],
+      "_links": {
+        "self": {
+          "href": "/api/datacenter/cluster/clusters/4c6bf721-2e3f-11e9-a3e2-00a0985badbb:type=cluster,uuid=4c6bf721-2e3f-11e9-a3e2-00a0985badbb"
+        }
+      }
+    },
+----
++
+** `_IP address/hostname_` È l'indirizzo IP o il nome di dominio completo (FQDN) del server API.
+** Porta 443
++
+443 è la porta HTTPS predefinita. Se necessario, è possibile personalizzare la porta HTTPS.
+
+
+
++
+Per inviare richieste HTTP da un browser Web, è necessario utilizzare i plug-in del browser REST API. È inoltre possibile accedere all'API REST utilizzando piattaforme di scripting come CURL e Perl.
+
+
+
+
+
+== Autenticazione
+
+Unified Manager supporta lo schema di autenticazione HTTP di base per le API. Per un flusso di informazioni sicuro (richiesta e risposta), le API REST sono accessibili solo tramite HTTPS. Il server API fornisce un certificato SSL autofirmato a tutti i client per la verifica del server. Questo certificato può essere sostituito da un certificato personalizzato (o certificato CA).
+
+È necessario configurare l'accesso dell'utente al server API per richiamare le API REST. Gli utenti possono essere utenti locali (profili utente memorizzati nel database locale) o utenti LDAP (se il server API è stato configurato per l'autenticazione su LDAP). È possibile gestire l'accesso degli utenti accedendo all'interfaccia utente di Unified Manager Administration Console.

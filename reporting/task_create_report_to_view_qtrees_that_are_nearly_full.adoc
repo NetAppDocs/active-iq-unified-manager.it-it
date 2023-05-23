@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_qtrees_that_are_nearly_full.html 
+sidebar: sidebar 
+keywords: create, report, view, qtrees, full 
+summary: 'È possibile creare un report per analizzare la capacità dello storage e l"utilizzo dei qtree e visualizzare i qtree quasi pieni.' 
+---
+= Creazione di un report per visualizzare i qtree quasi pieni
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report per analizzare la capacità dello storage e l'utilizzo dei qtree e visualizzare i qtree quasi pieni.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Attenersi alla seguente procedura per creare una vista personalizzata che visualizzi qtree quasi pieni, quindi pianificare la generazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di spostamento a sinistra, fare clic su *Storage* > *Qtree*.
+. Selezionare *Mostra/Nascondi* per rimuovere le colonne non desiderate nel report.
+. Trascina la colonna "`Disk used %`" vicino alla colonna "`Qtree`".
+. Fare clic sull'icona del filtro, aggiungere i seguenti filtri, quindi fare clic su *Applica filtro*:
++
+** La percentuale di dischi utilizzati è superiore al 75%
+
+
+. Fare clic sulla parte superiore della colonna "`Disk used %`" per ordinare i risultati in base alla percentuale di capacità.
+. Salvare la vista con un nome specifico che rifletta ciò che viene visualizzato, ad esempio "`Qtree quasi pieni`", quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]).
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina *Report Schedule* (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, potrebbe essere necessario regolare i limiti hard e soft del disco (se impostati) o bilanciare i dati tra i qtree.

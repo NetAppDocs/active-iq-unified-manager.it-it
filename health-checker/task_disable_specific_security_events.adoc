@@ -1,0 +1,51 @@
+---
+permalink: health-checker/task_disable_specific_security_events.html 
+sidebar: sidebar 
+keywords: disable, specific, security events 
+summary: Tutti gli eventi sono attivati per impostazione predefinita. È possibile disattivare eventi specifici per impedire la generazione di notifiche per gli eventi che non sono importanti nel proprio ambiente. È possibile attivare gli eventi disattivati se si desidera riprendere la ricezione delle notifiche. 
+---
+= Disattivazione di eventi di sicurezza specifici
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Tutti gli eventi sono attivati per impostazione predefinita. È possibile disattivare eventi specifici per impedire la generazione di notifiche per gli eventi che non sono importanti nel proprio ambiente. È possibile attivare gli eventi disattivati se si desidera riprendere la ricezione delle notifiche.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+Quando si disattivano gli eventi, gli eventi precedentemente generati nel sistema vengono contrassegnati come obsoleti e gli avvisi configurati per tali eventi non vengono attivati. Quando si abilitano eventi disattivati, le notifiche per questi eventi vengono generate a partire dal ciclo di monitoraggio successivo.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Event Setup*.
+. Nella pagina impostazione *evento*, disattivare o attivare gli eventi scegliendo una delle seguenti opzioni:
++
+[cols="2*"]
+|===
+| Se si desidera... | Quindi... 
+
+
+ a| 
+Disattivare gli eventi
+ a| 
+.. Fare clic su *Disable* (Disattiva).
+.. Nella finestra di dialogo Disable Events (Disattiva eventi), selezionare la severità *Warning*. Questa è la categoria per tutti gli eventi di sicurezza.
+.. Nella colonna Eventi corrispondenti, selezionare gli eventi di protezione che si desidera disattivare, quindi fare clic sulla freccia destra per spostarli nella colonna Disable Events (Disattiva eventi).
+.. Fare clic su *Save and Close* (Salva e chiudi).
+.. Verificare che gli eventi disattivati siano visualizzati nella vista elenco della pagina impostazione eventi.
+
+
+
+
+ a| 
+Attivare gli eventi
+ a| 
+.. Dall'elenco degli eventi disattivati, selezionare la casella di controllo corrispondente all'evento o agli eventi che si desidera riabilitare.
+.. Fare clic su *Enable* (attiva).
+
+
+|===
+

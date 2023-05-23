@@ -1,0 +1,52 @@
+---
+permalink: reporting/reference_reporting_limitations.html 
+sidebar: sidebar 
+keywords: reporting, limitations 
+summary: La nuova funzionalità di reporting di Active IQ Unified Manager presenta alcuni limiti di cui si dovrebbe essere a conoscenza. 
+---
+= Limiti di reporting
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La nuova funzionalità di reporting di Active IQ Unified Manager presenta alcuni limiti di cui si dovrebbe essere a conoscenza.
+
+
+
+== Report esistenti delle versioni precedenti di Unified Manager
+
+È possibile modificare solo la pianificazione e i destinatari dei report esistenti creati e importati (come file .rptdesign) in Unified Manager 9.5 e versioni precedenti. Se si personalizzano i report standard forniti con Unified Manager 9.5 o versioni precedenti, questi report personalizzati non vengono importati nel nuovo tool di reporting.
+
+Se è necessario modificare i report esistenti importati dai file .rptdesign, eseguire una delle seguenti operazioni e rimuovere il report importato:
+
+* creare una nuova vista e pianificare un report da tale vista (preferita)
+* Passare il mouse sul report, copiare SQL ed estrarre i dati utilizzando uno strumento esterno
+
+
+Le viste predefinite possono essere generate come report senza la necessità di alcuna personalizzazione. È possibile utilizzare la nuova soluzione di reporting per ricreare i report personalizzati.
+
+
+
+== Pianificazione e relazione
+
+È possibile creare diverse pianificazioni con qualsiasi combinazione di destinatari per ciascun report salvato. Tuttavia, non è possibile riutilizzare la pianificazione per più report.
+
+
+
+== Protezione dei report
+
+Qualsiasi utente con le autorizzazioni appropriate può modificare o eliminare i report. Non esiste alcun modo per impedire ad altri utenti di rimuovere o apportare modifiche alle viste o alle pianificazioni salvate.
+
+
+
+== Report sugli eventi
+
+Sebbene sia possibile personalizzare la visualizzazione degli eventi e scaricare il report risultante in formato CSV, non è possibile pianificare report di eventi ricorrenti per la generazione e la distribuzione.
+
+
+
+== Allegati dei report
+
+I report non possono essere inviati nel corpo di un messaggio e-mail. I report vengono invece inviati solo come allegati PDF, Excel o CSV.

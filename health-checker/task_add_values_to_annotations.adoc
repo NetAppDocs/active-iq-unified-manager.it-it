@@ -1,0 +1,30 @@
+---
+permalink: health-checker/task_add_values_to_annotations.html 
+sidebar: sidebar 
+keywords: add, values, annotations 
+summary: 'È possibile aggiungere valori alle annotazioni e associare gli oggetti di storage a una particolare coppia nome-valore dell"annotazione. L"aggiunta di valori alle annotazioni consente di gestire gli oggetti di storage in modo più efficace.' 
+---
+= Aggiunta di valori alle annotazioni
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile aggiungere valori alle annotazioni e associare gli oggetti di storage a una particolare coppia nome-valore dell'annotazione. L'aggiunta di valori alle annotazioni consente di gestire gli oggetti di storage in modo più efficace.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+Non è possibile aggiungere valori alle annotazioni predefinite.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Annotations*.
+. Nella pagina *Annotazioni*, selezionare l'annotazione a cui si desidera aggiungere un valore, quindi fare clic su *Aggiungi* nella sezione *valori*.
+. Nella finestra di dialogo *Aggiungi valore annotazione*, specificare un valore per l'annotazione.
++
+Il valore specificato deve essere univoco per l'annotazione selezionata.
+
+. Fare clic su *Aggiungi*.
+

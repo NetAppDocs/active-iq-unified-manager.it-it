@@ -1,0 +1,42 @@
+---
+permalink: health-checker/task_resolve_capacity_issues.html 
+sidebar: sidebar 
+keywords: resolve, capacity issues 
+summary: Questo flusso di lavoro fornisce un esempio di come risolvere un problema di capacità. In questo scenario, si è un amministratore o un operatore e si accede alla pagina Dashboard di Unified Manager per verificare se uno degli oggetti di storage monitorati presenta problemi di capacità. Si desidera determinare la possibile causa del problema e risolverlo. 
+---
+= Risoluzione dei problemi di capacità
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Questo flusso di lavoro fornisce un esempio di come risolvere un problema di capacità. In questo scenario, si è un amministratore o un operatore e si accede alla pagina Unified ManagerDashboard per verificare se uno degli oggetti di storage monitorati presenta problemi di capacità. Si desidera determinare la possibile causa del problema e risolverlo.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+Nella pagina Dashboard, cercare un evento di errore "`Volume Space Full`" nel pannello Capacity (capacità) sotto l'elenco a discesa degli eventi.
+
+.Fasi
+. Nel pannello *Capacity* della pagina *Dashboard*, fare clic sul nome dell'evento di errore Volume Space Full.
++
+Viene visualizzata la pagina Dettagli evento relativa all'errore.
+
+. Dalla pagina dei dettagli *evento*, è possibile eseguire una o più delle seguenti attività:
++
+** Esaminare il messaggio di errore nel campo cause (causa) e fare clic sui suggerimenti nella sezione Suggested Remedial Actions (azioni correttive suggerite) per esaminare le descrizioni delle possibili soluzioni.
+** Fare clic sul nome dell'oggetto, in questo caso un volume, nel campo Source (origine) per ottenere i dettagli sull'oggetto.
+** Cercare le note che potrebbero essere state aggiunte a questo evento.
+** Aggiungere una nota all'evento.
+** Assegnare l'evento a un altro utente.
+** Riconoscere l'evento.
+** Contrassegnare l'evento come risolto.
+
+
+
+
+*Informazioni correlate*
+
+link:../events/reference_event_details_page.html["Pagina dei dettagli dell'evento"]

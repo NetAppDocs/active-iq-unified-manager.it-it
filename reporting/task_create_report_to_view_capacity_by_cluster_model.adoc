@@ -1,0 +1,38 @@
+---
+permalink: reporting/task_create_report_to_view_capacity_by_cluster_model.html 
+sidebar: sidebar 
+keywords: create, report, view, capacity, cluster, model 
+summary: 'È possibile creare un report per analizzare la capacità dello storage e l"utilizzo dei cluster in base al modello di sistema storage.' 
+---
+= Creazione di un report per visualizzare la capacità in base al modello di cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report per analizzare la capacità dello storage e l'utilizzo dei cluster in base al modello di sistema storage.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Attenersi alla seguente procedura per creare una vista personalizzata che visualizzi la capacità in base al modello di cluster, quindi pianificare la creazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di spostamento a sinistra, fare clic su *Storage* > *Clusters*.
+. Nel menu Visualizza, selezionare *capacità* > *tutti i cluster*.
+. Selezionare *Mostra/Nascondi* per rimuovere eventuali colonne, ad esempio "`Cluster FQDN`" e "`OS Version`", che non si desidera includere nel report.
+. Trascinare "`Total Raw Capacity`", "odel/Family`" e le tre colonne aggregate vicino alla colonna "`Cluster `M`".
+. Fare clic sulla parte superiore della colonna "`Model/Family`" per ordinare i risultati in base al tipo di cluster.
+. Salvare la vista con un nome specifico che rifletta ciò che viene visualizzato, ad esempio "`Capacity by Cluster Model`" (capacità per modello cluster).
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina *Report Schedule* (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, è possibile aggiungere maggiore capacità a determinati cluster o aggiornare modelli di cluster meno recenti.

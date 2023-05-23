@@ -1,0 +1,55 @@
+---
+permalink: reporting/task_use_excel_to_customize_your_report.html 
+sidebar: sidebar 
+keywords: excel, customize, report 
+summary: 'Dopo aver salvato la vista, è possibile scaricarla in formato Excel Workbook (.xlsx). Quando si apre il file Excel, è possibile utilizzare le funzionalità avanzate di Excel per personalizzare il report.' 
+---
+= Utilizzo di Excel per personalizzare il report
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dopo aver salvato la vista, è possibile scaricarla in formato Excel Workbook (.xlsx). Quando si apre il file Excel, è possibile utilizzare le funzionalità avanzate di Excel per personalizzare il report.
+
+*Cosa ti serve*
+
+È possibile caricare un file Excel Workbook solo con estensione xlsx.
+
+Ad esempio, alcune funzionalità avanzate di Excel che è possibile utilizzare nel report includono:
+
+* Ordinamento a più colonne
+* Filtraggio complesso
+* Tavole pivot
+* Grafici
+
+
+[NOTE]
+====
+* Il file Excel scaricato utilizza il nome file predefinito per la vista, non il nome salvato.
++
+** Il formato è `<View Area>-<Day>-<Month>-<Year>-<Hour>-<Minute>-<Second>.xlsx.`
+** Ad esempio, una vista salvata personalizzata denominata `Volumes-not online` ha un nome file di `health-volumes-05-May-2020-19-18-00.xlsx` se salvato in quel giorno e in quel momento.
+
+
+* È possibile aggiungere fogli al file Excel, ma non modificare i fogli esistenti.
++
+** Non modificare i fogli, i dati e le informazioni esistenti. Copiare invece i dati in una nuova pagina creata.
+** Un'eccezione alla regola sopra indicata è la possibilità di creare formule nella pagina "`data`". Utilizzare le formule della pagina dati per creare grafici sulle nuove pagine.
+** Non assegnare un nome a nuovi dati o informazioni del foglio.
+
+
+* Se esiste un file Excel personalizzato, è presente un segno di spunta accanto alla voce di menu *Report* > *carica Excel*. Quando si scarica il file Excel, viene utilizzata la versione con le personalizzazioni.image:../media/upload_excel.png[""]
+
+
+====
+.Fasi
+. Aprire la vista predefinita, personalizzata o salvata che si desidera utilizzare come base del report.
+. Selezionare *Report* > *Download Excel*.
+. Salvare il file. Il file viene salvato nella cartella dei download.
+. Aprire il file salvato in Excel. Non spostare il file in una nuova posizione o, se si lavora in un'altra posizione, salvarlo nuovamente nella posizione originale utilizzando il nome del file originale prima di caricarlo.
+. Personalizzare il file utilizzando le funzionalità di Excel, ad esempio ordinazioni complesse, filtri stratificati, tabelle pivot o grafici. Per ulteriori informazioni, consultare la documentazione di Microsoft® Excel.
+. Selezionare *Report* > *carica Excel* e selezionare il file modificato. Il file scaricato più di recente viene caricato dalla stessa posizione del file.
+. Inviare un report di test utilizzando la funzione *Report pianificati*.
+

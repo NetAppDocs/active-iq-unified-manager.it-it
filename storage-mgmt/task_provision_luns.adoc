@@ -1,0 +1,62 @@
+---
+permalink: storage-mgmt/task_provision_luns.html 
+sidebar: sidebar 
+keywords: provision, luns 
+summary: 'È possibile creare LUN che supportano i protocolli CIFS/SMB e NFS su un cluster e una Storage Virtual Machine (Storage VM) esistenti dalla pagina Provision workload (carico di lavoro provisioning).' 
+---
+= Provisioning dei LUN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare LUN che supportano i protocolli CIFS/SMB e NFS su un cluster e una Storage Virtual Machine (Storage VM) esistenti dalla pagina Provision workload (carico di lavoro provisioning).
+
+*Cosa ti serve*
+
+* La VM di storage deve disporre di spazio per il provisioning del LUN.
+* Sia iSCSI che FCP devono essere attivati sulla VM di storage su cui si crea il LUN.
+* Per selezionare e assegnare il livello di servizio delle performance (PSL) e la policy di efficienza dello storage (SEP) sul carico di lavoro, le policy devono essere state create prima di iniziare a creare il carico di lavoro.
+
+
+.Fasi
+. Nella pagina *carico di lavoro di provisioning*, aggiungere il nome del carico di lavoro che si desidera creare, quindi selezionare il cluster dall'elenco Available (disponibile).
++
+In base al cluster selezionato, il campo *STORAGE VM* filtra le VM di storage disponibili per quel cluster.
+
+. Selezionare la VM di storage dall'elenco che supporta i servizi iSCSI e FCP.
++
+In base alla selezione effettuata, l'opzione SAN viene attivata nella sezione host Information (informazioni host).
+
+. Nella sezione *Storage and Optimization* (Storage e ottimizzazione), assegnare la capacità di storage e il PSL e, facoltativamente, IL SET per il carico di lavoro.
++
+Le specifiche di SEP vengono assegnate al LUN e le definizioni per il PSL vengono applicate al carico di lavoro al momento della creazione.
+
+. Selezionare la casella di controllo *Imponi limiti di performance* se si desidera applicare il PSL assegnato al carico di lavoro.
++
+L'assegnazione di una PSL a un workload garantisce che l'aggregato su cui viene creato il workload possa supportare gli obiettivi di performance e capacità definiti nelle rispettive policy. Ad esempio, se a un carico di lavoro viene assegnato il PSL "Extreme Performance", l'aggregato su cui deve essere eseguito il provisioning del carico di lavoro dovrebbe essere in grado di supportare gli obiettivi di performance e capacità della policy "Extreme Performance", come lo storage SSD.
+
++
+[NOTE]
+====
+A meno che non si selezioni questa casella di controllo, il PSL non viene applicato al carico di lavoro e lo stato del carico di lavoro sulla dashboard viene visualizzato come `unassigned`.
+
+====
+. Selezionare l'opzione *SAN*. Se l'opzione *SAN* non è attivata, verificare se la VM di storage selezionata supporta iSCSI e FCP.
+. Selezionare il sistema operativo host.
+. Specificare il mapping dell'host per controllare l'accesso degli iniziatori al LUN. È possibile assegnare gruppi iniziatori esistenti (igroups) oppure definire e mappare nuovi igroups.
++
+[NOTE]
+====
+Se si crea un nuovo igroup durante il provisioning del LUN, è necessario attendere il successivo ciclo di rilevamento (fino a 15 minuti) per utilizzarlo. Si consiglia pertanto di utilizzare un igroup esistente dall'elenco di igroups disponibili.
+
+====
++
+Se si desidera creare un nuovo igroup, selezionare il pulsante *Create a new initiator group* (Crea un nuovo gruppo di iniziatori) e immettere le informazioni per l'igroup.
+
+. Fare clic su *Save* (Salva).
++
+Il LUN viene aggiunto all'elenco dei carichi di lavoro dello storage.
+
+

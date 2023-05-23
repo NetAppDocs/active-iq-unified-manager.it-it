@@ -1,0 +1,36 @@
+---
+permalink: events/task_schedule_maintenance_window_to_disable_cluster_notifications.html 
+sidebar: sidebar 
+keywords: schedule, maintenance, window, disable, cluster, event, notifications 
+summary: Se si dispone di un downtime pianificato per un cluster, ad esempio per aggiornare il cluster o per spostare uno dei nodi, è possibile eliminare gli eventi e gli avvisi che normalmente verrebbero generati durante tale periodo di tempo, programmando una finestra di manutenzione di Unified Manager. 
+---
+= Pianificazione di una finestra di manutenzione per disattivare le notifiche degli eventi del cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Se si dispone di un downtime pianificato per un cluster, ad esempio per aggiornare il cluster o per spostare uno dei nodi, è possibile eliminare gli eventi e gli avvisi che normalmente verrebbero generati durante tale periodo di tempo, programmando una finestra di manutenzione di Unified Manager.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+Durante una finestra di manutenzione, gli eventi correlati a tutti gli oggetti del cluster vengono ancora generati, ma non vengono visualizzati nella pagina degli eventi e non vengono inviati avvisi o altri tipi di notifica per tali eventi.
+
+L'ora immessa per la finestra di manutenzione si basa sull'ora del server Unified Manager.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Cluster Setup*.
+. Nella colonna *modalità di manutenzione* del cluster, selezionare il pulsante a scorrimento e spostarlo verso destra.
++
+Viene visualizzata la finestra del calendario.
+
+. Selezionare la data e l'ora di inizio e di fine della finestra di manutenzione e fare clic su *Apply* (Applica).
++
+Accanto al pulsante di scorrimento viene visualizzato il messaggio "Scheduled" (pianificato).
+
+
+
+Una volta raggiunta l'ora di inizio, il cluster passa alla modalità di manutenzione e viene generato un evento "Object Maintenance Window Started" (finestra di manutenzione oggetto avviata).

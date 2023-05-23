@@ -1,0 +1,22 @@
+---
+permalink: config/concept_api_gateway.html 
+sidebar: sidebar 
+keywords: api gateway 
+summary: 'La funzione gateway API consente a Active IQ Unified Manager di essere un singolo piano di controllo da cui è possibile gestire più cluster ONTAP, senza dover effettuare l"accesso singolarmente.' 
+---
+= Abilitazione di API Gateway
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La funzione gateway API consente a Active IQ Unified Manager di essere un singolo piano di controllo da cui è possibile gestire più cluster ONTAP, senza dover effettuare l'accesso singolarmente.
+
+È possibile attivare questa funzione dalle pagine di configurazione visualizzate quando si accede per la prima volta a Unified Manager. In alternativa, è possibile attivare o disattivare questa funzione da *Generale* > *Impostazioni funzionalità* > *Gateway API*.
+
+Le API REST di Unified Manager sono diverse dalle API REST di ONTAP e non tutte le funzionalità delle API REST di ONTAP possono essere utilizzate utilizzando le API REST di Unified Manager. Tuttavia, se si dispone di un requisito di business specifico per l'accesso alle API di ONTAP per la gestione di funzionalità specifiche non esposte a Unified Manager, è possibile attivare la funzione di gateway API ed eseguire le API di ONTAP. Il gateway funge da proxy per il tunneling delle richieste API mantenendo le richieste di intestazione e corpo nello stesso formato delle API ONTAP. È possibile utilizzare le credenziali di Unified Manager ed eseguire le API specifiche per accedere e gestire i cluster ONTAP senza passare le credenziali dei singoli cluster. Unified Manager funziona come un singolo punto di gestione per l'esecuzione delle API nei cluster ONTAP gestiti dall'istanza di Unified Manager. La risposta restituita dalle API è la stessa della risposta restituita dalle rispettive API REST ONTAP eseguite direttamente da ONTAP.
+
+Dopo aver attivato questa funzione, è possibile eseguire le API REST di Unified Manager da *barra dei menu* > *pulsante della Guida* > *documentazione API* > *gateway* categoria. In alternativa, è possibile inserire il nome host o l'indirizzo IP e l'URL per accedere alla pagina API REST nel formato `https://<hostname>/docs/api/`
+
+Per ulteriori informazioni sulle API, vedere link:../api-automation/concept_get_started_with_um_apis.html["Introduzione alle API REST di Active IQ Unified Manager"].

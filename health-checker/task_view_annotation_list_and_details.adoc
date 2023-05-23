@@ -1,0 +1,19 @@
+---
+permalink: health-checker/task_view_annotation_list_and_details.html 
+sidebar: sidebar 
+keywords: view, annotation list, details 
+summary: 'È possibile visualizzare l"elenco delle annotazioni associate dinamicamente a cluster, volumi e macchine virtuali di storage (SVM). È inoltre possibile visualizzare dettagli quali descrizione, creato da, data di creazione, valori, regole, e gli oggetti associati all"annotazione.' 
+---
+= Visualizzazione dell'elenco delle annotazioni e dei dettagli
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile visualizzare l'elenco delle annotazioni associate dinamicamente a cluster, volumi e macchine virtuali di storage (SVM). È inoltre possibile visualizzare dettagli quali descrizione, creato da, data di creazione, valori, regole, e gli oggetti associati all'annotazione.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Annotations*.
+. Nella scheda *Annotazioni*, fare clic sul nome dell'annotazione per visualizzare i dettagli associati.
+

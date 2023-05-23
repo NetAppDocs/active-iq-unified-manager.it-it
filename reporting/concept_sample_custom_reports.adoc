@@ -1,0 +1,22 @@
+---
+permalink: reporting/concept_sample_custom_reports.html 
+sidebar: sidebar 
+keywords: sample, custom, reports 
+summary: Questi report personalizzati di esempio vengono comunemente utilizzati per identificare potenziali problemi e per rispondere a potenziali problemi prima che si verifichino. 
+---
+= Report personalizzati di esempio
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Questi report personalizzati di esempio vengono comunemente utilizzati per identificare potenziali problemi e per rispondere a potenziali problemi prima che si verifichino.
+
+L'elenco dei report in questa sezione non è esaustivo e crescerà nel tempo. È possibile suggerire report personalizzati da aggiungere a questa sezione fornendo feedback sulla documentazione.
+
+[NOTE]
+====
+Per gestire i report, è necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+====

@@ -1,0 +1,47 @@
+---
+permalink: performance-checker/task_respond_to_performance_incident_caused_by_ha_takeover.html 
+sidebar: sidebar 
+keywords: dynamic, performance, event, ha, takeover 
+summary: 'È possibile utilizzare Unified Manager per analizzare un evento di performance causato dall"elaborazione di dati elevati su un nodo del cluster che si trova in una coppia ad alta disponibilità (ha). È inoltre possibile utilizzare Unified Manager per controllare lo stato dei nodi e verificare se eventuali eventi di salute recenti rilevati sui nodi hanno contribuito all"evento delle performance.' 
+---
+= Risposta a un evento di performance dinamico causato da ha Takeover
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile utilizzare Unified Manager per analizzare un evento di performance causato dall'elaborazione di dati elevati su un nodo del cluster che si trova in una coppia ad alta disponibilità (ha). È inoltre possibile utilizzare Unified Manager per controllare lo stato dei nodi e verificare se eventuali eventi di salute recenti rilevati sui nodi hanno contribuito all'evento delle performance.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+* Devono esserci eventi di performance nuovi, riconosciuti o obsoleti.
+
+
+.Fasi
+. Visualizzare la pagina *Dettagli evento* per visualizzare le informazioni relative all'evento.
+. Leggi la *Descrizione*, che descrive i carichi di lavoro coinvolti nell'evento e il componente del cluster in conflitto.
++
+Esiste un volume vittima la cui latenza è stata influenzata dal componente del cluster in conflitto. Il nodo di elaborazione dati, che ha preso il controllo di tutti i carichi di lavoro dal nodo partner, è la componente del cluster in conflitto. In Component in Contention (componente in conflitto), l'icona Data Processing (elaborazione dati) è evidenziata in rosso e il nome del nodo che stava gestendo l'elaborazione dei dati al momento dell'evento viene visualizzato tra parentesi.
+
+. In *Description*, fare clic sul nome del volume.
++
+Viene visualizzata la pagina Volume Performance Explorer (Esplora prestazioni volume). Nella parte superiore della pagina, nella barra degli orari degli eventi, viene visualizzata l'icona di modifica dell'evento (image:../media/opm_change_icon.gif["Icona di modifica dell'evento"]) Indica l'ora in cui Unified Manager ha rilevato l'inizio del Takeover ha.
+
+. Puntare il cursore sull'icona dell'evento di modifica per l'acquisizione ha e i dettagli relativi all'acquisizione ha vengono visualizzati nel testo del passaggio del mouse.
++
+Nel grafico della latenza, un evento indica che il volume selezionato ha superato la soglia di performance a causa di un'elevata latenza circa nello stesso tempo del takeover ha.
+
+. Fare clic su *Zoom View* per visualizzare il grafico della latenza in una nuova pagina.
+. Nel menu View (Visualizza), selezionare *Cluster Components* (componenti cluster) per visualizzare la latenza totale per componente del cluster.
+. Puntare il cursore del mouse sull'icona di modifica dell'evento per l'inizio del takeover ha e confrontare la latenza per l'elaborazione dei dati con la latenza totale.
++
+All'epoca del takeover di ha, si è verificato un picco nell'elaborazione dei dati dovuto all'aumento della domanda di workload sul nodo di elaborazione dei dati. L'aumento dell'utilizzo della CPU ha aumentato la latenza e attivato l'evento.
+
+. Dopo aver corretto il nodo guasto, utilizzare Gestione sistema ONTAP per eseguire un giveback ha, che sposta i carichi di lavoro dal nodo partner al nodo fisso.
+. Una volta completato il giveback ha, dopo il successivo rilevamento della configurazione in Unified Manager (circa 15 minuti), individuare l'evento e il carico di lavoro che sono stati attivati dal takeover ha nella pagina di inventario *Event Management*.
++
+L'evento attivato dal Takeover ha ora uno stato obsoleto, che indica che l'evento è stato risolto. La latenza nel componente di elaborazione dei dati è diminuita, il che ha ridotto la latenza totale. Il nodo utilizzato dal volume selezionato per l'elaborazione dei dati ha risolto l'evento.
+
+

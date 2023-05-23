@@ -1,0 +1,26 @@
+---
+permalink: events/reference_add_script_dialog_box.html 
+sidebar: sidebar 
+keywords: add, script, dialog, box 
+summary: La finestra di dialogo Aggiungi script consente di aggiungere script a Unified Manager. È possibile configurare gli avvisi con gli script per risolvere automaticamente gli eventi generati per gli oggetti di storage. 
+---
+= Finestra di dialogo Add script (Aggiungi script)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La finestra di dialogo Aggiungi script consente di aggiungere script a Unified Manager. È possibile configurare gli avvisi con gli script per risolvere automaticamente gli eventi generati per gli oggetti di storage.
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+* *Selezionare file script*
++
+Consente di selezionare uno script per l'avviso.
+
+* *Descrizione*
++
+Consente di specificare una descrizione per lo script.
+
+

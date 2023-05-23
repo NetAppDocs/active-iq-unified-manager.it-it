@@ -1,0 +1,66 @@
+---
+permalink: config/task_generate_an_https_security_certificate_ocf.html 
+sidebar: sidebar 
+keywords: generate, https, security, certificate 
+summary: Quando Active IQ Unified Manager viene installato per la prima volta, viene installato un certificato HTTPS predefinito. È possibile generare un nuovo certificato di protezione HTTPS che sostituisce il certificato esistente. 
+---
+= Generazione di un certificato di protezione HTTPS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando Active IQ Unified Manager viene installato per la prima volta, viene installato un certificato HTTPS predefinito. È possibile generare un nuovo certificato di protezione HTTPS che sostituisce il certificato esistente.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione.
+
+Possono esserci diversi motivi per rigenerare il certificato, ad esempio se si desidera ottenere valori migliori per Nome distinto (DN) o se si desidera una dimensione della chiave più elevata o un periodo di scadenza più lungo o se il certificato corrente è scaduto.
+
+Se non si dispone dell'accesso all'interfaccia utente Web di Unified Manager, è possibile rigenerare il certificato HTTPS con gli stessi valori utilizzando la console di manutenzione. Durante la rigenerazione dei certificati, è possibile definire la dimensione della chiave e la durata della validità della chiave. Se si utilizza `Reset Server Certificate` Dalla console di manutenzione, viene creato un nuovo certificato HTTPS valido per 397 giorni. Questo certificato avrà una chiave RSA di 2048 bit.
+
+.Fasi
+. Nel riquadro di spostamento a sinistra, fare clic su *Generale* > *certificato HTTPS*.
+. Fare clic su *Rigenera certificato HTTPS*.
++
+Viene visualizzata la finestra di dialogo Rigenera certificato HTTPS.
+
+. Selezionare una delle seguenti opzioni a seconda della modalità di generazione del certificato:
++
+[cols="2*"]
+|===
+| Se si desidera... | Eseguire questa operazione... 
+
+
+ a| 
+Rigenera il certificato con i valori correnti
+ a| 
+Fare clic sull'opzione *Rigenera using Current Certificate Attributes*.
+
+
+
+ a| 
+Generare il certificato utilizzando valori diversi
+ a| 
+Fare clic sull'opzione *Update the Current Certificate Attributes* (Aggiorna attributi del certificato corrente).
+
+I campi Nome comune e nomi alternativi utilizzano i valori del certificato esistente se non vengono immessi nuovi valori. Il campo "`Common Name`" deve essere impostato sull'FQDN dell'host. Gli altri campi non richiedono valori, ma è possibile inserire valori, ad esempio, per L'EMAIL, LA SOCIETÀ, IL REPARTO, Città, Stato e Paese se si desidera inserire tali valori nel certificato. È inoltre possibile selezionare una DELLE DIMENSIONI DELLA CHIAVE disponibili (l'algoritmo della chiave è "`RSA`"). E PERIODO di validità.
+
+[NOTE]
+====
+** I valori consentiti per la dimensione della chiave sono `2048`, `3072` e. `4096`.
+** I periodi di validità vanno da un minimo di 1 giorno a un massimo di 36500 giorni.
++
+Anche se è consentito un periodo di validità di 36500 giorni, si consiglia di utilizzare un periodo di validità non superiore a 397 giorni o 13 mesi. Poiché se si seleziona un periodo di validità superiore a 397 giorni e si prevede di esportare una CSR per questo certificato e di ottenerla firmata da una CA nota, la validità del certificato firmato restituito dalla CA sarà ridotta a 397 giorni.
+
+** Selezionare la casella di controllo "Escludi informazioni di identificazione locali (ad es. Host locale)" se si desidera rimuovere le informazioni di identificazione locali dal campo dei nomi alternativi del certificato. Quando questa casella di controllo è selezionata, nel campo nomi alternativi viene utilizzato solo il valore immesso nel campo. Se lasciato vuoto, il certificato risultante non avrà alcun campo di nomi alternativi.
+
+
+====
+|===
+. Fare clic su *Sì* per rigenerare il certificato.
+. Riavviare il server Unified Manager in modo che il nuovo certificato abbia effetto.
+. Verificare le informazioni sul nuovo certificato visualizzando il certificato HTTPS.
+

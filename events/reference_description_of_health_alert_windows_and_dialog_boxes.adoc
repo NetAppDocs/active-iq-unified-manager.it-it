@@ -1,0 +1,14 @@
+---
+permalink: events/reference_description_of_health_alert_windows_and_dialog_boxes.html 
+sidebar: sidebar 
+keywords: description, alert, windows, dialog boxes 
+summary: 'È necessario configurare gli avvisi in modo che ricevano le notifiche relative agli eventi utilizzando la finestra di dialogo Aggiungi avviso. È inoltre possibile visualizzare l"elenco degli avvisi dalla pagina Configurazione avvisi.' 
+---
+= Descrizione delle finestre di avviso e delle finestre di dialogo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È necessario configurare gli avvisi in modo che ricevano le notifiche relative agli eventi utilizzando la finestra di dialogo Aggiungi avviso. È inoltre possibile visualizzare l'elenco degli avvisi dalla pagina Configurazione avvisi.

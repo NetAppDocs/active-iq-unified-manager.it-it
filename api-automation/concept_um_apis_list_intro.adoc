@@ -1,0 +1,32 @@
+---
+permalink: api-automation/concept_um_apis_list_intro.html 
+sidebar: sidebar 
+keywords: unified, manager, rest, api 
+summary: Le API REST per Active IQ Unified Manager sono elencate in questa sezione, in base alle relative categorie. 
+---
+= API REST di Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le API REST per Active IQ Unified Manager sono elencate in questa sezione, in base alle relative categorie.
+
+È possibile visualizzare la pagina della documentazione online dall'istanza di Unified Manager che include i dettagli di ogni chiamata API REST. Questo documento non ripete i dettagli della documentazione online. Ogni chiamata API elencata o descritta in questo documento include solo le informazioni necessarie per individuare la chiamata nella pagina della documentazione. Dopo aver individuato una chiamata API specifica, è possibile esaminare i dettagli completi della chiamata, inclusi i parametri di input, i formati di output, i codici di stato HTTP e il tipo di elaborazione della richiesta.
+
+Le seguenti informazioni sono incluse per ogni chiamata API all'interno di un flusso di lavoro per facilitare l'individuazione della chiamata nella pagina della documentazione:
+
+* Categoria
++
+Le chiamate API sono organizzate nella pagina della documentazione in aree o categorie correlate alla funzionalità. Per individuare una chiamata API specifica, scorrere verso il basso fino alla fine della pagina, quindi fare clic sulla categoria API applicabile.
+
+* Verbo HTTP (chiamata)
++
+Il verbo HTTP identifica l'azione eseguita su una risorsa. Ogni chiamata API viene eseguita tramite un singolo verbo HTTP.
+
+* Percorso
++
+Il percorso determina la risorsa specifica a cui l'azione utilizza come parte dell'esecuzione di una chiamata. La stringa del percorso viene aggiunta all'URL principale per formare l'URL completo che identifica la risorsa.
+
+

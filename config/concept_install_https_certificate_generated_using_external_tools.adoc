@@ -1,0 +1,119 @@
+---
+permalink: config/concept_install_https_certificate_generated_using_external_tools.html 
+sidebar: sidebar 
+keywords: install, HTTPS, certificate, generated from external tools 
+summary: È possibile installare i certificati autofirmati o con firma CA e generati utilizzando uno strumento esterno come OpenSSL, BoringSSL, LetsEncrypt. 
+---
+= Installazione di un certificato HTTPS generato utilizzando strumenti esterni
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile installare i certificati autofirmati o con firma CA e generati utilizzando uno strumento esterno come OpenSSL, BoringSSL, LetsEncrypt.
+
+È necessario caricare la chiave privata insieme alla catena di certificati, poiché questi certificati sono coppia di chiavi pubbliche e private generate esternamente. Gli algoritmi di coppia di chiavi consentiti sono "`RSA`" e "`EC`". L'opzione *Installa certificato HTTPS* è disponibile nella pagina certificati HTTPS nella sezione Generale. Il file caricato deve essere nel seguente formato di input.
+
+. Chiave privata del server che appartiene all'host Active IQ Unified Manager
+. Certificato del server che corrisponde alla chiave privata
+. Certificato delle CA invertito fino alla root, che vengono utilizzate per firmare il certificato di cui sopra
+
+
+
+
+== Formato per il caricamento di un certificato con una coppia di chiavi EC
+
+Le curve consentite sono "`prime256v1`" e "`secp384r1`". Esempio di certificato con una coppia EC generata esternamente:
+
+[listing]
+----
+ -----BEGIN EC PRIVATE KEY-----
+<EC private key of Server>
+-----END EC PRIVATE KEY-----
+----
+[listing]
+----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+
+
+== Formato per il caricamento di un certificato con una coppia di chiavi RSA
+
+Le dimensioni delle chiavi consentite per la coppia di chiavi RSA appartenente al certificato host sono 2048, 3072 e 4096. Certificato con una coppia di chiavi * RSA generata esternamente*:
+
+[listing]
+----
+-----BEGIN RSA PRIVATE KEY-----
+ <RSA private key of Server>
+ -----END RSA PRIVATE KEY-----
+ -----BEGIN CERTIFICATE-----
+ <Server certificate>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #1 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Intermediate certificate #2 (if present)>
+ -----END CERTIFICATE-----
+ -----BEGIN CERTIFICATE-----
+ <Root signing certificate>
+ -----END CERTIFICATE-----
+----
+Una volta caricato il certificato, riavviare l'istanza di Active IQ Unified Manager per rendere effettive le modifiche.
+
+
+
+== Verifica durante il caricamento dei certificati generati esternamente
+
+Il sistema esegue controlli durante il caricamento di un certificato generato mediante strumenti esterni. Se uno dei controlli non riesce, il certificato viene rifiutato. Sono incluse anche le validazioni per i certificati generati dalla CSR all'interno del prodotto e per i certificati generati utilizzando strumenti esterni.
+
+* La chiave privata nell'input viene convalidata in base al certificato host nell'input.
+* Il nome comune (CN) nel certificato host viene verificato in base all'FQDN dell'host.
+* Il nome comune (CN) del certificato host non deve essere vuoto o vuoto e non deve essere impostato su localhost.
+* La data di inizio della validità non deve essere futura e la data di scadenza del certificato non deve essere passata.
+* Se esiste una CA o una CA intermedia, la data di inizio della validità del certificato non deve essere futura e la data di scadenza della validità non deve essere passata.
+
+
+[NOTE]
+====
+La chiave privata nell'input non deve essere crittografata. Se sono presenti chiavi private crittografate, queste vengono rifiutate dal sistema.
+
+====
+Esempio 1
+
+[listing]
+----
+----BEGIN ENCRYPTED PRIVATE KEY-----
+<Encrypted private key>
+-----END ENCRYPTED PRIVATE KEY-----
+----
+Esempio 2
+
+[listing]
+----
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END RSA PRIVATE KEY-----
+----
+Esempio 3
+
+[listing]
+----
+-----BEGIN EC PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+<content here>
+-----END EC PRIVATE KEY-----
+----

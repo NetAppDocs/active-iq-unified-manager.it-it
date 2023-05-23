@@ -1,0 +1,38 @@
+---
+permalink: data-protection/task_monitor_storage_vms_using_relationships_page.html 
+sidebar: sidebar 
+keywords: relationships page, monitor, storage, vm 
+summary: 'È possibile monitorare le relazioni di disaster recovery delle macchine virtuali dello storage dalla pagina delle relazioni nella sezione RELATIVA ALLA PROTEZIONE dell"INVENTARIO. Per impostazione predefinita, la pagina delle relazioni elenca solo le relazioni di primo livello quando viene applicato il filtro delle relazioni costitutive.' 
+---
+= Pagina Monitoring Storage VM Using Relinters (monitoraggio delle VM di storage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile monitorare le relazioni di disaster recovery delle macchine virtuali dello storage dalla pagina delle relazioni nella sezione RELATIVA ALLA PROTEZIONE dell'INVENTARIO. Per impostazione predefinita, la pagina delle relazioni elenca solo le relazioni di primo livello quando viene applicato il filtro delle relazioni costitutive.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+I filtri vengono utilizzati per visualizzare le relazioni di disaster recovery delle macchine virtuali dello storage.
+
+.Fasi
+. Nel riquadro di spostamento di sinistra, fare clic su *PROTECTION* > *Relation*.
++
+La pagina visualizza tutti i tipi di relazioni: Volume, gruppo di coerenza e relazioni delle macchine virtuali di storage.
+
+. Fare clic su *Filter*, quindi selezionare *Relationship Object Type* e *Storage VM* per visualizzare solo le relazioni di disaster recovery delle macchine virtuali di storage.
+. Fare clic su *Applica filtro*.
++
+[NOTE]
+====
+È necessario deselezionare il filtro delle relazioni costitutive per visualizzare tutte le relazioni di protezione.
+
+====
++
+La pagina visualizza solo le relazioni di disaster recovery delle macchine virtuali dello storage.
+
+

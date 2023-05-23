@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_stopped_svms.html 
+sidebar: sidebar 
+keywords: create, report, view, stopped, storage VMs 
+summary: È possibile creare un report per visualizzare un elenco di tutte le SVM interrotte. 
+---
+= Creazione di un report per visualizzare le VM di storage interrotte
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report per visualizzare un elenco di tutte le SVM interrotte.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Attenersi alla seguente procedura per creare una vista personalizzata che visualizzi le macchine virtuali di storage interrotte, quindi pianificare la generazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Storage VMS*.
+. Nel menu View (Visualizza), selezionare *Health* > *All Storage VMS*.
+. Selezionare *Mostra/Nascondi* per rimuovere le colonne non desiderate nel report.
+. Trascinare la colonna "`State`" vicino alla colonna "`Storage VM`".
+. Fare clic sull'icona del filtro, aggiungere il seguente filtro, quindi fare clic su *Applica filtro*:
++
+** Lo stato è interrotto
+
+
+. Salvare la vista con un nome specifico che rifletta la vista visualizzata, ad esempio "`SSVM in alto`" e fare clic sul segno di spunta (image:../media/blue_check.gif[""]).
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina *Report Schedule* (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, potrebbe essere necessario esaminare il motivo dell'arresto di SVM per verificare se è necessario riavviare le SVM interrotte.

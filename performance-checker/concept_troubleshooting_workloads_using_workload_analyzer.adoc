@@ -1,0 +1,26 @@
+---
+permalink: performance-checker/concept_troubleshooting_workloads_using_workload_analyzer.html 
+sidebar: sidebar 
+keywords: workload analyzer, troubleshoot 
+summary: 'L"analizzatore del carico di lavoro consente di visualizzare importanti criteri di salute e performance per un singolo carico di lavoro su una singola pagina per agevolare la risoluzione dei problemi. Visualizzando tutti gli eventi attuali e passati per un workload, è possibile capire meglio perché il workload potrebbe avere un problema di performance o capacità.' 
+---
+= Risoluzione dei problemi dei carichi di lavoro utilizzando l'analizzatore dei carichi di lavoro
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+L'analizzatore del carico di lavoro consente di visualizzare importanti criteri di salute e performance per un singolo carico di lavoro su una singola pagina per agevolare la risoluzione dei problemi. Visualizzando tutti gli eventi attuali e passati per un workload, è possibile capire meglio perché il workload potrebbe avere un problema di performance o capacità.
+
+L'utilizzo di questo tool può anche aiutare a determinare se lo storage è la causa di eventuali problemi di performance per un'applicazione o se il problema è causato da un problema di rete o da altri problemi correlati.
+
+È possibile avviare questa funzionalità da diversi punti dell'interfaccia utente:
+
+* Dalla selezione Workload Analysis (analisi carico di lavoro) nel menu di navigazione a sinistra
+* Dalla pagina Dettagli evento, fare clic sul pulsante *Analyze workload* (analizza carico di lavoro)
+* Da qualsiasi pagina di inventario dei workload (volume, LUN, carico di lavoro, condivisione NFS o condivisione SMB/CIFS), facendo clic sull'icona altro image:../media/more_icon.gif[""], Quindi *Analyze workload*
+* Dalla pagina macchine virtuali, fare clic sul pulsante *Analyze workload* (analizza carico di lavoro) da qualsiasi oggetto Datastore
+
+
+Quando si avvia lo strumento dal menu di navigazione a sinistra, è possibile immettere il nome di qualsiasi carico di lavoro che si desidera analizzare e selezionare l'intervallo di tempo per il quale si desidera risolvere il problema. Quando si avvia lo strumento da una qualsiasi delle pagine di inventario del carico di lavoro o delle macchine virtuali, il nome del carico di lavoro viene compilato automaticamente e i dati del carico di lavoro vengono visualizzati con l'intervallo di tempo predefinito di 2 ore. Quando si avvia lo strumento dalla pagina Dettagli evento, il nome del carico di lavoro viene compilato automaticamente e vengono visualizzati i dati di 10 giorni.

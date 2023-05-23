@@ -1,0 +1,221 @@
+---
+permalink: health-checker/reference_cluster_compliance_categories.html 
+sidebar: sidebar 
+keywords: cluster compliance, categories 
+summary: Questa tabella descrive i parametri di conformità della sicurezza del cluster che Unified Manager valuta, i consigli di NetApp e se il parametro influisce sulla determinazione generale del cluster che presenta un reclamo o meno. 
+---
+= Categorie di compliance del cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Questa tabella descrive i parametri di conformità della sicurezza del cluster che Unified Manager valuta, i consigli di NetApp e se il parametro influisce sulla determinazione generale del cluster che presenta un reclamo o meno.
+
+La presenza di SVM non conformi su un cluster influisce sul valore di conformità del cluster. Pertanto, in alcuni casi potrebbe essere necessario risolvere problemi di sicurezza con una SVM prima che la sicurezza del cluster venga considerata conforme.
+
+Si noti che non tutti i parametri elencati di seguito vengono visualizzati per tutte le installazioni. Ad esempio, se non si dispone di cluster peered o se AutoSupport è stato disattivato su un cluster, gli elementi di peering cluster o trasporto HTTPS AutoSupport non verranno visualizzati nella pagina dell'interfaccia utente.
+
+[cols="4*"]
+|===
+| Parametro | Descrizione | Consiglio | Influisce sulla conformità del cluster 
+
+
+ a| 
+FIPS globale
+ a| 
+Indica se la modalità di conformità Global FIPS (Federal Information Processing Standard) 140-2 è attivata o disattivata. Quando FIPS è attivato, TLSv1 e SSLv3 sono disattivati e sono consentiti solo TLSv1.1 e TLSv1.2.
+ a| 
+Attivato
+ a| 
+Sì
+
+
+
+ a| 
+Telnet
+ a| 
+Indica se l'accesso Telnet al sistema è attivato o disattivato. NetApp consiglia Secure Shell (SSH) per un accesso remoto sicuro.
+ a| 
+Disattivato
+ a| 
+Sì
+
+
+
+ a| 
+Impostazioni SSH non sicure
+ a| 
+Indica se SSH utilizza cifrari non sicuri, ad esempio cifrari che iniziano con *cbc.
+ a| 
+No
+ a| 
+Sì
+
+
+
+ a| 
+Banner di accesso
+ a| 
+Indica se il banner di accesso è attivato o disattivato per gli utenti che accedono al sistema.
+ a| 
+Attivato
+ a| 
+Sì
+
+
+
+ a| 
+Peering dei cluster
+ a| 
+Indica se la comunicazione tra i cluster in peering è crittografata o non crittografata. La crittografia deve essere configurata sia sul cluster di origine che su quello di destinazione affinché questo parametro sia considerato conforme.
+ a| 
+Crittografato
+ a| 
+Sì
+
+
+
+ a| 
+Network Time Protocol
+ a| 
+Indica se il cluster dispone di uno o più server NTP configurati. Per la ridondanza e il miglior servizio, NetApp consiglia di associare almeno tre server NTP al cluster.
+ a| 
+Configurato
+ a| 
+Sì
+
+
+
+ a| 
+OCSP
+ a| 
+Indica se in ONTAP sono presenti applicazioni non configurate con OCSP (Online Certificate Status Protocol) e quindi le comunicazioni non sono crittografate. Vengono elencate le applicazioni non conformi.
+ a| 
+Attivato
+ a| 
+No
+
+
+
+ a| 
+Log di controllo remoto
+ a| 
+Indica se l'inoltro dei log (Syslog) è crittografato o meno.
+ a| 
+Crittografato
+ a| 
+Sì
+
+
+
+ a| 
+Trasporto HTTPS AutoSupport
+ a| 
+Indica se HTTPS è utilizzato come protocollo di trasporto predefinito per l'invio di messaggi AutoSupport al supporto NetApp.
+ a| 
+Attivato
+ a| 
+Sì
+
+
+
+ a| 
+Admin User predefinito
+ a| 
+Indica se l'utente amministratore predefinito (incorporato) è attivato o disattivato. NetApp consiglia di bloccare (disabilitare) gli account integrati non necessari.
+ a| 
+Disattivato
+ a| 
+Sì
+
+
+
+ a| 
+Utenti SAML
+ a| 
+Indica se SAML è configurato. SAML consente di configurare l'autenticazione a più fattori (MFA) come metodo di accesso per il single sign-on.
+ a| 
+No
+ a| 
+No
+
+
+
+ a| 
+Utenti di Active Directory
+ a| 
+Indica se Active Directory è configurato. Active Directory e LDAP sono i meccanismi di autenticazione preferiti per gli utenti che accedono ai cluster.
+ a| 
+No
+ a| 
+No
+
+
+
+ a| 
+Utenti LDAP
+ a| 
+Indica se LDAP è configurato. Active Directory e LDAP sono i meccanismi di autenticazione preferiti per gli utenti che gestiscono i cluster su utenti locali.
+ a| 
+No
+ a| 
+No
+
+
+
+ a| 
+Utenti certificati
+ a| 
+Indica se un utente certificato è configurato per accedere al cluster.
+ a| 
+No
+ a| 
+No
+
+
+
+ a| 
+Utenti locali
+ a| 
+Indica se gli utenti locali sono configurati per l'accesso al cluster.
+ a| 
+No
+ a| 
+No
+
+
+
+ a| 
+Shell remota
+ a| 
+Indica se RSH è attivato. Per motivi di sicurezza, RSH deve essere disattivato. È preferibile utilizzare Secure Shell (SSH) per un accesso remoto sicuro.
+ a| 
+Disattivato
+ a| 
+Sì
+
+
+
+ a| 
+MD5 in uso
+ a| 
+Indica se gli account utente ONTAP utilizzano una funzione hash MD5 meno sicura. Si preferisce la migrazione degli account utente con hash MD5 alla funzione hash crittografica più sicura come SHA-512.
+ a| 
+No
+ a| 
+Sì
+
+
+
+ a| 
+Tipo di autorità di certificazione
+ a| 
+Indica il tipo di certificato digitale utilizzato.
+ a| 
+Firma CA
+ a| 
+No
+
+|===

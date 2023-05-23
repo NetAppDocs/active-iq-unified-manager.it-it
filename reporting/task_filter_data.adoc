@@ -1,0 +1,22 @@
+---
+permalink: reporting/task_filter_data.html 
+sidebar: sidebar 
+keywords: filtering, data 
+summary: Filtrare i dati per assicurarsi che i risultati corrispondano ai requisiti del report. Il filtraggio consente di visualizzare solo i dati interessati. 
+---
+= Filtraggio dei dati
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Filtrare i dati per assicurarsi che i risultati corrispondano ai requisiti del report. Il filtraggio consente di visualizzare solo i dati interessati.
+
+.Fasi
+. Fare clic sull'icona del filtro per aggiungere filtri per mettere a fuoco i risultati da visualizzare, quindi fare clic su *Applica filtro*.
++
+image::../media/filter_cold_data_2.png[filtrare i dati a freddo 2]
+
+. Assegnare un nome alla vista non salvata per salvare le modifiche.
+

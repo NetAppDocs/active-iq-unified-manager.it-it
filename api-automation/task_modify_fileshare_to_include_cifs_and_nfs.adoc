@@ -1,0 +1,160 @@
+---
+permalink: api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html 
+sidebar: sidebar 
+keywords: modify, nfs, file, share, support, cifs 
+summary: 'È possibile modificare una condivisione file NFS per supportare il protocollo CIFS. Durante la creazione della condivisione file, è possibile specificare i parametri dell"elenco di controllo di accesso (ACL) e le regole dei criteri di esportazione per la stessa condivisione file. Tuttavia, se si desidera attivare CIFS sullo stesso volume in cui è stata creata una condivisione file NFS, è possibile aggiornare i parametri ACL su tale condivisione file per supportare CIFS.' 
+---
+= Modifica di una condivisione di file NFS mediante API per il supporto di CIFS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile modificare una condivisione file NFS per supportare il protocollo CIFS. Durante la creazione della condivisione file, è possibile specificare i parametri dell'elenco di controllo di accesso (ACL) e le regole dei criteri di esportazione per la stessa condivisione file. Tuttavia, se si desidera attivare CIFS sullo stesso volume in cui è stata creata una condivisione file NFS, è possibile aggiornare i parametri ACL su tale condivisione file per supportare CIFS.
+
+*Cosa ti serve*
+
+. È necessario creare una condivisione file NFS con solo i dettagli della policy di esportazione. Per ulteriori informazioni, consulta la sezione _Gestione delle condivisioni di file_ e _Modifica dei carichi di lavoro dello storage_.
+. Per eseguire questa operazione, è necessario disporre della chiave di condivisione file. Per informazioni sulla visualizzazione dei dettagli della condivisione file e sul recupero della chiave di condivisione file utilizzando l'ID lavoro, vedere _Provisioning CIFS e condivisioni file NFS_.
+
+
+Questo è valido per una condivisione file NFS creata aggiungendo solo regole di policy di esportazione e non parametri ACL. La condivisione file NFS viene modificata in modo da includere i parametri ACL.
+
+.Fasi
+. Nella condivisione file NFS, eseguire una `PATCH` Operazioni con i dettagli dell'ACL per consentire l'accesso CIFS.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+PATCH
+ a| 
+`/storage-provider/file-shares`
+
+|===
++
+*CURL campione*
+
++
+In base ai privilegi di accesso assegnati al gruppo di utenti, come mostrato nell'esempio seguente, viene creato un ACL e assegnato alla condivisione file.
+
++
+[listing]
+----
+{
+  "access_control": {
+    "acl": [
+      {
+        "permission": "read",
+        "user_or_group": "everyone"
+      }
+    ],
+    "active_directory_mapping": {
+      "key": "3b648c1b-d965-03b7-20da-61b791a6263c"
+    }
+----
++
+*Esempio di output JSON*
+
++
+L'operazione restituisce l'ID lavoro del lavoro che esegue l'aggiornamento.
+
+. Verificare se i parametri sono stati aggiunti correttamente eseguendo una query sui dettagli della condivisione file per la stessa condivisione file.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
++
+*Esempio di output JSON*
+
++
+[listing]
+----
+"access_control": {
+        "acl": [
+            {
+                "user_or_group": "everyone",
+                "permission": "read"
+            }
+        ],
+        "export_policy": {
+            "id": 1460288880641,
+            "key": "7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641",
+            "name": "default",
+            "rules": [
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 1,
+                    "protocols": [
+                        "nfs3",
+                        "nfs4"
+                    ],
+                    "ro_rule": [
+                        "sys"
+                    ],
+                    "rw_rule": [
+                        "sys"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                },
+                {
+                    "anonymous_user": "65534",
+                    "clients": [
+                        {
+                            "match": "0.0.0.0/0"
+                        }
+                    ],
+                    "index": 2,
+                    "protocols": [
+                        "cifs"
+                    ],
+                    "ro_rule": [
+                        "ntlm"
+                    ],
+                    "rw_rule": [
+                        "ntlm"
+                    ],
+                    "superuser": [
+                        "none"
+                    ]
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "/api/datacenter/protocols/nfs/export-policies/7d5a59b3-953a-11e8-8857-00a098dcc959:type=export_policy,uuid=1460288880641"
+                }
+            }
+        }
+    },
+    "_links": {
+        "self": {
+            "href": "/api/storage-provider/file-shares/7d5a59b3-953a-11e8-8857-00a098dcc959:type=volume,uuid=e581c23a-1037-11ea-ac5a-00a098dcc6b6"
+        }
+    }
+----
++
+È possibile visualizzare l'ACL assegnato insieme al criterio di esportazione nella stessa condivisione file.
+
+

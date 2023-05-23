@@ -1,0 +1,96 @@
+---
+permalink: reporting/task_create_report_to_view_capacity.html 
+sidebar: sidebar 
+keywords: create, report, show, aggregate, capacity, table, chart 
+summary: È possibile creare un report per analizzare la capacità in un file Excel utilizzando i totali sommati e il formato del grafico a colonne in cluster. 
+---
+= Creazione di un report per visualizzare una tabella e un grafico della capacità aggregata
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report per analizzare la capacità in un file Excel utilizzando i totali sommati e il formato del grafico a colonne in cluster.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Per aprire una vista Health: All aggregates (Salute: Tutti gli aggregati), scaricare la vista in Excel, creare un grafico della capacità disponibile, caricare il file Excel personalizzato e pianificare il report finale.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Aggregates*.
+. Selezionare *Report* > *Download Excel*.
++
+image::../media/download_excel_menu.png[scarica il menu excel]
+
++
+A seconda del browser in uso, potrebbe essere necessario fare clic su *OK* per salvare il file.
+
+. Se necessario, fare clic su *Enable editing* (attiva modifica).
+. In Excel, aprire il file scaricato.
+. Creare un nuovo foglio (image:../media/excel_new_sheet_icon.png[""]) dopo `data` Foglio e nome *capacità totale dei dati*.
+. Aggiungere le seguenti colonne nella nuova scheda capacità dati totale:
++
+.. Capacità totale dei dati (GB)
+.. Capacità impegnata (GB)
+.. Capacità dei dati utilizzati (GB)
+.. Capacità dati disponibile (GB)
+
+
+. Nella prima riga di ciascuna colonna, immettere la formula seguente, assicurandosi che faccia riferimento alla scheda dati (dati!) e faccia riferimento agli specificatori di colonna e riga corretti per i dati acquisiti (capacità dati totale estrae i dati dalla colonna e, righe da 2 a 20).
++
+.. =SOMMA(dati!2:dati!20 USD)
+.. =SOMMA(dati!€2:dati!€50)
+.. =SOMMA(data!GUSD 2:dati!GUSD 50)
+.. =SOMMA(dati!2:dati!50 dollari USA)
+
+
++
+La formula totalizza ogni colonna in base ai dati correnti.
+
+
+
+image::../media/capacitysums.png[somme di capacità]
+
+. Nella scheda informativa, selezionare le colonne *capacità totale dei dati (GB)* e *capacità impegnata (GB)*.
+. Selezionare *Recommended Charts* (grafici consigliati) dal menu *Insert* (Inserisci) e selezionare il grafico *Clustered Column* (colonna in cluster).
+. Fare clic con il pulsante destro del mouse sul grafico e selezionare *Sposta grafico* per spostarlo in `Total Data Capacity` foglio.
+. Utilizzando i menu *Design* e *Format*, disponibili quando viene selezionato il grafico, è possibile personalizzare l'aspetto del grafico.
+. Quando è soddisfatto, salvare il file con le modifiche. Non modificare il nome o la posizione del file.
++
+image::../media/cluster_column_chart_2.png[grafico a colonne del cluster 2]
+
+. In Unified Manager, selezionare *Report* > *carica Excel*.
++
+[NOTE]
+====
+Assicurarsi di essere nella stessa vista in cui è stato scaricato il file Excel.
+
+====
+. Selezionare il file Excel modificato.
+. Fare clic su *Apri*.
+. Fare clic su *Invia*.
++
+Viene visualizzato un segno di spunta accanto alla voce di menu *Report* > *carica Excel*.
+
++
+image::../media/upload_excel.png[caricare excel]
+
+. Fare clic su *Report pianificati*.
+. Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina Report Schedule (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.
++
+[NOTE]
+====
+Selezionare il formato *XLSX* per il report.
+
+====
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, potrebbe essere necessario analizzare come utilizzare al meglio la capacità disponibile nella rete.

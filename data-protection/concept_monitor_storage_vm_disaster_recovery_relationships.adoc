@@ -1,0 +1,18 @@
+---
+permalink: data-protection/concept_monitor_storage_vm_disaster_recovery_relationships.html 
+sidebar: sidebar 
+keywords: disaster recovery, monitor, storage vm protection, relationships 
+summary: Active IQ Unified Manager supporta il monitoraggio delle relazioni di disaster recovery delle macchine virtuali dello storage, che offre disaster recovery alla granularità di un livello di storage VM. Il disaster recovery delle macchine virtuali dello storage consente il ripristino dei dati presenti nei volumi costitutivi della macchina virtuale dello storage e il ripristino della configurazione delle macchine virtuali dello storage. 
+---
+= Monitoraggio delle relazioni di protezione di Storage VM Disaster Recovery
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager supporta il monitoraggio delle relazioni di disaster recovery delle macchine virtuali dello storage, che offre disaster recovery alla granularità di un livello di storage VM. Il disaster recovery delle macchine virtuali dello storage consente il ripristino dei dati presenti nei volumi costitutivi della macchina virtuale dello storage e il ripristino della configurazione delle macchine virtuali dello storage.
+
+Viene creata una relazione di DR tra la VM dello storage di origine e la VM dello storage di destinazione per fornire un disaster recovery asincrono. È possibile scegliere di replicare tutto o un sottoinsieme della configurazione della macchina virtuale dello storage (esclusa la configurazione di rete e del protocollo) insieme ai volumi di dati in base all'impostazione del cluster.
+
+Una volta configurata la relazione di disaster recovery per le macchine virtuali di storage, quando la macchina virtuale di storage di origine diventa non disponibile a causa di un guasto hardware o di un disastro ambientale, viene avviata la macchina virtuale di storage di destinazione, che fornisce accesso ai dati con la minima interruzione. Allo stesso modo, quando la VM di storage di origine diventa disponibile, viene risincronizzata con la VM di storage di destinazione, quindi l'origine viene riavviata per fornire i dati. È possibile utilizzare i comandi di SnapMirror per configurare e gestire la relazione di disaster recovery delle macchine virtuali dello storage.

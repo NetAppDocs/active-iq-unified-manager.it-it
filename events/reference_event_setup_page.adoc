@@ -1,0 +1,60 @@
+---
+permalink: events/reference_event_setup_page.html 
+sidebar: sidebar 
+keywords: event, setup, page, command, buttons, list, view 
+summary: 'La pagina impostazione eventi visualizza l"elenco degli eventi disattivati e fornisce informazioni quali il tipo di oggetto associato e la gravità dell"evento. È inoltre possibile eseguire attività come la disattivazione o l"abilitazione di eventi a livello globale.' 
+---
+= Pagina Event Setup
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La pagina impostazione eventi visualizza l'elenco degli eventi disattivati e fornisce informazioni quali il tipo di oggetto associato e la gravità dell'evento. È inoltre possibile eseguire attività come la disattivazione o l'abilitazione di eventi a livello globale.
+
+È possibile accedere a questa pagina solo se si dispone del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+
+== Pulsanti di comando
+
+I pulsanti di comando consentono di eseguire le seguenti attività per gli eventi selezionati:
+
+* *Disattiva*
++
+Consente di aprire la finestra di dialogo Disable Events (Disattiva eventi), che può essere utilizzata per disattivare gli eventi.
+
+* *Enable* (attiva)
++
+Attiva gli eventi selezionati che si era scelto di disattivare in precedenza.
+
+* *Regole di caricamento*
++
+Apre la finestra di dialogo regole di caricamento, che consente ai siti senza accesso alla rete esterna di caricare manualmente il file di regole Active IQ in Unified Manager. Le regole vengono eseguite in base ai messaggi AutoSupport del cluster per generare eventi per la configurazione del sistema, il cablaggio, le Best practice e la disponibilità come definiti dalla piattaforma Active IQ.
+
+* *Iscriviti agli eventi EMS*
++
+Apre la finestra di dialogo Iscriviti agli eventi EMS, che consente di iscriversi per ricevere eventi specifici del sistema di gestione degli eventi (EMS) dai cluster monitorati. EMS raccoglie informazioni sugli eventi che si verificano nel cluster. Quando si riceve una notifica per un evento EMS sottoscritto, viene generato un evento Unified Manager con la severità appropriata.
+
+
+
+
+
+== Vista elenco
+
+La vista elenco visualizza (in formato tabulare) le informazioni sugli eventi disattivati. È possibile utilizzare i filtri di colonna per personalizzare i dati visualizzati.
+
+* *Evento*
++
+Visualizza il nome dell'evento disattivato.
+
+* *Severità*
++
+Visualizza la severità dell'evento. La gravità può essere critica, errore, Avviso o informazioni.
+
+* *Tipo di origine*
++
+Visualizza il tipo di origine per cui viene generato l'evento.
+
+

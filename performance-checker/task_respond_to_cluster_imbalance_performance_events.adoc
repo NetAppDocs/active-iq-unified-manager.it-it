@@ -1,0 +1,67 @@
+---
+permalink: performance-checker/task_respond_to_cluster_imbalance_performance_events.html 
+sidebar: sidebar 
+keywords: cluster, imbalance, performance, events 
+summary: 'Unified Manager genera eventi di avviso di squilibrio del cluster quando un nodo di un cluster opera a un carico molto più elevato rispetto ad altri nodi, con un potenziale impatto sulle latenze dei workload. Questi eventi definiti dal sistema offrono l"opportunità di correggere potenziali problemi di performance prima che molti carichi di lavoro siano influenzati dalla latenza.' 
+---
+= Risposta agli eventi di sbilanciamento delle performance del cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager genera eventi di avviso di squilibrio del cluster quando un nodo di un cluster opera a un carico molto più elevato rispetto ad altri nodi, con un potenziale impatto sulle latenze dei workload. Questi eventi definiti dal sistema offrono l'opportunità di correggere potenziali problemi di performance prima che molti carichi di lavoro siano influenzati dalla latenza.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+Unified Manager genera eventi di avviso per le violazioni delle policy di soglia dello squilibrio del cluster confrontando il valore della capacità di performance utilizzata per tutti i nodi del cluster per verificare se esiste una differenza di carico del 30% tra i nodi.
+
+Questi passaggi consentono di identificare le seguenti risorse in modo da poter spostare i carichi di lavoro dalle performance elevate in un nodo meno utilizzato:
+
+* I nodi dello stesso cluster meno utilizzati
+* Gli aggregati sul nuovo nodo che sono i meno utilizzati
+* I volumi dalle performance più elevate sul nodo corrente
+
+
+.Fasi
+. Visualizzare la pagina dei dettagli *evento* per visualizzare le informazioni sull'evento.
+. Esaminare la *Descrizione*, che descrive la violazione di soglia che ha causato l'evento.
++
+Ad esempio, il messaggio "`il contatore della capacità di performance utilizzata indica una differenza di carico del 62% tra i nodi sul cluster Dallas-1-8 e ha attivato un evento DI AVVISO basato sulla soglia di sistema del 30%`" indica che la capacità di performance su uno dei nodi è in eccesso e influisce sulle performance del nodo.
+
+. Consultare il testo nella sezione *azioni consigliate* per spostare un volume dalle performance elevate dal nodo con il valore di capacità utilizzata dalle performance elevate a un nodo con il valore di capacità utilizzata dalle performance più basso.
+. Identificare i nodi con il valore più alto e più basso utilizzato per la capacità di performance:
++
+.. Nella sezione *informazioni evento*, fare clic sul nome del cluster di origine.
+.. Nella pagina *Cluster / Performance Summary*, fare clic su *Nodes* nell'area *Managed Objects*.
+.. Nella pagina di inventario *nodi*, ordinare i nodi in base alla colonna *capacità di performance utilizzata*.
+.. Identificare i nodi con il valore più alto e più basso utilizzato per la capacità di performance e annotare i nomi.
+
+
+. Identificare il volume utilizzando il maggior numero di IOPS sul nodo con il valore di capacità utilizzata dalle performance più elevato:
++
+.. Fare clic sul nodo con il valore più elevato utilizzato per la capacità delle performance.
+.. Nella pagina *Node / Performance Explorer*, selezionare *Aggregates on this Node* (aggregati su questo nodo) dal menu *View and compare* (Visualizza e confronta).
+.. Fare clic sull'aggregato con il valore più elevato utilizzato per la capacità delle performance.
+.. Nella pagina *aggregato / Performance Explorer*, selezionare *volumi su questo aggregato* dal menu *Visualizza e confronta*.
+.. Ordinare i volumi in base alla colonna *IOPS* e annotare il nome del volume utilizzando il maggior numero di IOPS e il nome dell'aggregato in cui si trova il volume.
+
+
+. Identificare l'aggregato con l'utilizzo più basso sul nodo con il valore più basso utilizzato per la capacità di performance:
++
+.. Fare clic su *Storage* > *aggregati* per visualizzare la pagina di inventario *aggregati*.
+.. Selezionare la vista *Performance: All aggregates* (prestazioni: Tutti gli aggregati).
+.. Fare clic sul pulsante *Filter* (filtro) e aggiungere un filtro in cui "`Node`" (nodo) sia uguale al nome del nodo con il valore minimo di performance Capacity used (capacità di performance utilizzata) annotato al punto 4.
+.. Annotare il nome dell'aggregato che ha il valore di capacità di performance più basso utilizzato.
+
+
+. Spostare il volume dal nodo sovraccarico all'aggregato identificato come a basso utilizzo nel nuovo nodo.
++
+È possibile eseguire l'operazione di spostamento utilizzando Gestione sistema di ONTAP, OnCommand Workflow Automation, comandi ONTAP o una combinazione di questi strumenti.
+
+
+
+Dopo alcuni giorni, verificare se si sta ricevendo lo stesso evento di sbilanciamento del cluster da questo cluster.

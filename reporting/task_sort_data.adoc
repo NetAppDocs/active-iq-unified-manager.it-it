@@ -1,0 +1,19 @@
+---
+permalink: reporting/task_sort_data.html 
+sidebar: sidebar 
+keywords: sort, data 
+summary: 'Per ordinare i risultati, fare clic su una colonna e indicare l"ordine crescente o decrescente. L"ordinamento dei dati assegna la priorità alle informazioni necessarie per il report.' 
+---
+= Ordinamento dei dati
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Per ordinare i risultati, fare clic su una colonna e indicare l'ordine crescente o decrescente. L'ordinamento dei dati assegna la priorità alle informazioni necessarie per il report.
+
+.Fasi
+. Fare clic sulla parte superiore di una colonna per ordinare i risultati in modo che le informazioni più importanti siano visualizzate nella parte superiore della vista.
+. Assegnare un nome alla vista non salvata per salvare le modifiche.
+

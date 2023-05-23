@@ -1,0 +1,42 @@
+---
+permalink: reporting/task_create_report_to_view_volumes_at_specific_time_intervals.html 
+sidebar: sidebar 
+keywords: create, report, view, volume, transfer, trends, specific, time intervals 
+summary: È possibile creare un report che visualizzi i trend di trasferimento dei volumi a intervalli di tempo specifici. 
+---
+= Creazione di un report per visualizzare i trend di trasferimento dei volumi a intervalli di tempo specifici
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report che visualizzi i trend di trasferimento dei volumi a intervalli di tempo specifici.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Attenersi alla seguente procedura per creare una vista personalizzata per i volumi a intervalli di tempo specifici, quindi pianificare la creazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Volumes*.
+. Nel menu View (Visualizza), selezionare *Relationship* (relazione) > *Last 1 Month Transfer Status* (Stato trasferimento ultimo 1 mese).
+. Selezionare *Mostra/Nascondi* per rimuovere le colonne non desiderate nel report.
+. Trascinare la colonna Transfer Duration (durata trasferimento) vicino alla colonna "`Operational Result`" (risultato operativo).
+. Fare clic sull'icona del filtro, aggiungere il seguente filtro, quindi fare clic su *Applica filtro*:
++
+** Ora di fine del trasferimento negli ultimi 7 giorni
+
+
+. Fare clic nella parte superiore della colonna "`Transfer Duration`" (durata trasferimento) per ordinare i volumi in base all'intervallo di tempo.
+. Salvare la vista con un nome specifico che rifletta ciò che viene visualizzato, ad esempio "`Volumes by Duration`".
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Inserire un nome per la pianificazione del report, impostare la frequenza su *settimanale* e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, è possibile esaminare gli intervalli di tempo di trasferimento.

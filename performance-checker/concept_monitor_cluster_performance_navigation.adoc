@@ -1,0 +1,28 @@
+---
+permalink: performance-checker/concept_monitor_cluster_performance_navigation.html 
+sidebar: sidebar 
+keywords: monitor, cluster, performance, navigation 
+summary: È possibile monitorare le performance di tutti i cluster gestiti da Unified Manager. Il monitoraggio dei cluster offre una panoramica delle performance di cluster e oggetti e include il monitoraggio degli eventi delle performance. È possibile visualizzare performance ed eventi a un livello elevato, oppure esaminare ulteriormente eventuali dettagli relativi alle performance di cluster e oggetti e agli eventi relativi alle performance. 
+---
+= Monitorare la navigazione delle performance del cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile monitorare le performance di tutti i cluster gestiti da Unified Manager. Il monitoraggio dei cluster offre una panoramica delle performance di cluster e oggetti e include il monitoraggio degli eventi delle performance. È possibile visualizzare performance ed eventi a un livello elevato, oppure esaminare ulteriormente eventuali dettagli relativi alle performance di cluster e oggetti e agli eventi relativi alle performance.
+
+Questo è un esempio di molti possibili percorsi di navigazione delle performance del cluster:
+
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Aggregates*.
+. Per visualizzare le informazioni sulle performance in questi aggregati, selezionare la vista Performance: All aggregates (prestazioni: Tutti gli aggregati).
+. Identificare l'aggregato che si desidera analizzare e fare clic sul nome dell'aggregato per accedere alla pagina aggregato/Esplora prestazioni.
+. Se si desidera, selezionare altri oggetti da confrontare con questo aggregato nel menu Visualizza e confronta, quindi aggiungere uno degli oggetti al riquadro di confronto.
++
+Le statistiche per entrambi gli oggetti verranno visualizzate nei diagrammi dei contatori per il confronto.
+
+. Nel riquadro di confronto a destra della pagina Explorer, fare clic su *Zoom View* in uno dei diagrammi dei contatori per visualizzare i dettagli sulla cronologia delle performance per quell'aggregato.
+
+
+image::../media/monitor_cluster_performance.png[monitorare le performance del cluster]

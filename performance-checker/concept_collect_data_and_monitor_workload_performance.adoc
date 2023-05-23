@@ -1,0 +1,24 @@
+---
+permalink: performance-checker/concept_collect_data_and_monitor_workload_performance.html 
+sidebar: sidebar 
+keywords: collect, data, monitor, workload, performance 
+summary: 'Unified Manager raccoglie e analizza l"attività dei carichi di lavoro ogni 5 minuti per identificare gli eventi relativi alle performance e rileva le modifiche alla configurazione ogni 15 minuti. Conserva un massimo di 30 giorni di dati storici relativi alle performance e agli eventi di 5 minuti e utilizza questi dati per prevedere l"intervallo di latenza previsto per tutti i carichi di lavoro monitorati.' 
+---
+= Raccolta di dati e monitoraggio delle performance dei carichi di lavoro
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager raccoglie e analizza l'attività dei carichi di lavoro ogni 5 minuti per identificare gli eventi relativi alle performance e rileva le modifiche alla configurazione ogni 15 minuti. Conserva un massimo di 30 giorni di dati storici relativi alle performance e agli eventi di 5 minuti e utilizza questi dati per prevedere l'intervallo di latenza previsto per tutti i carichi di lavoro monitorati.
+
+Unified Manager deve raccogliere un minimo di 3 giorni di attività del carico di lavoro prima che possa iniziare l'analisi e prima che la previsione di latenza per il tempo di risposta i/o possa essere visualizzata nella pagina workload Analysis e nella pagina Event Details. Durante la raccolta di questa attività, la previsione della latenza non visualizza tutte le modifiche che si verificano dall'attività del carico di lavoro. Dopo aver raccolto 3 giorni di attività, Unified Manager regola la previsione di latenza ogni 24 ore alle 12:00, per riflettere le modifiche dell'attività del carico di lavoro e stabilire una soglia di performance dinamica più precisa.
+
+Durante i primi 4 giorni in cui Unified Manager sta monitorando un carico di lavoro, se sono trascorse più di 24 ore dall'ultima raccolta di dati, i grafici di latenza non visualizzano la previsione di latenza per quel carico di lavoro. Gli eventi rilevati prima dell'ultima raccolta sono ancora disponibili.
+
+[NOTE]
+====
+L'ora legale (DST) modifica l'ora del sistema, che modifica la previsione di latenza delle statistiche delle performance per i carichi di lavoro monitorati. Unified Manager inizia immediatamente a correggere la previsione di latenza, che richiede circa 15 giorni per essere completata. Durante questo periodo di tempo è possibile continuare a utilizzare Unified Manager, ma poiché Unified Manager utilizza la previsione della latenza per rilevare eventi dinamici, alcuni eventi potrebbero non essere precisi. Gli eventi rilevati prima del cambiamento di orario non vengono influenzati.
+
+====

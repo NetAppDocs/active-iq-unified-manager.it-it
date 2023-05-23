@@ -1,0 +1,114 @@
+---
+permalink: api-automation/concept_manage_psl.html 
+sidebar: sidebar 
+keywords: manage, performance, service, level 
+summary: È possibile visualizzare, creare, modificare ed eliminare i livelli dei servizi di performance utilizzando le API del provider di storage per sul proprio Active IQ Unified Manager. 
+---
+= Gestione dei livelli di servizio delle performance tramite le API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile visualizzare, creare, modificare ed eliminare i livelli dei servizi di performance utilizzando le API del provider di storage per sul proprio Active IQ Unified Manager.
+
+
+
+== Visualizza i livelli di Performance Service
+
+È possibile utilizzare il seguente metodo per visualizzare i livelli di Performance Service per assegnarli ai carichi di lavoro dello storage. L'API elenca tutti i livelli di Performance Service definiti dal sistema e creati dall'utente e recupera gli attributi di tutti i livelli di Performance Service. Se si desidera eseguire una query su uno specifico livello di servizio delle prestazioni, è necessario inserire l'ID univoco del livello di servizio delle prestazioni per recuperarne i dettagli.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/performance-service-levels`
+
+`/storage-provider/performance-service-levels/\{key}`
+
+|===
+
+
+== Aggiungere livelli di servizio delle performance
+
+È possibile utilizzare il seguente metodo per creare livelli di Performance Service personalizzati e assegnarli ai carichi di lavoro dello storage se i livelli di Performance Service definiti dal sistema non soddisfano gli obiettivi del livello di servizio (SLO) richiesti per i carichi di lavoro dello storage. Inserire i dettagli del livello di servizio Performance che si desidera creare. Per le proprietà IOPS, assicurarsi di immettere un intervallo di valori valido.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+POST
+ a| 
+`/storage-provider/performance-service-levels`
+
+|===
+
+
+== Eliminare i livelli di Performance Service
+
+È possibile utilizzare il seguente metodo per eliminare uno specifico livello di servizio delle prestazioni. Non è possibile eliminare un livello di servizio delle performance se è assegnato a un carico di lavoro o se è l'unico livello di servizio delle performance disponibile. È necessario fornire l'ID univoco del livello di servizio Performance come parametro di input per eliminare un determinato livello di servizio Performance.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+ELIMINARE
+ a| 
+`/storage-provider/performance-service-levels/\{key}`
+
+|===
+
+
+== Modificare i livelli di Performance Service
+
+È possibile utilizzare il seguente metodo per modificare un livello di servizio delle prestazioni e aggiornarne le proprietà. Non è possibile modificare un livello di servizio delle prestazioni definito dal sistema o assegnato a un carico di lavoro. Per modificare un determinato livello di servizio delle prestazioni, è necessario fornire l'ID univoco di. È inoltre necessario immettere la proprietà IOPS che si desidera aggiornare, insieme a un valore valido.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+PATCH
+ a| 
+`/storage-provider/performance-service-levels/\{key}`
+
+|===
+
+
+== Visualizzazione delle funzionalità aggregate in base ai livelli di Performance Service
+
+È possibile utilizzare il seguente metodo per eseguire query sulle funzionalità aggregate in base ai livelli di Performance Service. Questa API restituisce l'elenco degli aggregati disponibili nel data center e indica le funzionalità in termini di livelli di servizio delle performance che possono essere supportati in tali aggregati. Durante il provisioning dei carichi di lavoro su un volume, è possibile visualizzare la capacità di un aggregato di supportare un determinato livello di servizio delle performance e di eseguire il provisioning dei carichi di lavoro in base a tale funzionalità. La possibilità di specificare l'aggregato è disponibile solo quando si esegue il provisioning di un carico di lavoro utilizzando le API. Questa funzionalità non è disponibile nell'interfaccia utente Web di Unified Manager.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/aggregate-capabilities`
+
+`/storage-provider/aggregate-capabilities/\{key}`
+
+|===

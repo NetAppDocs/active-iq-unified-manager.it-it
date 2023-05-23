@@ -1,0 +1,28 @@
+---
+permalink: storage-mgmt/concept_typical_window_layouts_um_6_x.html 
+sidebar: sidebar 
+keywords: typical, window, layouts, object, list, details 
+summary: 'La comprensione dei layout tipici delle finestre consente di navigare e utilizzare Active IQ Unified Manager in modo efficace. La maggior parte delle finestre di Unified Manager sono simili a uno dei due layout generali: Elenco oggetti o dettagli. L"impostazione di visualizzazione consigliata è di almeno 1280 x 1024 pixel.' 
+---
+= Layout tipici delle finestre
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La comprensione dei layout tipici delle finestre consente di navigare e utilizzare Active IQ Unified Manager in modo efficace. La maggior parte delle finestre di Unified Manager sono simili a uno dei due layout generali: Elenco oggetti o dettagli. L'impostazione di visualizzazione consigliata è di almeno 1280 x 1024 pixel.
+
+Non tutte le finestre contengono tutti gli elementi dei seguenti diagrammi.
+
+
+
+== Layout della finestra dell'elenco oggetti
+
+image::../media/object_list.png[elenco di oggetti]
+
+
+
+== Layout della finestra Dettagli oggetto
+
+image::../media/object_details.gif[dettagli dell'oggetto]

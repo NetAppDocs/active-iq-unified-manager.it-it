@@ -1,0 +1,25 @@
+---
+permalink: reporting/concept_understand_reports.html 
+sidebar: sidebar 
+keywords: understanding, reports 
+summary: I report visualizzano informazioni dettagliate su storage, rete, qualità del servizio e relazioni di protezione, aiutandoti a identificare e risolvere potenziali problemi prima che si verifichino. 
+---
+= Informazioni sui report
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+I report visualizzano informazioni dettagliate su storage, rete, qualità del servizio e relazioni di protezione, aiutandoti a identificare e risolvere potenziali problemi prima che si verifichino.
+
+Quando si personalizza una vista, è possibile salvarla con un nome univoco per un utilizzo futuro. È possibile pianificare l'esecuzione regolare di un report basato su tale visualizzazione e condividerlo con altri utenti. È inoltre possibile scaricare la vista in Excel per personalizzarla utilizzando le funzionalità avanzate di Excel, quindi caricare nuovamente il file in Unified Manager . Se si pianifica un report utilizzando tale vista, verrà utilizzato il file Excel caricato per creare report affidabili che è possibile condividere.
+
+È possibile gestire tutti i report pianificati dalla pagina Report Schedules.
+
+[NOTE]
+====
+Per gestire i report, è necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+====
+È possibile scaricare i report come file CSV (comma-Separated Values), Excel o PDF.

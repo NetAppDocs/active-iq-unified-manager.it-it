@@ -1,0 +1,26 @@
+---
+permalink: events/reference_what_suggested_actions_section_displays.html 
+sidebar: sidebar 
+keywords: suggest, actions, section, displays 
+summary: 'La sezione azioni consigliate della pagina Dettagli evento fornisce i possibili motivi dell"evento e suggerisce alcune azioni per tentare di risolvere l"evento autonomamente. Le azioni suggerite sono personalizzate in base al tipo di evento o al tipo di soglia violato.' 
+---
+= Viene visualizzata la sezione azioni consigliate
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La sezione azioni consigliate della pagina Dettagli evento fornisce i possibili motivi dell'evento e suggerisce alcune azioni per tentare di risolvere l'evento autonomamente. Le azioni suggerite sono personalizzate in base al tipo di evento o al tipo di soglia violato.
+
+Questa area viene visualizzata solo per alcuni tipi di eventi.
+
+In alcuni casi, nella pagina sono disponibili collegamenti *Help* che fanno riferimento a informazioni aggiuntive per molte azioni suggerite, incluse le istruzioni per eseguire un'azione specifica. Alcune delle azioni possono comportare l'utilizzo di Unified Manager, Gestore di sistema di ONTAP, OnCommand Workflow Automation, comandi CLI di ONTAP o una combinazione di questi strumenti.
+
+Le azioni suggerite in questo documento devono essere considerate solo una guida per la risoluzione di questo evento. L'azione intrapresa per risolvere questo evento deve basarsi sul contesto dell'ambiente.
+
+Se si desidera analizzare più dettagliatamente l'oggetto e l'evento, fare clic sul pulsante *Analyze workload* (analizza carico di lavoro) per visualizzare la pagina workload Analysis (analisi del carico di lavoro).
+
+Unified Manager è in grado di diagnosticare a fondo alcuni eventi e fornire una singola risoluzione. Quando disponibili, queste risoluzioni vengono visualizzate con il pulsante *Correggi*. Fare clic su questo pulsante per consentire a Unified Manager di risolvere il problema che causa l'evento.
+
+Per gli eventi della piattaforma Active IQ, questa sezione potrebbe contenere un link a un articolo della Knowledge base di NetApp, se disponibile, che descrive il problema e le possibili soluzioni. Nei siti senza accesso alla rete esterna, viene aperto localmente un PDF dell'articolo della Knowledge base; il PDF fa parte del file di regole che viene scaricato manualmente nell'istanza di Unified Manager.

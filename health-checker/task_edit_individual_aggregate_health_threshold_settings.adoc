@@ -1,0 +1,33 @@
+---
+permalink: health-checker/task_edit_individual_aggregate_health_threshold_settings.html 
+sidebar: sidebar 
+keywords: edit, individual, aggregate, health, threshold, settings 
+summary: 'È possibile modificare le impostazioni della soglia di integrità per capacità aggregata, crescita e copie Snapshot di uno o più aggregati. Quando viene superata una soglia, vengono generati avvisi e vengono ricevute notifiche. Queste notifiche consentono di adottare misure preventive in base all"evento generato.' 
+---
+= Modifica delle impostazioni delle singole soglie di integrità aggregate
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile modificare le impostazioni della soglia di integrità per capacità aggregata, crescita e copie Snapshot di uno o più aggregati. Quando viene superata una soglia, vengono generati avvisi e vengono ricevute notifiche. Queste notifiche consentono di adottare misure preventive in base all'evento generato.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+In base alle modifiche apportate ai valori di soglia, gli eventi vengono generati o resi obsoleti nel ciclo di monitoraggio successivo.
+
+Quando la funzione di crescita automatica è attivata sui volumi che risiedono nell'aggregato, le soglie della capacità aggregata vengono considerate violate in base alle dimensioni massime del volume impostate dalla funzione di crescita automatica, non in base alle dimensioni originali del volume.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Aggregates*.
+. Nella vista *Health: Tutti gli aggregati*, selezionare uno o più aggregati, quindi fare clic su *Edit thresholds* (Modifica soglie).
+. Nella finestra di dialogo *Edit aggregate thresholds* (Modifica soglie aggregate), modificare le impostazioni di una delle seguenti soglie: Capacità, crescita o copie Snapshot selezionando la casella di controllo appropriata e modificando le impostazioni.
+. Fare clic su *Save* (Salva).
+
+
+*Informazioni correlate*
+
+link:../config/task_add_users.html["Aggiunta di utenti"]

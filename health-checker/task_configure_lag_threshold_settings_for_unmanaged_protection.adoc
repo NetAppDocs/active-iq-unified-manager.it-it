@@ -1,0 +1,33 @@
+---
+permalink: health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html 
+sidebar: sidebar 
+keywords: configure, lag, threshold settings, unmanaged, protection, relationships 
+summary: È possibile modificare le impostazioni globali predefinite di avviso di ritardo e soglia di stato degli errori per le relazioni di protezione non gestite in modo che gli eventi vengano generati a intervalli appropriati alle proprie esigenze. 
+---
+= Configurazione delle impostazioni delle soglie di ritardo per le relazioni di protezione non gestite
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile modificare le impostazioni globali predefinite di avviso di ritardo e soglia di stato degli errori per le relazioni di protezione non gestite in modo che gli eventi vengano generati a intervalli appropriati alle proprie esigenze.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+Il tempo di ritardo non deve superare l'intervallo di pianificazione del trasferimento definito. Ad esempio, se la pianificazione del trasferimento è oraria, il tempo di ritardo non deve essere superiore a un'ora. La soglia di ritardo specifica una percentuale che il tempo di ritardo non deve superare. Utilizzando l'esempio di un'ora, se la soglia di ritardo è definita come 150%, si riceverà un evento quando il tempo di ritardo è superiore a 1.5 ore.
+
+Le impostazioni descritte in questa attività vengono applicate globalmente a tutte le relazioni di protezione non gestite. Le impostazioni non possono essere specificate e applicate esclusivamente a una relazione di protezione non gestita.
+
+.Fasi
+. Nel riquadro di spostamento di sinistra, fare clic su *soglie evento* > *relazione*.
+. Aumentare o ridurre la percentuale di tempo di avviso o ritardo degli errori predefinita globale, secondo necessità.
+. Per disattivare l'attivazione di un evento di avviso o di errore da qualsiasi valore di soglia di ritardo, deselezionare la casella accanto a *Enabled* (attivato).
+. Fare clic su *Save* (Salva).
+
+
+*Informazioni correlate*
+
+link:../config/task_add_users.html["Aggiunta di utenti"]

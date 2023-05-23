@@ -1,0 +1,194 @@
+---
+permalink: events/reference_snapmirror_relationship_events.html 
+sidebar: sidebar 
+keywords: snapmirror, relationship, events, impact area, protection 
+summary: 'Gli eventi di relazione di SnapMirror forniscono informazioni sullo stato delle relazioni asincrone e sincrona SnapMirror, in modo da poter monitorare eventuali problemi. Gli eventi di relazione SnapMirror asincroni vengono generati sia per le VM di storage che per i volumi, ma gli eventi di relazione SnapMirror sincroni vengono generati solo per le relazioni dei volumi. Non vengono generati eventi per i volumi costituenti che fanno parte delle relazioni di disaster recovery di Storage VM. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
+---
+= Eventi di relazione SnapMirror
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Gli eventi di relazione di SnapMirror forniscono informazioni sullo stato delle relazioni asincrone e sincrona SnapMirror, in modo da poter monitorare eventuali problemi. Gli eventi di relazione SnapMirror asincroni vengono generati sia per le VM di storage che per i volumi, ma gli eventi di relazione SnapMirror sincroni vengono generati solo per le relazioni dei volumi. Non vengono generati eventi per i volumi costituenti che fanno parte delle relazioni di disaster recovery di Storage VM. Gli eventi sono raggruppati in base all'area di impatto e includono il nome dell'evento e della trap, il livello di impatto, il tipo di origine e la severità.
+
+
+
+== Area di impatto: Protezione
+
+Un asterisco (*) identifica gli eventi EMS che sono stati convertiti in eventi Unified Manager.
+
+[NOTE]
+====
+Gli eventi delle relazioni SnapMirror vengono generati per le VM di storage protette dal disaster recovery delle VM di storage, ma non per le relazioni tra gli oggetti costituenti.
+
+====
+|===
+| Nome evento (nome trap) | Livello di impatto | Tipo di origine | Severità 
+
+
+ a| 
+Replica mirror non sana(ocumEvtSnapmirrorRelationshipUnsana)
+ a| 
+Rischio
+ a| 
+Relazione di SnapMirror
+ a| 
+Attenzione
+
+
+
+ a| 
+Replica mirror interrotta(ocumEvtSnapmirrorRelationshipStateBrokenoff)
+ a| 
+Rischio
+ a| 
+Relazione di SnapMirror
+ a| 
+Errore
+
+
+
+ a| 
+Inizializzazione replica mirror non riuscita (ocumEvtSnapmirrorRelationshipInitializeFailed)
+ a| 
+Rischio
+ a| 
+Relazione di SnapMirror
+ a| 
+Errore
+
+
+
+ a| 
+Aggiornamento replica mirror non riuscito (ocumEvtSnapmirrorRelationshipUpdateFailed)
+ a| 
+Rischio
+ a| 
+Relazione di SnapMirror
+ a| 
+Errore
+
+
+
+ a| 
+Errore ritardo replica mirror (ocumEvtSnapMirrorRelationshipLagError)
+ a| 
+Rischio
+ a| 
+Relazione di SnapMirror
+ a| 
+Errore
+
+
+
+ a| 
+Mirror Replication Lag Warning(ocumEvtSnapMirrorRelationshipLagWarning)
+ a| 
+Rischio
+ a| 
+Relazione di SnapMirror
+ a| 
+Attenzione
+
+
+
+ a| 
+Risincronizzazione replica mirror non riuscita (ocumEvtSnapmirrorRelationshipResyncFailed)
+ a| 
+Rischio
+ a| 
+Relazione di SnapMirror
+ a| 
+Errore
+
+
+
+ a| 
+Replica sincrona fuori sincronizzazione *(syncSnapmirrorRelationshipOutofsync)
+ a| 
+Rischio
+ a| 
+Relazione di SnapMirror
+ a| 
+Attenzione
+
+
+
+ a| 
+Replica sincrona ripristinata *(syncSnapmirrorRelationshipInSync)
+ a| 
+Evento
+ a| 
+Relazione di SnapMirror
+ a| 
+Informazioni
+
+
+
+ a| 
+Risincronizzazione automatica replica sincrona non riuscita *(syncSnapmirrorRelationshipAutoSyncRetryFailed)
+ a| 
+Rischio
+ a| 
+Relazione di SnapMirror
+ a| 
+Errore
+
+
+
+ a| 
+Il mediatore ONTAP viene aggiunto al cluster (SnapmirrorMediatorAdded)
+ a| 
+Evento
+ a| 
+Cluster
+ a| 
+Informazioni
+
+
+
+ a| 
+Il supporto ONTAP viene rimosso dal cluster (SnapmirrorMediatorRemoved)
+ a| 
+Evento
+ a| 
+Cluster
+ a| 
+Informazioni
+
+
+
+ a| 
+Il mediatore ONTAP non è raggiungibile dal cluster (snapmirrorMediatorUnreachable)
+ a| 
+Rischio
+ a| 
+Mediatore
+ a| 
+Attenzione
+
+
+
+ a| 
+Il mediatore ONTAP non è accessibile dal cluster (snapmirrorMediatorMisconfigured)
+ a| 
+Rischio
+ a| 
+Mediatore
+ a| 
+Errore
+
+
+
+ a| 
+La connettività dei mediatori ONTAP è stata ristabilita ed è pronta per SMBC (SnapmirrorMediatorInQuorum)
+ a| 
+Evento
+ a| 
+Mediatore
+ a| 
+Informazioni
+
+|===

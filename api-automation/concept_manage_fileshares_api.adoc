@@ -1,0 +1,109 @@
+---
+permalink: api-automation/concept_manage_fileshares_api.html 
+sidebar: sidebar 
+keywords: manage, file, share 
+summary: 'È possibile utilizzare l"API /storage-provider/file-shares per visualizzare, aggiungere, modificare ed eliminare i volumi di condivisione file CIFS e NFS nell"ambiente del data center.' 
+---
+= Gestione delle condivisioni di file mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile utilizzare `/storage-provider/file-shares` API per visualizzare, aggiungere, modificare ed eliminare i volumi di condivisione file CIFS e NFS nell'ambiente del data center.
+
+Prima di eseguire il provisioning dei volumi di condivisione file, assicurarsi che la SVM sia stata creata e fornita con i protocolli supportati. Se si assegnano livelli di servizio delle performance (PSL) o criteri di efficienza dello storage (SEPS) durante il provisioning, è necessario creare PSL o SEPS prima di creare le condivisioni di file.
+
+
+
+== Visualizzare le condivisioni di file
+
+È possibile utilizzare il seguente metodo per visualizzare i volumi di condivisione file disponibili nell'ambiente Unified Manager. Una volta aggiunto un cluster ONTAP come origine dati su Active IQ Unified Manager, i carichi di lavoro dello storage per tali cluster vengono aggiunti automaticamente all'istanza di Unified Manager. Questa API recupera automaticamente le condivisioni file e le aggiunge manualmente all'istanza di Unified Manager. È possibile visualizzare i dettagli di una condivisione file specifica eseguendo questa API con la chiave di condivisione file.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/file-shares`
+
+`/storage-provider/file-shares/\{key}`
+
+|===
+
+
+== Aggiungere condivisioni di file
+
+È possibile utilizzare il seguente metodo per aggiungere condivisioni di file CIFS e NFS nella SVM. Immettere i dettagli della condivisione file che si desidera creare, come parametri di input. Non è possibile utilizzare questa API per aggiungere volumi FlexGroup.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+POST
+ a| 
+`/storage-provider/file-shares`
+
+|===
+[NOTE]
+====
+A seconda che siano forniti i parametri dell'elenco di controllo di accesso (ACL) o i parametri dei criteri di esportazione, vengono create condivisioni CIFS o condivisioni file NFS. Se non si forniscono i valori per i parametri ACL, le condivisioni CIFS non vengono create e le condivisioni NFS vengono create per impostazione predefinita, fornendo l'accesso a tutti.
+
+====
+*Creazione di volumi di protezione dei dati*: Quando si aggiungono condivisioni di file a SVM, il tipo di volume montato, per impostazione predefinita, è `rw` (lettura/scrittura). Per creare volumi di protezione dei dati (DP), specificare `dp` come valore per `type` parametro.
+
+
+
+== Eliminare le condivisioni di file
+
+Per eliminare una condivisione file specifica, è possibile utilizzare il metodo seguente. Per eliminare una determinata condivisione file, è necessario inserire la chiave di condivisione file come parametro di input.
+
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+ELIMINARE
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
+
+
+== Modificare le condivisioni di file
+
+È possibile utilizzare il seguente metodo per modificare una condivisione file e aggiornarne le proprietà.
+
+È necessario fornire la chiave di condivisione file per modificare una determinata condivisione file. Inoltre, è necessario immettere la proprietà che si desidera aggiornare, insieme al relativo valore.
+
+[NOTE]
+====
+Tenere presente che è possibile aggiornare solo una proprietà a una singola chiamata di questa API. Per gli aggiornamenti multipli, è necessario eseguire questa API tante volte.
+
+====
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+PATCH
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===

@@ -1,0 +1,26 @@
+---
+permalink: events/task_fix_issues_using_um_automatic_remediations.html 
+sidebar: sidebar 
+keywords: fix, issues, use, unified manager, automatic, remediations 
+summary: Unified Manager può diagnosticare in modo approfondito alcuni eventi e fornire una singola risoluzione utilizzando il pulsante Correggi. Se disponibili, tali risoluzioni vengono visualizzate nella dashboard , nella pagina Dettagli evento e dalla selezione analisi carico di lavoro nel menu di navigazione a sinistra. 
+---
+= Risoluzione dei problemi con la risoluzione automatica di Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager è in grado di diagnosticare a fondo alcuni eventi e fornire una singola risoluzione utilizzando il pulsante *Correggi*. Se disponibili, tali risoluzioni vengono visualizzate nella dashboard, nella pagina Dettagli evento e dalla selezione analisi carico di lavoro nel menu di navigazione a sinistra.
+
+La maggior parte degli eventi presenta una serie di possibili risoluzioni, visualizzate nella pagina Dettagli evento, in modo da poter implementare la soluzione migliore utilizzando Gestione di sistema di ONTAP o l'interfaccia utente di ONTAP. Un'azione *Correggi* è disponibile quando Unified Manager ha stabilito che esiste una singola risoluzione per risolvere il problema e che può essere risolta utilizzando un comando CLI di ONTAP.
+
+.Fasi
+. Per visualizzare gli eventi che è possibile correggere dal dashboard, fare clic su *Dashboard*.
++
+image::../media/management_actions.png[azioni di gestione]
+
+. Per risolvere i problemi che Unified Manager può risolvere, fare clic sul pulsante *Correggi*. Per risolvere un problema che si verifica su più oggetti, fare clic sul pulsante *Correggi tutto*.
+
+
+Per informazioni sui problemi che possono essere risolti mediante la risoluzione automatica dei problemi, vedere link:..//storage-mgmt/reference_what_ontap_issues_can_unified_manager_fix.html["Quali problemi possono risolvere Unified Manager"].

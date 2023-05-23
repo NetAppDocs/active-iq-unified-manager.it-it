@@ -1,0 +1,29 @@
+---
+permalink: api-automation/concept_workflow_intro.html 
+sidebar: sidebar 
+keywords: common, workflows, storage, management 
+summary: 'I flussi di lavoro comuni forniscono agli sviluppatori di applicazioni client esempi di come le API Active IQ Unified Manager possono essere chiamate da un"applicazione client per eseguire funzioni comuni di gestione dello storage. Questa sezione contiene alcuni di questi flussi di lavoro di esempio.' 
+---
+= Flussi di lavoro API comuni per la gestione dello storage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+I flussi di lavoro comuni forniscono agli sviluppatori di applicazioni client esempi di come le API Active IQ Unified Manager possono essere chiamate da un'applicazione client per eseguire funzioni comuni di gestione dello storage. Questa sezione contiene alcuni di questi flussi di lavoro di esempio.
+
+I flussi di lavoro descrivono alcuni dei casi di utilizzo più comuni per la gestione dello storage e i codici di esempio da utilizzare. Ciascuna delle attività viene descritta utilizzando un processo di workflow costituito da una o più chiamate API.
+
+
+
+== Informazioni sulle chiamate API utilizzate nei flussi di lavoro
+
+È possibile visualizzare la pagina della documentazione online dall'istanza di Unified Manager che include i dettagli di ogni chiamata API REST. Questo documento non ripete i dettagli della documentazione online. Ogni chiamata API utilizzata negli esempi del flusso di lavoro in questo documento include solo le informazioni necessarie per individuare la chiamata nella pagina della documentazione. Dopo aver individuato una chiamata API specifica, è possibile esaminare i dettagli completi della chiamata, inclusi i parametri di input, i formati di output, i codici di stato HTTP e il tipo di elaborazione della richiesta.
+
+Le seguenti informazioni sono incluse per ogni chiamata API all'interno di un flusso di lavoro per facilitare l'individuazione della chiamata nella pagina della documentazione:
+
+* Category (Categoria): Le chiamate API sono organizzate nella pagina della documentazione in aree o categorie correlate alle funzioni. Per individuare una chiamata API specifica, scorrere fino alla fine della pagina e fare clic sulla categoria API appropriata.
+* Verbo HTTP (chiamata): Il verbo HTTP identifica l'azione eseguita su una risorsa. Ogni chiamata API viene eseguita tramite un singolo verbo HTTP.
+* Percorso: Il percorso determina la risorsa specifica a cui si applica l'azione durante l'esecuzione di una chiamata. La stringa del percorso viene aggiunta all'URL principale per formare l'URL completo che identifica la risorsa.
+

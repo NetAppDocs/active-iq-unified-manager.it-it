@@ -1,0 +1,49 @@
+---
+permalink: config/task_set_session_inactivity_timeout.html 
+sidebar: sidebar 
+keywords: inactivity, timeout 
+summary: 'È possibile specificare il valore di timeout di inattività per Unified Manager in modo che la sessione venga terminata automaticamente dopo un determinato periodo di tempo. Per impostazione predefinita, il timeout è impostato su 4,320 minuti (72 ore).' 
+---
+= Impostazione del timeout di inattività della sessione
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile specificare il valore di timeout di inattività per Unified Manager in modo che la sessione venga terminata automaticamente dopo un determinato periodo di tempo. Per impostazione predefinita, il timeout è impostato su 4,320 minuti (72 ore).
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione.
+
+Questa impostazione ha effetto su tutte le sessioni utente registrate.
+
+[NOTE]
+====
+Questa opzione non è disponibile se è stata attivata l'autenticazione SAML (Security Assertion Markup Language).
+
+====
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Generale* > *Impostazioni funzionalità*.
+. Nella pagina *Feature Settings*, specificare il timeout di inattività scegliendo una delle seguenti opzioni:
++
+[cols="2*"]
+|===
+| Se si desidera... | Quindi... 
+
+
+ a| 
+Non impostare alcun timeout in modo che la sessione non venga mai chiusa automaticamente
+ a| 
+Nel pannello *Timeout inattività*, spostare il dispositivo di scorrimento verso sinistra (Off) e fare clic su *Apply* (Applica).
+
+
+
+ a| 
+Impostare un numero specifico di minuti come valore di timeout
+ a| 
+Nel pannello *Timeout inattività*, spostare il cursore a destra (on), specificare il valore del timeout di inattività in minuti e fare clic su *Applica*.
+
+|===
+

@@ -1,0 +1,14 @@
+---
+permalink: install-windows/concept_install_unified_manager_windows.html 
+sidebar: sidebar 
+keywords: install, unified manager, windows 
+summary: È importante comprendere la sequenza di passaggi per scaricare e installare Unified Manager su Windows. 
+---
+= Installazione di Unified Manager su Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È importante comprendere la sequenza di passaggi per scaricare e installare Unified Manager su Windows.

@@ -1,0 +1,25 @@
+---
+permalink: events/task_configure_event_retention_settings.html 
+sidebar: sidebar 
+keywords: configure, event, retention, settings 
+summary: È possibile specificare il numero di mesi in cui un evento viene conservato nel server di Unified Manager prima che venga eliminato automaticamente. 
+---
+= Configurazione delle impostazioni di conservazione degli eventi
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile specificare il numero di mesi in cui un evento viene conservato nel server di Unified Manager prima che venga eliminato automaticamente.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione.
+
+La conservazione di eventi per più di 6 mesi potrebbe influire sulle prestazioni del server e non è consigliabile.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Generale* > *conservazione dei dati*.
+. Nella pagina *Data Retention*, selezionare il dispositivo di scorrimento nell'area Event Retention (conservazione eventi) e spostarlo sul numero di mesi in cui gli eventi devono essere conservati, quindi fare clic su *Save* (Salva).
+

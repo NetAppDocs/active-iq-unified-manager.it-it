@@ -1,0 +1,38 @@
+---
+permalink: performance-checker/task_expand_counter_charts_pane.html 
+sidebar: sidebar 
+keywords: expand, counter, charts, pane 
+summary: È possibile espandere il riquadro Counter Chart in modo che i grafici siano più grandi e leggibili. 
+---
+= Espansione del riquadro Counter Chart
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile espandere il riquadro Counter Chart in modo che i grafici siano più grandi e leggibili.
+
+Dopo aver definito gli oggetti di confronto e l'intervallo di tempo per i contatori, è possibile visualizzare un riquadro di Counter Chart più grande. Per espandere il riquadro, utilizzare il pulsante *<* al centro della finestra di Performance Explorer.
+
+.Fase
+. Espandere o ridurre il riquadro *Counter Chart*.
+
+
+|===
+| Per... | Eseguire questa operazione... 
+
+
+ a| 
+Espandere il riquadro Counter Chart per adattarlo alla larghezza della pagina
+ a| 
+Fare clic sul pulsante *<*
+
+
+
+ a| 
+Ridurre il riquadro Counter Chart alla metà destra della pagina
+ a| 
+Fare clic sul pulsante *>*
+
+|===

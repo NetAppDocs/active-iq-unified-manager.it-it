@@ -1,0 +1,53 @@
+---
+permalink: health-checker/task_test_script_execution.html 
+sidebar: sidebar 
+keywords: test, script, execution 
+summary: È possibile verificare che lo script venga eseguito correttamente quando viene generato un avviso per un oggetto di storage. 
+---
+= Esecuzione di test dello script
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile verificare che lo script venga eseguito correttamente quando viene generato un avviso per un oggetto di storage.
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+* È necessario aver caricato uno script nel formato di file supportato in Unified Manager.
+
+
+.Fasi
+. Nel riquadro di spostamento a sinistra, fare clic su *Storage Management* > *Scripts*.
+. Nella pagina script, aggiungere lo script di test.
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Alert Setup*.
+. Nella pagina *Alert Setup*, eseguire una delle seguenti operazioni:
++
+[cols="2*"]
+|===
+| Per... | Eseguire questa operazione... 
+
+
+ a| 
+Aggiungere un avviso
+ a| 
+.. Fare clic su *Aggiungi*.
+.. Nella sezione Actions (azioni), associare l'avviso allo script di test.
+
+
+
+
+ a| 
+Modificare un avviso
+ a| 
+.. Selezionare un avviso, quindi fare clic su *Modifica*.
+.. Nella sezione Actions (azioni), associare l'avviso allo script di test.
+
+
+|===
+. Fare clic su *Save* (Salva).
+. Nella pagina *Alert Setup*, selezionare l'avviso aggiunto o modificato, quindi fare clic su *Test*.
++
+Lo script viene eseguito con l'argomento "`-test`" e viene inviato un avviso di notifica agli indirizzi e-mail specificati al momento della creazione dell'avviso.
+
+

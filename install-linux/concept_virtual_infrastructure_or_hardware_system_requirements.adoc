@@ -1,0 +1,87 @@
+---
+permalink: install-linux/concept_virtual_infrastructure_or_hardware_system_requirements.html 
+sidebar: sidebar 
+keywords: virtual, infrastructure, hardware, system, requirements, host, connectivity 
+summary: 'L"installazione di Unified Manager su un"infrastruttura virtuale o su un sistema fisico deve soddisfare i requisiti minimi di memoria, CPU e spazio su disco.' 
+---
+= Infrastruttura virtuale e requisiti di sistema hardware
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+L'installazione di Unified Manager su un'infrastruttura virtuale o su un sistema fisico deve soddisfare i requisiti minimi di memoria, CPU e spazio su disco.
+
+La seguente tabella mostra i valori consigliati per le risorse di memoria, CPU e spazio su disco. Questi valori sono stati qualificati in modo che Unified Manager soddisfi livelli di performance accettabili.
+
+[cols="2*"]
+|===
+| Configurazione dell'hardware | Impostazioni consigliate 
+
+
+ a| 
+RAM
+ a| 
+12 GB (requisito minimo 8 GB)
+
+
+
+ a| 
+Processori
+ a| 
+4 CPU
+
+
+
+ a| 
+Capacità del ciclo della CPU
+ a| 
+9572 MHz totali (requisito minimo 9572 MHz)
+
+
+
+ a| 
+Spazio libero su disco
+ a| 
+150 GB, dove la capacità viene allocata come segue:
+
+* 50 GB assegnati alla partizione root
+* 100 GB di spazio libero su disco assegnato a `/opt/netapp/data` Directory, montata su un disco LVM o su un disco locale separato collegato al sistema di destinazione
+
+
+[NOTE]
+====
+Per montaggio separato `/opt` e. `/var/log` directory, assicurarsi che `/opt` Ha 15 GB e. `/var/log` Dispone di 16 GB di spazio libero. Il `/tmp` La directory deve disporre di almeno 10 GB di spazio libero.
+
+====
+|===
+Unified Manager può essere installato su sistemi con una piccola quantità di memoria, ma i 12 GB di RAM consigliati garantiscono che sia disponibile una quantità di memoria sufficiente per ottenere performance ottimali e che il sistema possa ospitare cluster e oggetti di storage aggiuntivi con la crescita della configurazione. Non è necessario impostare limiti di memoria sulla macchina virtuale in cui è implementato Unified Manager e non attivare alcuna funzione (ad esempio, la bollatura) che impedisca al software di utilizzare la memoria allocata nel sistema.
+
+Inoltre, esiste un limite al numero di nodi che una singola istanza di Unified Manager può monitorare prima di installare una seconda istanza di Unified Manager. Per ulteriori informazioni, consulta la _Guida alle Best Practice_.
+
+http://www.netapp.com/us/media/tr-4621.pdf["Report tecnico 4621: Guida alle Best practice di Unified Manager"]
+
+Lo swapping della pagina di memoria influisce negativamente sulle prestazioni del sistema e dell'applicazione di gestione. La concorrenza per le risorse CPU non disponibili a causa dell'utilizzo complessivo dell'host può compromettere le prestazioni.
+
+
+
+== Requisito per l'utilizzo dedicato
+
+Il sistema fisico o virtuale su cui si installa Unified Manager deve essere utilizzato esclusivamente per Unified Manager e non deve essere condiviso con altre applicazioni. Altre applicazioni potrebbero consumare risorse di sistema e ridurre drasticamente le performance di Unified Manager.
+
+
+
+== Requisiti di spazio per i backup
+
+Se si intende utilizzare la funzione di backup e ripristino di Unified Manager, allocare ulteriore capacità in modo che la directory o il disco "`data`" disponga di 150 GB di spazio. Un backup può essere scritto in una destinazione locale o remota. La procedura consigliata consiste nell'identificare una postazione remota esterna al sistema host di Unified Manager che abbia almeno 150 GB di spazio.
+
+
+
+== Requisiti per la connettività host
+
+Il sistema fisico o virtuale su cui si installa Unified Manager deve essere configurato in modo da poter essere correttamente configurato `ping` il nome host dell'host stesso. In caso di configurazione IPv6, è necessario verificarlo `ping6` Al nome host per garantire che l'installazione di Unified Manager abbia esito positivo.
+
+È possibile utilizzare il nome host (o l'indirizzo IP host) per accedere all'interfaccia utente Web del prodotto. Se è stato configurato un indirizzo IP statico per la rete durante l'implementazione, è stato designato un nome per l'host di rete. Se la rete è stata configurata utilizzando DHCP, è necessario ottenere il nome host dal DNS.
+
+Se si prevede di consentire agli utenti di accedere a Unified Manager utilizzando il nome breve invece di utilizzare il nome di dominio completo (FQDN) o l'indirizzo IP, la configurazione di rete deve risolvere questo nome breve in un FQDN valido.

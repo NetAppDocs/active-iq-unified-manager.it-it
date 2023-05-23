@@ -1,0 +1,39 @@
+---
+permalink: performance-checker/task_edit_user_defined_performance_threshold_policies.html 
+sidebar: sidebar 
+keywords: edit, user-defined, performance, threshold, policies 
+summary: È possibile modificare le impostazioni di soglia per i criteri di soglia delle performance esistenti. Questo può essere utile se si ricevono troppi o pochi avvisi per determinate condizioni di soglia. 
+---
+= Modifica dei criteri di soglia delle performance definiti dall'utente
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile modificare le impostazioni di soglia per i criteri di soglia delle performance esistenti. Questo può essere utile se si ricevono troppi o pochi avvisi per determinate condizioni di soglia.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione.
+
+Non è possibile modificare il nome del criterio o il tipo di oggetto di storage monitorato per i criteri di soglia esistenti.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, selezionare *soglie evento* > *prestazioni*.
++
+Viene visualizzata la pagina soglie di performance.
+
+. Selezionare il criterio di soglia che si desidera modificare e fare clic su *Edit* (Modifica).
++
+Viene visualizzata la pagina Edit Performance Threshold Policy (Modifica policy soglia prestazioni).
+
+. Apportare le modifiche al criterio di soglia e fare clic su *Save* (Salva).
++
+Viene visualizzata nuovamente la pagina soglie di performance.
+
+
+
+Una volta salvate, le modifiche vengono aggiornate immediatamente su tutti gli oggetti di storage che utilizzano il criterio.
+
+A seconda del tipo di modifiche apportate al criterio, è possibile rivedere le impostazioni degli avvisi configurate per gli oggetti che utilizzano il criterio nella pagina Configurazione avvisi.

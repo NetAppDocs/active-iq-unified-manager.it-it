@@ -1,0 +1,64 @@
+---
+permalink: performance-checker/task_respond_to_dynamic_performance_event.html 
+sidebar: sidebar 
+keywords: dynamic, performance, qos, policy, group, throttling 
+summary: 'È possibile utilizzare Unified Manager per analizzare un evento di performance causato da un gruppo di policy QoS (Quality of Service) che rallenta il throughput del carico di lavoro (MB/s). La limitazione ha aumentato i tempi di risposta (latenza) dei carichi di lavoro dei volumi nel gruppo di policy. È possibile utilizzare le informazioni sull"evento per determinare se sono necessari nuovi limiti per i gruppi di criteri per arrestare la limitazione.' 
+---
+= Risposta a un evento di performance dinamico causato dalla limitazione del gruppo di policy QoS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile utilizzare Unified Manager per analizzare un evento di performance causato da un gruppo di policy QoS (Quality of Service) che rallenta il throughput del carico di lavoro (MB/s). La limitazione ha aumentato i tempi di risposta (latenza) dei carichi di lavoro dei volumi nel gruppo di policy. È possibile utilizzare le informazioni sull'evento per determinare se sono necessari nuovi limiti per i gruppi di criteri per arrestare la limitazione.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+* Devono esserci eventi di performance nuovi, riconosciuti o obsoleti.
+
+
+.Fasi
+. Visualizzare la pagina *Dettagli evento* per visualizzare le informazioni relative all'evento.
+. Leggere la *Descrizione*, che mostra il nome dei carichi di lavoro interessati dalla limitazione.
++
+[NOTE]
+====
+La descrizione può visualizzare lo stesso carico di lavoro per la vittima e per la vittima, perché la limitazione rende il carico di lavoro una vittima di se stesso.
+
+====
+. Registrare il nome del volume utilizzando un'applicazione come un editor di testo.
++
+È possibile cercare il nome del volume per individuarlo in un secondo momento.
+
+. Nei grafici latenza del carico di lavoro e utilizzo del carico di lavoro, selezionare *carichi di lavoro bully*.
+. Passare il cursore del mouse sui grafici per visualizzare i principali carichi di lavoro definiti dall'utente che influiscono sul gruppo di policy.
++
+Il carico di lavoro nella parte superiore dell'elenco presenta la deviazione più elevata e ha causato la limitazione. L'attività è la percentuale del limite del gruppo di policy utilizzato da ciascun carico di lavoro.
+
+. Nell'area *azioni consigliate*, fare clic sul pulsante *Analyze workload* (analizza carico di lavoro) per il carico di lavoro principale.
+. Nella pagina workload Analysis, impostare il grafico di latenza per visualizzare tutti i componenti del cluster e il grafico di throughput per visualizzare la sezione.
++
+I diagrammi di dettaglio sono visualizzati sotto il grafico di latenza e il grafico IOPS.
+
+. Confronta i limiti di QoS nel grafico *latenza* per vedere quale quantità di rallentamento ha influito sulla latenza al momento dell'evento.
++
+Il gruppo di policy QoS ha un throughput massimo di 1,000 operazioni al secondo (op/sec), che i carichi di lavoro in esso contenuti non possono superare collettivamente. Al momento dell'evento, i carichi di lavoro nel gruppo di policy avevano un throughput combinato di oltre 1,200 op/sec, il che ha fatto sì che il gruppo di policy riducesse la propria attività a 1,000 op/sec.
+
+. Confrontare i valori di *latenza di lettura/scrittura* con i valori di *lettura/scrittura/altro*.
++
+Entrambi i grafici mostrano un elevato numero di richieste di lettura con latenza elevata, ma il numero di richieste e la quantità di latenza per le richieste di scrittura sono bassi. Questi valori consentono di determinare se la latenza è aumentata grazie a un elevato throughput o a un numero elevato di operazioni. È possibile utilizzare questi valori quando si decide di impostare un limite di gruppo di criteri sul throughput o sulle operazioni.
+
+. Utilizzare Gestione di sistema di ONTAP per aumentare il limite corrente del gruppo di criteri a 1,300 op/sec.
+. Dopo una giornata, tornare a Unified Manager e inserire il carico di lavoro registrato nella fase 3 della pagina *analisi del carico di lavoro*.
+. Selezionare il grafico di dettaglio del throughput.
++
+Viene visualizzato il grafico di lettura/scrittura/altro.
+
+. Nella parte superiore della pagina, puntare il cursore sull'icona di modifica dell'evento (image:../media/opm_change_icon.gif["Icona di modifica dell'evento"]) per la modifica del limite del gruppo di criteri.
+. Confrontare il grafico *Read/Scritture/other* con il grafico *latency*.
++
+Le richieste di lettura e scrittura sono le stesse, ma la limitazione si è interrotta e la latenza è diminuita.
+
+

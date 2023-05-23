@@ -1,0 +1,37 @@
+---
+permalink: data-protection/reference_relationship_last_1_month_transfer_rate_view.html 
+sidebar: sidebar 
+keywords: relationship, 1 month, transfer rate, view 
+summary: 'La vista Relationship: Last 1 Month Transfer Rate consente di analizzare la quantità di volume di dati che viene trasferita giorno per giorno per i volumi in relazioni asincrone. Questa pagina fornisce inoltre informazioni dettagliate sui trasferimenti giornalieri e sul tempo necessario per completare l"operazione di trasferimento per volumi e macchine virtuali di storage.' 
+---
+= Relazione: Vista tasso di trasferimento dell'ultimo mese
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La vista Relationship: Last 1 Month Transfer Rate consente di analizzare la quantità di volume di dati che viene trasferita giorno per giorno per i volumi in relazioni asincrone. Questa pagina fornisce inoltre informazioni dettagliate sui trasferimenti giornalieri e sul tempo necessario per completare l'operazione di trasferimento per volumi e macchine virtuali di storage.
+
+I controlli nella parte superiore della pagina consentono di eseguire ricerche per individuare oggetti specifici, creare e applicare filtri per restringere l'elenco dei dati visualizzati, aggiungere/rimuovere/riordinare le colonne della pagina ed esportare i dati della pagina in un file .csv, .pdf o .xlsx. Dopo aver personalizzato la pagina, è possibile salvare i risultati come vista personalizzata e pianificare un report dei dati da generare e inviare via email a intervalli regolari. Ad esempio, se si desidera visualizzare le relazioni dei volumi, è possibile accedere al menu *Storage* > *Volumes* > *Relationship: Last 1 Month Transfer Rate* (velocità di trasferimento ultimo 1 mese) oppure al menu *Protection* > *Relationship* > *Relationship:Last 1 Month Transfer Rate* (protezione* > *Relazioni* > *rapporti* > *rapporti: Velocità di trasferimento ultimo 1 mese) e utilizzare
+
+* *Dimensione trasferimento totale*
++
+Visualizza le dimensioni totali del trasferimento del volume in gigabyte.
+
+* *Giorno*
++
+Visualizza il giorno in cui è stato avviato il trasferimento del volume.
+
+* *Ora di fine*
++
+Visualizza l'ora di fine del trasferimento del volume con la data.
+
+
+
+*Informazioni correlate*
+
+* Per informazioni sulla vista *Relationship:MetroCluster*, vedere link:../storage-mgmt/task_monitor_metrocluster_configurations.html["Monitoraggio delle configurazioni MetroCluster"].
+* Per informazioni sulla vista *Relationship: Last 1 Month Transfer Status* (relazione: Stato trasferimento ultimo 1 mese), vedere link:../data-protection/reference_relationship_last_1_month_transfer_status_view.html["Relazione: Vista Stato trasferimento ultimo 1 mese"].
+* Per informazioni sulla vista *relazione: Tutte le relazioni*, vedere link:../data-protection/reference_relationship_last_1_month_transfer_rate_view.html["Relazione: Vista tasso di trasferimento dell'ultimo mese"]
+

@@ -1,0 +1,20 @@
+---
+permalink: config/concept_active_iq_platform_events.html 
+sidebar: sidebar 
+keywords: feature settings, active iq, portal, events 
+summary: È possibile specificare se si desidera attivare o disattivare gli eventi del portale Active IQ. Questa impostazione consente al portale Active IQ di rilevare e visualizzare eventi aggiuntivi relativi alla configurazione del sistema, al cablaggio e così via. Questa opzione è attivata per impostazione predefinita. 
+---
+= Attivazione degli eventi del portale Active IQ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile specificare se si desidera attivare o disattivare gli eventi del portale Active IQ. Questa impostazione consente al portale Active IQ di rilevare e visualizzare eventi aggiuntivi relativi alla configurazione del sistema, al cablaggio e così via. Questa opzione è attivata per impostazione predefinita.
+
+Attivando questa funzione, Active IQ Unified Manager visualizza gli eventi rilevati dal portale Active IQ. Questi eventi vengono creati eseguendo una serie di regole per i messaggi AutoSupport generati da tutti i sistemi di storage monitorati. Questi eventi sono diversi dagli altri eventi di Unified Manager e identificano incidenti o rischi correlati a problemi di configurazione del sistema, cablaggio, Best practice e disponibilità.
+
+Puoi scegliere di attivare o disattivare questa funzione da *Generale* > *Impostazioni funzionalità* > *Eventi portale Active IQ*. Nei siti senza accesso alla rete esterna, è necessario caricare manualmente le regole da *Storage Management* > *Event Setup* > *Upload Rules*.
+
+Questa funzione è attivata per impostazione predefinita. La disattivazione di questa funzione impedisce il rilevamento o la visualizzazione degli eventi Active IQ in Unified Manager. Se disattivata, questa funzione consente a Unified Manager di ricevere gli eventi Active IQ su un cluster a un'ora predefinita di 00:15 per quel fuso orario del cluster.

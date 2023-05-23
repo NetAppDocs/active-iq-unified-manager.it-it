@@ -1,0 +1,76 @@
+---
+permalink: events/task_add_scripts.html 
+sidebar: sidebar 
+keywords: add, scripts 
+summary: 'È possibile aggiungere script in Unified Manager e associarli agli avvisi. Questi script vengono eseguiti automaticamente quando viene generato un avviso e consentono di ottenere informazioni sugli oggetti di storage per i quali viene generato l"evento.' 
+---
+= Aggiunta di script
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile aggiungere script in Unified Manager e associarli agli avvisi. Questi script vengono eseguiti automaticamente quando viene generato un avviso e consentono di ottenere informazioni sugli oggetti di storage per i quali viene generato l'evento.
+
+*Cosa ti serve*
+
+* È necessario aver creato e salvato gli script che si desidera aggiungere al server Unified Manager.
+* I formati di file supportati per gli script sono Perl, Shell, PowerShell, Python e. `.bat` file.
++
+|===
+| Piattaforma su cui è installato Unified Manager | Lingue supportate 
+
+
+ a| 
+VMware
+ a| 
+Script Perl e Shell
+
+
+
+ a| 
+Linux
+ a| 
+Script Perl, Python e Shell
+
+
+
+ a| 
+Windows
+ a| 
+Script PowerShell, Perl, Python e .bat
+
+|===
++
+** Per gli script Perl, Perl deve essere installato sul server Unified Manager. Per le installazioni VMware, Perl 5 viene installato per impostazione predefinita e gli script supportano solo ciò che Perl 5 supporta. Se Perl è stato installato dopo Unified Manager, è necessario riavviare il server Unified Manager.
+** Per gli script PowerShell, è necessario impostare il criterio di esecuzione PowerShell appropriato sul server Windows in modo che gli script possano essere eseguiti.
+
+
++
+[NOTE]
+====
+Se lo script crea file di log per tenere traccia dell'avanzamento dello script di avviso, è necessario assicurarsi che i file di log non vengano creati in alcun punto della cartella di installazione di Unified Manager.
+
+====
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+È possibile caricare script personalizzati e raccogliere i dettagli dell'evento relativi all'avviso.
+
+[NOTE]
+====
+Se questa funzionalità non viene visualizzata nell'interfaccia utente, è perché è stata disattivata dall'amministratore. Se necessario, è possibile attivare questa funzionalità da *Storage Management* > *Feature Settings*.
+
+====
+.Fasi
+. Nel riquadro di spostamento a sinistra, fare clic su *Storage Management* > *Scripts*.
+. Nella pagina *script*, fare clic su *Aggiungi*.
+. Nella finestra di dialogo *Aggiungi script*, fare clic su *Sfoglia* per selezionare il file script.
+. Inserire una descrizione per lo script selezionato.
+. Fare clic su *Aggiungi*.
+
+
+*Informazioni correlate*
+
+link:../config/task_enable_and_disable_ability_to_upload_scripts.html["Abilitazione e disabilitazione della capacità di caricare gli script"]

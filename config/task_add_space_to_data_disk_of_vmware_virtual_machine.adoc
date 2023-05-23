@@ -1,0 +1,34 @@
+---
+permalink: config/task_add_space_to_data_disk_of_vmware_virtual_machine.html 
+sidebar: sidebar 
+keywords: add, space, data, disk, vmware, virtual, machine 
+summary: 'Se è necessario aumentare la quantità di spazio sul disco dati per il database di Unified Manager, è possibile aggiungere capacità dopo l"installazione aumentando lo spazio su disco utilizzando la console di manutenzione di Unified Manager.' 
+---
+= Aggiunta di spazio al disco dati della macchina virtuale VMware
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Se è necessario aumentare la quantità di spazio sul disco dati per il database di Unified Manager, è possibile aggiungere capacità dopo l'installazione aumentando lo spazio su disco utilizzando la console di manutenzione di Unified Manager.
+
+*Cosa ti serve*
+
+* È necessario disporre dell'accesso al client vSphere.
+* La macchina virtuale non deve contenere snapshot memorizzate localmente.
+* È necessario disporre delle credenziali utente di manutenzione.
+
+
+Si consiglia di eseguire il backup della macchina virtuale prima di aumentare le dimensioni dei dischi virtuali.
+
+.Fasi
+. Nel client vSphere, selezionare la macchina virtuale Unified Manager, quindi aggiungere ulteriore capacità del disco ai dati `disk 3`. Per ulteriori informazioni, consultare la documentazione di VMware.
++
+In alcuni rari casi, l'implementazione di Unified Manager utilizza "`Hard Disk 2`" per il disco dati invece di "`Hard Disk 3`". Se questo si è verificato durante l'implementazione, aumentare lo spazio di qualsiasi disco più grande. Il disco dati avrà sempre più spazio rispetto all'altro disco.
+
+. Nel client vSphere, selezionare la macchina virtuale Unified Manager, quindi selezionare la scheda *Console*.
+. Fare clic su nella finestra della console, quindi accedere alla console di manutenzione utilizzando il nome utente e la password.
+. Nel menu principale, inserire il numero dell'opzione *Configurazione di sistema*.
+. Nel menu System Configuration (Configurazione di sistema), inserire il numero dell'opzione *aumenta dimensioni disco dati*.
+

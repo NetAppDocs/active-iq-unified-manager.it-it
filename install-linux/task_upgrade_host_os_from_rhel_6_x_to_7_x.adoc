@@ -1,0 +1,72 @@
+---
+permalink: install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html 
+sidebar: sidebar 
+keywords: upgrade, host OS, red hat enterprise, linux 7.x, 8.x 
+summary: 'Se in precedenza è stato installato Unified Manager su un sistema Red Hat Enterprise Linux 7.x e si desidera eseguire l"aggiornamento a Red Hat Enterprise Linux 8.x, seguire una delle procedure elencate in questo argomento. In entrambi i casi, è necessario creare un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, quindi ripristinare il backup su un sistema Red Hat Enterprise Linux 8.x.' 
+---
+= Aggiornamento del sistema operativo host da Red Hat Enterprise Linux 7.x a 8.x.
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Se in precedenza è stato installato Unified Manager su un sistema Red Hat Enterprise Linux 7.x e si desidera eseguire l'aggiornamento a Red Hat Enterprise Linux 8.x, seguire una delle procedure elencate in questo argomento. In entrambi i casi, è necessario creare un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, quindi ripristinare il backup su un sistema Red Hat Enterprise Linux 8.x.
+
+La differenza tra le due opzioni elencate di seguito è che in un caso si esegue il ripristino di Unified Manager su un nuovo server 8.x e nell'altro si esegue l'operazione di ripristino sullo stesso server.
+
+Poiché questa attività richiede la creazione di un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, è necessario creare il backup solo quando si è pronti a completare l'intero processo di aggiornamento in modo che Unified Manager non sia in linea per il periodo di tempo più breve. Le lacune nei dati raccolti appaiono nell'interfaccia utente di Unified Manager per il periodo di tempo durante il quale il sistema Red Hat Enterprise Linux 7.x viene spento e prima dell'avvio del nuovo Red Hat Enterprise Linux 8.x.
+
+Per istruzioni dettagliate sui processi di backup e ripristino, consultare la _Guida in linea di Active IQ Unified Manager_.
+
+*Aggiornamento del sistema operativo host mediante un nuovo server*
+
+Se si dispone di un sistema di riserva su cui è possibile installare il software Red Hat Enterprise Linux 8.x in modo da poter eseguire il ripristino di Unified Manager su quel sistema mentre il sistema Red Hat Enterprise Linux 7.x è ancora disponibile, seguire questa procedura.
+
+. Installare e configurare un nuovo server con il software Red Hat Enterprise Linux 8.x.
++
+Vedere link:reference_red_hat_and_centos_software_and_installation_requirements.html["Software Linux e requisiti di installazione"].
+
+. Sul sistema Red Hat Enterprise Linux 8.x, installate la stessa versione del software Unified Manager presente sul sistema Red Hat Enterprise Linux 7.x.
++
+Vedere link:concept_install_unified_manager_on_rhel_or_centos.html["Installazione di Unified Manager su Linux"].
+
++
+Non avviare l'interfaccia utente né configurare cluster, utenti o impostazioni di autenticazione al termine dell'installazione. Il file di backup inserisce queste informazioni durante il processo di ripristino.
+
+. Sul sistema Red Hat Enterprise Linux 7.x, dal menu Administration (Amministrazione) dell'interfaccia utente Web, creare un backup di Unified Manager e quindi copiare il file di backup (`.7z` file) e il contenuto della directory del repository del database (`/database-dumps-repo` sottodirectory) in una posizione esterna.
+. Sul sistema Red Hat Enterprise Linux 7.x, arrestare Unified Manager.
+. Sul sistema Red Hat Enterprise Linux 8.x, copiare il file di backup (`.7z` file) dalla posizione esterna a. `/opt/netapp/data/ocum-backup/` e i file di repository del database su `/database-dumps-repo` sotto la sottodirectory `/ocum-backup` directory.
+. Immettere il seguente comando per ripristinare il database di Unified Manager dal file di backup:
++
+`um backup restore -f /opt/netapp/data/ocum-backup/<backup_file_name>`
+
+. Inserire l'indirizzo IP o l'URL nel browser Web per avviare l'interfaccia utente Web di Unified Manager, quindi accedere al sistema.
+
+
+Una volta verificato il corretto funzionamento del sistema, è possibile rimuovere Unified Manager dal sistema Red Hat Enterprise Linux 7.x.
+
+*Aggiornamento del sistema operativo host sullo stesso server*
+
+Se non si dispone di un sistema libero su cui è possibile installare il software Red Hat Enterprise Linux 8.x.
+
+. Dal menu Administration (Amministrazione) dell'interfaccia utente Web, creare un backup di Unified Manager, quindi copiare il file di backup (`.7z` file) e il contenuto della directory del repository del database (`/database-dumps-repo` sottodirectory) in una posizione esterna.
+. Rimuovere l'immagine di Red Hat Enterprise Linux 7.x dal sistema e pulire completamente il sistema.
+. Installare e configurare il software Red Hat Enterprise Linux 8.x sullo stesso sistema.
++
+Vedere link:reference_red_hat_and_centos_software_and_installation_requirements.html["Software Linux e requisiti di installazione"].
+
+. Sul sistema Red Hat Enterprise Linux 8.x, installare la stessa versione del software Unified Manager del sistema Red Hat Enterprise Linux 7.x.
++
+Vedere link:concept_install_unified_manager_on_rhel_or_centos.html["Installazione di Unified Manager su Linux"].
+
++
+Non avviare l'interfaccia utente né configurare cluster, utenti o impostazioni di autenticazione al termine dell'installazione. Il file di backup inserisce queste informazioni durante il processo di ripristino.
+
+. Copiare il file di backup (`.7z` file) dalla posizione esterna a. `/opt/netapp/data/ocum-backup/` e i file di repository del database su `/database-dumps-repo` sotto la sottodirectory `/ocum-backup` directory.
+. Immettere il seguente comando per ripristinare il database di Unified Manager dal file di backup:
++
+`um backup restore -f /opt/netapp/data/ocum-backup/<backup_file_name>`
+
+. Inserire l'indirizzo IP o l'URL nel browser Web per avviare l'interfaccia utente Web di Unified Manager, quindi accedere al sistema.
+

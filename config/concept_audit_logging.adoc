@@ -1,0 +1,82 @@
+---
+permalink: config/concept_audit_logging.html 
+sidebar: sidebar 
+keywords: audit, logging 
+summary: 'È possibile rilevare se i registri di controllo sono stati compromessi con l"utilizzo dei registri di controllo. Tutte le attività eseguite da un utente vengono monitorate e registrate nei registri di controllo. I controlli vengono eseguiti per tutte le funzionalità dell"interfaccia utente e delle API esposte pubblicamente di Active IQ Unified Manager.' 
+---
+= Registrazione dell'audit
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile rilevare se i registri di controllo sono stati compromessi con l'utilizzo dei registri di controllo. Tutte le attività eseguite da un utente vengono monitorate e registrate nei registri di controllo. I controlli vengono eseguiti per tutte le funzionalità dell'interfaccia utente e delle API` esposte pubblicamente di Active IQ Unified Manager.
+
+È possibile utilizzare il registro di controllo: Visualizzazione file* per visualizzare e accedere a tutti i file di registro di controllo disponibili in Active IQ Unified Manager. I file nella visualizzazione file del registro di controllo sono elencati in base alla data di creazione. Questa vista visualizza le informazioni di tutti i log di controllo acquisiti dall'installazione o dall'aggiornamento al presente nel sistema. Ogni volta che si esegue un'azione in Unified Manager, le informazioni vengono aggiornate e sono disponibili nei registri. Lo stato di ciascun file di log viene acquisito utilizzando l'attributo "`file Integrity Status`", che viene monitorato attivamente per rilevare la manomissione o l'eliminazione del file di log. I registri di controllo possono avere uno dei seguenti stati quando i registri di controllo sono disponibili nel sistema:
+
+[cols="2*"]
+|===
+| Stato | Descrizione 
+
+
+ a| 
+ATTIVO
+ a| 
+File in cui vengono attualmente registrati i log.
+
+
+
+ a| 
+NORMALE
+ a| 
+File inattivo, compresso e memorizzato nel sistema.
+
+
+
+ a| 
+MANOMESSO
+ a| 
+File che è stato compromesso da un utente che ha modificato manualmente il file.
+
+
+
+ a| 
+MANUAL_DELETE
+ a| 
+File eliminato da un utente autorizzato.
+
+
+
+ a| 
+ROLLOVER_DELETE
+ a| 
+File che è stato eliminato a causa dell'annullamento in base a criteri di configurazione a rotazione.
+
+
+
+ a| 
+UNEXPECTED_DELETE
+ a| 
+File eliminato per motivi sconosciuti.
+
+|===
+La pagina Registro di controllo include i seguenti pulsanti di comando:
+
+* Configurare
+* Eliminare
+* Scarica
+
+
+Il pulsante *DELETE* consente di eliminare qualsiasi registro di controllo elencato nella vista registri di controllo. È possibile eliminare un registro di controllo e, facoltativamente, fornire un motivo per eliminare il file, in modo da poter determinare un'eliminazione valida in futuro. La colonna REASON (MOTIVO) elenca il motivo insieme al nome dell'utente che ha eseguito l'operazione di eliminazione.
+
+[NOTE]
+====
+L'eliminazione di un file di log causerà l'eliminazione del file dal sistema, ma la voce nella tabella DB non verrà eliminata.
+
+====
+È possibile scaricare i registri di controllo da Active IQ Unified Manager utilizzando il pulsante *DOWNLOAD* nella sezione registri di controllo ed esportare i file di registro di controllo. I file contrassegnati con "`NORMAL`" o "`MANOMESSI`" vengono scaricati in un file compresso `.gzip` formato.
+
+I file di log di audit vengono archiviati periodicamente e salvati nel database per riferimento. Prima dell'archiviazione, i registri di controllo sono dotati di firma digitale per garantire la sicurezza e l'integrità.
+
+Quando viene generato un bundle AutoSupport completo, il bundle di supporto include file di log di audit sia archiviati che attivi. Tuttavia, quando viene generato un bundle di supporto leggero, include solo i registri di controllo attivi. I registri di controllo archiviati non sono inclusi.

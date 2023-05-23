@@ -1,0 +1,29 @@
+---
+permalink: config/task_view_https_security_certificate_ocf.html 
+sidebar: sidebar 
+keywords: view, https, security, certificate 
+summary: È possibile confrontare i dettagli del certificato HTTPS con il certificato recuperato nel browser per garantire che la connessione crittografata del browser a Unified Manager non venga intercettata. 
+---
+= Visualizzazione del certificato di protezione HTTPS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile confrontare i dettagli del certificato HTTPS con il certificato recuperato nel browser per garantire che la connessione crittografata del browser a Unified Manager non venga intercettata.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+La visualizzazione del certificato consente di verificare il contenuto di un certificato rigenerato o di visualizzare i nomi Alt (SAN) del soggetto da cui è possibile accedere a Unified Manager.
+
+.Fase
+. Nel riquadro di spostamento a sinistra, fare clic su *Generale* > *certificato HTTPS*.
++
+Il certificato HTTPS viene visualizzato nella parte superiore della pagina
+
+
+
+Per visualizzare informazioni più dettagliate sul certificato di protezione rispetto a quelle visualizzate nella pagina del certificato HTTPS, è possibile visualizzare il certificato di connessione nel browser.

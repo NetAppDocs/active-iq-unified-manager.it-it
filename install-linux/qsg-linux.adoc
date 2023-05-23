@@ -1,0 +1,74 @@
+---
+permalink: install-linux/qsg-linux.html 
+sidebar: sidebar 
+keywords: quick start guide, getting started, QSG, Linux QSG, RHEL QSG, quick installation 
+summary: Guida rapida per Unified Manager su piattaforma Linux. 
+---
+= Istruzioni di avvio rapido per le installazioni Linux
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile scaricare il pacchetto di installazione e installare Unified Manager su una piattaforma fisica o virtuale Red Hat Enterprise Linux o CentOS.
+
+
+
+== Requisiti di sistema
+
+* Sistema operativo: Red Hat Enterprise Linux versione 7.x e 8.x o CentOS versione 7.x basato sull'architettura x86_64, installato utilizzando l'ambiente di base "Server with GUI" dall'opzione *Software Selection* del programma di installazione del sistema operativo
+* RAM: 12 GB, CPU: 9572 MHz in totale
+* Spazio libero su disco: 100 GB di spazio su disco in `/opt/netapp/data` 50 GB nella partizione root. Per montaggio separato `/opt` e. `/var/log` directory, assicurarsi che `/opt` Ha 15 GB, `/var/log` Ha 16 GB, e. `/tmp` Dispone di 10 GB di spazio libero.
+
+
+Per informazioni dettagliate sui requisiti di sistema e sull'installazione del prodotto in un sito protetto, consultare la link:../install-linux/concept_requirements_for_install_unified_manager.html["Requisiti per l'installazione di Unified Manager"] e a. link:http://mysupport.netapp.com/matrix["Matrice di interoperabilità"].
+
+
+
+== Installazione di Active IQ Unified Manager
+
+
+
+=== Scaricare il programma di installazione
+
+. Scaricare il `ActiveIQUnifiedManager-<version>.zip` pacchetto di installazione con certificato di firma del codice (`.pem`) e firma digitale (`.sig`) .
+. Nella directory in cui è stato scaricato il file di installazione, eseguire:
++
+`# unzip ActiveIQUnifiedManager-<version>.zip`
+
+
+
+
+
+=== Verificare l'integrità
+
+Eseguire i seguenti comandi per verificare l'integrità del pacchetto di installazione:
+
+* Eseguire `openssl x509 -pubkey -noout -in AIQUM-RHEL-CLIENT-INTER-ROOT.pem > <public_key_file_name>` per creare un file con la chiave pubblica dal certificato di firma del codice.
+* Eseguire `openssl dgst -sha256 -verify <public_key_file_name> -signature <signature_file_name> ActiveIQUnifiedManager-<version>.zip` per verificare la firma sul pacchetto di installazione.
+
+
+
+
+=== Verificare la configurazione del repository
+
+Le procedure per la configurazione dei repository Red Hat Enterprise Linux o CentOS sono specifiche del sito. È possibile utilizzare `pre_install_check.sh` script incluso nel pacchetto di installazione per verificare la configurazione del sistema operativo. Se il sistema è connesso a Internet, riceverai automaticamente le istruzioni per la configurazione dei repository Red Hat Enterprise Linux o CentOS.
+
+`# sudo ./pre_install_check.sh`
+
+
+
+=== Installare Unified Manager
+
+Unified Manager utilizza `yum` utility per installare il software e qualsiasi software dipendente. Poiché esistono immagini diverse di Red Hat Enterprise Linux o CentOS, i pacchetti installati dipendono dal software presente nelle immagini. Il `yum` l'utility determina i pacchetti software dipendenti per l'installazione. Per ulteriori informazioni sui pacchetti software dipendenti, consultare la link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Software Linux e requisiti di installazione"].
+
+Per installare Unified Manager, eseguire il seguente comando, come utente root o utilizzando `sudo`, dalla directory in cui è stato decompresso il file di installazione:
+
+`# yum install netapp-um<version>.x86_64.rpm`
+
+oppure
+
+`% sudo yum install netapp-um<version>.x86_64.rpm`
+
+Al termine dell'installazione, vengono visualizzate le informazioni per la connessione all'interfaccia utente Web di Unified Manager. Se non si riesce a connettersi all'interfaccia utente Web, fare riferimento a. `README` file fornito con il software per ulteriori informazioni sulle restrizioni della porta 443.

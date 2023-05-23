@@ -1,0 +1,389 @@
+---
+permalink: api-automation/concept_metrics_apis.html 
+sidebar: sidebar 
+keywords: view, performance, metrics 
+summary: Active IQ Unified Manager fornisce un insieme di API nella categoria /datacenter che consentono di visualizzare i dati sulle performance dei cluster e degli oggetti di storage in un data center. Queste API recuperano i dati delle performance dei diversi oggetti storage, come cluster, nodi, LUN, volumi, Aggregati e macchine virtuali storage. 
+---
+= Visualizzazione delle metriche delle performance tramite le API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Active IQ Unified Manager fornisce un set di API in `/datacenter` categoria che consente di visualizzare i dati sulle performance dei cluster e degli oggetti storage in un data center. Queste API recuperano i dati delle performance dei diversi oggetti storage come cluster, nodi, LUN, volumi, aggregati, VM di storage, interfacce FC, porte FC, porte Ethernet e interfacce IP.
+
+Il `/metrics` e. `/analytics` Le API offrono diverse viste delle metriche delle performance, utilizzando le quali è possibile eseguire il drill-down a diversi livelli di dettagli per i seguenti oggetti di storage nel data center:
+
+* cluster
+* nodi
+* VM di storage
+* aggregati
+* volumi
+* LUN
+* Interfacce FC
+* Porte FC
+* Porte Ethernet
+* Interfacce IP
+
+
+La seguente tabella traccia un confronto tra `/metrics` e. `/analytics` API per quanto riguarda i dettagli dei dati delle performance recuperati.
+
+[cols="2*"]
+|===
+| Metriche | Analytics 
+
+
+ a| 
+Dettagli delle performance per un singolo oggetto. Ad esempio, il `/datacenter/cluster/clusters/\{key}/metrics` API richiede che la chiave del cluster sia inserita come parametro di percorso per il recupero delle metriche per quel cluster specifico.
+ a| 
+Dettagli sulle performance per più oggetti dello stesso tipo in un data center. Ad esempio, il `/datacenter/cluster/clusters/analytics` API recupera le metriche collettive di tutti i cluster di un data center.
+
+
+
+ a| 
+Esempio di metriche di performance per un oggetto storage basato sul parametro dell'intervallo di tempo per il recupero.
+ a| 
+Valore aggregato di alto livello delle performance per un determinato tipo di oggetto storage per un determinato periodo (oltre 72 ore).
+
+
+
+ a| 
+Vengono recuperati i dettagli di base dell'oggetto, ad esempio i dettagli di un nodo o di un cluster.
+ a| 
+Non vengono recuperati dettagli specifici.
+
+
+
+ a| 
+I contatori accumulati, ad esempio minimo, massimo, 95° percentile e i valori medi delle prestazioni in un determinato periodo di tempo, vengono recuperati per un singolo oggetto, ad esempio lettura, scrittura, totale e altri contatori.
+ a| 
+Viene visualizzato un singolo valore aggregato per tutti gli oggetti dello stesso tipo.
+
+
+
+ a| 
+L'intervallo di tempo e i dati di esempio si basano sulla seguente pianificazione: L'intervallo di tempo per i dati. Ad esempio 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1m, 2m, 3m, 6 m. Si ottengono campioni di 1 ora se l'intervallo è superiore a 3 giorni (72 ore), altrimenti si tratta di campioni di 5 minuti. Il periodo per ciascun intervallo di tempo è il seguente:
+
+* 1h: Metriche nell'ora più recente campionate in 5 minuti.
+* 12h: Metriche nelle ultime 12 ore campionate in 5 minuti.
+* 1d: Metriche nell'ultimo giorno campionate in 5 minuti.
+* 2d: Metriche degli ultimi 2 giorni campionate in 5 minuti.
+* 3d: Metriche degli ultimi 3 giorni campionate in 5 minuti.
+* 15d: Metriche relative ai 15 giorni più recenti campionati in 1 ora.
+* 1w: Metriche della settimana più recente campionate in 1 ora.
+* 1M: Metriche nel mese più recente campionate in 1 ora.
+* 2 m: Metriche degli ultimi 2 mesi campionate in un'ora.
+* 3 milioni: Metriche degli ultimi 3 mesi campionate in 1 ora.
+* 6M: Metriche degli ultimi 6 mesi campionati in 1 ora.
++
+Valori disponibili: 1h, 12h, 1d, 2d, 3d, 15d, 1w, 1m, 2m, 3m, 6 m.
+
++
+Valore predefinito: 1h
+
+
+ a| 
+Oltre 72 ore. La durata del calcolo di questo campione è rappresentata nel formato standard ISO-8601.
+
+|===
+
+
+== Esempio di output per le API di metriche
+
+Ad esempio, il `/datacenter/cluster/nodes/\{key}/metrics` API recupera i seguenti dettagli (tra gli altri) per un nodo:
+
+
+NOTE: Il 95 percentile nel valore di riepilogo indica che il 95% dei campioni raccolti per il periodo ha un valore di contatore inferiore al valore specificato come 95 percentile.
+
+[listing]
+----
+{
+     "iops": {
+       "local": {
+         "other": 100.53,
+         "read": 100.53,
+         "total": 100.53,
+         "write": 100.53
+       },
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "latency": {
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "performance_capacity": {
+       "available_iops_percent": 0,
+       "free_percent": 0,
+       "system_workload_percent": 0,
+       "used_percent": 0,
+       "user_workload_percent": 0
+     },
+     "throughput": {
+       "other": 100.53,
+       "read": 100.53,
+       "total": 100.53,
+       "write": 100.53
+     },
+     "timestamp": "2018-01-01T12:00:00-04:00",
+     "utilization_percent": 0
+   }
+ ],
+ "start_time": "2018-01-01T12:00:00-04:00",
+ "summary": {
+   "iops": {
+     "local_iops": {
+       "other": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "read": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "total": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       },
+       "write": {
+         "95th_percentile": 28,
+         "avg": 28,
+         "max": 28,
+         "min": 5
+       }
+     },
+----
+
+
+== Esempio di output per le API di analisi
+
+Ad esempio, il `/datacenter/cluster/nodes/analytics` API recupera i seguenti valori (tra gli altri) per tutti i nodi:
+
+[listing]
+----
+{     "iops": 1.7471,
+     "latency": 60.0933,
+     "throughput": 5548.4678,
+     "utilization_percent": 4.8569,
+     "period": 72,
+     "performance_capacity": {
+       "used_percent": 5.475,
+       "available_iops_percent": 168350
+     },
+     "node": {
+       "key": "37387241-8b57-11e9-8974-00a098e0219a:type=cluster_node,uuid=95f94e8d-8b4e-11e9-8974-00a098e0219a",
+       "uuid": "95f94e8d-8b4e-11e9-8974-00a098e0219a",
+       "name": "ocum-infinity-01",
+       "_links": {
+         "self": {
+           "href": "/api/datacenter/cluster/nodes/37387241-8b57-11e9-8974-00a098e0219a:type=cluster_node,uuid=95f94e8d-8b4e-11e9-8974-00a098e0219a"
+         }
+       }
+     },
+     "cluster": {
+       "key": "37387241-8b57-11e9-8974-00a098e0219a:type=cluster,uuid=37387241-8b57-11e9-8974-00a098e0219a",
+       "uuid": "37387241-8b57-11e9-8974-00a098e0219a",
+       "name": "ocum-infinity",
+       "_links": {
+         "self": {
+           "href": "/api/datacenter/cluster/clusters/37387241-8b57-11e9-8974-00a098e0219a:type=cluster,uuid=37387241-8b57-11e9-8974-00a098e0219a"
+         },
+     "_links": {
+       "self": {
+         "href": "/api/datacenter/cluster/nodes/analytics"
+       }
+     }
+   },
+----
+
+
+== Elenco delle API disponibili
+
+La seguente tabella descrive `/metrics` e. `/analytics` API nei dettagli.
+
+[NOTE]
+====
+Gli IOPS e le metriche delle performance restituite da queste API sono valori doppi, ad esempio `100.53`. Il filtraggio di questi valori float in base ai caratteri pipe (|) e jolly (*) non è supportato.
+
+====
+[cols="3*"]
+|===
+| Verbo HTTP | Percorso | Descrizione 
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/clusters/\{key}/metrics`
+ a| 
+Recupera i dati delle performance (campione e riepilogo) per un cluster specificato dal parametro di input della chiave del cluster. Vengono restituite informazioni quali la chiave del cluster e UUID, l'intervallo di tempo, gli IOPS, il throughput e il numero di campioni.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/clusters/analytics`
+ a| 
+Recupera metriche di performance di alto livello per tutti i cluster di un data center. È possibile filtrare i risultati in base ai criteri richiesti. Vengono restituiti valori come IOPS aggregati, throughput e periodo di raccolta (in ore).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/nodes/\{key}/metrics`
+ a| 
+Recupera i dati delle performance (campione e riepilogo) per un nodo specificato dal parametro di input della chiave del nodo. Vengono restituite informazioni quali UUID del nodo, intervallo di tempo, riepilogo degli IOPS, throughput, latenza e performance, numero di campioni raccolti e percentuale utilizzata.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/nodes/analytics`
+ a| 
+Recupera metriche di performance di alto livello per tutti i nodi di un data center. È possibile filtrare i risultati in base ai criteri richiesti. Vengono restituite informazioni, come chiavi di nodo e cluster, e valori, come IOPS aggregati, throughput e periodo di raccolta (in ore).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/aggregates/\{key}/metrics`
+ a| 
+Recupera i dati delle performance (campione e riepilogo) per un aggregato specificato dal parametro di input della chiave aggregata. Vengono restituite informazioni quali intervallo di tempo, riepilogo degli IOPS, latenza, throughput e capacità delle performance, il numero di campioni raccolti per ciascun contatore e la percentuale utilizzata.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/aggregates/analytics`
+ a| 
+Recupera metriche di performance di alto livello per tutti gli aggregati di un data center. È possibile filtrare i risultati in base ai criteri richiesti. Vengono restituite informazioni, come chiavi di aggregato e cluster, e valori, come IOPS aggregati, throughput e periodo di raccolta (in ore).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/luns/\{key}/metrics`
+
+`/datacenter/storage/volumes/\{key}/metrics`
+ a| 
+Recupera i dati sulle prestazioni (campione e riepilogo) per una LUN o una condivisione di file (volume) specificata dal parametro di input della chiave LUN o volume. Informazioni, come il riepilogo degli IOPS minimi, massimi e medi di lettura, scrittura e totale, latenza e throughput, e il numero di campioni raccolti per ciascun contatore viene restituito.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/luns/analytics`
+
+`/datacenter/storage/volumes/analytics`
+ a| 
+Recupera metriche di performance di alto livello per tutti i LUN o volumi in un data center. È possibile filtrare i risultati in base ai criteri richiesti. Vengono restituite informazioni, come le chiavi di storage VM e cluster, e valori, come IOPS aggregati, throughput e periodo di raccolta (in ore).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/svm/svms/{key}/metrics`
+ a| 
+Recupera i dati sulle performance (campione e riepilogo) per una VM di storage specificata dal parametro di input della chiave della VM di storage. Riepilogo degli IOPS in base a ciascun protocollo supportato, ad esempio `nvmf, fcp, iscsi,` e. `nfs`, throughput, latenza e il numero di campioni raccolti vengono restituiti.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/svm/svms/analytics`
+ a| 
+Recupera metriche di performance di alto livello per tutte le VM di storage in un data center. È possibile filtrare i risultati in base ai criteri richiesti. Vengono restituite informazioni come UUID VM storage, IOPS aggregati, latenza, throughput e periodo di raccolta (in ore).
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ethernet/ports/{key}/metrics`
+ a| 
+Recupera le metriche delle prestazioni per una porta ethernet specifica specificata dal parametro di input della chiave della porta. Quando viene fornito un intervallo (intervallo di tempo) dall'intervallo supportato, l'API restituisce i contatori accumulati, ad esempio i valori minimi, massimi e medi delle prestazioni nel periodo di tempo.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ethernet/ports/analytics`
+ a| 
+Recupera le metriche di performance di alto livello per tutte le porte ethernet nel tuo ambiente di data center. Vengono restituite informazioni quali la chiave del cluster e del nodo e UUID, il throughput, il periodo di raccolta e la percentuale di utilizzo per le porte. È possibile filtrare il risultato in base ai parametri disponibili, ad esempio la chiave della porta, la percentuale di utilizzo, il nome del cluster e del nodo, l'UUID e così via.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/interfaces/{key}/metrics`
+ a| 
+Recupera le metriche delle performance per una specifica interfaccia FC di rete specificata dal parametro di input della chiave di interfaccia. Quando viene fornito un intervallo (intervallo di tempo) dall'intervallo supportato, l'API restituisce i contatori accumulati, ad esempio i valori minimi, massimi e medi delle prestazioni nel periodo di tempo.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/interfaces/analytics`
+ a| 
+Recupera le metriche di performance di alto livello per tutte le porte ethernet nel tuo ambiente di data center. Vengono restituite informazioni quali cluster e chiave di interfaccia FC e UUID, throughput, IOPS, latenza e VM di storage. È possibile filtrare il risultato in base ai parametri disponibili, ad esempio il nome del cluster e dell'interfaccia FC, UUID, VM di storage, throughput e così via.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/ports/{key}/metrics`
+ a| 
+Recupera le metriche delle performance per una porta FC specifica specificata dal parametro di input della chiave della porta. Quando viene fornito un intervallo (intervallo di tempo) dall'intervallo supportato, l'API restituisce i contatori accumulati, ad esempio i valori minimi, massimi e medi delle prestazioni nel periodo di tempo.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/fc/ports/analytics`
+ a| 
+Recupera le metriche di performance di alto livello per tutte le porte FC nel tuo ambiente di data center. Vengono restituite informazioni quali la chiave del cluster e del nodo e UUID, il throughput, il periodo di raccolta e la percentuale di utilizzo per le porte. È possibile filtrare il risultato in base ai parametri disponibili, ad esempio la chiave della porta, la percentuale di utilizzo, il nome del cluster e del nodo, l'UUID e così via.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ip/interfaces/{key}/metrics`
+ a| 
+Recupera le metriche di performance per un'interfaccia IP di rete come specificato dal parametro di input della chiave di interfaccia. Quando viene fornito un intervallo (intervallo di tempo) dall'intervallo supportato, l'API restituisce informazioni, come il numero di campioni, i contatori accumulati, il throughput e il numero di pacchetti ricevuti e trasmessi.
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/network/ip/interfaces/analytics`
+ a| 
+Recupera le metriche di performance di alto livello per tutte le interfacce IP di rete nell'ambiente del data center. Vengono restituite informazioni quali il cluster e la chiave di interfaccia IP, UUID, throughput, IOPS e latenza. È possibile filtrare il risultato in base ai parametri disponibili, ad esempio il nome del cluster e dell'interfaccia IP e UUID, IOPS, latenza, throughput e così via.
+
+|===

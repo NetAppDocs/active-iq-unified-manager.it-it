@@ -1,0 +1,99 @@
+---
+permalink: reporting/concept_unified_manager_databases_accessible_for_reporting.html 
+sidebar: sidebar 
+keywords: unified manager, databases, access, custom, reporting 
+summary: Unified Manager utilizza un database MySQL per memorizzare i dati dei cluster monitorati. I dati vengono memorizzati in diversi schemi nel database MySQL. 
+---
+= Database di Unified Manager accessibili per la creazione di report personalizzati
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager utilizza un database MySQL per memorizzare i dati dei cluster monitorati. I dati vengono memorizzati in diversi schemi nel database MySQL.
+
+Sono disponibili tutti i dati delle tabelle dei seguenti database:
+
+[cols="2*"]
+|===
+| Database | Descrizione 
+
+
+ a| 
+modello_netapp
+ a| 
+Dati sugli oggetti nei controller ONTAP.
+
+
+
+ a| 
+vista_modello_netapp
+ a| 
+Dati sugli oggetti sui controller ONTAP, adatti per il consumo degli strumenti di report.
+
+
+
+ a| 
+netapp_performance
+ a| 
+Contatori delle performance specifici del cluster.
+
+
+
+ a| 
+ocum
+ a| 
+Dati e informazioni dell'applicazione Unified Manager per supportare il filtraggio, l'ordinamento e il calcolo di alcuni campi derivati dell'interfaccia utente.
+
+
+
+ a| 
+ocum_report
+ a| 
+Dati per la configurazione dell'inventario e informazioni relative alla capacità.
+
+
+
+ a| 
+ocum_report_birt
+ a| 
+Viste per la configurazione dell'inventario e i dati relativi alla capacità, adatte per il consumo degli strumenti di report.
+
+
+
+ a| 
+opm
+ a| 
+Impostazioni di configurazione delle performance e informazioni sulle soglie.
+
+
+
+ a| 
+scalemonitor
+ a| 
+Dati relativi allo stato di salute e ai problemi di performance dell'applicazione Unified Manager.
+
+
+
+ a| 
+modello_vmware
+ a| 
+Dati a oggetti VMware per datastore ospitati sullo storage NetApp.
+
+
+
+ a| 
+vista_modello_vmware
+ a| 
+Viste per i dati a oggetti VMware per datastore ospitati sullo storage NetApp, adatte per l'utilizzo dei tool di report.
+
+
+
+ a| 
+vmware_performance
+ a| 
+Dati del contatore delle performance VMware per datastore ospitati sullo storage NetApp.
+
+|===
+Un utente di reporting -- un utente di database con il ruolo Schema report -- è in grado di accedere ai dati in queste tabelle. Questo utente ha accesso in sola lettura ai report e ad altre viste del database direttamente dal database di Unified Manager. Si noti che questo utente non dispone dell'autorizzazione per accedere alle tabelle che contengono dati utente o informazioni sulle credenziali del cluster.

@@ -1,0 +1,35 @@
+---
+permalink: reporting/task_create_report_to_view_volume_transfers_based_on_transfer_size.html 
+sidebar: sidebar 
+keywords: create, report, view, volume, transfers, transfer size 
+summary: È possibile creare un report per visualizzare i trasferimenti di volume in base alle dimensioni del trasferimento. 
+---
+= Creazione di un report per visualizzare i trasferimenti di volume in base alle dimensioni del trasferimento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report per visualizzare i trasferimenti di volume in base alle dimensioni del trasferimento.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Attenersi alla seguente procedura per creare una vista personalizzata per i trasferimenti di volume in base alle dimensioni di trasferimento, quindi pianificare la creazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Volumes*.
+. Nel menu View (Visualizza), selezionare *Relationship* (relazione) > *Last 1 Month Transfer Rate* (tasso di trasferimento ultimo 1 mese).
+. Fare clic sulla parte superiore della colonna "`Total Transfer Size`" per ordinare i trasferimenti di volume in base alle dimensioni.
+. Salvare la vista con un nome specifico che rifletta ciò che viene visualizzato, ad esempio "`Volumes by transfer size`" (volumi per dimensione trasferimento).
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, è possibile analizzare le relazioni dei volumi in base alle dimensioni del trasferimento.

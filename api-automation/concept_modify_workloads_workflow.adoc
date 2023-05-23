@@ -1,0 +1,346 @@
+---
+permalink: api-automation/concept_modify_workloads_workflow.html 
+sidebar: sidebar 
+keywords: modify, storage, workloads 
+summary: 'La modifica dei carichi di lavoro dello storage consiste nell"aggiornare le LUN o le condivisioni di file con parametri mancanti o nella modifica dei parametri esistenti.' 
+---
+= Modifica dei carichi di lavoro dello storage mediante API
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La modifica dei carichi di lavoro dello storage consiste nell'aggiornare le LUN o le condivisioni di file con parametri mancanti o nella modifica dei parametri esistenti.
+
+Questo flusso di lavoro prende l'esempio dell'aggiornamento dei livelli di Performance Service per LUN e condivisioni di file.
+
+[NOTE]
+====
+Il flusso di lavoro presuppone che il LUN o la condivisione di file sia stata fornita con i livelli di Performance Service.
+
+====
+
+
+== Modifica delle condivisioni di file
+
+Durante la modifica di una condivisione file, è possibile aggiornare i seguenti parametri:
+
+* Capacità o dimensione.
+* Impostazione online o offline.
+* Policy di efficienza dello storage.
+* Performance Service Level.
+* Impostazioni dell'elenco di controllo di accesso (ACL).
+* Esportare le impostazioni dei criteri. È inoltre possibile eliminare i parametri dei criteri di esportazione e ripristinare le regole predefinite (vuote) dei criteri di esportazione nella condivisione file.
+
+
+[NOTE]
+====
+Durante un'esecuzione API singola, è possibile aggiornare un solo parametro.
+
+====
+Questa procedura descrive l'aggiunta di un livello di servizio Performance a una condivisione file. È possibile utilizzare la stessa procedura per aggiornare qualsiasi altra proprietà di condivisione file.
+
+. Ottenere la chiave di condivisione file CIFS o NFS della condivisione file che si desidera aggiornare. Questa API interroga tutte le condivisioni di file nel data center. Saltare questo passaggio se si conosce già la chiave di condivisione file.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/file-shares`
+
+|===
+. Visualizzare i dettagli della condivisione file eseguendo la seguente API con la chiave di condivisione file ottenuta.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
++
+Visualizzare i dettagli della condivisione file nell'output.
+
++
+[listing]
+----
+"assigned_performance_service_level": {
+        "key": null,
+        "name": "Unassigned",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+      },
+----
+. Ottenere la chiave per il livello di servizio Performance che si desidera assegnare a questa condivisione file. Al momento non è stata assegnata alcuna policy.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+Performance livelli di servizio
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/performance-service-levels`
+
+|===
++
+[NOTE]
+====
+È possibile recuperare i dettagli dei livelli di Performance Service definiti dal sistema impostando `system_defined` inserire il parametro in `true`. Dall'output, ottenere la chiave del Performance Service Level che si desidera applicare alla condivisione file.
+
+====
+. Applicare il Performance Service Level alla condivisione file.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+Provider di storage
+ a| 
+PATCH
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
++
+Nell'input, è necessario specificare solo il parametro che si desidera aggiornare, insieme alla chiave di condivisione del file. In questo caso, è la chiave del Performance Service Level.
+
++
+*CURL campione*
+
++
+[listing]
+----
+curl -X POST "https://<hostname>/api/storage-provider/file-shares"`-H "accept: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{
+\"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" },
+}"
+----
++
+L'output JSON visualizza un oggetto Job che è possibile utilizzare per verificare se gli endpoint di accesso sui nodi home e partner sono stati creati correttamente.
+
+. Verificare se il livello di servizio delle prestazioni è stato aggiunto alla condivisione file utilizzando il tasto oggetto lavoro visualizzato nell'output.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+Server di gestione
+ a| 
+OTTIENI
+ a| 
+`/management-server/jobs/\{key}`
+
+|===
++
+Se si esegue una query in base all'ID dell'oggetto Job, viene visualizzato se la condivisione file viene aggiornata correttamente. In caso di errore, risolvere il problema ed eseguire nuovamente l'API. Una volta completata la creazione, eseguire una query nella condivisione file per visualizzare l'oggetto modificato:
+
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/file-shares/\{key}`
+
+|===
++
+Visualizzare i dettagli della condivisione file nell'output.
+
++
+[listing]
+----
+"assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+        }
+----
+
+
+
+
+== Aggiornamento dei LUN
+
+Durante l'aggiornamento di un LUN, è possibile modificare i seguenti parametri:
+
+* Capacità o dimensione
+* Impostazione online o offline
+* Policy di efficienza dello storage
+* Performance Service Level
+* Mappa del LUN
+
+
+[NOTE]
+====
+Durante un'esecuzione API singola, è possibile aggiornare un solo parametro.
+
+====
+Questa procedura descrive l'aggiunta di un livello di servizio delle prestazioni a un LUN. È possibile utilizzare la stessa procedura per aggiornare qualsiasi altra proprietà LUN.
+
+. Ottenere la chiave LUN del LUN che si desidera aggiornare. Questa API restituisce i dettagli di tutte LE LUN nel data center. Saltare questo passaggio se si conosce già la chiave LUN.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+Provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/luns`
+
+|===
+. Visualizzare i dettagli del LUN eseguendo la seguente API con la chiave LUN ottenuta.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+Provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/luns/\{key}`
+
+|===
++
+Visualizzare i dettagli del LUN nell'output. È possibile notare che non è stato assegnato alcun livello di servizio delle prestazioni a questo LUN.
+
++
+*Esempio di output JSON*
+
++
+[listing]
+----
+
+  "assigned_performance_service_level": {
+        "key": null,
+        "name": "Unassigned",
+        "peak_iops": null,
+        "expected_iops": null,
+        "_links": {}
+      },
+----
+. Ottenere la chiave per il livello di servizio Performance che si desidera assegnare al LUN.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+Performance livelli di servizio
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/performance-service-levels`
+
+|===
++
+[NOTE]
+====
+È possibile recuperare i dettagli dei livelli di Performance Service definiti dal sistema impostando `system_defined` inserire il parametro in `true`. Dall'output, ottenere la chiave del Performance Service Level che si desidera applicare al LUN.
+
+====
+. Applicare il livello di servizio Performance sul LUN.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+Provider di storage
+ a| 
+PATCH
+ a| 
+`/storage-provider/lun/\{key}`
+
+|===
++
+Nell'input, è necessario specificare solo il parametro che si desidera aggiornare, insieme alla chiave LUN. In questo caso, è la chiave del livello di servizio Performance.
+
++
+*CURL campione*
+
++
+[listing]
+----
+curl -X PATCH "https://<hostname>/api/storage-provider/luns/7d5a59b3-953a-11e8-8857-00a098dcc959" -H "accept: application/json" -H "Content-Type: application/json" H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{ \"performance_service_level\": { \"key\": \"1251e51b-069f-11ea-980d-fa163e82bbf2\" }"
+----
++
+L'output JSON visualizza una chiave oggetto lavoro che è possibile utilizzare per verificare il LUN aggiornato.
+
+. Visualizzare i dettagli del LUN eseguendo la seguente API con la chiave LUN ottenuta.
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+Provider di storage
+ a| 
+OTTIENI
+ a| 
+`/storage-provider/luns/\{key}`
+
+|===
++
+Visualizzare i dettagli del LUN nell'output. È possibile notare che il livello di servizio delle prestazioni è assegnato a questo LUN.
+
++
+*Esempio di output JSON*
+
++
+[listing]
+----
+
+     "assigned_performance_service_level": {
+        "key": "1251e51b-069f-11ea-980d-fa163e82bbf2",
+        "name": "Value",
+        "peak_iops": 75,
+        "expected_iops": 75,
+        "_links": {
+            "self": {
+                "href": "/api/storage-provider/performance-service-levels/1251e51b-069f-11ea-980d-fa163e82bbf2"
+            }
+----
+

@@ -1,0 +1,68 @@
+---
+permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
+sidebar: sidebar 
+keywords: unified manager, migrate, virtual, appliance, linux system 
+summary: 'Se si desidera modificare il sistema operativo host su cui è in esecuzione Unified Manager, è possibile ripristinare un backup del dump del database MySQL di Unified Manager da un"appliance virtuale a un sistema Red Hat Enterprise Linux o CentOS Linux.' 
+---
+= Migrazione di un'appliance virtuale Unified Manager a un sistema Linux
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Se si desidera modificare il sistema operativo host su cui è in esecuzione Unified Manager, è possibile ripristinare un backup del dump del database MySQL di Unified Manager da un'appliance virtuale a un sistema Red Hat Enterprise Linux o CentOS Linux.
+
+*Cosa ti serve*
+
+* Sull'appliance virtuale:
++
+** È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+** È necessario conoscere il nome dell'utente di manutenzione di Unified Manager per l'operazione di ripristino.
+
+
+* Sul sistema Linux:
++
+** Unified Manager deve essere installato su un server Linux seguendo le istruzioni riportate in link:../install-linux/concept_install_unified_manager_on_rhel_or_centos.html["Installazione di Unified Manager su sistemi Linux"].
+** La versione di Unified Manager su questo server deve essere uguale a quella dell'appliance virtuale da cui si utilizza il file di backup.
+** Non avviare l'interfaccia utente né configurare cluster, utenti o impostazioni di autenticazione sul sistema Linux dopo l'installazione. Il file di backup inserisce queste informazioni durante il processo di ripristino.
+** È necessario disporre delle credenziali dell'utente root per l'host Linux.
+
+
+
+
+Questi passaggi descrivono come creare un file di backup sull'appliance virtuale, copiare i file di backup nel sistema Red Hat Enterprise Linux o CentOS e ripristinare il backup del database nel nuovo sistema.
+
+.Fasi
+. Sull'appliance virtuale, fare clic su *Management* > *Database Backup*.
+. Nella pagina *Database Backup*, fare clic su *Backup Settings*.
+. Modificare il percorso di backup in /jail/support.
+. Nella sezione Schedule (programma), selezionare *Scheduled Daily* (giornaliero pianificato) e inserire un intervallo di tempo che deve trascorrere alcuni minuti prima dell'ora corrente, in modo che il backup venga creato a breve.
+. Fare clic su *Apply* (Applica).
+. Attendere alcune ore per la creazione del backup.
++
+Un backup completo può superare 1 GB e può richiedere da tre a quattro ore per il completamento.
+
+. Accedere come utente root all'host Linux su cui è installato Unified Manager e copiare i file di backup da /support sull'appliance virtuale utilizzando SCP.`root@<rhel_server>:/# scp -r admin@<vapp_server_ip_address>:/support/* .`
++
+`root@ocum_rhel-21:/# scp -r admin@10.10.10.10:/support/* .`
+
++
+Assicurarsi di aver copiato il file di backup .7z e tutti i file repository .7z nella sottodirectory /database-dump-repo.
+
+. Al prompt dei comandi, ripristinare il backup: `um backup restore -f /<backup_file_path>/<backup_file_name>`
++
+`um backup restore -f /UM_9.7.N151113.1348_backup_unix_02-12-2019-04-16.7z`
+
+. Al termine dell'operazione di ripristino, accedere all'interfaccia utente Web di Unified Manager.
+
+
+È necessario eseguire le seguenti operazioni:
+
+* Generare un nuovo certificato di sicurezza HTTPS e riavviare il server Unified Manager.
+* Modificare il percorso di backup sull'impostazione predefinita per il sistema Linux (/data/ocum-backup) o su un nuovo percorso di propria scelta, perché non esiste un percorso /jail/support sul sistema Linux.
+* Riconfigurare entrambi i lati della connessione di Workflow Automation, se si utilizza WFA.
+* Riconfigurare le impostazioni di autenticazione SAML, se si utilizza SAML.
+
+
+Dopo aver verificato che tutto funziona come previsto sul sistema Linux, è possibile arrestare e rimuovere l'appliance virtuale Unified Manager.

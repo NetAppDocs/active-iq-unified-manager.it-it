@@ -1,0 +1,128 @@
+---
+permalink: events/reference_port_events.html 
+sidebar: sidebar 
+keywords: port, events, impact area, availability, performance 
+summary: Gli eventi delle porte forniscono informazioni sullo stato delle porte del cluster, in modo da poter monitorare le modifiche o i problemi della porta, ad esempio se la porta non è attiva. 
+---
+= Eventi delle porte
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Gli eventi delle porte forniscono informazioni sullo stato delle porte del cluster, in modo da poter monitorare le modifiche o i problemi della porta, ad esempio se la porta non è attiva.
+
+
+
+== Area di impatto: Disponibilità
+
+|===
+| Nome evento (nome trap) | Livello di impatto | Tipo di origine | Severità 
+
+
+ a| 
+Stato porta inattivo(ocumEvtPortStatusDown)
+ a| 
+Incidente
+ a| 
+Nodo
+ a| 
+Critico
+
+|===
+
+
+== Area di impatto: Performance
+
+|===
+| Nome evento (nome trap) | Livello di impatto | Tipo di origine | Severità 
+
+
+ a| 
+Violazione della soglia critica della porta di rete MB/s (ocumNetworkPortMbpsIncident)
+ a| 
+Incidente
+ a| 
+Porta
+ a| 
+Critico
+
+
+
+ a| 
+Soglia di avviso della porta di rete MB/s non rispettata (ocumNetworkPortMbpsWarning)
+ a| 
+Rischio
+ a| 
+Porta
+ a| 
+Attenzione
+
+
+
+ a| 
+Violazione della soglia critica della porta FCP MB/s (ocumFcpPortMbpsIncident)
+ a| 
+Incidente
+ a| 
+Porta
+ a| 
+Critico
+
+
+
+ a| 
+Soglia di avviso MB/s della porta FCP non rispettata (ocumFcpPortMbpsWarning)
+ a| 
+Rischio
+ a| 
+Porta
+ a| 
+Attenzione
+
+
+
+ a| 
+Violazione della soglia critica di utilizzo della porta di rete (ocumNetworkPortUtilisationIncident)
+ a| 
+Incidente
+ a| 
+Porta
+ a| 
+Critico
+
+
+
+ a| 
+Soglia avviso utilizzo porta di rete non rispettata (ocumNetworkPortUtilisationWarning)
+ a| 
+Rischio
+ a| 
+Porta
+ a| 
+Attenzione
+
+
+
+ a| 
+Violazione della soglia critica di utilizzo della porta FCP (ocumFcpPortUtilisationIncident)
+ a| 
+Incidente
+ a| 
+Porta
+ a| 
+Critico
+
+
+
+ a| 
+Soglia avviso utilizzo porta FCP non rispettata (ocumFcpPortUtilizationWarning)
+ a| 
+Rischio
+ a| 
+Porta
+ a| 
+Attenzione
+
+|===

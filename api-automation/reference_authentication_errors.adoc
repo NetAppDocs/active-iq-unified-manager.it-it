@@ -1,0 +1,111 @@
+---
+permalink: api-automation/reference_authentication_errors.html 
+sidebar: sidebar 
+keywords: http, status, code, active iq, unified manager 
+summary: 'Durante l"esecuzione delle API o la risoluzione dei problemi, è necessario conoscere i vari codici di stato HTTP e i codici di errore utilizzati dalle API Active IQ Unified Manager.' 
+---
+= Codici di stato HTTP utilizzati in Active IQ Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Durante l'esecuzione delle API o la risoluzione dei problemi, è necessario conoscere i vari codici di stato HTTP e i codici di errore utilizzati dalle API Active IQ Unified Manager.
+
+La seguente tabella elenca i codici di errore relativi all'autenticazione:
+
+[cols="3*"]
+|===
+| Codice di stato HTTP | Titolo del codice di stato | Descrizione 
+
+
+ a| 
+200
+ a| 
+OK
+ a| 
+Restituito in caso di esecuzione riuscita di chiamate API sincrone.
+
+
+
+ a| 
+201
+ a| 
+Creato
+ a| 
+Creazione di nuove risorse mediante chiamate sincrone, ad esempio la configurazione di Active Directory.
+
+
+
+ a| 
+202
+ a| 
+Accettato
+ a| 
+Restituito in caso di esecuzione corretta di chiamate asincrone per funzioni di provisioning, come la creazione di LUN e condivisioni di file.
+
+
+
+ a| 
+400
+ a| 
+Richiesta non valida
+ a| 
+Indica un errore di convalida dell'input. L'utente deve correggere gli input, ad esempio chiavi valide in un corpo di richiesta.
+
+
+
+ a| 
+401
+ a| 
+Richiesta non autorizzata
+ a| 
+Non sei autorizzato a visualizzare la risorsa/non autorizzato.
+
+
+
+ a| 
+403
+ a| 
+Richiesta non consentita
+ a| 
+L'accesso alla risorsa che si stava tentando di raggiungere è vietato.
+
+
+
+ a| 
+404
+ a| 
+Risorsa non trovata
+ a| 
+La risorsa che stavi cercando di raggiungere non è stata trovata.
+
+
+
+ a| 
+405
+ a| 
+Metodo non consentito
+ a| 
+Metodo non consentito.
+
+
+
+ a| 
+429
+ a| 
+Troppe richieste
+ a| 
+Viene restituito quando l'utente invia troppe richieste entro un tempo specifico.
+
+
+
+ a| 
+500
+ a| 
+Errore interno del server
+ a| 
+Errore interno del server. Impossibile ottenere la risposta dal server. Questo errore interno del server potrebbe essere permanente o meno. Ad esempio, se si esegue un `GET` oppure `GET ALL` operazione e si riceve questo errore, si consiglia di ripetere questa operazione per almeno cinque tentativi. Se si tratta di un errore permanente, il codice di stato restituito continua a essere 500. Se l'operazione ha esito positivo, il codice di stato restituito è 200.
+
+|===

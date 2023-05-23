@@ -1,0 +1,40 @@
+---
+permalink: health-checker/task_perform_diagnotstic_actions_for_volume_offline_conditions.html 
+sidebar: sidebar 
+keywords: perform, diagnostic actions, volume, offline, conditions 
+summary: Dopo aver effettuato la navigazione nella pagina dei dettagli relativi al volume/salute di un volume che risulta offline, è possibile cercare ulteriori informazioni utili per la diagnosi della condizione di volume offline. 
+---
+= Esecuzione di azioni diagnostiche per condizioni di volume offline
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dopo aver effettuato la navigazione nella pagina dei dettagli relativi al volume/salute di un volume che risulta offline, è possibile cercare ulteriori informazioni utili per la diagnosi della condizione di volume offline.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+Se il volume segnalato offline non è stato portato deliberatamente offline, il volume potrebbe essere offline per diversi motivi.
+
+A partire dalla pagina dei dettagli relativi a volume/salute del volume offline, è possibile accedere ad altre pagine e riquadri per confermare o eliminare le possibili cause:
+
+* Fare clic sui collegamenti della pagina dei dettagli *Volume / Health* per determinare se il volume non è in linea perché il nodo host è inattivo e se si è verificato un errore anche nel failover dello storage verso il partner ha Pair.
++
+Vedere link:task_determine_if_volume_offline_condition_is_by_down_cluster_node.html["Determinare se una condizione di volume offline è causata da un nodo inattivo"].
+
+* Fare clic sui collegamenti della pagina dei dettagli *Volume / Health* per determinare se il volume non è in linea e se la relativa SVM (host Storage Virtual Machine) viene arrestata a causa della disattivazione del nodo che ospita il volume root di tale SVM.
++
+Vedere link:task_determine_if_volume_is_offline_and_its_svm_is_stopped.html["Determinare se un volume è offline e SVM viene arrestato perché un nodo non è attivo"].
+
+* Fare clic sui collegamenti della pagina dei dettagli *Volume / Health* per determinare se il volume non è in linea a causa di dischi rotti nel relativo aggregato host.
++
+Vedere link:task_determine_if_volume_is_offline_because_of_broken_disks.html["Determinare se un volume è offline a causa di dischi rotti in un aggregato"].
+
+
+
+*Informazioni correlate*
+
+link:../config/reference_unified_manager_roles_and_capabilities.html["Ruoli e funzionalità degli utenti di Unified Manager"]

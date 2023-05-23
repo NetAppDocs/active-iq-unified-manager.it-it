@@ -1,0 +1,26 @@
+---
+permalink: health-checker/task_delete_group_actions.html 
+sidebar: sidebar 
+keywords: delete, group actions 
+summary: 'È possibile eliminare un"azione di gruppo da Unified Manager quando l"azione di gruppo non è più necessaria.' 
+---
+= Eliminazione delle azioni di gruppo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile eliminare un'azione di gruppo da Unified Manager quando l'azione di gruppo non è più necessaria.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+Quando si elimina l'azione di gruppo per la soglia di integrità del volume, le soglie globali vengono applicate agli oggetti di storage in quel gruppo. Le soglie di integrità a livello di oggetto impostate sull'oggetto di storage non subiscono alcun impatto.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Groups*.
+. Nella scheda *azioni gruppo*, selezionare l'azione di gruppo che si desidera eliminare, quindi fare clic su *Elimina*.
+. Nella finestra di dialogo *Avviso*, confermare l'eliminazione facendo clic su *Sì*.
+

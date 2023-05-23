@@ -1,0 +1,31 @@
+---
+permalink: health-checker/task_view_security_events_that_require_software_or_firmware_updates.html 
+sidebar: sidebar 
+keywords: upgrade events, view, security events, software, firmware updates 
+summary: 'Alcuni eventi di sicurezza hanno un"area di impatto di "Upgrade". Questi eventi vengono segnalati dalla piattaforma Active IQ e identificano i problemi in cui la risoluzione richiede l"aggiornamento del software ONTAP, del firmware del nodo o del software del sistema operativo (per gli avvisi di sicurezza).' 
+---
+= Visualizzazione di eventi di sicurezza che potrebbero richiedere aggiornamenti software o firmware
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Alcuni eventi di sicurezza hanno un'area di impatto di "`Upgrade`". Questi eventi vengono segnalati dalla piattaforma Active IQ e identificano i problemi in cui la risoluzione richiede l'aggiornamento del software ONTAP, del firmware del nodo o del software del sistema operativo (per gli avvisi di sicurezza).
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+Potrebbe essere necessario eseguire un'azione correttiva immediata per alcuni di questi problemi, mentre altri potrebbero essere in grado di attendere la successiva manutenzione pianificata. È possibile visualizzare tutti questi eventi e assegnarli agli utenti in grado di risolvere i problemi. Inoltre, se esistono alcuni eventi di aggiornamento della protezione che non si desidera ricevere notifiche, questo elenco può aiutare a identificare tali eventi in modo da poterli disattivare.
+
+.Fasi
+. Nel riquadro di spostamento di sinistra, fare clic su *Gestione eventi*.
++
+Per impostazione predefinita, tutti gli eventi attivi (nuovi e riconosciuti) vengono visualizzati nella pagina di inventario Gestione eventi.
+
+. Dal menu View (Visualizza), selezionare *Upgrade events* (Aggiorna eventi).
++
+Nella pagina vengono visualizzati tutti gli eventi di protezione dell'aggiornamento attivi.
+
+

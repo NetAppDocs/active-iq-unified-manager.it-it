@@ -1,0 +1,36 @@
+---
+permalink: reporting/task_edit_scheduled_reports.html 
+sidebar: sidebar 
+keywords: editing, schedule, reports 
+summary: 'Una volta pianificati i report, è possibile modificarli nella pagina Report Schedules (Pianificazioni report).' 
+---
+= Modifica dei report pianificati
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Una volta pianificati i report, è possibile modificarli nella pagina Report Schedules (Pianificazioni report).
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Report Schedules*.
++
+image::../media/scheduled_reports_2.gif[report pianificati 2]
+
++
+[NOTE]
+====
+Se si dispone delle autorizzazioni appropriate, è possibile modificare qualsiasi report e la relativa pianificazione nel sistema.
+
+====
+. Fare clic sull'icona Altro image:../media/more_icon.gif[""] per la pianificazione che si desidera modificare.
+. Fare clic su *Edit* (Modifica).
+. È possibile modificare l'elenco *Nome pianificazione*, *destinatario*, *frequenza* e *formato* per la pianificazione del report.
+. Al termine, fare clic sul segno di spunta per salvare le modifiche.
+

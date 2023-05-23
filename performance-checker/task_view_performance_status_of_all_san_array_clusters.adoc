@@ -1,0 +1,38 @@
+---
+permalink: performance-checker/task_view_performance_status_of_all_san_array_clusters.html 
+sidebar: sidebar 
+keywords: all san, array, performance, clusters 
+summary: 'È possibile utilizzare la vista Performance: All Clusters (prestazioni: Tutti i cluster) per visualizzare lo stato delle performance di tutti i cluster di array SAN.' 
+---
+= Visualizzazione delle performance per tutti i cluster di array SAN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile utilizzare la vista Performance: All Clusters (prestazioni: Tutti i cluster) per visualizzare lo stato delle performance di tutti i cluster di array SAN.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+È possibile visualizzare le informazioni generali per tutti i cluster di array SAN nella vista Performance: All Clusters (prestazioni: Tutti i cluster) e i dettagli nella pagina Cluster / Performance Explorer (Explorer cluster/prestazioni).
+
+.Fasi
+. Nel riquadro di spostamento a sinistra, fare clic su *Storage* > *Clusters*.
+. Assicurarsi che la colonna "`Personality`" sia visualizzata nella vista *Health: Tutti i cluster* oppure aggiungerla utilizzando il controllo *Show / Hide*.
++
+In questa colonna viene visualizzato "`All SAN Array`" (tutti gli array SAN) per tutti i cluster di array SAN.
+
+. Per visualizzare le informazioni sulle performance di questi cluster, selezionare la vista *Performance: All Clusters* (prestazioni: Tutti i cluster).
++
+Visualizzare le informazioni sulle performance per il cluster All SAN Array.
+
+. Per visualizzare informazioni dettagliate sulle performance di questi cluster, fare clic sul nome di un cluster All SAN Array.
+. Fare clic sulla scheda *Explorer*.
+. Nella pagina *Cluster / Performance Explorer*, selezionare *Nodes on this Cluster* (nodi su questo cluster) dal menu *View and compare* (Visualizza e confronta).
++
+È possibile confrontare le statistiche delle performance di entrambi i nodi di questo cluster per assicurarsi che il carico sia quasi identico su entrambi i nodi. In caso di grandi discrepanze tra i due nodi, è possibile aggiungere il secondo nodo ai grafici e confrontare i valori in un arco di tempo più lungo per identificare eventuali problemi di configurazione.
+
+

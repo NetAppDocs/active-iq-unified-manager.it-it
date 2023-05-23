@@ -1,0 +1,66 @@
+---
+permalink: config/reference_additional_menu_options.html 
+sidebar: sidebar 
+keywords: additional menu, options 
+summary: Le seguenti opzioni di menu consentono di eseguire varie attività amministrative sul server Unified Manager. 
+---
+= Opzioni di menu aggiuntive
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le seguenti opzioni di menu consentono di eseguire varie attività amministrative sul server Unified Manager.
+
+Sono disponibili le seguenti opzioni di menu:
+
+* *Ripristina certificato server*
++
+Rigenera il certificato del server HTTPS.
+
++
+È possibile rigenerare il certificato del server nella GUI di Unified Manager facendo clic su *Generale* > *certificati HTTPS* > *Rigenera certificato HTTPS*.
+
+* *Disattiva autenticazione SAML*
++
+Disattiva l'autenticazione SAML in modo che il provider di identità (IdP) non fornisca più l'autenticazione di accesso per gli utenti che accedono alla GUI di Unified Manager. Questa opzione della console viene generalmente utilizzata quando un problema con il server IdP o la configurazione SAML impedisce agli utenti di accedere alla GUI di Unified Manager.
+
+* *Fornitore di dati esterno*
++
+Fornisce opzioni per la connessione di Unified Manager a un provider di dati esterno. Una volta stabilita la connessione, i dati delle performance vengono inviati a un server esterno in modo che gli esperti delle performance dello storage possano tracciare le metriche delle performance utilizzando software di terze parti. Vengono visualizzate le seguenti opzioni:
+
++
+** *Display Server Configuration*-: Visualizza le impostazioni di connessione e configurazione correnti per un provider di dati esterno.
+** *Aggiungi / Modifica connessione server*--consente di inserire nuove impostazioni di connessione per un provider di dati esterno o di modificare le impostazioni esistenti.
+** *Modifica configurazione server*--consente di inserire nuove impostazioni di configurazione per un provider di dati esterno o di modificare le impostazioni esistenti.
+** *Delete Server Connection*--Elimina la connessione a un provider di dati esterno.
++
+Una volta eliminata la connessione, Unified Manager perde la connessione al server esterno.
+
+
+
+* *Backup Restore*
++
+Per ulteriori informazioni, consultare gli argomenti della sezione link:../health-checker/concept_manage_backup_and_restore_operations.html["Gestione delle operazioni di backup e ripristino"].
+
+* *Configurazione dell'intervallo di polling delle prestazioni*
++
+Fornisce un'opzione per configurare la frequenza con cui Unified Manager raccoglie i dati statistici delle performance dai cluster. L'intervallo di raccolta predefinito è di 5 minuti.
+
++
+È possibile modificare questo intervallo in 10 o 15 minuti se si scopre che le raccolte di cluster di grandi dimensioni non vengono completate in tempo.
+
+* *Visualizza/Modifica porte applicazione*
++
+Fornisce un'opzione per modificare le porte predefinite utilizzate da Unified Manager per i protocolli HTTP e HTTPS, se necessario per motivi di sicurezza. Le porte predefinite sono 80 per HTTP e 443 per HTTPS.
+
+* *Controlla l'accesso alla porta MySQL 3306*
++
+Controlla l'accesso degli host alla porta MySQL predefinita 3306. Per motivi di sicurezza, l'accesso tramite questa porta è limitato solo all'host locale durante una nuova installazione di Unified Manager su sistemi Linux, Windows e VMware vSphere. Questa opzione consente di alternare la visibilità di questa porta tra l'host locale e gli host remoti, vale a dire che se è abilitata per l'host locale solo nel proprio ambiente, è possibile rendere questa porta disponibile anche agli host remoti. In alternativa, se attivata per tutti gli host, è possibile limitare l'accesso a questa porta solo a localhost. Se l'accesso era stato precedentemente attivato sugli host remoti, la configurazione viene mantenuta in uno scenario di aggiornamento. Controllare le impostazioni del firewall nei sistemi Windows dopo aver attivato la visibilità delle porte e disattivare le impostazioni del firewall se le impostazioni sono configurate in modo da limitare l'accesso alla porta MySQL 3306.
+
+* *Esci*
++
+Consente di uscire dal menu della console di manutenzione.
+
+

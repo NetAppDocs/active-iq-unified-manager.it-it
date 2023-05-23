@@ -1,0 +1,37 @@
+---
+permalink: config/task_disable_saml_authentication_um.html 
+sidebar: sidebar 
+keywords: disable, saml authentication 
+summary: 'È possibile disattivare l"autenticazione SAML quando si desidera interrompere l"autenticazione degli utenti remoti tramite un provider di identità sicuro (IdP) prima che possano accedere all"interfaccia utente Web di Unified Manager. Quando l"autenticazione SAML è disattivata, i provider di servizi di directory configurati, ad esempio Active Directory o LDAP, eseguono l"autenticazione di accesso.' 
+---
+= Disattivazione dell'autenticazione SAML
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile disattivare l'autenticazione SAML quando si desidera interrompere l'autenticazione degli utenti remoti tramite un provider di identità sicuro (IdP) prima che possano accedere all'interfaccia utente Web di Unified Manager. Quando l'autenticazione SAML è disattivata, i provider di servizi di directory configurati, ad esempio Active Directory o LDAP, eseguono l'autenticazione di accesso.
+
+Una volta disattivata l'autenticazione SAML, gli utenti locali e gli utenti di manutenzione potranno accedere all'interfaccia grafica utente oltre agli utenti remoti configurati.
+
+Se non si dispone dell'accesso all'interfaccia utente grafica, è possibile disattivare l'autenticazione SAML anche utilizzando la console di manutenzione di Unified Manager.
+
+[NOTE]
+====
+Unified Manager viene riavviato automaticamente dopo la disattivazione dell'autenticazione SAML.
+
+====
+.Fasi
+. Nel riquadro di spostamento a sinistra, fare clic su *General* > *SAML Authentication*.
+. Deselezionare la casella di controllo *Enable SAML Authentication* (attiva autenticazione SAML).
+. Fare clic su *Save* (Salva).
++
+Viene visualizzata una finestra di messaggio per confermare che si desidera completare la configurazione e riavviare Unified Manager.
+
+. Fare clic su *Confirm and Logout* (Conferma e Disconnetti) per riavviare Unified Manager.
+
+
+La volta successiva che gli utenti remoti tenteranno di accedere all'interfaccia grafica di Unified Manager, inseriranno le proprie credenziali nella pagina di accesso di Unified Manager anziché nella pagina di accesso di IdP.
+
+Accedere all'ID ed eliminare l'URI e i metadati del server Unified Manager.

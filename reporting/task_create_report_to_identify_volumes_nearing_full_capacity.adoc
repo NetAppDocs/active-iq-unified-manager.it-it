@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_identify_volumes_nearing_full_capacity.html 
+sidebar: sidebar 
+keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off 
+summary: 'È possibile creare un report contenente l"elenco dei volumi che si stanno avvicinando alla capacità massima con la funzione di eliminazione automatica di Snapshot disattivata. I risultati consentono di identificare i volumi in cui si desidera configurare l"eliminazione automatica di Snapshot.' 
+---
+= Creazione di un report per identificare i volumi in via di capacità totale per i quali è stata disattivata la funzione di eliminazione automatica di Snapshot
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report contenente l'elenco dei volumi che si stanno avvicinando alla capacità massima con la funzione di eliminazione automatica di Snapshot disattivata. I risultati consentono di identificare i volumi in cui si desidera configurare l'eliminazione automatica di Snapshot.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Seguire i passaggi riportati di seguito per creare una vista personalizzata che visualizzi le colonne richieste nell'ordine corretto, quindi pianificare la creazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Volumes*.
+. Nel menu View (Visualizza), selezionare *Capacity* > *All Volumes* (capacità* > *tutti i volumi*).
+. Selezionare *Mostra/Nascondi* per rimuovere le colonne non desiderate nel report.
+. Trascinare le colonne "`Snapshot Autodelete`" e "`Days to Full`" vicino alla colonna "`Available Data Capacity`".
+. Fare clic sull'icona del filtro, aggiungere i seguenti due filtri, quindi fare clic su *Apply Filter* (Applica filtro):
++
+** Da giorni a pieno meno di 30 giorni
+** L'eliminazione automatica di Snapshot è disattivata
+
+
+. Fare clic nella parte superiore della colonna *giorni da completare* in modo che i volumi con il minor numero di giorni rimanenti vengano visualizzati nella parte superiore dell'elenco.
+. Salvare la vista con un nome specifico che rifletta ciò che viene visualizzato, ad esempio "`VOL near Capacity`".
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, è possibile attivare l'eliminazione automatica Snapshot sui volumi o trovare un modo per aumentare lo spazio disponibile.

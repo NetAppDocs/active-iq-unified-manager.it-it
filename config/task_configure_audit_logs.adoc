@@ -1,0 +1,24 @@
+---
+permalink: config/task_configure_audit_logs.html 
+sidebar: sidebar 
+keywords: configure, audit logs 
+summary: 'È possibile utilizzare il pulsante Configure (Configura) nella sezione Audit Logs (registri di controllo) per configurare i criteri di rolling per i file di registro di controllo e per attivare la registrazione remota per i registri di controllo.' 
+---
+= Configurazione dei registri di audit
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile utilizzare il pulsante *Configura* nella sezione registri di controllo per configurare i criteri di rolling per i file di registro di controllo e per attivare la registrazione remota per i registri di controllo.
+
+È possibile impostare i valori nei CAMPI *MAX FILE SIZE* e *AUDIT LOG RETENTION DAYS* in base alla quantità e alla frequenza desiderate dei dati che si desidera memorizzare nel sistema. Il valore nel campo *TOTAL AUDIT LOG SIZE* (DIMENSIONE TOTALE REGISTRO DI CONTROLLO) è la dimensione dei dati totali del registro di controllo presenti nel sistema. La policy di rollover è determinata dai valori nel campo *GIORNI DI CONSERVAZIONE DEL REGISTRO DI CONTROLLO*, *dimensione DEL FILE MAX* e *DIMENSIONE TOTALE DEL REGISTRO DI CONTROLLO*. Quando la dimensione del backup del registro di controllo raggiunge il valore configurato in *TOTAL AUDIT LOG SIZE*, il file archiviato per primo viene cancellato. Ciò significa che il file meno recente viene cancellato. Tuttavia, la voce del file continua a essere disponibile nel database ed è contrassegnata come "`Elimina rollover`". Il valore *GIORNI di CONSERVAZIONE del REGISTRO DI CONTROLLO* corrisponde al numero di giorni in cui i file di registro di controllo vengono conservati. Viene eseguito il rollover di qualsiasi file precedente al valore impostato in questo campo.
+
+.Fasi
+. Fare clic su *Audit Logs* > > *Configure*.
+. Inserire i valori nelle voci *MAX FILE SIZE*, *TOTAL AUDIT LOG SIZE* e *AUDIT LOG RETENTION DAYS*.
++
+Se si desidera attivare la registrazione remota, selezionare *Enable Remote Logging* (attiva registrazione remota).
+
+

@@ -1,0 +1,20 @@
+---
+permalink: health-checker/task_send_asup_to_technical_support.html 
+sidebar: sidebar 
+keywords: support bundle, web ui, maintenance console 
+summary: 'È necessario inviare un pacchetto di supporto quando il problema richiede una diagnosi e una risoluzione dei problemi più dettagliate rispetto a un messaggio AutoSupport. È possibile inviare un pacchetto di supporto al supporto tecnico utilizzando l"interfaccia utente Web e la console di manutenzione di Unified Manager.' 
+---
+= Invio di un pacchetto di supporto tramite l'interfaccia utente Web e la console di manutenzione
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È necessario inviare un pacchetto di supporto quando il problema richiede una diagnosi e una risoluzione dei problemi più dettagliate rispetto a un messaggio AutoSupport. È possibile inviare un pacchetto di supporto al supporto tecnico utilizzando l'interfaccia utente Web e la console di manutenzione di Unified Manager.
+
+Unified Manager memorizza un massimo di due bundle di supporto completi e tre bundle di supporto leggeri alla volta.
+
+*Informazioni correlate*
+
+link:../config/reference_unified_manager_roles_and_capabilities.html["Ruoli e funzionalità degli utenti di Unified Manager"]

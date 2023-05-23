@@ -1,0 +1,32 @@
+---
+permalink: events/task_view_event_details.html 
+sidebar: sidebar 
+keywords: view, events, details 
+summary: È possibile visualizzare i dettagli di un evento attivato da Unified Manager per intraprendere azioni correttive. Ad esempio, se è presente un evento di salute Volume Offline, è possibile fare clic su tale evento per visualizzare i dettagli ed eseguire azioni correttive. 
+---
+= Visualizzazione di eventi e dettagli dell'evento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile visualizzare i dettagli di un evento attivato da Unified Manager per intraprendere azioni correttive. Ad esempio, se è presente un evento di salute Volume Offline, è possibile fare clic su tale evento per visualizzare i dettagli ed eseguire azioni correttive.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+I dettagli dell'evento includono informazioni quali l'origine dell'evento, la causa dell'evento e eventuali note correlate all'evento.
+
+.Fasi
+. Nel riquadro di spostamento di sinistra, fare clic su *Gestione eventi*.
++
+Per impostazione predefinita, la vista All Active events (tutti gli eventi attivi) visualizza gli eventi nuovi e confermati (attivi) generati nei 7 giorni precedenti con un livello di impatto dell'incidente o del rischio.
+
+. Se si desidera visualizzare una determinata categoria di eventi, ad esempio eventi di capacità o performance, fare clic su *Visualizza* e selezionare dal menu dei tipi di evento.
+. Fare clic sul nome dell'evento per il quale si desidera visualizzare i dettagli.
++
+I dettagli dell'evento vengono visualizzati nella pagina Dettagli evento.
+
+

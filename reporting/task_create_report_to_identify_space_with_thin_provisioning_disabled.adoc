@@ -1,0 +1,39 @@
+---
+permalink: reporting/task_create_report_to_identify_space_with_thin_provisioning_disabled.html 
+sidebar: sidebar 
+keywords: volume, provision, disk, volume, thin-provisioning 
+summary: 'Quando un volume non viene sottoposto a thin provisioning, occupa l"intera quantità di spazio sul disco, come definito al momento della creazione del volume. L"identificazione dei volumi con thin provisioning disattivato consente di decidere se attivare il thin provisioning su determinati volumi.' 
+---
+= Creazione di un report per identificare lo spazio utilizzato dai volumi con il thin provisioning disattivato
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando un volume non viene sottoposto a thin provisioning, occupa l'intera quantità di spazio sul disco, come definito al momento della creazione del volume. L'identificazione dei volumi con thin provisioning disattivato consente di decidere se attivare il thin provisioning su determinati volumi.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Seguire i passaggi riportati di seguito per creare una vista personalizzata che visualizzi le colonne richieste nell'ordine corretto, quindi pianificare la creazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Volumes*.
+. Nel menu View (Visualizza), selezionare *Capacity* > *All Volumes* (capacità* > *tutti i volumi*).
+. Selezionare *Mostra/Nascondi* per rimuovere le colonne non desiderate nel report.
+. Trascinare le colonne "`dati utilizzati %`" e "`thin provisioning`" vicino alla colonna "`capacità dati disponibili`".
+. Fare clic sull'icona del filtro, aggiungere il seguente filtro, *thin provisioning* è *No*, quindi fare clic su *Apply Filter* (Applica filtro).
+. Fare clic sulla parte superiore della colonna "`dati utilizzati %`" per ordinare i risultati in modo che i volumi con la percentuale più alta vengano visualizzati nella parte superiore dell'elenco.
+. Salvare la vista con un nome per riflettere ciò che viene visualizzato, ad esempio "`VOL no thin provisioning`".
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina *Report Schedule* (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, è possibile attivare il thin provisioning su determinati volumi.

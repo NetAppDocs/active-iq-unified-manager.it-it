@@ -1,0 +1,38 @@
+---
+permalink: storage-mgmt/task_edit_clusters.html 
+sidebar: sidebar 
+keywords: edit, clusters 
+summary: 'È possibile modificare le impostazioni di un cluster esistente, ad esempio il nome host o l"indirizzo IP, il nome utente, la password e la porta, utilizzando la finestra di dialogo Edit Cluster (Modifica cluster).' 
+---
+= Modifica dei cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile modificare le impostazioni di un cluster esistente, ad esempio il nome host o l'indirizzo IP, il nome utente, la password e la porta, utilizzando la finestra di dialogo Edit Cluster (Modifica cluster).
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+[NOTE]
+====
+A partire da Unified Manager 9.7, i cluster possono essere aggiunti solo utilizzando HTTPS.
+
+====
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Cluster Setup*.
+. Nella pagina *Cluster Setup*, selezionare il cluster che si desidera modificare, quindi fare clic su *Edit* (Modifica).
+. Nella finestra di dialogo *Edit Cluster* (Modifica cluster), modificare i valori secondo necessità. + se sono stati modificati i dettagli di un cluster aggiunto a Unified Manager, è possibile visualizzare i dettagli del certificato per la comunicazione TLS reciproca, in base alla versione di ONTAP. Per ulteriori informazioni sulla versione di ONTAP, vedere link:../storage-mgmt/task_add_clusters.html["Certificati per comunicazioni TLS reciproche"]. + per visualizzare i dettagli del certificato, fare clic su *Dettagli certificato*. Se il certificato è scaduto, fare clic sul pulsante *rigenera* per incorporare il nuovo certificato.
+. Fare clic su *Invia*.
+. Nella finestra di dialogo Authorize host (autorizza host), fare clic su *View Certificate* (Visualizza certificato) per visualizzare le informazioni sul certificato del cluster.
+. Fare clic su *Sì*.
+
+
+*Informazioni correlate*
+
+link:../config/task_add_users.html["Aggiunta di utenti"]
+
+link:../health-checker/task_view_cluster_list_and_details.html["Visualizzazione dell'elenco e dei dettagli del cluster"]

@@ -1,0 +1,44 @@
+---
+permalink: reporting/task_delete_scheduled_reports.html 
+sidebar: sidebar 
+keywords: delete, reports 
+summary: 'Una volta pianificati i report, è possibile eliminarli dalla pagina Report Schedules (Pianificazioni report).' 
+---
+= Eliminazione dei report pianificati
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Una volta pianificati i report, è possibile eliminarli dalla pagina Report Schedules (Pianificazioni report).
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Report Schedules*.
++
+image::../media/scheduled_reports_2.gif[report pianificati 2]
+
++
+[NOTE]
+====
+Se si dispone delle autorizzazioni appropriate, è possibile rimuovere qualsiasi report e la relativa pianificazione nel sistema.
+
+====
+. Fare clic sull'icona Altro image:../media/more_icon.gif[""] per la pianificazione che si desidera rimuovere.
+. Fare clic su *Delete* (Elimina).
+. Conferma la tua decisione.
++
+Il report pianificato viene rimosso dall'elenco e non verrà più generato e distribuito secondo la pianificazione impostata.
+
++
+[NOTE]
+====
+Se si elimina una vista personalizzata dalla pagina di inventario, vengono eliminati anche i file Excel personalizzati o i report pianificati che utilizzano tale vista.
+
+====
+

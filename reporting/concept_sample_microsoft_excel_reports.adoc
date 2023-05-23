@@ -1,0 +1,22 @@
+---
+permalink: reporting/concept_sample_microsoft_excel_reports.html 
+sidebar: sidebar 
+keywords: sample, microsoft, excel, reports 
+summary: Questi report di esempio di Microsoft Excel hanno lo scopo di introdurre le opzioni di reporting disponibili utilizzando le funzionalità avanzate di Excel. 
+---
+= Report Microsoft Excel di esempio
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Questi report di esempio di Microsoft Excel hanno lo scopo di introdurre le opzioni di reporting disponibili utilizzando le funzionalità avanzate di Excel.
+
+Le funzionalità avanzate di Excel consentono di creare un'ampia gamma di report specifici per le tue esigenze. Per informazioni complete sull'utilizzo di Excel, consultare la documentazione del prodotto.
+
+[NOTE]
+====
+Per gestire i report, è necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+====

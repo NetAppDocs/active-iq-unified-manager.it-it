@@ -1,0 +1,16 @@
+---
+permalink: config/concept_login_banner.html 
+sidebar: sidebar 
+keywords: login banner, feature settings 
+summary: 'Questa funzione consente all"organizzazione di visualizzare qualsiasi informazione, ad esempio chi è autorizzato ad accedere al sistema e i termini e le condizioni di utilizzo durante l"accesso e la disconnessione.' 
+---
+= Aggiunta banner di accesso
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+L'aggiunta di un banner di accesso consente all'organizzazione di visualizzare qualsiasi informazione, ad esempio chi ha accesso al sistema e i termini e le condizioni di utilizzo durante l'accesso e la disconnessione.
+
+Qualsiasi utente, ad esempio gli operatori di storage o gli amministratori, può visualizzare questa finestra a comparsa del banner di accesso durante l'accesso, la disconnessione e il timeout della sessione.

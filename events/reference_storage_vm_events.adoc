@@ -1,0 +1,452 @@
+---
+permalink: events/reference_storage_vm_events.html 
+sidebar: sidebar 
+keywords: storage, vm events, impact area, availability, configuration, performance, security 
+summary: 'Gli eventi delle VM di storage forniscono informazioni sullo stato delle VM di storage, in modo da poter monitorare eventuali problemi. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
+---
+= Eventi di storage VM
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Gli eventi Storage VM (Storage Virtual Machine, noto anche come SVM) forniscono informazioni sullo stato delle VM di storage, in modo da poter monitorare eventuali problemi. Gli eventi sono raggruppati in base all'area di impatto e includono il nome dell'evento e della trap, il livello di impatto, il tipo di origine e la severità.
+
+Un asterisco (*) identifica gli eventi EMS che sono stati convertiti in eventi Unified Manager.
+
+
+
+== Area di impatto: Disponibilità
+
+|===
+| Nome evento (nome trap) | Livello di impatto | Tipo di origine | Severità 
+
+
+ a| 
+SVM CIFS Service Down(ocumEvtVserverCifsServiceStatusDown)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Critico
+
+
+
+ a| 
+Servizio SVM CIFS non configurato (non applicabile)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Informazioni
+
+
+
+ a| 
+Tentativi di connessione di CIFS Share * inesistente (nbladeCifsNoPrivShare)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Critico
+
+
+
+ a| 
+Conflitto nome NetBIOS CIFS *(nbladeCifsNbNameConflict)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Errore
+
+
+
+ a| 
+Operazione di copia shadow CIFS non riuscita *(cifsShadowCopyFailure)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Errore
+
+
+
+ a| 
+Molte connessioni CIFS *(nbladeCifsManyAuths)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Errore
+
+
+
+ a| 
+Connessione CIFS massima superata *(nbladeCifsMaxOpenSameFile)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Errore
+
+
+
+ a| 
+Numero massimo di connessioni CIFS per utente superato *(nbladeCifsMaxSessPerUsrConn)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Errore
+
+
+
+ a| 
+Servizio SVM FC/FCoE inattivo(ocumEvtVserverFcServiceStatusDown)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Critico
+
+
+
+ a| 
+Servizio iSCSI SVM inattivo(ocumEvtVserverIscsiServiceStatusDown)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Critico
+
+
+
+ a| 
+SVM NFS Service Down(ocumEvtVserverNfsServiceStatusDown)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Critico
+
+
+
+ a| 
+Servizio SVM FC/FCoE non configurato (non applicabile)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Informazioni
+
+
+
+ a| 
+Servizio iSCSI SVM non configurato (non applicabile)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Informazioni
+
+
+
+ a| 
+Servizio NFS SVM non configurato (non applicabile)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Informazioni
+
+
+
+ a| 
+SVM interrotta(ocumEvtVserverGiù)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Attenzione
+
+
+
+ a| 
+Server AV troppo occupato per accettare nuova richiesta di scansione *(nbladeVscanConnBackPressure)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Errore
+
+
+
+ a| 
+Nessuna connessione al server AV per Virus Scan *(nbladeVscanNoScannerConn)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Critico
+
+
+
+ a| 
+Nessun server AV registrato *(nBladeVscanNoRegdscanner)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Errore
+
+
+
+ a| 
+Nessuna connessione al server AV reattiva *(nbladeVscanConnInactive)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Informazioni
+
+
+
+ a| 
+Tentativo di utente non autorizzato di accedere al server AV *(nbladeVscanBadUserPrivAccess)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Errore
+
+
+
+ a| 
+Virus rilevato da AV Server *(nbladeVscanVirusDetected)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Errore
+
+|===
+
+
+== Area di impatto: Configurazione
+
+|===
+| Nome evento (nome trap) | Livello di impatto | Tipo di origine | Severità 
+
+
+ a| 
+SVM rilevato (non applicabile)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Informazioni
+
+
+
+ a| 
+SVM cancellato (non applicabile)
+ a| 
+Evento
+ a| 
+Cluster
+ a| 
+Informazioni
+
+
+
+ a| 
+SVM rinominato (non applicabile)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Informazioni
+
+|===
+
+
+== Area di impatto: Performance
+
+|===
+| Nome evento (nome trap) | Livello di impatto | Tipo di origine | Severità 
+
+
+ a| 
+Violazione della soglia critica IOPS SVM (ocumSvmIopsIncident)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Critico
+
+
+
+ a| 
+Soglia di avviso IOPS SVM non rispettata (ocumSvmIopsWarning)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Attenzione
+
+
+
+ a| 
+Soglia critica SVM MB/s violata (ocumSvmMbpsIncident)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Critico
+
+
+
+ a| 
+Soglia di avviso SVM MB/s violata (ocumSvmMbpsWarning)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Attenzione
+
+
+
+ a| 
+Violazione della soglia critica di latenza SVM (ocumSvmLatencyIncident)
+ a| 
+Incidente
+ a| 
+SVM
+ a| 
+Critico
+
+
+
+ a| 
+Soglia di avviso latenza SVM violata (ocumSvmLatencyWarning)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Attenzione
+
+|===
+
+
+== Area di impatto: Sicurezza
+
+|===
+| Nome evento (nome trap) | Livello di impatto | Tipo di origine | Severità 
+
+
+ a| 
+Log di audit disattivato (ocumVserverAuditLogDisabilitato)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Attenzione
+
+
+
+ a| 
+Banner di accesso disattivato (ocumVserverLoginBannerDisabilitato)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Attenzione
+
+
+
+ a| 
+SSH sta utilizzando crittografia non sicura(ocumVserverSSHInSecure)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Attenzione
+
+
+
+ a| 
+Banner di accesso modificato(ocumVserverLoginBannerChanged)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Attenzione
+
+
+
+ a| 
+Il monitoraggio anti-ransomware delle VM di storage è disattivato (antiRansomwareSvmStateDisabilitato)
+ a| 
+Rischio
+ a| 
+SVM
+ a| 
+Attenzione
+
+
+
+ a| 
+Il monitoraggio anti-ransomware delle VM di storage è attivato (modalità di apprendimento) (antiRansomwareSvmStateDrun)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Informazioni
+
+
+
+ a| 
+Storage VM adatto per il monitoraggio anti-ransomware (Learning Mode) (ocumEvtSvmArwCandidate)
+ a| 
+Evento
+ a| 
+SVM
+ a| 
+Informazioni
+
+|===

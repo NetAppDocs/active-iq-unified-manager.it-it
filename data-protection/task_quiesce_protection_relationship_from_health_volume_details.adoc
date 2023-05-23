@@ -1,0 +1,41 @@
+---
+permalink: data-protection/task_quiesce_protection_relationship_from_health_volume_details.html 
+sidebar: sidebar 
+keywords: quiesce, protection, relationship, volume, health details page 
+summary: È possibile interrompere una relazione di protezione per impedire temporaneamente il trasferimento dei dati. È possibile interrompere una relazione quando si desidera creare una copia Snapshot di un volume di destinazione SnapMirror che contiene un database e si desidera assicurarsi che il contenuto sia stabile durante la copia Snapshot. 
+---
+= Interrompere una relazione di protezione dalla pagina dei dettagli relativi a volume/salute
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile interrompere una relazione di protezione per impedire temporaneamente il trasferimento dei dati. È possibile interrompere una relazione quando si desidera creare una copia Snapshot di un volume di destinazione SnapMirror che contiene un database e si desidera assicurarsi che il contenuto sia stabile durante la copia Snapshot.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+* È necessario aver impostato l'automazione del flusso di lavoro.
+
+
+L'azione di quiesce non viene visualizzata nei seguenti casi:
+
+* Se le impostazioni RBAC non consentono questa azione, ad esempio, se si dispone solo di privilegi operatore
+* Quando l'ID del volume è sconosciuto, ad esempio, quando si dispone di una relazione tra cluster e il cluster di destinazione non è stato ancora rilevato
+* Se non si dispone dell'associazione tra Workflow Automation e Unified Manager
+
+
+.Fasi
+. Nella scheda *Protection* della pagina dei dettagli *Volume / Health*, fare clic con il pulsante destro del mouse sulla relazione nella vista topologia per la relazione di protezione che si desidera interrompere.
+. Selezionare *Quiesce* dal menu.
+. Fare clic su *Sì* per continuare.
++
+Lo stato del lavoro di quiete viene visualizzato nella parte superiore della pagina dei dettagli relativi a volume/salute, insieme a un collegamento ai dettagli del lavoro.
+
+. Fare clic sul collegamento *View details* (Visualizza dettagli) per accedere alla pagina *Job* Details (Dettagli lavoro) per ulteriori dettagli e avanzamento del lavoro.
+. *Opzionale:* fare clic sulla freccia Indietro del browser per tornare alla pagina dei dettagli *Volume / Health*.
++
+Il lavoro di quiesce viene terminato quando tutte le attività di lavoro vengono completate correttamente.
+
+

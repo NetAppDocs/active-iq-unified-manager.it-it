@@ -1,0 +1,29 @@
+---
+permalink: config/task_delete_users_or_groups.html 
+sidebar: sidebar 
+keywords: delete, users, groups 
+summary: È possibile eliminare uno o più utenti dal database del server di gestione per impedire a utenti specifici di accedere a Unified Manager. È inoltre possibile eliminare i gruppi in modo che tutti gli utenti del gruppo non possano più accedere al server di gestione. 
+---
+= Eliminazione di utenti o gruppi
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile eliminare uno o più utenti dal database del server di gestione per impedire a utenti specifici di accedere a Unified Manager. È inoltre possibile eliminare i gruppi in modo che tutti gli utenti del gruppo non possano più accedere al server di gestione.
+
+*Cosa ti serve*
+
+* Quando si eliminano gruppi remoti, è necessario riassegnare gli eventi assegnati agli utenti dei gruppi remoti.
++
+Se si eliminano utenti locali o remoti, gli eventi assegnati a tali utenti vengono automaticamente disassegnati.
+
+* È necessario disporre del ruolo di amministratore dell'applicazione.
+
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Generale* > *utenti*.
+. Nella pagina utenti, selezionare gli utenti o i gruppi che si desidera eliminare, quindi fare clic su *Elimina*.
+. Fare clic su *Sì* per confermare l'eliminazione.
+

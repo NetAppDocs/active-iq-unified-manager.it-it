@@ -1,0 +1,14 @@
+---
+permalink: config/concept_what_rbac_is.html 
+sidebar: sidebar 
+keywords: rbac, active iq unified manager, server 
+summary: 'RBAC (role-based access control) consente di controllare chi ha accesso a varie funzionalità e risorse nel server Active IQ Unified Manager.' 
+---
+= Cos'è RBAC
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+RBAC (role-based access control) consente di controllare chi ha accesso a varie funzionalità e risorse nel server Active IQ Unified Manager.

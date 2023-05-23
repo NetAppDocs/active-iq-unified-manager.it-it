@@ -1,0 +1,36 @@
+---
+permalink: performance-checker/task_view_performance_charts_to_compare_volumes_or_luns_in_qos_policy.html 
+sidebar: sidebar 
+keywords: view, performance, charts, compare, volumes, luns, same, qos, policy, group 
+summary: È possibile visualizzare i volumi e le LUN che si trovano negli stessi gruppi di policy QoS e confrontare le performance su un singolo grafico IOPS, MB/s o IOPS/TB per identificare eventuali problemi. 
+---
+= Visualizzazione dei grafici delle performance per confrontare volumi o LUN che si trovano nello stesso gruppo di criteri QoS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile visualizzare i volumi e le LUN che si trovano negli stessi gruppi di policy QoS e confrontare le performance su un singolo grafico IOPS, MB/s o IOPS/TB per identificare eventuali problemi.
+
+Di seguito sono riportati i passaggi per confrontare le prestazioni dei volumi nello stesso gruppo di criteri QoS. I passaggi per visualizzare queste informazioni per un LUN sono simili.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Volumes*.
++
+Per impostazione predefinita, viene visualizzata la vista Health: All Volumes (Salute: Tutti i volumi).
+
+. Nel menu View (Visualizza), selezionare *Performance: Volumes in QoS Policy Group* (prestazioni: Volumi nel gruppo di criteri QoS).
+. Fare clic sul nome del volume che si desidera rivedere.
++
+Viene visualizzata la pagina Performance Explorer (Esplora prestazioni) per il volume.
+
+. Nel menu View and compare (Visualizza e confronta), selezionare *Volumes in same QoS Policy Group* (volumi nello stesso gruppo di criteri QoS).
++
+Gli altri volumi che condividono la stessa policy QoS sono elencati nella tabella seguente.
+
+. Fare clic sul pulsante *Add* (Aggiungi) per aggiungere i volumi ai grafici in modo da poter confrontare IOPS, MB/s, IOPS/TB e altri contatori delle prestazioni per tutti i volumi selezionati nei grafici.
++
+È possibile modificare l'intervallo di tempo per visualizzare le prestazioni su intervalli di tempo diversi da quelli predefiniti di 72 ore.
+
+

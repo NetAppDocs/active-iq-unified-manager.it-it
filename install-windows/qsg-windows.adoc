@@ -1,0 +1,63 @@
+---
+permalink: install-windows/qsg-windows.html 
+sidebar: sidebar 
+keywords: quick start guide, getting started, QSG, Windows QSG, quick installation, Windows installer 
+summary: Guida rapida per Unified Manager su piattaforma Windows. 
+---
+= Istruzioni di avvio rapido per le installazioni di Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile scaricare il pacchetto di installazione e installare Unified Manager per monitorare e risolvere i problemi di capacità, disponibilità, performance e protezione dello storage dei dati.
+
+
+
+== Requisiti di sistema
+
+* Sistemi operativi
++
+** Microsoft Windows Server 2019 Standard e Datacenter Edition
+** Microsoft Windows Server 2022 Standard e Datacenter Edition
++
+Unified Manager è supportato dal sistema operativo Windows a 64 bit per le seguenti lingue:
+
+** Inglese
+** Giapponese
+** Cinese semplificato
+
+
+* RAM: 12 GB
+* CPU: 9572 MHz in totale
+* Spazio libero su disco: 100 GB di spazio su disco per la directory di installazione, 50 GB di spazio su disco per la directory dei dati MySQL
+
+
+Per informazioni dettagliate sui requisiti di sistema, consultare link:../install-windows/concept_requirements_for_installing_unified_manager.html["Requisiti per l'installazione di Unified Manager"] e. link:http://mysupport.netapp.com/matrix["Matrice di interoperabilità"^].
+
+
+
+== Installazione di Active IQ Unified Manager
+
+
+
+=== Scaricare il programma di installazione
+
+. Scaricare il `ActiveIQUnifiedManager-<version>.exe` pacchetto di installazione.
+. Copiare il file di installazione in una directory del sistema di destinazione.
+
+
+
+
+=== Installare Unified Manager
+
+Per installare Unified Manager, assicurarsi di avere installato Microsoft .NET 4.5 o una versione successiva. Come parte del processo di installazione, Unified Manager installa altri pacchetti di terze parti secondo necessità. Per ulteriori informazioni sui pacchetti software dipendenti, fare riferimento a. link:../install-windows/reference_windows_software_and_installation_requirements.html["Software Windows e requisiti di installazione"].
+
+. Accedere a Windows utilizzando l'account di amministratore locale predefinito.
+. Nella directory in cui è stato scaricato il file di installazione, fare clic con il pulsante destro del mouse ed eseguire il file eseguibile di Unified Manager (.exe) come amministratore.
+. Quando richiesto, inserire il nome utente e la password per creare l'utente di manutenzione di Unified Manager.
+. Nella procedura guidata connessione database, inserire la password root MySQL.
+. Seguire le istruzioni rimanenti per completare l'installazione.
+. Fare clic su *fine* al termine dell'installazione per visualizzare l'interfaccia utente Web di Unified Manager.
+

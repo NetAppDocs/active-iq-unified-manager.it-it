@@ -1,0 +1,63 @@
+---
+permalink: data-protection/task_view_storage_vms_based_on_protection_status.html 
+sidebar: sidebar 
+keywords: storage vm, view protection status 
+summary: 'È possibile utilizzare la pagina Storage VM dell"inventario per visualizzare tutte le VM di storage in Active IQ Unified Manager e filtrare le VM di storage in base al loro stato di protezione.' 
+---
+= Visualizzazione delle VM di storage in base allo stato di protezione
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile utilizzare la pagina Storage VM dell'inventario per visualizzare tutte le VM di storage in Active IQ Unified Manager e filtrare le VM di storage in base al loro stato di protezione.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+Alla vista delle VM di storage viene aggiunto un nuovo ruolo di Column Protection che fornisce informazioni sulla protezione o meno della VM di storage.
+
+[NOTE]
+====
+Se un cluster di origine non viene aggiunto a Active IQ Unified Manager, tutte le informazioni relative a tale cluster non saranno disponibili nelle griglie.
+
+====
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *STORAGE* > *Storage VM*.
+. Dal menu *VIEW*, selezionare *Health* > *All Storage VMS*.
++
+Viene visualizzato il messaggio Health: All Storage VM (Stato: Tutte le macchine virtuali storage).
+
+. Fare clic su *Filter* (filtro) per visualizzare una delle seguenti macchine virtuali storage.
++
+[cols="2*"]
+|===
+| Per visualizzare | Valore del filtro 
+
+
+ a| 
+*VM storage protette*
+ a| 
+*Ruolo di protezione* *protetto*
+
+
+
+ a| 
+*VM di storage non protette*
+ a| 
+*Ruolo di protezione* *non protetto*
+
+|===
++
+[NOTE]
+====
+Non è possibile visualizzare contemporaneamente le VM di storage protette e non protette. Per riapplicare un nuovo filtro, è necessario deselezionare il filtro esistente.
+
+====
+. Fare clic su *Applica filtro*.
++
+La vista non salvata visualizza tutte le VM di storage protette o non protette dal disaster recovery delle VM di storage in base alle selezioni dei filtri.
+
+

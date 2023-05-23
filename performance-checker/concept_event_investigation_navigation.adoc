@@ -1,0 +1,30 @@
+---
+permalink: performance-checker/concept_event_investigation_navigation.html 
+sidebar: sidebar 
+keywords: event, investigation, navigation 
+summary: Le pagine dei dettagli degli eventi di Unified Manager offrono uno sguardo approfondito a qualsiasi evento relativo alle performance. Ciò è utile quando si esaminano gli eventi relativi alle performance, quando si esegue la risoluzione dei problemi e quando si ottimizzano le performance del sistema. 
+---
+= Navigazione nell'analisi degli eventi
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le pagine dei dettagli degli eventi di Unified Manager offrono uno sguardo approfondito a qualsiasi evento relativo alle performance. Ciò è utile quando si esaminano gli eventi relativi alle performance, quando si esegue la risoluzione dei problemi e quando si ottimizzano le performance del sistema.
+
+A seconda del tipo di evento relativo alle performance, è possibile visualizzare uno dei due tipi di pagine dei dettagli dell'evento:
+
+* Pagina dei dettagli degli eventi per gli eventi definiti dall'utente e dal sistema
+* Pagina dei dettagli dell'evento per gli eventi del criterio di soglia dinamico
+
+
+Questo è un esempio di navigazione nell'analisi degli eventi.
+
+. Nel riquadro di spostamento di sinistra, fare clic su *Gestione eventi*.
+. Dal menu View (Visualizza), fare clic su *Active performance events* (Eventi performance attivi).
+. Fare clic sul nome dell'evento che si desidera esaminare e viene visualizzata la pagina Dettagli evento.
+. Visualizzare la descrizione dell'evento e consultare le azioni consigliate (se disponibili) per visualizzare ulteriori dettagli sull'evento che potrebbero essere utili per risolvere il problema. È possibile fare clic sul pulsante *Analyze workload* (analizza carico di lavoro) per visualizzare grafici dettagliati delle performance e analizzare ulteriormente il problema.
+
+
+image::../media/event_flow.png[flusso di eventi]

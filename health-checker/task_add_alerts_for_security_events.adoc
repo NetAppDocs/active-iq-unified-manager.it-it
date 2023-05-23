@@ -1,0 +1,36 @@
+---
+permalink: health-checker/task_add_alerts_for_security_events.html 
+sidebar: sidebar 
+keywords: add, alerts, security events 
+summary: 'È possibile configurare gli avvisi per singoli eventi di sicurezza come qualsiasi altro evento ricevuto da Unified Manager. Inoltre, se si desidera trattare tutti gli eventi di sicurezza allo stesso modo e inviare messaggi e-mail alla stessa persona, è possibile creare un singolo avviso per notificare l"attivazione di qualsiasi evento di sicurezza.' 
+---
+= Aggiunta di avvisi per eventi di sicurezza
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile configurare gli avvisi per singoli eventi di sicurezza come qualsiasi altro evento ricevuto da Unified Manager. Inoltre, se si desidera trattare tutti gli eventi di sicurezza allo stesso modo e inviare messaggi e-mail alla stessa persona, è possibile creare un singolo avviso per notificare l'attivazione di qualsiasi evento di sicurezza.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+L'esempio seguente mostra come creare un avviso per l'evento di protezione "`Telnet Protocol enabled`". In questo modo viene inviato un avviso se l'accesso Telnet è configurato per l'accesso amministrativo remoto al cluster. È possibile utilizzare questa stessa metodologia per creare avvisi per tutti gli eventi di sicurezza.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Alert Setup*.
+. Nella pagina *Alert Setup*, fare clic su *Add* (Aggiungi).
+. Nella finestra di dialogo *Aggiungi avviso*, fare clic su *Nome* e immettere un nome e una descrizione per l'avviso.
+. Fare clic su *Resources* (risorse) e selezionare il cluster o il cluster in cui si desidera attivare l'avviso.
+. Fare clic su *Eventi* ed eseguire le seguenti operazioni:
++
+.. Nell'elenco gravità evento, selezionare *Avviso*.
+.. Nell'elenco Eventi corrispondenti, selezionare *protocollo Telnet attivato*.
+
+
+. Fare clic su *azioni*, quindi selezionare il nome dell'utente che riceverà l'e-mail di avviso nel campo *Avvisa questi utenti*.
+. Configurare le altre opzioni di questa pagina per la frequenza di notifica, l'emissione di tap SNMP e l'esecuzione di uno script.
+. Fare clic su *Save* (Salva).
+

@@ -1,0 +1,40 @@
+---
+permalink: reporting/task_create_report_to_identify_clusters_with_unallocated_capacity.html 
+sidebar: sidebar 
+keywords: clusters, unallocated, LUN, capacity, indentify, additional, workloads 
+summary: È possibile creare un report per trovare i cluster con la capacità LUN più non allocata, superiore a 0,5 TB, per identificare dove è possibile aggiungere ulteriori carichi di lavoro. 
+---
+= Creazione di un report per identificare i cluster con la capacità LUN più non allocata
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report per trovare i cluster con la capacità LUN più non allocata, superiore a 0,5 TB, per identificare dove è possibile aggiungere ulteriori carichi di lavoro.
+
+*Cosa serve* * è necessario avere il ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+Attenersi alla seguente procedura per creare una vista personalizzata che visualizzi i cluster con la capacità LUN non allocata più, quindi pianificare la generazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di spostamento a sinistra, fare clic su *Storage* > *Clusters*.
+. Nel menu Visualizza, selezionare *capacità* > *tutti i cluster*.
+. Selezionare *Mostra/Nascondi* per rimuovere le colonne non desiderate nel report.
+. Trascinare la colonna "`Unallocated LUN Capacity`" (capacità LUN non allocata) vicino alla colonna "`ha Pair`" (coppia ha).
+. Fare clic sull'icona del filtro, aggiungere il seguente filtro, quindi fare clic su *Applica filtro*:
++
+** Capacità LUN non allocata superiore a 0.5 TB
+
+
+. Fare clic nella parte superiore della colonna "`Unallocated LUN Capacity`" (capacità LUN non allocata) per ordinare i risultati in base alla quantità massima di capacità LUN non allocata.
+. Salvare la vista con un nome specifico che rifletta ciò che viene visualizzato, ad esempio "`MOST unallocated LUN Capacity`" (capacità LUN non allocata OST) e fare clic sul segno di spunta (image:../media/blue_check.gif[""]).
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina Report Schedule (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, è possibile utilizzare la capacità LUN non allocata del cluster.

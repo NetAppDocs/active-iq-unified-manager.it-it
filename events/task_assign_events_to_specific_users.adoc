@@ -1,0 +1,56 @@
+---
+permalink: events/task_assign_events_to_specific_users.html 
+sidebar: sidebar 
+keywords: assign, events, specific, users 
+summary: 'È possibile assegnare eventi non assegnati a se stessi o ad altri utenti, inclusi gli utenti remoti. Se necessario, è possibile riassegnare gli eventi assegnati a un altro utente. Ad esempio, quando si verificano problemi frequenti su un oggetto di storage, è possibile assegnare gli eventi per questi problemi all"utente che gestisce tale oggetto.' 
+---
+= Assegnazione di eventi a utenti specifici
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile assegnare eventi non assegnati a se stessi o ad altri utenti, inclusi gli utenti remoti. Se necessario, è possibile riassegnare gli eventi assegnati a un altro utente. Ad esempio, quando si verificano problemi frequenti su un oggetto di storage, è possibile assegnare gli eventi per questi problemi all'utente che gestisce tale oggetto.
+
+*Cosa ti serve*
+
+* Il nome e l'ID e-mail dell'utente devono essere configurati correttamente.
+* È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
+
+
+.Fasi
+. Nel riquadro di spostamento di sinistra, fare clic su *Gestione eventi*.
+. Nella pagina di inventario *Gestione eventi*, selezionare uno o più eventi che si desidera assegnare.
+. Assegnare l'evento scegliendo una delle seguenti opzioni:
++
+|===
+| Se si desidera assegnare l'evento a... | Quindi... 
+
+
+ a| 
+Te stesso
+ a| 
+Fare clic su *Assegna a* > *Me*.
+
+
+
+ a| 
+Un altro utente
+ a| 
+.. Fare clic su *Assegna a* > *un altro utente*.
+.. Nella finestra di dialogo Assegna proprietario, immettere il nome utente o selezionare un utente dall'elenco a discesa.
+.. Fare clic su *Assegna*.
++
+Viene inviata una notifica via email all'utente.
+
++
+[NOTE]
+====
+Se non si immette un nome utente o si seleziona un utente dall'elenco a discesa e si fa clic su *Assegna*, l'evento rimane non assegnato.
+
+====
+
+
+|===
+

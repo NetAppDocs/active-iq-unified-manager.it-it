@@ -1,0 +1,16 @@
+---
+permalink: reporting/concept_customize_aggregate_capacity_reports.html 
+sidebar: sidebar 
+keywords: customize, aggregate, capacity, reports 
+summary: Questi report personalizzati di esempio vengono utilizzati per identificare e rispondere a potenziali problemi relativi alla capacità dello storage aggregato. 
+---
+= Personalizzazione dei report sulla capacità aggregata
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Questi report personalizzati di esempio vengono utilizzati per identificare e rispondere a potenziali problemi relativi alla capacità dello storage aggregato.
+
+I report di questa sezione sono solo esempi per aiutarti a comprendere come creare report sulla capacità aggregata per monitorare le risorse del sistema di storage.

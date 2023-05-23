@@ -1,0 +1,31 @@
+---
+permalink: data-protection/task_remove_protection_relationship.html 
+sidebar: sidebar 
+keywords: remove, protection, relationship, volume, relationships page 
+summary: 'Dalla pagina Relazioni volume, è possibile rimuovere una relazione di protezione per eliminare in modo permanente una relazione esistente tra l"origine e la destinazione selezionate, ad esempio quando si desidera creare una relazione utilizzando una destinazione diversa. Questa operazione rimuove tutti i metadati e non può essere annullata.' 
+---
+= Rimozione di una relazione di protezione dalla pagina Relazioni volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dalla pagina Relazioni volume, è possibile rimuovere una relazione di protezione per eliminare in modo permanente una relazione esistente tra l'origine e la destinazione selezionate, ad esempio quando si desidera creare una relazione utilizzando una destinazione diversa. Questa operazione rimuove tutti i metadati e non può essere annullata.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+* È necessario aver impostato l'automazione del flusso di lavoro.
+
+
+.Fasi
+. Dalla pagina *Relazioni volume*, selezionare uno o più volumi con relazioni di protezione da rimuovere e, sulla barra degli strumenti, fare clic su *Rimuovi*.
++
+Viene visualizzata la finestra di dialogo Rimuovi relazione.
+
+. Fare clic su *continua* per rimuovere la relazione.
++
+La relazione viene rimossa dalla pagina Relazioni volume.
+
+

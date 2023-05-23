@@ -1,0 +1,49 @@
+---
+permalink: health-checker/task_specify_destination_location_for_windows_snapshot_backups.html 
+sidebar: sidebar 
+keywords: specify, destination location, windows, snapshot copy, copies 
+summary: È necessario configurare la posizione di destinazione per le copie Snapshot di Active IQ Unified Manager su un volume già configurato in uno dei cluster ONTAP. Per definire la posizione, utilizzare la console di manutenzione. 
+---
+= Specifica del percorso di destinazione per le copie Snapshot in Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È necessario configurare la posizione di destinazione per le copie Snapshot di Active IQ Unified Manager su un volume già configurato in uno dei cluster ONTAP. Per definire la posizione, utilizzare la console di manutenzione.
+
+* È necessario disporre del privilegio di amministratore per l'host Windows su cui è installato Active IQ Unified Manager.
+* Per accedere alla console di manutenzione del server Unified Manager, è necessario disporre di un ID utente e di una password autorizzati.
+* È necessario disporre dell'indirizzo IP di Cluster Management, del nome della VM di storage, del nome del volume, del nome del LUN, del nome utente e della password del sistema di storage.
+* È necessario aver montato il volume come unità di rete sull'host Active IQ Unified Manager e disporre dell'unità di montaggio.
+
+
+.Fasi
+. Utilizzando Power Shell, connettersi all'indirizzo IP o al nome di dominio completo del sistema Active IQ Unified Manager.
+. Accedere al sistema con il nome utente di manutenzione (umadmin) e la password.
+. Immettere il comando `maintenance_console` E premere Invio.
+. Nella console di manutenzione *Menu principale*, inserire il numero dell'opzione *Backup Restore*.
+. Inserire il numero per *Configure NetApp Snapshot Backup*.
+. Inserire il numero per configurare iSCSI.
+. Esaminare le informazioni da fornire, quindi inserire il numero *Enter Backup Configuration Details* (Immetti dettagli configurazione backup).
+. Per identificare il volume in cui verrà scritta l'istantanea, inserire l'indirizzo IP dell'interfaccia di gestione del cluster, il nome della VM di storage, il nome del volume, il nome del LUN, il nome utente e la password del sistema di storage e l'unità di montaggio.
+. Verificare queste informazioni e immettere `y`.
++
+Il sistema esegue le seguenti operazioni:
+
++
+** Storage VM validato
+** Il volume viene validato
+** Montare il disco e verificare che lo stato sia validato
+** Esistenza e stato del LUN
+** Esistenza di un disco di rete
+** Viene convalidata l'esistenza di spazio consigliato (più del doppio della directory di dati mysql) nel volume montato
+** Percorso LUN corrispondente al LUN dedicato nel volume
+** nome igroup
+** GUID del volume su cui è montato il disco di rete
+** ISCSI Initiator utilizzato per comunicare con ONTAP
+
+
+. Uscire dalla console di manutenzione e avviare l'interfaccia Active IQ Unified Manager per creare una pianificazione per le copie Snapshot.
+

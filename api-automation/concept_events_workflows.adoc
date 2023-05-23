@@ -1,0 +1,43 @@
+---
+permalink: api-automation/concept_events_workflows.html 
+sidebar: sidebar 
+keywords: determine, issues, storage, objects, events 
+summary: Quando un oggetto di storage nel data center supera una soglia, viene inviata una notifica relativa a tale evento. Utilizzando questa notifica, è possibile analizzare il problema e intraprendere azioni correttive utilizzando le API degli eventi. 
+---
+= Determinazione dei problemi negli oggetti di storage utilizzando le API degli eventi
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando un oggetto di storage nel data center supera una soglia, viene inviata una notifica relativa a tale evento. Utilizzando questa notifica, è possibile analizzare il problema e intraprendere azioni correttive utilizzando `events` API.
+
+Questo flusso di lavoro prende l'esempio di un volume come oggetto risorsa. È possibile utilizzare `events` API per recuperare l'elenco degli eventi correlati a un volume, analizzare i problemi critici per quel volume e intraprendere azioni correttive per risolvere il problema.
+
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[gestione dei problemi relativi agli eventi di un diagramma di flusso di un oggetto di storage]
+
+Prima di intraprendere le azioni correttive, attenersi alla procedura descritta di seguito per determinare i problemi del volume.
+
+.Fasi
+. Analizza le notifiche degli eventi critici di Active IQ Unified Manager per i volumi nel tuo data center.
+. Eseguire una query su tutti gli eventi dei volumi utilizzando i seguenti parametri nell'API /management-server/events:
+`"*resource_type": "volume*"`
+`"*severity": "critical*"`
++
+[cols="3*"]
+|===
+| Categoria | Verbo HTTP | Percorso 
+
+
+ a| 
+server di gestione
+ a| 
+OTTIENI
+ a| 
+/server-gestione/eventi
+
+|===
+. Visualizzare l'output e analizzare i problemi nei volumi specifici.
+. Eseguire le azioni necessarie utilizzando le API REST di Unified Manager o l'interfaccia utente Web per risolvere i problemi.
+

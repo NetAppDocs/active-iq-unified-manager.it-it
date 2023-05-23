@@ -1,0 +1,59 @@
+---
+permalink: storage-mgmt/task_create_and_edit_seps.html 
+sidebar: sidebar 
+keywords: create, edit, storage, efficiency, policies 
+summary: Quando le policy di efficienza dello storage definite dal sistema non corrispondono ai requisiti dei carichi di lavoro, è possibile creare policy di efficienza dello storage personalizzate e ottimizzate per i carichi di lavoro. 
+---
+= Creazione e modifica delle policy di efficienza dello storage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando le policy di efficienza dello storage definite dal sistema non corrispondono ai requisiti dei carichi di lavoro, è possibile creare policy di efficienza dello storage personalizzate e ottimizzate per i carichi di lavoro.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione.
+* Il nome della Storage Efficiency Policy deve essere univoco e non è possibile utilizzare le seguenti parole chiave riservate:
++
+`High`, `Low`, `Unassigned`, `Learning`, `Idle`, `Default`, e. `None`.
+
+
+
+È possibile creare e modificare policy di efficienza dello storage personalizzate dalla pagina Storage Efficiency Policies (Criteri di efficienza dello storage) definendo le caratteristiche di efficienza dello storage necessarie per le applicazioni che accederanno allo storage.
+
+[NOTE]
+====
+Non è possibile modificare una policy di efficienza dello storage se è attualmente assegnata a un carico di lavoro.
+
+====
+.Fasi
+. Nel riquadro di navigazione a sinistra sotto *Impostazioni*, selezionare *Criteri* > *efficienza dello storage*.
+. Nella pagina *Storage Efficiency Policies*, fare clic sul pulsante appropriato a seconda che si desideri creare una nuova Storage Efficiency Policy o modificare una Storage Efficiency Policy esistente.
++
+|===
+| Per... | Attenersi alla procedura descritta di seguito... 
+
+
+ a| 
+Creare una nuova policy di efficienza dello storage
+ a| 
+Fare clic su *Aggiungi*
+
+
+
+ a| 
+Modificare una policy di efficienza dello storage esistente
+ a| 
+Selezionare una policy di efficienza dello storage esistente e fare clic su *Edit* (Modifica)
+
+|===
++
+Viene visualizzata la pagina per aggiungere o modificare una policy di efficienza dello storage.
+
+. Personalizzare la Storage Efficiency Policy specificando le caratteristiche di efficienza dello storage, quindi fare clic su *Submit* per salvare la Storage Efficiency Policy.
+
+
+È possibile applicare la nuova policy sull'efficienza dello storage o modificarla ai workload (LUN, condivisioni file NFS, condivisioni CIFS) dalla pagina workload o durante il provisioning di un nuovo workload.

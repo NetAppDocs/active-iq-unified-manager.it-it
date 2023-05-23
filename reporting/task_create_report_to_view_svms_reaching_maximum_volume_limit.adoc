@@ -1,0 +1,37 @@
+---
+permalink: reporting/task_create_report_to_view_svms_reaching_maximum_volume_limit.html 
+sidebar: sidebar 
+keywords: create, report, view, storage VMs, volume, limit 
+summary: È possibile creare un report per individuare le SVM che stanno raggiungendo il limite massimo di volume. 
+---
+= Creazione di un report per visualizzare le VM di storage che raggiungono il limite massimo di volume
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report per individuare le SVM che stanno raggiungendo il limite massimo di volume.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Attenersi alla seguente procedura per creare una vista personalizzata che visualizzi le VM di storage che stanno raggiungendo il limite massimo di volume, quindi pianificare la generazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Storage VMS*.
+. Selezionare *Mostra/Nascondi* per rimuovere le colonne non desiderate nel report.
+. Trascinare le colonne "`Volume Count`" e "`MAXimum Allowed Volumes`" vicino alla colonna "`Storage VM`".
+. Fare clic sulla parte superiore della colonna "`MAXimum Allowed Volumes`" (volumi massimi consentiti) per ordinare i risultati in base al numero massimo di volumi.
+. Salvare la vista con un nome specifico che rifletta ciò che viene visualizzato, ad esempio "`Smacchine virtuali che raggiungono volumi massimi`" e fare clic sul segno di spunta (image:../media/blue_check.gif[""]).
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina *Report Schedule* (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, è possibile bilanciare i volumi assegnati alle macchine virtuali storage o, se possibile, utilizzare Gestione di sistema di ONTAP per modificare i volumi massimi consentiti.

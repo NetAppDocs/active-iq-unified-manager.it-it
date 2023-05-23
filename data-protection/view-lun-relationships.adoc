@@ -1,0 +1,38 @@
+---
+permalink: data-protection/view-lun-relationships.html 
+sidebar: sidebar 
+keywords: LUN, SM-BC, SnapMirror Business Continuity, Consistency Group, CG 
+summary: Vista unificata delle LUN protette da SM-BC. 
+---
+= Monitoraggio delle LUN in una relazione Consistency Group
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Se l'ambiente ONTAP supporta la business continuity SnapMirror (SM-BC) per proteggere le applicazioni con LUN, è possibile visualizzare e monitorare tali LUN su Active IQ Unified Manager.
+
+SM-BC garantisce l'obiettivo RTO (Zero Recovery Time Objective) durante il failover in ambienti SAN. In un'implementazione tipica che supporta SM-BC, le LUN sui volumi sono protette dalle relazioni del gruppo di coerenza.
+
+Questi LUN primari e secondari sono LUN compositi o una coppia LUN replica con lo stesso UUID e numero di serie. Le operazioni di i/o (sia in lettura che in scrittura) vengono multiplate tra i siti di origine e di destinazione su queste LUN composite, garantendo la trasparenza.
+
+Per la visualizzazione di LUN composite, è necessario aggiungere e rilevare i cluster primari e secondari con le LUN che fanno parte della relazione Consistency Group in Unified Manager. Sono supportati solo i LUN iSCSI e FCP.
+
+Per informazioni su SM-BC, vedere link:https://docs.netapp.com/us-en/ontap/smbc/index.html["ONTAP 9, documentazione per SM-BC"].
+
+Per visualizzare LUN composite nel proprio ambiente, attenersi alla seguente procedura:
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *LUN*.
+. Dal menu View (Visualizza), selezionare *Relationship* (relazione) > *All LUN* (tutte le LUN).
++
+Viene visualizzata la vista Relationship: All LUN (relazione: Tutti i LUN).
+
+
+
+È possibile visualizzare i dettagli del LUN, ad esempio il nome del LUN, il volume, la VM di storage che ospita il LUN, il cluster, il gruppo di coerenza e il LUN del partner. È possibile fare clic su ciascuno di questi componenti per visualizzare una vista dettagliata. Facendo clic sul gruppo di coerenza si accede alla pagina Relazioni.
+
+Facendo clic sul LUN del partner è possibile visualizzare i dettagli di configurazione nella scheda SAN della pagina Storage VM Details (Dettagli VM storage) per la VM di storage su cui è ospitato il LUN del partner. Vengono visualizzate informazioni quali gli iniziatori e i gruppi di iniziatori e altri aspetti del LUN del partner.
+
+È possibile eseguire le funzioni standard a livello di griglia di ordinamento, filtraggio, generazione e caricamento dei report per le LUN protette nel proprio ambiente.

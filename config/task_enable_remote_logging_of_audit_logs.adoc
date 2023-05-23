@@ -1,0 +1,50 @@
+---
+permalink: config/task_enable_remote_logging_of_audit_logs.html 
+sidebar: sidebar 
+keywords: enable, remote, logging, audit, logs 
+summary: 'È possibile selezionare la casella di controllo Enable Remote Logging (attiva registrazione remota) nella finestra di dialogo Configure Audit Logs (Configura registri di controllo) per attivare la registrazione remota dell"audit. È possibile utilizzare questa funzione per trasferire i registri di controllo a un server Syslog remoto. In questo modo, è possibile gestire i registri di controllo in caso di limiti di spazio.' 
+---
+= Abilitazione della registrazione remota dei registri di controllo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile selezionare la casella di controllo *Enable Remote Logging* (attiva registrazione remota) nella finestra di dialogo Configure Audit Logs (Configura registri di controllo) per attivare la registrazione remota dell'audit. È possibile utilizzare questa funzione per trasferire i registri di controllo a un server Syslog remoto. In questo modo, è possibile gestire i registri di controllo in caso di limiti di spazio.
+
+La registrazione remota dei registri di controllo fornisce un backup a prova di manomissione nel caso in cui i file di registro di controllo sul server Active IQ Unified Manager vengano manomessi.
+
+.Fasi
+. Nella finestra di dialogo *Configura registri di controllo*, selezionare la casella di controllo *attiva registrazione remota*.
++
+Vengono visualizzati ulteriori campi per configurare la registrazione remota.
+
+. Immettere il *NOME HOST* e la *PORTA* del server remoto a cui si desidera connettersi.
+. Nel campo *CERTIFICATO CA DEL SERVER*, fare clic su *SFOGLIA* per selezionare un certificato pubblico del server di destinazione.
++
+Il certificato deve essere caricato in `.pem` formato. Questo certificato deve essere ottenuto dal server Syslog di destinazione e non deve essere scaduto. Il certificato deve contenere il "`hostname`" selezionato come parte di `SubjectAltName` (SAN).
+
+. Immettere i valori per i seguenti campi: *CHARSET*, *TIMEOUT CONNESSIONE*, *RITARDO DI RICONNESSIONE*.
++
+I valori devono essere espressi in millisecondi per questi campi.
+
+. Selezionare il formato Syslog e la versione del protocollo TLS richiesti nei campi *FORMAT* e *PROTOCOL*.
+. Selezionare la casella di controllo *Enable Client Authentication* (attiva autenticazione client) se il server Syslog di destinazione richiede l'autenticazione basata su certificato.
++
+Prima di salvare la configurazione del registro di controllo, sarà necessario scaricare il certificato di autenticazione del client e caricarlo sul server Syslog, altrimenti la connessione non avrà esito positivo. A seconda del tipo di server Syslog, potrebbe essere necessario creare un hash del certificato di autenticazione del client.
+
++
+Esempio: Syslog-ng richiede la creazione di un <hash> del certificato utilizzando il comando `openssl x509 -noout -hash -in cert.pem`, quindi collegare simbolicamente il certificato di autenticazione del client a un file denominato dopo <hash> .0.
+
+. Fare clic su *Save* (Salva) per configurare la connessione con il server e attivare la registrazione remota.
++
+Verrà reindirizzato alla pagina Audit Logs (registri di controllo).
+
++
+[NOTE]
+====
+Il valore *Timeout connessione* può influire sulla configurazione. Se la risposta della configurazione richiede più tempo rispetto al valore definito, potrebbe verificarsi un errore di configurazione a causa di un errore di connessione. Per stabilire una connessione corretta, aumentare il valore *Timeout connessione* e riprovare a eseguire la configurazione.
+
+====
+

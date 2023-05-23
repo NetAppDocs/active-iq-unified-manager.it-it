@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept_customize_cluster_storage_reports.html 
+sidebar: sidebar 
+keywords: customize, cluster, storage, reports 
+summary: I report di esempio relativi allo storage dei cluster di questa sezione sono solo esempi che consentono di comprendere come creare report sulla capacità dei cluster per monitorare le risorse del sistema di storage. 
+---
+= Personalizzazione dei report dello storage in cluster
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+I report di esempio relativi allo storage dei cluster di questa sezione sono solo esempi che consentono di comprendere come creare report sulla capacità dei cluster per monitorare le risorse del sistema di storage.

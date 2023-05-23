@@ -1,0 +1,32 @@
+---
+permalink: performance-checker/concept_um_interfaces_used_to_manage_storage_system_performance.html 
+sidebar: sidebar 
+keywords: unified manager, interfaces, used, manage, storage, system, performance, web ui, maintenance, console 
+summary: 'Active IQ Unified Manager fornisce due interfacce utente per il monitoraggio e la risoluzione dei problemi relativi alle performance dello storage: L"interfaccia utente Web e la console di manutenzione.' 
+---
+= Interfacce di Unified Manager utilizzate per gestire le performance del sistema storage
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Queste sezioni contengono informazioni sulle due interfacce utente fornite da Active IQ Unified Manager per la risoluzione dei problemi di capacità, disponibilità e protezione dello storage dei dati. Le due interfacce utente sono l'interfaccia utente Web di Unified Manager e la console di manutenzione.
+
+Se si desidera utilizzare le funzioni di protezione di Unified Manager, è necessario installare e configurare anche OnCommand Workflow Automation (Wfa).
+
+
+
+== UI Web di Unified Manager
+
+L'interfaccia utente Web di Unified Manager consente a un amministratore di monitorare e risolvere i problemi del cluster relativi a capacità, disponibilità e protezione dello storage dei dati.
+
+Queste sezioni descrivono alcuni flussi di lavoro comuni che un amministratore può seguire per risolvere i problemi di capacità dello storage, disponibilità dei dati o protezione visualizzati nell'interfaccia utente Web di Unified Manager.
+
+
+
+== Console di manutenzione
+
+La console di manutenzione di Unified Manager consente a un amministratore di monitorare, diagnosticare e risolvere i problemi del sistema operativo, i problemi di aggiornamento della versione, i problemi di accesso degli utenti e i problemi di rete relativi al server Unified Manager stesso. Se l'interfaccia utente Web di Unified Manager non è disponibile, la console di manutenzione è l'unica forma di accesso a Unified Manager.
+
+È possibile utilizzare queste informazioni per accedere alla console di manutenzione e utilizzarla per risolvere i problemi relativi al funzionamento del server Unified Manager.

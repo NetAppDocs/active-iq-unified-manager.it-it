@@ -1,0 +1,42 @@
+---
+permalink: data-protection/task_resume_scheduled_transfers_on_quiesced_relationship.html 
+sidebar: sidebar 
+keywords: resume, schedule, transfers, quiesce, relationship, volume relationships page 
+summary: Dopo aver interrotto una relazione per impedire il verificarsi di trasferimenti pianificati, è possibile utilizzare Riprendi per riattivare i trasferimenti pianificati in modo da proteggere i dati sul volume primario o di origine. I trasferimenti vengono ripristinati da un checkpoint, se presente, al successivo intervallo di trasferimento pianificato. 
+---
+= Ripresa dei trasferimenti pianificati su una relazione quiescente dalla pagina Volume Relationship (Relazioni volume)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dopo aver interrotto una relazione per impedire il verificarsi di trasferimenti pianificati, è possibile utilizzare *Riprendi* per riattivare i trasferimenti pianificati in modo da proteggere i dati sul volume primario o di origine. I trasferimenti vengono ripristinati da un checkpoint, se presente, al successivo intervallo di trasferimento pianificato.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+* È necessario aver impostato l'automazione del flusso di lavoro.
+
+
+È possibile selezionare non più di 10 relazioni in cui riprendere i trasferimenti.
+
+.Fasi
+. Dalla pagina Volume *Relointes* (Relazioni volume), selezionare uno o più volumi con relazioni in modalità di disattivazione e, sulla barra degli strumenti, fare clic su *Resume* (Riprendi).
+. Nella finestra di dialogo *Riprendi*, fare clic su *continua*.
++
+Viene visualizzata nuovamente la pagina Volume Relrelazione.
+
+. Per visualizzare le attività di lavoro correlate e monitorarne l'avanzamento, fare clic sul collegamento al lavoro visualizzato nella parte superiore della pagina *Relazioni volume*.
+. Effettuare una delle seguenti operazioni:
++
+** Se viene visualizzato un solo lavoro, nella pagina Dettagli lavoro fare clic su *Aggiorna* per aggiornare l'elenco delle attività e i dettagli delle attività associati al lavoro di configurazione della protezione e per determinare quando il lavoro è completo.
+** Se viene visualizzato più di un lavoro,
++
+... Nella pagina lavori, fare clic sul lavoro per il quale si desidera visualizzare i dettagli.
+... Nella pagina Dettagli lavoro, fare clic su *Aggiorna* per aggiornare l'elenco delle attività e i dettagli delle attività associati al lavoro di configurazione della protezione e per determinare quando il lavoro è completo. Al termine dei lavori, i trasferimenti di dati vengono ripristinati al successivo intervallo di trasferimento pianificato.
+
+
+
+
+

@@ -1,0 +1,102 @@
+---
+permalink: data-protection/reference_protection_storage_virtual_machine_associations_page.html 
+sidebar: sidebar 
+keywords: svm, association, page 
+summary: La pagina Storage VM Association consente di visualizzare le associazioni di storage VM esistenti tra le storage VM di origine e di destinazione. 
+---
+= Informazioni sulle associazioni di Storage VM
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Le associazioni delle macchine virtuali di storage (VM di storage) sono mappature da una VM di storage di origine a una VM di storage di destinazione utilizzate dalle applicazioni partner per la selezione delle risorse e il provisioning di volumi secondari.
+
+Vengono create associazioni tra una VM di storage di origine e una VM di storage di destinazione, indipendentemente dal fatto che la VM di storage di destinazione sia una destinazione secondaria o una destinazione terziaria. Non è possibile utilizzare una VM di storage di destinazione secondaria come origine per creare un'associazione con una VM di storage di destinazione terziaria.
+
+In qualità di amministratore dell'applicazione o amministratore dello storage, è possibile visualizzare le associazioni delle macchine virtuali dello storage nel proprio ambiente nella pagina *protezione* > *Associazioni delle macchine virtuali dello storage*.
+
+È possibile associare le SVM in tre modi:
+
+* *Associa qualsiasi VM di storage*: Puoi creare un'associazione tra qualsiasi VM di storage di origine primaria e una o più SVM di destinazione. Ciò significa che tutte le SVM esistenti che attualmente richiedono protezione, nonché tutte le SVM create in futuro, sono associate alle SVM di destinazione specificate. Ad esempio, è possibile che venga eseguito il backup di applicazioni provenienti da diverse origini in posizioni diverse su una o più SVM di destinazione in un'unica posizione.
+* *Associare una particolare VM di storage*: È possibile creare un'associazione tra una specifica VM di storage di origine e una o più SVM di destinazione specifiche. Ad esempio, se si forniscono servizi di storage a molti client i cui dati devono essere separati l'uno dall'altro, è possibile scegliere questa opzione per associare una specifica VM di storage di origine a una specifica VM di storage di destinazione assegnata solo a quel client.
+* *Associare una VM di storage esterna*: È possibile creare un'associazione tra una VM di storage di origine e un volume flessibile esterno di una VM di storage di destinazione.
+
+
+
+
+== Creare associazioni di storage VM
+
+La procedura guidata Crea associazioni di macchine virtuali di storage consente alle applicazioni di protezione dei partner di associare una macchina virtuale di storage di origine a una macchina virtuale di storage di destinazione da utilizzare con le relazioni SnapMirror e SnapVault. Le applicazioni partner utilizzano queste associazioni al momento del provisioning iniziale dei volumi di destinazione per determinare le risorse da selezionare.dd
+
+*Cosa ti serve*
+
+* La VM di storage che si sta associando deve già esistere.
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Per qualsiasi tipo di relazione e VM di storage di origine, è possibile scegliere una sola VM di storage di destinazione per ogni cluster di destinazione.
+
+La modifica delle associazioni che utilizzano le funzioni di eliminazione e creazione influisce solo sulle future operazioni di provisioning. Non sposta i volumi di destinazione esistenti.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *protezione* > *Storage VM Associations*.
+. Nella pagina *Storage VM Associations*, fare clic su *Create* (Crea).
++
+Viene avviata la procedura guidata *Create Storage Virtual Machine Associations*.
+
+. Selezionare una delle seguenti fonti:
++
+** *Qualsiasi*
++
+Scegliere questa opzione per creare un'associazione tra un'origine VM di storage primario e una o più VM di storage di destinazione. Ciò significa che tutte le VM di storage esistenti che richiedono attualmente la protezione, nonché tutte le VM di storage create in futuro, sono associate alla VM di storage di destinazione specificata. Ad esempio, è possibile eseguire il backup di applicazioni provenienti da diverse origini in posizioni diverse su una o più macchine virtuali di storage di destinazione in un'unica posizione.
+
+** *Singolo*
++
+Scegliere questa opzione se si desidera selezionare una VM storage di origine specifica associata a una o più VM storage di destinazione. Ad esempio, se si forniscono servizi di storage a molti client i cui dati devono essere separati l'uno dall'altro, scegliere questa opzione per associare una specifica origine della VM di storage a una specifica destinazione della VM di storage assegnata solo a quel client.
+
+** *Nessuno (esterno)*
++
+Scegliere questa opzione per creare un'associazione tra una VM di storage di origine e un volume flessibile esterno di una VM di storage di destinazione.
+
+
+
+. Selezionare uno o entrambi i tipi di relazione di protezione che si desidera creare:
++
+** *SnapMirror*
+** *SnapVault*
+
+
+. Fare clic su *Avanti*.
+. Selezionare una o più destinazioni di protezione delle VM di storage.
+. Fare clic su *fine*.
+
+
+
+
+== Eliminare le associazioni di storage VM
+
+È possibile eliminare le associazioni delle macchine virtuali di storage per le applicazioni partner per rimuovere la relazione di provisioning secondario tra le macchine virtuali di storage di origine e di destinazione; ad esempio, è possibile farlo quando la macchina virtuale di storage di destinazione è piena e si desidera creare nuove associazioni di protezione delle macchine virtuali di storage.
+
+*Cosa ti serve*
+
+È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+Il pulsante *Delete* (Elimina) viene disattivato fino a quando non viene selezionata almeno un'associazione di storage VM. La modifica delle associazioni che utilizzano le funzioni di eliminazione e creazione influisce solo sulle future operazioni di provisioning e non sposta i volumi di destinazione esistenti.
+
+.Fasi
+. Nel riquadro di navigazione a sinistra, fare clic su *protezione* > *Storage VM Associations*.
+. Selezionare almeno un'associazione di storage VM.
++
+Il pulsante *Delete* (Elimina) è attivato.
+
+. Fare clic su *Delete.* (Elimina)
++
+Viene visualizzata una finestra di dialogo di avviso.
+
+. Fare clic su *Sì* per continuare.
++
+L'associazione delle macchine virtuali di storage selezionate viene rimossa dall'elenco.
+
+

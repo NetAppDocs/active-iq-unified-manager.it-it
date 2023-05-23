@@ -1,0 +1,37 @@
+---
+permalink: api-automation/concept_provision_workflow.html 
+sidebar: sidebar 
+keywords: workflow, workload, management 
+summary: 'Con Active IQ Unified Manager, è possibile eseguire il provisioning e modificare i carichi di lavoro dello storage (LUN, condivisioni di file NFS e condivisioni CIFS). Il provisioning è costituito da più fasi, dalla creazione della Storage Virtual Machine (SVM) all"applicazione delle policy di performance service level e di efficienza dello storage sui carichi di lavoro dello storage. La modifica dei carichi di lavoro consiste nella procedura per modificare parametri specifici e abilitare funzionalità aggiuntive su di essi.' 
+---
+= Flussi di lavoro API per la gestione dei carichi di lavoro
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Con Active IQ Unified Manager, è possibile eseguire il provisioning e modificare i carichi di lavoro dello storage (LUN, condivisioni di file NFS e condivisioni CIFS). Il provisioning è costituito da più fasi, dalla creazione della Storage Virtual Machine (SVM) all'applicazione delle policy di performance service level e di efficienza dello storage sui carichi di lavoro dello storage. La modifica dei carichi di lavoro consiste nella procedura per modificare parametri specifici e abilitare funzionalità aggiuntive su di essi.
+
+Vengono descritti i seguenti flussi di lavoro:
+
+* Workflow per il provisioning di Storage Virtual Machine (SVM) su Unified Manager.
++
+[NOTE]
+====
+Questo flusso di lavoro deve essere eseguito prima del provisioning di LUN o condivisioni di file su Unified Manager.
+
+====
+* Provisioning delle condivisioni di file.
+* Provisioning dei LUN.
+* Modifica di LUN e condivisioni di file (utilizzando l'esempio per aggiornare il parametro Performance Service Level per i carichi di lavoro dello storage).
+* Modifica di una condivisione file NFS per supportare il protocollo CIFS
+* Modifica dei carichi di lavoro per aggiornare QoS ad AQoS
+
+
+[NOTE]
+====
+Per ogni flusso di lavoro di provisioning (LUN e condivisioni di file), assicurarsi di aver completato il flusso di lavoro per la verifica delle SVM sui cluster.
+
+====
+È inoltre necessario leggere i consigli e le limitazioni prima di utilizzare ogni API nei flussi di lavoro. I dettagli relativi alle API sono disponibili nelle singole sezioni elencate nei relativi concetti e riferimenti.

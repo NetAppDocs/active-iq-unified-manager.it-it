@@ -1,0 +1,43 @@
+---
+permalink: reporting/task_create_report_to_view_ha_pairs_with_most_available_capacity.html 
+sidebar: sidebar 
+keywords: create, report, view, HA pairs, available, capacity 
+summary: 'È possibile creare un report per trovare le coppie ad alta disponibilità (ha) con la maggiore capacità per il provisioning di nuovi volumi e LUN.' 
+---
+= Creazione di un report per visualizzare le coppie ha con la capacità più disponibile
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile creare un report per trovare le coppie ad alta disponibilità (ha) con la maggiore capacità per il provisioning di nuovi volumi e LUN.
+
+*Cosa ti serve*
+
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
+
+Utilizzare i seguenti passaggi per creare una vista personalizzata che visualizzi le coppie ha ordinate in base alla capacità più disponibile per il provisioning di nuovi volumi e LUN, quindi pianificare la generazione di un report per tale vista.
+
+.Fasi
+. Nel riquadro di spostamento a sinistra, fare clic su *Storage* > *Clusters*.
+. Nel menu Visualizza, selezionare *capacità* > *tutti i cluster*.
+. Selezionare *Mostra/Nascondi* per rimuovere le colonne non desiderate nel report.
+. Trascinare la colonna "`aggregate Unused Capacity`" vicino alla colonna "`ha Pair`".
+. Fare clic sull'icona del filtro, aggiungere il seguente filtro, quindi fare clic su *Applica filtro*:
++
+** Capacità aggregata inutilizzata superiore a 0.5 TB
+
+
+. Fare clic nella parte superiore della colonna "`aggregate Unused Capacity`" (capacità non utilizzata aggregata) per ordinare i risultati in base alla quantità massima di capacità aggregata non utilizzata.
+. Salvare la vista con un nome specifico che rifletta ciò che la vista mostra, ad esempio "`Least used aggregate Capacity`", quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]).
+. Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
+. Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina Report Schedule (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.
+. Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
++
+Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza specificata.
+
+
+
+In base ai risultati mostrati nel report, è possibile bilanciare le coppie ha in base alla capacità aggregata.

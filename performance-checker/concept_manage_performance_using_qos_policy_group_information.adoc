@@ -1,0 +1,16 @@
+---
+permalink: performance-checker/concept_manage_performance_using_qos_policy_group_information.html 
+sidebar: sidebar 
+keywords: managing, performance, qos, policy, group, information 
+summary: 'Unified Manager consente di visualizzare i gruppi di policy di qualità del servizio (QoS) disponibili su tutti i cluster monitorati. Le policy possono essere state definite utilizzando il software ONTAP (Gestore di sistema o l"interfaccia utente di ONTAP) o le policy del livello di servizio per le performance di Unified Manager. Unified Manager visualizza anche i volumi e le LUN a cui è stato assegnato un gruppo di criteri QoS.' 
+---
+= Gestione delle performance utilizzando le informazioni del gruppo di policy QoS
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager consente di visualizzare i gruppi di policy di qualità del servizio (QoS) disponibili su tutti i cluster monitorati. Le policy possono essere state definite utilizzando il software ONTAP (Gestore di sistema o l'interfaccia utente di ONTAP) o le policy del livello di servizio per le performance di Unified Manager. Unified Manager visualizza anche i volumi e le LUN a cui è stato assegnato un gruppo di criteri QoS.
+
+Per ulteriori informazioni sulla regolazione delle impostazioni QoS, vedere https://docs.netapp.com/us-en/ontap/performance-admin/index.html["Panoramica sulla gestione delle performance"]
