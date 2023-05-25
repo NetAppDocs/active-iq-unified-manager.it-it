@@ -11,15 +11,13 @@ summary: 'Se in precedenza è stato installato Unified Manager su un sistema Red
 
 
 [role="lead"]
-Se in precedenza è stato installato Unified Manager su un sistema Red Hat Enterprise Linux 7.x e si desidera eseguire l'aggiornamento a Red Hat Enterprise Linux 8.x, seguire una delle procedure elencate in questo argomento. In entrambi i casi, è necessario creare un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, quindi ripristinare il backup su un sistema Red Hat Enterprise Linux 8.x.
+Se in precedenza è stato installato Unified Manager su un sistema Red Hat Enterprise Linux 7.x e si desidera eseguire l'aggiornamento a Red Hat Enterprise Linux 8.x, seguire una delle procedure elencate in questo argomento. In entrambi i casi, è necessario creare un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, quindi ripristinare il backup su un sistema Red Hat Enterprise Linux 8.x. Le versioni supportate di Red Hat Enterprise Linux vanno dalla 8.0 alla 8.7.
 
 La differenza tra le due opzioni elencate di seguito è che in un caso si esegue il ripristino di Unified Manager su un nuovo server 8.x e nell'altro si esegue l'operazione di ripristino sullo stesso server.
 
 Poiché questa attività richiede la creazione di un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, è necessario creare il backup solo quando si è pronti a completare l'intero processo di aggiornamento in modo che Unified Manager non sia in linea per il periodo di tempo più breve. Le lacune nei dati raccolti appaiono nell'interfaccia utente di Unified Manager per il periodo di tempo durante il quale il sistema Red Hat Enterprise Linux 7.x viene spento e prima dell'avvio del nuovo Red Hat Enterprise Linux 8.x.
 
-Per istruzioni dettagliate sui processi di backup e ripristino, consultare la _Guida in linea di Active IQ Unified Manager_.
-
-*Aggiornamento del sistema operativo host mediante un nuovo server*
+Vedere link:../health-checker/concept_manage_backup_and_restore_operations.html["Gestione delle operazioni di backup e ripristino"] se è necessario rivedere le istruzioni dettagliate per i processi di backup e ripristino.
 
 Se si dispone di un sistema di riserva su cui è possibile installare il software Red Hat Enterprise Linux 8.x in modo da poter eseguire il ripristino di Unified Manager su quel sistema mentre il sistema Red Hat Enterprise Linux 7.x è ancora disponibile, seguire questa procedura.
 
