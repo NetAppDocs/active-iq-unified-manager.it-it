@@ -33,7 +33,7 @@ Vengono visualizzati i grafici dei contatori con le statistiche per il nodo prim
 Il grafico dettagliato per Perf. Viene visualizzato Capacity used (capacità utilizzata).
 
 +
-image::../media/headroom_advanced_zoom_chart.gif[tabella con zoom avanzato]
+image::../media/headroom_advanced_zoom_chart.gif[Una schermata dell'interfaccia utente che mostra il grafico dettagliato per Perf. Capacità utilizzata.]
 
 . Spostare il cursore sul grafico dettagliato per visualizzare le informazioni sulla capacità di performance utilizzata nella finestra a comparsa.
 +

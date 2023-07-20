@@ -18,7 +18,7 @@ La maggior parte degli eventi presenta una serie di possibili risoluzioni, visua
 .Fasi
 . Per visualizzare gli eventi che è possibile correggere dal dashboard, fare clic su *Dashboard*.
 +
-image::../media/management_actions.png[azioni di gestione]
+image::../media/management_actions.png[Una schermata dell'interfaccia utente che mostra come visualizzare e correggere gli eventi dalla dashboard.]
 
 . Per risolvere i problemi che Unified Manager può risolvere, fare clic sul pulsante *Correggi*. Per risolvere un problema che si verifica su più oggetti, fare clic sul pulsante *Correggi tutto*.
 

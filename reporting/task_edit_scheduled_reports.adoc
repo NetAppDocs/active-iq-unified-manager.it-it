@@ -21,7 +21,7 @@ Una volta pianificati i report, è possibile modificarli nella pagina Report Sch
 .Fasi
 . Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Report Schedules*.
 +
-image::../media/scheduled_reports_2.gif[report pianificati 2]
+image::../media/scheduled_reports_2.gif[Schermata dell'interfaccia utente che mostra i report pianificati.]
 
 +
 [NOTE]

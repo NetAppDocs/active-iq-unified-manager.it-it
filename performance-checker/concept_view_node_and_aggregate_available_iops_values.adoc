@@ -15,7 +15,7 @@ summary: È possibile monitorare i valori IOPS disponibili per tutti i nodi o pe
 
 I valori IOPS disponibili vengono visualizzati nelle pagine Performance Inventory e nei grafici della pagina Performance Explorer per nodi e aggregati. Ad esempio, quando si visualizza un nodo nella pagina Node/Performance Explorer (Esplora nodi/prestazioni), è possibile selezionare il grafico del contatore "`Available IOPS`" (IOPS disponibili) dall'elenco in modo da poter confrontare i valori IOPS disponibili per il nodo e gli aggregati multipli su quel nodo.
 
-image::../media/available_iops_zoom.gif[zoom iops disponibile]
+image::../media/available_iops_zoom.gif[Schermata dell'interfaccia utente che mostra come visualizzare un nodo nella pagina Node/Performance Explorer e selezionare "Available IOPS" (IOPS disponibili) dall'elenco.]
 
 Il monitoraggio del contatore IOPS disponibile consente di identificare:
 

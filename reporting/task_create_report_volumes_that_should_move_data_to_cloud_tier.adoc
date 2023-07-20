@@ -33,11 +33,12 @@ Aggiungere o rimuovere altre colonne per creare una vista importante per il repo
 +
 ** Il tipo di disco contiene FabricPool
 ** Cloud Recommendation contiene Tier
-** Cold Data superiore a 10 GBimage:../media/filter_cold_data.gif[""]
+** Cold Data superiore a 10 GB
+image:../media/filter_cold_data.gif["Una schermata dell'interfaccia utente che mostra come aggiungere e applicare il filtro."]
 
 
 . Fare clic sulla parte superiore della colonna Cold Data (dati a freddo) in modo che i volumi con il maggior numero di dati a freddo vengano visualizzati nella parte superiore della vista.
-. Salvare la vista con un nome per riflettere ciò che viene visualizzato, ad esempio "`VOL change Tiering policy`".image:../media/report_vol_cold_data.gif[""]
+. Salvare la vista con un nome per riflettere ciò che viene visualizzato, ad esempio "`VOL change Tiering policy`".image:../media/report_vol_cold_data.gif["Una schermata dell'interfaccia utente che mostra la pagina dei criteri di tiering delle modifiche dei VOL con le colonne richieste nell'ordine corretto."]
 . Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario.
 . Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina Report Schedule (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.
 . Immettere un nome per la pianificazione del report e completare gli altri campi del report, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.

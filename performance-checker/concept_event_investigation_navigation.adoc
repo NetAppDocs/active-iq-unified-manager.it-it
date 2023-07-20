@@ -27,4 +27,4 @@ Questo è un esempio di navigazione nell'analisi degli eventi.
 . Visualizzare la descrizione dell'evento e consultare le azioni consigliate (se disponibili) per visualizzare ulteriori dettagli sull'evento che potrebbero essere utili per risolvere il problema. È possibile fare clic sul pulsante *Analyze workload* (analizza carico di lavoro) per visualizzare grafici dettagliati delle performance e analizzare ulteriormente il problema.
 
 
-image::../media/event_flow.png[flusso di eventi]
+image::../media/event_flow.png[Una schermata dell'interfaccia utente che mostra una navigazione nell'analisi degli eventi.]

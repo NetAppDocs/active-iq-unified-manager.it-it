@@ -24,11 +24,11 @@ Dopo aver eseguito l'aggiornamento a Unified Manager 9.6 GA o versioni successiv
 .Fasi
 . Aprire la pagina Report Schedules. Se sono stati importati report, viene visualizzato un messaggio.
 +
-image::../media/message_non_scehduled_reports.png[report message non scehduled (messaggio non scehduled)]
+image::../media/message_non_scehduled_reports.png[Se sono presenti report importati, viene visualizzata una schermata dell'interfaccia utente che mostra il messaggio.]
 
 . Fare clic sul nome *View* per visualizzare la query SQL utilizzata per generare il report.
 +
-image::../media/importedreport1.png[importeporte1]
+image::../media/importedreport1.png[Schermata dell'interfaccia utente che mostra la query SQL utilizzata per generare il report.]
 
 . Fare clic sull'icona Altro image:../media/more_icon.gif[""], Fare clic su *Edit* (Modifica), definire i dettagli della pianificazione del report e salvare il report.
 +

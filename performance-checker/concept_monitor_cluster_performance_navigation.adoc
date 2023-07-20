@@ -25,4 +25,4 @@ Le statistiche per entrambi gli oggetti verranno visualizzate nei diagrammi dei 
 . Nel riquadro di confronto a destra della pagina Explorer, fare clic su *Zoom View* in uno dei diagrammi dei contatori per visualizzare i dettagli sulla cronologia delle performance per quell'aggregato.
 
 
-image::../media/monitor_cluster_performance.png[monitorare le performance del cluster]
+image::../media/monitor_cluster_performance.png[Una schermata dell'interfaccia utente che mostra come analizzare un particolare aggregato.]

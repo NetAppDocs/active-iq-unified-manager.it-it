@@ -24,7 +24,7 @@ Per aprire una vista Health: All aggregates (Salute: Tutti gli aggregati), scari
 . Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Aggregates*.
 . Selezionare *Report* > *Download Excel*.
 +
-image::../media/download_excel_menu.png[scarica il menu excel]
+image::../media/download_excel_menu.png[Una schermata dell'interfaccia utente che mostra come scaricare excel dai report.]
 
 +
 A seconda del browser in uso, potrebbe essere necessario fare clic su *OK* per salvare il file.
@@ -53,7 +53,7 @@ La formula totalizza ogni colonna in base ai dati correnti.
 
 
 
-image::../media/capacitysums.png[somme di capacità]
+image::../media/capacitysums.png[Schermata dell'interfaccia utente di una scheda informativa che mostra la capacità totale in base ai dati correnti.]
 
 . Nella scheda informativa, selezionare le colonne *capacità totale dei dati (GB)* e *capacità impegnata (GB)*.
 . Selezionare *Recommended Charts* (grafici consigliati) dal menu *Insert* (Inserisci) e selezionare il grafico *Clustered Column* (colonna in cluster).
@@ -61,7 +61,7 @@ image::../media/capacitysums.png[somme di capacità]
 . Utilizzando i menu *Design* e *Format*, disponibili quando viene selezionato il grafico, è possibile personalizzare l'aspetto del grafico.
 . Quando è soddisfatto, salvare il file con le modifiche. Non modificare il nome o la posizione del file.
 +
-image::../media/cluster_column_chart_2.png[grafico a colonne del cluster 2]
+image::../media/cluster_column_chart_2.png[Schermata dell'interfaccia utente di un grafico che mostra i dati totali e la capacità impegnata.]
 
 . In Unified Manager, selezionare *Report* > *carica Excel*.
 +
@@ -77,7 +77,7 @@ Assicurarsi di essere nella stessa vista in cui è stato scaricato il file Excel
 Viene visualizzato un segno di spunta accanto alla voce di menu *Report* > *carica Excel*.
 
 +
-image::../media/upload_excel.png[caricare excel]
+image::../media/upload_excel.png[Una schermata dell'interfaccia utente che mostra come caricare excel nei report.]
 
 . Fare clic su *Report pianificati*.
 . Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina Report Schedule (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.

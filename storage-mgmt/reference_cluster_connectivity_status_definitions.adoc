@@ -22,7 +22,7 @@ Ottimale
  a| 
 La connettività tra i cluster nella configurazione MetroCluster è normale.
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["icona della connettività MetroCluster ottimale"]
 
 
 
@@ -31,7 +31,7 @@ Interessato
  a| 
 Uno o più errori compromettono lo stato di disponibilità del failover; tuttavia, entrambi i cluster nella configurazione MetroCluster sono ancora in funzione. Ad esempio, quando il collegamento ISL non è attivo, quando il collegamento IP dell'intercluster non è attivo o quando il cluster partner non è raggiungibile.
  a| 
-image:../media/metrocluster_connectivity_impacted.gif[""]
+image:../media/metrocluster_connectivity_impacted.gif["icona della connettività MetroCluster interessata"]
 
 
 
@@ -42,10 +42,10 @@ La connettività tra i cluster nella configurazione MetroCluster non è attiva p
  a| 
 Switchover con errori:
 
-image::../media/metrocluster_connectivity_down.gif[connettività MetroCluster non attiva]
+image::../media/metrocluster_connectivity_down.gif[icona connettività MetroCluster inattiva]
 
 Switchover riuscito:
 
-image::../media/metrocluster_connectivity_failover.gif[failover della connettività MetroCluster]
+image::../media/metrocluster_connectivity_failover.gif[icona di failover della connettività MetroCluster]
 
 |===

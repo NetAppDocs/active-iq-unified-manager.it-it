@@ -40,7 +40,7 @@ Ad esempio, alcune funzionalità avanzate di Excel che è possibile utilizzare n
 ** Non assegnare un nome a nuovi dati o informazioni del foglio.
 
 
-* Se esiste un file Excel personalizzato, è presente un segno di spunta accanto alla voce di menu *Report* > *carica Excel*. Quando si scarica il file Excel, viene utilizzata la versione con le personalizzazioni.image:../media/upload_excel.png[""]
+* Se esiste un file Excel personalizzato, è presente un segno di spunta accanto alla voce di menu *Report* > *carica Excel*. Quando si scarica il file Excel, viene utilizzata la versione con le personalizzazioni.image:../media/upload_excel.png["Una schermata dell'interfaccia utente che mostra come caricare excel nei report."]
 
 
 ====

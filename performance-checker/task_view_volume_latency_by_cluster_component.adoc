@@ -35,7 +35,7 @@ Viene visualizzato il grafico latenza - componenti del cluster.
 
 . Per visualizzare una versione più grande della mappa, selezionare *Zoom View* (Vista zoom).
 +
-Viene visualizzato il grafico comparativo dei componenti del cluster. È possibile limitare il confronto deselezionando o selezionando image:../media/eye_icon.gif[""] associato a ciascun componente del cluster.
+Viene visualizzato il grafico comparativo dei componenti del cluster. È possibile limitare il confronto deselezionando o selezionando image:../media/eye_icon.gif["icona occhio"] associato a ciascun componente del cluster.
 
 . Per visualizzare i valori specifici, spostare il cursore nell'area del grafico per visualizzare la finestra a comparsa.
 

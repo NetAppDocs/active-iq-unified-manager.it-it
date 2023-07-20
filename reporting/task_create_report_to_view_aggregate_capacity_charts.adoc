@@ -24,7 +24,7 @@ Per aprire una vista Health: All aggregates (Salute: Tutti gli aggregati), scari
 . Nel riquadro di navigazione a sinistra, fare clic su *Storage* > *Aggregates*.
 . Selezionare *Report* > *Download Excel*.
 +
-image::../media/download_excel_menu.png[scarica il menu excel]
+image::../media/download_excel_menu.png[Una schermata dell'interfaccia utente che mostra come scaricare excel dai report.]
 
 +
 A seconda del browser in uso, potrebbe essere necessario fare clic su *OK* per salvare il file.
@@ -33,7 +33,7 @@ A seconda del browser in uso, potrebbe essere necessario fare clic su *OK* per s
 . Se necessario, fare clic su *Enable editing* (attiva modifica).
 . Nella scheda tecnica, fare clic con il pulsante destro del mouse sulla colonna Type (tipo) e selezionare *Sort* (Ordina) > *Sort A to Z* (Ordina Da A a Z).
 +
-image::../media/sort_01.png[ordinare 01]
+image::../media/sort_01.png[Una schermata dell'interfaccia utente che mostra come selezionare l'ordinamento nella colonna tipo.]
 
 +
 In questo modo i dati verranno sistemati in base al tipo di storage, ad esempio:
@@ -51,7 +51,7 @@ In questo modo i dati verranno sistemati in base al tipo di storage, ad esempio:
 Il grafico viene visualizzato sulla scheda tecnica.
 
 +
-image::../media/3d_column_01.png[colonna 3d 01]
+image::../media/3d_column_01.png[Una schermata dell'interfaccia utente che mostra il grafico a colonne 3D.]
 
 . Fare clic con il pulsante destro del mouse sul grafico e selezionare *Sposta grafico*.
 . Selezionare *New sheet* (nuovo foglio) e assegnare un nome al foglio *Total Storage Chart* (grafici di storage totali).
@@ -65,7 +65,7 @@ Assicurarsi che il nuovo foglio venga visualizzato dopo le schede informative e 
 . Utilizzando i menu *Design* e *Format*, disponibili quando si seleziona il grafico, è possibile personalizzare l'aspetto del grafico.
 . Quando è soddisfatto, salvare il file con le modifiche. Non modificare il nome o la posizione del file.
 +
-image::../media/total_vs_available_capacity.png[capacità totale rispetto a capacità disponibile]
+image::../media/total_vs_available_capacity.png[Una schermata dell'interfaccia utente che mostra il grafico della capacità totale rispetto a quella disponibile.]
 
 . In Unified Manager, selezionare *Report* > *carica Excel*.
 +
@@ -81,7 +81,7 @@ Assicurarsi di essere nella stessa vista in cui è stato scaricato il file Excel
 Viene visualizzato un segno di spunta accanto alla voce di menu *Report* > *carica Excel*.
 
 +
-image::../media/upload_excel.png[caricare excel]
+image::../media/upload_excel.png[Una schermata dell'interfaccia utente che mostra come caricare excel nei report.]
 
 . Fare clic su *Report pianificati*.
 . Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina *Report Schedule* (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.

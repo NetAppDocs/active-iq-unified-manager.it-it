@@ -27,7 +27,7 @@ Per verificare e pianificare la creazione di un report per una visualizzazione, 
 . Personalizzare la vista in base alle esigenze utilizzando le funzionalità integrate di Unified Manager.
 . Dopo aver personalizzato la vista, è possibile specificare un nome univoco nel campo *View* (Visualizza) e fare clic sul segno di spunta per salvarla.
 +
-image::../media/view_save.gif[visualizza salvataggio]
+image::../media/view_save.gif[Schermata dell'interfaccia utente che mostra come salvare una vista.]
 
 . È possibile utilizzare le funzionalità avanzate di Microsoft® Excel per personalizzare il report. Per ulteriori informazioni, vedere link:task_use_excel_to_customize_your_report.html["Utilizzo di Excel per personalizzare il report"].
 . Per visualizzare l'output prima di pianificarlo o condividerlo:
@@ -67,7 +67,7 @@ Per i report in cui è stato utilizzato Excel per personalizzare il contenuto, s
 ====
 . Fare clic sul segno di spunta (image:../media/blue_check.gif[""]) per salvare la pianificazione del report.
 +
-image::../media/scheduled_reports.gif[report pianificati]
+image::../media/scheduled_reports.gif[Una schermata dell'interfaccia utente che mostra come salvare la pianificazione del report.]
 
 +
 Il report viene inviato immediatamente come test. Successivamente, il report viene generato e inviato via email ai destinatari elencati utilizzando la frequenza pianificata.

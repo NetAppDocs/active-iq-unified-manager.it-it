@@ -51,7 +51,7 @@ Visualizza "`(QoS Adaptive)`"
 |===
 La figura seguente mostra un esempio di come le tre opzioni sono mostrate nei diagrammi dei contatori.
 
-image::../media/3_qos_policy_charts.gif[3 grafici dei criteri qos]
+image::../media/3_qos_policy_charts.gif[Una schermata dell'interfaccia utente che mostra un esempio di come le tre opzioni sono mostrate nei diagrammi dei contatori.]
 
 Quando una normale policy di QoS definita in IOPS viene visualizzata nel grafico IOPS/TB per un carico di lavoro, ONTAP converte il valore IOPS in un valore IOPS/TB e visualizza tale policy nel grafico IOPS/TB insieme al testo "`QoS, defined in IOPS`".
 

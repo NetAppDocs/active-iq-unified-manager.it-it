@@ -16,7 +16,7 @@ Utilizzare *Mostra/Nascondi* per scegliere le colonne da utilizzare nel report. 
 .Fasi
 . Fare clic su *Mostra/Nascondi* per aggiungere o rimuovere le colonne.
 +
-image::../media/show_hide_3.png[mostra nascondi 3]
+image::../media/show_hide_3.png[Una schermata dell'interfaccia utente che mostra come aggiungere o rimuovere colonne.]
 
 . Nella pagina di inventario, trascinare le colonne per riorganizzarle nell'ordine desiderato nel report.
 . Assegnare un nome alla vista non salvata per salvare le modifiche.

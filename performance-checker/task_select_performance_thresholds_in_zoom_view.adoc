@@ -18,7 +18,7 @@ La selezione delle soglie nella visualizzazione Zoom dei grafici dei contatori c
 È possibile applicare un solo criterio alla volta all'oggetto nella vista Zoom Counter Chart.
 
 .Fase
-. Selezionare o deselezionare image:../media/eye_icon.gif[""] associato a una policy.
+. Selezionare o deselezionare image:../media/eye_icon.gif["icona occhio"] associato a una policy.
 +
 La soglia selezionata viene applicata alla vista Zoom Counter Chart. Le soglie critiche vengono visualizzate sotto forma di linea rossa; le soglie di avviso vengono visualizzate sotto forma di linea gialla.
 

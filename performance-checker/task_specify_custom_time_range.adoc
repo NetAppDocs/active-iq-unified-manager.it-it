@@ -19,7 +19,7 @@ Selezionando l'opzione *ultimi 13 mesi* o specificando un intervallo di date per
 
 Quando si seleziona un intervallo di tempo (personalizzato o predefinito), gli intervalli di tempo di 30 giorni o meno si basano su campioni di dati a intervalli di 5 minuti. Gli intervalli di tempo superiori a 30 giorni si basano su campioni di dati a intervalli di un'ora.
 
-image::../media/time_range_selector.gif[selettore dell'intervallo di tempo]
+image::../media/time_range_selector.gif[Schermata dell'interfaccia utente che mostra il pannello Time Range (intervallo di tempo).]
 
 . Fare clic sulla casella a discesa *intervallo di tempo* per visualizzare il pannello intervallo di tempo.
 . Per selezionare un intervallo di tempo predefinito, fare clic su uno dei pulsanti *ultimo...* a destra del pannello *intervallo di tempo*. Quando si seleziona un intervallo di tempo predefinito, sono disponibili dati per un massimo di 13 mesi. Il pulsante dell'intervallo di tempo predefinito selezionato viene evidenziato e i giorni e l'ora corrispondenti vengono visualizzati nei calendari e nei selettori dell'ora.

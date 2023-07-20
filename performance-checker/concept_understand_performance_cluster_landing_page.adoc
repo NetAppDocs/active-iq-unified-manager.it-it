@@ -15,7 +15,7 @@ La landing page Performance Cluster offre una panoramica delle performance di al
 
 La landing page Performance Cluster fornisce una panoramica di alto livello di ogni cluster gestito da un'istanza di Unified Manager. Questa pagina fornisce informazioni su eventi e performance e consente di monitorare e risolvere i problemi dei cluster. L'immagine seguente mostra un esempio della pagina di destinazione del cluster Performance Cluster per il cluster chiamato opm-mobility:
 
-image::../media/opm_cluster_landing_page_draft.gif[bozza della landing page del cluster opm]
+image::../media/opm_cluster_landing_page_draft.gif[Una schermata dell'interfaccia utente che mostra un esempio della pagina di destinazione del cluster di performance chiamata opm-mobility.]
 
 Il numero di eventi nella pagina Cluster Summary (Riepilogo cluster) potrebbe non corrispondere al numero di eventi nella pagina Performance Event Inventory (inventario eventi performance). Questo perché la pagina Cluster Summary (Riepilogo cluster) può mostrare un evento ciascuno nelle barre di latenza e utilizzo quando le policy di soglia della combinazione sono state violate, mentre la pagina Performance Event Inventory (inventario eventi performance) mostra un solo evento quando una policy di combinazione è stata violata.
 

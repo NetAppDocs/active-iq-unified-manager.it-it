@@ -28,7 +28,7 @@ Poiché alcune attività in background associate alla gestione del sistema e dei
 I colori del grafico standard mostrano quando l'oggetto si trova nell'intervallo ottimale (giallo), quando l'oggetto è sottoutilizzato (verde) e quando l'oggetto è sovrautilizzato (rosso). Il grafico dettagliato mostra i dettagli della capacità delle performance solo per l'oggetto root.
 
 +
-image::../media/headroom_counter_charts.gif[tabelle dei contatori di spazio per l'intestazione]
+image::../media/headroom_counter_charts.gif[Una schermata dell'interfaccia utente che mostra il grafico di dettaglio con capacità di performance dettagliata solo per l'oggetto root.]
 
 . Se si desidera visualizzare uno dei grafici in un formato a dimensione intera, fare clic su *Zoom View* (Vista zoom).
 +

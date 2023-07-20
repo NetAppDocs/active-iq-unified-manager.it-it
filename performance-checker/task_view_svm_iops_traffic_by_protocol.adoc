@@ -29,7 +29,7 @@ Viene visualizzato il grafico IOPS - protocolli.
 
 . Per visualizzare una versione più grande della mappa, selezionare *Zoom View* (Vista zoom).
 +
-Viene visualizzato il grafico comparativo del protocollo avanzato IOPS. È possibile limitare il confronto deselezionando o selezionando image:../media/eye_icon.gif[""] associato a un protocollo.
+Viene visualizzato il grafico comparativo del protocollo avanzato IOPS. È possibile limitare il confronto deselezionando o selezionando image:../media/eye_icon.gif["icona occhio"] associato a un protocollo.
 
 . Per visualizzare i valori specifici, spostare il cursore nell'area del grafico per visualizzare la finestra a comparsa.
 

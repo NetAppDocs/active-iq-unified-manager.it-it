@@ -22,7 +22,7 @@ I dati visualizzati nei pannelli di riepilogo dei contatori e nei grafici dei co
 ====
 L'immagine seguente mostra un esempio di pagina di destinazione degli oggetti che visualizza le informazioni di Esplora risorse:
 
-image::../media/perf_manager_page_1.gif[pagina 1 di perf manager]
+image::../media/perf_manager_page_1.gif[Schermata dell'interfaccia utente che mostra un esempio di pagina di destinazione di un oggetto che visualizza le informazioni di Explorer.]
 
 A seconda dell'oggetto di storage visualizzato, la pagina di destinazione degli oggetti può avere le seguenti schede che forniscono i dati relativi alle prestazioni dell'oggetto:
 

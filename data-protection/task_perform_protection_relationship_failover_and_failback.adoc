@@ -32,7 +32,7 @@ Quando il volume di origine originale è nuovamente disponibile, è possibile de
 La relazione invertita appare simile a una relazione a cascata:
 
 +
-image::../media/um_toplogy_reverse_resync.gif[risincronizzazione inversa della topologia]
+image::../media/um_toplogy_reverse_resync.gif[Una schermata dell'interfaccia utente che mostra il processo di relazione inversa.]
 
 . link:task_break_snapmirror_relationship_from_health_volume_details.html["Interrompere la relazione SnapMirror inversa"].
 +

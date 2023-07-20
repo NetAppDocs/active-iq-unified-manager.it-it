@@ -33,7 +33,7 @@ Consente di digitare il percorso del file in cui si desidera ripristinare i dati
 
 * *Nome*
 +
-Visualizza i nomi delle cartelle disponibili per il volume selezionato. Se si fa clic su una cartella nell'elenco Nome, vengono visualizzate le eventuali sottocartelle. I file contenuti nelle cartelle non vengono visualizzati. Fare clic su image:../media/icon_upfolder.gif[""] una volta selezionata, una cartella si sposta verso l'alto di un livello nella struttura di directory.
+Visualizza i nomi delle cartelle disponibili per il volume selezionato. Se si fa clic su una cartella nell'elenco Nome, vengono visualizzate le eventuali sottocartelle. I file contenuti nelle cartelle non vengono visualizzati. Fare clic su image:../media/icon_upfolder.gif["icona di upfolder"] una volta selezionata, una cartella si sposta verso l'alto di un livello nella struttura di directory.
 
 
 

@@ -28,7 +28,7 @@ Per aprire la vista Health: All Volumes (Salute: Tutti i volumi), scaricare la v
 . Assegnare un nome e salvare la vista personalizzata `Available IOPS Per Aggr.`
 . Selezionare *Report* > *Download Excel*.
 +
-image::../media/download_excel_menu.png[scarica il menu excel]
+image::../media/download_excel_menu.png[Una schermata dell'interfaccia utente che mostra come scaricare excel dai report.]
 
 +
 A seconda del browser in uso, potrebbe essere necessario fare clic su *OK* per salvare il file.
@@ -62,7 +62,7 @@ Assicurarsi di essere nella stessa vista in cui è stato scaricato il file Excel
 Viene visualizzato un segno di spunta accanto alla voce di menu *Report* > *carica Excel*.
 
 +
-image::../media/upload_excel.png[caricare excel]
+image::../media/upload_excel.png[Una schermata dell'interfaccia utente che mostra come caricare excel nei report.]
 
 . Fare clic su *Report pianificati*.
 . Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina Report Schedule (Pianificazioni report) in modo da poter definire le caratteristiche di pianificazione per il nuovo report.

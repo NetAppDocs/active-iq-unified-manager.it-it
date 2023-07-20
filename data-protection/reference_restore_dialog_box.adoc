@@ -41,7 +41,7 @@ L'area Select ITEMS to restore (Seleziona elementi da ripristinare) consente di 
 
 * *Campo percorso*
 +
-Visualizza il percorso dei dati che si desidera ripristinare. È possibile accedere alla cartella e ai file da ripristinare oppure digitare il percorso. Questo campo è vuoto fino a quando non si seleziona o si digita un percorso. Fare clic su image:../media/icon_upfolder.gif[""] dopo aver scelto un percorso, si passa a un livello superiore nella struttura delle directory.
+Visualizza il percorso dei dati che si desidera ripristinare. È possibile accedere alla cartella e ai file da ripristinare oppure digitare il percorso. Questo campo è vuoto fino a quando non si seleziona o si digita un percorso. Fare clic su image:../media/icon_upfolder.gif["icona di upfolder"] dopo aver scelto un percorso, si passa a un livello superiore nella struttura delle directory.
 
 * *Elenco cartelle e file*
 +

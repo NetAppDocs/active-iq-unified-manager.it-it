@@ -45,7 +45,7 @@ Selezionare la casella di controllo a sinistra di ciascun oggetto.
  a| 
 Tutti gli oggetti della pagina
  a| 
-Fare clic su image:../media/select_dropdown_65_png.gif[""] nell'intestazione della colonna.
+Fare clic su image:../media/select_dropdown_65_png.gif["selezionare l'icona a discesa"] nell'intestazione della colonna.
 
 |===
 . Fare clic su *Cancella policy soglia performance*.

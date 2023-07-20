@@ -22,7 +22,7 @@ Normale
  a| 
 Il mirroring dei dati tra i cluster nella configurazione MetroCluster è normale.
  a| 
-image:../media/metrocluster_connectivity_optimal.gif[""]
+image:../media/metrocluster_connectivity_optimal.gif["icona della connettività MetroCluster ottimale"]
 
 
 
@@ -33,10 +33,10 @@ Il mirroring dei dati tra i cluster nella configurazione MetroCluster non è dis
  a| 
 Switchover con errori:
 
-image::../media/metrocluster_connectivity_down.gif[connettività MetroCluster non attiva]
+image::../media/metrocluster_connectivity_down.gif[icona connettività MetroCluster inattiva]
 
 Switchover riuscito:
 
-image::../media/metrocluster_connectivity_failover.gif[failover della connettività MetroCluster]
+image::../media/metrocluster_connectivity_failover.gif[icona di failover della connettività MetroCluster]
 
 |===

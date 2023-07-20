@@ -25,4 +25,4 @@ Questo è un esempio di molte possibili esplorazioni degli oggetti del cluster:
 
 È necessario esaminare questi volumi per verificare se è necessario applicare una policy di QoS o una policy di Performance Service Level o modificare le impostazioni della policy, in modo che tali volumi non utilizzino una percentuale così elevata di IOPS sul cluster.
 
-image::../media/monitor_cluster_object.png[monitorare l'oggetto cluster]
+image::../media/monitor_cluster_object.png[Una schermata dell'interfaccia utente che mostra un esempio di molte possibili esplorazioni degli oggetti del cluster.]

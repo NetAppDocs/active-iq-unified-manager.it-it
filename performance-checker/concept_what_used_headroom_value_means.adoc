@@ -15,7 +15,7 @@ Il valore utilizzato per la capacità delle performance ti aiuta a identificare 
 
 La figura seguente mostra la curva di latenza rispetto all'utilizzo di una risorsa e identifica, con punti colorati, tre aree in cui è possibile individuare il punto operativo corrente.
 
-image::../media/headroom_chart_over_under.gif[tabella dello spazio di testa sotto]
+image::../media/headroom_chart_over_under.gif[Una schermata dell'interfaccia utente che mostra la latenza rispetto alla curva di utilizzo di una risorsa.]
 
 * Una percentuale di performance utilizzata pari a 100 è al punto ottimale.
 +

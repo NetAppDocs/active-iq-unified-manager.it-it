@@ -23,7 +23,7 @@ Ad esempio, se si utilizza una coppia di sistemi storage FAS2520 e FAS8060, un v
 
 Nella figura seguente viene mostrato un esempio di latenza rispetto alla curva IOPS per un nodo.
 
-image::../media/available_iops.gif[iops disponibili]
+image::../media/available_iops.gif[Una schermata dell'interfaccia utente che mostra una latenza di esempio rispetto alla curva IOPS per un nodo.]
 
 Il numero massimo di IOPS che una risorsa può fornire è il numero di IOPS quando il contatore della capacità di performance utilizzata è al 100% (il punto ottimale). Il punto operativo indica che il nodo sta attualmente operando a 100.000 IOPS con latenza di 1.0 ms/op. In base alle statistiche acquisite dal nodo, Unified Manager determina che il numero massimo di IOPS per il nodo è 160K, il che significa che ci sono 60K IOPS liberi o disponibili. Pertanto, è possibile aggiungere più carichi di lavoro a questo nodo in modo che i sistemi vengano utilizzati in modo più efficiente.
 

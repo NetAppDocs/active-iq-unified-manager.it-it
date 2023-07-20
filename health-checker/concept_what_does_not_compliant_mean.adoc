@@ -15,9 +15,9 @@ I cluster e le macchine virtuali di storage (SVM) sono considerati non conformi 
 
 Le icone di stato nelle schede di sicurezza hanno i seguenti significati in relazione alla loro conformità:
 
-* image:../media/sev_normal_um60.png[""] - Il parametro viene configurato come consigliato.
-* image:../media/sev_warning_um60.png[""] - Il parametro non è configurato come consigliato.
-* image:../media/sev_information_um60.gif[""] - La funzionalità non è attivata sul cluster o il parametro non è configurato come consigliato, ma questo parametro non contribuisce alla compliance dell'oggetto.
+* image:../media/sev_normal_um60.png["normale icona con segno di spunta verde"] - Il parametro viene configurato come consigliato.
+* image:../media/sev_warning_um60.png["icona di avvertenza"] - Il parametro non è configurato come consigliato.
+* image:../media/sev_information_um60.gif["icona delle informazioni"] - La funzionalità non è attivata sul cluster o il parametro non è configurato come consigliato, ma questo parametro non contribuisce alla compliance dell'oggetto.
 
 
 Si noti che lo stato di crittografia del volume non contribuisce a stabilire se il cluster o la SVM sono considerati conformi.

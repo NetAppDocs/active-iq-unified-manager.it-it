@@ -23,7 +23,7 @@ Per utilizzare Unified Manager, è necessario prima configurare le opzioni di co
 
 La pagina Guida introduttiva di Active IQ Unified Managerviene visualizzata solo quando si accede per la prima volta all'interfaccia utente Web. La pagina riportata di seguito è tratta da un'installazione su VMware.
 
-image::../media/first_experience_wizard.JPG[procedura guidata first experience]
+image::../media/first_experience_wizard.JPG[Schermata dell'interfaccia utente che mostra una pagina dell'installazione su VMware.]
 
 Se si desidera modificare una di queste opzioni in un secondo momento, è possibile selezionare una delle opzioni generali nel riquadro di navigazione sinistro di Unified Manager. Tenere presente che l'impostazione NTP è valida solo per le installazioni VMware e può essere modificata in un secondo momento utilizzando la console di manutenzione di Unified Manager.
 

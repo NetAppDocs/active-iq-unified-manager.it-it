@@ -32,7 +32,7 @@ Attenersi alla procedura riportata di seguito per:
 . Nel menu View (Visualizza), selezionare *Performance* (prestazioni) > *All Volumes* (tutti i volumi).
 . Fare clic su *Show/Hide* (Mostra/Nascondi) per assicurarsi che la colonna "isk Types `D`" (tipi di disco) venga visualizzata nella vista.
 +
-image::../media/show_hide_3.png[mostra nascondi 3]
+image::../media/show_hide_3.png[Schermata dell'interfaccia utente che mostra l'elenco a discesa del menu Mostra/Nascondi.]
 
 +
 Aggiungere o rimuovere altre colonne per creare una vista contenente i campi importanti per il report.
@@ -42,7 +42,8 @@ Aggiungere o rimuovere altre colonne per creare una vista contenente i campi imp
 +
 ** I tipi di disco contengono FabricPool
 ** Cloud Recommendation contiene Tier
-** Cold Data superiore a 10 GBimage:../media/filter_cold_data_2.png[""]
+** Cold Data superiore a 10 GB
+image:../media/filter_cold_data_2.png["Una schermata dell'interfaccia utente che mostra come applicare il filtro dall'opzione di filtro."]
 
 
 +
@@ -51,7 +52,7 @@ Si noti che ogni filtro viene Unito a un logico E che tutti i volumi restituiti 
 . Fare clic sulla parte superiore della colonna Cold Data (dati a freddo) per ordinare i risultati in modo che i volumi con i dati più a freddo vengano visualizzati nella parte superiore della vista.
 . Quando la vista viene personalizzata, il nome della vista è Vista non salvata. Assegnare un nome alla vista in modo che rifletta ciò che viene visualizzato, ad esempio "`VOL change Tiering policy`". Al termine, fare clic sul segno di spunta o premere *Invio* per salvare la vista con il nuovo nome.
 +
-image::../media/report_vol_code_data_2.png[report dati codice vol 2]
+image::../media/report_vol_code_data_2.png[Una schermata dell'interfaccia utente che mostra la pagina dei criteri di tiering delle modifiche dei VOL con le colonne richieste nell'ordine corretto.]
 
 . Scarica il report come file *CSV*, *Excel* o *PDF* per visualizzare l'output prima di programmarlo o condividerlo.
 +
@@ -68,7 +69,7 @@ Per ulteriori informazioni sulla personalizzazione dei report con Excel, consult
 
 . Fare clic sul pulsante *Report pianificati* nella pagina dell'inventario. Tutti i report pianificati relativi all'oggetto, in questo caso i volumi, vengono visualizzati nell'elenco.
 +
-image::../media/scheduled_reports_3.gif[report pianificati 3]
+image::../media/scheduled_reports_3.gif[Schermata dell'interfaccia utente che mostra tutti i report pianificati correlati all'oggetto.]
 
 . Fare clic su *Add Schedule* (Aggiungi pianificazione) per aggiungere una nuova riga alla pagina Report Schedule (Pianificazioni report) in modo da definire le caratteristiche di pianificazione per il nuovo report.
 . Immettere un nome per il report e completare gli altri campi, quindi fare clic sul segno di spunta (image:../media/blue_check.gif[""]) alla fine della riga.
@@ -79,13 +80,13 @@ Il report viene inviato immediatamente come test. Successivamente, il report vie
 Il seguente report di esempio è in formato CSV:
 
 +
-image::../media/csv_sample_report.gif[report di esempio csv]
+image::../media/csv_sample_report.gif[Schermata dell'interfaccia utente che mostra un report di esempio in formato CSV.]
 
 +
 Il seguente report di esempio è in formato PDF:
 
 +
-image::../media/pdf_sample_report.gif[report di esempio pdf]
+image::../media/pdf_sample_report.gif[Schermata dell'interfaccia utente che mostra un report di esempio in formato PDF.]
 
 
 

@@ -50,7 +50,7 @@ Fare clic sul menu *Ordina* per selezionare un ordine crescente o decrescente pe
 La barra del contatore nel grafico mostra le statistiche delle performance per ciascun oggetto, rappresentato come una barra per quell'elemento. I grafici a barre sono codificati a colori. Se il contatore non supera una soglia di performance, la barra del contatore viene visualizzata in blu. Se è attiva una violazione di soglia (un evento nuovo o confermato), la barra viene visualizzata a colori per l'evento: Gli eventi di avviso vengono visualizzati in giallo (image:../media/treemapstatus_warning_png.gif["Icona di TreeMap – Stato avviso"]) e gli eventi critici sono visualizzati in rosso (image:../media/treemapred_png.gif["Icona di TreeMap – colore rosso"]). Le violazioni di soglia sono inoltre indicate dalle icone degli indicatori degli eventi di severità per gli eventi critici e di avviso.
 
 +
-image::../media/top_10_example.gif[top 10 esempio]
+image::../media/top_10_example.gif[Una schermata dell'interfaccia utente che mostra le statistiche delle performance per ogni oggetto rappresentato come barra del contatore nel grafico.]
 
 +
 Per ciascun grafico, l'asse X visualizza le prestazioni superiori per il tipo di oggetto selezionato. L'asse Y visualizza le unità applicabili al contatore selezionato. Facendo clic sul collegamento relativo al nome dell'oggetto sotto ciascun elemento del grafico a barre verticale, si accede alla pagina di destinazione delle prestazioni per l'oggetto selezionato.

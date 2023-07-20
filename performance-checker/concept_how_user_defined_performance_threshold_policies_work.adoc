@@ -30,7 +30,7 @@ La release corrente fornisce soglie che inviano eventi quando un valore del cont
 ====
 Viene visualizzato un esempio di tabella dei contatori, che indica che una soglia di avviso (icona gialla) è stata violata alle 1:00 e che una soglia critica (icona rossa) è stata violata alle 12:10, 12:30 e 1:10:
 
-image::../media/opm2_threshold_breach.gif[violazione della soglia opm2]
+image::../media/opm2_threshold_breach.gif[Una schermata dell'interfaccia utente che mostra un grafico contatore di esempio.]
 
 Una violazione di soglia deve verificarsi continuamente per la durata specificata. Se la soglia scende al di sotto dei valori limite per qualsiasi motivo, una successiva violazione viene considerata l'inizio di una nuova durata.
 

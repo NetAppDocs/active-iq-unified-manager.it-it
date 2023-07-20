@@ -24,6 +24,6 @@ Nell'elenco a discesa della vista, gli elementi con l'icona di eliminazione sono
 
 
 ====
-image::../media/view_drop_down_3.png[menu a discesa view (visualizza) 3]
+image::../media/view_drop_down_3.png[Schermata dell'interfaccia utente del menu a discesa View (Visualizza).]
 
 Solo gli utenti con il ruolo di amministratore dell'applicazione o di amministratore dello storage possono visualizzare l'icona di eliminazione, modificare o eliminare una vista o modificare o eliminare un report pianificato.

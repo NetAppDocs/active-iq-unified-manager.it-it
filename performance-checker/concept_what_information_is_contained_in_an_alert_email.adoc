@@ -19,4 +19,4 @@ Se un contatore di performance o un valore di capacità presenta una grande modi
 
 Di seguito è riportato un esempio di messaggio di avviso:
 
-image::../media/um_email_alert.gif[um email alert]
+image::../media/um_email_alert.gif[Una schermata dell'interfaccia utente che mostra un'email di avviso di esempio.]

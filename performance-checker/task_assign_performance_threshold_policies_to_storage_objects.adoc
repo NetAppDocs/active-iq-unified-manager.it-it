@@ -52,14 +52,14 @@ La casella di controllo a sinistra di ciascun oggetto.
  a| 
 Tutti gli oggetti della pagina
  a| 
-Il image:../media/select_dropdown_65_png.gif[""] E scegliere *Seleziona tutti gli oggetti in questa pagina*.
+Il image:../media/select_dropdown_65_png.gif["selezionare l'icona a discesa"] E scegliere *Seleziona tutti gli oggetti in questa pagina*.
 
 
 
  a| 
 Tutti gli oggetti dello stesso tipo
  a| 
-Il image:../media/select_dropdown_65_png.gif[""] E scegliere *Seleziona tutti gli oggetti*.
+Il image:../media/select_dropdown_65_png.gif["selezionare l'icona a discesa"] E scegliere *Seleziona tutti gli oggetti*.
 
 |===
 +

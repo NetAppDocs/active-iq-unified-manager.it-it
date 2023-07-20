@@ -64,7 +64,7 @@ Posizionando il cursore sul numero di eventi attivi, vengono visualizzati il tip
 
 Il numero in alto a destra del grafico nella barra grigia è il valore medio delle ultime 72 ore. I numeri visualizzati nella parte inferiore e superiore del grafico a linee di trend sono i valori minimi e massimi per le ultime 72 ore. La barra grigia sotto il grafico contiene il numero di eventi attivi (nuovi e riconosciuti) e obsoleti degli ultimi 72 ore.
 
-image::../media/iops_graph.gif[grafico iops]
+image::../media/iops_graph.gif[Una schermata dell'interfaccia utente che mostra il grafico IOPS.]
 
 * *Grafico del contatore di latenza*
 +

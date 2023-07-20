@@ -61,6 +61,6 @@ I campi Column (colonna), Operator (operatore) e Value (valore) sono obbligatori
 
 La figura mostra il pannello di filtraggio con tre filtri. Il pulsante *+Aggiungi filtro* viene visualizzato quando si dispone di un numero inferiore al massimo di quattro filtri.
 
-image::../media/opm_filtering_panel_draft_3.gif[bozza del pannello di filtraggio opm 3]
+image::../media/opm_filtering_panel_draft_3.gif[Schermata dell'interfaccia utente che mostra il pannello di filtraggio con tre filtri.]
 
 Dopo aver fatto clic su *Apply Filter* (Applica filtro), il pannello Filtering (filtraggio) si chiude, applica i filtri e mostra il numero di filtri applicati (image:../media/opm_filters_applied.gif[""]).

@@ -28,4 +28,4 @@ Le risorse di storage logico includono volumi di tutti i tipi e qtree, oltre all
 
 La seguente illustrazione mostra le risorse di storage in un cluster a 2 nodi:
 
-image::../media/storage_resource_model.gif[modello delle risorse di storage]
+image::../media/storage_resource_model.gif[Schermata dell'interfaccia utente che mostra le risorse di storage in un cluster a 2 nodi.]

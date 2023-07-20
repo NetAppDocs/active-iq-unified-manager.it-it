@@ -21,7 +21,7 @@ Nella pagina delle azioni di gestione sono disponibili tre filtri:
 
 
 .Fasi
-. Fare clic su *azioni di gestione* nel riquadro di navigazione a sinistra. In alternativa, fare clic su image:../media/more_icon.gif[""] Nella parte superiore del pannello *azioni di gestione* del pannello *Dashboard* e selezionare la vista che si desidera visualizzare.
+. Fare clic su *azioni di gestione* nel riquadro di navigazione a sinistra. In alternativa, fare clic su image:../media/more_icon.gif["icona altro"] Nella parte superiore del pannello *azioni di gestione* del pannello *Dashboard* e selezionare la vista che si desidera visualizzare.
 +
 Viene visualizzata la pagina Management Actions (azioni di gestione).
 
