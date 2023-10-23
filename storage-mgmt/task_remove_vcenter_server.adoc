@@ -1,0 +1,30 @@
+---
+permalink: storage-mgmt/task_remove_vcenter_server.html 
+sidebar: sidebar 
+keywords: review, vcenter, server 
+summary: 'Puoi rimuovere vCenter Server dall"istanza di Active IQ Unified Manager quando non è più necessaria.' 
+---
+= Rimozione di vCenter Server
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puoi rimuovere vCenter Server dall'istanza di Active IQ Unified Manager. Ad esempio, è possibile rimuovere un vCenter Server se il rilevamento di vCenter Server non riesce o quando non è più necessario.
+
+La rimozione di un vCenter Server elimina anche tutte le macchine virtuali (VM) ospitate in quel vCenter e i relativi dati di configurazione. Una volta rimosso, vCenter Server non verrà più monitorato, insieme agli oggetti associati e ai dati storici. Queste modifiche si rifletteranno sulle pagine di inventario di vCenter e delle macchine virtuali.
+
+*Cosa ti serve*
+
+Prima di rimuovere vCenter Server, verificare quanto segue:
+
+* Si dispone del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+* È necessario conoscere i nomi di vCenter Server e i rispettivi indirizzi IP ad essi associati.
+
+
+.Fasi
+. Nel riquadro di spostamento a sinistra, fare clic su *VMWARE>vCenter*.
+. Nella pagina vCenters, selezionare vCenter Server che si desidera rimuovere e fare clic su *Rimuovi*.
+. Nella finestra di dialogo *Rimuovi vCenter*, fare clic su *OK* per confermare la richiesta di rimozione.
+

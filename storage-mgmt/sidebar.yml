@@ -74,6 +74,8 @@ entries:
   entries:
   - title: Visualizzazione e aggiunta di vCenter Server
     url: "/storage-mgmt/task_view_and_add_vcenter_servers.html"
+  - title: Rimozione di vCenter Server
+    url: "/storage-mgmt/task_remove_vcenter_server.html"
   - title: Monitoraggio delle macchine virtuali
     url: "/storage-mgmt/concept_monitor_vms.html"
   - title: Visualizzazione dell'infrastruttura virtuale in una configurazione di disaster
