@@ -1,14 +1,16 @@
 ---
 settings:
-  name: Active IQ Unified Manager 9.13
+  name: Active IQ Unified Manager 9.14
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
     harmony_enabled: false
   versions:
-  - version-number: '9.13'
+  - version-number: '9.14'
     url: "/active-iq-unified-manager"
+  - version-number: '9.13'
+    url: "/active-iq-unified-manager-913"
   - version-number: '9.12'
     url: "/active-iq-unified-manager-912"
   - version-number: '9.11'
@@ -18,7 +20,7 @@ settings:
   langs: it-it,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
 sidebar:
   entries:
-  - title: Documenti di Active IQ Unified Manager 9.13
+  - title: Documentazione di Active IQ Unified Manager 9,14
     url: "/index.html"
   - title: Note di rilascio
     url: "/reference_release_notes.html"
@@ -128,7 +130,7 @@ homepage:
     - title: Eseguire il provisioning dello storage
       url: "/api-automation/concept_provision_workflow.html"
     - title: Riferimento API per Unified Manager
-      url: https://library.netapp.com/ecmdocs/ECMLP2885890/html/index.html
+      url: https://library.netapp.com/ecmdocs/ECMLP2886876/html/index.html
   - title: Eventi e avvisi
     links:
     - title: Dashboard

@@ -13,17 +13,16 @@ summary: Percorso di upgrade supportato
 [role="lead"]
 Active IQ Unified Manager supporta un percorso di aggiornamento specifico per ciascuna versione.
 
-Non tutte le versioni di Unified Manager possono eseguire un aggiornamento in-place alle versioni successive. Gli aggiornamenti di Unified Manager sono limitati a un modello N-2, il che significa che un aggiornamento può essere eseguito solo nelle 2 release successive su tutte le piattaforme. Ad esempio, è possibile eseguire un aggiornamento a Unified Manager 9.13 solo da Unified Manager 9.11 e 9.12.
+Non tutte le versioni di Unified Manager possono eseguire un aggiornamento in-place alle versioni successive. Gli aggiornamenti di Unified Manager sono limitati a un modello N-2, il che significa che un aggiornamento può essere eseguito solo nelle 2 release successive su tutte le piattaforme. Ad esempio, puoi eseguire un upgrade a Unified Manager 9,14 solo da Unified Manager 9,12 e 9,13.
 
 Se si utilizza una versione precedente a quella supportata, l'istanza di Unified Manager deve essere prima aggiornata a una delle versioni supportate, quindi aggiornata alla versione corrente.
 
-Ad esempio, se la versione installata è OnCommand 9.6 e si desidera eseguire l'aggiornamento alla versione più recente di Active IQ Unified Manager 9.13, seguire una sequenza di aggiornamenti.
+Ad esempio, se la versione installata è Unified Manager 9,9 e si desidera eseguire l'aggiornamento a Unified Manager 9,14, si seguono una sequenza di aggiornamenti.
 
 .Esempio di percorso di aggiornamento:
-. Upgrade di OnCommand Unified Manager 9.6 -> Active IQ Unified Manager 9.8
-. Aggiornamento 9.8 -> 9.10
-. Aggiornamento 9.10 -> 9.12
-. Aggiornamento 9.12 -> 9.13
+. Aggiornamento 9,9 -> 9,11
+. Aggiornamento 9,11 -> 9,13
+. Aggiornamento 9,13 -> 9,14
 
 
 Per ulteriori informazioni sulla matrice dei percorsi di aggiornamento, vedere questa sezione https://kb.netapp.com/Advice_and_Troubleshooting/Data_Infrastructure_Management/Active_IQ_Unified_Manager/What_is_the_upgrade_path_for_Active_IQ_Unified_Manager_versions["Articolo della Knowledge base (KB)"].

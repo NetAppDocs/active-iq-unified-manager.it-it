@@ -15,6 +15,9 @@ Graphite è uno strumento software aperto per la raccolta e la rappresentazione 
 
 NetApp non verifica o verifica versioni specifiche di Graphite o di altri strumenti di terze parti.
 
+
+NOTE: Il server Graphite non riceve i dati sulle performance per i volumi da Unified Manager.
+
 Dopo aver installato Graphite in base alle istruzioni di installazione, è necessario apportare le seguenti modifiche per supportare il trasferimento dei dati statistici da Unified Manager:
 
 * In `/opt/graphite/conf/carbon.conf` File, il numero massimo di file che è possibile creare sul server Graphite al minuto deve essere impostato su _200_ (`*MAX_CREATES_PER_MINUTE = 200*`).

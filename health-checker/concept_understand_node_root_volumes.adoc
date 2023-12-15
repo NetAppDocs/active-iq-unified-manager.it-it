@@ -14,3 +14,6 @@ summary: È possibile monitorare il volume root del nodo utilizzando Unified Man
 È possibile monitorare il volume root del nodo utilizzando Unified Manager. La Best practice consiste nel fatto che il volume root del nodo deve avere una capacità sufficiente a impedire il downdown del nodo.
 
 Quando la capacità utilizzata del volume root del nodo supera il 80% della capacità totale del volume root del nodo, viene generato l'evento Node Root Volume Space quasi Full. È possibile configurare un avviso per l'evento per ricevere una notifica. È possibile intraprendere le azioni appropriate per impedire che il nodo si blocchi utilizzando Gestore di sistema di ONTAP o l'interfaccia utente di ONTAP.
+
+
+NOTE: La funzionalità di monitoraggio dei volumi root dei nodi non è disponibile, se i cluster eseguono ONTAP 9.14.1 o versione successiva.

@@ -19,7 +19,7 @@ Il sistema Linux su cui si installa Unified Manager richiede versioni specifiche
 
 Il sistema Linux deve disporre delle seguenti versioni del sistema operativo e del software di supporto installati:
 
-* Red Hat Enterprise Linux versioni 7.x e dalla 8.0 alla 8.7, basato sull'architettura x86_64.
+* Red Hat Enterprise Linux versioni 7.x e da 8,0 a 8,8, basato sull'architettura x86_64.
 * CentOS versione 7.x basato sull'architettura x86_64. CentOS Stream non è supportato.
 
 
@@ -35,8 +35,8 @@ Unified Manager viene implementato su un server Web WildFly. WildFly 26.1.3 vien
 
 I seguenti pacchetti di terze parti sono richiesti, ma non sono inclusi in Unified Manager. Questi pacchetti vengono installati automaticamente da `yum` programma di installazione durante l'installazione, a condizione che i repository siano stati configurati come indicato nelle seguenti sezioni.
 
-* MySQL Community Edition versione 8.0.32 (dal repository MySQL).
-* OpenJDK versione 11.0.18 (dal repository Red Hat Extra Enterprise Linux Server)
+* MySQL Community Edition versione 8.0.34 (dal repository MySQL).
+* OpenJDK versione 11.0.21 (dall'archivio Red Hat Extra Enterprise Linux Server)
 * Python 3.6.x
 * P7zip versione 16.02 o successiva (dal repository Red Hat Extra Packages per Enterprise Linux)
 

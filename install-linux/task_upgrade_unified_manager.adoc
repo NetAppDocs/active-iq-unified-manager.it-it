@@ -11,7 +11,7 @@ summary: È possibile aggiornare Unified Manager scaricando ed eseguendo il file
 
 
 [role="lead"]
-È possibile eseguire l'aggiornamento da Unified Manager 9.11 o 9.12 a 9.13 scaricando ed eseguendo il file di installazione sulla piattaforma Linux.
+Puoi eseguire l'upgrade da Unified Manager 9,12 o 9,13 a 9,14 scaricando ed eseguendo il file di installazione sulla piattaforma Linux.
 
 *Cosa ti serve*
 
@@ -30,7 +30,7 @@ Vedere link:task_upgrade_openjdk_on_linux_ocum.html["Aggiornamento di JRE su Lin
 * Per evitare la perdita di dati, è necessario aver creato un backup del database di Unified Manager in caso di problemi durante l'aggiornamento. NetApp consiglia di spostare il file di backup da `/opt/netapp/data` directory in una posizione esterna.
 * Durante l'aggiornamento, potrebbe essere richiesto di confermare se si desidera mantenere le impostazioni predefinite precedenti per la conservazione dei dati sulle prestazioni per 13 mesi o se si desidera modificarli in 6 mesi. Dopo la conferma, i dati storici delle performance vengono eliminati dopo 6 mesi.
 * Le operazioni in esecuzione dovrebbero essere state completate, poiché Unified Manager non è disponibile durante il processo di aggiornamento.
-* MySQL Community Edition viene aggiornato automaticamente durante l'aggiornamento di Unified Manager. Se la versione installata di MySQL sul sistema è precedente alla 8.0.32, il processo di aggiornamento di Unified Manager aggiorna automaticamente MySQL alla versione 8.0.32.
+* MySQL Community Edition viene aggiornato automaticamente durante l'aggiornamento di Unified Manager. Se la versione installata di MySQL sul tuo sistema è precedente alla 8,0.34, il processo di upgrade di Unified Manager aggiorna automaticamente MySQL alla 8,0.34.
 
 
 .Fasi

@@ -11,7 +11,7 @@ summary: È possibile aggiornare Unified Manager scaricando ed eseguendo il file
 
 
 [role="lead"]
-È possibile aggiornare Unified Manager 9.11 o 9.12 a 9.13 scaricando ed eseguendo il file di installazione sulla piattaforma Windows.
+Puoi eseguire l'aggiornamento di Unified Manager 9,12 o 9,13 alla versione 9,14 scaricando ed eseguendo il file di installazione sulla piattaforma Windows.
 
 *Cosa ti serve*
 
@@ -34,7 +34,7 @@ A partire da Unified Manager 9.5, OpenJDK viene fornito nel pacchetto di install
 Prima di avviare l'aggiornamento, assicurarsi che sul sistema sia installato Microsoft .NET 4.5.2 o versione successiva.
 
 ====
-* MySQL Community Edition viene aggiornato automaticamente durante l'aggiornamento di Unified Manager. Se la versione installata di MySQL sul sistema è precedente alla 8.0.32, il processo di aggiornamento di Unified Manager aggiorna automaticamente MySQL alla versione 8.0.32. Non è necessario eseguire un aggiornamento standalone di una versione precedente di MySQL alla versione 8.0.32.
+* MySQL Community Edition viene aggiornato automaticamente durante l'aggiornamento di Unified Manager. Se la versione installata di MySQL sul tuo sistema è precedente alla 8,0.34, il processo di upgrade di Unified Manager aggiorna automaticamente MySQL alla 8,0.34. Non è necessario eseguire un aggiornamento autonomo di una versione precedente di MySQL alla versione 8,0.34.
 * È necessario disporre dei privilegi di amministratore di Windows. Assicurarsi che il nome utente non inizi con un punto esclamativo "`!`". Installation of Unified Manager might fail if the user name of user running the installation begins with "`!`".
 * Per accedere al NetApp Support Site, è necessario disporre di credenziali valide.
 * Per evitare la perdita di dati, è necessario aver creato un backup della macchina Unified Manager in caso di problemi durante l'aggiornamento.

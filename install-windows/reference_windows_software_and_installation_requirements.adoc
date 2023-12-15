@@ -48,10 +48,10 @@ I seguenti pacchetti di terze parti sono forniti in bundle con Unified Manager. 
 
 * Microsoft Visual C& 43; 43; 2015 Redistributable Package versione 14.26.28720.3
 * Microsoft Visual C& 43; 43; Redistributable Packages per Visual Studio 2013 versione 12.0.40660.0
-* MySQL Community Edition versione 8.0.32
-* Python 3.11.2
-* OpenJDK versione 11.0.18
-* p7zip versione 18.05 o successiva
+* MySQL Community Edition versione 8.0.34
+* Python 3.11.6
+* OpenJDK versione 11.0.20
+* p7zip versione 23,01 o successiva
 
 
 [NOTE]

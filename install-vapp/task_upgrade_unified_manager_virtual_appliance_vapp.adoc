@@ -11,7 +11,7 @@ summary: 'È possibile aggiornare l"appliance virtuale di Unified Manager'
 
 
 [role="lead"]
-È possibile aggiornare l'appliance virtuale Active IQ Unified Manager dalle release 9.11 o 9.12 alla 9.13.
+È possibile aggiornare l'appliance virtuale Active IQ Unified Manager dalle versioni 9,12 o 9,13 alla 9,14.
 
 *Cosa ti serve*
 

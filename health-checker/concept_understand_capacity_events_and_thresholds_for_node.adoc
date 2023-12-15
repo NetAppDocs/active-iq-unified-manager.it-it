@@ -16,3 +16,6 @@ summary: 'È possibile monitorare l"aggregato root del nodo utilizzando Unified 
 Per impostazione predefinita, gli eventi di capacità e performance non vengono generati per gli aggregati root. Inoltre, i valori di soglia utilizzati da Unified Manager non sono applicabili agli aggregati root del nodo. Solo un rappresentante del supporto tecnico può modificare le impostazioni per questi eventi da generare. Quando le impostazioni vengono modificate dal rappresentante del supporto tecnico, i valori di soglia della capacità vengono applicati all'aggregato root del nodo.
 
 È possibile intraprendere le azioni appropriate per impedire l'arresto del nodo utilizzando Gestore di sistema di ONTAP o l'interfaccia utente di ONTAP.
+
+
+NOTE: La funzionalità di monitoring degli aggregati root dei nodi non è disponibile, se i cluster eseguono ONTAP 9.14.1 o versione successiva.
