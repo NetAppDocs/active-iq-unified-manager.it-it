@@ -19,10 +19,10 @@ summary: 'È possibile creare regole per specificare l"indirizzo e-mail in base 
 * È necessario aver esaminato le linee guida nella pagina regole per generare indirizzo email quota utente e gruppo.
 
 
-È necessario definire le regole per gli indirizzi email di quota e inserirle nell'ordine in cui si desidera eseguirli. Ad esempio, se si desidera utilizzare l'indirizzo e-mail qtree1@xyz.com per ricevere notifiche sulle violazioni delle quote per qtree1 e utilizzare l'indirizzo e-mail admin@xyz.com per tutti gli altri qtree, le regole devono essere elencate nel seguente ordine:
+È necessario definire le regole per gli indirizzi email di quota e inserirle nell'ordine in cui si desidera eseguirli. Ad esempio, se desideri utilizzare l'indirizzo e-mail abc@xyz.com per ricevere notifiche sulle violazioni delle quote per abc e utilizzare l'indirizzo e-mail dl-$GROUP@$DOMAIN per tutti gli altri gruppi, le regole devono essere elencate nel seguente ordine:
 
-* Se (€ QTREE == 'qtre1' ) allora qtree1@xyz.com
-* Se ( QTREE == * ) allora admin@xyz.com
+* Se ( $USER == 'abc' ) allora abc@xyz.com
+* Se ( $GROUP == * ) allora dl-$GROUP@$DOMAIN
 
 
 Se nessuno dei criteri per le regole specificate viene soddisfatto, viene utilizzata la regola predefinita:
