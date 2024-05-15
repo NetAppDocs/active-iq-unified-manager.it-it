@@ -13,7 +13,7 @@ summary: È possibile estendere la protezione da una relazione esistente creando
 [role="lead"]
 È possibile estendere la protezione da una relazione esistente creando un fanout dal volume di origine o una cascata dal volume di destinazione di una relazione esistente. Questa operazione può essere eseguita quando è necessario copiare i dati da un sito a più siti o per fornire una protezione aggiuntiva creando più backup.
 
-È possibile estendere la protezione ai volumi utilizzando un gruppo di coerenza, un container che contiene diversi volumi in modo da poter gestire tutti i volumi come un'unica entità. Nella pagina Relazioni di Unified Manager è possibile visualizzare il gruppo di coerenza di SnapMirror Business Continuity (SM-BC) e la relazione del gruppo di coerenza sincrona.
+È possibile estendere la protezione ai volumi utilizzando un gruppo di coerenza, un container che contiene diversi volumi in modo da poter gestire tutti i volumi come un'unica entità. Puoi visualizzare il gruppo di coerenza sincronizzazione attivo di SnapMirror e la relazione del gruppo di coerenza sincrono nella pagina delle relazioni di Unified Manager.
 
 *Cosa ti serve*
 

@@ -230,7 +230,7 @@ Visualizza lo stato del mediatore.
 +
 ** Non applicabile
 +
-Se il cluster non supporta SnapMirror Business Continuity.
+Se il cluster non supporta la sincronizzazione attiva di SnapMirror,
 
 ** Non configurato
 +
@@ -286,7 +286,7 @@ Visualizza il nome del collegamento del nome del nodo di origine per la relazion
 
 
 
-Nella vista personalizzata, facendo clic sul collegamento del nome del nodo, è possibile visualizzare ed estendere la protezione per gli oggetti di storage su cui i volumi di quei gruppi di coerenza che appartengono alla relazione SM-BC.
+Nella vista personalizzata, quando si fa clic sul link al nome del nodo, è possibile visualizzare ed estendere la protezione per gli oggetti storage in cui i volumi di tali gruppi di coerenza appartengono a una relazione di sincronizzazione attiva di SnapMirror.
 
 Quando si fa clic sul collegamento Node count (numero di nodi), viene visualizzata la pagina Node (nodo) con i rispettivi nodi associati a tale relazione. Quando il numero di nodi è 0, non viene visualizzato alcun valore in quanto non vi sono nodi associati alla relazione.
 

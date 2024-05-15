@@ -30,6 +30,9 @@ http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"^]
 Il server deve essere dedicato all'esecuzione di Unified Manager. Sul server non devono essere installate altre applicazioni. È possibile che uno scanner per vulnerabilità come Qualys sia installato sul sistema Linux a causa delle normative aziendali. È necessario disattivare il programma di scansione delle vulnerabilità prima di installare Unified Manager per evitare errori nell'installazione.
 
 
+NOTE: Gli scanner per vulnerabilità (come Qualys) possono comportare un elevato utilizzo della CPU durante la scansione della macchina virtuale (VM) sia internamente (dove Unified Manager e lo scanner per vulnerabilità sono installati sulla stessa macchina virtuale) che esternamente (dove Unified Manager e lo scanner per la vulnerabilità sono installati su due server diversi e lo scanner per la vulnerabilità analizza la VM in cui è installato Unified Manager). Questo problema spesso causa una mancata risposta della macchina virtuale e influisce sui servizi di Unified Manager. Pertanto, NetApp consiglia di disattivare lo scanner per vulnerabilità nella macchina virtuale in cui è installato Unified Manager. Se la disattivazione dello scanner non è un'opzione, eseguire la scansione della VM durante le ore non lavorative e riavviare i servizi al termine della scansione.
+
+
 
 == Software di terze parti
 

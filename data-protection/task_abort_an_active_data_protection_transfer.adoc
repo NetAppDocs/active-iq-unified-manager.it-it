@@ -1,7 +1,7 @@
 ---
 permalink: data-protection/task_abort_an_active_data_protection_transfer.html 
 sidebar: sidebar 
-keywords: abort, active data protection, transfer, volume relationships page, smbc, sm-bc 
+keywords: abort, active data protection, transfer, volume relationships page, SnapMirror active sync 
 summary: 'È possibile interrompere un trasferimento di protezione dei dati attivo quando si desidera interrompere una replica SnapMirror in corso. È inoltre possibile cancellare il checkpoint di riavvio per i trasferimenti successivi al trasferimento di riferimento. È possibile interrompere un trasferimento in caso di conflitto con un"altra operazione, ad esempio uno spostamento del volume.' 
 ---
 = Interruzione di un trasferimento di protezione dei dati attivo dalla pagina Relazioni volume

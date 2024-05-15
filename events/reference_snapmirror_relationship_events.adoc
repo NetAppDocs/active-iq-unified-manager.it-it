@@ -183,7 +183,7 @@ Errore
 
 
  a| 
-La connettività dei mediatori ONTAP è stata ristabilita ed è pronta per SMBC (SnapmirrorMediatorInQuorum)
+La connettività ONTAP Mediator è stata ristabilita ed è risincronizzata e pronta per la sincronizzazione attiva SnapMirror (snapmirrorMediatorInQuorum)
  a| 
 Evento
  a| 

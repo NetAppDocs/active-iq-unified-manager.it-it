@@ -72,7 +72,7 @@ Facendo clic sugli eventi in questa pagina si accede alla pagina Dettagli evento
 
 * Singoli eventi generati per le relazioni SnapMirror, inclusi gli eventi generati nelle ultime 24 ore
 * Il numero di volumi protetti da ciascun tipo di policy SnapMirror.
-* Il numero di relazioni protette dai tipi di relazione SnapMirror, come Asynchronous Mirror, Asynchronous Vault, Asynchronous MirrorVault, StricxtSync, SnapMirror Business Continuity (SMBC) e Sync.
+* Il numero di relazioni protette dai tipi di relazioni di SnapMirror, come ad esempio Mirror asincrono, Vault asincrono, MirrorVault asincrono, StricxtSync, gruppo di coerenza sincronizzazione attivo di SnapMirror e Sync.
 * Il numero di relazioni sane e malsane.
 * Disgresso del numero di relazioni del volume. È possibile alternare i grafici in base al ritardo RPO e allo stato.
 * Soglie di ritardo per la relazione non gestita. È possibile fare clic sull'icona delle impostazioni (image:../media/Settings.PNG["Icona per le impostazioni delle soglie di ritardo"]) per configurare le impostazioni della soglia di ritardo. Per ulteriori informazioni, vedere link:../health-checker/task_configure_lag_threshold_settings_for_unmanaged_protection.html["Configurazione delle impostazioni delle soglie di ritardo per le relazioni di protezione non gestite"].
