@@ -772,7 +772,6 @@
   <block id="47bb143d7a3368c1527db57426ca08e2" category="list-text">Rigenerare il certificato HTTPS per il server:</block>
   <block id="4dd5d9e5f71def24c32fed75f03cad64" category="paragraph"><block ref="090dc28fcd8cc432a4677e5d2bb61a98" prefix="" category="inline-code"></block></block>
   <block id="8473e7d857ebdae7ad8557024a3c1cf9" category="list-text">Riavviare il servizio di rete:</block>
-  <block id="b3ca8da2a2327ebf4f97bafc6363e84d" category="paragraph"><block ref="1a13c4ef26df93b1d45e1e612087bca1" prefix="" category="inline-code"></block></block>
   <block id="bd2b6ee9134bd55418f6638971d11a18" category="list-text">Una volta riavviato il servizio, verificare se il nuovo nome host è in grado di eseguire il ping:</block>
   <block id="4ce5888dbc17259a3375ffb15c2ce7a3" category="paragraph"><block ref="4e7ee0ae2f1fbd5140120b12573cb70c" prefix="" category="inline-code"></block></block>
   <block id="bdf2badbf9aee4e6a2355ea85ea2e904" category="paragraph"><block ref="6126ef614cc3ba60d57193719a6a1ed9" prefix="" category="inline-code"></block></block>
@@ -11971,4 +11970,6 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="197833bfff97d501603036a0febb7a95" category="sidebar">Blog di Unified Manager</block>
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Documentazione per Active IQ Unified Manager 9.9 o versioni precedenti</block>
   <block id="3ab5865f7b3fcc5851ae24144b15f370" category="list-text">NVMe-FC</block>
+  <block id="db180f51718e113d9c8799523e66b6cc" category="paragraph"><block ref="84f8d8fcacc42af5df652e2ccc99304b" prefix="" category="inline-code"></block></block>
+  <block id="2ffae15ce7fc136fc840cd527bcfa491" category="list-text">A livello di cluster, l'interfaccia Active IQ aggiunge due nuove voci del gruppo utenti per il metodo di autenticazione "cert".</block>
 </blocks>

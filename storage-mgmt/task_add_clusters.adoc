@@ -49,6 +49,7 @@ Se si aggiorna una versione precedente di Unified Manager, l'autenticazione basa
 *** È possibile aggiungere un cluster dall'interfaccia utente Web e attivare automaticamente l'autenticazione basata su certificati.
 *** È possibile aggiungere un cluster tramite l'interfaccia a riga di comando di Unified Manager, l'autenticazione basata sul certificato non è abilitata per impostazione predefinita. Se Aggiungi un cluster usando la CLI di Unified Manager, è necessario modificare il cluster usando l'interfaccia utente di Unified Manager. Puoi vedere link:https://docs.netapp.com/us-en/active-iq-unified-manager/events/reference_supported_unified_manager_cli_commands.html["Comandi CLI di Unified Manager supportati"] Per aggiungere un cluster usando l'interfaccia a riga di comando di Unified Manager.
 *** Se l'autenticazione basata su certificato è abilitata per un cluster e si esegue il backup di Unified Manager da un server e si esegue il ripristino su un altro server Unified Manager in cui viene modificato il nome host o l'indirizzo IP, il monitoraggio del cluster potrebbe non riuscire. Per evitare il guasto, modificare e salvare i dettagli del cluster. Per ulteriori informazioni sulla modifica dei dettagli del cluster, vedere link:../storage-mgmt/task_edit_clusters.html["Modifica dei cluster"].
+*** A livello di cluster, l'interfaccia Active IQ aggiunge due nuove voci del gruppo utenti per il metodo di autenticazione "cert".
 
 
 ====
