@@ -71,7 +71,7 @@ Il pannello Security (sicurezza) presenta lo stato di sicurezza di alto livello 
 
 È possibile fare clic sui grafici a barre dei cluster conformi e non conformi, dei VMS di storage, dei volumi crittografati e non crittografati e dello stato anti-ransomware del volume per accedere alle rispettive pagine e visualizzare i dettagli di sicurezza dei cluster filtrati, delle VM di storage e dei volumi.
 
-La conformità si basa su http://www.netapp.com/us/media/tr-4569.pdf["Guida al rafforzamento della sicurezza di NetApp per ONTAP 9"]. Fare clic sulla freccia destra nella parte superiore del pannello per visualizzare i dettagli di sicurezza per tutti i cluster nella pagina Security (sicurezza). Per ulteriori informazioni, vederelink:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["Visualizzazione dettagliata dello stato di sicurezza per cluster e VM di storage"].
+La conformità è basata su https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["Guida al rafforzamento della sicurezza di NetApp per ONTAP 9"^]. Fare clic sulla freccia destra nella parte superiore del pannello per visualizzare i dettagli di sicurezza per tutti i cluster nella pagina Security (sicurezza). Per informazioni, vedere link:../health-checker/task_view_detailed_security_status_for_clusters_and_svms.html["Visualizzazione dettagliata dello stato di sicurezza per cluster e VM di storage"].
 
 
 

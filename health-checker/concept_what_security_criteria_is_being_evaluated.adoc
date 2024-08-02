@@ -21,7 +21,7 @@ Alcuni dei controlli di sicurezza includono:
 * sia che i volumi dispongano della crittografia software o hardware abilitata
 
 
-Consultare gli argomenti relativi alle categorie di conformità e a. http://www.netapp.com/us/media/tr-4569.pdf["Guida al rafforzamento della sicurezza di NetApp per ONTAP 9"] per informazioni dettagliate.
+Per informazioni dettagliate, vedere gli argomenti relativi alle categorie di conformità e https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["Guida al rafforzamento della sicurezza di NetApp per ONTAP 9"^] .
 
 [NOTE]
 ====

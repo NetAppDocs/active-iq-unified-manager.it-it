@@ -15,7 +15,7 @@ Unified Manager offre una dashboard che identifica la sicurezza dei cluster ONTA
 
 L'obiettivo della dashboard di sicurezza è mostrare le aree in cui i cluster ONTAP non sono allineati con le linee guida consigliate da NetApp, in modo da poter risolvere questi potenziali problemi. Nella maggior parte dei casi, è possibile risolvere i problemi utilizzando Gestione di sistema di ONTAP o l'interfaccia utente di ONTAP. La tua organizzazione potrebbe non seguire tutti i consigli, quindi in alcuni casi non sarà necessario apportare modifiche.
 
-Vedere http://www.netapp.com/us/media/tr-4569.pdf["Guida al rafforzamento della sicurezza di NetApp per ONTAP 9"] (TR-4569) per suggerimenti e risoluzioni dettagliate.
+Per consigli e risoluzioni dettagliate, vedere https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["Guida al rafforzamento della sicurezza di NetApp per ONTAP 9"^] (TR-4569).
 
 Oltre a segnalare lo stato di sicurezza, Unified Manager genera anche eventi di sicurezza per qualsiasi cluster o SVM che presenta violazioni della sicurezza. È possibile tenere traccia di questi problemi nella pagina di inventario di Event Management ed è possibile configurare gli avvisi per questi eventi in modo che l'amministratore dello storage riceva una notifica quando si verificano nuovi eventi di sicurezza.
 
