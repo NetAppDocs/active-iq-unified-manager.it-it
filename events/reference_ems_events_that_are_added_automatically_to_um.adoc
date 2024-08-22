@@ -196,7 +196,7 @@ Errore
 
 
  a| 
-Livello cloud LIF Intercluster inattivo
+Interfaccia di rete intercluster di livello cloud inattiva
  a| 
 objstore.interclusterlifDown
  a| 

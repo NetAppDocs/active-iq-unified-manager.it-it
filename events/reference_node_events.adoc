@@ -123,7 +123,7 @@ Errore
 
 
  a| 
-Livello cloud LIF Intercluster inattivo *(ocumObjstoreInterClusterLifDown)
+Interfaccia di rete intercluster di livello cloud inattiva * (ocumObjstoreInterClusterLifDown)
  a| 
 Rischio
  a| 
