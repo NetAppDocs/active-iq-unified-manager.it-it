@@ -11713,7 +11713,6 @@
   <block id="c1a9193a29dc40ec352c6691d67ab578" category="sidebar">Installare Unified Manager su sistemi Windows</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Generare report personalizzati</block>
   <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">Creazione di un report per visualizzare gli aggregati quasi pieni</block>
-  <block id="177f4885c5bf3cc6b06090613bb7d325" category="paragraph">Se in precedenza è stato installato Unified Manager su un sistema Red Hat Enterprise Linux 7.x e si desidera eseguire l'aggiornamento a Red Hat Enterprise Linux 8.x, seguire una delle procedure elencate in questo argomento. In entrambi i casi, è necessario creare un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, quindi ripristinare il backup su un sistema Red Hat Enterprise Linux 8.x. Le versioni supportate di Red Hat Enterprise Linux vanno dalla 8.0 alla 8.7.</block>
   <block id="06d1a3f5a2c1fab663374946419b7a46" category="paragraph">Vedere <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block> se è necessario rivedere le istruzioni dettagliate per i processi di backup e ripristino.</block>
   <block id="1f627cf53c59c3dcb003a3d36f72e53e" category="image-alt">Schermata dell'interfaccia utente che mostra una singola istanza di Unified Manager.</block>
   <block id="e0ed7cd9eee5c90155f220097a342182" category="image-alt">Una schermata dell'interfaccia utente che mostra il comportamento del volume durante lo switchover.</block>
@@ -11839,10 +11838,8 @@
   <block id="101ed5d45d39d829253fdd5f84c4d9d7" category="list-text">Python 3.11.6</block>
   <block id="18b8e2dd4de2bb94ea0dce1e4606ffc4" category="list-text">OpenJDK versione 11.0.20</block>
   <block id="3d89b288e65d6d87dbc31d2d93a06f41" category="list-text">p7zip versione 23,01 o successiva</block>
-  <block id="9dfe805f2bba465e37c9c6757ce064ac" category="list-text">Red Hat Enterprise Linux versioni 7.x e da 8,0 a 8,8, basato sull'architettura x86_64.</block>
   <block id="9bbfe0d422adb66f304c54f3a069e88e" category="list-text">MySQL Community Edition versione 8.0.34 (dal repository MySQL).</block>
   <block id="127ae3963ea9ca262d43af6b6d82938e" category="list-text">OpenJDK versione 11.0.21 (dall'archivio Red Hat Extra Enterprise Linux Server)</block>
-  <block id="2bc26f2d587b7f2c75ca61793e89fbc7" category="list-text">Sistema operativo: Red Hat Enterprise Linux versioni 7.x e da 8,0 a 8,8, o CentOS versione 7.x basato sull'architettura x86_64, installato utilizzando l'ambiente di base "Server with GUI" dall'opzione *selezione software* del programma di installazione del sistema operativo</block>
   <block id="70f9b1502d4d74c5b86a102e5ed80559" category="paragraph">Puoi eseguire l'upgrade da Unified Manager 9,12 o 9,13 a 9,14 scaricando ed eseguendo il file di installazione sulla piattaforma Linux.</block>
   <block id="3e82c40e991bcdfb3d6c360a665ef534" category="list-text">MySQL Community Edition viene aggiornato automaticamente durante l'aggiornamento di Unified Manager. Se la versione installata di MySQL sul tuo sistema è precedente alla 8,0.34, il processo di upgrade di Unified Manager aggiorna automaticamente MySQL alla 8,0.34.</block>
   <block id="98339216090f0e21ec0ce31d07a59ccf" category="paragraph">OpenJDK versione 11.0.21</block>
@@ -11971,4 +11968,7 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="e9686e752e3e1702e7ee8d1247e9c592" category="paragraph">Storage VM arrestato (ocumEvtVserverDown)</block>
   <block id="16fca8959952fb5be3bdfc77f00821e0" category="paragraph">Soglia critica di latenza del volume violata (ocumVolumeLatencyIncident)</block>
   <block id="41c588540e5418dc49ed54117bd1d484" category="paragraph">Soglia di avviso latenza volume violata (ocumVolumeLatencyWarning)</block>
+  <block id="ad2d4575f8f305de83b3e406cdad115f" category="list-text">Sistema operativo: Red Hat Enterprise Linux versioni 7.x e da 8,0 a 8,9, o CentOS versione 7.x basato sull'architettura x86_64, installato utilizzando l'ambiente di base "Server with GUI" dall'opzione *selezione software* del programma di installazione del sistema operativo</block>
+  <block id="0feb8d909617c698c7aa00be9205f4f1" category="list-text">Red Hat Enterprise Linux versioni 7.x e da 8,0 a 8,9, basato sull'architettura x86_64.</block>
+  <block id="d01c7fd00ba6c9452b308e1826f0d881" category="paragraph">Se in precedenza è stato installato Unified Manager su un sistema Red Hat Enterprise Linux 7.x e si desidera eseguire l'aggiornamento a Red Hat Enterprise Linux 8.x, seguire una delle procedure elencate in questo argomento. In entrambi i casi, è necessario creare un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, quindi ripristinare il backup su un sistema Red Hat Enterprise Linux 8.x. Le versioni supportate di Red Hat Enterprise Linux vanno dalla 8.0 alla 8.9.</block>
 </blocks>

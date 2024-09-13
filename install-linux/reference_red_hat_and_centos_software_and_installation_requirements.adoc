@@ -19,7 +19,7 @@ Il sistema Linux su cui si installa Unified Manager richiede versioni specifiche
 
 Il sistema Linux deve disporre delle seguenti versioni del sistema operativo e del software di supporto installati:
 
-* Red Hat Enterprise Linux versioni 7.x e da 8,0 a 8,8, basato sull'architettura x86_64.
+* Red Hat Enterprise Linux versioni 7.x e da 8,0 a 8,9, basato sull'architettura x86_64.
 * CentOS versione 7.x basato sull'architettura x86_64. CentOS Stream non è supportato.
 
 

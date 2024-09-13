@@ -17,7 +17,7 @@ summary: Guida rapida per Unified Manager su piattaforma Linux.
 
 == Requisiti di sistema
 
-* Sistema operativo: Red Hat Enterprise Linux versioni 7.x e da 8,0 a 8,8, o CentOS versione 7.x basato sull'architettura x86_64, installato utilizzando l'ambiente di base "Server with GUI" dall'opzione *selezione software* del programma di installazione del sistema operativo
+* Sistema operativo: Red Hat Enterprise Linux versioni 7.x e da 8,0 a 8,9, o CentOS versione 7.x basato sull'architettura x86_64, installato utilizzando l'ambiente di base "Server with GUI" dall'opzione *selezione software* del programma di installazione del sistema operativo
 * RAM: 12 GB, CPU: 9572 MHz in totale
 * Spazio libero su disco: 100 GB di spazio su disco in `/opt/netapp/data` 50 GB nella partizione root. Per montaggio separato `/opt` e. `/var/log` directory, assicurarsi che `/opt` Ha 15 GB, `/var/log` Ha 16 GB, e. `/tmp` Dispone di 10 GB di spazio libero.
 
