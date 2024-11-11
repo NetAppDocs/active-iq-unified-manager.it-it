@@ -2,7 +2,7 @@
 permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
 sidebar: sidebar 
 keywords: unified manager, migrate, virtual, appliance, linux system 
-summary: 'Se si desidera modificare il sistema operativo host su cui è in esecuzione Unified Manager, è possibile ripristinare un backup del dump del database MySQL di Unified Manager da un"appliance virtuale a un sistema Red Hat Enterprise Linux o CentOS Linux.' 
+summary: 'Puoi ripristinare il backup dump del database MySQL di Unified Manager da un"appliance virtuale a un sistema Red Hat Enterprise Linux se vuoi modificare il sistema operativo host su cui è in esecuzione Unified Manager.' 
 ---
 = Migrazione di un'appliance virtuale Unified Manager a un sistema Linux
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'Se si desidera modificare il sistema operativo host su cui è in esecu
 
 
 [role="lead"]
-Se si desidera modificare il sistema operativo host su cui è in esecuzione Unified Manager, è possibile ripristinare un backup del dump del database MySQL di Unified Manager da un'appliance virtuale a un sistema Red Hat Enterprise Linux o CentOS Linux.
+Puoi ripristinare il backup dump del database MySQL di Unified Manager da un'appliance virtuale a un sistema Red Hat Enterprise Linux se vuoi modificare il sistema operativo host su cui è in esecuzione Unified Manager.
 
 *Cosa ti serve*
 
@@ -31,7 +31,7 @@ Se si desidera modificare il sistema operativo host su cui è in esecuzione Unif
 
 
 
-Questi passaggi descrivono come creare un file di backup sull'appliance virtuale, copiare i file di backup nel sistema Red Hat Enterprise Linux o CentOS e ripristinare il backup del database nel nuovo sistema.
+Questi passaggi descrivono come creare un file di backup sull'appliance virtuale, copiare i file di backup in Red Hat Enterprise Linux e ripristinare il backup del database nel nuovo sistema.
 
 .Fasi
 . Sull'appliance virtuale, fare clic su *Management* > *Database Backup*.

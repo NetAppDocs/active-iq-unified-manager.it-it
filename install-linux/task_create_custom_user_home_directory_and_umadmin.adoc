@@ -16,7 +16,7 @@ summary: È possibile creare una home directory personalizzata e definire la pro
 *Cosa ti serve*
 
 * Il sistema deve soddisfare i requisiti descritti in link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisiti di sistema hardware"].
-* Devi essere in grado di accedere come utente root al sistema Red Hat Enterprise Linux o CentOS.
+* È necessario essere in grado di accedere come utente root al sistema Red Hat Enterprise Linux.
 
 
 L'installazione predefinita di Unified Manager esegue le seguenti operazioni:

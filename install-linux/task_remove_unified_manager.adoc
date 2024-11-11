@@ -2,7 +2,7 @@
 permalink: install-linux/task_remove_unified_manager.html 
 sidebar: sidebar 
 keywords: remove, unified manager 
-summary: 'È possibile arrestare e disinstallare Unified Manager dall"host Red Hat Enterprise Linux o CentOS con un singolo comando.' 
+summary: 'Puoi interrompere e disinstallare Unified Manager dall"host Red Hat Enterprise Linux con un singolo comando.' 
 ---
 = Rimozione di Unified Manager
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'È possibile arrestare e disinstallare Unified Manager dall"host Red H
 
 
 [role="lead"]
-È possibile arrestare e disinstallare Unified Manager dall'host Red Hat Enterprise Linux o CentOS con un singolo comando.
+Puoi interrompere e disinstallare Unified Manager dall'host Red Hat Enterprise Linux con un singolo comando.
 
 *Cosa ti serve*
 

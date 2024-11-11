@@ -20,4 +20,4 @@ Ad esempio, la directory del database potrebbe essere piena se Unified Manager s
 Non vengono raccolti dati aggiuntivi dai cluster dopo che la directory raggiunge il 95% di riempimento.
 
 ====
-I passaggi necessari per aggiungere capacità alla directory dei dati sono diversi a seconda che Unified Manager sia in esecuzione su un server VMware ESXi, Red Hat o CentOS Linux o su un server Microsoft Windows.
+I passaggi necessari per aggiungere capacità alla directory dei dati sono diversi a seconda che Unified Manager sia in esecuzione su un server VMware ESXi, su un server Red Hat o su un server Microsoft Windows.

@@ -2,7 +2,7 @@
 permalink: health-checker/task_restore_mysql_db_on_linux_or_centos.html 
 sidebar: sidebar 
 keywords: restore, linux system, mysql, database, backup 
-summary: In caso di perdita o danneggiamento dei dati, è possibile ripristinare Unified Manager allo stato stabile precedente con una perdita minima di dati. È possibile ripristinare il database di Unified Manager su un sistema Red Hat Enterprise Linux o CentOS locale o remoto utilizzando la console di manutenzione di Unified Manager. 
+summary: In caso di perdita o danneggiamento dei dati, è possibile ripristinare Unified Manager allo stato stabile precedente con una perdita minima di dati. Puoi ripristinare il database Unified Manager su un sistema locale o remoto Red Hat Enterprise Linux utilizzando la console di manutenzione di Unified Manager. 
 ---
 = Ripristino di un backup del database MySQL su un sistema Linux
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: In caso di perdita o danneggiamento dei dati, è possibile ripristinare
 
 
 [role="lead"]
-In caso di perdita o danneggiamento dei dati, è possibile ripristinare Unified Manager allo stato stabile precedente con una perdita minima di dati. È possibile ripristinare il database di Unified Manager su un sistema Red Hat Enterprise Linux o CentOS locale o remoto utilizzando la console di manutenzione di Unified Manager.
+In caso di perdita o danneggiamento dei dati, è possibile ripristinare Unified Manager allo stato stabile precedente con una perdita minima di dati. Puoi ripristinare il database Unified Manager su un sistema locale o remoto Red Hat Enterprise Linux utilizzando la console di manutenzione di Unified Manager.
 
 *Cosa ti serve*
 
@@ -24,7 +24,7 @@ Si consiglia di copiare il file di backup nella directory predefinita /`data/ocu
 * I file di backup devono essere di `.7z` tipo.
 
 
-La funzionalità di ripristino è specifica della piattaforma e della versione. È possibile ripristinare un backup di Unified Manager solo sulla stessa versione di Unified Manager. È possibile ripristinare un file di backup Linux o un file di backup di un'appliance virtuale su un sistema Red Hat Enterprise Linux o CentOS.
+La funzionalità di ripristino è specifica della piattaforma e della versione. È possibile ripristinare un backup di Unified Manager solo sulla stessa versione di Unified Manager. Potete ripristinare un file di backup Linux o un file di backup di un'appliance virtuale su un sistema Red Hat Enterprise Linux.
 
 [TIP]
 ====

@@ -17,7 +17,7 @@ summary: 'È necessario scaricare Unified Manager `.zip` Dal NetApp Support Site
 
 È necessario disporre delle credenziali di accesso per il NetApp Support Site.
 
-Scarica lo stesso pacchetto di installazione di Unified Manager per i sistemi Red Hat Enterprise Linux e CentOS.
+Scaricate il pacchetto di installazione di Unified Manager per il sistema Red Hat Enterprise Linux.
 
 .Fasi
 . Accedere al NetApp Support Site e accedere alla pagina Download di Unified Manager:

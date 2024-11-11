@@ -29,7 +29,7 @@ Snapshot VMware dell'appliance virtuale Unified Manager
 
 
 
-.2+| Red Hat Enterprise Linux o CentOS Linux  a| 
+.2+| Red Hat Enterprise Linux  a| 
 Piccolo
  a| 
 Dump del database MySQL di Unified Manager

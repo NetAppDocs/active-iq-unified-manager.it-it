@@ -21,7 +21,7 @@ Prima di iniziare un'operazione di backup, Unified Manager esegue un controllo d
 ====
 * È possibile ripristinare una copia Snapshot solo sulla stessa versione di Active IQ Unified Manager.
 +
-Ad esempio, se hai creato un backup su Unified Manager 9,14, il backup può essere ripristinato solo sui sistemi Unified Manager 9,14.
+Ad esempio, se hai creato un backup su Unified Manager 9,16, il backup può essere ripristinato solo sui sistemi Unified Manager 9,16.
 
 * In caso di modifiche nella configurazione di Snapshot, lo snapshot potrebbe non essere valido.
 

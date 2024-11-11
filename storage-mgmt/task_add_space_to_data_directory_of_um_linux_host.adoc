@@ -15,7 +15,7 @@ Se è stato assegnato spazio su disco insufficiente a `/opt/netapp/data` Directo
 
 *Cosa ti serve*
 
-È necessario disporre dell'accesso utente root alla macchina Red Hat Enterprise Linux o CentOS Linux su cui è installato Unified Manager.
+È necessario disporre dell'accesso utente root alla macchina Red Hat Enterprise Linux su cui è installato Unified Manager.
 
 Si consiglia di eseguire il backup del database di Unified Manager prima di aumentare le dimensioni della directory dei dati.
 

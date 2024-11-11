@@ -15,7 +15,7 @@ Un backup dump del database MySQL è una copia del database Active IQ Unified Ma
 
 [NOTE]
 ====
-Il dump del database MySQL è il meccanismo di backup predefinito quando Unified Manager viene installato su un server Linux e Windows. Tuttavia, se Unified Manager gestisce un gran numero di cluster e nodi o se il completamento dei backup MySQL dura molte ore, è possibile eseguire il backup utilizzando le copie Snapshot. Questa funzionalità è disponibile sui sistemi Red Hat Enterprise Linux, CentOS Linux e Windows.
+Il dump del database MySQL è il meccanismo di backup predefinito quando Unified Manager viene installato su un server Linux e Windows. Tuttavia, se Unified Manager gestisce un gran numero di cluster e nodi o se il completamento dei backup MySQL dura molte ore, è possibile eseguire il backup utilizzando le copie Snapshot. Questa funzionalità è disponibile su Red Hat Enterprise Linux e Windows.
 
 ====
 Un backup del dump del database è costituito da un singolo file nella directory di backup e da uno o più file nella directory del repository del database. Il file nella directory di backup è molto piccolo perché contiene solo un puntatore ai file che si trovano nella directory del repository del database necessari per ricreare il backup.
