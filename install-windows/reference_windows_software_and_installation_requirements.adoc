@@ -1,7 +1,7 @@
 ---
 permalink: install-windows/reference_windows_software_and_installation_requirements.html 
 sidebar: sidebar 
-keywords: windows, software, installation, requirements, system 
+keywords: windows, software, installation, requirements, system, active iq unified manager 
 summary: Per una corretta installazione di Unified Manager su Windows, è necessario assicurarsi che il sistema su cui viene installato Unified Manager soddisfi i requisiti software. 
 ---
 = Software Windows e requisiti di installazione
@@ -47,10 +47,10 @@ Il server deve essere dedicato all'esecuzione di Unified Manager. Sul server non
 I seguenti pacchetti di terze parti sono forniti in bundle con Unified Manager. Se questi pacchetti di terze parti non sono installati nel sistema, Unified Manager li installa come parte dell'installazione.
 
 * Microsoft Visual C& 43; 43; 2015 Redistributable Package versione 14.26.28720.3
-* Microsoft Visual C& 43; 43; Redistributable Packages per Visual Studio 2013 versione 12.0.40660.0
-* MySQL Community Edition versione 8.0.34
-* Python 3.11.6
-* OpenJDK versione 11.0.20
+* Microsoft Visual C& 43; 43; Redistributable Packages per Visual Studio 2015 versione 14.26.28720.3
+* MySQL Community Edition versione 8.0.37
+* Python 3,12x
+* OpenJDK versione 11.0.23
 * p7zip versione 23,01 o successiva
 
 
