@@ -13,9 +13,8 @@ summary: 'È possibile gestire le pianificazioni dei report dalla pagina Report 
 [role="lead"]
 È possibile gestire le pianificazioni dei report dalla pagina Report Schedules (Pianificazioni report). È possibile visualizzare, modificare o eliminare le pianificazioni esistenti.
 
-*Cosa ti serve*
-
 [NOTE]
+.Prima di iniziare
 ====
 Non è possibile pianificare nuovi report dalla pagina Report Schedules. È possibile aggiungere solo report pianificati dalle pagine di inventario degli oggetti.
 

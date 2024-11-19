@@ -13,8 +13,7 @@ summary: 'Quando un volume di origine nella relazione di protezione viene disatt
 [role="lead"]
 Quando un volume di origine nella relazione di protezione viene disattivato a causa di un guasto hardware o di un disastro, è possibile utilizzare le funzionalità delle relazioni di protezione di Unified Manager per rendere la destinazione di protezione accessibile in lettura/scrittura e eseguire il failover su tale volume fino a quando l'origine non è nuovamente online; quindi, è possibile tornare all'origine originale quando è disponibile per la distribuzione dei dati.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * Per eseguire questa operazione, è necessario aver configurato OnCommand Workflow Automation.
 

@@ -15,8 +15,7 @@ summary: È possibile monitorare e diagnosticare le condizioni generali di salut
 
 Unified Manager utilizza gli avvisi di stato del sistema per monitorare lo stato dei componenti e la connettività nella configurazione di MetroCluster.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Il cluster locale e remoto nella configurazione MetroCluster deve essere aggiunto a Unified Manager
 
 

@@ -13,8 +13,7 @@ summary: 'Per supportare una connessione tra Workflow Automation e Unified Manag
 [role="lead"]
 Per supportare una connessione tra Workflow Automation e Unified Manager, o per accedere alle viste del database, è necessario innanzitutto creare un utente del database con il ruolo Schema di integrazione o Schema report nell'interfaccia utente Web di Unified Manager.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 Gli utenti dei database forniscono integrazione con Workflow Automation e accesso a viste di database specifiche per i report. Gli utenti del database non hanno accesso all'interfaccia utente Web di Unified Manager o alla console di manutenzione e non possono eseguire chiamate API.

@@ -13,8 +13,7 @@ summary: È possibile creare un report per visualizzare i trasferimenti di volum
 [role="lead"]
 È possibile creare un report per visualizzare i trasferimenti di volume raggruppati per giorno.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 

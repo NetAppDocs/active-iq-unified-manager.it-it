@@ -13,8 +13,7 @@ summary: Se si dispone di un downtime pianificato per un cluster, ad esempio per
 [role="lead"]
 Se si dispone di un downtime pianificato per un cluster, ad esempio per aggiornare il cluster o per spostare uno dei nodi, è possibile eliminare gli eventi e gli avvisi che normalmente verrebbero generati durante tale periodo di tempo, programmando una finestra di manutenzione di Unified Manager.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Durante una finestra di manutenzione, gli eventi correlati a tutti gli oggetti del cluster vengono ancora generati, ma non vengono visualizzati nella pagina degli eventi e non vengono inviati avvisi o altri tipi di notifica per tali eventi.

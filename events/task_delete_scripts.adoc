@@ -13,8 +13,7 @@ summary: È possibile eliminare uno script da Unified Manager quando lo script n
 [role="lead"]
 È possibile eliminare uno script da Unified Manager quando lo script non è più necessario o valido.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * Lo script non deve essere associato a un avviso.
 

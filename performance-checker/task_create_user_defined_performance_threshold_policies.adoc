@@ -13,8 +13,7 @@ summary: 'Vengono creati criteri di soglia delle performance per gli oggetti sto
 [role="lead"]
 Vengono creati criteri di soglia delle performance per gli oggetti storage in modo che le notifiche vengano inviate quando un contatore delle performance supera un valore specifico. La notifica dell'evento indica che il cluster sta riscontrando un problema di performance.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 È possibile creare criteri di soglia delle prestazioni immettendo i valori di soglia nella pagina Crea criterio di soglia delle prestazioni. È possibile creare nuovi criteri definendo tutti i valori dei criteri in questa pagina oppure creare una copia di un criterio esistente e modificare i valori della copia (denominata _cloning_).

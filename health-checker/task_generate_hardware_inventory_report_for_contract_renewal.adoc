@@ -13,8 +13,7 @@ summary: 'È possibile generare un report che contiene un elenco completo di inf
 [role="lead"]
 È possibile generare un report che contiene un elenco completo di informazioni su cluster e nodi, ad esempio numeri di modello e di serie dell'hardware, tipi di dischi e conteggi, licenze installate e altro ancora. Questo report è utile per il rinnovo del contratto all'interno di siti sicuri ("siti `dARK`") non connessi alla piattaforma NetAppActive IQ.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 .Fasi

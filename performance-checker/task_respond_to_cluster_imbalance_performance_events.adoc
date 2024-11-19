@@ -13,8 +13,7 @@ summary: 'Unified Manager genera eventi di avviso di squilibrio del cluster quan
 [role="lead"]
 Unified Manager genera eventi di avviso di squilibrio del cluster quando un nodo di un cluster opera a un carico molto più elevato rispetto ad altri nodi, con un potenziale impatto sulle latenze dei workload. Questi eventi definiti dal sistema offrono l'opportunità di correggere potenziali problemi di performance prima che molti carichi di lavoro siano influenzati dalla latenza.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 Unified Manager genera eventi di avviso per le violazioni delle policy di soglia dello squilibrio del cluster confrontando il valore della capacità di performance utilizzata per tutti i nodi del cluster per verificare se esiste una differenza di carico del 30% tra i nodi.

@@ -13,8 +13,7 @@ summary: 'Utilizzando la vista Health: All Volumes (Salute: Tutti i volumi) è p
 [role="lead"]
 Utilizzando la vista Health: All Volumes (Salute: Tutti i volumi) è possibile creare diverse relazioni di protezione SnapMirror contemporaneamente selezionando più di un volume sulla stessa VM di storage.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver impostato l'automazione del flusso di lavoro.
 

@@ -13,8 +13,7 @@ summary: Prima di aggiornare Unified Manager, scaricare il file di aggiornamento
 [role="lead"]
 Prima di aggiornare Unified Manager, scaricare il file di aggiornamento di Unified Manager dal NetApp Support Site.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre delle credenziali di accesso per il NetApp Support Site.
 
 .Fasi

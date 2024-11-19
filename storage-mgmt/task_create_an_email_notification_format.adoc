@@ -13,8 +13,7 @@ summary: 'È possibile creare un formato di notifica per i messaggi e-mail invia
 [role="lead"]
 È possibile creare un formato di notifica per i messaggi e-mail inviati a un utente o a un gruppo di utenti in caso di problemi relativi alla quota (limite minimo superato o limite massimo raggiunto).
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 .Fasi

@@ -13,8 +13,7 @@ summary: 'Se necessario, è possibile visualizzare gli eventi generati per tutti
 [role="lead"]
 Se necessario, è possibile visualizzare gli eventi generati per tutti gli oggetti di storage durante una finestra di manutenzione di Unified Manager. La maggior parte degli eventi viene visualizzata nello stato obsoleto una volta completata la finestra di manutenzione e dopo aver eseguito il backup e l'esecuzione di tutte le risorse di sistema.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Almeno una finestra di manutenzione deve essere completata prima che siano disponibili eventi.
 
 Per impostazione predefinita, gli eventi che si sono verificati durante una finestra di manutenzione non vengono visualizzati nella pagina dell'inventario di gestione degli eventi.

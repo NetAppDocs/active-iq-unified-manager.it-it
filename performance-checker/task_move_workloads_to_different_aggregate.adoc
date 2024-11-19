@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare Unified Manager per identificare un aggregato 
 [role="lead"]
 È possibile utilizzare Unified Manager per identificare un aggregato meno occupato rispetto all'aggregato in cui risiedono attualmente i carichi di lavoro, quindi è possibile spostare volumi o LUN selezionati in tale aggregato. Lo spostamento di carichi di lavoro dalle performance elevate in un aggregato meno occupato o in un aggregato con storage flash abilitato consente al carico di lavoro di funzionare in modo più efficiente.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * È necessario aver registrato il nome dell'aggregato che ha attualmente un problema di performance.
 * È necessario aver registrato la data e l'ora in cui l'aggregato ha ricevuto l'evento.

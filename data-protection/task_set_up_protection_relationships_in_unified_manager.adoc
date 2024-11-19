@@ -13,8 +13,7 @@ summary: Per utilizzare Unified Manager e OnCommand Workflow Automation per impo
 [role="lead"]
 Per utilizzare Unified Manager e OnCommand Workflow Automation per impostare le relazioni SnapMirror e SnapVault per proteggere i dati, è necessario eseguire diversi passaggi.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario stabilire relazioni peer tra due cluster o due macchine virtuali di storage (SVM).
 * OnCommand Workflow Automation deve essere integrato con Unified Manager:

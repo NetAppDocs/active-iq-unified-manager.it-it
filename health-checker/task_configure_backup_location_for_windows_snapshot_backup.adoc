@@ -13,8 +13,7 @@ summary: È necessario configurare il volume per la memorizzazione delle copie S
 [role="lead"]
 È necessario configurare il volume per la memorizzazione delle copie Snapshot dopo il backup di Unified Manager su Windows.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Il cluster, la VM di storage e il volume devono soddisfare i seguenti requisiti:
 
 * Requisiti del cluster:

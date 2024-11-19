@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare Unified Manager per analizzare un evento di pe
 [role="lead"]
 È possibile utilizzare Unified Manager per analizzare un evento di performance causato da un gruppo di policy QoS (Quality of Service) che rallenta il throughput del carico di lavoro (MB/s). La limitazione ha aumentato i tempi di risposta (latenza) dei carichi di lavoro dei volumi nel gruppo di policy. È possibile utilizzare le informazioni sull'evento per determinare se sono necessari nuovi limiti per i gruppi di criteri per arrestare la limitazione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * Devono esserci eventi di performance nuovi, riconosciuti o obsoleti.
 

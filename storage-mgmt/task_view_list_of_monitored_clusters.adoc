@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare la pagina Cluster Setup per visualizzare l"inv
 [role="lead"]
 È possibile utilizzare la pagina Cluster Setup per visualizzare l'inventario dei cluster. È possibile visualizzare i dettagli dei cluster, ad esempio il nome o l'indirizzo IP e lo stato della comunicazione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 .Fase

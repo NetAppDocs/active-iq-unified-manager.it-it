@@ -13,8 +13,7 @@ summary: È possibile rimuovere gli aggregati da un pool di risorse esistente, a
 [role="lead"]
 È possibile rimuovere gli aggregati da un pool di risorse esistente, ad esempio quando si desidera utilizzare un aggregato per altri scopi.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 I membri del pool di risorse vengono visualizzati solo quando viene selezionato un pool di risorse.

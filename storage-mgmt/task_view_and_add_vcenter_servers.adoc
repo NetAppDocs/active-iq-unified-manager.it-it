@@ -13,8 +13,7 @@ summary: 'Per visualizzare e risolvere i problemi relativi alle prestazioni dell
 [role="lead"]
 Per visualizzare e risolvere i problemi relativi alle prestazioni delle macchine virtuali (VM), è necessario aggiungere i server vCenter associati all'istanza di Active IQ Unified Manager.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Prima di aggiungere o visualizzare i server vCenter, verificare quanto segue:
 
 * Si conoscono i nomi di vCenter Server.

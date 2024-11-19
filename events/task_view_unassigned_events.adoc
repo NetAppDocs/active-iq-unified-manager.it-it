@@ -13,8 +13,7 @@ summary: È possibile visualizzare gli eventi non assegnati e assegnarli a un ut
 [role="lead"]
 È possibile visualizzare gli eventi non assegnati e assegnarli a un utente in grado di risolverli.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 .Fasi

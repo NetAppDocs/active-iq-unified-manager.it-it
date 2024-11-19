@@ -13,8 +13,7 @@ summary: 'Dalla vista Health: All aggregates (Salute: Tutti gli aggregati), è p
 [role="lead"]
 Dalla vista Health: All aggregates (Salute: Tutti gli aggregati), è possibile monitorare l'inventario degli aggregati. La vista capacità: Tutti gli aggregati consente di visualizzare informazioni sulla capacità e sull'utilizzo degli aggregati in tutti i cluster.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 È possibile visualizzare dettagli come la capacità aggregata e la configurazione e informazioni sui dischi dalla pagina aggregata/Dettagli sullo stato di salute. È possibile utilizzare questi dettagli prima di configurare le impostazioni di soglia, se necessario.

@@ -13,8 +13,7 @@ summary: Questo flusso di lavoro fornisce un esempio di come è possibile identi
 [role="lead"]
 Questo flusso di lavoro fornisce un esempio di come è possibile identificare e risolvere un errore di un processo di protezione dalla dashboard di Unified Manager.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Poiché alcune attività di questo flusso di lavoro richiedono l'accesso mediante il ruolo di amministratore, è necessario conoscere i ruoli richiesti per utilizzare le varie funzionalità.
 
 In questo scenario, puoi accedere alla pagina Dashboard per verificare se ci sono problemi con i tuoi processi di protezione. Nell'area incidente di protezione, si noterà la presenza di un incidente con interruzione del processo, che mostra un errore di errore relativo al processo di protezione non riuscito su un volume. Esaminare questo errore per determinare la possibile causa e la potenziale risoluzione.

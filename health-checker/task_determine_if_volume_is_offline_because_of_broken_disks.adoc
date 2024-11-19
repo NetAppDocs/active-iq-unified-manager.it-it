@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare l"interfaccia utente Web di Unified Manager pe
 [role="lead"]
 È possibile utilizzare l'interfaccia utente Web di Unified Manager per confermare o eliminare la possibilità che un volume sia offline perché i problemi del disco RAID hanno portato l'aggregato host offline.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 Per determinare se la condizione di volume offline è causata da problemi del disco RAID che stanno portando l'aggregato di hosting offline, eseguire le seguenti operazioni:

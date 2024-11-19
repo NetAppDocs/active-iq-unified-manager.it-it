@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare Unified Manager per analizzare un evento di pe
 [role="lead"]
 È possibile utilizzare Unified Manager per analizzare un evento di performance causato da carichi di lavoro che utilizzano in modo eccessivo un aggregato. È inoltre possibile utilizzare Unified Manager per controllare lo stato dell'aggregato per verificare se gli eventi di salute recenti rilevati nell'aggregato hanno contribuito all'evento delle performance.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * Devono esserci eventi di performance nuovi, riconosciuti o obsoleti.
 

@@ -13,8 +13,7 @@ summary: 'È possibile creare volumi di file share che supportano i protocolli C
 [role="lead"]
 È possibile creare volumi di file share che supportano i protocolli CIFS/SMB e NFS su un cluster esistente e su una Storage Virtual Machine (Storage VM) dalla pagina Provision workload (carico di lavoro di provisioning).
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * La VM di storage deve disporre di spazio per il provisioning del volume di condivisione file.
 * Entrambi i servizi SMB e NFS devono essere attivati sulla vostra macchina virtuale di storage.
 * Per selezionare e assegnare il livello di servizio delle performance (PSL) e la policy di efficienza dello storage (SEP) sul carico di lavoro, le policy devono essere state create prima di iniziare a creare il carico di lavoro.

@@ -13,8 +13,7 @@ summary: È possibile configurare le azioni di gruppo che si desidera applicare 
 [role="lead"]
 È possibile configurare le azioni di gruppo che si desidera applicare agli oggetti di storage di un gruppo. La configurazione delle azioni per un gruppo consente di risparmiare tempo, poiché non è necessario aggiungere queste azioni a ciascun oggetto singolarmente.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 .Fasi

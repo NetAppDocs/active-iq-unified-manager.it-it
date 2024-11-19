@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare la vista Health: All Nodes (Salute: Tutti i no
 [role="lead"]
 È possibile utilizzare la vista Health: All Nodes (Salute: Tutti i nodi) per visualizzare l'elenco dei nodi nei cluster. È possibile utilizzare la pagina Cluster / Health Details per visualizzare informazioni dettagliate sui nodi che fanno parte del cluster monitorato.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 È possibile visualizzare dettagli quali lo stato del nodo, il cluster che contiene il nodo, i dettagli della capacità aggregata (utilizzata e totale) e i dettagli della capacità raw (utilizzabile, spare e totale). È inoltre possibile ottenere informazioni su coppie ha, shelf di dischi e porte.

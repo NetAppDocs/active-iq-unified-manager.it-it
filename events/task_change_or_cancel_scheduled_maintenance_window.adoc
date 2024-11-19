@@ -13,8 +13,7 @@ summary: 'Se è stata configurata una finestra di manutenzione di Unified Manage
 [role="lead"]
 Se è stata configurata una finestra di manutenzione di Unified Manager in modo che si verifichi in futuro, è possibile modificare l'ora di inizio e di fine o annullare la finestra di manutenzione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 L'annullamento di una finestra di manutenzione attualmente in esecuzione è utile se la manutenzione del cluster è stata completata prima dell'ora di fine della finestra di manutenzione pianificata e si desidera iniziare nuovamente a ricevere eventi e avvisi dal cluster.

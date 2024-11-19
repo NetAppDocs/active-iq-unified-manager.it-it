@@ -13,8 +13,7 @@ summary: 'È possibile riavviare la macchina virtuale (VM) di Unified Manager da
 [role="lead"]
 È possibile riavviare la macchina virtuale (VM) di Unified Manager dalla console di manutenzione. Riavviare la macchina virtuale dopo aver generato un nuovo certificato di protezione o in caso di problemi con la macchina virtuale.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * L'appliance virtuale deve essere accesa.
 * L'utente deve essere connesso alla console di manutenzione di Unified Manager come utente di manutenzione.
 

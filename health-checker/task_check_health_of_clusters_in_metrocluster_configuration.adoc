@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare Unified Manager per controllare lo stato opera
 [role="lead"]
 È possibile utilizzare Active IQ Unified Manager (Unified Manager) per controllare lo stato operativo dei cluster e dei relativi componenti nelle configurazioni MetroCluster over FC e MetroCluster over IP. Se i cluster sono stati coinvolti in un evento di performance rilevato da Unified Manager, lo stato di salute può aiutare a determinare se un problema hardware o software ha contribuito all'evento.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * È necessario aver analizzato un evento di performance per una configurazione MetroCluster e avere ottenuto il nome del cluster interessato.
 * Entrambi i cluster nella configurazione MetroCluster su FC e IP devono essere monitorati dalla stessa istanza di Unified Manager.

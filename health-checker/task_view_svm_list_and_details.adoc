@@ -13,8 +13,7 @@ summary: 'Dalla vista Health: All Storage VM (Salute: Tutte le macchine virtuali
 [role="lead"]
 Dalla vista Health: All Storage VM (Salute: Tutte le macchine virtuali dello storage), è possibile monitorare l'inventario delle macchine virtuali dello storage (SVM). È possibile utilizzare la pagina Storage VM / Health Details per visualizzare informazioni dettagliate sulle SVM monitorate.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 È possibile visualizzare i dettagli di SVM, ad esempio la capacità, l'efficienza e la configurazione di una SVM. È inoltre possibile visualizzare informazioni sui dispositivi correlati e sugli avvisi correlati per la SVM.

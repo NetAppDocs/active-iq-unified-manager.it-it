@@ -13,8 +13,7 @@ summary: È possibile eliminare un gruppo da Unified Manager quando il gruppo no
 [role="lead"]
 È possibile eliminare un gruppo da Unified Manager quando il gruppo non è più necessario.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * Nessuno degli oggetti storage (cluster, SVM o volumi) deve essere associato a qualsiasi regola di gruppo associata al gruppo che si desidera eliminare.
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 

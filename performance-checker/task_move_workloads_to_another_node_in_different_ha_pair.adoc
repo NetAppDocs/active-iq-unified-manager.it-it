@@ -13,8 +13,7 @@ summary: È possibile utilizzare Unified Manager per identificare un aggregato s
 [role="lead"]
 È possibile utilizzare Unified Manager per identificare un aggregato su un nodo in una coppia ha diversa che è meno occupata della coppia ha in cui i carichi di lavoro sono attualmente in esecuzione. Quindi, è possibile spostare i volumi selezionati negli aggregati della nuova coppia ha. Lo spostamento di carichi di lavoro dalle performance elevate in un aggregato su un nodo meno occupato consente ai carichi di lavoro su entrambi i nodi di funzionare in modo più efficiente.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * Il cluster deve essere composto da almeno due coppie ha; non è possibile utilizzare questo processo di correzione se nel cluster è presente una sola coppia ha.
 * È necessario aver registrato i nomi dei due nodi della coppia ha che presentano attualmente un problema di performance.

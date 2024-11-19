@@ -13,8 +13,7 @@ summary: 'Le porte predefinite utilizzate da Unified Manager per i protocolli HT
 [role="lead"]
 Le porte predefinite utilizzate da Unified Manager per i protocolli HTTP e HTTPS possono essere modificate dopo l'installazione, se necessario per motivi di sicurezza. Le porte predefinite sono 80 per HTTP e 443 per HTTPS.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Per accedere alla console di manutenzione del server Unified Manager, è necessario disporre di un ID utente e di una password autorizzati.
 
 [NOTE]

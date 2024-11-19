@@ -13,8 +13,7 @@ summary: 'Per utilizzare Unified Manager, è necessario prima configurare le opz
 [role="lead"]
 Per utilizzare Unified Manager, è necessario prima configurare le opzioni di configurazione iniziale, tra cui il server NTP, l'indirizzo e-mail dell'utente di manutenzione, l'host del server SMTP e l'aggiunta di cluster ONTAP.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario aver eseguito le seguenti operazioni:
 
 * Ha avviato l'interfaccia utente Web di Unified Manager utilizzando l'URL fornito dopo l'installazione

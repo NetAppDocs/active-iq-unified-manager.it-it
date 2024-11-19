@@ -13,8 +13,7 @@ summary: 'Questo flusso di lavoro fornisce un esempio di come è possibile valut
 [role="lead"]
 Questo flusso di lavoro fornisce un esempio di come è possibile valutare e risolvere un evento offline di un volume che Unified Manager potrebbe visualizzare nella pagina di inventario di Event Management. In questo scenario, l'amministratore utilizza Unified Manager per risolvere uno o più eventi offline di un volume.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 I volumi potrebbero essere segnalati offline per diversi motivi:

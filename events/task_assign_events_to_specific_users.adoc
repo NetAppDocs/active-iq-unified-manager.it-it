@@ -13,8 +13,7 @@ summary: 'È possibile assegnare eventi non assegnati a se stessi o ad altri ute
 [role="lead"]
 È possibile assegnare eventi non assegnati a se stessi o ad altri utenti, inclusi gli utenti remoti. Se necessario, è possibile riassegnare gli eventi assegnati a un altro utente. Ad esempio, quando si verificano problemi frequenti su un oggetto di storage, è possibile assegnare gli eventi per questi problemi all'utente che gestisce tale oggetto.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * Il nome e l'ID e-mail dell'utente devono essere configurati correttamente.
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 

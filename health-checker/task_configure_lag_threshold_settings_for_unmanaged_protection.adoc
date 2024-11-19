@@ -13,8 +13,7 @@ summary: È possibile modificare le impostazioni globali predefinite di avviso d
 [role="lead"]
 È possibile modificare le impostazioni globali predefinite di avviso di ritardo e soglia di stato degli errori per le relazioni di protezione non gestite in modo che gli eventi vengano generati a intervalli appropriati alle proprie esigenze.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Il tempo di ritardo non deve superare l'intervallo di pianificazione del trasferimento definito. Ad esempio, se la pianificazione del trasferimento è oraria, il tempo di ritardo non deve essere superiore a un'ora. La soglia di ritardo specifica una percentuale che il tempo di ritardo non deve superare. Utilizzando l'esempio di un'ora, se la soglia di ritardo è definita come 150%, si riceverà un evento quando il tempo di ritardo è superiore a 1.5 ore.

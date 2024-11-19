@@ -15,8 +15,7 @@ summary: È possibile generare un pacchetto di supporto contenente informazioni 
 
 A partire da Unified Manager 9.8, se il server Unified Manager è connesso a Internet, è anche possibile caricare il pacchetto di supporto a NetApp dalla console di manutenzione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario avere accesso alla console di manutenzione come utente di manutenzione.
 
 Poiché alcuni tipi di dati di supporto possono utilizzare una grande quantità di risorse del cluster o richiedere molto tempo per il completamento, quando si seleziona il bundle di supporto completo è possibile specificare i tipi di dati da includere o escludere per ridurre le dimensioni del bundle di supporto. È inoltre possibile creare un bundle di supporto leggero che contiene solo 30 giorni di registri e record del database di configurazione, escludendo i dati sulle performance, i file di registrazione dell'acquisizione e il dump dell'heap del server.

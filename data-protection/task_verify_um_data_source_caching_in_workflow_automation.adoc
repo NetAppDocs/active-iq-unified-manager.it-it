@@ -13,8 +13,7 @@ summary: 'È possibile determinare se il caching dell"origine dati di Unified Ma
 [role="lead"]
 È possibile determinare se il caching dell'origine dati di Unified Manager funziona correttamente controllando se l'acquisizione dell'origine dati ha esito positivo in Workflow Automation. È possibile farlo quando si integra l'automazione del flusso di lavoro con Unified Manager per garantire che la funzionalità di automazione del flusso di lavoro sia disponibile dopo l'integrazione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Per eseguire questa attività, è necessario assegnare il ruolo di amministratore o di architetto nell'automazione del flusso di lavoro.
 
 .Fasi

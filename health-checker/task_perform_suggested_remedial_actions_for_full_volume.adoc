@@ -13,8 +13,7 @@ summary: 'Dopo aver ricevuto un evento di errore "Volume Space Full" (spazio vol
 [role="lead"]
 Dopo aver ricevuto un evento di errore "`Volume Space Full`", esaminare le azioni correttive suggerite nella pagina Dettagli evento e decidere di eseguire una delle azioni suggerite.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Un utente con qualsiasi ruolo può eseguire tutte le attività di questo flusso di lavoro che utilizzano Unified Manager.

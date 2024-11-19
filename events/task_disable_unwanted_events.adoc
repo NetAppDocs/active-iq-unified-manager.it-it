@@ -13,8 +13,7 @@ summary: Tutti gli eventi sono attivati per impostazione predefinita. È possibi
 [role="lead"]
 Tutti gli eventi sono attivati per impostazione predefinita. È possibile disattivare gli eventi a livello globale per impedire la generazione di notifiche per eventi non importanti nel proprio ambiente. È possibile attivare gli eventi disattivati quando si desidera riprendere la ricezione delle notifiche.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Quando si disattivano gli eventi, gli eventi precedentemente generati nel sistema vengono contrassegnati come obsoleti e gli avvisi configurati per tali eventi non vengono attivati. Quando si abilitano eventi disattivati, le notifiche per questi eventi vengono generate a partire dal ciclo di monitoraggio successivo.

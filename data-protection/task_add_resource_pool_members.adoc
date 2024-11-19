@@ -13,8 +13,7 @@ summary: Un pool di risorse è costituito da diversi aggregati di membri. È pos
 [role="lead"]
 Un pool di risorse è costituito da diversi aggregati di membri. È possibile aggiungere aggregati ai pool di risorse esistenti per aumentare la quantità di spazio disponibile per il provisioning di volumi secondari.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 È possibile aggiungere non più di 200 aggregati a un pool di risorse contemporaneamente. Gli aggregati visualizzati nella finestra di dialogo aggregati non appartengono ad altri pool di risorse.

@@ -161,7 +161,7 @@ entries:
       - title: Che cos'è un ripristino del database
         url: "/health-checker/concept_what_database_restore_is.html"
       - title: Ripristino di un backup del database MySQL su un sistema Linux
-        url: "/health-checker/task_restore_mysql_db_on_linux_or_centos.html"
+        url: "/health-checker/task_restore_mysql_db_on_linux.html"
       - title: Ripristino di un backup del database MySQL su Windows
         url: "/health-checker/task_restore_mysql_database_backup_on_windows.html"
     - title: Backup e ripristino con NetApp Snapshots
@@ -197,7 +197,7 @@ entries:
     - title: Backup on-demand per Unified Manager
       url: "/health-checker/concept_on_demand_backup_for_unified_manger.html"
     - title: Migrazione di un'appliance virtuale Unified Manager a un sistema Linux
-      url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html"
+      url: "/health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html"
   - title: Gestione degli script
     url: "/health-checker/concept_manage_scripts.html"
     entries:

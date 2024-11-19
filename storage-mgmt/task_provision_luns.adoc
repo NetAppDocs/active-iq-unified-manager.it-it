@@ -13,8 +13,7 @@ summary: 'È possibile creare LUN che supportano i protocolli CIFS/SMB e NFS su 
 [role="lead"]
 È possibile creare LUN che supportano i protocolli CIFS/SMB e NFS su un cluster e una Storage Virtual Machine (Storage VM) esistenti dalla pagina Provision workload (carico di lavoro provisioning).
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * La VM di storage deve disporre di spazio per il provisioning del LUN.
 * Sia iSCSI che FCP devono essere attivati sulla VM di storage su cui si crea il LUN.
 * Per selezionare e assegnare il livello di servizio delle performance (PSL) e la policy di efficienza dello storage (SEP) sul carico di lavoro, le policy devono essere state create prima di iniziare a creare il carico di lavoro.

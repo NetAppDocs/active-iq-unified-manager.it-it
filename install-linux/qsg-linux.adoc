@@ -61,7 +61,7 @@ Le procedure per la configurazione di un repository Red Hat Enterprise Linux son
 
 === Installare Unified Manager
 
-Unified Manager utilizza `yum` l'utility per installare il software e qualsiasi software dipendente. Poiché esistono diverse immagini di Red Hat Enterprise Linux, i pacchetti installati dipendono dal software presente nelle immagini. L' `yum`utility determina i pacchetti software dipendenti per l'installazione. Per ulteriori informazioni sui pacchetti software dipendenti, vedere link:../install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html["Software Linux e requisiti di installazione"].
+Unified Manager utilizza `yum` l'utility per installare il software e qualsiasi software dipendente. Poiché esistono diverse immagini di Red Hat Enterprise Linux, i pacchetti installati dipendono dal software presente nelle immagini. L' `yum`utility determina i pacchetti software dipendenti per l'installazione. Per ulteriori informazioni sui pacchetti software dipendenti, vedere link:../install-linux/reference_red_hat_software_and_installation_requirements.html["Software Linux e requisiti di installazione"].
 
 Per installare Unified Manager, eseguire il seguente comando, come utente root o utilizzando `sudo`, dalla directory in cui è stato decompresso il file di installazione:
 

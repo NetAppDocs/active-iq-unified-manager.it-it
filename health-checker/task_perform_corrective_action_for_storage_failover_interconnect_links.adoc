@@ -13,8 +13,7 @@ summary: 'Quando si visualizza la pagina Dettagli evento di un evento correlato 
 [role="lead"]
 Quando si visualizza la pagina Dettagli evento di un evento correlato al failover dello storage, è possibile esaminare le informazioni riepilogative della pagina per determinare l'urgenza dell'evento, la possibile causa del problema e la possibile risoluzione del problema.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 In questo scenario di esempio, il riepilogo degli eventi fornito nella pagina Dettagli evento contiene le seguenti informazioni sulla condizione di inattività del collegamento di interconnessione per il failover dello storage:

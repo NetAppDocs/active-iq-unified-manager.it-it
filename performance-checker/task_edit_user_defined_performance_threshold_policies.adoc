@@ -13,8 +13,7 @@ summary: È possibile modificare le impostazioni di soglia per i criteri di sogl
 [role="lead"]
 È possibile modificare le impostazioni di soglia per i criteri di soglia delle performance esistenti. Questo può essere utile se si ricevono troppi o pochi avvisi per determinate condizioni di soglia.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 Non è possibile modificare il nome del criterio o il tipo di oggetto di storage monitorato per i criteri di soglia esistenti.

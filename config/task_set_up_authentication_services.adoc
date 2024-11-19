@@ -13,8 +13,7 @@ summary: 'I servizi di autenticazione consentono l"autenticazione di utenti remo
 [role="lead"]
 I servizi di autenticazione consentono l'autenticazione di utenti remoti o gruppi remoti in un server di autenticazione prima di fornire loro l'accesso a Unified Manager. È possibile autenticare gli utenti utilizzando servizi di autenticazione predefiniti (ad esempio Active Directory o OpenLDAP) o configurando il proprio meccanismo di autenticazione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario aver attivato l'autenticazione remota.
 * È necessario disporre del ruolo di amministratore dell'applicazione.
 

@@ -13,8 +13,7 @@ summary: 'È possibile eseguire l"aggiornamento a una versione più recente di O
 [role="lead"]
 È possibile eseguire l'aggiornamento a una versione più recente di OpenJDK sul server Windows su cui è installato Unified Manager per ottenere correzioni per le vulnerabilità della sicurezza.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre dei privilegi di amministratore di Windows per il sistema su cui è installato Unified Manager.
 
 È possibile aggiornare le release di OpenJDK all'interno delle famiglie di release. Ad esempio, è possibile eseguire l'aggiornamento da OpenJDK 11.0.16 a OpenJDK 11,0.18, ma non è possibile aggiornare direttamente da OpenJDK 11 a OpenJDK 12.

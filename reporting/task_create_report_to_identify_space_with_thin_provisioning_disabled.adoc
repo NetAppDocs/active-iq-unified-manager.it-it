@@ -13,8 +13,7 @@ summary: 'Quando un volume non viene sottoposto a thin provisioning, occupa l"in
 [role="lead"]
 Quando un volume non viene sottoposto a thin provisioning, occupa l'intera quantità di spazio sul disco, come definito al momento della creazione del volume. L'identificazione dei volumi con thin provisioning disattivato consente di decidere se attivare il thin provisioning su determinati volumi.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 

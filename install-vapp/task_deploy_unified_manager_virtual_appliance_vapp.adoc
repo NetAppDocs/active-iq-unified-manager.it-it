@@ -13,8 +13,7 @@ summary: 'Dopo aver scaricato il file di installazione, è possibile implementar
 [role="lead"]
 Dopo aver scaricato il file di installazione, è possibile implementare Unified Manager come appliance virtuale. Utilizza vSphere Web Client per implementare l'appliance virtuale su un server ESXi. Quando si implementa l'appliance virtuale, viene creata una macchina virtuale.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Esaminare i requisiti di sistema. Apportare le modifiche necessarie prima di implementare l'appliance virtuale Unified Manager.
 
 Vedere link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisiti dell'infrastruttura virtuale"].

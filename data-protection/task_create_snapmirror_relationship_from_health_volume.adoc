@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare la pagina Dettagli volume/stato per creare una
 [role="lead"]
 È possibile utilizzare la pagina Dettagli volume/stato per creare una relazione SnapMirror in modo che la replica dei dati sia attivata per scopi di protezione. La replica di SnapMirror consente di ripristinare i dati dal volume di destinazione in caso di perdita di dati sull'origine.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver impostato l'automazione del flusso di lavoro.
 

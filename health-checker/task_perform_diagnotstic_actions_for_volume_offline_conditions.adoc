@@ -13,8 +13,7 @@ summary: Dopo aver effettuato la navigazione nella pagina dei dettagli relativi 
 [role="lead"]
 Dopo aver effettuato la navigazione nella pagina dei dettagli relativi al volume/salute di un volume che risulta offline, è possibile cercare ulteriori informazioni utili per la diagnosi della condizione di volume offline.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 Se il volume segnalato offline non è stato portato deliberatamente offline, il volume potrebbe essere offline per diversi motivi.

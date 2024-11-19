@@ -13,8 +13,7 @@ summary: È possibile aggiungere utenti locali o utenti di database utilizzando 
 [role="lead"]
 È possibile aggiungere utenti locali o utenti di database utilizzando la pagina utenti. È inoltre possibile aggiungere utenti o gruppi remoti appartenenti a un server di autenticazione. È possibile assegnare ruoli a questi utenti e, in base ai privilegi dei ruoli, gli utenti possono gestire gli oggetti e i dati di storage con Unified Manager o visualizzare i dati in un database.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione.
 * Per aggiungere un utente o un gruppo remoto, è necessario aver attivato l'autenticazione remota e configurato il server di autenticazione.
 * Se si prevede di configurare l'autenticazione SAML in modo che un provider di identità (IdP) autentichi gli utenti che accedono all'interfaccia grafica, assicurarsi che questi utenti siano definiti come utenti "`remote`".

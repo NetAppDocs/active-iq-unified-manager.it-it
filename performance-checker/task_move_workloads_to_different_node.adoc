@@ -13,8 +13,7 @@ summary: È possibile utilizzare Unified Manager per identificare un aggregato s
 [role="lead"]
 È possibile utilizzare Unified Manager per identificare un aggregato su un nodo diverso meno occupato rispetto al nodo su cui sono attualmente in esecuzione i carichi di lavoro, quindi è possibile spostare i volumi selezionati in tale aggregato. Lo spostamento di carichi di lavoro dalle performance elevate in un aggregato su un nodo meno occupato consente ai carichi di lavoro su entrambi i nodi di funzionare in modo più efficiente.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * È necessario aver registrato il nome del nodo che sta riscontrando un problema di performance.
 * È necessario aver registrato la data e l'ora in cui il nodo ha ricevuto l'evento di performance.

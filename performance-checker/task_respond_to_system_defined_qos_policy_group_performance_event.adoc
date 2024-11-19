@@ -13,8 +13,7 @@ summary: 'Unified Manager genera eventi di avviso relativi ai criteri QoS quando
 [role="lead"]
 Unified Manager genera eventi di avviso relativi ai criteri QoS quando il throughput del carico di lavoro (IOPS, IOPS/TB o Mbps) supera l'impostazione del criterio QoS ONTAP definito e la latenza del carico di lavoro ne risulta compromessa. Questi eventi definiti dal sistema offrono l'opportunità di correggere potenziali problemi di performance prima che molti carichi di lavoro siano influenzati dalla latenza.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * Devono esserci eventi di performance nuovi, riconosciuti o obsoleti.
 

@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare Unified Manager per analizzare gli eventi rela
 [role="lead"]
 È possibile utilizzare Unified Manager per analizzare gli eventi relativi alle performance causati da un contatore delle performance che supera un avviso definito dall'utente o una soglia critica. È inoltre possibile utilizzare Unified Manager per controllare lo stato del componente del cluster per verificare se gli eventi di integrità recenti rilevati sul componente hanno contribuito all'evento delle performance.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * Devono essere presenti eventi di performance nuovi o obsoleti.
 

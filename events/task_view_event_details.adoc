@@ -13,8 +13,7 @@ summary: È possibile visualizzare i dettagli di un evento attivato da Unified M
 [role="lead"]
 È possibile visualizzare i dettagli di un evento attivato da Unified Manager per intraprendere azioni correttive. Ad esempio, se è presente un evento di salute Volume Offline, è possibile fare clic su tale evento per visualizzare i dettagli ed eseguire azioni correttive.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 I dettagli dell'evento includono informazioni quali l'origine dell'evento, la causa dell'evento e eventuali note correlate all'evento.

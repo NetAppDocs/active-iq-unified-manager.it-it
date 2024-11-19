@@ -13,8 +13,7 @@ summary: È possibile modificare la porta utilizzata dal server Unified Manager 
 [role="lead"]
 È possibile modificare la porta utilizzata dal server Unified Manager per comunicare con il server di autenticazione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 .Fasi

@@ -13,8 +13,7 @@ summary: È possibile creare una relazione SnapVault utilizzando la pagina dei d
 [role="lead"]
 È possibile creare una relazione SnapVault utilizzando la pagina dei dettagli relativi a volume/stato di salute in modo che i backup dei dati siano abilitati per scopi di protezione sui volumi.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * Per eseguire questa attività, è necessario aver impostato l'automazione del flusso di lavoro.
 

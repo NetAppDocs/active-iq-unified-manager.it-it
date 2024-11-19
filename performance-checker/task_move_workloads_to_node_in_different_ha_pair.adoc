@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare Unified Manager per identificare un aggregato 
 [role="lead"]
 È possibile utilizzare Unified Manager per identificare un aggregato su un nodo in una coppia di ha (High Availability) diversa che ha una capacità di performance libera maggiore rispetto alla coppia di ha in cui i carichi di lavoro sono attualmente in esecuzione. Quindi, è possibile spostare i volumi selezionati negli aggregati della nuova coppia ha.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * Il cluster deve essere composto da almeno due coppie ha
 +

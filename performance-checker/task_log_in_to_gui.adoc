@@ -13,8 +13,7 @@ summary: 'È possibile accedere all"interfaccia utente di Unified Manager utiliz
 [role="lead"]
 È possibile accedere all'interfaccia utente di Unified Manager utilizzando un browser Web supportato.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * Il browser Web deve soddisfare i requisiti minimi.
 +
 Consultare la matrice di interoperabilità all'indirizzo http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"] per l'elenco completo delle versioni del browser supportate.

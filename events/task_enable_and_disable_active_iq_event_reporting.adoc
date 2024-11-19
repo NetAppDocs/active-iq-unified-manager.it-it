@@ -13,8 +13,7 @@ summary: 'Gli eventi della piattaforma Active IQ vengono generati e visualizzati
 [role="lead"]
 Gli eventi della piattaforma Active IQ vengono generati e visualizzati nell'interfaccia utente di Unified Manager per impostazione predefinita. Se questi eventi sono troppo "rumorosi" o non si desidera visualizzarli in Unified Manager, è possibile disattivare la generazione di tali eventi. Se si desidera riprendere la ricezione di queste notifiche, è possibile attivarle in un secondo momento.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 Quando si disattiva questa funzione, Unified Manager interrompe immediatamente la ricezione degli eventi della piattaforma Active IQ.

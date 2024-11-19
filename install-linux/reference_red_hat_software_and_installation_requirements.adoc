@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html 
+permalink: install-linux/reference_red_hat_software_and_installation_requirements.html 
 sidebar: sidebar 
 keywords: linux software, installation requirements, system, authorization,  requirements 
 summary: Il sistema Linux su cui si installa Unified Manager richiede versioni specifiche del sistema operativo e del software di supporto. 
@@ -41,7 +41,7 @@ I seguenti pacchetti di terze parti sono richiesti, ma non sono inclusi in Unifi
 
 * MySQL Community Edition versione 8.0.37 (dal repository MySQL).
 * OpenJDK versione 11.0.23 (dall'archivio Red Hat Extra Enterprise Linux Server)
-* Python 3.6.x
+* Python 3,9.x (dall'archivio Red Hat Extra Enterprise Linux Server)
 * P7zip versione 16.02 o successiva (dal repository Red Hat Extra Packages per Enterprise Linux)
 
 

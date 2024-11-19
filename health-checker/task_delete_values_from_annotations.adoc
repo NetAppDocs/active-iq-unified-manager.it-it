@@ -13,8 +13,7 @@ summary: 'È possibile eliminare i valori associati alle annotazioni personalizz
 [role="lead"]
 È possibile eliminare i valori associati alle annotazioni personalizzate quando tale valore non si applica più all'annotazione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * Il valore dell'annotazione non deve essere associato ad alcuna regola di annotazione o di gruppo.
 

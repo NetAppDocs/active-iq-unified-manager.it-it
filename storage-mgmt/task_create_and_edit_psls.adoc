@@ -13,8 +13,7 @@ summary: Quando i livelli di Performance Service definiti dal sistema non corris
 [role="lead"]
 Quando i livelli di Performance Service definiti dal sistema non corrispondono ai requisiti del carico di lavoro, puoi creare i tuoi livelli di Performance Service ottimizzati per i carichi di lavoro.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione.
 * Il nome del livello di servizio Performance deve essere univoco e non è possibile utilizzare le seguenti parole chiave riservate:
 +

@@ -30,8 +30,7 @@ In qualità di amministratore dell'applicazione o amministratore dello storage, 
 
 La procedura guidata Crea associazioni di macchine virtuali di storage consente alle applicazioni di protezione dei partner di associare una macchina virtuale di storage di origine a una macchina virtuale di storage di destinazione da utilizzare con le relazioni SnapMirror e SnapVault. Le applicazioni partner utilizzano queste associazioni al momento del provisioning iniziale dei volumi di destinazione per determinare le risorse da selezionare.dd
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * La VM di storage che si sta associando deve già esistere.
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
@@ -79,8 +78,7 @@ Scegliere questa opzione per creare un'associazione tra una VM di storage di ori
 
 È possibile eliminare le associazioni delle macchine virtuali di storage per le applicazioni partner per rimuovere la relazione di provisioning secondario tra le macchine virtuali di storage di origine e di destinazione; ad esempio, è possibile farlo quando la macchina virtuale di storage di destinazione è piena e si desidera creare nuove associazioni di protezione delle macchine virtuali di storage.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Il pulsante *Delete* (Elimina) viene disattivato fino a quando non viene selezionata almeno un'associazione di storage VM. La modifica delle associazioni che utilizzano le funzioni di eliminazione e creazione influisce solo sulle future operazioni di provisioning e non sposta i volumi di destinazione esistenti.

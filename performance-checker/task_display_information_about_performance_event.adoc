@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare la pagina inventario gestione eventi per visua
 [role="lead"]
 È possibile utilizzare la pagina inventario gestione eventi per visualizzare un elenco di tutti gli eventi relativi alle performance dei cluster monitorati da Unified Manager. La visualizzazione di queste informazioni consente di determinare gli eventi più critici e di eseguire il drill-down delle informazioni dettagliate per determinare la causa dell'evento.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 

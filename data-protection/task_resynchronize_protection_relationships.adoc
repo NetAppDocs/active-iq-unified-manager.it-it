@@ -13,8 +13,7 @@ summary: 'Dalla pagina Relazioni volume, è possibile risincronizzare una relazi
 [role="lead"]
 Dalla pagina Relazioni volume, è possibile risincronizzare una relazione per ripristinare da un evento che ha disattivato il volume di origine o quando si desidera modificare l'origine corrente in un volume diverso.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver impostato l'automazione del flusso di lavoro.
 

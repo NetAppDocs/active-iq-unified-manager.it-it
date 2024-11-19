@@ -13,8 +13,7 @@ summary: Questo report mostra quali aggregati dispongono degli IOPS più disponi
 [role="lead"]
 Questo report mostra quali aggregati dispongono degli IOPS più disponibili per tipo di aggregato su cui è possibile eseguire il provisioning di nuovi workload.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 

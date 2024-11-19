@@ -13,8 +13,7 @@ summary: È possibile configurare una o più condizioni per creare regole di ann
 [role="lead"]
 È possibile configurare una o più condizioni per creare regole di annotazione che Unified Manager applica agli oggetti di storage. Gli oggetti di storage che soddisfano la regola di annotazione vengono annotati con il valore specificato nella regola.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 .Fasi

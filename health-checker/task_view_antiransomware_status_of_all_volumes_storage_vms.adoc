@@ -13,8 +13,7 @@ summary: È possibile visualizzare un elenco di tutti i volumi e le VM di storag
 [role="lead"]
 È possibile visualizzare un elenco di tutti i volumi e le VM di storage (SVM) e il relativo stato anti-ransomware corrente per determinare se i dati sui volumi e sulle SVM sono adeguatamente protetti da attacchi ransomware.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 Per ulteriori informazioni sui diversi stati anti-ransomware, vedere link:https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["ONTAP: Attiva l'anti-ransomware"].

@@ -13,8 +13,7 @@ summary: È possibile eliminare i pool di risorse quando non sono più necessari
 [role="lead"]
 È possibile eliminare i pool di risorse quando non sono più necessari. Ad esempio, è possibile ridistribuire gli aggregati dei membri da un pool di risorse a diversi altri pool di risorse, rendendo obsoleto il pool di risorse originale.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Il pulsante *Delete* (Elimina) è attivato solo quando è selezionato almeno un pool di risorse.

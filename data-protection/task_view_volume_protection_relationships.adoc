@@ -13,8 +13,7 @@ summary: 'Dalla vista relazione: Tutte le relazioni e dalla pagina Relazioni vol
 [role="lead"]
 Dalla vista relazione: Tutte le relazioni e dalla pagina Relazioni volume, è possibile visualizzare lo stato delle relazioni SnapMirror e SnapVault del volume esistente. È inoltre possibile esaminare i dettagli relativi alle relazioni di protezione, tra cui lo stato di trasferimento e ritardo, i dettagli di origine e destinazione, le informazioni di pianificazione e policy e così via.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Da questa pagina è inoltre possibile avviare i comandi di relazione.

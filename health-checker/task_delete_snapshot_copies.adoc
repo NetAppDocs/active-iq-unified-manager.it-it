@@ -13,8 +13,7 @@ summary: È possibile eliminare una copia Snapshot per risparmiare spazio o libe
 [role="lead"]
 È possibile eliminare una copia Snapshot per risparmiare spazio o liberare spazio su disco, oppure eliminare la copia Snapshot se non è più necessaria.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Il volume deve essere online.

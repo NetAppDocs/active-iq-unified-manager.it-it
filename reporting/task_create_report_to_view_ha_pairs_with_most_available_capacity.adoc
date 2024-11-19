@@ -13,8 +13,7 @@ summary: 'È possibile creare un report per trovare le coppie ad alta disponibil
 [role="lead"]
 È possibile creare un report per trovare le coppie ad alta disponibilità (ha) con la maggiore capacità per il provisioning di nuovi volumi e LUN.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 

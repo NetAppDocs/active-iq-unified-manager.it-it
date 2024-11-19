@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare l"interfaccia utente Web di Unified Manager pe
 [role="lead"]
 È possibile utilizzare l'interfaccia utente Web di Unified Manager per confermare o eliminare la possibilità che un volume non sia in linea perché il nodo host non è attivo e che il failover dello storage verso il partner ha Pair non sia riuscito.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 Per determinare se la condizione offline del volume è causata da un guasto del nodo di hosting e da un successivo failover dello storage non riuscito, eseguire le seguenti operazioni:

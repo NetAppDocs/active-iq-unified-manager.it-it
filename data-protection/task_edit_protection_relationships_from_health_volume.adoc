@@ -13,8 +13,7 @@ summary: È possibile modificare le relazioni di protezione esistenti per modifi
 [role="lead"]
 È possibile modificare le relazioni di protezione esistenti per modificare la velocità di trasferimento massima corrente, la policy di protezione o la pianificazione di protezione. È possibile modificare una relazione per ridurre la larghezza di banda utilizzata per i trasferimenti o per aumentare la frequenza dei trasferimenti pianificati perché i dati cambiano spesso.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver installato e configurato Workflow Automation.
 

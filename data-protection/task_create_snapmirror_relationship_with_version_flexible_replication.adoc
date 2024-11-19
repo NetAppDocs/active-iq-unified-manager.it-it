@@ -13,8 +13,7 @@ summary: È possibile creare una relazione SnapMirror con replica flessibile del
 [role="lead"]
 È possibile creare una relazione SnapMirror con replica flessibile della versione. La replica flessibile della versione consente di implementare la protezione SnapMirror anche se i volumi di origine e di destinazione vengono eseguiti con versioni diverse di ONTAP.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver impostato l'automazione del flusso di lavoro.
 * Le SVM di origine e di destinazione devono disporre di una licenza SnapMirror abilitata.

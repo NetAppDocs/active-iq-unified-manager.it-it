@@ -13,8 +13,7 @@ summary: 'È possibile creare un report per evidenziare gli aggregati che sono p
 [role="lead"]
 È possibile creare un report per evidenziare gli aggregati che sono pieni al 80% o più.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 

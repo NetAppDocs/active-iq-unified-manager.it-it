@@ -13,8 +13,7 @@ summary: 'Quando si creano annotazioni personalizzate, Unified Manager associa d
 [role="lead"]
 Quando si creano annotazioni personalizzate, Unified Manager associa dinamicamente cluster, macchine virtuali di storage (SVM) e volumi alle annotazioni utilizzando le regole. Queste regole assegnano automaticamente le annotazioni agli oggetti di storage.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 .Fasi

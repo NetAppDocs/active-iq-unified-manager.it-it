@@ -13,8 +13,7 @@ summary: 'È possibile aggiungere server di autenticazione e abilitare l"autenti
 [role="lead"]
 È possibile aggiungere server di autenticazione e abilitare l'autenticazione remota sul server di gestione in modo che gli utenti remoti all'interno del server di autenticazione possano accedere a Unified Manager.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * Devono essere disponibili le seguenti informazioni:
 +
 ** Nome host o indirizzo IP del server di autenticazione

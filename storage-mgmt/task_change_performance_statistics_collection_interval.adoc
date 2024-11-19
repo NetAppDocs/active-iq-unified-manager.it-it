@@ -13,8 +13,7 @@ summary: 'L"intervallo di raccolta predefinito per le statistiche delle performa
 [role="lead"]
 L'intervallo di raccolta predefinito per le statistiche delle performance è di 5 minuti. È possibile modificare questo intervallo in 10 o 15 minuti se si rileva che le raccolte di cluster di grandi dimensioni non vengono terminate entro il tempo predefinito. Questa impostazione influisce sulla raccolta di statistiche di tutti i cluster monitorati da questa istanza di Unified Manager.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Per accedere alla console di manutenzione del server Unified Manager, è necessario disporre di un ID utente e di una password autorizzati.
 
 Il problema delle raccolte di statistiche delle performance che non terminano in tempo è indicato dai messaggi banner `Unable to consistently collect from cluster <cluster_name> or Data collection is taking too long on cluster <cluster_name>.`

@@ -13,8 +13,7 @@ summary: 'È possibile aggiungere script in Unified Manager e associarli agli av
 [role="lead"]
 È possibile aggiungere script in Unified Manager e associarli agli avvisi. Questi script vengono eseguiti automaticamente quando viene generato un avviso e consentono di ottenere informazioni sugli oggetti di storage per i quali viene generato l'evento.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario aver creato e salvato gli script che si desidera aggiungere al server Unified Manager.
 * I formati di file supportati per gli script sono Perl, Shell, PowerShell, Python e. `.bat` file.
 +

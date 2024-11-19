@@ -13,8 +13,7 @@ summary: 'Per accedere rapidamente a un oggetto specifico, utilizzare il campo S
 [role="lead"]
 Per accedere rapidamente a un oggetto specifico, è possibile utilizzare il campo *Search All Storage Objects* (Cerca tutti gli oggetti di storage) nella parte superiore della barra dei menu. Questo metodo di ricerca globale in tutti gli oggetti consente di individuare rapidamente oggetti specifici in base al tipo. I risultati della ricerca sono ordinati in base al tipo di oggetto di storage ed è possibile filtrarli ulteriormente in base all'oggetto utilizzando il menu a discesa.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * Per eseguire questa attività, è necessario disporre di uno dei seguenti ruoli: Operatore, Amministratore dell'applicazione o Amministratore dello storage.
 * Una ricerca valida deve contenere almeno tre caratteri.
 

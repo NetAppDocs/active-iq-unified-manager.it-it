@@ -13,8 +13,7 @@ summary: È possibile creare una relazione SnapMirror con funzionalità di repli
 [role="lead"]
 È possibile creare una relazione SnapMirror con funzionalità di replica e di backup flessibili per la versione. La funzione di opzione di backup consente di implementare la protezione SnapMirror e di conservare più versioni delle copie di backup nella posizione di destinazione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver impostato l'automazione del flusso di lavoro.
 * Le SVM di origine e di destinazione devono disporre di una licenza SnapMirror abilitata.

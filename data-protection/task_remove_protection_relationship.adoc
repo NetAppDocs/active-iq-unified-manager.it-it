@@ -13,8 +13,7 @@ summary: 'Dalla pagina Relazioni volume, è possibile rimuovere una relazione di
 [role="lead"]
 Dalla pagina Relazioni volume, è possibile rimuovere una relazione di protezione per eliminare in modo permanente una relazione esistente tra l'origine e la destinazione selezionate, ad esempio quando si desidera creare una relazione utilizzando una destinazione diversa. Questa operazione rimuove tutti i metadati e non può essere annullata.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver impostato l'automazione del flusso di lavoro.
 

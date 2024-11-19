@@ -13,8 +13,7 @@ summary: Questo flusso di lavoro fornisce un esempio di come è possibile risolv
 [role="lead"]
 Questo flusso di lavoro fornisce un esempio di come è possibile risolvere un problema di ritardo. In questo scenario, sei un amministratore o un operatore che accede alla pagina Unified ManagerDashboard per vedere se ci sono problemi con le tue relazioni di protezione e, se esistono, per trovare soluzioni.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Nella pagina Dashboard, viene visualizzata l'area Incidents and Risks non risolti e viene visualizzato un errore di SnapMirror Lag nel pannello Protection (protezione) sotto Protection Risks (rischi di protezione).

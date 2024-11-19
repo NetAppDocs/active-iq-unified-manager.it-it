@@ -13,8 +13,7 @@ summary: 'È possibile creare un report per analizzare la capacità dello storag
 [role="lead"]
 È possibile creare un report per analizzare la capacità dello storage e l'utilizzo dei cluster in base al modello di sistema storage.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 

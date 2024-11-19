@@ -13,8 +13,7 @@ summary: Quando si configurano gli avvisi di volume, è possibile specificare un
 [role="lead"]
 Quando si configurano gli avvisi di volume, è possibile specificare una stringa nella finestra di dialogo Avviso che identifica un volume o un gruppo di volumi. Tuttavia, se è stato configurato il disaster recovery per le SVM, i volumi di origine e di destinazione hanno lo stesso nome, in modo da ricevere avvisi per entrambi i volumi.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 È possibile disattivare gli avvisi per i volumi di destinazione del disaster recovery escludendo i volumi che hanno il nome della SVM di destinazione. Ciò è possibile perché l'identificatore per gli eventi del volume contiene sia il nome SVM che il nome del volume nel formato "<svm_name>:/<volume_name>".

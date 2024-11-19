@@ -13,8 +13,7 @@ summary: È possibile configurare i valori della soglia di integrità globale pe
 [role="lead"]
 È possibile configurare i valori della soglia di integrità globale per tutti i qtree per tenere traccia di qualsiasi violazione di soglia. Gli eventi appropriati vengono generati per le violazioni delle soglie di salute ed è possibile adottare misure preventive in base a tali eventi. È possibile configurare i valori globali in base alle impostazioni delle Best practice per le soglie applicabili a tutti i qtree monitorati.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Le opzioni di soglia hanno valori predefiniti per un migliore monitoraggio, tuttavia è possibile modificare i valori in base ai requisiti dell'ambiente.

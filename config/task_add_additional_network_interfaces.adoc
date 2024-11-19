@@ -13,8 +13,7 @@ summary: È possibile aggiungere nuove interfacce di rete se è necessario separ
 [role="lead"]
 È possibile aggiungere nuove interfacce di rete se è necessario separare il traffico di rete.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario aggiungere l'interfaccia di rete all'appliance virtuale utilizzando vSphere.
 
 L'appliance virtuale deve essere accesa.

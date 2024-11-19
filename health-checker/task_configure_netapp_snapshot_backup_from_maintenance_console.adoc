@@ -13,8 +13,7 @@ summary: Per eseguire il backup di Active IQ Unified Manager utilizzando la copi
 [role="lead"]
 Per eseguire il backup di Active IQ Unified Manager utilizzando la copia Snapshot, è necessario eseguire alcuni passaggi di configurazione dalla console di manutenzione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Per il sistema in uso, è necessario disporre dei seguenti dettagli:
 
 * Indirizzo IP del cluster

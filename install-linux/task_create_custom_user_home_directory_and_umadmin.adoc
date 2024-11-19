@@ -13,8 +13,7 @@ summary: È possibile creare una home directory personalizzata e definire la pro
 [role="lead"]
 È possibile creare una home directory personalizzata e definire la propria password utente umadmin prima di installare Unified Manager. Questa attività è facoltativa, ma alcuni siti potrebbero aver bisogno della flessibilità necessaria per ignorare le impostazioni predefinite di installazione di Unified Manager.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * Il sistema deve soddisfare i requisiti descritti in link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisiti di sistema hardware"].
 * È necessario essere in grado di accedere come utente root al sistema Red Hat Enterprise Linux.
 

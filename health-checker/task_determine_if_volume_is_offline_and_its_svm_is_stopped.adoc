@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare l"interfaccia utente Web di Unified Manager pe
 [role="lead"]
 È possibile utilizzare l'interfaccia utente Web di Unified Manager per confermare o eliminare la possibilità che un volume non sia in linea perché la sua SVM (host Storage Virtual Machine) viene arrestata a causa del nodo che ospita il volume root di tale SVM.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 Per determinare se la condizione di volume offline ha causato l'arresto della SVM host perché il nodo che ospita il volume root di tale SVM non è attivo, eseguire le seguenti operazioni:

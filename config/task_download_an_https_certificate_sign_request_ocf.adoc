@@ -13,8 +13,7 @@ summary: 'È possibile scaricare una richiesta di firma della certificazione per
 [role="lead"]
 È possibile scaricare una richiesta di firma della certificazione per il certificato di protezione HTTPS corrente in modo da fornire il file a un'autorità di certificazione da firmare. Un certificato con firma CA aiuta a prevenire gli attacchi man-in-the-middle e offre una protezione migliore rispetto a un certificato autofirmato.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 .Fasi

@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare Unified Manager per analizzare un evento di pe
 [role="lead"]
 È possibile utilizzare Unified Manager per analizzare un evento di performance causato dall'elaborazione di dati elevati su un nodo del cluster che si trova in una coppia ad alta disponibilità (ha). È inoltre possibile utilizzare Unified Manager per controllare lo stato dei nodi e verificare se eventuali eventi di salute recenti rilevati sui nodi hanno contribuito all'evento delle performance.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * Devono esserci eventi di performance nuovi, riconosciuti o obsoleti.
 

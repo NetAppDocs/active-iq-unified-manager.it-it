@@ -13,8 +13,7 @@ summary: 'È possibile creare regole per specificare l"indirizzo e-mail in base 
 [role="lead"]
 È possibile creare regole per specificare l'indirizzo e-mail in base alla quota utente associata a cluster, storage virtual machine (SVM), volumi, qtree, utenti o gruppi di utenti. Quando si verifica una violazione delle quote, viene inviata una notifica all'indirizzo e-mail specificato.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver esaminato le linee guida nella pagina regole per generare indirizzo email quota utente e gruppo.
 

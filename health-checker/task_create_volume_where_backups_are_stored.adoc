@@ -13,8 +13,7 @@ summary: 'È possibile configurare il volume in cui memorizzare le copie Snapsho
 [role="lead"]
 È possibile configurare il volume in cui memorizzare le copie Snapshot in uno dei cluster ONTAP utilizzando Gestore di sistema di ONTAP o l'interfaccia utente di ONTAP.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Il cluster, la VM di storage e il volume devono soddisfare i seguenti requisiti:
 
 * Requisiti del cluster:

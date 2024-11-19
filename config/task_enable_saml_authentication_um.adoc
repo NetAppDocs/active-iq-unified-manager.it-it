@@ -13,8 +13,7 @@ summary: 'È possibile attivare l"autenticazione SAML (Security Assertion Markup
 [role="lead"]
 È possibile attivare l'autenticazione SAML (Security Assertion Markup Language) in modo che gli utenti remoti vengano autenticati da un provider di identità sicuro (IdP) prima di poter accedere all'interfaccia utente Web di Unified Manager.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario aver configurato l'autenticazione remota e verificato che sia stata eseguita correttamente.
 * È necessario aver creato almeno un utente remoto o un gruppo remoto con il ruolo di amministratore dell'applicazione.
 * Il provider di identità (IdP) deve essere supportato da Unified Manager e deve essere configurato.

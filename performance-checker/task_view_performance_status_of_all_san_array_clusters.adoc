@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare la vista Performance: All Clusters (prestazion
 [role="lead"]
 È possibile utilizzare la vista Performance: All Clusters (prestazioni: Tutti i cluster) per visualizzare lo stato delle performance di tutti i cluster di array SAN.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 È possibile visualizzare le informazioni generali per tutti i cluster di array SAN nella vista Performance: All Clusters (prestazioni: Tutti i cluster) e i dettagli nella pagina Cluster / Performance Explorer (Explorer cluster/prestazioni).

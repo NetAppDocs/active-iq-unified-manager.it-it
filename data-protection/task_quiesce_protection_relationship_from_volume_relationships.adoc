@@ -13,8 +13,7 @@ summary: 'Dalla pagina Volume Relationship (Relazioni volume), è possibile inte
 [role="lead"]
 Dalla pagina Volume Relationship (Relazioni volume), è possibile interrompere una relazione di protezione per impedire temporaneamente il trasferimento dei dati. È possibile interrompere una relazione quando si desidera creare una copia Snapshot di un volume di destinazione SnapMirror che contiene un database e si desidera assicurarsi che il contenuto sia stabile durante l'operazione di copia Snapshot.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver impostato l'automazione del flusso di lavoro.
 

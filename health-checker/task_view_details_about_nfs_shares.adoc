@@ -13,8 +13,7 @@ summary: 'È possibile visualizzare i dettagli di tutte le condivisioni NFS, ad 
 [role="lead"]
 È possibile visualizzare i dettagli di tutte le condivisioni NFS, ad esempio il relativo stato, il percorso associato al volume (volumi FlexGroup o volumi FlexVol), i livelli di accesso dei client alle condivisioni NFS e la policy di esportazione definita per i volumi esportati. Utilizzare la vista Health: All NFS shares per visualizzare tutte le condivisioni NFS su tutti i cluster monitorati e utilizzare la pagina Storage VM / Health details per visualizzare tutte le condivisioni NFS su una specifica macchina virtuale di storage (SVM).
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * La licenza NFS deve essere attivata sul cluster.
 * Le interfacce di rete che servono le condivisioni NFS devono essere configurate.
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.

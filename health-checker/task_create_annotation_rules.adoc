@@ -13,8 +13,7 @@ summary: 'È possibile creare regole di annotazione utilizzate da Unified Manage
 [role="lead"]
 È possibile creare regole di annotazione utilizzate da Unified Manager per annotare dinamicamente oggetti di storage come volumi, cluster o macchine virtuali di storage (SVM).
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Gli oggetti di storage attualmente monitorati vengono annotati non appena viene creata la regola di annotazione. I nuovi oggetti vengono annotati solo dopo il completamento del ciclo di monitoraggio.

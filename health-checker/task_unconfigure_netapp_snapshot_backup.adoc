@@ -13,8 +13,7 @@ summary: 'Se si desidera modificare il tipo di backup per il sistema Active IQ U
 [role="lead"]
 Se si desidera modificare il tipo di backup per il sistema Active IQ Unified Manager, è possibile utilizzare le opzioni della console di manutenzione. L'opzione *Unconfigure NetApp Snapshot Backup* consente di tornare al backup basato su MySQL.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Per accedere alla console di manutenzione del server Unified Manager, è necessario disporre di un ID utente e di una password autorizzati.
 
 .Fasi

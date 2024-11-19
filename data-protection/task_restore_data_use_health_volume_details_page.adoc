@@ -13,8 +13,7 @@ summary: È possibile ripristinare file, directory o un intero volume sovrascrit
 [role="lead"]
 È possibile ripristinare file, directory o un intero volume sovrascritti o cancellati da una copia Snapshot utilizzando la funzione di ripristino nelle pagine dei dettagli volume e volume/integrità.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 

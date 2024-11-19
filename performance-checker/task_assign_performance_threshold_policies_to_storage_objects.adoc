@@ -13,8 +13,7 @@ summary: 'Si assegna un criterio di soglia delle performance definito dall"utent
 [role="lead"]
 Si assegna un criterio di soglia delle performance definito dall'utente a un oggetto storage in modo che Unified Manager rifera un evento se il valore del contatore delle performance supera l'impostazione del criterio.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 I criteri di soglia delle prestazioni che si desidera applicare all'oggetto devono esistere.

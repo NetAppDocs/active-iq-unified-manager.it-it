@@ -13,8 +13,7 @@ summary: 'È possibile modificare le proprietà degli avvisi, ad esempio la riso
 [role="lead"]
 È possibile modificare le proprietà degli avvisi, ad esempio la risorsa a cui è associato l'avviso, gli eventi, i destinatari, le opzioni di notifica, la frequenza di notifica, e script associati.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 .Fasi

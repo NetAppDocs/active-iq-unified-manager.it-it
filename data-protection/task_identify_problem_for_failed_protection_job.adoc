@@ -13,8 +13,7 @@ summary: Esaminare il messaggio di errore del lavoro nel campo cause della pagin
 [role="lead"]
 Esaminare il messaggio di errore del lavoro nel campo cause della pagina Dettagli evento e determinare che il lavoro non è riuscito a causa di un errore di copia Snapshot. Quindi, accedere alla pagina dei dettagli relativi a volume/salute per ottenere ulteriori informazioni.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 Il messaggio di errore fornito nel campo causa della pagina Dettagli evento contiene il seguente testo relativo al processo non riuscito:

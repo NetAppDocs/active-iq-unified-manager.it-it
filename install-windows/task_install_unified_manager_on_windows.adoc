@@ -13,8 +13,7 @@ summary: È possibile installare Unified Manager per monitorare e risolvere i pr
 [role="lead"]
 È possibile installare Unified Manager per monitorare e risolvere i problemi di capacità, disponibilità, performance e protezione dello storage dei dati.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * Il sistema su cui si intende installare Unified Manager deve soddisfare i requisiti di sistema e software.
 +
 Vedere link:concept_virtual_infrastructure_or_hardware_system_requirements.html["Requisiti di sistema hardware"].

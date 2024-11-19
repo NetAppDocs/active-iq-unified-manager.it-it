@@ -13,8 +13,7 @@ summary: Per impostazione predefinita, Unified Manager memorizza i dati degli ev
 [role="lead"]
 Per impostazione predefinita, Unified Manager memorizza i dati degli eventi e le performance per 6 mesi per tutti i cluster monitorati. Trascorso questo tempo, i dati meno recenti vengono cancellati automaticamente per fare spazio ai nuovi dati. Questo periodo di tempo predefinito funziona bene per la maggior parte delle configurazioni, ma configurazioni molto grandi con molti cluster e nodi potrebbero dover ridurre il periodo di conservazione in modo che Unified Manager funzioni in modo ottimale.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 È possibile modificare i periodi di conservazione per questi due tipi di dati nella pagina conservazione dati. Queste impostazioni influiscono sulla conservazione dei dati di tutti i cluster monitorati da questa istanza di Unified Manager.

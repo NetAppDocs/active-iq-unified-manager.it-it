@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare la pagina lavori per monitorare lo stato del l
 [role="lead"]
 È possibile utilizzare la pagina lavori per monitorare lo stato del lavoro e visualizzare le proprietà del lavoro, ad esempio il tipo di servizio di storage, lo stato, l'ora di inoltro e il tempo di completamento, per determinare se un lavoro è stato completato correttamente.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 .Fasi

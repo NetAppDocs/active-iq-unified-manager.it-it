@@ -13,8 +13,7 @@ summary: È possibile creare un report per analizzare la capacità di volume dis
 [role="lead"]
 È possibile creare un report per analizzare la capacità di volume disponibile in un grafico Excel.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 

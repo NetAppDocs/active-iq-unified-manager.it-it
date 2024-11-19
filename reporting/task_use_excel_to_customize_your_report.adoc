@@ -13,8 +13,7 @@ summary: 'Dopo aver salvato la vista, è possibile scaricarla in formato Excel W
 [role="lead"]
 Dopo aver salvato la vista, è possibile scaricarla in formato Excel Workbook (.xlsx). Quando si apre il file Excel, è possibile utilizzare le funzionalità avanzate di Excel per personalizzare il report.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È possibile caricare un file Excel Workbook solo con estensione xlsx.
 
 Ad esempio, alcune funzionalità avanzate di Excel che è possibile utilizzare nel report includono:

@@ -13,8 +13,7 @@ summary: 'È possibile modificare le impostazioni utente, ad esempio l"indirizzo
 [role="lead"]
 È possibile modificare le impostazioni utente, ad esempio l'indirizzo e-mail e il ruolo, specificate da ciascun utente. Ad esempio, è possibile modificare il ruolo di un utente che è un operatore di storage e assegnare all'utente i privilegi di amministratore dello storage.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 Quando si modifica il ruolo assegnato a un utente, le modifiche vengono applicate quando si verifica una delle seguenti azioni:

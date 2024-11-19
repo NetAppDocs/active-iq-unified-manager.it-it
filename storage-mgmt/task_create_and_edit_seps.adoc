@@ -13,8 +13,7 @@ summary: Quando le policy di efficienza dello storage definite dal sistema non c
 [role="lead"]
 Quando le policy di efficienza dello storage definite dal sistema non corrispondono ai requisiti dei carichi di lavoro, è possibile creare policy di efficienza dello storage personalizzate e ottimizzate per i carichi di lavoro.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione.
 * Il nome della Storage Efficiency Policy deve essere univoco e non è possibile utilizzare le seguenti parole chiave riservate:
 +

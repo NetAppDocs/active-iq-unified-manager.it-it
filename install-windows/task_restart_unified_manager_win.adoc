@@ -13,8 +13,7 @@ summary: Potrebbe essere necessario riavviare Unified Manager dopo aver apportat
 [role="lead"]
 Potrebbe essere necessario riavviare Unified Manager dopo aver apportato modifiche alla configurazione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre dei privilegi di amministratore di Windows.
 
 .Fasi

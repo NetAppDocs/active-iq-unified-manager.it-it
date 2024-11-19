@@ -13,8 +13,7 @@ summary: 'È possibile configurare Unified Manager in modo che invii notifiche d
 [role="lead"]
 È possibile configurare Unified Manager in modo che invii notifiche di avviso quando viene generato un evento o quando viene assegnato un evento a un utente. È possibile configurare il server SMTP utilizzato per inviare l'avviso e impostare vari meccanismi di notifica, ad esempio le notifiche di avviso possono essere inviate come e-mail o trap SNMP.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre delle seguenti informazioni:
 
 * Indirizzo e-mail da cui viene inviata la notifica di avviso

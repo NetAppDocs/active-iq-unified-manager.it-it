@@ -13,8 +13,7 @@ summary: Quando un problema richiede informazioni di diagnosi e risoluzione dei 
 [role="lead"]
 Quando un problema richiede informazioni di diagnosi e risoluzione dei problemi più dettagliate rispetto a quelle fornite da un messaggio AutoSupport, è possibile inviare un pacchetto di supporto al supporto tecnico.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre dell'accesso al pacchetto di supporto per inviarlo al supporto tecnico.
 
 È necessario disporre di un numero di caso generato tramite il sito Web del supporto tecnico.

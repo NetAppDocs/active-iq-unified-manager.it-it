@@ -13,8 +13,7 @@ summary: È possibile creare un report per individuare gli aggregati che stanno 
 [role="lead"]
 È possibile creare un report per individuare gli aggregati che stanno raggiungendo la capacità completa in modo da poter aggiungere più capacità o spostare i carichi di lavoro in altri aggregati.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 

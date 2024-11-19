@@ -13,8 +13,7 @@ summary: 'È possibile rimuovere un criterio di soglia delle performance definit
 [role="lead"]
 È possibile rimuovere un criterio di soglia delle performance definito dall'utente da un oggetto storage quando non si desidera più che Unified Manager monitori il valore del contatore delle performance.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
 
 È possibile rimuovere un solo criterio alla volta da un oggetto selezionato.

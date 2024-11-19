@@ -13,8 +13,7 @@ summary: Dopo aver interrotto una relazione per impedire il verificarsi di trasf
 [role="lead"]
 Dopo aver interrotto una relazione per impedire il verificarsi di trasferimenti pianificati, è possibile utilizzare *Riprendi* per riattivare i trasferimenti pianificati in modo da proteggere i dati sul volume primario o di origine. I trasferimenti vengono ripristinati da un checkpoint, se presente, al successivo intervallo di trasferimento pianificato.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver impostato l'automazione del flusso di lavoro.
 

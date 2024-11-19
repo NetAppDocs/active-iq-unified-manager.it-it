@@ -13,8 +13,7 @@ summary: 'In Unified Manager, è possibile identificare i carichi di lavoro dei 
 [role="lead"]
 In Unified Manager, è possibile identificare i carichi di lavoro dei volumi con la maggiore deviazione nel tempo di risposta (latenza) causata da un componente dello storage in conflitto. L'identificazione di questi carichi di lavoro consente di capire perché le applicazioni client che accedono a tali carichi di lavoro hanno registrato performance più lente del solito.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * Devono essere presenti eventi di performance dinamiche nuovi, riconosciuti o obsoleti.
 

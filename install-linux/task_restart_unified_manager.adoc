@@ -13,8 +13,7 @@ summary: Potrebbe essere necessario riavviare Unified Manager dopo aver apportat
 [role="lead"]
 Potrebbe essere necessario riavviare Unified Manager dopo aver apportato modifiche alla configurazione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre dell'accesso utente root al server Red Hat Enterprise Linux su cui è installato Unified Manager.
 
 .Fasi

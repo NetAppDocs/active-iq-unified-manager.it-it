@@ -13,8 +13,7 @@ summary: 'L"implementazione di Unified Manager include il download del software,
 [role="lead"]
 L'implementazione di Unified Manager include il download del software, l'implementazione dell'appliance virtuale, la creazione di un nome utente e di una password di manutenzione e l'esecuzione della configurazione iniziale nell'interfaccia utente Web.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * Verificare e completare i requisiti di sistema per l'implementazione.
 +
 Vedere link:concept_requirements_for_installing_unified_manager.html["Requisiti di sistema"].

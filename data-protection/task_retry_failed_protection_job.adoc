@@ -13,8 +13,7 @@ summary: 'Una volta adottate le misure necessarie per correggere un processo di 
 [role="lead"]
 Una volta adottate le misure necessarie per correggere un processo di protezione non riuscito, è possibile utilizzare *Riprova* per eseguire nuovamente il processo. Il nuovo tentativo di un lavoro crea un nuovo lavoro utilizzando l'ID lavoro originale.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 È possibile riprovare solo un processo non riuscito alla volta. Selezionando più di un lavoro, il pulsante *Riprova* viene disattivato. È possibile eseguire un nuovo processo solo per i job del tipo Configurazione protezione e relazione protezione.

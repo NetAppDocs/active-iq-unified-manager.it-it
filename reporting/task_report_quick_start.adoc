@@ -13,8 +13,7 @@ summary: 'Crea un report personalizzato di esempio per esplorare le viste e pian
 [role="lead"]
 Crea un report personalizzato di esempio per esplorare le viste e pianificare i report. Questo report di avvio rapido trova un elenco di volumi che potresti voler spostare al livello cloud perché esiste una quantità sufficiente di dati inattivi (cold). Si apre la vista Performance: All Volumes (prestazioni: Tutti i volumi), si personalizza la vista utilizzando filtri e colonne, si salva la vista personalizzata come report e si pianifica la condivisione del report una volta alla settimana.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver configurato gli aggregati FabricPool e avere volumi su tali aggregati.
 

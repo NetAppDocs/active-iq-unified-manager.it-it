@@ -13,8 +13,7 @@ summary: 'È possibile visualizzare l"elenco delle copie Snapshot per un volume 
 [role="lead"]
 È possibile visualizzare l'elenco delle copie Snapshot per un volume selezionato. È possibile utilizzare l'elenco delle copie Snapshot per calcolare la quantità di spazio su disco che è possibile recuperare se una o più copie Snapshot vengono eliminate ed è possibile eliminare le copie Snapshot, se necessario.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * Il volume contenente le copie Snapshot deve essere online.
 

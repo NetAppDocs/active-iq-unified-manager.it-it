@@ -13,8 +13,7 @@ summary: È possibile utilizzare le pagine di inventario del cluster per visuali
 [role="lead"]
 È possibile utilizzare le pagine di inventario del cluster per visualizzare lo stato di salute e capacità dei cluster All SAN Array.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 È possibile visualizzare le informazioni generali per tutti i cluster array SAN nella vista Health: All Clusters (Salute: Tutti i cluster) e Capacity: All Clusters (capacità: Tutti i cluster). Inoltre, è possibile visualizzare i dettagli nella pagina Cluster / Health Details.

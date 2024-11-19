@@ -13,8 +13,7 @@ summary: 'Dalla vista Health: All Volumes (Salute: Tutti i volumi), è possibile
 [role="lead"]
 Dalla vista Health: All Volumes (Salute: Tutti i volumi), è possibile monitorare l'inventario dei volumi. La vista Capacity: All Volumes (capacità: Tutti i volumi) consente di visualizzare informazioni sulla capacità e sull'utilizzo dei volumi in un cluster.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 È inoltre possibile utilizzare la pagina dei dettagli relativi a volume/salute per visualizzare informazioni dettagliate sui volumi monitorati, tra cui capacità, efficienza, configurazione e protezione dei volumi. È inoltre possibile visualizzare informazioni sulle periferiche correlate e sugli avvisi correlati per un volume specifico.

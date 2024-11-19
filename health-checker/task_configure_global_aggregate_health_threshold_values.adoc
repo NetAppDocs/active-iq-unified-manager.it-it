@@ -13,8 +13,7 @@ summary: È possibile configurare i valori delle soglie globali di integrità pe
 [role="lead"]
 È possibile configurare i valori delle soglie globali di integrità per tutti gli aggregati per tenere traccia di qualsiasi violazione di soglia. Gli eventi appropriati vengono generati per le violazioni di soglia ed è possibile adottare misure preventive in base a tali eventi. È possibile configurare i valori globali in base alle impostazioni delle Best practice per le soglie applicabili a tutti gli aggregati monitorati.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Quando si configurano le opzioni a livello globale, i valori predefiniti degli oggetti vengono modificati. Tuttavia, se i valori predefiniti sono stati modificati a livello di oggetto, i valori globali non vengono modificati.

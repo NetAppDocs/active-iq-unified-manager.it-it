@@ -1,5 +1,5 @@
 ---
-permalink: install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html 
+permalink: install-linux/task_upgrade_host_os.html 
 sidebar: sidebar 
 keywords: upgrade, host OS, red hat enterprise, linux 7.x, 8.x 
 summary: 'Se in precedenza è stato installato Unified Manager su un sistema Red Hat Enterprise Linux 7.x e si desidera eseguire l"aggiornamento a Red Hat Enterprise Linux 8.x, seguire una delle procedure elencate in questo argomento. In entrambi i casi, è necessario creare un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, quindi ripristinare il backup su un sistema Red Hat Enterprise Linux 8.x.' 
@@ -11,7 +11,7 @@ summary: 'Se in precedenza è stato installato Unified Manager su un sistema Red
 
 
 [role="lead"]
-Se in precedenza è stato installato Unified Manager su un sistema Red Hat Enterprise Linux 7.x e si desidera eseguire l'aggiornamento a Red Hat Enterprise Linux 8.x, seguire una delle procedure elencate in questo argomento. In entrambi i casi, è necessario creare un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, quindi ripristinare il backup su un sistema Red Hat Enterprise Linux 8.x. Le versioni supportate di Red Hat Enterprise Linux vanno dalla 8.0 alla 8.9.
+Se in precedenza è stato installato Unified Manager su un sistema Red Hat Enterprise Linux 7.x e si desidera eseguire l'aggiornamento a Red Hat Enterprise Linux 8.x, seguire una delle procedure elencate in questo argomento. In entrambi i casi, è necessario creare un backup di Unified Manager sul sistema Red Hat Enterprise Linux 7.x, quindi ripristinare il backup su un sistema Red Hat Enterprise Linux 8.x. Le versioni supportate di Red Hat Enterprise Linux vanno dalla 8.0 alla 8.10.
 
 La differenza tra le due opzioni elencate di seguito è che in un caso si esegue il ripristino di Unified Manager su un nuovo server 8.x e nell'altro si esegue l'operazione di ripristino sullo stesso server.
 
@@ -23,11 +23,11 @@ Se si dispone di un sistema di riserva su cui è possibile installare il softwar
 
 . Installare e configurare un nuovo server con il software Red Hat Enterprise Linux 8.x.
 +
-Vedere link:reference_red_hat_and_centos_software_and_installation_requirements.html["Software Linux e requisiti di installazione"].
+Vedere link:reference_red_hat_software_and_installation_requirements.html["Software Linux e requisiti di installazione"].
 
 . Sul sistema Red Hat Enterprise Linux 8.x, installate la stessa versione del software Unified Manager presente sul sistema Red Hat Enterprise Linux 7.x.
 +
-Vedere link:concept_install_unified_manager_on_rhel_or_centos.html["Installazione di Unified Manager su Linux"].
+Vedere link:concept_install_unified_manager_on_rhel.html["Installazione di Unified Manager su Linux"].
 
 +
 Non avviare l'interfaccia utente né configurare cluster, utenti o impostazioni di autenticazione al termine dell'installazione. Il file di backup inserisce queste informazioni durante il processo di ripristino.
@@ -52,11 +52,11 @@ Se non si dispone di un sistema libero su cui è possibile installare il softwar
 . Rimuovere l'immagine di Red Hat Enterprise Linux 7.x dal sistema e pulire completamente il sistema.
 . Installare e configurare il software Red Hat Enterprise Linux 8.x sullo stesso sistema.
 +
-Vedere link:reference_red_hat_and_centos_software_and_installation_requirements.html["Software Linux e requisiti di installazione"].
+Vedere link:reference_red_hat_software_and_installation_requirements.html["Software Linux e requisiti di installazione"].
 
 . Sul sistema Red Hat Enterprise Linux 8.x, installare la stessa versione del software Unified Manager del sistema Red Hat Enterprise Linux 7.x.
 +
-Vedere link:concept_install_unified_manager_on_rhel_or_centos.html["Installazione di Unified Manager su Linux"].
+Vedere link:concept_install_unified_manager_on_rhel.html["Installazione di Unified Manager su Linux"].
 
 +
 Non avviare l'interfaccia utente né configurare cluster, utenti o impostazioni di autenticazione al termine dell'installazione. Il file di backup inserisce queste informazioni durante il processo di ripristino.

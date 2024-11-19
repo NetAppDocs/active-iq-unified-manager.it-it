@@ -13,8 +13,7 @@ summary: 'È possibile creare un report contenente l"elenco dei volumi che attua
 [role="lead"]
 È possibile creare un report contenente l'elenco dei volumi che attualmente risiedono negli aggregati FabricPool, che hanno una raccomandazione cloud di livello e che hanno una grande quantità di dati cold. Questo report può aiutarti a decidere se modificare la policy di tiering per determinati volumi in "`auto`" o "`all`" per trasferire più dati cold (inattivi) al livello cloud.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver configurato gli aggregati FabricPool e avere volumi su tali aggregati.
 

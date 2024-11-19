@@ -21,15 +21,15 @@ Questa attività potrebbe non riuscire se il sistema non dispone della connettiv
 
 ====
 .Fasi
-. Scarica il repository MySQL appropriato per la tua installazione. Per Red Hat Enterprise Linux 7, scaricalo da:
+. Scarica il repository MySQL appropriato per la tua installazione. Per la versione 8, scaricarla da:
 +
-`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+`
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm`
 
 +
-Per la versione 8, scaricarla da:
+Per la versione 9, scaricarla da:
 
 +
-`+wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`
+`wget http://repo.mysql.com/yum/mysql-8.0-community/el/9/x86_64/mysql80-community-release-el9-1.noarch.rpm`
 
 . Configurare il repository MySQL:
 +

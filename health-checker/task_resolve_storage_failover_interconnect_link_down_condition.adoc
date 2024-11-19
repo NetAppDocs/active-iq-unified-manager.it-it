@@ -13,8 +13,7 @@ summary: Questo flusso di lavoro fornisce un esempio di come è possibile esegui
 [role="lead"]
 Questo flusso di lavoro fornisce un esempio di come è possibile eseguire la scansione, valutare e risolvere le condizioni di collegamento di interconnessione di failover dello storage downed. In questo scenario, sei un amministratore che utilizza Unified Manager per cercare i rischi di failover dello storage prima di avviare un aggiornamento della versione di ONTAP sui nodi.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 Se le interconnessioni di failover dello storage tra i nodi di coppia ha si guastano durante un tentativo di aggiornamento senza interruzioni, l'aggiornamento non riesce. Pertanto, l'amministratore deve monitorare e confermare l'affidabilità del failover dello storage sui nodi del cluster destinati all'aggiornamento prima dell'avvio di un aggiornamento.

@@ -13,8 +13,7 @@ summary: 'È possibile modificare le impostazioni della soglia di integrità per
 [role="lead"]
 È possibile modificare le impostazioni della soglia di integrità per capacità aggregata, crescita e copie Snapshot di uno o più aggregati. Quando viene superata una soglia, vengono generati avvisi e vengono ricevute notifiche. Queste notifiche consentono di adottare misure preventive in base all'evento generato.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 In base alle modifiche apportate ai valori di soglia, gli eventi vengono generati o resi obsoleti nel ciclo di monitoraggio successivo.

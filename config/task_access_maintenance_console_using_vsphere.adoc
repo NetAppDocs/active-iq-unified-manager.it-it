@@ -13,8 +13,7 @@ summary: 'Se l"interfaccia utente di Unified Manager non è in funzione o se è 
 [role="lead"]
 Se l'interfaccia utente di Unified Manager non è in funzione o se è necessario eseguire funzioni non disponibili nell'interfaccia utente, è possibile accedere alla console di manutenzione per riconfigurare l'appliance virtuale.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario essere l'utente che esegue la manutenzione.
 * L'appliance virtuale deve essere accesa per accedere alla console di manutenzione.
 

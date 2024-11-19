@@ -11,10 +11,9 @@ summary: 'È possibile aggiornare l"appliance virtuale di Unified Manager'
 
 
 [role="lead"]
-È possibile aggiornare l'appliance virtuale Active IQ Unified Manager dalle versioni 9,12 o 9,13 alla 9,14.
+È possibile aggiornare l'appliance virtuale Active IQ Unified Manager dalle versioni 9,13 o 9,14 alla 9,16.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Verificare quanto segue:
 
 * Il file di aggiornamento, l'immagine ISO, è stato scaricato dal NetApp Support Site.

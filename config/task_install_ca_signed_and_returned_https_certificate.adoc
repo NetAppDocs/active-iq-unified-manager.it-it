@@ -13,7 +13,7 @@ summary: 'È possibile caricare e installare un certificato di sicurezza dopo ch
 [role="lead"]
 È possibile caricare e installare un certificato di sicurezza dopo che un'autorità di certificazione ha firmato e restituito il certificato. Il file caricato e installato deve essere una versione firmata del certificato autofirmato esistente. Un certificato con firma CA aiuta a prevenire gli attacchi man-in-the-middle e offre una protezione migliore rispetto a un certificato autofirmato.
 
-*Cosa ti serve*
+*Cosa prima di iniziare
 
 È necessario aver completato le seguenti operazioni:
 

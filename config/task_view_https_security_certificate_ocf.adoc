@@ -13,8 +13,7 @@ summary: È possibile confrontare i dettagli del certificato HTTPS con il certif
 [role="lead"]
 È possibile confrontare i dettagli del certificato HTTPS con il certificato recuperato nel browser per garantire che la connessione crittografata del browser a Unified Manager non venga intercettata.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 La visualizzazione del certificato consente di verificare il contenuto di un certificato rigenerato o di visualizzare i nomi Alt (SAN) del soggetto da cui è possibile accedere a Unified Manager.

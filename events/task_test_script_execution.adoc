@@ -13,8 +13,7 @@ summary: È possibile verificare che lo script venga eseguito correttamente quan
 [role="lead"]
 È possibile verificare che lo script venga eseguito correttamente quando viene generato un avviso per un oggetto di storage.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver caricato uno script nel formato di file supportato in Unified Manager.
 

@@ -13,8 +13,7 @@ summary: È possibile creare un report per analizzare la capacità in un file Ex
 [role="lead"]
 È possibile creare un report per analizzare la capacità in un file Excel utilizzando i totali sommati e il formato del grafico a colonne in cluster.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 

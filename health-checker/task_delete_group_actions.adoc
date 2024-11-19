@@ -13,8 +13,7 @@ summary: 'È possibile eliminare un"azione di gruppo da Unified Manager quando l
 [role="lead"]
 È possibile eliminare un'azione di gruppo da Unified Manager quando l'azione di gruppo non è più necessaria.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 Quando si elimina l'azione di gruppo per la soglia di integrità del volume, le soglie globali vengono applicate agli oggetti di storage in quel gruppo. Le soglie di integrità a livello di oggetto impostate sull'oggetto di storage non subiscono alcun impatto.

@@ -13,8 +13,7 @@ summary: Gli utenti Windows possono scaricare e installare uno strumento per rec
 [role="lead"]
 Gli utenti Windows possono scaricare e installare uno strumento per recuperare il pacchetto di supporto dal server Unified Manager. È possibile inviare il pacchetto di supporto al supporto tecnico per una diagnosi più dettagliata di un problema. FileZilla o WinSCP sono esempi di strumenti che è possibile utilizzare.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 Per eseguire questa attività, è necessario essere l'utente che esegue la manutenzione.
 
 È necessario utilizzare uno strumento che supporti SCP o SFTP.

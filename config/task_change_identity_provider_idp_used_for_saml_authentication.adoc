@@ -13,8 +13,7 @@ summary: 'È possibile modificare il provider di identità (IdP) utilizzato da U
 [role="lead"]
 È possibile modificare il provider di identità (IdP) utilizzato da Unified Manager per autenticare gli utenti remoti.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre dell'URL IdP e dei metadati.
 * È necessario disporre dell'accesso all'IdP.
 

@@ -13,8 +13,7 @@ summary: 'È possibile eseguire l"aggiornamento a una versione più recente di O
 [role="lead"]
 È possibile eseguire l'aggiornamento a una versione più recente di OpenJDK sul server Linux su cui è installato Unified Manager per ottenere correzioni per le vulnerabilità della sicurezza.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre dei privilegi di root per il sistema Linux su cui è installato Unified Manager.
 
 È possibile aggiornare le release di OpenJDK all'interno delle famiglie di release. Ad esempio, è possibile eseguire l'aggiornamento da OpenJDK 11.0.14 a OpenJDK 11.0.17, ma non è possibile eseguire l'aggiornamento direttamente da OpenJDK 11 a OpenJDK 12.

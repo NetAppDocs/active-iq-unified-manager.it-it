@@ -13,8 +13,7 @@ summary: 'È possibile annotare manualmente volumi, cluster e SVM selezionati se
 [role="lead"]
 È possibile annotare manualmente volumi, cluster e SVM selezionati senza utilizzare le regole di annotazione. È possibile annotare un singolo oggetto di storage o più oggetti di storage e specificare la combinazione di coppia nome-valore richiesta per l'annotazione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 
 .Fasi

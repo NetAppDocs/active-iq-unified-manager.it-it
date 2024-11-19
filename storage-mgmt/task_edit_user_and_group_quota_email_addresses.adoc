@@ -13,8 +13,7 @@ summary: 'È possibile modificare gli indirizzi e-mail in base alla quota utente
 [role="lead"]
 È possibile modificare gli indirizzi e-mail in base alla quota utente associata a cluster, storage virtual machine (SVM), volumi, qtree, utenti o gruppi di utenti. È possibile modificare l'indirizzo e-mail quando si desidera sovrascrivere l'indirizzo e-mail generato dalle regole specificate nella finestra di dialogo regole per generare indirizzo e-mail quota utente e gruppo.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * È necessario aver esaminato link:reference_rules_to_generate_user_and_group_quota.html["linee guida per la creazione di regole"].
 

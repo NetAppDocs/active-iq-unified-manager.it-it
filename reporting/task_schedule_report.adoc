@@ -13,8 +13,7 @@ summary: Dopo aver creato una vista o un file Excel che si desidera pianificare 
 [role="lead"]
 Dopo aver creato una vista o un file Excel che si desidera pianificare per la generazione e la distribuzione regolari, è possibile pianificare il report.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver configurato le impostazioni del server SMTP nella pagina *Generale* > *Notifiche* in modo che il motore di reporting possa inviare i report come allegati e-mail all'elenco di destinatari dal server Unified Manager.
 * Il server di posta elettronica deve essere configurato per consentire l'invio degli allegati con i messaggi di posta elettronica generati.

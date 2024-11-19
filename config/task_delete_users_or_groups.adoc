@@ -13,8 +13,7 @@ summary: È possibile eliminare uno o più utenti dal database del server di ges
 [role="lead"]
 È possibile eliminare uno o più utenti dal database del server di gestione per impedire a utenti specifici di accedere a Unified Manager. È inoltre possibile eliminare i gruppi in modo che tutti gli utenti del gruppo non possano più accedere al server di gestione.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * Quando si eliminano gruppi remoti, è necessario riassegnare gli eventi assegnati agli utenti dei gruppi remoti.
 +
 Se si eliminano utenti locali o remoti, gli eventi assegnati a tali utenti vengono automaticamente disassegnati.

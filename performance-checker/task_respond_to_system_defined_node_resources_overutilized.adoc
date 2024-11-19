@@ -13,8 +13,7 @@ summary: 'Unified Manager genera eventi di avviso di risorse del nodo sovrautili
 [role="lead"]
 Unified Manager genera eventi di avviso di risorse del nodo sovrautilizzate quando un singolo nodo opera al di sopra dei limiti della sua efficienza operativa e quindi potenzialmente influisce sulle latenze dei carichi di lavoro. Questi eventi definiti dal sistema offrono l'opportunità di correggere potenziali problemi di performance prima che molti carichi di lavoro siano influenzati dalla latenza.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * Devono essere presenti eventi di performance nuovi o obsoleti.
 

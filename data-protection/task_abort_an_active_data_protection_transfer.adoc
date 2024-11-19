@@ -16,8 +16,7 @@ summary: 'È possibile interrompere un trasferimento di protezione dei dati atti
 
 NOTE: Non è possibile interrompere le relazioni dei volumi protette dal gruppo di coerenza.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver impostato l'automazione del flusso di lavoro.
 

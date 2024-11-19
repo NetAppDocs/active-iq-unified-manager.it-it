@@ -13,8 +13,7 @@ summary: 'È possibile modificare una condivisione file NFS per supportare il pr
 [role="lead"]
 È possibile modificare una condivisione file NFS per supportare il protocollo CIFS. Durante la creazione della condivisione file, è possibile specificare i parametri dell'elenco di controllo di accesso (ACL) e le regole dei criteri di esportazione per la stessa condivisione file. Tuttavia, se si desidera attivare CIFS sullo stesso volume in cui è stata creata una condivisione file NFS, è possibile aggiornare i parametri ACL su tale condivisione file per supportare CIFS.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 . È necessario creare una condivisione file NFS con solo i dettagli della policy di esportazione. Per ulteriori informazioni, consulta la sezione _Gestione delle condivisioni di file_ e _Modifica dei carichi di lavoro dello storage_.
 . Per eseguire questa operazione, è necessario disporre della chiave di condivisione file. Per informazioni sulla visualizzazione dei dettagli della condivisione file e sul recupero della chiave di condivisione file utilizzando l'ID lavoro, vedere _Provisioning CIFS e condivisioni file NFS_.
 

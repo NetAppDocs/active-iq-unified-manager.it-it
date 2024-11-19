@@ -15,7 +15,7 @@ entries:
   - title: Infrastruttura virtuale e requisiti di sistema hardware
     url: "/install-linux/concept_virtual_infrastructure_or_hardware_system_requirements.html"
   - title: Software Linux e requisiti di installazione
-    url: "/install-linux/reference_red_hat_and_centos_software_and_installation_requirements.html"
+    url: "/install-linux/reference_red_hat_software_and_installation_requirements.html"
   - title: Browser supportati
     url: "/install-linux/concept_browser_and_platform_requirements.html"
   - title: Requisiti di protocollo e porta
@@ -37,7 +37,7 @@ entries:
   - title: Requisiti SELinux su condivisione NFS o CIFS
     url: "/install-linux/task_selinux_requirements_for_mounting_opt_netapp.html"
   - title: Installazione di Unified Manager su sistemi Linux
-    url: "/install-linux/concept_install_unified_manager_on_rhel_or_centos.html"
+    url: "/install-linux/concept_install_unified_manager_on_rhel.html"
     entries:
     - title: Creazione di una home directory utente personalizzata e di una password
         umadmin prima dell'installazione
@@ -50,8 +50,8 @@ entries:
       url: "/install-linux/reference_users_created_in_unified_manager.html"
     - title: Modifica della password JBoss
       url: "/install-linux/task_change_jboss_password.html"
-  - title: Aggiornamento di Unified Manager su Red Hat Enterprise Linux o CentOS
-    url: "/install-linux/concept_upgrade_unified_manager_on_rhel_or_centos.html"
+  - title: Aggiornamento di Unified Manager su Red Hat Enterprise Linux
+    url: "/install-linux/concept_upgrade_unified_manager_on_rhel.html"
     entries:
     - title: Percorso di aggiornamento supportato per le versioni di Unified Manager
       url: "/include/upgrade-path.html"
@@ -59,7 +59,7 @@ entries:
       url: "/install-linux/task_upgrade_unified_manager.html"
     - title: Aggiornamento del sistema operativo host da Red Hat Enterprise Linux
         7.x a 8.x.
-      url: "/install-linux/task_upgrade_host_os_from_rhel_6_x_to_7_x.html"
+      url: "/install-linux/task_upgrade_host_os.html"
   - title: Aggiornamento di prodotti di terze parti dopo l'installazione di Unified
       Manager
     url: "/install-linux/concept_upgrade_third_party_products_on_linux_um.html"

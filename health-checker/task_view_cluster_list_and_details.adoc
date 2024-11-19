@@ -13,8 +13,7 @@ summary: 'È possibile utilizzare la vista Health: All Clusters (Salute: Tutti i
 [role="lead"]
 È possibile utilizzare la vista Health: All Clusters (Salute: Tutti i cluster) per visualizzare l'inventario dei cluster. La vista capacità: Tutti i cluster consente di visualizzare informazioni riepilogative sulla capacità e sull'utilizzo dello storage in tutti i cluster.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 È inoltre possibile visualizzare i dettagli dei singoli cluster, ad esempio lo stato del cluster, la capacità, la configurazione, le LIF, i nodi, E dischi in quel cluster utilizzando la pagina Cluster / Health Details.

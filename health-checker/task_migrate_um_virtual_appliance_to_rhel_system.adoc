@@ -1,5 +1,5 @@
 ---
-permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_or_centos_system.html 
+permalink: health-checker/task_migrate_um_virtual_appliance_to_rhel_system.html 
 sidebar: sidebar 
 keywords: unified manager, migrate, virtual, appliance, linux system 
 summary: 'Puoi ripristinare il backup dump del database MySQL di Unified Manager da un"appliance virtuale a un sistema Red Hat Enterprise Linux se vuoi modificare il sistema operativo host su cui è in esecuzione Unified Manager.' 
@@ -13,8 +13,7 @@ summary: 'Puoi ripristinare il backup dump del database MySQL di Unified Manager
 [role="lead"]
 Puoi ripristinare il backup dump del database MySQL di Unified Manager da un'appliance virtuale a un sistema Red Hat Enterprise Linux se vuoi modificare il sistema operativo host su cui è in esecuzione Unified Manager.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * Sull'appliance virtuale:
 +
 ** È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
@@ -23,7 +22,7 @@ Puoi ripristinare il backup dump del database MySQL di Unified Manager da un'app
 
 * Sul sistema Linux:
 +
-** Unified Manager deve essere installato su un server Linux seguendo le istruzioni riportate in link:../install-linux/concept_install_unified_manager_on_rhel_or_centos.html["Installazione di Unified Manager su sistemi Linux"].
+** È necessario aver installato Unified Manager su un server Linux seguendo le istruzioni riportate in link:../install-linux/concept_install_unified_manager_on_rhel.html["Installazione di Unified Manager su sistemi Linux"].
 ** La versione di Unified Manager su questo server deve essere uguale a quella dell'appliance virtuale da cui si utilizza il file di backup.
 ** Non avviare l'interfaccia utente né configurare cluster, utenti o impostazioni di autenticazione sul sistema Linux dopo l'installazione. Il file di backup inserisce queste informazioni durante il processo di ripristino.
 ** È necessario disporre delle credenziali dell'utente root per l'host Linux.

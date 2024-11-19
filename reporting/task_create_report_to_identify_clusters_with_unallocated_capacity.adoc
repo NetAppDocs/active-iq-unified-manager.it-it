@@ -13,7 +13,9 @@ summary: È possibile creare un report per trovare i cluster con la capacità LU
 [role="lead"]
 È possibile creare un report per trovare i cluster con la capacità LUN più non allocata, superiore a 0,5 TB, per identificare dove è possibile aggiungere ulteriori carichi di lavoro.
 
-*Cosa serve* * è necessario avere il ruolo di amministratore dell'applicazione o di amministratore dello storage.
+.Prima di iniziare
+* È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+
 
 Attenersi alla seguente procedura per creare una vista personalizzata che visualizzi i cluster con la capacità LUN non allocata più, quindi pianificare la generazione di un report per tale vista.
 

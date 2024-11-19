@@ -13,8 +13,7 @@ summary: È possibile configurare le impostazioni di backup del dump del databas
 [role="lead"]
 È possibile configurare le impostazioni di backup del dump del database di Unified Manager per impostare il percorso di backup del database, il numero di conservazione e la pianificazione di backup. È possibile attivare backup pianificati giornalieri o settimanali. Per impostazione predefinita, i backup pianificati sono disattivati, ma è necessario impostare una pianificazione di backup.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 * È necessario disporre di almeno 150 GB di spazio disponibile nella posizione definita come percorso di backup.
 +

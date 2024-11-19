@@ -13,8 +13,7 @@ summary: 'È possibile visualizzare un elenco di tutti i volumi e il relativo st
 [role="lead"]
 È possibile visualizzare un elenco di tutti i volumi e il relativo stato di crittografia corrente per determinare se i dati presenti nei volumi sono adeguatamente protetti dall'accesso da parte di utenti non autorizzati.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 I tipi di crittografia che è possibile applicare a un volume sono:

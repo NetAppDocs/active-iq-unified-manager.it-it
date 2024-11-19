@@ -13,8 +13,7 @@ summary: 'È necessario riconoscere un evento prima di iniziare a lavorare sul p
 [role="lead"]
 È necessario riconoscere un evento prima di iniziare a lavorare sul problema che ha generato l'evento, in modo da non continuare a ricevere notifiche di avviso ripetute. Dopo aver eseguito un'azione correttiva per un determinato evento, è necessario contrassegnare l'evento come risolto.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 È possibile riconoscere e risolvere più eventi contemporaneamente.

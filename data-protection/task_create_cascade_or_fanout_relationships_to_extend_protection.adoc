@@ -15,8 +15,7 @@ summary: È possibile estendere la protezione da una relazione esistente creando
 
 È possibile estendere la protezione ai volumi utilizzando un gruppo di coerenza, un container che contiene diversi volumi in modo da poter gestire tutti i volumi come un'unica entità. Puoi visualizzare il gruppo di coerenza sincronizzazione attivo di SnapMirror e la relazione del gruppo di coerenza sincrono nella pagina delle relazioni di Unified Manager.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
 * È necessario aver impostato l'automazione del flusso di lavoro.
 

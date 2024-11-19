@@ -14,8 +14,7 @@ summary: 'È possibile disinstallare Unified Manager utilizzando la procedura gu
 [role="lead"]
 È possibile disinstallare Unified Manager utilizzando la procedura guidata programmi e funzionalità o eseguendo una disinstallazione automatica dall'interfaccia della riga di comando.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * È necessario disporre dei privilegi di amministratore di Windows.
 * Tutti i cluster (origini dati) devono essere rimossi dal server Unified Manager prima di disinstallare il software.
 * È necessario eliminare manualmente le regole del firewall create per consentire o bloccare la porta MySQL 3306. Le regole del firewall non vengono eliminate automaticamente.

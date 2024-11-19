@@ -21,8 +21,7 @@ summary: 'È possibile monitorare i problemi di connettività nella configurazio
 
 Unified Manager utilizza gli avvisi di stato del sistema per indicare lo stato dei componenti e la connettività nella configurazione di MetroCluster.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 * I cluster locali e remoti in una configurazione MetroCluster devono essere aggiunti a Active IQ Unified Manager.
 * In una configurazione MetroCluster over IP, se si desidera supportare un mediatore, il mediatore deve essere configurato e aggiunto al cluster mediante l'API corrispondente.
 * È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.

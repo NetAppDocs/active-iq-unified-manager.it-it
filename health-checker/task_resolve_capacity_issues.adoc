@@ -13,8 +13,7 @@ summary: Questo flusso di lavoro fornisce un esempio di come risolvere un proble
 [role="lead"]
 Questo flusso di lavoro fornisce un esempio di come risolvere un problema di capacità. In questo scenario, si è un amministratore o un operatore e si accede alla pagina Unified ManagerDashboard per verificare se uno degli oggetti di storage monitorati presenta problemi di capacità. Si desidera determinare la possibile causa del problema e risolverlo.
 
-*Cosa ti serve*
-
+.Prima di iniziare
 È necessario disporre del ruolo di operatore, amministratore dell'applicazione o amministratore dello storage.
 
 Nella pagina Dashboard, cercare un evento di errore "`Volume Space Full`" nel pannello Capacity (capacità) sotto l'elenco a discesa degli eventi.
