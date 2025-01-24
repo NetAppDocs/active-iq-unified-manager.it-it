@@ -72,7 +72,6 @@
   <block id="f75e736d622cfe6767618de1f7c7d109" category="list-text">Fare clic sul collegamento *reset password* nell'e-mail e definire la nuova password.</block>
   <block id="ea52c0f96379d74cbb896f9bf2aed5bc" category="list-text">Tornare all'interfaccia utente Web e accedere a Unified Manager utilizzando la nuova password.</block>
   <block id="baab3b98bf2d404c92d495462cf66f7f" category="summary">È possibile specificare il valore di timeout di inattività per Unified Manager in modo che la sessione venga terminata automaticamente dopo un determinato periodo di tempo. Per impostazione predefinita, il timeout è impostato su 4,320 minuti (72 ore).</block>
-  <block id="5e01bd42f20f3a63d47605b5e7ede78e" category="doc">Impostazione del timeout di inattività della sessione</block>
   <block id="75f9ad7f6829a20c1e0535a2c5b6ed23" category="paragraph">È necessario disporre del ruolo di amministratore dell'applicazione.</block>
   <block id="9d065b6fca599ddf99bd5a9301130378" category="paragraph">Questa impostazione ha effetto su tutte le sessioni utente registrate.</block>
   <block id="6778129bfdc370315a53a29729233c17" category="paragraph">Questa opzione non è disponibile se è stata attivata l'autenticazione SAML (Security Assertion Markup Language).</block>
@@ -11986,4 +11985,13 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="3c476f11a2cc5c761bb84165398bdfa1" category="paragraph">È possibile aggiornare l'appliance virtuale Active IQ Unified Manager dalle versioni 9,13 o 9,14 alla 9,16.</block>
   <block id="bc069991265524f0102a945c2cdc4178" category="list-text">Python 3.12.4</block>
   <block id="e382152aa599731ca30f5f2ff671bc43" category="list-text">MySQL Community Edition viene aggiornato automaticamente durante l'aggiornamento di Unified Manager. Se la versione installata di MySQL sul tuo sistema è precedente alla 8,0.37, il processo di upgrade di Unified Manager aggiorna automaticamente MySQL alla 8,0.37. Non è necessario eseguire un aggiornamento autonomo di una versione precedente di MySQL alla versione 8,0.37.</block>
+  <block id="a788801886ad9ba3f0d1aa6f0272e0aa" category="doc">Impostare il timeout di inattività della sessione</block>
+  <block id="5b864f90874a257a247b735985d967ca" category="paragraph">È possibile specificare il valore del timeout di inattività per Unified Manager in modo che la sessione venga terminata automaticamente dopo un determinato periodo di inattività. Per impostazione predefinita, il timeout è impostato su 4,320 minuti (72 ore).</block>
+  <block id="bc684223e8f110b5631ba7afdab7edf8" category="summary">È possibile impostare un valore massimo di timeout della sessione per Unified Manager utilizzando l'interfaccia CLI in modo che la sessione venga terminata automaticamente dopo un determinato periodo di tempo.</block>
+  <block id="13eab81633be183184983b2327458134" category="doc">Impostare il timeout della sessione tramite CLI</block>
+  <block id="6889dc046b9753e9d32d85f6277f0128" category="paragraph">È possibile impostare un valore massimo di timeout della sessione per Unified Manager utilizzando l'interfaccia CLI in modo che la sessione venga terminata automaticamente dopo un determinato periodo di tempo. Per impostazione predefinita, il timeout della sessione è impostato sul valore massimo, ovvero 4.320 minuti (72 ore). Ciò significa che la sessione termina automaticamente dopo 72 ore, anche se si è connessi e si utilizza attivamente Unified Manager.</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">A proposito di questa attività</block>
+  <block id="87f28bb3e003a131724329ce1f8b7e35" category="paragraph">L'impostazione del timeout della sessione influisce su tutte le sessioni utente collegate.</block>
+  <block id="9a50289207c5c1a11d0959e0985b20cf" category="list-text">Accedere all'interfaccia CLI di Unified Manager immettendo il<block ref="e9fa1c3ff424bc99b177f43b6ac2844b" prefix=" " category="inline-code"></block> comando. Utilizzare un nome utente e una password validi per l'autenticazione.</block>
+  <block id="7cf68cd50e40cef61b48f361084dfac2" category="list-text">Immettere il<block ref="29b975f43a92ea73b14f0ce29e1eb6b3" prefix=" " category="inline-code"></block> per modificare il valore di timeout della sessione.</block>
 </blocks>

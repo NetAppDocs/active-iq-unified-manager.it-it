@@ -33,8 +33,10 @@ entries:
       url: "/config/task_add_alerts.html"
   - title: Modifica della password utente locale
     url: "/config/task_change_local_user_password.html"
-  - title: Impostazione del timeout di inattività della sessione
+  - title: Impostare il timeout di inattività della sessione
     url: "/config/task_set_session_inactivity_timeout.html"
+  - title: Impostare il timeout della sessione tramite CLI
+    url: "/config/task_set_session_timeout_CLI.html"
   - title: Modifica del nome host di Unified Manager
     url: "/config/concept_change_unified_manager_host_name.html"
     entries:

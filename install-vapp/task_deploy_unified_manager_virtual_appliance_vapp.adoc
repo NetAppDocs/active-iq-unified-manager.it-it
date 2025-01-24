@@ -55,12 +55,9 @@ Nella pagina Review Details (Dettagli revisione):
 
 +
 ** Verificare i dettagli della sezione Publisher. Il messaggio *Entrust Code Signing - OVCS2 (Trusted certificate)* conferma l'integrità del download `OVA` file. + se viene visualizzato il messaggio *Firma codice Entrust - OVCS2 (certificato non valido)*, aggiornare VMware vCenter Server alla versione 7.0U3E o superiore.
-
-
 +
 Nella pagina Personalizza modello:
 
-+
 ** Lasciare vuoti tutti i campi quando si utilizza l'indirizzamento DHCP e IPv4.
 ** Selezionare la casella "`Enable Auto IPv6 Addressing`" (attiva indirizzo IPv6 automatico) e lasciare vuoti tutti gli altri campi quando si utilizza l'indirizzamento DHCP e IPv6.
 ** Se si desidera utilizzare una configurazione di rete statica, è possibile completare i campi di questa pagina e applicare queste impostazioni durante l'implementazione. Assicurarsi che l'indirizzo IP sia univoco per l'host su cui è distribuito, che non sia già in uso e che disponga di una voce DNS valida.

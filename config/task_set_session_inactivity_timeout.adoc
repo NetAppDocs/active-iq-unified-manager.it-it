@@ -4,14 +4,14 @@ sidebar: sidebar
 keywords: inactivity, timeout 
 summary: 'È possibile specificare il valore di timeout di inattività per Unified Manager in modo che la sessione venga terminata automaticamente dopo un determinato periodo di tempo. Per impostazione predefinita, il timeout è impostato su 4,320 minuti (72 ore).' 
 ---
-= Impostazione del timeout di inattività della sessione
+= Impostare il timeout di inattività della sessione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-È possibile specificare il valore di timeout di inattività per Unified Manager in modo che la sessione venga terminata automaticamente dopo un determinato periodo di tempo. Per impostazione predefinita, il timeout è impostato su 4,320 minuti (72 ore).
+È possibile specificare il valore del timeout di inattività per Unified Manager in modo che la sessione venga terminata automaticamente dopo un determinato periodo di inattività. Per impostazione predefinita, il timeout è impostato su 4,320 minuti (72 ore).
 
 .Prima di iniziare
 È necessario disporre del ruolo di amministratore dell'applicazione.
