@@ -20,5 +20,5 @@ L'impostazione del timeout della sessione influisce su tutte le sessioni utente 
 
 .Fasi
 . Accedere all'interfaccia CLI di Unified Manager immettendo il `um cli login` comando. Utilizzare un nome utente e una password validi per l'autenticazione.
-. Immettere il `um option set max.session.timeout.value=<in mins>` per modificare il valore di timeout della sessione.
+. Immettere il `um option set max.session.timeout.value=<in mins>` comando per modificare il valore di timeout della sessione.
 
