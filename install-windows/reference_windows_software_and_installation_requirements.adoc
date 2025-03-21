@@ -50,7 +50,7 @@ I seguenti pacchetti di terze parti sono forniti in bundle con Unified Manager. 
 * MySQL Community Edition versione 8.0.37
 * Python 3.12.4
 * OpenJDK versione 11.0.23
-* p7zip versione 23,01 o successiva
+* 7-zip versione 23,01 o successiva
 
 
 [NOTE]
