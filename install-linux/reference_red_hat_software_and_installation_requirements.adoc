@@ -56,6 +56,8 @@ Prima di aggiornare qualsiasi software di terze parti, è necessario chiudere un
 
 L'installazione di Unified Manager su un sistema Linux può essere eseguita dall'utente root o da utenti non root utilizzando `sudo` comando.
 
+Inoltre, l'installazione predefinita di Unified Manager include l'utente umadmin (utente di manutenzione predefinito) e l'utente jboss nei file sudoers (`ocum_sudoers`e `ocie_sudoers`) nella `/etc/sudoers.d/` directory. Se si rimuove questo contenuto dal proprio ambiente a causa di criteri di protezione o a causa di uno strumento di monitoraggio della protezione, è necessario aggiungerlo nuovamente. È necessario preservare la configurazione dei sudoers perché alcune operazioni di Unified Manager richiedono questi privilegi sudo.
+
 
 
 == Requisiti di installazione
