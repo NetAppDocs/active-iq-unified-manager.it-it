@@ -171,3 +171,6 @@ entries:
     url: "/storage-mgmt/reference_user_not_found.html"
   - title: Problema con l'aggiunta di LDAP utilizzando altri servizi di autenticazione
     url: "/storage-mgmt/reference_issue_with_ldap_using_other_authentication_services.html"
+  - title: Problema di rotazione dei log dell'SDK di NetApp Manageability sui sistemi
+      Windows
+    url: "/storage-mgmt/task_resolve_windows_log_rotation_issue.html"
