@@ -11001,7 +11001,6 @@
   <block id="31c19d26868a7ff439c08ee8860902af" category="paragraph"><block ref="e61baa5c67d7dd8dca5b3e09283635ed" category="inline-link-rx"></block>.</block>
   <block id="4efb5660712f35a71f61f3b4e61e725a" category="paragraph">Unified Manager visualizza il seguente messaggio:</block>
   <block id="32f4e1038b4549da08da982f44dd8d0b" category="list-text">Fare clic su *Sì*, quindi su *Avanti*.</block>
-  <block id="e4ef4ba9b55c3985f475fd7b3b042458" category="list-text">Immettere la password root di MySQL8 impostata durante l'installazione, quindi fare clic su *Avanti*.</block>
   <block id="f91923991c8993a30a6a751c98474af6" category="list-text">Avviare l'interfaccia utente Web in una nuova finestra di un browser Web supportato e accedere per utilizzare la versione aggiornata di Unified Manager.</block>
   <block id="95321bf41584f0af5249cfe77a131451" category="list-text">Se sul sistema Windows è installato un software antivirus attivo, assicurarsi di escludere manualmente i seguenti percorsi dalla scansione antivirus una volta completato l'aggiornamento:</block>
   <block id="ed656b4cd67ab83186099ee9d974a826" category="paragraph">Per eseguire un aggiornamento silent di Unified Manager, eseguire il seguente comando:<block ref="ba35301ee702ac52f567f1cb78ab2350" prefix=" " category="inline-code"></block></block>
@@ -11033,7 +11032,6 @@
   <block id="dd2148991fe37222c2cd074a08be9207" category="paragraph">Se MySQL è preinstallato, devi assicurarti che:</block>
   <block id="a0c0b34e406d28d454ddf495e72c1cb9" category="list-text">Sta utilizzando la porta predefinita.</block>
   <block id="ae6546f7996b91aa7c6e5c482b07f791" category="list-text">I database di esempio non sono installati.</block>
-  <block id="a7b80eacf1b625bed035aa3b2a92bc46" category="list-text">Il nome del servizio è "`MYSQL8`".</block>
   <block id="f44cea6cd02b888cc6cc539426598769" category="paragraph">Prima di aggiornare qualsiasi software di terze parti, chiudere un'istanza di Unified Manager in esecuzione. Una volta completata l'installazione del software di terze parti, è possibile riavviare Unified Manager.</block>
   <block id="8477864d39c6c8b50036cae20894546f" category="list-text">È necessario installare Microsoft .NET 4.5.2 o versione successiva.</block>
   <block id="33a0a151920146dd7e37684e9810ec5f" category="list-text">Il<block ref="3d801aa532c1cec3ee82d87a99fdf63f" prefix=" " category="inline-code"></block> La directory deve essere configurata con 2 GB di spazio su disco per l'estrazione dei file di installazione. Per verificare se la directory è stata creata, eseguire il seguente comando dall'interfaccia della riga di comando:<block ref="269dfafa18b3a1f37602d6a276b07399" prefix=" " category="inline-code"></block></block>
@@ -12007,4 +12005,6 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="a0e6619df3d203259475fb9e2836a790" category="inline-link-macro">Guida al rafforzamento della sicurezza per il report tecnico di NetApp Manageability SDK</block>
   <block id="e7f66239d2584f7db44917f4b82c3d75" category="list-text">Quando si installa Unified Manager su Windows, installare la versione 0.0.0.18 di Logrotate. Per ulteriori informazioni, vedere <block ref="613e5c3b9e425f3372aa73a0b93d00d2" category="inline-link-macro-rx"></block>.</block>
   <block id="ba4a3eda92613705933538adb5a397dd" category="list-text">Avviare Unified Manager.</block>
+  <block id="ce2dd12c3d92be4f64774b3618022463" category="list-text">Il nome del servizio è "`MYSQL84`".</block>
+  <block id="c954aa3da908a18730111db3143d3c49" category="list-text">Immettere la password root di MySQL84 impostata durante l'installazione, quindi fare clic su *Avanti*.</block>
 </blocks>
