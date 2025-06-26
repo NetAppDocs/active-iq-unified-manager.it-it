@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: script upload, enable, disable 
 summary: 'Per impostazione predefinita, è attivata la possibilità di caricare gli script in Unified Manager ed eseguirli. Se l"organizzazione non desidera consentire questa attività per motivi di sicurezza, è possibile disattivare questa funzionalità.' 
 ---
-= Attivazione e disattivazione del caricamento degli script
+= Abilitare e disabilitare il caricamento degli script
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

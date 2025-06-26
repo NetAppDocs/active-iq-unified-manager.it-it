@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, schedule, database dump, backups, snapshot copy, copies 
 summary: È possibile configurare le impostazioni di backup del dump del database di Unified Manager per impostare il percorso di backup del database, il numero di conservazione e la pianificazione di backup. È possibile attivare backup pianificati giornalieri o settimanali. Per impostazione predefinita, i backup pianificati sono disattivati, ma è necessario impostare una pianificazione di backup. 
 ---
-= Configurazione della destinazione e della pianificazione per i backup dei dump del database
+= Configurare la destinazione e la pianificazione per i backup dei dump del database
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

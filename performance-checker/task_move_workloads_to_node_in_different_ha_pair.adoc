@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, node, different, ha pair 
 summary: 'È possibile utilizzare Unified Manager per identificare un aggregato su un nodo in una coppia di ha (High Availability) diversa che ha una capacità di performance libera maggiore rispetto alla coppia di ha in cui i carichi di lavoro sono attualmente in esecuzione. Quindi, è possibile spostare i volumi selezionati negli aggregati della nuova coppia ha.' 
 ---
-= Spostamento dei carichi di lavoro in un nodo di una coppia ha diversa
+= Spostare i carichi di lavoro su un nodo in una coppia HA diversa
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -20,30 +20,30 @@ entries:
     url: "/install-vapp/concept_browser_and_platform_requirements.html"
   - title: Requisiti di protocollo e porta
     url: "/install-vapp/reference_protocol_and_port_requirements.html"
-  - title: Completamento del foglio di lavoro
+  - title: Completare il foglio di lavoro
     url: "/install-vapp/reference_complete_worksheet_um.html"
-- title: Installazione, aggiornamento e rimozione del software Unified Manager
+- title: Installa, aggiorna e rimuovi il software Unified Manager
   url: "/install-vapp/concept_install_upgrade_remove_unified_manage_on_vmware.html"
   entries:
   - title: Panoramica del processo di implementazione
     url: "/install-vapp/concept_overview_of_deployment_process.html"
-  - title: Implementazione di Unified Manager
+  - title: Distribuisci Unified Manager
     url: "/install-vapp/task_deploy_unified_manager_vapp.html"
     entries:
-    - title: Download del file di installazione di Unified Manager
+    - title: Scarica il file di installazione di Unified Manager
       url: "/install-vapp/task_download_unified_manager_ova_file.html"
-    - title: Implementazione dell'appliance virtuale Unified Manager
+    - title: Implementare l'appliance virtuale Unified Manager
       url: "/install-vapp/task_deploy_unified_manager_virtual_appliance_vapp.html"
-  - title: Aggiornamento di Unified Manager
+  - title: Aggiorna Unified Manager
     url: "/install-vapp/task_upgrade_unified_manager_vapp.html"
     entries:
     - title: Percorso di aggiornamento supportato per le versioni di Unified Manager
       url: "/include/upgrade-path.html"
-    - title: Download del file di aggiornamento di Unified Manager
+    - title: Scarica il file di aggiornamento di Unified Manager
       url: "/install-vapp/task_download_unified_manager_iso_image_vapp.html"
-    - title: Aggiornamento dell'appliance virtuale di Unified Manager
+    - title: Aggiornare l'appliance virtuale Unified Manager
       url: "/install-vapp/task_upgrade_unified_manager_virtual_appliance_vapp.html"
-  - title: Riavvio della macchina virtuale di Unified Manager
+  - title: Riavviare la macchina virtuale di Unified Manager
     url: "/install-vapp/task_restart_unified_manager_virtual_machine.html"
-  - title: Rimozione di Unified Manager
+  - title: Rimuovi Unified Manager
     url: "/install-vapp/task_remove_unified_manager_vapp.html"

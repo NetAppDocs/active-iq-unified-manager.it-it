@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, object, inventory, performance, pages 
 summary: È possibile ordinare tutti i dati nelle pagine Object Inventory Performance in base a qualsiasi colonna in ordine crescente o decrescente. Ciò consente di individuare rapidamente i dati di inventario degli oggetti, cosa utile quando si esaminano le prestazioni o si avvia un processo di risoluzione dei problemi. 
 ---
-= Ordinamento nelle pagine Object Inventory Performance (prestazioni inventario oggetti)
+= Ordina nelle pagine Prestazioni inventario oggetti
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

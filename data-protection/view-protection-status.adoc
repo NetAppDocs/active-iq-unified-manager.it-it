@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume relationship, protection status, dashboard protection card, protection widget, lag, relationship health, healthy relationship, lag threshold, relationship event, source cluster, snapmirror, snapshot 
 summary: 'La pagina Data Protection (protezione dati) presenta una vista olistica dei dettagli sulla protezione dei dati per tutti i volumi protetti nel data center.' 
 ---
-= Visualizzazione dello stato di protezione del volume
+= Visualizza lo stato di protezione del volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, encryption status, volumes 
 summary: 'È possibile visualizzare un elenco di tutti i volumi e il relativo stato di crittografia corrente per determinare se i dati presenti nei volumi sono adeguatamente protetti dall"accesso da parte di utenti non autorizzati.' 
 ---
-= Visualizzazione dello stato di crittografia di tutti i volumi
+= Visualizza lo stato di crittografia di tutti i volumi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

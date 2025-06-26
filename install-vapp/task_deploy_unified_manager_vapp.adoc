@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager 
 summary: 'L"implementazione di Unified Manager include il download del software, l"implementazione dell"appliance virtuale, la creazione di un nome utente e di una password di manutenzione e l"esecuzione della configurazione iniziale nell"interfaccia utente Web.' 
 ---
-= Implementazione di Unified Manager
+= Distribuisci Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, alerts 
 summary: 'È possibile modificare le proprietà degli avvisi, ad esempio la risorsa a cui è associato l"avviso, gli eventi, i destinatari, le opzioni di notifica, la frequenza di notifica, e script associati.' 
 ---
-= Modifica degli avvisi
+= Modifica avvisi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

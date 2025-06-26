@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, volume, relationship, reports 
 summary: 'Il report Volume Relanes Inventory consente di analizzare i dettagli dell"inventario dello storage in un cluster, comprendere il grado di protezione richiesto per i volumi e filtrare i dettagli del volume in base all"origine del guasto, al modello e alle pianificazioni.' 
 ---
-= Personalizzazione dei report delle relazioni dei volumi
+= Personalizza i report sulle relazioni di volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

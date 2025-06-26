@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, view, report, relationship 
 summary: Le visualizzazioni e le pagine di inventario diventano report quando vengono scaricate o programmate. 
 ---
-= Comprensione della relazione tra visualizzazione e report
+= Comprendere la relazione tra visualizzazione e report
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

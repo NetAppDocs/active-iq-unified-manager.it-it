@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, qtrees, full 
 summary: 'È possibile creare un report per analizzare la capacità dello storage e l"utilizzo dei qtree e visualizzare i qtree quasi pieni.' 
 ---
-= Creazione di un report per visualizzare i qtree quasi pieni
+= Crea un report per visualizzare i qtree quasi pieni
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

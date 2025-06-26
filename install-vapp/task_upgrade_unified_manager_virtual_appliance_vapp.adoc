@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager, virtual, appliance 
 summary: 'È possibile aggiornare l"appliance virtuale di Unified Manager' 
 ---
-= Aggiornamento dell'appliance virtuale di Unified Manager
+= Aggiornare l'appliance virtuale Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

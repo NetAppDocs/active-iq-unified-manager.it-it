@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, reaching, full capacity 
 summary: È possibile creare un report per individuare gli aggregati che stanno raggiungendo la capacità completa in modo da poter aggiungere più capacità o spostare i carichi di lavoro in altri aggregati. 
 ---
-= Creazione di un report per visualizzare gli aggregati che raggiungono la piena capacità
+= Crea un report per visualizzare gli aggregati che raggiungono la piena capacità
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

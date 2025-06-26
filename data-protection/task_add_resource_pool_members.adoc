@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, resource, pool, members 
 summary: Un pool di risorse è costituito da diversi aggregati di membri. È possibile aggiungere aggregati ai pool di risorse esistenti per aumentare la quantità di spazio disponibile per il provisioning di volumi secondari. 
 ---
-= Aggiunta di membri del pool di risorse
+= Aggiungere membri del pool di risorse
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

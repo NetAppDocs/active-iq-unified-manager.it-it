@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support bundle, web ui, maintenance console 
 summary: 'È necessario inviare un pacchetto di supporto quando il problema richiede una diagnosi e una risoluzione dei problemi più dettagliate rispetto a un messaggio AutoSupport. È possibile inviare un pacchetto di supporto al supporto tecnico utilizzando l"interfaccia utente Web e la console di manutenzione di Unified Manager.' 
 ---
-= Invio di un pacchetto di supporto tramite l'interfaccia utente Web e la console di manutenzione
+= Invia un pacchetto di supporto tramite l'interfaccia utente Web e la console di manutenzione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

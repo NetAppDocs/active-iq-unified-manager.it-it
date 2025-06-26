@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume, latency, cluster, component 
 summary: 'È possibile visualizzare informazioni dettagliate sulla latenza di un volume utilizzando la pagina Volume Performance Explorer (Esplora prestazioni volume). Il grafico del contatore latenza - totale mostra la latenza totale sul volume e il grafico del contatore latenza - suddivisione è utile per determinare l"impatto della latenza di lettura e scrittura sul volume.' 
 ---
-= Visualizzazione della latenza del volume in base al componente del cluster
+= Visualizza la latenza del volume per componente del cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

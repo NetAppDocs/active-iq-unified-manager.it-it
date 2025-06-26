@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, group actions 
 summary: 'È possibile modificare i parametri delle azioni di gruppo configurati in Unified Manager, ad esempio il nome dell"azione di gruppo, la descrizione, il nome del gruppo associato e i parametri del tipo di azione.' 
 ---
-= Modifica delle azioni di gruppo
+= Modifica azioni di gruppo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

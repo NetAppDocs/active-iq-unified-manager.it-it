@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, unified manager 
 summary: 'Puoi interrompere e disinstallare Unified Manager dall"host Red Hat Enterprise Linux con un singolo comando.' 
 ---
-= Rimozione di Unified Manager
+= Rimuovi Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

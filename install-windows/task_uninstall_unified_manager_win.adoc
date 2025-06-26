@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: uninstall, unified manager 
 summary: 'È possibile disinstallare Unified Manager utilizzando la procedura guidata programmi e funzionalità o eseguendo una disinstallazione automatica dall"interfaccia della riga di comando.' 
 ---
-= Disinstallazione di Unified Manager
+= Disinstallare Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, FabricPool, aggregates, data, cloud tier 
 summary: 'È possibile creare un report contenente l"elenco dei volumi che attualmente risiedono negli aggregati FabricPool, che hanno una raccomandazione cloud di livello e che hanno una grande quantità di dati cold. Questo report può aiutarti a decidere se modificare la policy di tiering per determinati volumi in "automatico" o "tutto" per trasferire più dati cold (inattivi) al livello cloud.' 
 ---
-= Creazione di un report per identificare i volumi sugli aggregati FabricPool che devono spostare i dati nel Tier cloud
+= Creare un report per identificare i volumi sugli aggregati FabricPool che dovrebbero spostare i dati al livello cloud
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

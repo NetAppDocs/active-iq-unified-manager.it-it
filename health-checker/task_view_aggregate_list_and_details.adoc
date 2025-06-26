@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, aggregate list, details 
 summary: 'Dalla vista Health: All aggregates (Salute: Tutti gli aggregati), è possibile monitorare l"inventario degli aggregati. La vista capacità: Tutti gli aggregati consente di visualizzare informazioni sulla capacità e sull"utilizzo degli aggregati in tutti i cluster.' 
 ---
-= Visualizzazione dell'elenco aggregato e dei dettagli
+= Visualizza l'elenco aggregato e i dettagli
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, unified manager, installation, file 
 summary: Scarica il file di installazione di Unified Manager dal sito di supporto NetApp per implementare Unified Manager come appliance virtuale. 
 ---
-= Download del file di installazione di Unified Manager
+= Scarica il file di installazione di Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

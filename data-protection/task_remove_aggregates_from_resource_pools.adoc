@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, aggregates, resource pools 
 summary: È possibile rimuovere gli aggregati da un pool di risorse esistente, ad esempio quando si desidera utilizzare un aggregato per altri scopi. 
 ---
-= Rimozione di aggregati dai pool di risorse
+= Rimuovere gli aggregati dai pool di risorse
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

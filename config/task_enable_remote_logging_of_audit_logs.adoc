@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enable, remote, logging, audit, logs 
 summary: 'È possibile selezionare la casella di controllo Enable Remote Logging (attiva registrazione remota) nella finestra di dialogo Configure Audit Logs (Configura registri di controllo) per attivare la registrazione remota dell"audit. È possibile utilizzare questa funzione per trasferire i registri di controllo a un server Syslog remoto. In questo modo, è possibile gestire i registri di controllo in caso di limiti di spazio.' 
 ---
-= Abilitazione della registrazione remota dei registri di controllo
+= Abilita la registrazione remota dei log di controllo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

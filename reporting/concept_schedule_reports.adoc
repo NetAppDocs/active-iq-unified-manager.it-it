@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scheduling, reports 
 summary: Una volta che si desidera riutilizzare una vista e condividerla come report, è possibile pianificarla utilizzando Active IQ Unified Manager. È possibile gestire i report pianificati, modificando i destinatari e la frequenza di distribuzione per ogni pianificazione del report. 
 ---
-= Pianificazione dei report
+= Pianifica i report
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

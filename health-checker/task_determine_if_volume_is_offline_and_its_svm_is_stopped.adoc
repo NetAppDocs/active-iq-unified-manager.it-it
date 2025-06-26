@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, svm, node 
 summary: 'È possibile utilizzare l"interfaccia utente Web di Unified Manager per confermare o eliminare la possibilità che un volume non sia in linea perché la sua SVM (host Storage Virtual Machine) viene arrestata a causa del nodo che ospita il volume root di tale SVM.' 
 ---
-= Determinare se un volume non è in linea e se il relativo SVM viene arrestato perché un nodo non è attivo
+= Determina se un volume è offline e il suo SVM è arrestato perché un nodo è inattivo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

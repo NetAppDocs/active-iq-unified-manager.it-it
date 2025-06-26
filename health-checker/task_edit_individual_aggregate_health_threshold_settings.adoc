@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, aggregate, health, threshold, settings 
 summary: 'È possibile modificare le impostazioni della soglia di integrità per capacità aggregata, crescita e copie Snapshot di uno o più aggregati. Quando viene superata una soglia, vengono generati avvisi e vengono ricevute notifiche. Queste notifiche consentono di adottare misure preventive in base all"evento generato.' 
 ---
-= Modifica delle impostazioni delle singole soglie di integrità aggregate
+= Modifica le impostazioni individuali della soglia di integrità aggregata
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

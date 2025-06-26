@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resynchronize, protection, relationships, volume, relationships page 
 summary: 'Dalla pagina Relazioni volume, è possibile risincronizzare una relazione per ripristinare da un evento che ha disattivato il volume di origine o quando si desidera modificare l"origine corrente in un volume diverso.' 
 ---
-= Risincronizzazione delle relazioni di protezione dalla pagina Relazioni volume
+= Risincronizzare le relazioni di protezione dalla pagina Relazioni volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: svm, association, page 
 summary: La pagina Storage VM Association consente di visualizzare le associazioni di storage VM esistenti tra le storage VM di origine e di destinazione. 
 ---
-= Informazioni sulle associazioni di Storage VM
+= Informazioni sulle associazioni delle VM di archiviazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

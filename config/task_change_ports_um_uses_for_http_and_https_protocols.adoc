@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, ports, unified manager, uses, http, https, protocols 
 summary: 'Le porte predefinite utilizzate da Unified Manager per i protocolli HTTP e HTTPS possono essere modificate dopo l"installazione, se necessario per motivi di sicurezza. Le porte predefinite sono 80 per HTTP e 443 per HTTPS.' 
 ---
-= Modifica delle porte utilizzate da Unified Manager per i protocolli HTTP e HTTPS
+= Modifica le porte utilizzate da Unified Manager per i protocolli HTTP e HTTPS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

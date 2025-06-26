@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, file, share 
 summary: 'È possibile utilizzare l"API /storage-provider/file-shares per visualizzare, aggiungere, modificare ed eliminare i volumi di condivisione file CIFS e NFS nell"ambiente del data center.' 
 ---
-= Gestione delle condivisioni di file mediante API
+= Gestire le condivisioni di file tramite API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

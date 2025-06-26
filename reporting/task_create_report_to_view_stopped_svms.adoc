@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, stopped, storage VMs 
 summary: È possibile creare un report per visualizzare un elenco di tutte le SVM interrotte. 
 ---
-= Creazione di un report per visualizzare le VM di storage interrotte
+= Crea un report per visualizzare le VM di archiviazione arrestate
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

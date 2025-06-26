@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, capacity, table, chart 
 summary: È possibile creare un report per analizzare la capacità in un file Excel utilizzando i totali sommati e il formato del grafico a colonne in cluster. 
 ---
-= Creazione di un report per visualizzare una tabella e un grafico della capacità aggregata
+= Crea un report per mostrare una tabella e un grafico della capacità aggregata
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

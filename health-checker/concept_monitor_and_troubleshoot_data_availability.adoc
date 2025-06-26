@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, troubleshoot, data availability 
 summary: 'Unified Manager monitora l"affidabilità con cui gli utenti autorizzati possono accedere ai dati memorizzati, avvisa l"utente in caso di condizioni che bloccano o impediscono tale accesso e consente di diagnosticare tali condizioni e assegnarne e monitorarne la risoluzione.' 
 ---
-= Monitoraggio e troubleshooting della disponibilità dei dati
+= Monitorare e risolvere i problemi di disponibilità dei dati
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

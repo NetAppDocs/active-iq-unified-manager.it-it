@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, user, interface 
 summary: 'L"interfaccia utente di Unified Manager è costituita principalmente da una dashboard che fornisce una vista a colpo d"occhio degli oggetti monitorati. L"interfaccia utente consente inoltre di visualizzare tutti gli oggetti del cluster.' 
 ---
-= Comprensione dell'interfaccia utente
+= Comprendere l'interfaccia utente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, imported, reports 
 summary: È possibile pianificare i report esistenti creati e importati in una release precedente di Unified Manager. 
 ---
-= Pianificazione dei report .rptdesign importati
+= Pianifica report .rptdesign importati
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

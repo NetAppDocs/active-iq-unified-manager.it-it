@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, protection, relationship, volume, relationships page 
 summary: 'Dalla pagina Relazioni volume, è possibile rimuovere una relazione di protezione per eliminare in modo permanente una relazione esistente tra l"origine e la destinazione selezionate, ad esempio quando si desidera creare una relazione utilizzando una destinazione diversa. Questa operazione rimuove tutti i metadati e non può essere annullata.' 
 ---
-= Rimozione di una relazione di protezione dalla pagina Relazioni volume
+= Rimuovere una relazione di protezione dalla pagina Relazioni di volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

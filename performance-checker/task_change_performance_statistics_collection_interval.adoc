@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, change, performance, statistics, collection, interval 
 summary: 'L"intervallo di raccolta predefinito per le statistiche delle performance è di 5 minuti. È possibile modificare questo intervallo in 10 o 15 minuti se si rileva che le raccolte di cluster di grandi dimensioni non vengono terminate entro il tempo predefinito. Questa impostazione influisce sulla raccolta di statistiche di tutti i cluster monitorati da questa istanza di Unified Manager.' 
 ---
-= Modifica dell'intervallo di raccolta delle statistiche delle performance
+= Modificare l'intervallo di raccolta delle statistiche sulle prestazioni
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

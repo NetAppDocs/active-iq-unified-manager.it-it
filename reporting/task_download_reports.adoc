@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, reports 
 summary: 'È possibile scaricare report e salvare i dati su un"unità locale o di rete come file CSV (comma-Separated Values), Microsoft Excel (.XLSX) o PDF. È possibile aprire file CSV e XLSX con applicazioni per fogli di calcolo, come Microsoft Excel, e file PDF con lettori come Adobe Acrobat.' 
 ---
-= Download di report
+= Scarica i report
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

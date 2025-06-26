@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, security events 
 summary: 'È possibile configurare gli avvisi per singoli eventi di sicurezza come qualsiasi altro evento ricevuto da Unified Manager. Inoltre, se si desidera trattare tutti gli eventi di sicurezza allo stesso modo e inviare messaggi e-mail alla stessa persona, è possibile creare un singolo avviso per notificare l"attivazione di qualsiasi evento di sicurezza.' 
 ---
-= Aggiunta di avvisi per eventi di sicurezza
+= Aggiungere avvisi per eventi di sicurezza
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

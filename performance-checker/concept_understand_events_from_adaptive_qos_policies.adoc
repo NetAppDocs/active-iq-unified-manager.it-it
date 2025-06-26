@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, adaptive, qos, policies, defined, block, size 
 summary: I gruppi di policy QoS adattivi scalano automaticamente un limite di throughput o un piano in base alle dimensioni del volume, mantenendo il rapporto tra IOPS e TB al variare delle dimensioni del volume. A partire da ONTAP 9.5, è possibile specificare la dimensione del blocco nel criterio QoS per applicare efficacemente una soglia MB/s contemporaneamente. 
 ---
-= Comprendere gli eventi delle policy QoS adattive con una dimensione del blocco definita
+= Comprendere gli eventi provenienti da policy QoS adattive che hanno una dimensione di blocco definita
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

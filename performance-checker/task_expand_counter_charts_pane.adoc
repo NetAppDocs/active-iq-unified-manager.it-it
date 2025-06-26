@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, counter, charts, pane 
 summary: È possibile espandere il riquadro Counter Chart in modo che i grafici siano più grandi e leggibili. 
 ---
-= Espansione del riquadro Counter Chart
+= Espandi il riquadro Grafici dei contatori
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

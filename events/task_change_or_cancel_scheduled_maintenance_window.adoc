@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, cancel, scheduled, maintenance, window 
 summary: 'Se è stata configurata una finestra di manutenzione di Unified Manager in modo che si verifichi in futuro, è possibile modificare l"ora di inizio e di fine o annullare la finestra di manutenzione.' 
 ---
-= Modifica o annullamento di una finestra di manutenzione pianificata
+= Modificare o annullare una finestra di manutenzione programmata
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

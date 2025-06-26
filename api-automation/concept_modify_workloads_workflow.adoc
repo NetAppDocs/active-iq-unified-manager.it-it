@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads 
 summary: 'La modifica dei carichi di lavoro dello storage consiste nell"aggiornare le LUN o le condivisioni di file con parametri mancanti o nella modifica dei parametri esistenti.' 
 ---
-= Modifica dei carichi di lavoro dello storage mediante API
+= Modificare i carichi di lavoro di archiviazione utilizzando le API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -22,7 +22,7 @@ Il flusso di lavoro presuppone che il LUN o la condivisione di file sia stata fo
 ====
 
 
-== Modifica delle condivisioni di file
+== Modificare le condivisioni di file
 
 Durante la modifica di una condivisione file, è possibile aggiornare i seguenti parametri:
 
@@ -191,7 +191,7 @@ Visualizzare i dettagli della condivisione file nell'output.
 
 
 
-== Aggiornamento dei LUN
+== Aggiorna LUN
 
 Durante l'aggiornamento di un LUN, è possibile modificare i seguenti parametri:
 

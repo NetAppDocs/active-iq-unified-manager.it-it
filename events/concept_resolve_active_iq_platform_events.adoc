@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active iq, resolve, events 
 summary: Gli incidenti e i rischi della piattaforma Active IQ sono simili ad altri eventi di Unified Manager, in quanto possono essere assegnati ad altri utenti per la risoluzione e hanno gli stessi stati disponibili. Tuttavia, quando si risolvono questi tipi di eventi utilizzando il pulsante Correggi, è possibile verificare la risoluzione entro poche ore. 
 ---
-= Risoluzione degli eventi della piattaforma Active IQ
+= Risolvi gli eventi della piattaforma Active IQ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

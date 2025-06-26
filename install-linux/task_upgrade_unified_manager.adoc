@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager 
 summary: È possibile aggiornare Unified Manager scaricando ed eseguendo il file di installazione sulla piattaforma Linux. 
 ---
-= Aggiornamento di Unified Manager
+= Aggiorna Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

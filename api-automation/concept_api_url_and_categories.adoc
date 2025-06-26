@@ -16,7 +16,7 @@ Le API di Active IQ Unified Manager consentono di gestire ed eseguire il provisi
 
 
 
-== Creazione di un URL per accedere direttamente alle API REST
+== Crea un URL per accedere direttamente alle API REST
 
 È possibile accedere alle API REST direttamente tramite un linguaggio di programmazione, ad esempio Python, n. C, C{pp}, JavaScript, e così via. Immettere il nome host o l'indirizzo IP e l'URL per accedere alle API REST nel formato
 
@@ -29,7 +29,7 @@ La porta predefinita è 443. È possibile configurare la porta in base alle esig
 ====
 
 
-== Accesso alla pagina della documentazione API online
+== Accedi alla pagina della documentazione API online
 
 È possibile accedere alla pagina del contenuto di riferimento di _documentazione API_ fornita insieme al prodotto per visualizzare la documentazione API e per eseguire manualmente una chiamata API (sull'interfaccia, ad esempio, Swagger). Per accedere a questa documentazione, fare clic su *barra dei menu* > *pulsante Guida* > *documentazione API*
 

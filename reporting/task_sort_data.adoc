@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, data 
 summary: 'Per ordinare i risultati, fare clic su una colonna e indicare l"ordine crescente o decrescente. L"ordinamento dei dati assegna la priorità alle informazioni necessarie per il report.' 
 ---
-= Ordinamento dei dati
+= Ordina i dati
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

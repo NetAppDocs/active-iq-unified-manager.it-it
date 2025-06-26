@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, users 
 summary: È possibile aggiungere utenti locali o utenti di database utilizzando la pagina utenti. È inoltre possibile aggiungere utenti o gruppi remoti appartenenti a un server di autenticazione. È possibile assegnare ruoli a questi utenti e, in base ai privilegi dei ruoli, gli utenti possono gestire gli oggetti e i dati di storage con Unified Manager o visualizzare i dati in un database. 
 ---
-= Aggiunta di utenti
+= Aggiungere utenti
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

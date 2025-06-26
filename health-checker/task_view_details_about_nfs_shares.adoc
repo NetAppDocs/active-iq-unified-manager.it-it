@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, details, nfs shares 
 summary: 'È possibile visualizzare i dettagli di tutte le condivisioni NFS, ad esempio il relativo stato, il percorso associato al volume (volumi FlexGroup o volumi FlexVol), i livelli di accesso dei client alle condivisioni NFS e la policy di esportazione definita per i volumi esportati. Utilizzare la vista Health: All NFS shares per visualizzare tutte le condivisioni NFS su tutti i cluster monitorati e utilizzare la pagina Storage VM / Health details per visualizzare tutte le condivisioni NFS su una specifica macchina virtuale di storage (SVM).' 
 ---
-= Visualizzazione dei dettagli sulle condivisioni NFS
+= Visualizza i dettagli sulle condivisioni NFS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

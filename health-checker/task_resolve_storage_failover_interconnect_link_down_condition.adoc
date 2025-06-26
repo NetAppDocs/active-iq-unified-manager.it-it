@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scan, resolve, storage, failover, interconnect link, conditions 
 summary: Questo flusso di lavoro fornisce un esempio di come è possibile eseguire la scansione, valutare e risolvere le condizioni di collegamento di interconnessione di failover dello storage downed. In questo scenario, sei un amministratore che utilizza Unified Manager per cercare i rischi di failover dello storage prima di avviare un aggiornamento della versione di ONTAP sui nodi. 
 ---
-= Scansione e risoluzione delle condizioni di inattività del collegamento di interconnessione per il failover dello storage
+= Esegui la scansione e risolvi le condizioni di inattività del collegamento di interconnessione di failover dell'archiviazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

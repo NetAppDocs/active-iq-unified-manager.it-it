@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security compliance settings, security feature settings, ONTAP hardening guide, AutoSupport settings, authentication settings 
 summary: È possibile attivare o disattivare i parametri di sicurezza per il monitoraggio della conformità in Unified Manager. 
 ---
-= Attivazione e disattivazione delle impostazioni di sicurezza per la conformità
+= Abilitare e disabilitare le impostazioni di sicurezza per la conformità
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -24,7 +24,7 @@ I criteri di sicurezza per i cluster ONTAP, le VM di storage e i volumi vengono 
 
 
 
-== Personalizzazione delle impostazioni di sicurezza
+== Personalizza le impostazioni di sicurezza
 
 Per personalizzare le impostazioni per il monitoraggio della conformità in base all'ambiente ONTAP in uso, attenersi alla seguente procedura:
 
@@ -42,7 +42,7 @@ I parametri di conformità della sicurezza che si abilitano o disabilitano posso
 
 
 
-== Personalizzazione delle impostazioni di autenticazione e AutoSupport
+== Personalizza le impostazioni di AutoSupport e autenticazione
 
 Nella sezione *Impostazioni AutoSupport*, è possibile specificare se utilizzare il trasporto HTTPS per l'invio di messaggi AutoSupport da ONTAP.
 

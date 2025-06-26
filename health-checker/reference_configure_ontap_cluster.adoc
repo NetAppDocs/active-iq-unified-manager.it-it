@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: netapp, snapshot copy, copies, backup, windows, configure, ontap, cluster 
 summary: Prima di eseguire il backup e il ripristino di Active IQ Unified Manager utilizzando la copia Snapshot sui sistemi ONTAP, è necessario eseguire alcune operazioni di preconfigurazione sui cluster. 
 ---
-= Configurazione del cluster ONTAP
+= Configurare il cluster ONTAP
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

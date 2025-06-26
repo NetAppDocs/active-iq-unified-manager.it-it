@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, qos, policy, group, settings, applied, specific, volumes, luns 
 summary: È possibile visualizzare i gruppi di criteri QoS applicati ai volumi e alle LUN e collegarsi alla vista Performance/QoS Policy Groups per visualizzare le impostazioni di configurazione dettagliate per ciascun criterio QoS. 
 ---
-= Visualizzazione delle impostazioni del gruppo di criteri QoS applicate a volumi o LUN specifici
+= Visualizza le impostazioni del gruppo di criteri QoS applicate a volumi o LUN specifici
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

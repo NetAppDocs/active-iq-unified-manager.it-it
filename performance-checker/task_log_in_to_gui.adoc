@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: log in, ui, unified manager 
 summary: 'È possibile accedere all"interfaccia utente di Unified Manager utilizzando un browser Web supportato.' 
 ---
-= Accesso all'interfaccia utente
+= Accedi all'interfaccia utente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

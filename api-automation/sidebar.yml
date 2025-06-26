@@ -31,58 +31,57 @@ entries:
 - title: API REST di Unified Manager
   url: "/api-automation/concept_um_apis_list_intro.html"
   entries:
-  - title: Gestione degli oggetti storage in un data center
+  - title: Gestire gli oggetti di archiviazione in un data center
     url: "/api-automation/concept_data_center_apis.html"
-  - title: Accesso alle API ONTAP tramite accesso proxy
+  - title: Accedi alle API ONTAP tramite accesso proxy
     url: "/api-automation/concept_gateway_apis.html"
-  - title: Esecuzione di attività amministrative
+  - title: Eseguire attività amministrative
     url: "/api-automation/concept_administration_apis.html"
-  - title: Gestione degli utenti
+  - title: Gestire gli utenti
     url: "/api-automation/concept_security_apis.html"
-  - title: Visualizzazione delle metriche delle performance
+  - title: Visualizza le metriche delle performance
     url: "/api-automation/concept_metrics_apis.html"
-  - title: Visualizzazione dei processi e dei dettagli di sistema
+  - title: Visualizza i lavori e i dettagli del sistema
     url: "/api-automation/concept_job_api.html"
-  - title: Gestione di eventi e avvisi
+  - title: Gestire eventi e avvisi
     url: "/api-automation/concept_events_api.html"
-  - title: Gestione dei carichi di lavoro
+  - title: Gestire i carichi di lavoro
     url: "/api-automation/concept_manage_storage_workloads.html"
     entries:
-    - title: Visualizzazione dei carichi di lavoro dello storage
+    - title: Visualizza i carichi di lavoro dello storage
       url: "/api-automation/concept_view_workloads.html"
-    - title: Gestione degli endpoint di accesso
+    - title: Gestire gli endpoint di accesso
       url: "/api-automation/concept_manage_access_endpoint.html"
-    - title: Gestione del mapping di Active Directory
+    - title: Gestire la mappatura di Active Directory
       url: "/api-automation/concept_manage_active_directory.html"
-    - title: Gestione delle condivisioni di file
+    - title: Gestire le condivisioni di file
       url: "/api-automation/concept_manage_fileshares_api.html"
-    - title: Gestione delle LUN
+    - title: Gestire le LUN
       url: "/api-automation/concept_manage_lun.html"
-    - title: Gestione dei livelli di Performance Service
+    - title: Gestire i livelli di servizio delle prestazioni
       url: "/api-automation/concept_manage_psl.html"
-    - title: Gestione delle policy di efficienza dello storage
+    - title: Gestire le policy di efficienza dello storage
       url: "/api-automation/concept_manage_sep.html"
 - title: Flussi di lavoro comuni per la gestione dello storage
   url: "/api-automation/concept_workflow_intro.html"
   entries:
-  - title: Determinazione dei problemi di spazio negli aggregati
+  - title: Determinare i problemi di spazio negli aggregati
     url: "/api-automation/concept_workflow_space_issue.html"
-  - title: Determinazione dei problemi negli oggetti di storage utilizzando gli eventi
+  - title: Determinare i problemi negli oggetti di archiviazione utilizzando gli eventi
     url: "/api-automation/concept_events_workflows.html"
-  - title: Risoluzione dei problemi relativi ai volumi ONTAP utilizzando le API del
-      gateway
+  - title: Risolvere i problemi dei volumi ONTAP utilizzando le API del gateway
     url: "/api-automation/concept_ontap_troubleshooting_workflow.html"
   - title: Workflow per la gestione dei workload
     url: "/api-automation/concept_provision_workflow.html"
     entries:
-    - title: Verifica delle SVM sui cluster
+    - title: Verificare le SVM sui cluster
       url: "/api-automation/concept_verify_svm_workflow.html"
     - title: Provisioning di condivisioni di file CIFS e NFS
       url: "/api-automation/concept_provision_file_share.html"
     - title: Provisioning dei LUN
       url: "/api-automation/concept_provision_luns.html"
-    - title: Modifica dei carichi di lavoro dello storage
+    - title: Modificare i carichi di lavoro di archiviazione
       url: "/api-automation/concept_modify_workloads_workflow.html"
       entries:
-      - title: Modifica di una condivisione file NFS per supportare CIFS
+      - title: Modificare una condivisione file NFS per supportare CIFS
         url: "/api-automation/task_modify_fileshare_to_include_cifs_and_nfs.html"

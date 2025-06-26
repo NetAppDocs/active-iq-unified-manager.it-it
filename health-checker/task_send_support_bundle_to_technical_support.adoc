@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: support bundle, technical support 
 summary: Quando un problema richiede informazioni di diagnosi e risoluzione dei problemi più dettagliate rispetto a quelle fornite da un messaggio AutoSupport, è possibile inviare un pacchetto di supporto al supporto tecnico. 
 ---
-= Invio di un pacchetto di supporto al supporto tecnico
+= Invia un pacchetto di supporto al supporto tecnico
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

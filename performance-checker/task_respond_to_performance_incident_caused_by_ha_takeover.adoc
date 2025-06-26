@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, ha, takeover 
 summary: 'È possibile utilizzare Unified Manager per analizzare un evento di performance causato dall"elaborazione di dati elevati su un nodo del cluster che si trova in una coppia ad alta disponibilità (ha). È inoltre possibile utilizzare Unified Manager per controllare lo stato dei nodi e verificare se eventuali eventi di salute recenti rilevati sui nodi hanno contribuito all"evento delle performance.' 
 ---
-= Risposta a un evento di performance dinamico causato da ha Takeover
+= Rispondere a un evento di prestazioni dinamiche causato dall'acquisizione di HA
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

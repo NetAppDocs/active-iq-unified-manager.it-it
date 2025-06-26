@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: download, https, certificate, signing, request 
 summary: 'È possibile scaricare una richiesta di firma della certificazione per il certificato di protezione HTTPS corrente in modo da fornire il file a un"autorità di certificazione da firmare. Un certificato con firma CA aiuta a prevenire gli attacchi man-in-the-middle e offre una protezione migliore rispetto a un certificato autofirmato.' 
 ---
-= Download di una richiesta di firma del certificato HTTPS
+= Scarica una richiesta di firma del certificato HTTPS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

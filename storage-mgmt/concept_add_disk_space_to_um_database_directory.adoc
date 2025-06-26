@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disk, space, unified manager, database, directory 
 summary: La directory del database di Unified Manager contiene tutti i dati relativi allo stato e alle performance raccolti dai sistemi ONTAP. In alcuni casi, potrebbe essere necessario aumentare le dimensioni della directory del database. 
 ---
-= Aggiunta di spazio su disco alla directory del database di Unified Manager
+= Aggiungere spazio su disco alla directory del database Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

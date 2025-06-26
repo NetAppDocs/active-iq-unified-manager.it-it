@@ -2,7 +2,7 @@
 section: events
 title: Gestire eventi e avvisi
 entries:
-- title: Gestione degli eventi
+- title: Gestire gli eventi
   url: "/events/concept_manage_events.html"
   entries:
   - title: Quali sono gli eventi della piattaforma Active IQ
@@ -16,41 +16,42 @@ entries:
       url: "/events/task_subscribe_to_ontap_ems_events.html"
   - title: Cosa succede quando si riceve un evento
     url: "/events/concept_what_happens_when_an_event_is_received.html"
-  - title: Visualizzazione di eventi e dettagli dell'evento
+  - title: Visualizza gli eventi e i dettagli dell'evento
     url: "/events/task_view_event_details.html"
-  - title: Visualizzazione di eventi non assegnati
+  - title: Visualizza eventi non assegnati
     url: "/events/task_view_unassigned_events.html"
-  - title: Riconoscimento e risoluzione degli eventi
+  - title: Riconoscere e risolvere gli eventi
     url: "/events/task_acknowledge_and_resolve_events.html"
-  - title: Assegnazione di eventi a utenti specifici
+  - title: Assegna eventi a utenti specifici
     url: "/events/task_assign_events_to_specific_users.html"
-  - title: Disattivazione degli eventi indesiderati
+  - title: Disabilitare gli eventi indesiderati
     url: "/events/task_disable_unwanted_events.html"
-  - title: Risoluzione dei problemi con le soluzioni automatiche di Unified Manager
+  - title: Risolvi i problemi utilizzando le correzioni automatiche di Unified Manager
     url: "/events/task_fix_issues_using_um_automatic_remediations.html"
-  - title: Attivazione e disattivazione del reporting degli eventi Active IQ
+  - title: Abilitare e disabilitare la segnalazione degli eventi Active IQ
     url: "/events/task_enable_and_disable_active_iq_event_reporting.html"
-  - title: Caricamento di un nuovo file di regole Active IQ
+  - title: Carica un nuovo file di regole Active IQ
     url: "/events/task_upload_new_active_iq_rules_file.html"
   - title: Come vengono generati gli eventi della piattaforma Active IQ
     url: "/events/concept_how_active_iq_platform_events_are_generated.html"
-  - title: Risoluzione degli eventi della piattaforma Active IQ
+  - title: Risolvi gli eventi della piattaforma Active IQ
     url: "/events/concept_resolve_active_iq_platform_events.html"
-  - title: Configurazione delle impostazioni di conservazione degli eventi
+  - title: Configurare le impostazioni di conservazione degli eventi
     url: "/events/task_configure_event_retention_settings.html"
   - title: Cos'è una finestra di manutenzione di Unified Manager
     url: "/events/concept_what_um_maintenance_window_is.html"
     entries:
-    - title: Pianificazione di una finestra di manutenzione per disattivare le notifiche
+    - title: Pianifica una finestra di manutenzione per disabilitare le notifiche
         degli eventi del cluster
       url: "/events/task_schedule_maintenance_window_to_disable_cluster_notifications.html"
-    - title: Modifica o annullamento di una finestra di manutenzione pianificata
+    - title: Modificare o annullare una finestra di manutenzione programmata
       url: "/events/task_change_or_cancel_scheduled_maintenance_window.html"
-    - title: Visualizzazione degli eventi verificatisi durante una finestra di manutenzione
+    - title: Visualizza gli eventi che si sono verificati durante una finestra di
+        manutenzione
       url: "/events/task_view_events_that_occurred_during_maintenance_window.html"
-  - title: Gestione degli eventi delle risorse del sistema host
+  - title: Gestire gli eventi delle risorse del sistema host
     url: "/events/task_manage_host_system_resource_events.html"
-  - title: Ulteriori informazioni sugli eventi
+  - title: Scopri di più sugli eventi
     url: "/events/concept_understand_more_about_events.html"
     entries:
     - title: Definizioni dello stato dell'evento
@@ -154,7 +155,7 @@ entries:
       url: "/events/reference_event_setup_page.html"
     - title: Finestra di dialogo Disattiva eventi
       url: "/events/reference_disable_events_dialog_box.html"
-- title: Gestione degli avvisi
+- title: Gestire gli avvisi
   url: "/events/concept_manage_alerts.html"
   entries:
   - title: Quali sono gli avvisi
@@ -162,25 +163,25 @@ entries:
   - title: Quali informazioni sono contenute in un messaggio di posta elettronica
       di avviso
     url: "/events/concept_what_information_is_contained_in_an_alert_email.html"
-  - title: Aggiunta di avvisi
+  - title: Aggiungere avvisi
     url: "/events/task_add_alerts.html"
     entries:
     - title: Linee guida per l'aggiunta di avvisi
       url: "/events/concept_guidelines_for_adding_alerts.html"
-  - title: Aggiunta di avvisi per eventi relativi alle performance
+  - title: Aggiungi avvisi per eventi di performance
     url: "/events/task_add_alerts_for_performance_events.html"
   - title: Test degli avvisi
     url: "/events/task_test_alerts.html"
-  - title: Attivazione e disattivazione degli avvisi per gli eventi risolti e obsoleti
+  - title: Abilita e disabilita gli avvisi per gli eventi Risolti e Obsoleti
     url: "/events/task_disable_alerts_for_resolved_and_obsolete_events.html"
-  - title: Esclusione dei volumi di destinazione per il disaster recovery dalla generazione
+  - title: Escludere i volumi di destinazione del disaster recovery dalla generazione
       di avvisi
     url: "/events/task_exclude_disaster_recovery_destination_volumes_from_alerts.html"
-  - title: Visualizzazione degli avvisi
+  - title: Visualizza avvisi
     url: "/events/task_view_alerts.html"
-  - title: Modifica degli avvisi
+  - title: Modifica avvisi
     url: "/events/task_edit_alerts.html"
-  - title: Eliminazione degli avvisi
+  - title: Elimina avvisi
     url: "/events/task_delete_alerts.html"
   - title: Descrizione delle finestre di avviso e delle finestre di dialogo
     url: "/events/reference_description_of_health_alert_windows_and_dialog_boxes.html"
@@ -191,16 +192,16 @@ entries:
       url: "/events/reference_add_alert_dialog_box.html"
     - title: Finestra di dialogo Edit Alert (Modifica avviso)
       url: "/events/reference_edit_alert_dialog_box.html"
-- title: Gestione degli script
+- title: Gestire gli script
   url: "/events/concept_manage_scripts.html"
   entries:
   - title: Come funzionano gli script con gli avvisi
     url: "/events/concept_how_scripts_work_with_alerts.html"
-  - title: Aggiunta di script
+  - title: Aggiungi script
     url: "/events/task_add_scripts.html"
-  - title: Eliminazione degli script
+  - title: Elimina gli script
     url: "/events/task_delete_scripts.html"
-  - title: Esecuzione di test dello script
+  - title: Esecuzione dello script di test
     url: "/events/task_test_script_execution.html"
   - title: Comandi CLI di Unified Manager supportati
     url: "/events/reference_supported_unified_manager_cli_commands.html"

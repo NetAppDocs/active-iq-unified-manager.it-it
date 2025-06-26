@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: qos, policy, group, performance, events 
 summary: 'Unified Manager genera eventi di avviso relativi ai criteri QoS quando il throughput del carico di lavoro (IOPS, IOPS/TB o Mbps) supera l"impostazione del criterio QoS ONTAP definito e la latenza del carico di lavoro ne risulta compromessa. Questi eventi definiti dal sistema offrono l"opportunità di correggere potenziali problemi di performance prima che molti carichi di lavoro siano influenzati dalla latenza.' 
 ---
-= Risposta agli eventi di performance del gruppo di policy QoS
+= Rispondere agli eventi di prestazioni del gruppo di policy QoS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

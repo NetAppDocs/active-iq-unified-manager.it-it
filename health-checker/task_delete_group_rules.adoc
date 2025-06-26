@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, group rules 
 summary: È possibile eliminare una regola di gruppo da Active IQ Unified Manager quando la regola di gruppo non è più richiesta. 
 ---
-= Eliminazione delle regole di gruppo
+= Elimina le regole del gruppo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

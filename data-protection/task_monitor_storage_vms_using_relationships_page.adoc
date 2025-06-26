@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: relationships page, monitor, storage, vm 
 summary: 'È possibile monitorare le relazioni di disaster recovery delle macchine virtuali dello storage dalla pagina delle relazioni nella sezione RELATIVA ALLA PROTEZIONE dell"INVENTARIO. Per impostazione predefinita, la pagina delle relazioni elenca solo le relazioni di primo livello quando viene applicato il filtro delle relazioni costitutive.' 
 ---
-= Pagina Monitoring Storage VM Using Relinters (monitoraggio delle VM di storage
+= Monitora le VM di archiviazione utilizzando la pagina Relazioni
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

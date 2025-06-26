@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, configuration, authentication servers 
 summary: È possibile convalidare la configurazione dei server di autenticazione per garantire che il server di gestione sia in grado di comunicare con essi. È possibile convalidare la configurazione ricercando un utente remoto o un gruppo remoto dai server di autenticazione e autenticandoli utilizzando le impostazioni configurate. 
 ---
-= Verifica della configurazione dei server di autenticazione
+= Testare la configurazione dei server di autenticazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

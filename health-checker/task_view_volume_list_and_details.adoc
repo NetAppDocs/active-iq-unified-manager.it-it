@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, volume list, details 
 summary: 'Dalla vista Health: All Volumes (Salute: Tutti i volumi), è possibile monitorare l"inventario dei volumi. La vista Capacity: All Volumes (capacità: Tutti i volumi) consente di visualizzare informazioni sulla capacità e sull"utilizzo dei volumi in un cluster.' 
 ---
-= Visualizzazione dell'elenco e dei dettagli dei volumi
+= Visualizza l'elenco dei volumi e i dettagli
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

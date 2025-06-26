@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: acknowledge, resolve, events 
 summary: 'È necessario riconoscere un evento prima di iniziare a lavorare sul problema che ha generato l"evento, in modo da non continuare a ricevere notifiche di avviso ripetute. Dopo aver eseguito un"azione correttiva per un determinato evento, è necessario contrassegnare l"evento come risolto.' 
 ---
-= Riconoscimento e risoluzione degli eventi
+= Riconoscere e risolvere gli eventi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

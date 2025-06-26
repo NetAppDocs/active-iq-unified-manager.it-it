@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, virtual, infrastructure, disaster, recovery, setup, datastores, metrocluster configuration 
 summary: 'È possibile visualizzare la configurazione e le metriche delle performance degli archivi dati ospitati in una configurazione MetroCluster o in una configurazione di disaster recovery (DR SVM) di una macchina virtuale di storage (VM di storage).' 
 ---
-= Visualizzazione dell'infrastruttura virtuale in una configurazione di disaster recovery
+= Visualizza l'infrastruttura virtuale in una configurazione di disaster recovery
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -19,7 +19,7 @@ In Unified Manager, è possibile visualizzare i volumi NAS o le LUN in una confi
 
 
 
-== Visualizzazione degli archivi dati nella configurazione MetroCluster
+== Visualizza i datastore nella configurazione MetroCluster
 
 Prima di visualizzare gli archivi dati in una configurazione MetroCluster, tenere presente i seguenti prerequisiti:
 
@@ -40,7 +40,7 @@ Per visualizzare i datastore, attenersi alla seguente procedura:
 
 
 
-== Visualizzazione dei datastore nella configurazione del disaster recovery delle macchine virtuali di storage
+== Visualizza gli archivi dati nella configurazione di ripristino di emergenza della VM di archiviazione
 
 Prima di visualizzare gli archivi dati in una configurazione di disaster recovery per le macchine virtuali di storage, tenere presente i seguenti prerequisiti:
 

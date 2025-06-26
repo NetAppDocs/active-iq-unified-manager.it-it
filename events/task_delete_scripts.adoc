@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, scripts 
 summary: È possibile eliminare uno script da Unified Manager quando lo script non è più necessario o valido. 
 ---
-= Eliminazione degli script
+= Elimina gli script
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

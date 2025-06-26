@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filter, data, object, inventory, performance, pages 
 summary: È possibile filtrare i dati nelle pagine Object Inventory Performance per individuare rapidamente i dati in base a criteri specifici. È possibile utilizzare il filtraggio per restringere il contenuto delle pagine Object Inventory Performance e visualizzare solo i risultati specificati. In questo modo si ottiene un metodo molto efficiente per visualizzare solo i dati relativi alle performance di cui si è interessati. 
 ---
-= Filtraggio dei dati nelle pagine Object Inventory Performance
+= Filtra i dati nelle pagine Prestazioni inventario oggetti
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

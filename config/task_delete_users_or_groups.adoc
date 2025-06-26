@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, users, groups 
 summary: È possibile eliminare uno o più utenti dal database del server di gestione per impedire a utenti specifici di accedere a Unified Manager. È inoltre possibile eliminare i gruppi in modo che tutti gli utenti del gruppo non possano più accedere al server di gestione. 
 ---
-= Eliminazione di utenti o gruppi
+= Elimina utenti o gruppi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

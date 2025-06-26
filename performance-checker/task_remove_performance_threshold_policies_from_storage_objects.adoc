@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, performance, threshold, policies, storage, objects 
 summary: 'È possibile rimuovere un criterio di soglia delle performance definito dall"utente da un oggetto storage quando non si desidera più che Unified Manager monitori il valore del contatore delle performance.' 
 ---
-= Rimozione dei criteri di soglia delle performance dagli oggetti storage
+= Rimuovere i criteri di soglia delle prestazioni dagli oggetti di archiviazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

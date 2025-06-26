@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, custom, time range 
 summary: 'La pagina Performance Explorer (Esplora prestazioni) consente di specificare la data e l"intervallo di tempo per i dati relativi alle performance. La specifica di un intervallo di tempo personalizzato offre una maggiore flessibilità rispetto all"utilizzo di intervalli di tempo predefiniti durante la raffinazione dei dati degli oggetti del cluster.' 
 ---
-= Specifica di un intervallo di tempo personalizzato
+= Specificare un intervallo di tempo personalizzato
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

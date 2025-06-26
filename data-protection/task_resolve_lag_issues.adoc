@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, lag, issues 
 summary: Questo flusso di lavoro fornisce un esempio di come è possibile risolvere un problema di ritardo. In questo scenario, sei un amministratore o un operatore che accede alla pagina di Unified Manager Dashboard per verificare se ci sono problemi con le tue relazioni di protezione e, se esistono, per trovare soluzioni. 
 ---
-= Risoluzione dei problemi di ritardo
+= Risolvere i problemi di ritardo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

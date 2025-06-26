@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add cluster 
 summary: È possibile aggiungere un cluster a Active IQ Unified Manager in modo da poter monitorare il cluster. Ciò include la possibilità di ottenere informazioni sul cluster, come lo stato di salute, la capacità, le performance e la configurazione del cluster, in modo da individuare e risolvere eventuali problemi che potrebbero verificarsi. 
 ---
-= Aggiunta di cluster
+= Aggiungere cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

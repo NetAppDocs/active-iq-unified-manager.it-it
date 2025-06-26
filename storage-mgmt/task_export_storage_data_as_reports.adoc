@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: export, storage, data, reports 
 summary: 'È possibile esportare i dati di storage in diversi formati di output e quindi utilizzare i dati esportati per creare report. Ad esempio, se sono presenti 10 eventi critici che non sono stati risolti, è possibile esportare i dati dalla pagina dell"inventario di Event Management per creare un report, quindi inviare il report agli amministratori che possono risolvere i problemi.' 
 ---
-= Esportazione dei dati di storage come report
+= Esportare i dati di archiviazione come report
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

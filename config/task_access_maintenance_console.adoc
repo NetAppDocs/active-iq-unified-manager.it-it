@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, maintenance console 
 summary: 'Se l"interfaccia utente di Unified Manager non è in funzione o se è necessario eseguire funzioni non disponibili nell"interfaccia utente, è possibile accedere alla console di manutenzione per gestire il sistema Unified Manager.' 
 ---
-= Accesso alla console di manutenzione
+= Accedere alla console di manutenzione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

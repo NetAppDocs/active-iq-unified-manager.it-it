@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, destination, efficiency, settings 
 summary: 'È possibile configurare le impostazioni di efficienza della destinazione come deduplica, compressione, crescita automatica e garanzia di spazio su una destinazione di protezione utilizzando la finestra di dialogo Advanced Destination Settings (Impostazioni di destinazione avanzate). Queste impostazioni vengono utilizzate quando si desidera massimizzare l"utilizzo dello spazio su un volume di destinazione o secondario.' 
 ---
-= Configurazione delle impostazioni di efficienza della destinazione
+= Configurare le impostazioni di efficienza della destinazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

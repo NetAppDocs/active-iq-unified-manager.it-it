@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, endpoints, access 
 summary: 'È necessario creare endpoint di accesso o interfacce logiche (LIFF), necessari per il provisioning di Storage Virtual Machine (SVM), LUN e condivisioni di file. È possibile visualizzare, creare, modificare ed eliminare gli endpoint di accesso per le SVM, le LUN o le condivisioni di file nell"ambiente Active IQ Unified Manager.' 
 ---
-= Gestione degli endpoint di accesso tramite API
+= Gestire gli endpoint di accesso tramite API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

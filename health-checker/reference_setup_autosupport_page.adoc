@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: autosupport, messages, support bundles, technical support 
 summary: 'La pagina AutoSupport consente di inviare messaggi AutoSupport predefiniti e on-demand al team di supporto tecnico per garantire il corretto funzionamento dell"ambiente e per aiutare l"utente a mantenere l"integrità dell"ambiente. AutoSupport è attivato per impostazione predefinita e non deve essere disattivato per ottenere i vantaggi di NetAppActive IQ.' 
 ---
-= Invio di messaggi AutoSupport e pacchetti di supporto al supporto tecnico
+= Invia messaggi AutoSupport e pacchetti di supporto al supporto tecnico
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -22,7 +22,7 @@ Un utente con un ruolo di amministratore dello storage può generare e inviare m
 ====
 
 
-== Invio di messaggi AutoSupport on-demand
+== Invia messaggi AutoSupport su richiesta
 
 È possibile generare e inviare un messaggio on-demand al supporto tecnico, a un destinatario e-mail specificato o a entrambi.
 
@@ -36,7 +36,7 @@ Un utente con un ruolo di amministratore dello storage può generare e inviare m
 
 
 
-== Abilitazione di Periodic AutoSupport
+== Abilita AutoSupport periodico
 
 È possibile inviare messaggi specifici e predefiniti al supporto tecnico per la diagnosi e la risoluzione dei problemi periodicamente. Questa funzionalità è attivata per impostazione predefinita. Se questa opzione è disattivata, un amministratore o un utente di manutenzione può attivare le impostazioni.
 
@@ -49,7 +49,7 @@ Un utente con un ruolo di amministratore dello storage può generare e inviare m
 
 
 
-== Caricamento del bundle di supporto on-demand
+== Carica il pacchetto di supporto su richiesta
 
 È possibile generare e inviare un pacchetto di supporto al supporto tecnico in base ai requisiti per la risoluzione dei problemi. Unified Manager memorizza solo i due pacchetti di supporto generati più di recente. I pacchetti di supporto meno recenti vengono eliminati dal sistema.
 
@@ -72,7 +72,7 @@ Anche se non si seleziona alcun tipo di dati, il bundle di supporto viene comunq
 
 
 
-== Configurazione del server proxy HTTP
+== Imposta il server proxy HTTP
 
 È possibile designare un proxy per fornire l'accesso a Internet per inviare il contenuto AutoSupport al supporto se l'ambiente non fornisce l'accesso diretto dal server Unified Manager. Questa sezione è disponibile solo per gli amministratori e gli utenti di manutenzione.
 

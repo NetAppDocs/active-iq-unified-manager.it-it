@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade, unified manager, red hat enterprise, linux 
 summary: È possibile aggiornare Unified Manager quando è disponibile una nuova versione del software. 
 ---
-= Aggiornamento di Unified Manager su Red Hat Enterprise Linux
+= Aggiorna Unified Manager su Red Hat Enterprise Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

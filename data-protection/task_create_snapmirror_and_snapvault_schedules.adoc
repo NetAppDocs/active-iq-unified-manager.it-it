@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, snapvault, schedules 
 summary: È possibile creare pianificazioni SnapMirror e SnapVault di base o avanzate per consentire trasferimenti automatici della protezione dei dati su un volume di origine o primario in modo che i trasferimenti vengano effettuati con maggiore frequenza o meno frequenza, a seconda della frequenza con cui i dati cambiano sui volumi. 
 ---
-= Creazione di pianificazioni SnapMirror e SnapVault
+= Crea pianificazioni SnapMirror e SnapVault
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

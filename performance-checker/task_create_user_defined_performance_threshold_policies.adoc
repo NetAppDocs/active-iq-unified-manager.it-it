@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, user-defined, performance, threshold, policies 
 summary: 'Vengono creati criteri di soglia delle performance per gli oggetti storage in modo che le notifiche vengano inviate quando un contatore delle performance supera un valore specifico. La notifica dell"evento indica che il cluster sta riscontrando un problema di performance.' 
 ---
-= Creazione di criteri di soglia delle performance definiti dall'utente
+= Creare criteri di soglia delle prestazioni definiti dall'utente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

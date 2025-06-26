@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, volume, offline issues 
 summary: 'Questo flusso di lavoro fornisce un esempio di come è possibile valutare e risolvere un evento offline di un volume che Unified Manager potrebbe visualizzare nella pagina di inventario di Event Management. In questo scenario, l"amministratore utilizza Unified Manager per risolvere uno o più eventi offline di un volume.' 
 ---
-= Risoluzione dei problemi di volume offline
+= Risolvi i problemi di volume offline
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

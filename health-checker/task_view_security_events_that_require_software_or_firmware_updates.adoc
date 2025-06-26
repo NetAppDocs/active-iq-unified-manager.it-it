@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: upgrade events, view, security events, software, firmware updates 
 summary: 'Alcuni eventi di sicurezza hanno un"area di impatto di "Upgrade". Questi eventi vengono segnalati dalla piattaforma Active IQ e identificano i problemi in cui la risoluzione richiede l"aggiornamento del software ONTAP, del firmware del nodo o del software del sistema operativo (per gli avvisi di sicurezza).' 
 ---
-= Visualizzazione di eventi di sicurezza che potrebbero richiedere aggiornamenti software o firmware
+= Visualizza gli eventi di sicurezza che potrebbero richiedere aggiornamenti software o firmware
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

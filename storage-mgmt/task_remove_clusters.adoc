@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, cluster 
 summary: È possibile rimuovere un cluster da Unified Manager utilizzando la pagina Cluster Setup. Ad esempio, è possibile rimuovere un cluster se il rilevamento del cluster non riesce o quando si desidera decommissionare un sistema storage. 
 ---
-= Rimozione dei cluster
+= Rimuovere i cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

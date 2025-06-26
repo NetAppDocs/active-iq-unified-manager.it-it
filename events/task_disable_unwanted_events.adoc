@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, unwanted, events 
 summary: Tutti gli eventi sono attivati per impostazione predefinita. È possibile disattivare gli eventi a livello globale per impedire la generazione di notifiche per eventi non importanti nel proprio ambiente. È possibile attivare gli eventi disattivati quando si desidera riprendere la ricezione delle notifiche. 
 ---
-= Disattivazione degli eventi indesiderati
+= Disabilitare gli eventi indesiderati
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

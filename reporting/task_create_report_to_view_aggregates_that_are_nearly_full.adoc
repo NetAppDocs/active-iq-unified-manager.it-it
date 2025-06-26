@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, full 
 summary: 'È possibile creare un report per evidenziare gli aggregati che sono pieni al 80% o più.' 
 ---
-= Creazione di un report per visualizzare aggregati che sono pieni al 80% o più
+= Crea un report per visualizzare gli aggregati pieni all'80% o più
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

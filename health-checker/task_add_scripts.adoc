@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, scripts 
 summary: 'È possibile aggiungere script in Unified Manager e associarli agli avvisi. Questi script vengono eseguiti automaticamente quando viene generato un avviso e consentono di ottenere informazioni sugli oggetti di storage per i quali viene generato l"evento.' 
 ---
-= Aggiunta di script
+= Aggiungi script
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, windows, mysql, database, backup 
 summary: In caso di perdita o danneggiamento dei dati, è possibile utilizzare la funzione di ripristino per ripristinare Unified Manager allo stato stabile precedente con una perdita minima. È possibile ripristinare il database MySQL di Unified Manager su un sistema Windows locale o su un sistema Windows remoto utilizzando la console di manutenzione di Unified Manager. 
 ---
-= Ripristino di un backup del database MySQL su Windows
+= Ripristinare un backup del database MySQL su Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

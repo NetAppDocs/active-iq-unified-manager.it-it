@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, identify, volumes, full capacity, snapshot, autodelete, turned off 
 summary: 'È possibile creare un report contenente l"elenco dei volumi che si stanno avvicinando alla capacità massima con la funzione di eliminazione automatica di Snapshot disattivata. I risultati consentono di identificare i volumi in cui si desidera configurare l"eliminazione automatica di Snapshot.' 
 ---
-= Creazione di un report per identificare i volumi in via di capacità totale per i quali è stata disattivata la funzione di eliminazione automatica di Snapshot
+= Crea un report per identificare i volumi prossimi alla piena capacità in cui l'eliminazione automatica degli snapshot è disattivata
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

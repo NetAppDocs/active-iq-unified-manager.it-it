@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, page 
 summary: 'Dalla pagina Volume Relationship (Relazioni volume), è possibile eseguire un primo trasferimento di riferimento su una nuova relazione di protezione o aggiornare una relazione se è già inizializzata e si desidera eseguire un aggiornamento incrementale manuale e non pianificato per il trasferimento immediato.' 
 ---
-= Inizializzazione o aggiornamento delle relazioni di protezione dalla pagina Relazioni volume
+= Inizializzare o aggiornare le relazioni di protezione dalla pagina Relazioni volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: bookmark, favorite, help topics 
 summary: 'Nella scheda Help Favorites (Preferiti della Guida), è possibile aggiungere ai preferiti gli argomenti della Guida utilizzati di frequente. I segnalibri di aiuto consentono di accedere rapidamente ai tuoi argomenti preferiti.' 
 ---
-= Aggiunta di segnalibri agli argomenti della guida preferiti
+= Aggiungi ai preferiti i tuoi argomenti della Guida preferiti
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

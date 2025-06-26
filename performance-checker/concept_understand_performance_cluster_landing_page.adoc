@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, cluster, landing page 
 summary: 'La landing page Performance Cluster offre una panoramica delle performance di alto livello di un cluster selezionato, con particolare attenzione allo stato delle performance dei primi 10 oggetti all"interno del cluster. I problemi di performance vengono visualizzati nella parte superiore della pagina, nel pannello tutti gli eventi di questo cluster.' 
 ---
-= Informazioni sulla pagina di destinazione del cluster di performance
+= Comprendere la pagina di destinazione del cluster di prestazioni
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

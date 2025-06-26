@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, events, thresholds, node, root, aggregates 
 summary: 'È possibile monitorare l"aggregato root del nodo utilizzando Unified Manager. La Best practice consiste nel fornire in maniera spessa il volume root nell"aggregato root per evitare che il nodo si arresti.' 
 ---
-= Informazioni su eventi e soglie per gli aggregati root di nodi
+= Comprendere gli eventi e le soglie per gli aggregati radice del nodo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

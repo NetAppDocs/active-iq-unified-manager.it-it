@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, protection, relationships, volume, relationships, page 
 summary: È possibile modificare le relazioni di protezione esistenti per modificare la velocità di trasferimento massima, la policy di protezione o la pianificazione della protezione. È possibile modificare una relazione per ridurre la larghezza di banda utilizzata per i trasferimenti o per aumentare la frequenza dei trasferimenti pianificati perché i dati cambiano spesso. 
 ---
-= Modifica delle relazioni di protezione dalla pagina Relazioni volume
+= Modificare le relazioni di protezione dalla pagina Relazioni volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

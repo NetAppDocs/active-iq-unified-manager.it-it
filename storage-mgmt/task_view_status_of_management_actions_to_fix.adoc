@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, status, management, actions, chosen, fix 
 summary: È possibile visualizzare lo stato di tutte le azioni di gestione che si è scelto di correggere nella pagina azioni di gestione. La maggior parte delle azioni viene visualizzata come completata abbastanza rapidamente dopo che Unified Manager invia il comando ONTAP al cluster. Tuttavia, alcune operazioni, ad esempio lo spostamento di un volume, possono richiedere più tempo. 
 ---
-= Visualizzazione dello stato delle azioni di gestione che si è scelto di correggere
+= Visualizza lo stato delle azioni di gestione che hai scelto di correggere
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

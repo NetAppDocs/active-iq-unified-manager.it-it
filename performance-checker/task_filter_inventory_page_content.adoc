@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filtering, inventory, page, content 
 summary: È possibile filtrare i dati delle pagine di inventario in Unified Manager per individuare rapidamente i dati in base a criteri specifici. È possibile utilizzare il filtraggio per restringere il contenuto delle pagine di Unified Manager e visualizzare solo i risultati desiderati. Questo offre un metodo molto efficiente per visualizzare solo i dati che ti interessano. 
 ---
-= Filtraggio del contenuto della pagina di inventario
+= Filtra il contenuto della pagina dell'inventario
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

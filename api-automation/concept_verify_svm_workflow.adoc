@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, svms, clusters 
 summary: 'Prima di eseguire il provisioning di condivisioni di file o LUN, è necessario verificare se nei cluster sono state create macchine virtuali di storage (SVM).' 
 ---
-= Verifica delle SVM sui cluster utilizzando le API
+= Verificare le SVM sui cluster utilizzando le API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, email, notification, format, user, group, quotas 
 summary: 'È possibile creare un formato di notifica per i messaggi e-mail inviati a un utente o a un gruppo di utenti in caso di problemi relativi alla quota (limite minimo superato o limite massimo raggiunto).' 
 ---
-= Creazione di un formato di notifica e-mail per le quote di utenti e gruppi di utenti
+= Creare un formato di notifica e-mail per le quote degli utenti e dei gruppi di utenti
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

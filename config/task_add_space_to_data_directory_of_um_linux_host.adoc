@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, space, data directory, linux, host 
 summary: 'Se è stato assegnato spazio su disco insufficiente a `/opt/netapp/data` Directory per supportare Unified Manager quando si configura originariamente l"host Linux e si installa Unified Manager, è possibile aggiungere spazio su disco dopo l"installazione aumentando lo spazio su disco su `/opt/netapp/data` directory.' 
 ---
-= Aggiunta di spazio alla directory dei dati dell'host Linux
+= Aggiungere spazio alla directory dati dell'host Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

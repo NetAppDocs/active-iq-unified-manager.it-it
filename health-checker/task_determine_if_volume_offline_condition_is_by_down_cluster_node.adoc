@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, host, node 
 summary: 'È possibile utilizzare l"interfaccia utente Web di Unified Manager per confermare o eliminare la possibilità che un volume non sia in linea perché il nodo host non è attivo e che il failover dello storage verso il partner ha Pair non sia riuscito.' 
 ---
-= Determinare se un volume non è in linea perché il nodo host non è attivo
+= Determina se un volume è offline perché il suo nodo host è inattivo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

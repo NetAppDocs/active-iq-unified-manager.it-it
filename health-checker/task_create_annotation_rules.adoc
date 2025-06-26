@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, annotation rules 
 summary: 'È possibile creare regole di annotazione utilizzate da Unified Manager per annotare dinamicamente oggetti di storage come volumi, cluster o macchine virtuali di storage (SVM).' 
 ---
-= Creazione di regole di annotazione
+= Crea regole di annotazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

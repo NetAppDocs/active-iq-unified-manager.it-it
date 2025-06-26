@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, group, volume, relationships, issue 
 summary: È possibile creare un report che raggruppa le relazioni dei volumi in base al problema. 
 ---
-= Creazione di un report per raggruppare le relazioni dei volumi in base al problema
+= Crea un report per raggruppare le relazioni di volume in base al problema
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

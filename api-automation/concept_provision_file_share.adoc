@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, cifs, nfs, file, shares 
 summary: 'È possibile eseguire il provisioning delle condivisioni CIFS e delle condivisioni file NFS sulle macchine virtuali di storage (SVM) utilizzando le API di provisioning fornite come parte di Active IQ Unified Manager. Questo flusso di lavoro di provisioning descrive in dettaglio i passaggi per il recupero delle chiavi delle SVM, dei livelli di servizio delle performance e delle policy di efficienza dello storage prima di creare le condivisioni di file.' 
 ---
-= Provisioning delle condivisioni di file CIFS e NFS tramite API
+= Fornire condivisioni di file CIFS e NFS utilizzando le API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

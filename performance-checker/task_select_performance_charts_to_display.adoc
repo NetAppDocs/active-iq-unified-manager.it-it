@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, charts, display 
 summary: 'L"elenco a discesa Scegli grafici consente di selezionare i tipi di grafici dei contatori delle prestazioni da visualizzare nel riquadro Counter Chart. In questo modo è possibile visualizzare dati e contatori specifici in base ai requisiti di performance.' 
 ---
-= Selezione dei grafici delle prestazioni da visualizzare
+= Seleziona i grafici delle prestazioni da visualizzare
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

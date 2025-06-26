@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, policy,  maximize, transfer, efficiency 
 summary: 'È possibile creare un nuovo criterio SnapVault per impostare la priorità per un trasferimento SnapVault. Le policy vengono utilizzate per massimizzare l"efficienza dei trasferimenti dal primario al secondario in una relazione di protezione.' 
 ---
-= Creazione di una policy SnapVault per massimizzare l'efficienza del trasferimento
+= Crea una policy SnapVault per massimizzare l'efficienza del trasferimento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

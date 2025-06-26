@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, initial, setup, unified manager web ui 
 summary: 'Per utilizzare Unified Manager, è necessario prima configurare le opzioni di configurazione iniziale, tra cui il server NTP, l"indirizzo e-mail dell"utente di manutenzione, l"host del server SMTP e l"aggiunta di cluster ONTAP.' 
 ---
-= Esecuzione della configurazione iniziale dell'interfaccia utente Web di Unified Manager
+= Eseguire la configurazione iniziale dell'interfaccia utente Web di Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

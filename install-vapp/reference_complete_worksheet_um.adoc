@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: complete, worksheet, installation, information, unified manager 
 summary: 'Prima di installare e configurare Unified Manager, è necessario disporre di informazioni specifiche sull"ambiente in uso. È possibile registrare le informazioni nel foglio di lavoro.' 
 ---
-= Completamento del foglio di lavoro
+= Completare il foglio di lavoro
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

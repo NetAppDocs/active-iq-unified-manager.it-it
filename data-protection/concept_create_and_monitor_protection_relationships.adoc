@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, monitor, troubleshoot, protection, relationships 
 summary: Unified Manager consente di creare relazioni di protezione, monitorare e risolvere i problemi relativi alla protezione mirror e alla protezione del vault di backup dei dati memorizzati nei cluster gestiti e ripristinare i dati quando vengono sovrascritti o persi. 
 ---
-= Creazione, monitoraggio e risoluzione dei problemi delle relazioni di protezione
+= Creare, monitorare e risolvere i problemi delle relazioni di protezione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

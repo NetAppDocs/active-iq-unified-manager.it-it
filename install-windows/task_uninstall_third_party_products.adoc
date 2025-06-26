@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: MS Visual C++, python, uninstall, uninstalling, 9.16 
 summary: Come disinstallare prodotti di terze parti, inclusi Python e Microsoft Visual C++. 
 ---
-= Disinstallazione di prodotti di terze parti
+= Disinstallare i prodotti di terze parti
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ Dopo l'aggiornamento di Unified Manager, puoi disinstallare prodotti di terze pa
 
 
 
-== Disinstallazione di Python
+== Disinstallare Python
 
 .Fasi
 . Dal *pannello di controllo*, selezionare *programmi* > *programmi e funzionalità*.
@@ -25,7 +25,7 @@ Dopo l'aggiornamento di Unified Manager, puoi disinstallare prodotti di terze pa
 
 
 
-== Disinstallazione di Microsoft Visual C++ 2013
+== Disinstallare Microsoft Visual C++ 2013
 
 .Fasi
 . Dal *pannello di controllo*, selezionare *programmi* > *programmi e funzionalità*.

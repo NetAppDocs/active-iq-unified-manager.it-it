@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: move, workloads, different, aggregate 
 summary: 'È possibile utilizzare Unified Manager per identificare un aggregato meno occupato rispetto all"aggregato in cui risiedono attualmente i carichi di lavoro, quindi è possibile spostare volumi o LUN selezionati in tale aggregato. Lo spostamento di carichi di lavoro dalle performance elevate in un aggregato meno occupato o in un aggregato con storage flash abilitato consente al carico di lavoro di funzionare in modo più efficiente.' 
 ---
-= Spostamento dei carichi di lavoro in un aggregato diverso
+= Spostare i carichi di lavoro su un aggregato diverso
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

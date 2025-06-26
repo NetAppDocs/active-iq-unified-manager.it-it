@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, corrective action, storage failover, interconnect links 
 summary: 'Quando si visualizza la pagina Dettagli evento di un evento correlato al failover dello storage, è possibile esaminare le informazioni riepilogative della pagina per determinare l"urgenza dell"evento, la possibile causa del problema e la possibile risoluzione del problema.' 
 ---
-= Esecuzione di un'azione correttiva per i collegamenti di interconnessione per il failover dello storage
+= Eseguire un'azione correttiva per i collegamenti di interconnessione del failover di archiviazione inattivi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

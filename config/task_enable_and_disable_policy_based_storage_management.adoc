@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provisioning, performance service levels, storage management, enable, disable, policy-based 
 summary: 'A partire da Unified Manager 9.7, è possibile eseguire il provisioning dei carichi di lavoro dello storage (volumi e LUN) sui cluster ONTAP e gestire tali carichi di lavoro in base ai livelli di servizio delle performance assegnati. Questa funzionalità è simile alla creazione di carichi di lavoro in Gestione di sistema ONTAP e al collegamento di policy di qualità del servizio, ma se applicata con Gestione unificata è possibile eseguire il provisioning e la gestione dei carichi di lavoro in tutti i cluster monitorati dall"istanza di Gestione unificata.' 
 ---
-= Attivazione e disattivazione della gestione dello storage basata su policy
+= Abilitare e disabilitare la gestione dell'archiviazione basata su policy
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

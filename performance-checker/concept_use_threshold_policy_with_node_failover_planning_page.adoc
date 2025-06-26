@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: threshold, policy, node, failover, planning page 
 summary: 'È possibile creare un criterio di soglia del nodo in modo da ricevere una notifica nella pagina Performance/Node failover Planning (Pianificazione delle performance/failover del nodo) quando un potenziale failover degraderebbe le prestazioni del nodo di Takeover a un livello inaccettabile.' 
 ---
-= Utilizzo di un criterio di soglia con la pagina Node failover Planning (Pianificazione del failover del nodo)
+= Utilizzare una politica di soglia con la pagina Pianificazione del failover dei nodi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, dynamic, performance, thresholds 
 summary: 'Gli eventi generati dalle soglie dinamiche indicano che il tempo di risposta effettivo (latenza) per un carico di lavoro è troppo alto o troppo basso rispetto all"intervallo di tempo di risposta previsto. La pagina Dettagli evento consente di analizzare l"evento relativo alle performance e, se necessario, di intraprendere azioni correttive per riportare le performance alla normalità.' 
 ---
-= Analisi degli eventi dalle soglie di performance dinamiche
+= Analizza gli eventi dalle soglie di prestazioni dinamiche
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

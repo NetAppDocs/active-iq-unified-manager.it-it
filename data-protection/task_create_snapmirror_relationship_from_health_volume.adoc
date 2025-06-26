@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship,  volume, health details page 
 summary: 'È possibile utilizzare la pagina Dettagli volume/stato per creare una relazione SnapMirror in modo che la replica dei dati sia attivata per scopi di protezione. La replica di SnapMirror consente di ripristinare i dati dal volume di destinazione in caso di perdita di dati sull"origine.' 
 ---
-= Creazione di una relazione di protezione SnapMirror dalla pagina dei dettagli relativi a volume/stato
+= Crea una relazione di protezione SnapMirror dalla pagina dei dettagli Volume/Integrità
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

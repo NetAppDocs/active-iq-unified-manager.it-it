@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage, workloads 
 summary: 'Le API elencate di seguito consentono di visualizzare un elenco consolidato di carichi di lavoro dello storage per tutti i cluster ONTAP nel data center. Le API forniscono inoltre una vista riepilogativa del numero di carichi di lavoro dello storage forniti nell"ambiente Active IQ Unified Manager e delle relative statistiche di capacità e performance (IOPS).' 
 ---
-= Visualizzazione dei carichi di lavoro dello storage mediante API
+= Visualizza i carichi di lavoro di archiviazione tramite API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

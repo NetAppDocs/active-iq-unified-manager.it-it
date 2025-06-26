@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: smb, cifs, view, shares, details 
 summary: 'È possibile visualizzare i dettagli di tutte le condivisioni SMB/CIFS, ad esempio il nome della condivisione, il percorso di giunzione, gli oggetti contenenti, le impostazioni di sicurezza e i criteri di esportazione definiti per la condivisione. Utilizzare la vista Health: All SMB shares per visualizzare tutte le condivisioni SMB su tutti i cluster monitorati e utilizzare la pagina Storage VM / Health details per visualizzare tutte le condivisioni SMB su una specifica macchina virtuale di storage (SVM).' 
 ---
-= Visualizzazione dei dettagli sulle condivisioni SMB/CIFS
+= Visualizza i dettagli sulle azioni SMB/CIFS
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

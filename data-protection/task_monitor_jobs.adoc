@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, jobs 
 summary: 'È possibile utilizzare la pagina lavori per monitorare lo stato del lavoro e visualizzare le proprietà del lavoro, ad esempio il tipo di servizio di storage, lo stato, l"ora di inoltro e il tempo di completamento, per determinare se un lavoro è stato completato correttamente.' 
 ---
-= Monitoraggio dei lavori
+= Monitorare i lavori
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

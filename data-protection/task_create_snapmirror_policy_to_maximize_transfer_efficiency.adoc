@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, policy, maximize, transfer, efficiency 
 summary: 'È possibile creare un criterio SnapMirror per specificare la priorità di trasferimento di SnapMirror per le relazioni di protezione. Le policy di SnapMirror consentono di massimizzare l"efficienza del trasferimento dall"origine alla destinazione assegnando priorità in modo che i trasferimenti a priorità inferiore vengano pianificati per essere eseguiti dopo i trasferimenti a priorità normale.' 
 ---
-= Creazione di una policy SnapMirror per massimizzare l'efficienza del trasferimento
+= Crea una policy SnapMirror per massimizzare l'efficienza del trasferimento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

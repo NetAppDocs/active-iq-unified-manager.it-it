@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, saml, authentication, settings 
 summary: 'Dopo aver configurato le impostazioni di autenticazione remota, è possibile attivare l"autenticazione SAML (Security Assertion Markup Language) in modo che gli utenti remoti vengano autenticati da un provider di identità sicuro (IdP) prima di poter accedere all"interfaccia utente Web di Unified Manager.' 
 ---
-= Gestione delle impostazioni di autenticazione SAML
+= Gestisci le impostazioni di autenticazione SAML
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

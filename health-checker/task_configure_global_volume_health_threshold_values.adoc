@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, volume, health, threshold values 
 summary: È possibile configurare i valori della soglia di integrità globale per tutti i volumi per tenere traccia di qualsiasi violazione di soglia. Gli eventi appropriati vengono generati per le violazioni delle soglie di salute ed è possibile adottare misure preventive in base a tali eventi. È possibile configurare i valori globali in base alle impostazioni delle Best practice per le soglie applicabili a tutti i volumi monitorati. 
 ---
-= Configurazione dei valori delle soglie globali di integrità del volume
+= Configurare i valori di soglia per lo stato di integrità del volume globale
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

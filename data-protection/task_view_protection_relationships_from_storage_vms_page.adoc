@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage vm, viewing protection relationships 
 summary: La pagina Storage VM consente di visualizzare lo stato delle relazioni di disaster recovery delle macchine virtuali di storage esistenti. 
 ---
-= Visualizzazione delle relazioni di protezione dalla pagina Storage VM
+= Visualizza le relazioni di protezione dalla pagina delle VM di archiviazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

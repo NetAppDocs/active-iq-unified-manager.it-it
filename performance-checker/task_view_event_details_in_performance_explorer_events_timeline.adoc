@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, event, details, timeline 
 summary: 'È possibile visualizzare tutti gli eventi e i relativi dettagli nel riquadro Cronologia eventi di Performance Explorer. Si tratta di un metodo rapido ed efficiente per visualizzare tutti gli eventi relativi allo stato di salute e alle prestazioni che si sono verificati sull"oggetto root durante un intervallo di tempo specificato, che può essere utile per la risoluzione dei problemi relativi alle prestazioni.' 
 ---
-= Visualizzazione dei dettagli dell'evento nella cronologia degli eventi
+= Visualizza i dettagli dell'evento nella cronologia degli eventi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

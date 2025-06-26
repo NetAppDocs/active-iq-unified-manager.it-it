@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user-defined, performance, threshold, policies 
 summary: È possibile modificare le impostazioni di soglia per i criteri di soglia delle performance esistenti. Questo può essere utile se si ricevono troppi o pochi avvisi per determinate condizioni di soglia. 
 ---
-= Modifica dei criteri di soglia delle performance definiti dall'utente
+= Modificare i criteri di soglia delle prestazioni definiti dall'utente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

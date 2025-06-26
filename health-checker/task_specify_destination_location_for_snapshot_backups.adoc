@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, destination location, snapshot copies, copy 
 summary: È necessario configurare la posizione di destinazione per le copie Snapshot di Active IQ Unified Manager su un volume già configurato in uno dei cluster ONTAP. Per definire la posizione, utilizzare la console di manutenzione. 
 ---
-= Specifica del percorso di destinazione per le copie Snapshot
+= Specificare la posizione di destinazione per le copie Snapshot
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

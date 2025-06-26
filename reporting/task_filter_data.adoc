@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filtering, data 
 summary: Filtrare i dati per assicurarsi che i risultati corrispondano ai requisiti del report. Il filtraggio consente di visualizzare solo i dati interessati. 
 ---
-= Filtraggio dei dati
+= Filtra i dati
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

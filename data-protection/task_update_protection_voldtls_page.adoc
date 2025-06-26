@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, protection, relationships, volume, health details page 
 summary: È possibile eseguire un primo trasferimento baseline su una nuova relazione di protezione o aggiornare una relazione se è già inizializzata e si desidera eseguire un aggiornamento incrementale manuale e non pianificato per trasferire immediatamente i dati. 
 ---
-= Inizializzazione o aggiornamento delle relazioni di protezione dalla pagina Dettagli volume/salute
+= Inizializza o aggiorna le relazioni di protezione dalla pagina dei dettagli Volume/Integrità
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

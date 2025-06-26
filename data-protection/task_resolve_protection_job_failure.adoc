@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, protection, job failure 
 summary: Questo flusso di lavoro fornisce un esempio di come è possibile identificare e risolvere un errore di un processo di protezione dalla dashboard di Unified Manager. 
 ---
-= Risoluzione di un errore di un lavoro di protezione
+= Risolvere un errore del processo di protezione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

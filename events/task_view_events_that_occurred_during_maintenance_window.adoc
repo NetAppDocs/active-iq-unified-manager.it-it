@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, occurred, maintenance, window 
 summary: 'Se necessario, è possibile visualizzare gli eventi generati per tutti gli oggetti di storage durante una finestra di manutenzione di Unified Manager. La maggior parte degli eventi viene visualizzata nello stato obsoleto una volta completata la finestra di manutenzione e dopo aver eseguito il backup e l"esecuzione di tutte le risorse di sistema.' 
 ---
-= Visualizzazione degli eventi verificatisi durante una finestra di manutenzione
+= Visualizza gli eventi che si sono verificati durante una finestra di manutenzione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

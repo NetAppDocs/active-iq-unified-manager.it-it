@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, bully workloads, dynamic, performance, event 
 summary: 'In Unified Manager, è possibile identificare i carichi di lavoro con la maggiore deviazione nell"utilizzo di un componente del cluster in conflitto. L"identificazione di questi carichi di lavoro consente di capire perché alcuni volumi del cluster hanno tempi di risposta lenti (latenza).' 
 ---
-= Identificazione dei carichi di lavoro ingombranti coinvolti in un evento di performance dinamica
+= Identificare i carichi di lavoro eccessivi coinvolti in un evento di performance dinamica
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

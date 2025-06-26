@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, details 
 summary: È possibile visualizzare i dettagli di un evento attivato da Unified Manager per intraprendere azioni correttive. Ad esempio, se è presente un evento di salute Volume Offline, è possibile fare clic su tale evento per visualizzare i dettagli ed eseguire azioni correttive. 
 ---
-= Visualizzazione di eventi e dettagli dell'evento
+= Visualizza gli eventi e i dettagli dell'evento
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

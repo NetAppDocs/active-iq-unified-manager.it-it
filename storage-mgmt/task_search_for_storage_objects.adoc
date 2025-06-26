@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, storage, objects 
 summary: 'Per accedere rapidamente a un oggetto specifico, utilizzare il campo Search All Storage Objects (Cerca tutti gli oggetti di storage) nella parte superiore della barra dei menu. Questo metodo di ricerca globale in tutti gli oggetti consente di individuare rapidamente oggetti specifici in base al tipo. I risultati della ricerca sono ordinati in base al tipo di oggetto di storage ed è possibile filtrarli ulteriormente in base all"oggetto utilizzando il menu a discesa.' 
 ---
-= Ricerca di oggetti storage
+= Cerca oggetti di archiviazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, root, object 
 summary: 'L"oggetto root è la base rispetto alla quale vengono effettuati altri confronti tra oggetti. Ciò consente di visualizzare e confrontare i dati di altri oggetti con l"oggetto root, fornendo un"analisi dei dati delle performance che consente di risolvere i problemi e migliorare le performance degli oggetti.' 
 ---
-= Comprensione dell'oggetto root
+= Comprendere l'oggetto radice
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

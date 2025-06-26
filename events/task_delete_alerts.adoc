@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, alerts 
 summary: È possibile eliminare un avviso quando non è più necessario. Ad esempio, è possibile eliminare un avviso creato per una determinata risorsa quando tale risorsa non viene più monitorata da Unified Manager. 
 ---
-= Eliminazione degli avvisi
+= Elimina avvisi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

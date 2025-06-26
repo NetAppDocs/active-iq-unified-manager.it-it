@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, issues, storage, objects, events 
 summary: Quando un oggetto di storage nel data center supera una soglia, viene inviata una notifica relativa a tale evento. Utilizzando questa notifica, è possibile analizzare il problema e intraprendere azioni correttive utilizzando le API degli eventi. 
 ---
-= Determinazione dei problemi negli oggetti di storage utilizzando le API degli eventi
+= Determinare i problemi negli oggetti di archiviazione utilizzando le API degli eventi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user, group, quota, email, addresses 
 summary: 'È possibile modificare gli indirizzi e-mail in base alla quota utente associata a cluster, storage virtual machine (SVM), volumi, qtree, utenti o gruppi di utenti. È possibile modificare l"indirizzo e-mail quando si desidera sovrascrivere l"indirizzo e-mail generato dalle regole specificate nella finestra di dialogo regole per generare indirizzo e-mail quota utente e gruppo.' 
 ---
-= Modifica degli indirizzi e-mail delle quote di utenti e gruppi
+= Modifica gli indirizzi email delle quote utente e gruppo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

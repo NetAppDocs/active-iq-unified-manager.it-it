@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, panels, dashboard 
 summary: 'Unified Manager Dashboard offre alcuni pannelli che visualizzano lo stato delle performance di alto livello per tutti i cluster monitorati nell"ambiente. È possibile scegliere di visualizzare lo stato di tutti i cluster o di un singolo cluster.' 
 ---
-= Informazioni sui pannelli delle performance della dashboard
+= Comprendere i pannelli delle prestazioni nella Dashboard
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

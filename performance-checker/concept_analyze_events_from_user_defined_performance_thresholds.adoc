@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, user-defined, performance, thresholds 
 summary: 'Gli eventi generati dalle soglie definite dall"utente indicano che un contatore delle prestazioni per un determinato oggetto di storage, ad esempio un aggregato o un volume, ha superato la soglia definita nel criterio. Questo indica che l"oggetto cluster sta riscontrando un problema di performance.' 
 ---
-= Analisi degli eventi dalle soglie di performance definite dall'utente
+= Analizza gli eventi dalle soglie di prestazioni definite dall'utente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

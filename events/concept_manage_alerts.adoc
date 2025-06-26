@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, alerts 
 summary: È possibile configurare gli avvisi in modo che inviino automaticamente una notifica quando si verificano eventi o eventi specifici di determinati tipi di gravità. È inoltre possibile associare un avviso a uno script eseguito quando viene attivato un avviso. 
 ---
-= Gestione degli avvisi
+= Gestire gli avvisi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

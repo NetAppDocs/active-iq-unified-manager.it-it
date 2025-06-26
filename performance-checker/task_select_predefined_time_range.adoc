@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, predefined, time, range 
 summary: 'La selezione di un intervallo di tempo predefinito è un modo rapido ed efficiente per personalizzare e concentrare l"output dei dati durante la visualizzazione dei dati relativi alle performance degli oggetti del cluster. Quando si seleziona un intervallo di tempo predefinito, sono disponibili dati per un massimo di 13 mesi.' 
 ---
-= Selezione di un intervallo di tempo predefinito
+= Seleziona un intervallo di tempo predefinito
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

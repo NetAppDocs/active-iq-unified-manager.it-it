@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:  
 summary: 'È possibile gestire le pianificazioni dei report dalla pagina Report Schedules (Pianificazioni report). È possibile visualizzare, modificare o eliminare le pianificazioni esistenti.' 
 ---
-= Gestione delle pianificazioni dei report
+= Gestire le pianificazioni dei report
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

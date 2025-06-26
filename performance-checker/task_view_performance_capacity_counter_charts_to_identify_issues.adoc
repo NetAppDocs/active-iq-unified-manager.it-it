@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, capacity, counter charts, identify, issues 
 summary: 'È possibile visualizzare i grafici relativi alla capacità di performance utilizzata per nodi e aggregati nella pagina Performance Explorer (Esplora prestazioni). In questo modo è possibile visualizzare dati dettagliati sulla capacità delle performance per i nodi e gli aggregati selezionati per un periodo di tempo specifico.' 
 ---
-= Visualizzazione dei grafici dei contatori di capacità delle performance per identificare i problemi
+= Visualizza i grafici del contatore della capacità di prestazione per identificare i problemi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

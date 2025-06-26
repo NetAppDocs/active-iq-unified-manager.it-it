@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: exclude, disaster, recovery, destination, volumes, generate, alerts 
 summary: Quando si configurano gli avvisi di volume, è possibile specificare una stringa nella finestra di dialogo Avviso che identifica un volume o un gruppo di volumi. Tuttavia, se è stato configurato il disaster recovery per le SVM, i volumi di origine e di destinazione hanno lo stesso nome, in modo da ricevere avvisi per entrambi i volumi. 
 ---
-= Esclusione dei volumi di destinazione per il disaster recovery dalla generazione di avvisi
+= Escludere i volumi di destinazione del disaster recovery dalla generazione di avvisi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

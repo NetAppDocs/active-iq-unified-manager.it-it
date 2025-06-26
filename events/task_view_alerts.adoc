@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, alerts 
 summary: 'È possibile visualizzare l"elenco degli avvisi creati per diversi eventi dalla pagina Configurazione avvisi. È inoltre possibile visualizzare le proprietà degli avvisi, ad esempio la descrizione, il metodo e la frequenza di notifica, gli eventi che attivano l"avviso, i destinatari degli avvisi e le risorse interessate, ad esempio cluster, aggregati e volumi.' 
 ---
-= Visualizzazione degli avvisi
+= Visualizza avvisi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

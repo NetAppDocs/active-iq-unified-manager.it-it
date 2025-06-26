@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, resource pools, inventory 
 summary: 'È possibile utilizzare la pagina Resource Pools per visualizzare l"inventario del pool di risorse e monitorare la capacità rimanente per ciascun pool di risorse.' 
 ---
-= Visualizzazione dell'inventario dei pool di risorse
+= Visualizza l'inventario dei pool di risorse
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

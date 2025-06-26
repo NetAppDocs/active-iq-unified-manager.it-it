@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, individual, volume, health, threshold, settings 
 summary: 'È possibile modificare le impostazioni della soglia di integrità per capacità del volume, crescita, quota e riserva di spazio di uno o più volumi. Quando viene superata una soglia, vengono generati avvisi e vengono ricevute notifiche. Queste notifiche consentono di adottare misure preventive in base all"evento generato.' 
 ---
-= Modifica delle impostazioni delle soglie di integrità dei singoli volumi
+= Modifica le impostazioni della soglia di integrità del volume individuale
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, saml authentication, maintenance, console 
 summary: 'Potrebbe essere necessario disattivare l"autenticazione SAML dalla console di manutenzione quando non è possibile accedere alla GUI di Unified Manager. Ciò potrebbe verificarsi in caso di errata configurazione o se l"IdP non è accessibile.' 
 ---
-= Disattivazione dell'autenticazione SAML dalla console di manutenzione
+= Disabilitare l'autenticazione SAML dalla console di manutenzione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

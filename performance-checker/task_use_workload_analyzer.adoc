@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer 
 summary: 'Esistono diversi modi per avviare l"analizzatore del carico di lavoro dall"interfaccia utente. Di seguito viene descritto l"avvio dello strumento dal riquadro di navigazione a sinistra.' 
 ---
-= Utilizzo dell'analizzatore del carico di lavoro
+= Utilizzare l'analizzatore del carico di lavoro
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

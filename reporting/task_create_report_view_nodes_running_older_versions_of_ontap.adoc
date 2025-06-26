@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, nodes, running, older versions, ONTAP 
 summary: È possibile creare un report per visualizzare la versione del software ONTAP installata su tutti i nodi del cluster in modo da visualizzare i nodi da aggiornare. 
 ---
-= Creazione di un report per visualizzare i nodi che eseguono versioni precedenti di ONTAP
+= Crea un report per visualizzare i nodi che eseguono versioni precedenti di ONTAP
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

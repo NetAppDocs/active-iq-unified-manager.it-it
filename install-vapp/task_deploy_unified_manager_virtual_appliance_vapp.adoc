@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: deploy, unified manager, virtual appliance 
 summary: 'Dopo aver scaricato il file di installazione, è possibile implementare Unified Manager come appliance virtuale. Utilizza vSphere Web Client per implementare l"appliance virtuale su un server ESXi. Quando si implementa l"appliance virtuale, viene creata una macchina virtuale.' 
 ---
-= Implementazione dell'appliance virtuale Unified Manager
+= Implementare l'appliance virtuale Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

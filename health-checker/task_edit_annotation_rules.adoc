@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, annotation rules 
 summary: 'È possibile modificare le regole di annotazione per modificare i gruppi di condizioni e le condizioni all"interno del gruppo di condizioni per aggiungere annotazioni o rimuovere annotazioni dagli oggetti di storage.' 
 ---
-= Modifica delle regole di annotazione
+= Modifica le regole di annotazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

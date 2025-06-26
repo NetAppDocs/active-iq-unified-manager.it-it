@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: generate, upload, support bundle 
 summary: È possibile generare un pacchetto di supporto contenente informazioni diagnostiche, in modo da inviarlo al supporto tecnico per la risoluzione dei problemi. È inoltre possibile caricare il pacchetto di supporto su NetApp dalla console di manutenzione. 
 ---
-= Generazione e caricamento di un bundle di supporto
+= Genera e carica un pacchetto di supporto
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

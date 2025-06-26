@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, iops, workloads, reside, only, local node 
 summary: 'Il contatore IOPS del nodo può evidenziare dove le operazioni passano solo attraverso il nodo locale utilizzando una LIF di rete per eseguire operazioni di lettura/scrittura sui volumi su un nodo remoto. I grafici IOPS - "Total (Local)" (totale (locale)) e "Breakdown (locale)" (dettaglio (locale)) visualizzano gli IOPS per i dati che risiedono nei volumi locali solo sul nodo corrente.' 
 ---
-= Visualizzazione degli IOPS dei nodi in base ai carichi di lavoro che risiedono solo sul nodo locale
+= Visualizza gli IOPS del nodo in base ai carichi di lavoro che risiedono solo sul nodo locale
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

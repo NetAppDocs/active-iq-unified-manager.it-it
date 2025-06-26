@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, resource, pools 
 summary: È possibile eliminare i pool di risorse quando non sono più necessari. Ad esempio, è possibile ridistribuire gli aggregati dei membri da un pool di risorse a diversi altri pool di risorse, rendendo obsoleto il pool di risorse originale. 
 ---
-= Eliminazione dei pool di risorse
+= Elimina pool di risorse
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

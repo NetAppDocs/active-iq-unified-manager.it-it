@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, volumes, cold, data, non-fabricpool, aggregate, identify 
 summary: 'È possibile creare un report per visualizzare volumi con un"elevata quantità di dati cold su un aggregato non FabricPool. In questo modo è possibile identificare i volumi che devono essere spostati in un aggregato FabricPool.' 
 ---
-= Creazione di un report per visualizzare volumi con un'elevata quantità di dati cold su un aggregato non abilitato a FabricPool
+= Crea un report per visualizzare volumi con un'elevata quantità di dati inattivi su un aggregato non abilitato per FabricPool
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

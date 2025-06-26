@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: uploading scripts, api gateway, slo or policy-based storage management, timeout, active iq platform events 
 summary: 'La pagina Impostazioni funzionalità consente di attivare e disattivare funzioni specifiche in Active IQ Unified Manager. Ciò include la creazione e la gestione di oggetti di storage in base a policy, l"abilitazione del gateway API, il caricamento di script per la gestione degli avvisi, il timeout di una sessione dell"interfaccia utente Web in base al tempo di inattività e la disattivazione della ricezione degli eventi della piattaforma Active IQ.' 
 ---
-= Gestione delle impostazioni delle funzioni
+= Gestire le impostazioni delle funzioni
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, storage, efficiency, policies 
 summary: Quando le policy di efficienza dello storage definite dal sistema non corrispondono ai requisiti dei carichi di lavoro, è possibile creare policy di efficienza dello storage personalizzate e ottimizzate per i carichi di lavoro. 
 ---
-= Creazione e modifica delle policy di efficienza dello storage
+= Creare e modificare criteri di efficienza di archiviazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: use, unified manager, help 
 summary: 'La Guida contiene informazioni su tutte le funzioni incluse in Active IQ Unified Manager. È possibile utilizzare il sommario, l"indice o lo strumento di ricerca per trovare informazioni sulle funzionalità e su come utilizzarle.' 
 ---
-= Utilizzo della Guida di Unified Manager
+= Utilizzare la Guida di Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

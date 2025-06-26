@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alerts, performance, events 
 summary: 'È possibile configurare gli avvisi per singoli eventi relativi alle performance esattamente come qualsiasi altro evento ricevuto da Unified Manager. Inoltre, se si desidera trattare tutti gli eventi relativi alle performance allo stesso modo e inviare un"e-mail alla stessa persona, è possibile creare un singolo avviso per notificare l"attivazione di eventi critici o di avviso relativi alle performance.' 
 ---
-= Aggiunta di avvisi per eventi relativi alle performance
+= Aggiungi avvisi per eventi di performance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

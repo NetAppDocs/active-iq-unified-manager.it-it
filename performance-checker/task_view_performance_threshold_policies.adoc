@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, threshold, policies 
 summary: È possibile visualizzare tutti i criteri di soglia delle performance attualmente definiti dalla pagina soglie delle performance. 
 ---
-= Visualizzazione dei criteri di soglia delle performance
+= Visualizza i criteri di soglia delle prestazioni
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

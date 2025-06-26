@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, file, share, volumes 
 summary: 'È possibile creare volumi di file share che supportano i protocolli CIFS/SMB e NFS su un cluster esistente e su una Storage Virtual Machine (Storage VM) dalla pagina Provision workload (carico di lavoro di provisioning).' 
 ---
-= Provisioning dei volumi di condivisione dei file
+= Fornire volumi di condivisione file
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

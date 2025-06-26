@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, system, details 
 summary: 'L"API degli eventi consente di recuperare gli eventi generati per i cluster monitorati nel data center.' 
 ---
-= Gestione di eventi e avvisi tramite API
+= Gestisci eventi e avvisi tramite API
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ Il `events`, `alerts`, e. `scripts` API in `management-server` Category consente
 
 
 
-== Visualizzazione e modifica degli eventi
+== Visualizza e modifica gli eventi
 
 Unified Manager riceve gli eventi generati su ONTAP per i cluster monitorati e gestiti da Unified Manager. Utilizzando queste API, è possibile visualizzare gli eventi generati per i cluster, risolverli e aggiornarli.
 
@@ -23,7 +23,7 @@ Eseguendo il `GET` metodo per `/management-server/events` API, è possibile eseg
 
 Eseguendo l'operazione DI PATCH per questa API, è possibile attivare il flusso di lavoro di risoluzione per l'evento. È possibile assegnare un evento a se stessi o a un altro utente e confermare la ricezione dell'evento. Quando si eseguono le procedure relative alle risorse per risolvere il problema che ha generato l'evento, è possibile utilizzare questa API per contrassegnare l'evento come risolto.
 
-Per ulteriori informazioni sugli eventi, vedere link:../events/concept_manage_events.html["Gestione degli eventi"].
+Per ulteriori informazioni sugli eventi, vedere link:../events/concept_manage_events.html["Gestire gli eventi"].
 
 [cols="4*"]
 |===
@@ -54,11 +54,11 @@ Eseguire questa API per assegnare un evento o modificare lo stato in riconosciut
 |===
 
 
-== Gestione degli avvisi
+== Gestire gli avvisi
 
 Gli eventi vengono generati automaticamente e continuamente. Unified Manager genera un avviso solo quando un evento soddisfa determinati criteri di filtro. È possibile selezionare gli eventi per i quali devono essere generati gli avvisi. Utilizzando `/management-server/alerts` API, è possibile configurare gli avvisi per inviare automaticamente le notifiche quando si verificano eventi o eventi specifici di determinati tipi di severità.
 
-Per ulteriori informazioni sugli avvisi, vedere link:../events/concept_manage_alerts.html["Gestione degli avvisi"].
+Per ulteriori informazioni sugli avvisi, vedere link:../events/concept_manage_alerts.html["Gestire gli avvisi"].
 
 [cols="4*"]
 |===
@@ -103,11 +103,11 @@ NOTE: Durante la selezione di una risorsa per l'aggiunta di un avviso, tenere pr
 
 
 
-== Gestione degli script
+== Gestire gli script
 
 Utilizzando `/management-server/scripts` API, è anche possibile associare un avviso a uno script eseguito quando viene attivato un avviso. È possibile utilizzare gli script per modificare o aggiornare automaticamente più oggetti di storage in Unified Manager. Lo script è associato a un avviso. Quando un evento attiva un avviso, lo script viene eseguito. È possibile caricare script personalizzati e testarne l'esecuzione quando viene generato un avviso. È possibile associare un avviso allo script in modo che venga eseguito quando viene generato un avviso per un evento in Unified Manager.
 
-Per ulteriori informazioni sugli script, vedere link:../events/concept_manage_scripts.html["Gestione degli script"].
+Per ulteriori informazioni sugli script, vedere link:../events/concept_manage_scripts.html["Gestire gli script"].
 
 [cols="4*"]
 |===

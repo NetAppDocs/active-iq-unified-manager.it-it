@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: defining, list, correlated, objects, comparison, graphing 
 summary: 'È possibile definire un elenco di oggetti correlati per il confronto di dati e performance nel riquadro Counter Chart. Ad esempio, se la macchina virtuale di storage (SVM) presenta un problema di performance, è possibile confrontare tutti i volumi nella SVM per identificare il volume che potrebbe causare il problema.' 
 ---
-= Definizione dell'elenco degli oggetti correlati per il grafico di confronto
+= Definire l'elenco degli oggetti correlati per la creazione di grafici di confronto
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

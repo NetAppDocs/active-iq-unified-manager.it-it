@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, migrate, virtual, appliance, linux system 
 summary: 'Puoi ripristinare il backup dump del database MySQL di Unified Manager da un"appliance virtuale a un sistema Red Hat Enterprise Linux se vuoi modificare il sistema operativo host su cui è in esecuzione Unified Manager.' 
 ---
-= Migrazione di un'appliance virtuale Unified Manager a un sistema Linux
+= Migrare un'appliance virtuale Unified Manager su un sistema Linux
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

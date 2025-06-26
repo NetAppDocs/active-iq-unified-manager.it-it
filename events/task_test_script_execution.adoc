@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, script, execution 
 summary: È possibile verificare che lo script venga eseguito correttamente quando viene generato un avviso per un oggetto di storage. 
 ---
-= Esecuzione di test dello script
+= Esecuzione dello script di test
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

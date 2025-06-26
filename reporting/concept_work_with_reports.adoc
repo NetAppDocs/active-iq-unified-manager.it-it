@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: work, reports 
 summary: Scopri come trovare e personalizzare le visualizzazioni delle pagine di inventario in report pianificati condivisibili. 
 ---
-= Utilizzo dei report
+= Lavorare con i report
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

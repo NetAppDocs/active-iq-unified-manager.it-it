@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
 summary: 'Puoi assegnare le policy di efficienza dello storage (SEPS) e i livelli di servizio delle performance (PSL) ai carichi di lavoro dello storage dalla pagina tutti i carichi di lavoro utilizzando le diverse opzioni di navigazione.' 
 ---
-= Assegnazione di policy ai carichi di lavoro
+= Assegnare policy ai carichi di lavoro
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ Puoi assegnare le policy di efficienza dello storage (SEPS) e i livelli di servi
 
 
 
-== Assegnazione di policy a un singolo carico di lavoro
+== Assegnare policy a un singolo carico di lavoro
 
 È possibile assegnare un PSL o UN SET o entrambi a un singolo carico di lavoro. Attenersi alla seguente procedura:
 
@@ -35,7 +35,7 @@ I campi *Assigned Performance Service Level* e *Storage Efficiency Policy* sono 
 ====
 
 
-== Assegnazione di policy a più carichi di lavoro dello storage
+== Assegna policy a più carichi di lavoro di archiviazione
 
 È possibile assegnare un PSL o UN SET a più carichi di lavoro dello storage insieme. Attenersi alla seguente procedura:
 
@@ -53,7 +53,7 @@ L'applicazione di policy sui carichi di lavoro in blocco potrebbe richiedere del
 
 
 
-== Assegnazione di PSL consigliati dal sistema ai carichi di lavoro
+== Assegnare PSL consigliati dal sistema ai carichi di lavoro
 
 È possibile assegnare gli PSL consigliati dal sistema ai carichi di lavoro dello storage in un data center che non hanno PSL assegnati oppure gli PSL assegnati non corrispondono alle raccomandazioni del sistema. Per utilizzare questa funzionalità, fare clic sul pulsante *Assign System Recommended PSL* (Assegna PSL raccomandati dal sistema). Non è necessario selezionare carichi di lavoro specifici.
 

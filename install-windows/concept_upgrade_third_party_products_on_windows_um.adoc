@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data center manager, third-party, products, upgrade 
 summary: È possibile aggiornare prodotti di terze parti, come JRE, su Unified Manager se installati su sistemi Windows. 
 ---
-= Aggiornamento di prodotti di terze parti
+= Aggiornare i prodotti di terze parti
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

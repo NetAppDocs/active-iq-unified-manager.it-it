@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, aggregates, overcommitted 
 summary: 'È possibile creare un report per analizzare la capacità dello storage e l"utilizzo degli aggregati e per visualizzare gli aggregati in eccesso.' 
 ---
-= Creazione di un report per visualizzare gli aggregati in eccesso
+= Crea un report per visualizzare gli aggregati sovraccaricati
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

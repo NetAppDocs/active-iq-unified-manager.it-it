@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, job, details 
 summary: 'Dopo aver avviato un lavoro, è possibile monitorarne l"avanzamento dalla pagina Dettagli lavoro e monitorare le attività associate per individuare eventuali errori.' 
 ---
-= Visualizzazione dei dettagli del lavoro
+= Visualizzare i dettagli del lavoro
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, node, root, volumes 
 summary: È possibile monitorare il volume root del nodo utilizzando Unified Manager. La Best practice consiste nel fatto che il volume root del nodo deve avere una capacità sufficiente a impedire il downdown del nodo. 
 ---
-= Comprensione dei volumi root dei nodi
+= Comprendere i volumi radice del nodo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

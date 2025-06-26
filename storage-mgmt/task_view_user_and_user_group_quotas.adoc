@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, user, user, group, quotas 
 summary: 'La pagina Storage VM / Health Details (Dettagli stato/VM di storage) visualizza informazioni sulle quote utente e gruppo di utenti configurate sulla SVM. È possibile visualizzare il nome dell"utente o del gruppo di utenti, i limiti impostati su dischi e file, lo spazio su disco e file utilizzato e l"indirizzo e-mail per la notifica.' 
 ---
-= Visualizzazione delle quote di utenti e gruppi di utenti
+= Visualizza le quote degli utenti e dei gruppi di utenti
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

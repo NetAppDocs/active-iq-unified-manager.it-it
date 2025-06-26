@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, reports 
 summary: 'Una volta pianificati i report, è possibile eliminarli dalla pagina Report Schedules (Pianificazioni report).' 
 ---
-= Eliminazione dei report pianificati
+= Elimina i report pianificati
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: report, schedule 
 summary: Dopo aver creato una vista o un file Excel che si desidera pianificare per la generazione e la distribuzione regolari, è possibile pianificare il report. 
 ---
-= Pianificazione di un report
+= Pianifica un rapporto
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

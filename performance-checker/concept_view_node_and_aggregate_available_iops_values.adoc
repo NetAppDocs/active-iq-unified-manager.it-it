@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, available, iops, values 
 summary: È possibile monitorare i valori IOPS disponibili per tutti i nodi o per tutti gli aggregati di un cluster oppure visualizzare i dettagli di un singolo nodo o aggregato. 
 ---
-= Visualizzazione dei valori IOPS disponibili di nodo e aggregazione
+= Visualizza i nodi e aggrega i valori IOPS disponibili
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -17,7 +17,7 @@ I valori IOPS disponibili vengono visualizzati nelle pagine Performance Inventor
 
 image::../media/available_iops_zoom.gif[Schermata dell'interfaccia utente che mostra come visualizzare un nodo nella pagina Node/Performance Explorer e selezionare "Available IOPS" (IOPS disponibili) dall'elenco.]
 
-Il monitoraggio del contatore IOPS disponibile consente di identificare:
+Monitorare il contatore IOPS disponibili consente di identificare:
 
 * I nodi o gli aggregati che hanno i valori IOPS più elevati disponibili per determinare dove è possibile implementare i carichi di lavoro futuri.
 * I nodi o gli aggregati che hanno i valori IOPS più piccoli disponibili per identificare le risorse da monitorare per potenziali problemi di performance futuri.

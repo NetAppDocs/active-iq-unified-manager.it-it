@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, schedule, report 
 summary: È possibile cercare i report pianificati per nome, nome della vista, tipo di oggetto o destinatari. 
 ---
-= Ricerca di un report pianificato
+= Cerca un report pianificato
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

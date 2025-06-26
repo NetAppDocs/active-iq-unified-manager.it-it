@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, lag, threshold settings, unmanaged, protection, relationships 
 summary: È possibile modificare le impostazioni globali predefinite di avviso di ritardo e soglia di stato degli errori per le relazioni di protezione non gestite in modo che gli eventi vengano generati a intervalli appropriati alle proprie esigenze. 
 ---
-= Configurazione delle impostazioni delle soglie di ritardo per le relazioni di protezione non gestite
+= Configurare le impostazioni della soglia di ritardo per le relazioni di protezione non gestite
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

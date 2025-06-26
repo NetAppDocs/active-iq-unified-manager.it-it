@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, protection, relationship, health, volumes view 
 summary: 'Utilizzando la vista Health: All Volumes (Salute: Tutti i volumi) è possibile creare diverse relazioni di protezione SnapMirror contemporaneamente selezionando più di un volume sulla stessa VM di storage.' 
 ---
-= Creazione di una relazione di protezione SnapMirror dalla vista Health: All Volumes (Salute: Tutti i volumi)
+= Crea una relazione di protezione SnapMirror dalla vista Integrità: Tutti i volumi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

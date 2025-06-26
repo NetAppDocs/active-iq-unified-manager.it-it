@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, maintenance, console, using, vsphere, vm console 
 summary: 'Se l"interfaccia utente di Unified Manager non è in funzione o se è necessario eseguire funzioni non disponibili nell"interfaccia utente, è possibile accedere alla console di manutenzione per riconfigurare l"appliance virtuale.' 
 ---
-= Accesso alla console di manutenzione mediante la console vSphere VM
+= Accedi alla console di manutenzione tramite la console vSphere VM
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

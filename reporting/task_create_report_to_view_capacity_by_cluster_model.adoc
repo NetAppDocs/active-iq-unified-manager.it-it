@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, capacity, cluster, model 
 summary: 'È possibile creare un report per analizzare la capacità dello storage e l"utilizzo dei cluster in base al modello di sistema storage.' 
 ---
-= Creazione di un report per visualizzare la capacità in base al modello di cluster
+= Crea un report per visualizzare la capacità in base al modello di cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

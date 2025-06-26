@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quiesce, protection, relationship, volume, health details page 
 summary: È possibile interrompere una relazione di protezione per impedire temporaneamente il trasferimento dei dati. È possibile interrompere una relazione quando si desidera creare una copia Snapshot di un volume di destinazione SnapMirror che contiene un database e si desidera assicurarsi che il contenuto sia stabile durante la copia Snapshot. 
 ---
-= Interrompere una relazione di protezione dalla pagina dei dettagli relativi a volume/salute
+= Disattiva una relazione di protezione dalla pagina dei dettagli Volume/Salute
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

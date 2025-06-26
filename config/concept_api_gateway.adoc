@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: api gateway 
 summary: 'La funzione gateway API consente a Active IQ Unified Manager di essere un singolo piano di controllo da cui è possibile gestire più cluster ONTAP, senza dover effettuare l"accesso singolarmente.' 
 ---
-= Abilitazione di API Gateway
+= Abilita API Gateway
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

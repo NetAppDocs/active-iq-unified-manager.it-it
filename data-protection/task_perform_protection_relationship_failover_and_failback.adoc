@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, protection, relationship, failover, failback 
 summary: 'Quando un volume di origine nella relazione di protezione viene disattivato a causa di un guasto hardware o di un disastro, è possibile utilizzare le funzionalità delle relazioni di protezione di Unified Manager per rendere la destinazione di protezione accessibile in lettura/scrittura e eseguire il failover su tale volume fino a quando l"origine non è nuovamente online; quindi, è possibile tornare all"origine originale quando è disponibile per la distribuzione dei dati.' 
 ---
-= Esecuzione di failover e failback delle relazioni di protezione
+= Eseguire un failover e un failback della relazione di protezione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

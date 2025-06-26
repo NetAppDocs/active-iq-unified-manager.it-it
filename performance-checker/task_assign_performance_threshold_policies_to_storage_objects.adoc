@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, performance, threshold, policies, storage, objects 
 summary: 'Si assegna un criterio di soglia delle performance definito dall"utente a un oggetto storage in modo che Unified Manager rifera un evento se il valore del contatore delle performance supera l"impostazione del criterio.' 
 ---
-= Assegnazione di criteri di soglia delle performance agli oggetti di storage
+= Assegnare criteri di soglia delle prestazioni agli oggetti di archiviazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

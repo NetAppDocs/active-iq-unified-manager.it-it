@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: access, ONTAP, APIs, proxy, access 
 summary: 'Le API del gateway offrono il vantaggio di utilizzare le credenziali Active IQ Unified Manager per eseguire le API REST ONTAP e gestire gli oggetti di storage. Queste API sono disponibili quando la funzione API Gateway è attivata dall"interfaccia utente Web di Unified Manager.' 
 ---
-= Accesso alle API ONTAP tramite accesso proxy
+= Accedi alle API ONTAP tramite accesso proxy
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -70,7 +70,7 @@ Il `OPTIONS` method (metodo) determina se una risorsa è disponibile. Questa ope
 |===
 
 
-== Informazioni sul tunneling del gateway API
+== Comprendere il tunneling dell'API Gateway
 
 Le API del gateway consentono di gestire gli oggetti ONTAP tramite Unified Manager. Unified Manager gestisce i cluster e i dettagli di autenticazione e reindirizza le richieste all'endpoint REST di ONTAP. L'API del gateway trasforma URL e Hypermedia come collegamenti HATEOAS (Engine of Application state) nell'intestazione e nel corpo di risposta con l'URL di base del gateway API. L'API del gateway funge da URL di base del proxy a cui si aggiunge l'URL REST ONTAP ed esegue l'endpoint REST ONTAP richiesto.
 
@@ -102,7 +102,7 @@ L'API restituisce l'elenco dei volumi di storage in quel cluster. Il formato di 
 
 
 
-== Impostazione dell'ambito API
+== Imposta l'ambito dell'API
 
 Tutte le API hanno un contesto impostato all'interno dell'ambito del cluster. Le API che operano sulla base delle VM di storage hanno anche il cluster come scopo, ovvero le operazioni API vengono eseguite su una particolare VM di storage all'interno di un cluster gestito. Quando si esegue `/gateways/\{uuid}/\{path}` API, assicurarsi di immettere l'UUID del cluster (UUID origine dati di Unified Manager) per il cluster su cui si esegue l'operazione. Per impostare il contesto su una specifica VM di storage all'interno di quel cluster, inserire la chiave della VM di storage come parametro X-Dot-SVM-UID o il nome della VM di storage come parametro X-Dot-SVM-Name. Il parametro viene aggiunto come filtro nell'intestazione della stringa e l'operazione viene eseguita nell'ambito della VM di storage all'interno del cluster.
 

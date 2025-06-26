@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, health, thresholds 
 summary: È possibile configurare i valori delle soglie di integrità globali per tutti gli aggregati, i volumi e i qtree per tenere traccia di eventuali violazioni delle soglie di integrità. 
 ---
-= Gestione delle soglie di integrità
+= Gestire le soglie di salute
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

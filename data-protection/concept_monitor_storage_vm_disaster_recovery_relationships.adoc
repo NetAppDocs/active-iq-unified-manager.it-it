@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disaster recovery, monitor, storage vm protection, relationships 
 summary: Active IQ Unified Manager supporta il monitoraggio delle relazioni di disaster recovery delle macchine virtuali dello storage, che offre disaster recovery alla granularità di un livello di storage VM. Il disaster recovery delle macchine virtuali dello storage consente il ripristino dei dati presenti nei volumi costitutivi della macchina virtuale dello storage e il ripristino della configurazione delle macchine virtuali dello storage. 
 ---
-= Monitoraggio delle relazioni di protezione di Storage VM Disaster Recovery
+= Monitorare le relazioni di protezione del ripristino di emergenza della VM di archiviazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

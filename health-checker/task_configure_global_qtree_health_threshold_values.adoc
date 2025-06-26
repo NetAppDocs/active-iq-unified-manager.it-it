@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, qtree, health, threshold values 
 summary: È possibile configurare i valori della soglia di integrità globale per tutti i qtree per tenere traccia di qualsiasi violazione di soglia. Gli eventi appropriati vengono generati per le violazioni delle soglie di salute ed è possibile adottare misure preventive in base a tali eventi. È possibile configurare i valori globali in base alle impostazioni delle Best practice per le soglie applicabili a tutti i qtree monitorati. 
 ---
-= Configurazione dei valori globali delle soglie di integrità del qtree
+= Configurare i valori di soglia di integrità globali di qtree
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

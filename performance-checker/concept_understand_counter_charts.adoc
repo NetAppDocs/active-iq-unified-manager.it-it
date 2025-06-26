@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, counter, charts 
 summary: 'I grafici nel riquadro Counter Chart consentono di visualizzare e confrontare i dati delle performance per l"oggetto root e per gli oggetti aggiunti dalla griglia Correlated Objects. Ciò può aiutarti a comprendere le tendenze delle performance e a isolare e risolvere i problemi di performance.' 
 ---
-= Comprensione dei diagrammi di contatore
+= Comprendere i grafici dei contatori
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

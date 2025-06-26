@@ -27,7 +27,7 @@ Per informazioni dettagliate sui requisiti di sistema, consultare link:../instal
 
 
 
-== Installazione di Active IQ Unified Manager
+== Installare Active IQ Unified Manager
 
 
 

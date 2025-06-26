@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, user, settings 
 summary: 'È possibile modificare le impostazioni utente, ad esempio l"indirizzo e-mail e il ruolo, specificate da ciascun utente. Ad esempio, è possibile modificare il ruolo di un utente che è un operatore di storage e assegnare all"utente i privilegi di amministratore dello storage.' 
 ---
-= Modifica delle impostazioni utente
+= Modifica le impostazioni utente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

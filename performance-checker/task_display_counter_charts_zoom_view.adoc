@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: display, counter charts, zoom, view 
 summary: La vista Zoom dei grafici dei contatori fornisce un livello di dettaglio più dettagliato per il grafico dei contatori selezionato e la relativa timeline associata. Ciò consente di ingrandire i dati del contatore, consentendo di avere una vista più nitida degli eventi relativi alle performance e delle relative cause. 
 ---
-= Visualizzazione della vista Zoom dei grafici contatori
+= Visualizza la vista zoom dei grafici del contatore
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

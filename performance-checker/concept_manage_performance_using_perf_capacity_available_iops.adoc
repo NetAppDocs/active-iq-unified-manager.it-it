@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, performance, capacity, available, iops, information 
 summary: 'Performance Capacity (capacità delle performance) indica la quantità di throughput che è possibile ottenere da una risorsa senza superare le performance utili di tale risorsa. Quando viene visualizzata utilizzando i contatori delle performance esistenti, la capacità delle performance è il punto in cui si ottiene il massimo utilizzo da un nodo o aggregato prima che la latenza diventi un problema.' 
 ---
-= Gestire le performance utilizzando la capacità delle performance e le informazioni IOPS disponibili
+= Gestire le prestazioni utilizzando la capacità delle prestazioni e le informazioni IOPS disponibili
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -17,7 +17,7 @@ Unified Manager raccoglie le statistiche sulla capacità delle performance dai n
 
 Mentre la capacità delle performance libera fornisce una percentuale della risorsa ancora disponibile, _IOPS disponibili_ indica il numero di IOPS che possono essere aggiunti alla risorsa prima di raggiungere la capacità di performance massima. Utilizzando questa metrica, puoi essere sicuro di poter aggiungere carichi di lavoro di un numero predeterminato di IOPS a una risorsa.
 
-Il monitoraggio delle informazioni sulla capacità delle performance offre i seguenti vantaggi:
+Monitorare le informazioni sulla capacità delle prestazioni presenta i seguenti vantaggi:
 
 * Fornisce assistenza per il provisioning e il bilanciamento del workflow.
 * Consente di evitare di sovraccaricare un nodo o di spingerne le risorse oltre il punto ottimale, riducendo così la necessità di eseguire il troubleshooting.

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, unified manager, recommendations, tier, data, cloud 
 summary: 'La vista Performance: All Volumes (prestazioni: Tutti i volumi) visualizza le informazioni relative alle dimensioni dei dati utente memorizzati nel volume inattivo (freddo). In alcuni casi, Unified Manager identifica alcuni volumi che trarrebbero beneficio dal tiering dei dati inattivi nel Tier cloud (cloud provider o StorageGRID) di un aggregato abilitato a FabricPool.' 
 ---
-= Comprendere le raccomandazioni di Unified Manager per il Tier dei dati nel cloud
+= Comprendere le raccomandazioni di Unified Manager per il livellamento dei dati nel cloud
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

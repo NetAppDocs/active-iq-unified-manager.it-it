@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node list, details 
 summary: 'È possibile utilizzare la vista Health: All Nodes (Salute: Tutti i nodi) per visualizzare l"elenco dei nodi nei cluster. È possibile utilizzare la pagina Cluster / Health Details per visualizzare informazioni dettagliate sui nodi che fanno parte del cluster monitorato.' 
 ---
-= Visualizzazione dell'elenco dei nodi e dei dettagli
+= Visualizza l'elenco dei nodi e i dettagli
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

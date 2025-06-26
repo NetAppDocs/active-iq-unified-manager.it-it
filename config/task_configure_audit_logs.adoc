@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, audit logs 
 summary: 'È possibile utilizzare il pulsante Configure (Configura) nella sezione Audit Logs (registri di controllo) per configurare i criteri di rolling per i file di registro di controllo e per attivare la registrazione remota per i registri di controllo.' 
 ---
-= Configurazione dei registri di audit
+= Configurare i registri di controllo
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -19,6 +19,6 @@ summary: 'È possibile utilizzare il pulsante Configure (Configura) nella sezion
 . Fare clic su *Audit Logs* > > *Configure*.
 . Inserire i valori nelle voci *MAX FILE SIZE*, *TOTAL AUDIT LOG SIZE* e *AUDIT LOG RETENTION DAYS*.
 +
-Se si desidera attivare la registrazione remota, selezionare *Enable Remote Logging* (attiva registrazione remota).
+Se si desidera attivare la registrazione remota, selezionare *Enable Remote Logging* (attiva registrazione remota). /// 2025-6-11, OTHERDOC-133
 
 

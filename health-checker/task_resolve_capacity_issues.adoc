@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, capacity issues 
 summary: Questo flusso di lavoro fornisce un esempio di come risolvere un problema di capacità. In questo scenario, si è un amministratore o un operatore e si accede alla pagina Dashboard di Unified Manager per verificare se uno degli oggetti di storage monitorati presenta problemi di capacità. Si desidera determinare la possibile causa del problema e risolverlo. 
 ---
-= Risoluzione dei problemi di capacità
+= Risolvere i problemi di capacità
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

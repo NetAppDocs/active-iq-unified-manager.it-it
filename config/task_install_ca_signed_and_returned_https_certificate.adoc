@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, ca signed, returned, https, certificate 
 summary: 'È possibile caricare e installare un certificato di sicurezza dopo che un"autorità di certificazione ha firmato e restituito il certificato. Il file caricato e installato deve essere una versione firmata del certificato autofirmato esistente. Un certificato con firma CA aiuta a prevenire gli attacchi man-in-the-middle e offre una protezione migliore rispetto a un certificato autofirmato.' 
 ---
-= Installazione di un certificato HTTPS firmato e restituito dalla CA
+= Installa un certificato HTTPS firmato e restituito da una CA
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

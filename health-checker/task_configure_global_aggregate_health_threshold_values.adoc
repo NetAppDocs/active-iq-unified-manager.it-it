@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global, aggregate, health, threshold values 
 summary: È possibile configurare i valori delle soglie globali di integrità per tutti gli aggregati per tenere traccia di qualsiasi violazione di soglia. Gli eventi appropriati vengono generati per le violazioni di soglia ed è possibile adottare misure preventive in base a tali eventi. È possibile configurare i valori globali in base alle impostazioni delle Best practice per le soglie applicabili a tutti gli aggregati monitorati. 
 ---
-= Configurazione dei valori globali di soglia di integrità degli aggregati
+= Configurare i valori soglia di integrità aggregati globali
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

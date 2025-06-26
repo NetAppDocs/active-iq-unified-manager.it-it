@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, troubleshoot 
 summary: 'L"analizzatore del carico di lavoro consente di visualizzare importanti criteri di salute e performance per un singolo carico di lavoro su una singola pagina per agevolare la risoluzione dei problemi. Visualizzando tutti gli eventi attuali e passati per un workload, è possibile capire meglio perché il workload potrebbe avere un problema di performance o capacità.' 
 ---
-= Risoluzione dei problemi dei carichi di lavoro utilizzando l'analizzatore dei carichi di lavoro
+= Risolvere i problemi dei carichi di lavoro utilizzando l'analizzatore dei carichi di lavoro
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

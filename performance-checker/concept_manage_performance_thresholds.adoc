@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, thresholds 
 summary: 'I criteri di soglia delle performance consentono di determinare il punto in cui Unified Manager genera un evento per informare gli amministratori di sistema su problemi che potrebbero influire sulle performance dei workload. Questi criteri di soglia sono noti come soglie di performance definite dall"utente.' 
 ---
-= Gestione delle soglie di performance
+= Gestire le soglie di prestazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

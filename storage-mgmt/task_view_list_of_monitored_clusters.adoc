@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, list, monitored, clusters 
 summary: 'È possibile utilizzare la pagina Cluster Setup per visualizzare l"inventario dei cluster. È possibile visualizzare i dettagli dei cluster, ad esempio il nome o l"indirizzo IP e lo stato della comunicazione.' 
 ---
-= Visualizzazione dell'elenco dei cluster monitorati
+= Visualizza l'elenco dei cluster monitorati
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

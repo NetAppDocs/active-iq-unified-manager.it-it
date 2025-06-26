@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, performance, thresholds, counter, charts, zoom, view 
 summary: Applicazione delle soglie nella visualizzazione Zoom dei grafici dei contatori fornisce una vista dettagliata delle occorrenze degli eventi delle soglie delle prestazioni. In questo modo è possibile applicare o rimuovere le soglie e visualizzare immediatamente i risultati, cosa che può essere utile per decidere se la risoluzione dei problemi deve essere la fase successiva. 
 ---
-= Selezione delle soglie di performance in Counter Chart Zoom View
+= Seleziona le soglie di prestazione nella vista zoom dei grafici dei contatori
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

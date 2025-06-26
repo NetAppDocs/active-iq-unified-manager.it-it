@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, volume, health, thresholds, groups 
 summary: È possibile configurare le soglie di integrità dei volumi a livello di gruppo per capacità, copie Snapshot, quote qtree, crescita e inode. 
 ---
-= Configurazione delle soglie di integrità dei volumi per i gruppi
+= Configurare le soglie di integrità del volume per i gruppi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

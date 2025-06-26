@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, provision, disk, volume, thin-provisioning 
 summary: 'Quando un volume non viene sottoposto a thin provisioning, occupa l"intera quantità di spazio sul disco, come definito al momento della creazione del volume. L"identificazione dei volumi con thin provisioning disattivato consente di decidere se attivare il thin provisioning su determinati volumi.' 
 ---
-= Creazione di un report per identificare lo spazio utilizzato dai volumi con il thin provisioning disattivato
+= Crea un report per identificare lo spazio utilizzato dai volumi con provisioning sottile disabilitato
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

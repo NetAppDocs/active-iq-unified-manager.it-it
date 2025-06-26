@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: update, saml, authentication, settings, unified manager, security, certificate, change 
 summary: 'Qualsiasi modifica al certificato di protezione HTTPS installato sul server Unified Manager richiede l"aggiornamento delle impostazioni di configurazione per l"autenticazione SAML. Il certificato viene aggiornato se si rinomina il sistema host, si assegna un nuovo indirizzo IP al sistema host o si modifica manualmente il certificato di protezione del sistema.' 
 ---
-= Aggiornamento delle impostazioni di autenticazione SAML dopo la modifica del certificato di protezione di Unified Manager
+= Aggiorna le impostazioni di autenticazione SAML dopo la modifica del certificato di sicurezza di Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, failed, successful, volume, transfer 
 summary: È possibile creare un report che visualizzi lo stato dei trasferimenti di volume. In questo report è possibile visualizzare i trasferimenti di volume non riusciti e quelli riusciti. 
 ---
-= Creazione di un report per la visualizzazione di un trasferimento di volume non riuscito o riuscito
+= Crea un report per visualizzare i trasferimenti di volume riusciti o non riusciti
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

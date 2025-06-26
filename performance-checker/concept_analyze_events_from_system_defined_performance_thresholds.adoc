@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: analyze, events, system-defined, performance, thresholds 
 summary: 'Gli eventi generati dalle soglie delle performance definite dal sistema indicano che un contatore delle performance, o un insieme di contatori delle performance, per un determinato oggetto di storage ha superato la soglia di un criterio definito dal sistema. Ciò indica che l"oggetto storage, ad esempio un aggregato o un nodo, sta riscontrando un problema di performance.' 
 ---
-= Analisi degli eventi dalle soglie di performance definite dal sistema
+= Analizza gli eventi dalle soglie di prestazioni definite dal sistema
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

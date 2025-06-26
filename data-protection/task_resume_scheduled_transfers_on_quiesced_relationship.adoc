@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resume, schedule, transfers, quiesce, relationship, volume relationships page 
 summary: Dopo aver interrotto una relazione per impedire il verificarsi di trasferimenti pianificati, è possibile utilizzare Riprendi per riattivare i trasferimenti pianificati in modo da proteggere i dati sul volume primario o di origine. I trasferimenti vengono ripristinati da un checkpoint, se presente, al successivo intervallo di trasferimento pianificato. 
 ---
-= Ripresa dei trasferimenti pianificati su una relazione quiescente dalla pagina Volume Relationship (Relazioni volume)
+= Riprendi i trasferimenti pianificati su una relazione sospesa dalla pagina Relazioni di volume
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

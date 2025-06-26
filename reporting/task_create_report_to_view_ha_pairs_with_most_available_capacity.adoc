@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, HA pairs, available, capacity 
 summary: 'È possibile creare un report per trovare le coppie ad alta disponibilità (ha) con la maggiore capacità per il provisioning di nuovi volumi e LUN.' 
 ---
-= Creazione di un report per visualizzare le coppie ha con la capacità più disponibile
+= Crea un report per visualizzare le coppie HA con la capacità più disponibile
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfers, day 
 summary: È possibile creare un report per visualizzare i trasferimenti di volume raggruppati per giorno. 
 ---
-= Creazione di un report per visualizzare i trasferimenti di volume raggruppati per giorno
+= Crea un report per visualizzare i trasferimenti di volume raggruppati per giorno
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

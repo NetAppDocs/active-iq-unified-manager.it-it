@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, maintenance, window, disable, cluster, event, notifications 
 summary: Se si dispone di un downtime pianificato per un cluster, ad esempio per aggiornare il cluster o per spostare uno dei nodi, è possibile eliminare gli eventi e gli avvisi che normalmente verrebbero generati durante tale periodo di tempo, programmando una finestra di manutenzione di Unified Manager. 
 ---
-= Pianificazione di una finestra di manutenzione per disattivare le notifiche degli eventi del cluster
+= Pianifica una finestra di manutenzione per disabilitare le notifiche degli eventi del cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

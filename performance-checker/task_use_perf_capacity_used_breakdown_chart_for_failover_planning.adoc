@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used, breakdown, chart, failover, planning 
 summary: Il grafico dettagliato della capacità di performance utilizzata - ripartizione mostra la capacità di performance utilizzata per il nodo primario e il nodo partner. Mostra inoltre la quantità di capacità di performance libera sul nodo Estimated Takeover. Queste informazioni consentono di determinare se si potrebbero verificare problemi di performance in caso di guasto del nodo partner. 
 ---
-= Utilizzo del grafico di dettaglio Performance Capacity Used per la pianificazione del failover
+= Utilizzare il grafico di ripartizione della capacità di prestazioni utilizzata per la pianificazione del failover
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, counter, manage, performance 
 summary: 'In genere, le organizzazioni desiderano operare con una percentuale di capacità utilizzata per le performance inferiore a 100, in modo che le risorse vengano utilizzate in modo efficiente, riservando al tempo stesso una capacità di performance aggiuntiva per supportare le richieste di periodi di picco. È possibile utilizzare i criteri di soglia per personalizzare l"invio di avvisi per i valori di capacità utilizzata dalle performance elevate.' 
 ---
-= Utilizzo della capacità di performance utilizzata per gestire le performance
+= Utilizzare il contatore della capacità di prestazione utilizzata per gestire le prestazioni
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

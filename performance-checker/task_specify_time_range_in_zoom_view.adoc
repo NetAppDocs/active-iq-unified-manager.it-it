@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: specify, time range, zoom view 
 summary: 'Il controllo Time Range (intervallo di tempo) nella finestra Counter Chart Zoom View (Vista zoom contatori grafici) consente di specificare una data e un intervallo di tempo per il grafico selezionato. In questo modo è possibile individuare rapidamente dati specifici in base a un intervallo di tempo preimpostato o a un intervallo di tempo personalizzato.' 
 ---
-= Specifica dell'intervallo di tempo nella vista Zoom
+= Specificare l'intervallo di tempo nella vista Zoom
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

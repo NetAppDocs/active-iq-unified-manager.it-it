@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, nested groups, remote, authentication 
 summary: 'Se l"autenticazione remota è attivata, è possibile disattivare l"autenticazione dei gruppi nidificati in modo che solo i singoli utenti e non i membri del gruppo possano autenticarsi in remoto in Unified Manager. È possibile disattivare i gruppi nidificati quando si desidera migliorare i tempi di risposta per l"autenticazione di Active Directory.' 
 ---
-= Disattivazione dei gruppi nidificati dall'autenticazione remota
+= Disabilitare i gruppi nidificati dall'autenticazione remota
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, authentication, servers 
 summary: È possibile eliminare un server di autenticazione se si desidera impedire al server Unified Manager di comunicare con il server di autenticazione. Ad esempio, se si desidera modificare un server di autenticazione con cui il server di gestione sta comunicando, è possibile eliminare il server di autenticazione e aggiungere un nuovo server di autenticazione. 
 ---
-= Eliminazione dei server di autenticazione
+= Elimina i server di autenticazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

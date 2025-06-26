@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, workload, qos, minimum, maximum, settings, performance, explorer 
 summary: 'È possibile visualizzare le impostazioni dei criteri della qualità del servizio (QoS) definita da ONTAP su un volume o LUN nei grafici di Performance Explorer. Un"impostazione del throughput massimo limita l"impatto dei carichi di lavoro concorrenti sulle risorse di sistema. Un"impostazione di throughput minimo garantisce che un carico di lavoro critico soddisfi gli obiettivi di throughput minimi indipendentemente dalla domanda dei carichi di lavoro concorrenti.' 
 ---
-= Visualizzazione delle impostazioni minime e massime QoS del carico di lavoro in Performance Explorer
+= Visualizza le impostazioni minime e massime QoS del carico di lavoro in Performance Explorer
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

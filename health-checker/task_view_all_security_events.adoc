@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, security events 
 summary: È possibile visualizzare tutti gli eventi di protezione attivi e assegnarli a un utente in grado di risolvere il problema. Inoltre, se alcuni eventi di protezione non si desidera ricevere, questo elenco può aiutare a identificare gli eventi che si desidera disattivare. 
 ---
-= Visualizzazione di tutti gli eventi di sicurezza attivi
+= Visualizza tutti gli eventi di sicurezza attivi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

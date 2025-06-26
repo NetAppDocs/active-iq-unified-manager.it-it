@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: collect, data, monitor, workload, performance 
 summary: 'Unified Manager raccoglie e analizza l"attività dei carichi di lavoro ogni 5 minuti per identificare gli eventi relativi alle performance e rileva le modifiche alla configurazione ogni 15 minuti. Conserva un massimo di 30 giorni di dati storici relativi alle performance e agli eventi di 5 minuti e utilizza questi dati per prevedere l"intervallo di latenza previsto per tutti i carichi di lavoro monitorati.' 
 ---
-= Raccolta di dati e monitoraggio delle performance dei carichi di lavoro
+= Raccogli dati e monitora le prestazioni del carico di lavoro
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

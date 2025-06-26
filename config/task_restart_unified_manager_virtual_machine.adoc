@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restart, unified manager, virtual, machine 
 summary: È possibile riavviare la macchina virtuale dalla console di manutenzione di Unified Manager. Riavviare dopo aver generato un nuovo certificato di protezione o in caso di problemi con la macchina virtuale. 
 ---
-= Riavvio della macchina virtuale di Unified Manager
+= Riavviare la macchina virtuale di Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

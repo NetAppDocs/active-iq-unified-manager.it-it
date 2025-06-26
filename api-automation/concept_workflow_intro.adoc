@@ -17,7 +17,7 @@ I flussi di lavoro descrivono alcuni dei casi di utilizzo più comuni per la ges
 
 
 
-== Informazioni sulle chiamate API utilizzate nei flussi di lavoro
+== Comprendere le chiamate API utilizzate nei flussi di lavoro
 
 È possibile visualizzare la pagina della documentazione online dall'istanza di Unified Manager che include i dettagli di ogni chiamata API REST. Questo documento non ripete i dettagli della documentazione online. Ogni chiamata API utilizzata negli esempi del flusso di lavoro in questo documento include solo le informazioni necessarie per individuare la chiamata nella pagina della documentazione. Dopo aver individuato una chiamata API specifica, è possibile esaminare i dettagli completi della chiamata, inclusi i parametri di input, i formati di output, i codici di stato HTTP e il tipo di elaborazione della richiesta.
 

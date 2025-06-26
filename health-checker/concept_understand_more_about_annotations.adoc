@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, annotations 
 summary: La comprensione dei concetti relativi alle annotazioni consente di gestire gli eventi correlati agli oggetti di storage nel proprio ambiente. 
 ---
-= Ulteriori informazioni sulle annotazioni
+= Scopri di più sulle annotazioni
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

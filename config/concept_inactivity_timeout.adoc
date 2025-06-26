@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: inactivity timeout, feature settings 
 summary: 'È possibile specificare il valore di timeout di inattività per Active IQ Unified Manager. Dopo un periodo di inattività pari al tempo specificato, l"applicazione viene disconnessa automaticamente. Questa opzione è attivata per impostazione predefinita.' 
 ---
-= Specifica del timeout di inattività
+= Specificare il timeout di inattività
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

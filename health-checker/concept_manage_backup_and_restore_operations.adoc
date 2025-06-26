@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, types, manage, restore, operations 
 summary: 'È possibile creare backup di Active IQ Unified Manager e utilizzare la funzione di ripristino per ripristinare il backup sullo stesso sistema (locale) o su un nuovo sistema (remoto) in caso di guasto del sistema o perdita di dati.' 
 ---
-= Gestione delle operazioni di backup e ripristino
+= Gestire le operazioni di backup e ripristino
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

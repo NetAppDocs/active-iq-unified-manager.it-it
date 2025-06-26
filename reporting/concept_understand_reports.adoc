@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, reports 
 summary: I report visualizzano informazioni dettagliate su storage, rete, qualità del servizio e relazioni di protezione, aiutandoti a identificare e risolvere potenziali problemi prima che si verifichino. 
 ---
-= Informazioni sui report
+= Comprendere i report
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

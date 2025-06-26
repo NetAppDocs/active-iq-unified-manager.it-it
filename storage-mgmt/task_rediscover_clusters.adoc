@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: rediscover clusters, 
 summary: È possibile riscoprire manualmente un cluster dalla pagina Cluster Setup per ottenere le informazioni più recenti sullo stato di salute, sullo stato di monitoraggio e sullo stato delle performance del cluster. 
 ---
-= Riscoprendo i cluster
+= Riscoprire i cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

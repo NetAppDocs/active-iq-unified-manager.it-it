@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, authentication 
 summary: 'È possibile attivare l"autenticazione utilizzando LDAP o Active Directory sul server Unified Manager e configurarlo per l"utilizzo con i server per l"autenticazione degli utenti remoti.' 
 ---
-= Gestione dell'autenticazione
+= Gestisci l'autenticazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

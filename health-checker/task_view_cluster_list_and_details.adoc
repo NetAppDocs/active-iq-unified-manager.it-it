@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, cluster list, details 
 summary: 'È possibile utilizzare la vista Health: All Clusters (Salute: Tutti i cluster) per visualizzare l"inventario dei cluster. La vista capacità: Tutti i cluster consente di visualizzare informazioni riepilogative sulla capacità e sull"utilizzo dello storage in tutti i cluster.' 
 ---
-= Visualizzazione dell'elenco e dei dettagli del cluster
+= Visualizza l'elenco e i dettagli dei cluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

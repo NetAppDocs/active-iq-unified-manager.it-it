@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: define, backup, schedule, linux, windows, snapshot copy, copies 
 summary: 'È possibile configurare la pianificazione con cui vengono create le copie Snapshot di Unified Manager utilizzando l"interfaccia utente di Unified Manager.' 
 ---
-= Definizione di una pianificazione di backup per Linux e Windows
+= Definisci una pianificazione di backup per Linux e Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

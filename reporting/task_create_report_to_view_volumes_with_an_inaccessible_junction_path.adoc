@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, inaccessible, mount, path 
 summary: È possibile creare un report per trovare i volumi con un percorso di montaggio inaccessibile. 
 ---
-= Creazione di un report per visualizzare i volumi con un percorso di montaggio inaccessibile
+= Crea un report per visualizzare i volumi che hanno un percorso di montaggio inaccessibile
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

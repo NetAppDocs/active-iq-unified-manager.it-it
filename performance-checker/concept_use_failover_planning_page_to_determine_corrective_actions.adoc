@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: node, failover, planning page, determine, corrective, actions 
 summary: 'In base alle informazioni visualizzate nella pagina Performance/Node failover Planning (Pianificazione delle performance/failover dei nodi), è possibile intraprendere azioni per garantire che un failover non causi un calo delle performance di una coppia ha al di sotto di un livello accettabile.' 
 ---
-= Utilizzo della pagina Node failover Planning (Pianificazione del failover del nodo) per determinare le azioni correttive
+= Utilizzare la pagina Pianificazione del failover del nodo per determinare le azioni correttive
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

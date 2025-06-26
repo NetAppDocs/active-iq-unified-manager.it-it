@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, global health, threshold settings 
 summary: È possibile configurare le condizioni delle soglie di integrità globali per capacità, crescita, Snapshot Reserve, quote e inode per monitorare in modo efficace le dimensioni di aggregato, volume e qtree. È inoltre possibile modificare le impostazioni per la generazione di eventi per il superamento delle soglie di ritardo. 
 ---
-= Configurazione delle impostazioni della soglia di integrità globale
+= Configurare le impostazioni della soglia di salute globale
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, unified manager, windows 
 summary: È importante comprendere la sequenza di passaggi per scaricare e installare Unified Manager su Windows. 
 ---
-= Installazione di Unified Manager su Windows
+= Installa Unified Manager su Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

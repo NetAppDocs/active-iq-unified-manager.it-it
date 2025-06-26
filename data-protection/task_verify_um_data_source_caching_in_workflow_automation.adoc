@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, unified manager, data source, cache, workflow automation 
 summary: 'È possibile determinare se il caching dell"origine dati di Unified Manager funziona correttamente controllando se l"acquisizione dell"origine dati ha esito positivo in Workflow Automation. È possibile farlo quando si integra l"automazione del flusso di lavoro con Unified Manager per garantire che la funzionalità di automazione del flusso di lavoro sia disponibile dopo l"integrazione.' 
 ---
-= Verifica del caching dell'origine dati di Unified Manager in Workflow Automation
+= Verificare la memorizzazione nella cache della fonte dati di Unified Manager in Workflow Automation
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

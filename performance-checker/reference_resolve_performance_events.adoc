@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolving, performance, events 
 summary: È possibile utilizzare le azioni suggerite per tentare di risolvere gli eventi relativi alle performance autonomamente. I primi tre suggerimenti vengono sempre visualizzati e le azioni sotto il quarto suggerimento sono specifiche per il tipo di evento visualizzato. 
 ---
-= Risoluzione degli eventi relativi alle performance
+= Risolvere gli eventi di performance
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

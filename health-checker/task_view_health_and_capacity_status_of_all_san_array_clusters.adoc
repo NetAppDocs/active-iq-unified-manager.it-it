@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, all san array, health and capacity, clusters 
 summary: È possibile utilizzare le pagine di inventario del cluster per visualizzare lo stato di salute e capacità dei cluster All SAN Array. 
 ---
-= Visualizzazione dello stato di salute e capacità di tutti i cluster di array SAN
+= Visualizza lo stato di integrità e capacità di tutti i cluster SAN Array
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

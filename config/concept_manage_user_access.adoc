@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, user, access 
 summary: 'È possibile creare ruoli e assegnare funzionalità per controllare l"accesso degli utenti agli oggetti del cluster selezionati. È possibile identificare gli utenti che dispongono delle funzionalità necessarie per accedere agli oggetti selezionati all"interno di un cluster. Solo a questi utenti viene fornito l"accesso per gestire gli oggetti del cluster.' 
 ---
-= Gestione dell'accesso degli utenti
+= Gestire l'accesso degli utenti
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

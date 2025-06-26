@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, health, clusters, metrocluster, configuration 
 summary: 'È possibile utilizzare Unified Manager per controllare lo stato operativo dei cluster e dei relativi componenti in una configurazione MetroCluster. Se i cluster sono stati coinvolti in un evento di performance rilevato da Unified Manager, lo stato di salute può aiutare a determinare se un problema hardware o software ha contribuito all"evento.' 
 ---
-= Verifica dello stato dei cluster in una configurazione MetroCluster
+= Controllare lo stato di salute dei cluster in una configurazione MetroCluster
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -21,7 +21,7 @@ summary: 'È possibile utilizzare Unified Manager per controllare lo stato opera
 
 
 
-== Determinazione dello stato del cluster nella configurazione MetroCluster over FC
+== Determinare lo stato del cluster in MetroCluster tramite la configurazione FC
 
 Per determinare lo stato del cluster in una configurazione MetroCluster su FC, procedere come segue.
 
@@ -59,7 +59,7 @@ In questo esempio, se l'icona NVRAM sul cluster locale o partner è gialla o ros
 
 
 
-== Determinazione dello stato del cluster nella configurazione MetroCluster over IP
+== Determinare lo stato del cluster nella configurazione MetroCluster su IP
 
 Per determinare lo stato del cluster in una configurazione MetroCluster over IP, procedere come segue.
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, events 
 summary: 'È possibile utilizzare Unified Manager per analizzare gli eventi relativi alle performance causati da un contatore delle performance che supera un avviso definito dall"utente o una soglia critica. È inoltre possibile utilizzare Unified Manager per controllare lo stato del componente del cluster per verificare se gli eventi di integrità recenti rilevati sul componente hanno contribuito all"evento delle performance.' 
 ---
-= Risposta agli eventi di soglia delle performance definiti dall'utente
+= Rispondere agli eventi di soglia delle prestazioni definiti dall'utente
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

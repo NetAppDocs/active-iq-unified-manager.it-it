@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, storage vm list, details 
 summary: 'Dalla vista Health: All Storage VM (Salute: Tutte le macchine virtuali dello storage), è possibile monitorare l"inventario delle macchine virtuali dello storage (SVM). È possibile utilizzare la pagina Storage VM / Health Details per visualizzare informazioni dettagliate sulle SVM monitorate.' 
 ---
-= Visualizzazione dell'elenco e dei dettagli di Storage VM
+= Visualizza l'elenco e i dettagli delle VM di archiviazione
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

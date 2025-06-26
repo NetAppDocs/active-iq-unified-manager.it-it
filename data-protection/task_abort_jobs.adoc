@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, jobs 
 summary: È possibile utilizzare la pagina lavori per interrompere un lavoro se il completamento del lavoro richiede troppo tempo, se si verificano troppi errori o se non è più necessario. È possibile interrompere un lavoro solo se lo stato e il tipo lo consentono. È possibile interrompere qualsiasi processo in esecuzione. 
 ---
-= Interruzione dei lavori
+= Interrompi i lavori
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

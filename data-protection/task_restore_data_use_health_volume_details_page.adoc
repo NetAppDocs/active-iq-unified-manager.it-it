@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, data, volume, health details page 
 summary: È possibile ripristinare file, directory o un intero volume sovrascritti o cancellati da una copia Snapshot utilizzando la funzione di ripristino nella pagina Dettagli volume / integrità. 
 ---
-= Ripristino dei dati mediante le pagine dei dettagli volume e volume/salute
+= Ripristinare i dati utilizzando le pagine Volume e Dettagli Volume/Integrità
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, values, annotations 
 summary: 'È possibile aggiungere valori alle annotazioni e associare gli oggetti di storage a una particolare coppia nome-valore dell"annotazione. L"aggiunta di valori alle annotazioni consente di gestire gli oggetti di storage in modo più efficace.' 
 ---
-= Aggiunta di valori alle annotazioni
+= Aggiungere valori alle annotazioni
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values 
 summary: È possibile monitorare i valori della capacità di performance utilizzata per tutti i nodi o per tutti gli aggregati di un cluster oppure visualizzare i dettagli di un singolo nodo o aggregato. 
 ---
-= Visualizzazione dei valori utilizzati per la capacità di nodo e le performance aggregate
+= Visualizza i valori utilizzati per la capacità di prestazioni del nodo e dell'aggregato
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -17,7 +17,7 @@ I valori utilizzati per la capacità delle performance vengono visualizzati nell
 
 image::../media/node_inventory_used_headroom.gif[Una schermata dell'interfaccia utente della pagina Performance: All aggregates (prestazioni: Tutti gli aggregati)]
 
-Il monitoraggio del contatore della capacità di performance utilizzata consente di identificare quanto segue:
+Monitorando il contatore della capacità prestazionale utilizzata è possibile identificare quanto segue:
 
 * Sia che i nodi o gli aggregati di qualsiasi cluster abbiano un valore di utilizzo della capacità dalle performance elevate
 * Sia che i nodi o gli aggregati di qualsiasi cluster abbiano eventi attivi di utilizzo della capacità delle performance

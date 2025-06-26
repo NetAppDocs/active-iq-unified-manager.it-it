@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, disk, failure 
 summary: 'È possibile utilizzare Unified Manager per analizzare un evento di performance causato da carichi di lavoro che utilizzano in modo eccessivo un aggregato. È inoltre possibile utilizzare Unified Manager per controllare lo stato dell"aggregato per verificare se gli eventi di salute recenti rilevati nell"aggregato hanno contribuito all"evento delle performance.' 
 ---
-= Risposta a un evento di performance dinamico causato da un guasto al disco
+= Rispondere a un evento di prestazioni dinamiche causato da un guasto del disco
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

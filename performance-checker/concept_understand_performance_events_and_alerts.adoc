@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, performance, events, alerts 
 summary: Gli eventi relativi alle performance sono notifiche generate automaticamente da Unified Manager quando si verifica una condizione predefinita o quando un valore del contatore delle performance supera una soglia. Gli eventi consentono di identificare i problemi di performance nei cluster monitorati. 
 ---
-= Informazioni su eventi e avvisi relativi alle performance
+= Comprendere gli eventi e gli avvisi sulle prestazioni
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

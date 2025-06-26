@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understanding, node, failover, planning page 
 summary: 'La pagina Performance/Node failover Planning stima l"impatto delle performance su un nodo in caso di guasto del nodo partner ad alta disponibilità (ha) del nodo. Unified Manager basa le stime sulle performance storiche dei nodi nella coppia ha.' 
 ---
-= Informazioni e utilizzo della pagina Node failover Planning (Pianificazione del failover del nodo)
+= Comprendere e utilizzare la pagina Pianificazione del failover dei nodi
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

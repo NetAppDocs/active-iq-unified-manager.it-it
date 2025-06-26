@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reverse, protection, relationships volume, health details page 
 summary: 'Quando un disastro disattiva il volume di origine nella relazione di protezione, è possibile utilizzare il volume di destinazione per fornire i dati convertendolo in lettura/scrittura durante la riparazione o la sostituzione dell"origine. Quando l"origine è nuovamente disponibile per ricevere i dati, è possibile utilizzare l"operazione di risincronizzazione inversa per stabilire la relazione nella direzione inversa, sincronizzando i dati sull"origine con i dati sulla destinazione di lettura/scrittura.' 
 ---
-= Invertire le relazioni di protezione dalla pagina dei dettagli relativi a volume/salute
+= Relazioni di protezione inversa dalla pagina dei dettagli Volume/Salute
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

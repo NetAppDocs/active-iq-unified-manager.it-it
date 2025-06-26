@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: abort, active, data protection, transfer, volume health details page 
 summary: 'È possibile interrompere un trasferimento di protezione dei dati attivo quando si desidera interrompere una replica SnapMirror in corso. È inoltre possibile cancellare il checkpoint di riavvio per un trasferimento se non si tratta di un trasferimento di riferimento. È possibile interrompere un trasferimento in caso di conflitto con un"altra operazione, ad esempio uno spostamento del volume.' 
 ---
-= Interruzione di un trasferimento di protezione dei dati attivo dalla pagina dei dettagli relativi a volume/salute
+= Annulla un trasferimento di protezione dati attivo dalla pagina dei dettagli Volume/Stato
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
