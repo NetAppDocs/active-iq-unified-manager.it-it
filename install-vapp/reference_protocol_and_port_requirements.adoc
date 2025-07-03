@@ -90,6 +90,50 @@ HTTPS
  a| 
 Utilizzato per accedere agli eventi EMS basati su API REST in tempo reale da sistemi ONTAP autenticati.
 
+
+
+ a| 
+Database MySQL
+ a| 
+MySQL
+ a| 
+3306
+ a| 
+Utilizzato per abilitare l'accesso ai servizi API OnCommand Workflow Automation e OnCommand a Unified Manager.
+
+
+
+ a| 
+Broker QPID AMQP
+ a| 
+TCP/IP
+ a| 
+56072
+ a| 
+Utilizzato per la comunicazione interna dei messaggi.
+
+
+
+ a| 
+Broker QPID AMQP
+ a| 
+WebSocket su TCP
+ a| 
+56080
+ a| 
+Utilizzato per ascoltare su questa porta i messaggi ricevuti da ONTAP (agente cloud).
+
+
+
+ a| 
+Broker QPID AMQP
+ a| 
+WebSocket su TCP
+ a| 
+56443
+ a| 
+Utilizzato per ascoltare su questa porta i messaggi ricevuti da ONTAP (agente cloud). La comunicazione tramite questa porta supporta la crittografia fornita da TLS o SSL.
+
 |===
 [NOTE]
 ====
