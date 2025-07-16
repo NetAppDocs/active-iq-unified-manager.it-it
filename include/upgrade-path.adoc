@@ -22,6 +22,7 @@ Ad esempio, se la versione installata è Unified Manager 9,9 e si desidera esegu
 .Esempio di percorso di aggiornamento:
 . Aggiornamento 9,11 -> 9,13
 . Aggiornamento 9,13 -> 9,14
+. Aggiornamento 9,13 -> 9,16
 . Aggiornamento 9,14 -> 9,16
 
 
