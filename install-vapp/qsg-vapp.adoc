@@ -17,7 +17,7 @@ summary: Guida rapida per Unified Manager su piattaforma VMware vSphere.
 
 == Requisiti di sistema
 
-* Sistema operativo: VMware ESXi 7,0 e 8,0
+* Sistema operativo: VMware ESXi 8.0
 * RAM: 12 GB
 * CPU: 9572 MHz in totale
 * Spazio libero su disco: 5 GB (thin provisioning), 152 GB (thick provisioning)

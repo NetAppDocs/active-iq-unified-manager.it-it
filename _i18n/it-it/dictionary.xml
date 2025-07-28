@@ -3771,11 +3771,8 @@
   <block id="1dbab26c4cc554e2d686240dce4e1c32" category="summary">È possibile riavviare la macchina virtuale (VM) di Unified Manager dalla console di manutenzione. Riavviare la macchina virtuale dopo aver generato un nuovo certificato di protezione o in caso di problemi con la macchina virtuale.</block>
   <block id="69ce6df093b147c7a25a04bf00305588" category="list-text">L'appliance virtuale deve essere accesa.</block>
   <block id="a7e118ba2e133d1563cd19a15fe2a116" category="list-text">L'utente deve essere connesso alla console di manutenzione di Unified Manager come utente di manutenzione.</block>
-  <block id="e073e6fe06cef770bc889b346bc6998f" category="paragraph">È inoltre possibile riavviare la macchina virtuale da vSphere utilizzando l'opzione VMware *Restart Guest*.</block>
   <block id="b6398bd7f47d9122f52612a31a850312" category="list-text">Nella console di manutenzione, selezionare *Configurazione del sistema* &gt; *riavvio della macchina virtuale*.</block>
   <block id="874e5f2c9cf179740df1c1b0a4b0a120" category="list-text">Avviare l'interfaccia utente Web di Unified Manager dal browser ed effettuare l'accesso.</block>
-  <block id="2a3a1fb09f0975179216fde1cbd8dc57" category="inline-link">Guida ai cmdlet di VMware vSphere PowerCLI: Restart-VMGuest</block>
-  <block id="89cc3af736280ef7a3e6fc0e835ec56a" category="paragraph"><block ref="89cc3af736280ef7a3e6fc0e835ec56a" category="inline-link-rx"></block></block>
   <block id="07b888beb5f74fad923ceb6fd324799b" category="summary">Prima di installare e configurare Unified Manager, è necessario disporre di informazioni specifiche sull'ambiente in uso. È possibile registrare le informazioni nel foglio di lavoro.</block>
   <block id="cb2410506c9a867eca80a50038aae5bf" category="section-title">Informazioni sull'installazione di Unified Manager</block>
   <block id="714dcae8392f307ccef657a142546bae" category="paragraph">I dettagli necessari per installare Unified Manager.</block>
@@ -3888,10 +3885,7 @@
   <block id="2b1a8d2d6cbc885621b02e96d3f25a43" category="paragraph">L'utente viene disconnesso automaticamente dalla console di manutenzione.</block>
   <block id="c8df6e5305c2cf95dcc9f8d6c0a038a3" category="list-text">*Opzionale:* accedere alla console di manutenzione e verificare la versione di Unified Manager.</block>
   <block id="bc9aaa7aae8f5b33a5613d0b03def13f" category="paragraph">È possibile avviare l'interfaccia utente Web in una nuova finestra di un browser Web supportato ed effettuare l'accesso per utilizzare la versione aggiornata di Unified Manager. Tenere presente che è necessario attendere il completamento del processo di rilevamento prima di eseguire qualsiasi attività nell'interfaccia utente.</block>
-  <block id="dbd6da6968cef7b169b16a1afe565d31" category="summary">Il sistema VMware vSphere su cui si installa Unified Manager richiede versioni specifiche del sistema operativo e del software di supporto.</block>
   <block id="00b445c51af4d8484e4707ea89f09276" category="section-title">Software del sistema operativo</block>
-  <block id="c1fb97df43f8780895ba7cc4ed9916c5" category="paragraph">Sono supportate le seguenti versioni di VMware ESXi:</block>
-  <block id="992457c87959064e1a1fd8702290dfc5" category="list-text">ESXi 7.0 e 8.0</block>
   <block id="cc52616bf744b78f139542e4d55938e0" category="paragraph">Sono supportate le seguenti versioni di vSphere:</block>
   <block id="fb0cd9631dee3f83386725234b971c75" category="list-text">VMware vCenter Server 7.0 e 8.0</block>
   <block id="0ad9e3bfb76fe781c444c61d823d6ca3" category="paragraph">Consulta la matrice di interoperabilità per l'elenco completo e aggiornato delle versioni di ESXi supportate.</block>
@@ -11276,7 +11270,6 @@
   <block id="ed2b47ce4d6fcfacbe77e96d5e7bf8fb" category="list-text">Nella finestra di dialogo *Rimuovi vCenter*, fare clic su *OK* per confermare la richiesta di rimozione.</block>
   <block id="adb5482d172346e58675bd3dae5bf089" category="list-text">È possibile aggiungere un cluster dall'interfaccia utente Web e attivare automaticamente l'autenticazione basata su certificati.</block>
   <block id="c237abf2822b92e4b37cfd364eb99eaf" category="list-text">È possibile aggiungere un cluster tramite l'interfaccia a riga di comando di Unified Manager, l'autenticazione basata sul certificato non è abilitata per impostazione predefinita. Se Aggiungi un cluster usando la CLI di Unified Manager, è necessario modificare il cluster usando l'interfaccia utente di Unified Manager. Puoi vedere <block ref="33f0770b98ea7c465f6e58d1466ad24f" category="inline-link-macro-rx"></block> Per aggiungere un cluster usando l'interfaccia a riga di comando di Unified Manager.</block>
-  <block id="c73b4673fd357d50ad7fe6b46f0de007" category="list-text">Sistema operativo: VMware ESXi 7,0 e 8,0</block>
   <block id="3a44bb5359e8b73237753f7fe7d14cc2" category="paragraph">Ad esempio, se la versione installata è Unified Manager 9,9 e si desidera eseguire l'aggiornamento a Unified Manager 9,14, si seguono una sequenza di aggiornamenti.</block>
   <block id="1e2075a18224b2ccd4cd9feb5cb36456" category="list-text">Aggiornamento 9,11 -&gt; 9,13</block>
   <block id="de77bda92bea07bb345ff4c0d56146c5" category="list-text">Aggiornamento 9,13 -&gt; 9,14</block>
@@ -11297,8 +11290,6 @@
   <block id="794b0fbf4e314ba18f71dba00d68d9b8" category="paragraph">Utilizzato per ascoltare su questa porta i messaggi ricevuti da ONTAP (agente cloud).</block>
   <block id="00595c0d01d488a33a068852a0c6b2b8" category="paragraph">56443</block>
   <block id="cd91ff9e0f252c06c8c6dc37f1c29ba7" category="paragraph">Utilizzato per ascoltare su questa porta i messaggi ricevuti da ONTAP (agente cloud). La comunicazione su questa porta supporta la crittografia fornita da TLS o SSL.</block>
-  <block id="d5ab8dc7ef67ca92e41d730982c5c602" category="paragraph">9000</block>
-  <block id="c566a5dbb0e92fc14cf27c5abc3316bd" category="paragraph">Consente di avviare l'interfaccia utente di gestione AMQP in questa pagina.</block>
   <block id="5c481563f3b57863c0a290b809a1e6ff" category="paragraph">Utilizzato per ascoltare su questa porta i messaggi ricevuti da ONTAP (agente cloud). La comunicazione tramite questa porta supporta la crittografia fornita da TLS o SSL.</block>
   <block id="7c6fa12173c375a840189f157e3cf098" category="admonition">Gli scanner per vulnerabilità (come Qualys) possono comportare un elevato utilizzo della CPU durante la scansione della macchina virtuale (VM) sia internamente (dove Unified Manager e lo scanner per vulnerabilità sono installati sulla stessa macchina virtuale) che esternamente (dove Unified Manager e lo scanner per la vulnerabilità sono installati su due server diversi e lo scanner per la vulnerabilità analizza la VM in cui è installato Unified Manager). Questo problema spesso causa una mancata risposta della macchina virtuale e influisce sui servizi di Unified Manager. Pertanto, NetApp consiglia di disattivare lo scanner per vulnerabilità nella macchina virtuale in cui è installato Unified Manager. Se la disattivazione dello scanner non è un'opzione, eseguire la scansione della VM durante le ore non lavorative e riavviare i servizi al termine della scansione.</block>
   <block id="c3d15a1717019bd68103a42fb3ccc50c" category="paragraph">Per i volumi protetti dalle relazioni di sincronizzazione attive di SnapMirror, in questa colonna viene visualizzato il gruppo di coerenza del volume.</block>
@@ -12067,4 +12058,10 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="b4ee4946f5a0d9d41aa0bd6a3d717e4b" category="sidebar">Risolvi o gestisci i problemi ONTAP direttamente da Unified Manager</block>
   <block id="545d96f4f0d0b5202dd1df85c81c6d09" category="paragraph">Utilizzato per ascoltare su questa porta i messaggi ricevuti da ONTAP (agente cloud). La comunicazione tramite questa porta supporta la crittografia fornita da TLS o SSL.</block>
   <block id="de7079b453dbd6e52c0ba80b1c38eae2" category="list-text">Aggiornamento 9,13 -&gt; 9,16</block>
+  <block id="6863825296946543c03f7677ae94e41c" category="list-text">Sistema operativo: VMware ESXi 8.0</block>
+  <block id="d381353a5c1648d3cc56488d652df409" category="summary">Il sistema VMware vSphere su cui si installa Unified Manager richiede una versione specifica del sistema operativo e versioni specifiche del software di supporto.</block>
+  <block id="94ff556e321c8409983ed2abadc3024e" category="paragraph">Il sistema operativo supportato è VMware ESXi 8.0.</block>
+  <block id="bb65d6ae4d44bbfd4567a82b59ce222d" category="inline-link">il cmdlet Restart-VMGuest nel riferimento ai CMDLET VMware vSphere PowerCLI di Broadcom.</block>
+  <block id="7681f55359343e6988de3e9f6957a814" category="paragraph">È anche possibile riavviare la macchina virtuale da vSphere utilizzando l'opzione VMware *Riavvia Guest*. Fare riferimento a <block ref="3b382a46b6e2c7a5212af2816922c4d0" category="inline-link-rx"></block></block>
+  <block id="342a7198ff8437c0b83702e716edd98f" category="list-text">Il cluster deve eseguire il software ONTAP versione 9.9 o successiva.</block>
 </blocks>
