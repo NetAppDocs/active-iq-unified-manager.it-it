@@ -11,7 +11,7 @@ summary: È possibile aggiornare Unified Manager scaricando ed eseguendo il file
 
 
 [role="lead"]
-Puoi eseguire l'aggiornamento di Unified Manager 9,13 o 9,14 alla versione 9,16 scaricando ed eseguendo il file di installazione sulla piattaforma Windows.
+È possibile aggiornare Unified Manager 9.14 o 9.16 alla versione 9.18 scaricando ed eseguendo il file di installazione sulla piattaforma Windows.
 
 .Prima di iniziare
 * Il sistema su cui si esegue l'aggiornamento di Unified Manager deve soddisfare i requisiti di sistema e software.

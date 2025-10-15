@@ -21,6 +21,7 @@ A seconda del sistema operativo su cui è stato installato Unified Manager, la c
 +
 .. Supporto/Diagnostica
 .. Reimposta certificato server
+.. Rigenera il certificato client
 .. Provider di dati esterno
 .. Backup Restore (Ripristino backup
 .. Configurazione dell'intervallo di polling delle performance

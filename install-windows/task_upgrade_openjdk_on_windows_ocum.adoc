@@ -22,7 +22,7 @@ summary: 'È possibile eseguire l"aggiornamento a una versione più recente di O
 . Accedere come utente amministratore sul computer host di Unified Manager.
 . Scaricare la versione appropriata di OpenJDK (64 bit) dal sito OpenJDK sul sistema di destinazione.
 +
-Ad esempio, scarica `jdk-11.0.18_windows-x64_bin.zip from https://www.oracle.com/in/java/technologies/javase/jdk11-archive-downloads.html`.
+Ad esempio, scarica il `jdk-17.0.15_windows-x64_bin.zip` file dalink:https://www.oracle.com/java/technologies/javase/jdk17-0-13-later-archive-downloads.html["la pagina di download dell'archivio Oracle Java SE 17"^] .
 
 +
 
