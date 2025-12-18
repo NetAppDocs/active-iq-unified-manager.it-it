@@ -18,6 +18,7 @@ summary: 'È possibile configurare gli avvisi in modo che notifichino quando vie
 * È necessario conoscere le risorse e gli eventi per i quali si desidera attivare l'avviso, nonché i nomi utente o gli indirizzi e-mail degli utenti che si desidera notificare.
 * Se si desidera eseguire uno script in base all'evento, è necessario aggiungere lo script a Unified Manager utilizzando la pagina script.
 * È necessario disporre del ruolo di amministratore dell'applicazione o di amministratore dello storage.
+* Si noti che se si aggiunge una Storage Virtual Machine (SVM) o un cluster alle risorse di un avviso, gli oggetti figlio non vengono aggiunti automaticamente. Ad esempio, se si aggiunge un cluster alle risorse di un avviso, l'avviso non aggiunge automaticamente i nodi o le LUN.
 
 
 È possibile creare un avviso direttamente dalla pagina Dettagli evento dopo aver ricevuto un evento, oltre a creare un avviso dalla pagina Configurazione avviso, come descritto di seguito.
