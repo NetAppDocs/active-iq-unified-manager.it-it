@@ -13,4 +13,4 @@ summary: Il flusso di lavoro di installazione descrive le attività da eseguire 
 [role="lead"]
 Il flusso di lavoro di installazione descrive le attività da eseguire prima di poter utilizzare Unified Manager.
 
-image::../media/install_flow_on_rhel.gif[installare il flusso su rhel]
+image::../media/install_flow_on_rhel_2026.png[installare il flusso su rhel 2026]

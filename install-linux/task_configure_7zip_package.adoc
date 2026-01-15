@@ -1,0 +1,81 @@
+---
+permalink: install-linux/task_configure_7zip_package.html 
+sidebar: sidebar 
+keywords: manually, configure, 7-zip package, RHEL, Linux, bundled script 
+summary: 'Per installare correttamente Unified Manager su un sistema Red Hat Enterprise Linux (RHEL), è necessario che il sistema sia configurato con accesso al pacchetto 7-zip.' 
+---
+= Configurare il pacchetto software 7-zip per Unified Manager
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Per installare correttamente Unified Manager su un sistema Red Hat Enterprise Linux, è necessario che il sistema sia configurato con accesso al pacchetto software 7-zip. Se l'accesso alla rete è disponibile e l'URL di 7-zip non è bloccato da un firewall, 7-zip verrà scaricato automaticamente sul sistema durante un processo di installazione o aggiornamento. NetApp consiglia il metodo di download automatico.
+
+Assicurati che il seguente URL non sia bloccato nel tuo firewall per consentire a Unified Manager di scaricare automaticamente il pacchetto software 7-zip:
+`https://7-zip.org/a/7z2301-linux-x64.tar.xz`
+
+In alternativa, puoi preinstallare 7-zip.
+
+
+
+== Preinstallare il pacchetto 7-zip
+
+È possibile preinstallare 7-zip scaricandolo manualmente o utilizzando uno script in bundle. Scegli uno dei due metodi seguenti:
+
+
+
+=== Scarica utilizzando uno script in bundle
+
+.Fase
+. Esegui il `install7zip.sh` script incluso nel file zip di Unified Manager.
+
+
+
+
+=== Scarica manualmente
+
+Assicuratevi di scaricare il pacchetto 7-zip solo dal sito Web ufficiale.
+
+.Fasi
+. Scarica il pacchetto 7-zip (versione 23.01) dal sito ufficiale:
++
+`https://7-zip.org/a/7z2301-linux-x64.tar.xz`
+
+. Copia il file sulla tua macchina virtuale RHEL:
++
+[source, CLI]
+----
+7z2301-linux-x64.tar.xz
+----
+. Estrarre l'archivio:
++
+[source, CLI]
+----
+sudo tar -xf 7z2301-linux-x64.tar.xz
+----
+. Spostare il `7zz` file al `/usr/bin/` elenco:
++
+[source, CLI]
+----
+sudo cp 7zz /usr/bin/
+----
+. Imposta i permessi eseguibili:
++
+[source, CLI]
+----
+sudo chmod 755 /usr/bin/7zz
+----
+
+
+
+
+== Verificare l'installazione
+
+Verifica che il pacchetto 7-zip sia stato installato correttamente sul tuo sistema:
+
+[source, CLI]
+----
+7zz -version
+----

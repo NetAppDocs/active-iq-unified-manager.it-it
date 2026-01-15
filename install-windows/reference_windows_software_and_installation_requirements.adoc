@@ -47,7 +47,7 @@ Il server deve essere dedicato all'esecuzione di Unified Manager. Sul server non
 I seguenti pacchetti di terze parti sono forniti in bundle con Unified Manager. Se questi pacchetti di terze parti non sono installati nel sistema, Unified Manager li installa come parte dell'installazione.
 
 * Microsoft Visual C& 43; 43; Redistributable Packages per Visual Studio 2015 versione 14.26.28720.3
-* MySQL Community Edition versione 8.4.4
+* MySQL Community Edition versione 8.4.7
 * Python 3.13.3
 * OpenJDK versione 17.0.14+6
 * Versione 7-zip 24.09 o successiva
