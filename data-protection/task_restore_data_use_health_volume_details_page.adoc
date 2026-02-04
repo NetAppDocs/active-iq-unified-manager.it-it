@@ -19,6 +19,18 @@ summary: È possibile ripristinare file, directory o un intero volume sovrascrit
 
 NOTE: Prendere nota dei seguenti punti:
 
+* Non è possibile ripristinare una directory o un volume da uno snapshot in nessuno dei seguenti scenari:
++
+** L'opzione *Sì, conserva tutte le copie snapshot* è selezionata.
+** Stai utilizzando un account LDAP per monitorare il cluster.
+** Hai effettuato l'accesso come utente di dominio.
+** Il tuo account è configurato per l'autenticazione SAML.
+** Stai utilizzando il protocollo NDMP.
++
+Per maggiori dettagli, consultare l'articolo della Knowledge Base https://kb.netapp.com/on-prem/ontap/DP/NDMP/NDMP-KBs/How_to_configure_NDMP_authentication_in_the_SVM-scope_previously_known_as_Vserver-scope_mode["Come configurare l'autenticazione NDMP in modalità 'SVM-scope'"^].
+
+
+
 * Non è possibile ripristinare i flussi di file NTFS.
 * L'opzione di ripristino non è disponibile quando:
 +
