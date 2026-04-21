@@ -91,7 +91,7 @@ Di seguito sono riportati alcuni campi importanti della vista Performance: All a
 ** Disco rigido (FabricPool). Combina HDD e un Tier cloud
 ** VMDisk (SDS). Dischi virtuali all'interno di una macchina virtuale
 ** VMDisk (FabricPool). Combina dischi virtuali e un Tier cloud
-** LUN (FlexArray)
+** LUN
 
 
 * Inactive Data Reporting (Report dati inattivi): Indica se la funzionalità di reporting dei dati inattivi è attivata o disattivata su questo aggregato. Quando questa opzione è attivata, i volumi di questo aggregato visualizzano la quantità di dati cold nella vista Performance: All Volumes (prestazioni: Tutti i volumi). Il valore in questo campo è "N/A" quando la versione di ONTAP non supporta il reporting dei dati inattivi.
