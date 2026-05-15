@@ -504,14 +504,11 @@
   <block id="a3ec58cb7e9bf89ef726ec0d99330264" category="paragraph">Su un server fisico, aggiungere capacità all'unità logica su cui è installato il server Unified Manager.</block>
   <block id="58e7b60f294b271a4bc9c01cccff27e5" category="paragraph">Seguire la procedura descritta nell'argomento Microsoft:</block>
   <block id="97424b0770e65ad13c37e9c4e0bf64e7" category="inline-link">Estensione di un volume di base</block>
-  <block id="3771c84b1045d5ccd8689f90b09f9ac1" category="paragraph"><block ref="3771c84b1045d5ccd8689f90b09f9ac1" category="inline-link-rx"></block></block>
   <block id="bc78f8459cc3f99966ec858559866c73" category="paragraph">Su un server fisico, aggiungere un disco rigido.</block>
   <block id="ccdf2f614d8c68d046e904c7e5c8f784" category="inline-link">Aggiunta di dischi rigidi</block>
-  <block id="6f7d162b9b4778023baeb8b3f6e0072c" category="paragraph"><block ref="6f7d162b9b4778023baeb8b3f6e0072c" category="inline-link-rx"></block></block>
   <block id="6c4f6491c1007de757c7587546b655d2" category="paragraph">Su una macchina virtuale, aumentare le dimensioni di una partizione del disco.</block>
   <block id="1c9690b8244451e91730c655ec71a542" category="paragraph">Seguire la procedura descritta nell'argomento VMware:</block>
   <block id="5254296818aa13c00d8252c86b324630" category="inline-link">Aumento delle dimensioni di una partizione del disco</block>
-  <block id="301c0a1773cbd034466e002644e3ab94" category="paragraph"><block ref="7d192e27a5a594f0b284619bff944ea7" category="inline-link-rx"></block></block>
   <block id="03d2af3407e8c97b7de22debe99e225b" category="summary">La pagina HTTPS Certificate (certificato HTTPS) consente di visualizzare il certificato di protezione corrente, scaricare una richiesta di firma del certificato, generare un nuovo certificato HTTPS o installare un nuovo certificato HTTPS.</block>
   <block id="13d1caaed3e6c81f8257c80ba2a39c92" category="doc">Pagina del certificato HTTPS</block>
   <block id="7304b4de80b8634c046d0400082fea65" category="paragraph">La pagina HTTPS Certificate (certificato HTTPS) consente di visualizzare il certificato di protezione corrente, scaricare una richiesta di firma del certificato, generare un nuovo certificato HTTPS autofirmato o installare un nuovo certificato HTTPS.</block>
@@ -1876,7 +1873,6 @@
   <block id="2f90961e23f0b8e6ac76ba33e3fe7e35" category="list-text">Fare clic su *continua* per rimuovere la relazione.</block>
   <block id="d26e8b929a6697ea6726cc74d6df9b5d" category="paragraph">La relazione viene rimossa dalla pagina Volume / Health Details (Dettagli volume/salute).</block>
   <block id="d1de0a7d7acb6c1e6d558f461b1c08b0" category="summary">È possibile configurare una connessione sicura tra OnCommand Workflow Automation (Wfa) e Unified Manager. La connessione all'automazione del flusso di lavoro consente di utilizzare funzionalità di protezione come i flussi di lavoro di configurazione di SnapMirror e SnapVault, oltre a comandi per la gestione delle relazioni di SnapMirror.</block>
-  <block id="0c6e4a96f43d5868275a60909a3a24fc" category="inline-link">PACCHETTO WFA per la gestione di ONTAP</block>
   <block id="5b7d25b9e226028347921818ce714ea3" category="list-text">Per supportare le connessioni WFA e Unified Manager, è necessario disporre del nome dell'utente del database creato in Unified Manager.</block>
   <block id="0baffa2d6dab374e8ae870aa23680370" category="paragraph">A questo utente del database deve essere stato assegnato il ruolo utente Integration Schema.</block>
   <block id="209a170f4735b61e63946462f4cc839b" category="list-text">È necessario assegnare il ruolo di amministratore o di architetto nell'automazione del flusso di lavoro.</block>
@@ -6922,9 +6918,6 @@
   <block id="076790dbfc4444ac90e62b970a3c9217" category="list-text">Annotazioni per gli oggetti di storage</block>
   <block id="53715e24fcf7438bf8bb2d96e3d34de8" category="list-text">Creazione di report e gestione di informazioni sugli oggetti storage come capacità fisica e logica, utilizzo, risparmi di spazio, performance ed eventi correlati</block>
   <block id="42c75971e03568e6221b99dd63d98865" category="list-text">Integrazione con OnCommand Workflow Automation per l'esecuzione dei flussi di lavoro</block>
-  <block id="6750b5b2c975d66813d2ea8952f0bae1" category="paragraph">Il negozio di automazione dello storage contiene pacchetti di workflow automatizzati per lo storage certificati da NetApp sviluppati per l'utilizzo con OnCommand Workflow Automation (WFA). È possibile scaricare i pacchetti e importarli in WFA per eseguirli. I flussi di lavoro automatizzati sono disponibili qui:</block>
-  <block id="0479c8cefca250b39d519545313f1b42" category="inline-link">Storage Automation Store</block>
-  <block id="63f4e00d9f003710efd37fe0fad569e9" category="paragraph"><block ref="63f4e00d9f003710efd37fe0fad569e9" category="inline-link-rx"></block></block>
   <block id="93afe6d7c422425dde612080439dc433" category="summary">È possibile verificare che lo script venga eseguito correttamente quando viene generato un avviso per un oggetto di storage.</block>
   <block id="3566980487aa7d04ffe8ae5b9d7fccc3" category="list-text">È necessario aver caricato uno script nel formato di file supportato in Unified Manager.</block>
   <block id="7c79ec86ce09a83b65b13d02fab70b17" category="list-text">Nel riquadro di spostamento a sinistra, fare clic su *Storage Management* &gt; *Scripts*.</block>
@@ -11417,7 +11410,6 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">Prima di iniziare</block>
   <block id="403384bc7be1a7f4e22bd05d0f8b3ec8" category="paragraph">*Cosa prima di iniziare</block>
   <block id="1b377a56a4ae0b95c40511aa64336c41" category="list-text">La versione installata di Workflow Automation deve essere la 5,1.1P6 o successiva.</block>
-  <block id="9e24238c9686e244d38d02ad1f557aca" category="paragraph">Il pacchetto ""Wfa pack per la gestione di Clustered Data ONTAP"" è incluso in Wfa 5,1.1P6, pertanto non è necessario scaricare questo pacchetto dall'archivio per l'automazione dello storage NetAppe installarlo separatamente sul server Wfa, come richiesto in passato.<block ref="33bb079f56da49206dfe05941d30882d" category="inline-link-rx"></block></block>
   <block id="c8fd24815f6093e46c1cb75855be5d43" category="list-text">È necessario aver installato Unified Manager su un server Linux seguendo le istruzioni riportate in <block ref="55b3ec865696a24c30e5b2e799e3e5eb" category="inline-link-macro-rx"></block>.</block>
   <block id="eb0a89add4cd78412c29a6c06287ca71" category="paragraph">Unified Manager utilizza<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block> l'utility per installare il software e qualsiasi software dipendente. Poiché esistono diverse immagini di Red Hat Enterprise Linux, i pacchetti installati dipendono dal software presente nelle immagini. L'<block ref="1de0b4f0d139f781b3b4de87edb4de70" prefix=" " category="inline-code"></block>utility determina i pacchetti software dipendenti per l'installazione. Per ulteriori informazioni sui pacchetti software dipendenti, vedere <block ref="f1a81936de546e8d25edd5d0aa76c791" category="inline-link-macro-rx"></block>.</block>
   <block id="8ed8853f67b146f3f04807d3865ef602" category="list-text">Assicurarsi di scaricare la versione corretta del file di installazione per il sistema Red Hat Enterprise Linux. A seconda che sia installato Red Hat Enterprise Linux 8 o 9, assicurarsi di scaricare la versione appropriata del file Unified Manager<block ref="daf4de58883c030f033f07e61debf025" prefix=" " category="inline-code"></block>.</block>
@@ -12114,4 +12106,10 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="10c63a870bc95c46a742e43842ec8048" category="paragraph">Per maggiori dettagli, consultare l'articolo della Knowledge Base<block ref="b3c8348c93a87962cb210001996297e2" category="inline-link-rx"></block>.</block>
   <block id="8da4b54a11c14f3b7f3fc9138371f1c0" category="list-text">Non è possibile ripristinare i flussi di file NTFS.</block>
   <block id="c6655c77ef7f9737d998381c1db5e05b" category="paragraph">Per tutti gli eventi per i quali hai configurato l'invio di avvisi, viene inviato un messaggio di avviso quando tali eventi passano attraverso tutti gli stati disponibili: Nuovo, Risolto e Obsoleto. Se non desideri ricevere avvisi per gli eventi che passano agli stati Risolto e Obsoleto, puoi configurare un'impostazione globale per disattivare tali avvisi.</block>
+  <block id="42429633f87d83134a274916f6a034c2" category="paragraph"><block ref="42429633f87d83134a274916f6a034c2" category="inline-link-rx"></block></block>
+  <block id="7735c39e24fb37c1d079ba9e3a91c264" category="paragraph"><block ref="7735c39e24fb37c1d079ba9e3a91c264" category="inline-link-rx"></block></block>
+  <block id="7c84ac4946087f09b4a17998f1e830e8" category="paragraph"><block ref="7c84ac4946087f09b4a17998f1e830e8" category="inline-link-rx"></block></block>
+  <block id="af050e52c447cd52b4b2f1ffdc032f19" category="inline-link">Download WFA</block>
+  <block id="94d13f29f9fba88b1b0d477b50fbcb23" category="paragraph">Il "pacchetto WFA per la gestione di Clustered Data ONTAP" è incluso in WFA 5.1.1P6, quindi non è necessario scaricare questo pacchetto dallo NetAppStorage Automation Store e installarlo separatamente sul server WFA come richiesto in passato.<block ref="205df40c4c09810da80912824982d64d" category="inline-link-rx"></block></block>
+  <block id="b51ca7d8abeeddcb10f579ebf26d482d" category="paragraph"><block ref="b51ca7d8abeeddcb10f579ebf26d482d" category="inline-link-rx"></block></block>
 </blocks>
