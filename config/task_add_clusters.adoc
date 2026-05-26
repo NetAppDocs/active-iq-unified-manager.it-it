@@ -28,7 +28,7 @@ L'indirizzo IP di gestione del cluster deve essere la LIF di gestione del cluste
 ** Il cluster deve eseguire il software ONTAP versione 9.1 o superiore.
 ** Nome utente e password dell'amministratore di ONTAP
 +
-Questo account deve avere il ruolo _admin_ con accesso applicazione impostato su _ontapi_, _console_ e _http_.
+Questo account deve avere il ruolo _admin_ con l'accesso all'applicazione impostato su _ontapi_, _amqp_, _console_ e _http_.
 
 ** Il numero di porta per la connessione al cluster utilizzando il protocollo HTTPS (generalmente la porta 443).
 ** Si dispone dei certificati richiesti:
