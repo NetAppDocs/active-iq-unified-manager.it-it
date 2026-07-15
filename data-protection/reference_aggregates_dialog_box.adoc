@@ -15,6 +15,7 @@ summary: È possibile utilizzare la finestra di dialogo aggregati per selezionar
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:
@@ -31,6 +32,7 @@ Elimina le modifiche e chiude la finestra di dialogo aggregati.
 
 
 
+[[aggregates-list]]
 == Elenco aggregati
 
 L'elenco aggregati visualizza (in formato tabulare) i nomi e le proprietà degli aggregati monitorati.

@@ -26,6 +26,7 @@ Da questa pagina è inoltre possibile visualizzare la topologia dettagliata di u
 
 
 
+[[view-summary-topology]]
 == Visualizza la topologia riassuntiva
 
 Per determinare i problemi di performance visualizzando le VM in una topologia riepilogativa:
@@ -53,6 +54,7 @@ I server vCenter consentono l'utilizzo di caratteri speciali (ad esempio %, &, *
 
 
 
+[[view-expanded-topology]]
 == Visualizza la topologia espansa
 
 È possibile eseguire il drill-down di ciascun componente separatamente visualizzando la topologia estesa della macchina virtuale.

@@ -72,6 +72,7 @@ La garanzia di spazio è impostata su Volume per impostazione predefinita.
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:

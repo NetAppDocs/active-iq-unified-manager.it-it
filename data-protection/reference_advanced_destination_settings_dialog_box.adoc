@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare la finestra di dialogo Advanced Destination Se
 
 
 
+[[space-guarantee]]
 == Garanzia di spazio
 
 Garantisce che sul volume di destinazione sia allocato spazio sufficiente per garantire il successo dei trasferimenti di dati. L'impostazione della garanzia di spazio può essere una delle seguenti:

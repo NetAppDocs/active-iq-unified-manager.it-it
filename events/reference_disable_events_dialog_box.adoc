@@ -17,6 +17,7 @@ La finestra di dialogo Disable Events (Disattiva eventi) visualizza l'elenco dei
 
 
 
+[[event-properties-area]]
 == Area Event Properties (Proprietà evento
 
 L'area Proprietà evento specifica le seguenti proprietà dell'evento:
@@ -44,6 +45,7 @@ Viene inoltre visualizzata la severità dell'evento insieme al nome dell'evento.
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti attività per gli eventi selezionati:

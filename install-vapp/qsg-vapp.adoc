@@ -15,6 +15,7 @@ summary: Guida rapida per Unified Manager su piattaforma VMware vSphere.
 
 
 
+[[system-requirements]]
 == Requisiti di sistema
 
 * Sistema operativo: VMware ESXi 8.0
@@ -27,10 +28,12 @@ Per informazioni dettagliate sui requisiti di sistema, consultare link:../instal
 
 
 
+[[install-active-iq-unified-manager]]
 == Installare Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === Scaricare il programma di installazione
 
 . Scaricare il `.tar` che contiene un certificato root, un `README` e un `OVA` file.
@@ -40,12 +43,14 @@ Per informazioni dettagliate sui requisiti di sistema, consultare link:../instal
 
 
 
+[[verify-integrity]]
 === Verificare l'integrità
 
 È possibile verificare l'integrità di `OVA` eseguire la procedura descritta in `README` file.
 
 
 
+[[install-unified-manager]]
 === Installare Unified Manager
 
 . In vSphere Client, fare clic su *file > Deploy OVF Template* (file > implementa modello OVF).

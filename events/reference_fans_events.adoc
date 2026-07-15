@@ -15,6 +15,7 @@ Gli eventi Fans ti forniscono informazioni sullo stato delle ventole sui nodi de
 
 
 
+[[impact-area-availability]]
 == Area di impatto: Disponibilità
 
 |===

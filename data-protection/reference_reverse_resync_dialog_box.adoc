@@ -17,6 +17,7 @@ Quando un disastro disattiva il volume di origine nella relazione di protezione,
 
 
 
+[[before-reverse-resync]]
 == Prima della risincronizzazione inversa
 
 Visualizza l'origine e la destinazione di una relazione prima di un'operazione di risincronizzazione inversa.
@@ -33,6 +34,7 @@ Il nome e la posizione del volume di destinazione prima di un'operazione di risi
 
 
 
+[[after-reverse-resync]]
 == Dopo risincronizzazione inversa
 
 Visualizza l'origine e la destinazione di una relazione dopo un'operazione di risincronizzazione di riserva.
@@ -49,6 +51,7 @@ Il nome e la posizione del volume di destinazione dopo un'operazione di risincro
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:

@@ -39,6 +39,7 @@ Visualizza i nomi delle cartelle disponibili per il volume selezionato. Se si fa
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:

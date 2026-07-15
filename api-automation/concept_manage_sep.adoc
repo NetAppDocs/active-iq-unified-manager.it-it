@@ -25,6 +25,7 @@ Prendere nota dei seguenti punti:
 ====
 
 
+[[view-storage-efficiency-policies]]
 == Visualizza le policy di efficienza dello storage
 
 È possibile utilizzare il seguente metodo per visualizzare le policy di efficienza dello storage prima di assegnarle ai carichi di lavoro dello storage. Questa API elenca tutte le policy di efficienza dello storage definite dal sistema e create dall'utente e recupera gli attributi di tutte le policy di efficienza dello storage. Se si desidera eseguire una query su una policy di efficienza dello storage specifica, è necessario inserire l'ID univoco della policy per recuperarne i dettagli.
@@ -46,6 +47,7 @@ OTTIENI
 |===
 
 
+[[add-storage-efficiency-policies]]
 == Aggiungi policy di efficienza dello storage
 
 È possibile utilizzare il seguente metodo per creare policy di efficienza dello storage personalizzate e assegnarle ai carichi di lavoro dello storage se le policy definite dal sistema non soddisfano i requisiti di provisioning per i carichi di lavoro dello storage. Inserire i dettagli della Storage Efficiency Policy che si desidera creare, come parametri di input.
@@ -65,6 +67,7 @@ POST
 |===
 
 
+[[delete-storage-efficiency-policies]]
 == Eliminare le policy di efficienza dello storage
 
 È possibile utilizzare il seguente metodo per eliminare una policy di efficienza dello storage specifica. Non è possibile eliminare una policy di efficienza dello storage se assegnata a un workload o se è l'unica policy di efficienza dello storage disponibile. È necessario fornire l'ID univoco della Storage Efficiency Policy come parametro di input per eliminare una particolare Storage Efficiency Policy.
@@ -84,6 +87,7 @@ ELIMINARE
 |===
 
 
+[[modify-storage-efficiency-policies]]
 == Modificare le policy di efficienza dello storage
 
 È possibile utilizzare il seguente metodo per modificare un criterio di efficienza dello storage e aggiornarne le proprietà. Non è possibile modificare una policy di efficienza dello storage definita dal sistema o assegnata a un carico di lavoro. Per modificare una particolare policy di efficienza dello storage, è necessario fornire l'ID univoco della policy di efficienza dello storage. Inoltre, è necessario fornire la proprietà che si desidera aggiornare, insieme al relativo valore.

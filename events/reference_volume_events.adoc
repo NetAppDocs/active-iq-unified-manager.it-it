@@ -17,6 +17,7 @@ Un asterisco (*) identifica gli eventi EMS che sono stati convertiti in eventi U
 
 
 
+[[impact-area-availability]]
 == Area di impatto: Disponibilità
 
 |===
@@ -145,6 +146,7 @@ Informazioni
 |===
 
 
+[[impact-area-capacity]]
 == Area di impatto: Capacità
 
 |===
@@ -460,6 +462,7 @@ Attenzione
 |===
 
 
+[[impact-area-configuration]]
 == Area di impatto: Configurazione
 
 |===
@@ -500,6 +503,7 @@ Informazioni
 |===
 
 
+[[impact-area-performance]]
 == Area di impatto: Performance
 
 |===
@@ -793,6 +797,7 @@ Attenzione
 |===
 
 
+[[impact-area-security]]
 == Area di impatto: Sicurezza
 
 |===
@@ -910,6 +915,7 @@ Attenzione
 |===
 
 
+[[impact-area-data-protection]]
 == Area di impatto: Protezione dei dati
 
 |===

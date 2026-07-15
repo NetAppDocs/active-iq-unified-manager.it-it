@@ -17,6 +17,7 @@ Prima di eseguire il provisioning dei volumi di condivisione file, assicurarsi c
 
 
 
+[[view-file-shares]]
 == Visualizzare le condivisioni di file
 
 È possibile utilizzare il seguente metodo per visualizzare i volumi di condivisione file disponibili nell'ambiente Unified Manager. Una volta aggiunto un cluster ONTAP come origine dati su Active IQ Unified Manager, i carichi di lavoro dello storage per tali cluster vengono aggiunti automaticamente all'istanza di Unified Manager. Questa API recupera automaticamente le condivisioni file e le aggiunge manualmente all'istanza di Unified Manager. È possibile visualizzare i dettagli di una condivisione file specifica eseguendo questa API con la chiave di condivisione file.
@@ -38,6 +39,7 @@ OTTIENI
 |===
 
 
+[[add-file-shares]]
 == Aggiungere condivisioni di file
 
 È possibile utilizzare il seguente metodo per aggiungere condivisioni di file CIFS e NFS nella SVM. Immettere i dettagli della condivisione file che si desidera creare, come parametri di input. Non è possibile utilizzare questa API per aggiungere volumi FlexGroup.
@@ -64,6 +66,7 @@ A seconda che siano forniti i parametri dell'elenco di controllo di accesso (ACL
 
 
 
+[[delete-file-shares]]
 == Eliminare le condivisioni di file
 
 Per eliminare una condivisione file specifica, è possibile utilizzare il metodo seguente. Per eliminare una determinata condivisione file, è necessario inserire la chiave di condivisione file come parametro di input.
@@ -83,6 +86,7 @@ ELIMINARE
 |===
 
 
+[[modify-file-shares]]
 == Modificare le condivisioni di file
 
 È possibile utilizzare il seguente metodo per modificare una condivisione file e aggiornarne le proprietà.

@@ -134,6 +134,7 @@ Se si desidera modificare il servizio di autenticazione, assicurarsi di eliminar
 
 
 
+[[authentication-servers-area]]
 == Area Authentication Servers
 
 L'area Authentication Servers (Server di autenticazione) visualizza i server di autenticazione con cui il server di gestione comunica per individuare e autenticare gli utenti remoti. Le credenziali per utenti o gruppi remoti vengono gestite dal server di autenticazione.

@@ -40,6 +40,7 @@ Le sezioni informazioni evento, Diagnosi del sistema e azioni consigliate sono d
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:

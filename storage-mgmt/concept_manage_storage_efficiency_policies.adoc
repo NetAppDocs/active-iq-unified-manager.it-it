@@ -78,6 +78,7 @@ Numero di carichi di lavoro dello storage a cui è stato assegnato IL SET
 |===
 
 
+[[guidelines-for-creating-a-custom-storage-efficiency-policy]]
 == Linee guida per la creazione di una policy di efficienza dello storage personalizzata
 
 Se i SEPS esistenti non soddisfano i requisiti delle policy per i carichi di lavoro dello storage, è possibile creare UN SET personalizzato. Tuttavia, si consiglia di tentare di utilizzare il SEPS definito dal sistema per i carichi di lavoro dello storage e di creare solo SEPS personalizzati, se necessario.

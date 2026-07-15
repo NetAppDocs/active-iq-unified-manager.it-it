@@ -15,6 +15,7 @@ Le porte e i protocolli richiesti consentono la comunicazione tra il server Unif
 
 
 
+[[connections-to-the-unified-manager-server]]
 == Connessioni al server Unified Manager
 
 Nelle installazioni tipiche non è necessario specificare i numeri di porta durante la connessione all'interfaccia utente Web di Unified Manager, poiché vengono sempre utilizzate le porte predefinite. Ad esempio, poiché Unified Manager tenta sempre di essere eseguito sulla porta predefinita, è possibile immettere `+https://<host>+` invece di `+https://<host>:443+`.
@@ -153,6 +154,7 @@ La porta predefinita per MySQL, 3306, è limitata solo all'host locale durante l
 ====
 
 
+[[connections-from-the-unified-manager-server]]
 == Connessioni dal server Unified Manager
 
 È necessario configurare il firewall in modo che apra le porte che consentono la comunicazione tra il server Unified Manager e i sistemi di storage gestiti, i server e altri componenti. Se una porta non è aperta, la comunicazione non riesce.

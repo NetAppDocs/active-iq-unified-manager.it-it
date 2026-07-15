@@ -15,12 +15,14 @@ La pagina Rules to generate User and Group quota Email Address (regole per gener
 
 
 
+[[rules-area]]
 == Area delle regole
 
 È necessario definire le regole per un indirizzo e-mail di quota. Puoi anche aggiungere commenti per spiegare le regole.
 
 
 
+[[how-you-define-rules]]
 == Come definire le regole
 
 È necessario immettere le regole nell'ordine in cui si desidera eseguirle. Se il criterio della prima regola viene soddisfatto, l'indirizzo e-mail viene generato in base a questa regola. Se il criterio non viene soddisfatto, viene preso in considerazione il criterio per la regola successiva e così via. Ogni riga elenca una regola separata. La regola predefinita è l'ultima regola dell'elenco. È possibile modificare l'ordine di priorità delle regole. Tuttavia, non è possibile modificare l'ordine della regola predefinita.
@@ -39,12 +41,14 @@ Se più utenti hanno la stessa quota, i nomi degli utenti vengono visualizzati c
 
 
 
+[[how-you-add-comments]]
 == Come aggiungere commenti
 
 È possibile aggiungere commenti per spiegare le regole. All'inizio di ogni commento, devi usare il numero e ogni riga elenca un commento separato.
 
 
 
+[[rules-syntax]]
 == Sintassi delle regole
 
 La sintassi della regola deve essere una delle seguenti:
@@ -61,6 +65,7 @@ se è una parola chiave ed è minuscolo. L'operatore può contenere o ==. L'ID e
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di salvare, convalidare o annullare le regole create:

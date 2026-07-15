@@ -24,12 +24,14 @@ Alcuni dei pannelli elencati di seguito vengono visualizzati sulla dashboard in 
 ====
 
 
+[[management-actions-panel]]
 == Pannello azioni di gestione
 
 Unified Manager può diagnosticare accuratamente alcuni problemi e fornire una singola soluzione. Quando disponibili, queste risoluzioni vengono visualizzate in questo pannello con un pulsante *Fix it* o *Fix all*. È possibile risolvere questi problemi immediatamente da Unified Manager invece di dover utilizzare Gestione di sistema di ONTAP o l'interfaccia utente di ONTAP. Per visualizzare tutti i problemi, fare clic su vedere link:concept_fix_ontap_issues_directly_from_unified_manager.html["Risolvi i problemi ONTAP direttamente da Unified Manager"] per ulteriori informazioni.
 
 
 
+[[capacity-panel]]
 == Pannello capacità
 
 Durante la visualizzazione di tutti i cluster, questo pannello visualizza la capacità fisica utilizzata (dopo aver applicato il risparmio di efficienza dello storage) e la capacità fisica disponibile (senza includere il potenziale risparmio di efficienza dello storage) per ciascun cluster, il numero di giorni in cui i dischi sono previsti per essere pieni, E il rapporto di riduzione dei dati (senza copie Snapshot) basato sulle impostazioni di efficienza dello storage ONTAP configurate. Inoltre, elenca la capacità utilizzata per qualsiasi Tier cloud configurato. Facendo clic sul grafico a barre si accede alla pagina di inventario degli aggregati per quel cluster. Facendo clic sul testo "Days to Full" (giorni da completare) viene visualizzato un messaggio che identifica l'aggregato con il numero minimo di giorni di capacità rimanenti; fare clic sul nome dell'aggregato per visualizzare ulteriori dettagli.
@@ -38,6 +40,7 @@ Durante la visualizzazione di un singolo cluster, questo pannello visualizza la 
 
 
 
+[[performance-capacity-panel]]
 == Pannello Performance Capacity (capacità delle performance)
 
 Durante la visualizzazione di tutti i cluster, questo pannello visualizza il valore della capacità delle performance per ciascun cluster (media nell'ora precedente) e il numero di giorni fino a quando la capacità delle performance non raggiunge il limite massimo (in base al tasso di crescita giornaliero). Facendo clic sul grafico a barre si accede alla pagina di inventario dei nodi per quel cluster. Si noti che la pagina di inventario dei nodi visualizza la capacità di performance media nelle 72 ore precedenti. Facendo clic sul testo "Days to Full" (giorni da completare) viene visualizzato un messaggio che identifica il nodo con il numero minimo di giorni di capacità delle performance rimanenti; fare clic sul nome del nodo per visualizzare ulteriori dettagli.
@@ -46,18 +49,21 @@ Durante la visualizzazione di un singolo cluster, questo pannello visualizza i v
 
 
 
+[[workload-iops-panel]]
 == Pannello IOPS del carico di lavoro
 
 Durante la visualizzazione di un singolo cluster, questo pannello visualizza il numero totale di carichi di lavoro attualmente in esecuzione in un determinato intervallo di IOPS e indica il numero di ciascun tipo di disco quando si sposta il cursore sul grafico.
 
 
 
+[[workload-performance-panel]]
 == Pannello delle performance del carico di lavoro
 
 Questo pannello visualizza il numero totale di carichi di lavoro conformi e non conformi assegnati a ciascuna policy PSL (Performance Service Level). Visualizza anche il numero di workload a cui non è assegnato un PSL. Facendo clic su un grafico a barre si accede ai carichi di lavoro conformi assegnati a tale policy nella pagina carichi di lavoro. Facendo clic sul numero che segue il grafico a barre si passa ai carichi di lavoro conformi e non conformi assegnati a tale policy.
 
 
 
+[[security-panel]]
 == Pannello di sicurezza
 
 Il pannello Security (sicurezza) presenta lo stato di sicurezza di alto livello per tutti i cluster o per un singolo cluster, a seconda della vista corrente. Questo pannello visualizza:
@@ -75,6 +81,7 @@ La conformità è basata su https://www.netapp.com/pdf.html?item=/media/10674-tr
 
 
 
+[[data-protection-panel]]
 == Pannello Data Protection (protezione dati)
 
 Questo pannello visualizza il riepilogo della protezione dei dati per uno o tutti i cluster di un data center. Visualizza il numero totale di eventi di protezione dei dati, eventi MetroCluster e numero di eventi attivi generati nelle ultime 24 ore in ONTAP. Facendo clic sul link da ciascuno di questi eventi si accede alla pagina Dettagli evento. È possibile fare clic sul collegamento *View All* (Visualizza tutto) per visualizzare tutti gli eventi di protezione attivi nella pagina Event Management Inventory (inventario gestione eventi). Il pannello visualizza:
@@ -96,6 +103,7 @@ Per ulteriori informazioni, vedere link:../data-protection/view-protection-statu
 
 
 
+[[usage-overview-panel]]
 == Pannello Panoramica sull'utilizzo
 
 Durante la visualizzazione di tutti i cluster, è possibile scegliere di visualizzare i cluster in base agli IOPS più elevati, al throughput più elevato (MB/s) o alla capacità fisica più elevata utilizzata.

@@ -22,6 +22,7 @@ Una regola di annotazione è un criterio definito per annotare gli oggetti di st
 
 
 
+[[conditions]]
 == Condizioni
 
 È possibile creare più gruppi di condizioni e ciascun gruppo di condizioni può avere una o più condizioni. È possibile applicare tutti i gruppi di condizioni definiti in una regola di annotazione di un'annotazione per annotare gli oggetti di storage.
@@ -72,6 +73,7 @@ Quando si seleziona un'annotazione come operando per qualsiasi oggetto di storag
 
 
 
+[[example-of-an-annotation-rule-with-conditions]]
 == Esempio di una regola di annotazione con condizioni
 
 Prendere in considerazione una regola di annotazione con un gruppo di condizioni per un volume con le seguenti due condizioni:
@@ -84,12 +86,14 @@ Questa regola di annotazione consente di annotare tutti i volumi che includono "
 
 
 
+[[condition-groups]]
 == Gruppi di condizioni
 
 I gruppi di condizioni vengono eseguiti utilizzando OR logico e quindi applicati agli oggetti di storage. Gli oggetti di storage devono soddisfare i requisiti di uno dei gruppi di condizioni da annotare. Gli oggetti di storage che soddisfano le condizioni di tutti i gruppi di condizioni vengono annotati. È possibile utilizzare i gruppi di condizioni per aumentare l'ambito degli oggetti di storage da annotare.
 
 
 
+[[example-of-an-annotation-rule-with-condition-groups]]
 == Esempio di una regola di annotazione con gruppi di condizioni
 
 Prendere in considerazione una regola di annotazione con due gruppi di condizioni per un volume; ciascun gruppo contiene le seguenti due condizioni:

@@ -22,6 +22,7 @@ summary: È possibile installare i certificati autofirmati o con firma CA e gene
 
 
 
+[[format-for-loading-a-certificate-with-an-ec-key-pair]]
 == Formato per il caricamento di un certificato con una coppia di chiavi EC
 
 Le curve consentite sono "`prime256v1`" e "`secp384r1`". Esempio di certificato con una coppia EC generata esternamente:
@@ -49,6 +50,7 @@ Le curve consentite sono "`prime256v1`" e "`secp384r1`". Esempio di certificato 
 ----
 
 
+[[format-for-loading-a-certificate-with-an-rsa-key-pair]]
 == Formato per il caricamento di un certificato con una coppia di chiavi RSA
 
 Le dimensioni delle chiavi consentite per la coppia di chiavi RSA appartenente al certificato host sono 2048, 3072 e 4096. Certificato con una coppia di chiavi * RSA generata esternamente*:
@@ -75,6 +77,7 @@ Una volta caricato il certificato, riavviare l'istanza di Active IQ Unified Mana
 
 
 
+[[checks-while-uploading-externally-generated-certificates]]
 == Verifica durante il caricamento dei certificati generati esternamente
 
 Il sistema esegue controlli durante il caricamento di un certificato generato mediante strumenti esterni. Se uno dei controlli non riesce, il certificato viene rifiutato. Sono incluse anche le validazioni per i certificati generati dalla CSR all'interno del prodotto e per i certificati generati utilizzando strumenti esterni.

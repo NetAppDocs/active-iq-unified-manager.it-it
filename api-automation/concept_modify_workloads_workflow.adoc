@@ -22,6 +22,7 @@ Il flusso di lavoro presuppone che il LUN o la condivisione di file sia stata fo
 ====
 
 
+[[modify-file-shares]]
 == Modificare le condivisioni di file
 
 Durante la modifica di una condivisione file, è possibile aggiornare i seguenti parametri:
@@ -191,6 +192,7 @@ Visualizzare i dettagli della condivisione file nell'output.
 
 
 
+[[update-luns]]
 == Aggiorna LUN
 
 Durante l'aggiornamento di un LUN, è possibile modificare i seguenti parametri:

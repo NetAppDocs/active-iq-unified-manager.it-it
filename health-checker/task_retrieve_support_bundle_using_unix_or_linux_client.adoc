@@ -49,6 +49,7 @@ Il nome del bundle di supporto viene fornito quando viene generato utilizzando l
 
 
 
+[[examples]]
 == Esempi
 
 Nell'esempio seguente viene utilizzato SCP per recuperare il bundle di supporto:

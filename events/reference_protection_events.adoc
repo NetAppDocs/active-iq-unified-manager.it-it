@@ -15,6 +15,7 @@ Gli eventi di protezione indicano se un lavoro è stato interrotto o non è rius
 
 
 
+[[impact-area-protection]]
 == Area di impatto: Protezione
 
 |===

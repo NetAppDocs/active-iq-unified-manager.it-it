@@ -17,6 +17,7 @@ summary: È possibile configurare il server Unified Manager in modo che invii no
 
 
 
+[[email]]
 == E-mail
 
 Questa area consente di configurare le seguenti impostazioni e-mail per la notifica degli avvisi:
@@ -29,6 +30,7 @@ Specifica l'indirizzo e-mail da cui viene inviata la notifica di avviso. Questo 
 
 
 
+[[smtp-server]]
 == Server SMTP
 
 Questa sezione consente di configurare le seguenti impostazioni del server SMTP:
@@ -64,6 +66,7 @@ Selezionando questa casella si attiva la comunicazione sicura tra il server SMTP
 
 
 
+[[snmp]]
 == SNMP
 
 Quest'area consente di configurare le seguenti impostazioni di trap SNMP:

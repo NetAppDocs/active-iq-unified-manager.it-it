@@ -90,6 +90,7 @@ Inserire l'indirizzo IP o l'URL specificato in una nuova finestra di un browser 
 
 
 
+[[additional-steps-to-perform-for-missing-packages]]
 == Ulteriori passaggi da eseguire per i pacchetti mancanti
 
 Se durante l'aggiornamento sono stati rilevati pacchetti mancanti, se il sistema non è connesso a Internet o se non si utilizzano i repository Red Hat Enterprise Linux, attenersi alla seguente procedura per determinare se mancano i pacchetti richiesti e scaricarli.

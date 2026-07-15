@@ -15,6 +15,7 @@ Gli eventi dei dischi forniscono informazioni sullo stato dei dischi, in modo da
 
 
 
+[[impact-area-availability]]
 == Area di impatto: Disponibilità
 
 |===

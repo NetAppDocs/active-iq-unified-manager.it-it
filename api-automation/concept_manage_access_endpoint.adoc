@@ -15,6 +15,7 @@ summary: 'È necessario creare endpoint di accesso o interfacce logiche (LIFF), 
 
 
 
+[[view-access-endpoints]]
 == Visualizzare gli endpoint di accesso
 
 È possibile visualizzare un elenco degli endpoint di accesso nell'ambiente Unified Manager utilizzando il seguente metodo. Per eseguire una query su un elenco di endpoint di accesso di una specifica SVM, LUN o condivisione file, è necessario inserire l'identificatore univoco per SVM, LUN o condivisione file. È inoltre possibile inserire la chiave univoca dell'endpoint di accesso per recuperare i dettagli dell'endpoint di accesso specifico.
@@ -36,6 +37,7 @@ OTTIENI
 |===
 
 
+[[add-access-endpoints]]
 == Aggiungere endpoint di accesso
 
 È possibile creare endpoint di accesso personalizzati e assegnarvi le proprietà richieste. Immettere i dettagli dell'endpoint di accesso che si desidera creare come parametri di input. È possibile utilizzare questa API, il Gestore di sistema o l'interfaccia utente di ONTAP per creare un endpoint di accesso su ciascun nodo. Gli indirizzi IPv4 e IPv6 sono supportati per la creazione degli endpoint di accesso.
@@ -60,6 +62,7 @@ POST
 |===
 
 
+[[delete-access-endpoints]]
 == Eliminare gli endpoint di accesso
 
 È possibile eliminare un endpoint di accesso specifico utilizzando il seguente metodo. È necessario fornire la chiave dell'endpoint di accesso come parametro di input per eliminare un particolare endpoint di accesso.
@@ -79,6 +82,7 @@ ELIMINARE
 |===
 
 
+[[modify-access-endpoints]]
 == Modificare gli endpoint di accesso
 
 È possibile modificare un endpoint di accesso e aggiornarne le proprietà utilizzando il seguente metodo. Per modificare un particolare endpoint di accesso, è necessario fornire la chiave dell'endpoint di accesso. È inoltre necessario immettere la proprietà che si desidera aggiornare, insieme al relativo valore.

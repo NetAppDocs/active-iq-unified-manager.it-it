@@ -21,6 +21,7 @@ Tutti i campi di queste pagine possono essere utilizzati nelle visualizzazioni p
 
 
 
+[[performance-all-clusters-view]]
 == Performance: Vista di tutti i cluster
 
 La vista Performance: All Clusters (prestazioni: Tutti i cluster) visualizza una panoramica degli eventi di performance, dei dati e delle informazioni di configurazione per ciascun cluster monitorato da un'istanza di Unified Manager. Questa pagina consente di monitorare le performance dei cluster e di risolvere i problemi relativi alle performance e agli eventi di soglia.
@@ -44,6 +45,7 @@ NOTE: Se nei nodi del cluster sono installate versioni diverse del software ONTA
 
 
 
+[[performance-all-volumes-view]]
 == Performance (prestazioni): Vista di tutti i volumi
 
 La vista performance: All Volumes (prestazioni: Tutti i volumi) visualizza una panoramica degli eventi relativi alle performance, dei dati dei contatori e delle informazioni di configurazione per ciascun volume FlexVol e FlexGroup monitorato da un'istanza di Unified Manager. In questo modo è possibile monitorare rapidamente le performance dei volumi e risolvere i problemi di performance e gli eventi di soglia.
@@ -75,6 +77,7 @@ Per ulteriori informazioni, consultare i seguenti collegamenti:
 
 
 
+[[performance-all-aggregates-view]]
 == Performance: Vista di tutti gli aggregati
 
 La vista Performance: All aggregates (prestazioni: Tutti gli aggregati) visualizza una panoramica degli eventi di performance, dei dati e delle informazioni di configurazione per ciascun aggregato monitorato da un'istanza di Unified Manager. Questa pagina consente di monitorare le performance degli aggregati e di risolvere i problemi relativi alle performance e agli eventi di soglia.
@@ -102,6 +105,7 @@ Di seguito sono riportati alcuni campi importanti della vista Performance: All a
 
 
 
+[[performance-all-nodes-view]]
 == Performance: Vista di tutti i nodi
 
 La vista Performance: All Nodes (prestazioni: Tutti i nodi) visualizza una panoramica degli eventi di performance, dei dati e delle informazioni di configurazione per ciascun nodo monitorato da un'istanza di Unified Manager. In questo modo è possibile monitorare rapidamente le performance dei nodi e risolvere i problemi di performance e gli eventi di soglia.
@@ -120,6 +124,7 @@ Per ulteriori informazioni, consultare i seguenti collegamenti:
 
 
 
+[[performance-all-storage-vms-view]]
 == Performance: Vista di tutte le VM di storage
 
 La vista Performance: All Storage VM (prestazioni: Tutte le macchine virtuali dello storage) visualizza una panoramica degli eventi di performance, dei dati e delle informazioni di configurazione per ciascuna macchina virtuale dello storage (SVM) monitorata da un'istanza di Unified Manager. In questo modo è possibile monitorare rapidamente le performance delle SVM e risolvere i problemi di performance e gli eventi di soglia. Il campo latenza in questa pagina riporta il tempo di risposta medio per tutte le richieste di i/o, espresso in millisecondi per operazione.
@@ -135,6 +140,7 @@ Per ulteriori informazioni, consultare i seguenti collegamenti:
 
 
 
+[[performance-all-luns-view]]
 == Performance: Vista di tutti i LUN
 
 La vista Performance: All LUN visualizza una panoramica degli eventi delle performance, dei dati e delle informazioni di configurazione per ogni LUN monitorato da un'istanza di Unified Manager. In questo modo è possibile monitorare rapidamente le performance dei LUN e risolvere i problemi di performance e gli eventi di soglia.
@@ -154,6 +160,7 @@ Per ulteriori informazioni, consultare i seguenti collegamenti:
 
 
 
+[[performance-all-nvme-namespaces-view]]
 == Performance (prestazioni): Visualizzazione di tutti gli spazi dei nomi NVMe
 
 La vista Performance: All NVMe Namespaces (prestazioni: Tutti gli spazi dei nomi NVMe) visualizza una panoramica degli eventi di performance, dei dati e delle informazioni di configurazione per ogni spazio dei nomi NVMe monitorato da un'istanza di Unified Manager. Ciò consente di monitorare rapidamente le performance e lo stato dei namespace e di risolvere i problemi e gli eventi di soglia.
@@ -168,6 +175,7 @@ Per ulteriori informazioni, consultare i seguenti collegamenti:
 
 
 
+[[performance-all-network-interfaces-view]]
 == Performance (prestazioni): Vista All Network Interface (tutte le interfacce di rete)
 
 La vista Performance: All Network Interfaces (prestazioni: Tutte le interfacce di rete) visualizza una panoramica degli eventi relativi alle performance, dei dati e delle informazioni di configurazione per ciascuna interfaccia di rete (LIF) monitorata da questa istanza di Unified Manager. Questa pagina consente di monitorare rapidamente le performance delle interfacce e di risolvere i problemi di performance e gli eventi di soglia. Di seguito sono riportati alcuni campi importanti della vista Performance: All Network Interfaces (prestazioni: Tutte le interfacce di rete).
@@ -184,6 +192,7 @@ NOTE: Le interfacce elencate in questa pagina includono Data LIF, Cluster LIF, N
 
 
 
+[[performance-all-ports-view]]
 == Performance: Vista All Ports (prestazioni: Tutte le porte
 
 La vista Performance: All Ports (prestazioni: Tutte le porte) visualizza una panoramica degli eventi di performance, dei dati e delle informazioni di configurazione per ciascuna porta monitorata da un'istanza di Unified Manager. In questo modo è possibile monitorare rapidamente le performance delle porte e risolvere i problemi di performance e gli eventi di soglia. Per un ruolo di porta, viene visualizzata la funzione della porta di rete, Data (dati) o Cluster (cluster). Le porte FCP non possono avere un ruolo e il ruolo viene visualizzato come N/A.
@@ -199,6 +208,7 @@ Per ulteriori informazioni, consultare i seguenti collegamenti:
 
 
 
+[[performance-qos-policy-groups-view]]
 == Performance (prestazioni): Vista QoS Policy Groups (gruppi di policy
 
 La vista QoS Policy Groups (gruppi policy QoS) visualizza i gruppi di policy QoS disponibili sui cluster monitorati da Unified Manager. Ciò include policy QoS tradizionali, policy QoS adattive e policy QoS assegnate utilizzando i livelli di servizio Performance.

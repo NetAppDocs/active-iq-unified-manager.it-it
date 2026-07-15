@@ -15,6 +15,7 @@ summary: È possibile utilizzare la finestra di dialogo Crea pool di risorse per
 
 
 
+[[resource-pool-name]]
 == Nome pool di risorse
 
 Le caselle di testo consentono di aggiungere le seguenti informazioni per creare un pool di risorse:
@@ -23,18 +24,21 @@ Consente di specificare un nome di pool di risorse.
 
 
 
+[[description]]
 == Descrizione
 
 Consente di descrivere un pool di risorse.
 
 
 
+[[members]]
 == Membri
 
 Visualizza i membri del pool di risorse. Puoi anche aggiungere ed eliminare membri.
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:

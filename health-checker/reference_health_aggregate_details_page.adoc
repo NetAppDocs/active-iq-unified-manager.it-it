@@ -15,6 +15,7 @@ summary: 'È possibile utilizzare la pagina aggregato/Dettagli salute per visual
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 [NOTE]
@@ -48,6 +49,7 @@ Consente di passare alla vista Health: All aggregates (Salute: Tutti gli aggrega
 
 
 
+[[capacity-tab]]
 == Scheda capacità
 
 La scheda Capacity (capacità) visualizza informazioni dettagliate sull'aggregato selezionato, ad esempio capacità, soglie e tasso di crescita giornaliero.
@@ -204,6 +206,7 @@ Visualizza i grafici che forniscono informazioni sulla capacità dei volumi cont
 
 
 
+[[disk-information-tab]]
 == Scheda Disk Information (informazioni disco)
 
 Visualizza informazioni dettagliate sui dischi nell'aggregato selezionato, inclusi il tipo e le dimensioni RAID e il tipo di dischi utilizzati nell'aggregato. La scheda visualizza inoltre graficamente i gruppi RAID e i tipi di dischi utilizzati (ad esempio SAS, ATA, FCAL, SSD o VMDISK). È possibile visualizzare ulteriori informazioni, ad esempio l'alloggiamento del disco, lo shelf e la velocità di rotazione, posizionando il cursore sui dischi di parità e sui dischi dati.
@@ -385,6 +388,7 @@ Visualizza il nome del livello cloud, se è stato configurato un aggregato abili
 
 
 
+[[configuration-tab]]
 == Scheda Configuration (Configurazione)
 
 La scheda Configuration (Configurazione) visualizza i dettagli relativi all'aggregato selezionato, ad esempio il nodo del cluster, il tipo di blocco, il tipo di RAID, la dimensione RAID e il numero di gruppi RAID:
@@ -456,6 +460,7 @@ Visualizza se la crittografia SSL è attivata per il livello cloud.
 
 
 
+[[history-area]]
 == Area della storia
 
 L'area History (Cronologia) visualizza i grafici che forniscono informazioni sulla capacità dell'aggregato selezionato. Inoltre, è possibile fare clic sul pulsante *Esporta* per creare un report in formato CSV per il grafico visualizzato.
@@ -480,6 +485,7 @@ Visualizza l'andamento dell'utilizzo della capacità aggregata in base alla cron
 
 
 
+[[events-list]]
 == Elenco degli eventi
 
 L'elenco Eventi visualizza i dettagli relativi agli eventi nuovi e riconosciuti:
@@ -500,6 +506,7 @@ Visualizza il tempo trascorso da quando è stato generato l'evento. Se il tempo 
 
 
 
+[[related-devices-pane]]
 == Pannello Related Devices (dispositivi correlati)
 
 Il pannello Related Devices (dispositivi correlati) consente di visualizzare il nodo del cluster, i volumi e i dischi correlati all'aggregato:
@@ -528,6 +535,7 @@ Visualizza il numero di dischi nell'aggregato selezionato.
 
 
 
+[[related-alerts-pane]]
 == Pannello Avvisi correlati
 
 Il riquadro Related Alerts (Avvisi correlati) consente di visualizzare l'elenco degli avvisi creati per l'aggregato selezionato. È inoltre possibile aggiungere un avviso facendo clic sul collegamento Add Alert (Aggiungi avviso) o modificarne uno esistente facendo clic sul nome dell'avviso.

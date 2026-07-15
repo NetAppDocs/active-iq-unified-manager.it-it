@@ -15,6 +15,7 @@ La pagina Summary (Riepilogo) visualizza i diagrammi dei contatori che contengon
 
 
 
+[[charts-and-counter-statistics]]
 == Grafici e statistiche dei contatori
 
 I grafici riepilogativi forniscono una panoramica rapida e di alto livello per le ultime 72 ore e consentono di identificare i possibili problemi che richiedono ulteriori indagini.
@@ -135,6 +136,7 @@ Il grafico del contatore di utilizzo visualizza la percentuale di utilizzo degli
 
 
 
+[[events]]
 == Eventi
 
 La tabella della cronologia degli eventi, se applicabile, elenca gli eventi più recenti che si sono verificati in quell'oggetto. Facendo clic sul nome dell'evento, i dettagli dell'evento vengono visualizzati nella pagina Dettagli evento.

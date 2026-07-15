@@ -15,6 +15,7 @@ summary: È possibile utilizzare le API elencate di seguito per gestire le mappa
 
 
 
+[[view-active-directory-mappings]]
 == Visualizzare le mappature di Active Directory
 
 È possibile visualizzare i dettagli di configurazione delle mappature di Active Directory per una SVM utilizzando il seguente metodo. Per visualizzare le mappature di Active Directory su una SVM, è necessario inserire la chiave SVM. Per eseguire query sui dettagli di una mappatura specifica, è necessario inserire la chiave di mappatura.
@@ -36,6 +37,7 @@ OTTIENI
 |===
 
 
+[[add-active-directory-mapping]]
 == Aggiungi mappatura Active Directory
 
 È possibile creare mappature di Active Directory su una SVM utilizzando il seguente metodo. Inserire i dettagli della mappatura come parametri di input.

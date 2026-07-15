@@ -15,6 +15,7 @@ summary: È possibile utilizzare la finestra di dialogo Modifica pool di risorse
 
 
 
+[[text-boxes]]
 == Caselle di testo
 
 Le caselle di testo consentono di modificare le seguenti informazioni per il pool di risorse selezionato:
@@ -31,6 +32,7 @@ Consente di inserire una nuova descrizione.
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:

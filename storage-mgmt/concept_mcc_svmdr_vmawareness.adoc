@@ -19,6 +19,7 @@ In Unified Manager, è possibile visualizzare i volumi NAS o le LUN in una confi
 
 
 
+[[view-datastores-in-metrocluster-configuration]]
 == Visualizza i datastore nella configurazione MetroCluster
 
 Prima di visualizzare gli archivi dati in una configurazione MetroCluster, tenere presente i seguenti prerequisiti:
@@ -40,6 +41,7 @@ Per visualizzare i datastore, attenersi alla seguente procedura:
 
 
 
+[[view-datastores-in-storage-vm-disaster-recovery-configuration]]
 == Visualizza gli archivi dati nella configurazione di ripristino di emergenza della VM di archiviazione
 
 Prima di visualizzare gli archivi dati in una configurazione di disaster recovery per le macchine virtuali di storage, tenere presente i seguenti prerequisiti:
@@ -75,6 +77,7 @@ Per visualizzare i datastore, attenersi alla seguente procedura:
 
 
 
+[[unsupported-scenarios]]
 == Scenari non supportati
 
 * Per una configurazione MetroCluster, tenere presente le seguenti limitazioni:

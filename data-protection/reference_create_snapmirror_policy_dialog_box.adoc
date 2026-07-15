@@ -52,6 +52,7 @@ Specifica che i trasferimenti interrotti non vengono mai riavviati.
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:

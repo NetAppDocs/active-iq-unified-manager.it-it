@@ -15,6 +15,7 @@ Le API elencate di seguito consentono di visualizzare un elenco consolidato di c
 
 
 
+[[view-storage-workloads]]
 == Visualizza i carichi di lavoro dello storage
 
 Puoi utilizzare il seguente metodo per visualizzare tutti i carichi di lavoro dello storage in tutti i cluster del tuo data center. Per informazioni sul filtraggio della risposta in base a colonne specifiche, consultare la documentazione di riferimento API disponibile nell'istanza di Unified Manager.
@@ -34,6 +35,7 @@ OTTIENI
 |===
 
 
+[[view-storage-workloads-summary]]
 == Visualizza il riepilogo dei carichi di lavoro dello storage
 
 È possibile utilizzare il seguente metodo per valutare la capacità utilizzata, la capacità disponibile, gli IOPS utilizzati, gli IOPS disponibili e il numero di carichi di lavoro dello storage gestiti da ciascun livello di servizio delle performance. I carichi di lavoro dello storage visualizzati possono essere per qualsiasi condivisione LUN, file share NFS o CIFS. L'API offre una panoramica dei carichi di lavoro dello storage, una panoramica dei carichi di lavoro dello storage forniti da Unified Manager, una panoramica del data center, una panoramica dello spazio totale, utilizzato e disponibile e degli IOPS nel data center, in termini di livelli di Performance Service assegnati. Le informazioni ricevute in risposta a questa API vengono utilizzate per popolare la dashboard nell'interfaccia utente di Unified Manager.

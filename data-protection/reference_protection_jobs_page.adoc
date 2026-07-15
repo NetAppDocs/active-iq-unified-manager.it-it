@@ -15,6 +15,7 @@ La pagina lavori consente di visualizzare lo stato corrente e altre informazioni
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:
@@ -35,6 +36,7 @@ Aggiorna l'elenco dei job e le informazioni ad essi associate.
 
 
 
+[[jobs-list]]
 == Elenco dei job
 
 L'elenco lavori visualizza, in formato tabulare, un elenco dei lavori in corso. Per impostazione predefinita, l'elenco visualizza solo i lavori generati nell'ultima settimana. È possibile utilizzare l'ordinamento e il filtraggio delle colonne per personalizzare i lavori da visualizzare.

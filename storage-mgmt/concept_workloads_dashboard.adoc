@@ -28,6 +28,7 @@ La pagina relativa ai carichi di lavoro contiene le seguenti due sezioni:
 
 
 
+[[workloads-overview-section]]
 == Sezione panoramica sui carichi di lavoro
 
 La sezione panoramica sui workload fornisce informazioni cumulative a colpo d'occhio sui workload dello storage. Lo stato dei carichi di lavoro dello storage viene visualizzato in base ai livelli di Performance Service assegnati e non assegnati.
@@ -54,6 +55,7 @@ La sottosezione conformità per livelli di servizio delle performance visualizza
 
 
 
+[[data-center-overview-section]]
 == Sezione panoramica del data center
 
 La sezione panoramica del data center rappresenta graficamente la capacità disponibile e utilizzata e gli IOPS per tutti i cluster del data center. Utilizzando questi dati, è necessario gestire la capacità e gli IOPS dei carichi di lavoro dello storage. La sezione visualizza inoltre le seguenti informazioni per i carichi di lavoro dello storage in tutti i cluster:

@@ -17,6 +17,7 @@ La pagina impostazione eventi visualizza l'elenco degli eventi disattivati e for
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti attività per gli eventi selezionati:
@@ -41,6 +42,7 @@ Apre la finestra di dialogo Iscriviti agli eventi EMS, che consente di iscrivers
 
 
 
+[[list-view]]
 == Vista elenco
 
 La vista elenco visualizza (in formato tabulare) le informazioni sugli eventi disattivati. È possibile utilizzare i filtri di colonna per personalizzare i dati visualizzati.

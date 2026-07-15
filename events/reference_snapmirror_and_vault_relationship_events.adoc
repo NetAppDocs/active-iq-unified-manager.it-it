@@ -15,6 +15,7 @@ Gli eventi di relazione di mirroring asincrono e vault forniscono informazioni s
 
 
 
+[[impact-area-protection]]
 == Area di impatto: Protezione
 
 [NOTE]

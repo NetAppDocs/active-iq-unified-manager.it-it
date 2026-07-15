@@ -15,6 +15,7 @@ Gli eventi Snapshot forniscono informazioni sullo stato delle snapshot che conse
 
 
 
+[[impact-area-availability]]
 == Area di impatto: Disponibilità
 
 |===

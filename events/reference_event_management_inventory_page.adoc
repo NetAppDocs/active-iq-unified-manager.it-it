@@ -17,6 +17,7 @@ Le informazioni contenute in questa pagina vengono aggiornate automaticamente og
 
 
 
+[[filter-components]]
 == Componenti del filtro
 
 Consente di personalizzare le informazioni visualizzate nell'elenco degli eventi. È possibile perfezionare l'elenco degli eventi visualizzati utilizzando i seguenti componenti:
@@ -31,6 +32,7 @@ Sono inclusi elementi come tutti gli eventi attivi (nuovi e riconosciuti), gli e
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:
@@ -86,6 +88,7 @@ Consente di scegliere le colonne visualizzate nella pagina e di selezionare l'or
 
 
 
+[[events-list]]
 == Elenco degli eventi
 
 Visualizza i dettagli di tutti gli eventi ordinati in base all'ora di attivazione.

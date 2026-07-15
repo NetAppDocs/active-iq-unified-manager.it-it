@@ -15,6 +15,7 @@ summary: È possibile modificare una relazione di protezione esistente per modif
 
 
 
+[[destination-information]]
 == Informazioni di destinazione
 
 * *Cluster di destinazione*
@@ -56,6 +57,7 @@ Apre la finestra di dialogo Create Schedule (Crea pianificazione), che consente 
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:

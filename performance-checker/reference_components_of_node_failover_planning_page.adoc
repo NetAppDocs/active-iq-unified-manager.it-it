@@ -15,6 +15,7 @@ I componenti della pagina Performance/Node failover Planning (Pianificazione del
 
 
 
+[[performance-statistics-grid]]
 == Griglia delle statistiche delle performance
 
 La pagina Performance/Node failover Planning (Pianificazione del failover delle performance/nodi) visualizza una griglia contenente le statistiche relative a latenza, IOPS, utilizzo e capacità delle performance utilizzate.
@@ -49,6 +50,7 @@ Sebbene il carico di lavoro del nodo di Takeover sia equivalente ai carichi di l
 
 
 
+[[comparing-pane]]
 == Pannello di confronto
 
 Il seguente elenco descrive i componenti visualizzati nel riquadro di confronto per impostazione predefinita:

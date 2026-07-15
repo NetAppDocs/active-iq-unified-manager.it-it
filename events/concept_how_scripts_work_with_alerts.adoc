@@ -36,6 +36,7 @@ Lo script utilizza i seguenti argomenti per l'esecuzione:
 
 
 
+[[example-for-obtaining-arguments-from-scripts]]
 == Esempio per ottenere argomenti dagli script
 
 [listing]

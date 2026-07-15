@@ -27,6 +27,7 @@ summary: È possibile configurare una o più condizioni per creare regole di ann
 
 
 
+[[example-of-configuring-a-condition-for-an-annotation-rule]]
 == Esempio di configurazione di una condizione per una regola di annotazione
 
 Considerare una condizione per il tipo di oggetto SVM, in cui il nome dell'oggetto contiene "`svm_data`".

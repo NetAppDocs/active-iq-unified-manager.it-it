@@ -15,6 +15,7 @@ Gli eventi della scheda flash forniscono informazioni sullo stato delle schede f
 
 
 
+[[impact-area-availability]]
 == Area di impatto: Disponibilità
 
 |===

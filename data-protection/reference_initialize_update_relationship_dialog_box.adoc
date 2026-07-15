@@ -15,6 +15,7 @@ La finestra di dialogo Initialize/Update (Inizializza/Aggiorna) consente di eseg
 
 
 
+[[transfer-options-tab]]
 == Scheda Transfer Options (Opzioni di trasferimento)
 
 La scheda Transfer Options (Opzioni di trasferimento) consente di modificare la priorità di inizializzazione di un trasferimento e la larghezza di banda utilizzata durante i trasferimenti.
@@ -46,6 +47,7 @@ Se selezionata, la larghezza di banda della rete è limitata al valore specifica
 
 
 
+[[source-snapshot-copies-tab]]
 == Scheda copie Snapshot di origine
 
 La scheda Source Snapshot Copies (copie Snapshot di origine) visualizza le seguenti informazioni sulla copia Snapshot di origine utilizzata per il trasferimento di riferimento:
@@ -70,6 +72,7 @@ Visualizza la copia Snapshot utilizzata per il trasferimento dei dati. Facendo c
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di eseguire le seguenti operazioni:

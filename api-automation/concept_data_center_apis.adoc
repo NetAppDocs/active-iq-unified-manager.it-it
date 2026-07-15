@@ -28,6 +28,7 @@ I comandi, gli esempi, le richieste e le risposte ALLE API SONO disponibili sull
 ====
 
 
+[[apis-for-storage-objects-in-your-data-center]]
 == API per gli oggetti storage nel data center
 
 [cols="3*"]
@@ -203,6 +204,7 @@ Se è stato abilitato il provisioning del carico di lavoro basato su SLO nell'am
 
 
 
+[[apis-for-network-elements-in-your-data-center]]
 == API per gli elementi di rete nel data center
 
 Le seguenti API nella categoria del data center recuperano informazioni sulle porte e sulle interfacce di rete dell'ambiente, in particolare le porte FC, le interfacce FC, le porte ethernet e le interfacce IP.

@@ -17,6 +17,7 @@ La pagina Configurazione avvisi visualizza un elenco di avvisi e fornisce inform
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 * *Aggiungi*
@@ -51,6 +52,7 @@ Consente di attivare o disattivare l'invio di avvisi quando gli eventi vengono s
 
 
 
+[[list-view]]
 == Vista elenco
 
 La vista elenco visualizza, in formato tabulare, le informazioni sugli avvisi creati. È possibile utilizzare i filtri di colonna per personalizzare i dati visualizzati. È inoltre possibile selezionare un avviso per visualizzare ulteriori informazioni nell'area dei dettagli.
@@ -79,6 +81,7 @@ Specifica la frequenza (in minuti) con cui il server di gestione continua a invi
 
 
 
+[[details-area]]
 == Area dei dettagli
 
 L'area dei dettagli fornisce ulteriori informazioni sull'avviso selezionato.

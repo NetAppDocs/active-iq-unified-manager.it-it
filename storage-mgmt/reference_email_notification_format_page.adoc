@@ -68,6 +68,7 @@ Specifica il nome dell'utente o del gruppo di utenti.
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 I pulsanti di comando consentono di visualizzare in anteprima, salvare o annullare le modifiche apportate al formato di notifica e-mail:

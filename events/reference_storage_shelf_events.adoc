@@ -15,6 +15,7 @@ Gli eventi relativi agli shelf di storage indicano se lo shelf di storage presen
 
 
 
+[[impact-area-availability]]
 == Area di impatto: Disponibilità
 
 |===

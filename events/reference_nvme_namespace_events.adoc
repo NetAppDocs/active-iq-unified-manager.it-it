@@ -17,6 +17,7 @@ Un asterisco (*) identifica gli eventi EMS che sono stati convertiti in eventi U
 
 
 
+[[impact-area-availability]]
 == Area di impatto: Disponibilità
 
 |===
@@ -68,6 +69,7 @@ Informazioni
 |===
 
 
+[[impact-area-performance]]
 == Area di impatto: Performance
 
 |===

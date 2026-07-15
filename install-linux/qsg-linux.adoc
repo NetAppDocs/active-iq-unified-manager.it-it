@@ -15,6 +15,7 @@ Potete scaricare il pacchetto di installazione e installare Unified Manager su u
 
 
 
+[[system-requirements]]
 == Requisiti di sistema
 
 * Sistema operativo: Red Hat Enterprise Linux versioni 8.x e 9,4, basate sull'architettura x86_64, installato utilizzando l'ambiente di base "Server con GUI" dall'opzione *selezione software* del programma di installazione del sistema operativo
@@ -26,10 +27,12 @@ Per informazioni dettagliate sui requisiti di sistema e sull'installazione del p
 
 
 
+[[install-active-iq-unified-manager]]
 == Installare Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === Scaricare il programma di installazione
 
 . Scaricare il `ActiveIQUnifiedManager-<version>.zip` pacchetto di installazione con certificato di firma del codice (`.pem`) e firma digitale (`.sig`) .
@@ -41,6 +44,7 @@ Per informazioni dettagliate sui requisiti di sistema e sull'installazione del p
 
 
 
+[[verify-integrity]]
 === Verificare l'integrità
 
 Eseguire i seguenti comandi per verificare l'integrità del pacchetto di installazione:
@@ -51,6 +55,7 @@ Eseguire i seguenti comandi per verificare l'integrità del pacchetto di install
 
 
 
+[[verify-repository-configuration]]
 === Verificare la configurazione del repository
 
 Le procedure per la configurazione di un repository Red Hat Enterprise Linux sono specifiche del sito. È possibile utilizzare `pre_install_check.sh` lo script incluso nel pacchetto di installazione per verificare la configurazione del sistema operativo. Se il vostro sistema è connesso a Internet, riceverete automaticamente le istruzioni per configurare l'archivio di Red Hat Enterprise Linux.
@@ -59,6 +64,7 @@ Le procedure per la configurazione di un repository Red Hat Enterprise Linux son
 
 
 
+[[install-unified-manager]]
 === Installare Unified Manager
 
 Unified Manager utilizza `yum` l'utility per installare il software e qualsiasi software dipendente. Poiché esistono diverse immagini di Red Hat Enterprise Linux, i pacchetti installati dipendono dal software presente nelle immagini. L' `yum`utility determina i pacchetti software dipendenti per l'installazione. Per ulteriori informazioni sui pacchetti software dipendenti, vedere link:../install-linux/reference_red_hat_software_and_installation_requirements.html["Software Linux e requisiti di installazione"].

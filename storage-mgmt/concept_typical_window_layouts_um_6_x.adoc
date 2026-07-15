@@ -17,12 +17,14 @@ Non tutte le finestre contengono tutti gli elementi dei seguenti diagrammi.
 
 
 
+[[object-list-window-layout]]
 == Layout della finestra dell'elenco oggetti
 
 image::../media/object_list.png[elenco di oggetti]
 
 
 
+[[object-details-window-layout]]
 == Layout della finestra Dettagli oggetto
 
 image::../media/object_details.gif[dettagli dell'oggetto]

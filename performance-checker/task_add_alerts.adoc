@@ -56,6 +56,7 @@ Se si modifica l'indirizzo di posta elettronica specificato per l'utente e si ri
 
 
 
+[[example-of-adding-an-alert]]
 == Esempio di aggiunta di un avviso
 
 Questo esempio mostra come creare un avviso che soddisfi i seguenti requisiti:

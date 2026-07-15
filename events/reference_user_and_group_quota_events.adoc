@@ -15,6 +15,7 @@ Gli eventi di quota di utenti e gruppi forniscono informazioni sulla capacità d
 
 
 
+[[impact-area-capacity]]
 == Area di impatto: Capacità
 
 |===

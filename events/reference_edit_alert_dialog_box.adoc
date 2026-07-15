@@ -15,6 +15,7 @@ summary: 'È possibile modificare le proprietà degli avvisi, ad esempio la riso
 
 
 
+[[name]]
 == Nome
 
 Quest'area consente di modificare il nome e la descrizione dell'avviso.
@@ -35,6 +36,7 @@ Consente di attivare o disattivare l'avviso.
 
 
 
+[[resources]]
 == Risorse
 
 Quest'area consente di selezionare una singola risorsa o di raggruppare le risorse in base a una regola dinamica per la quale si desidera attivare l'avviso. È possibile cercare le risorse selezionando un tipo di risorsa dall'elenco a discesa oppure specificare il nome esatto della risorsa per visualizzare una risorsa specifica.
@@ -57,6 +59,7 @@ La scheda Escludi viene visualizzata solo quando si selezionano tutte le risorse
 
 
 
+[[events]]
 == Eventi
 
 Quest'area consente di selezionare gli eventi per i quali si desidera attivare gli avvisi. È possibile attivare un avviso per gli eventi in base a una determinata severità o a una serie di eventi.
@@ -73,6 +76,7 @@ Consente di selezionare gli eventi il cui nome contiene i caratteri specificati.
 
 
 
+[[actions]]
 == Azioni
 
 Questa area consente di specificare il metodo di notifica e la frequenza di notifica.
@@ -106,6 +110,7 @@ Consente di associare uno script all'avviso. Questo script viene eseguito quando
 
 
 
+[[command-buttons]]
 == Pulsanti di comando
 
 * *Salva*

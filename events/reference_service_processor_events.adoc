@@ -15,6 +15,7 @@ Gli eventi del Service Processor forniscono informazioni sullo stato del process
 
 
 
+[[impact-area-availability]]
 == Area di impatto: Disponibilità
 
 |===

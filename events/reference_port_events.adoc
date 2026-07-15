@@ -15,6 +15,7 @@ Gli eventi delle porte forniscono informazioni sullo stato delle porte del clust
 
 
 
+[[impact-area-availability]]
 == Area di impatto: Disponibilità
 
 |===
@@ -33,6 +34,7 @@ Critico
 |===
 
 
+[[impact-area-performance]]
 == Area di impatto: Performance
 
 |===
