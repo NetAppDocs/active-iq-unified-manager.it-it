@@ -7,7 +7,7 @@ summary: Fornisce un riepilogo delle nuove funzionalità, delle limitazioni e de
 = Note di rilascio
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
