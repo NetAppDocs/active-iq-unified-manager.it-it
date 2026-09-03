@@ -19,7 +19,7 @@ Un metodo per determinare l'eventuale mancanza di spazio negli aggregati consist
 
 Il seguente diagramma di flusso illustra il processo di recupero delle informazioni sui volumi con la modalità di dimensionamento automatico attivata:
 
-image::../media/space_utilization.gif[utilizzo dello spazio]
+image::../media/space_utilization.gif[Diagramma di flusso per identificare i volumi sovrautilizzati con modalità di ridimensionamento automatico abilitata negli aggregati di cluster]
 
 Questo flusso presuppone che i cluster siano già stati creati in ONTAP e aggiunti a Unified Manager.
 

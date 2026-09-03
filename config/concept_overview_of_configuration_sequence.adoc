@@ -13,4 +13,4 @@ summary: Il flusso di lavoro di configurazione descrive le attività da eseguire
 [role="lead"]
 Il flusso di lavoro di configurazione descrive le attività da eseguire prima di poter utilizzare Unified Manager.
 
-image::../media/post_install_flow.png[flusso post-installazione]
+image::../media/post_install_flow.png[Un diagramma che mostra il workflow di configurazione iniziale di Unified Manager e le attività di impostazione amministrativa]

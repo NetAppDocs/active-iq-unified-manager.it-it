@@ -13,4 +13,4 @@ summary: Il flusso di lavoro di installazione descrive le attività da eseguire 
 [role="lead"]
 Il flusso di lavoro di installazione descrive le attività da eseguire prima di poter utilizzare Unified Manager.
 
-image::../media/install_flow_on_windows.gif[installazione del flusso su windows]
+image::../media/install_flow_on_windows.gif[Un diagramma che mostra i prerequisiti, l'installazione di Unified Manager e i passaggi del flusso di lavoro per la configurazione iniziale]

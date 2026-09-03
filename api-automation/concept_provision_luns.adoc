@@ -15,7 +15,7 @@ summary: 'È possibile eseguire il provisioning delle LUN sulle macchine virtual
 
 Il seguente diagramma illustra i passaggi di un flusso di lavoro di provisioning del LUN.
 
-image::../media/create_luns.gif[creare lun]
+image::../media/create_luns.gif[Un diagramma che mostra il flusso di lavoro per la creazione di una LUN, inclusi i passaggi relativi a Storage VM, livello di servizio e igroup]
 
 [NOTE]
 ====

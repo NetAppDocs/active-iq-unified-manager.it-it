@@ -15,4 +15,4 @@ Il flusso di lavoro di installazione descrive le attività da eseguire prima di 
 
 Queste sezioni descrivono ciascuno degli elementi mostrati nel flusso di lavoro seguente.
 
-image::../media/overall_um_install_flow.png[flusso generale di installazione di um]
+image::../media/overall_um_install_flow.png[Un diagramma che mostra i flussi di lavoro relativi all'installazione, alla configurazione iniziale e alle impostazioni amministrative di Unified Manager]

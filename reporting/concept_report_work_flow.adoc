@@ -13,4 +13,4 @@ summary: Struttura decisionale che descrive il flusso di lavoro del report.
 [role="lead"]
 Struttura decisionale che descrive il flusso di lavoro del report.
 
-image::../media/reports_view_workflow.png[i report visualizzano il flusso di lavoro]
+image::../media/reports_view_workflow.png[Un diagramma che mostra un flusso di lavoro ad albero decisionale per la visualizzazione, la personalizzazione, il caricamento e il download dei report]

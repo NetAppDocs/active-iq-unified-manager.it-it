@@ -15,7 +15,7 @@ Quando un oggetto di storage nel data center supera una soglia, viene inviata un
 
 Questo flusso di lavoro prende l'esempio di un volume come oggetto risorsa. È possibile utilizzare `events` API per recuperare l'elenco degli eventi correlati a un volume, analizzare i problemi critici per quel volume e intraprendere azioni correttive per risolvere il problema.
 
-image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[gestione dei problemi relativi agli eventi di un diagramma di flusso di un oggetto di storage]
+image::../media/handling_event_related_issues_of_a_storage_object_flowchart.gif[Un diagramma di flusso che mostra l'analisi degli eventi di volume dall'elenco degli eventi fino all'azione correttiva fino alla fine]
 
 Prima di intraprendere le azioni correttive, attenersi alla procedura descritta di seguito per determinare i problemi del volume.
 

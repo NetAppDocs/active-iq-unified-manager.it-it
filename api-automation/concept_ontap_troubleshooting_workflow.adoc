@@ -28,7 +28,7 @@ Prima di eseguire le fasi del flusso di lavoro, assicurarsi che:
 ====
 Il seguente diagramma illustra ogni fase del flusso di lavoro per la risoluzione dei problemi relativi all'utilizzo della capacità del volume ONTAP.
 
-image::../media/api_gateway_ontap_workflow.gif[workflow ONTAP del gateway api]
+image::../media/api_gateway_ontap_workflow.gif[Un diagramma che mostra i passaggi di Unified Manager e dell'API ONTAP per la risoluzione dei problemi relativi agli avvisi di capacità del volume]
 
 Il flusso di lavoro copre i punti di richiamo delle API REST di Unified Manager e ONTAP.
 

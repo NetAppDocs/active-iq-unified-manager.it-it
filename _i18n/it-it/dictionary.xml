@@ -181,7 +181,6 @@
   <block id="0320544bc815d2fc0c65ffe88386c47a" category="paragraph">Dopo aver rigenerato il certificato HTTPS, è necessario riavviare la macchina virtuale di Unified Manager.</block>
   <block id="17468e66f6f6fa8f16ad4f7b18e16de5" category="summary">Il flusso di lavoro di configurazione descrive le attività da eseguire prima di poter utilizzare Unified Manager.</block>
   <block id="4803eca8e03e70fa406180caf3f66361" category="doc">Panoramica della sequenza di configurazione</block>
-  <block id="ca4d378a679606b42fbb1eeeb71eb25e" category="image-alt">flusso post-installazione</block>
   <block id="40df46edf76dd3582387d2c92a937e1d" category="summary">Se l'interfaccia utente di Unified Manager non è in funzione o se è necessario eseguire funzioni non disponibili nell'interfaccia utente, è possibile accedere alla console di manutenzione per riconfigurare l'appliance virtuale.</block>
   <block id="01772faf5205cc71d6ae48ebe48d83bf" category="list-text">È necessario essere l'utente che esegue la manutenzione.</block>
   <block id="92aff6c01ddb81eadf90198118ada19c" category="list-text">L'appliance virtuale deve essere accesa per accedere alla console di manutenzione.</block>
@@ -2514,9 +2513,7 @@
   <block id="998b0f0721a85f1887ad21211d13755d" category="doc">Layout tipici delle finestre</block>
   <block id="f5d0d6012440752411c07b7aee29cd3d" category="paragraph">Non tutte le finestre contengono tutti gli elementi dei seguenti diagrammi.</block>
   <block id="16faa1bfdfc3c23fd9c85afc8d128775" category="section-title">Layout della finestra dell'elenco oggetti</block>
-  <block id="6eaa6c9903ef182946f5bf66eee73304" category="image-alt">elenco di oggetti</block>
   <block id="4138fb3a63b46db04d955eab74245d6d" category="section-title">Layout della finestra Dettagli oggetto</block>
-  <block id="7ce88d49c4ef0cb2d159967d47029a6e" category="image-alt">dettagli dell'oggetto</block>
   <block id="8a039709afb8a17b0795f680ff05e08b" category="summary">La pagina formato notifica e-mail visualizza le regole del messaggio e-mail inviato a un utente o a un gruppo di utenti quando si verifica un problema relativo alla quota (limite minimo violato o limite massimo raggiunto).</block>
   <block id="356560b265d551630dbb594b1f54ba8b" category="doc">Pagina formato notifica email</block>
   <block id="10d0f164416cf02b18a191ee156fe7de" category="paragraph">La notifica e-mail viene inviata solo quando vengono generati i seguenti eventi di quota utente o gruppo di utenti: Limite di spazio su disco per quota utente o gruppo superato, limite di tolleranza per il numero di file per quota utente o gruppo superato, limite di tolleranza per lo spazio su disco per quota utente o gruppo raggiunto o limite massimo per il numero di file per quota utente o gruppo raggiunto.</block>
@@ -2630,10 +2627,8 @@
   <block id="c513bb45e58fc45e3ec83dab5da7da36" category="list-text">VMDK: Disco di una macchina virtuale nel datastore che fornisce spazio di storage per i dischi virtuali. Per ciascun disco virtuale, è disponibile un VMDK corrispondente.</block>
   <block id="56ebd08e1cbf3f9df816c1f70ba60dff" category="paragraph">Questi oggetti sono rappresentati in una vista della topologia della macchina virtuale.</block>
   <block id="8a07986e324a4a34c7cfeb47a2736741" category="paragraph">*Virtualizzazione VMware su ONTAP*</block>
-  <block id="e8509cc177acaa157f47a7b0164d3a1f" category="image-alt">implementazione di macchine virtuali</block>
   <block id="375aae8872c43ab2f8538114dccc92c7" category="paragraph">*Workflow utente*</block>
   <block id="f85ada8d3fc041341df44b187b48d4f1" category="paragraph">Il seguente diagramma mostra un tipico caso di utilizzo della vista della topologia della macchina virtuale:</block>
-  <block id="33e759e1731579239486744935dbb489" category="image-alt">workflow delle macchine virtuali</block>
   <block id="ab54009fea66778938a808305a2f0e4d" category="section-title">Cosa non è supportato</block>
   <block id="71ea79c55d09192e3c60b68484e514d5" category="list-text">Gli archivi dati esterni a ONTAP e mappati alle istanze di vCenter Server non sono supportati da Unified Manager. Non sono supportate anche le macchine virtuali con dischi virtuali su tali datastore.</block>
   <block id="56036578c66036279dbd8f75e9437dc3" category="list-text">Un datastore che si estende su più LUN non è supportato.</block>
@@ -3570,11 +3565,9 @@
   <block id="12dc360fa3d8165171389ee06172a133" category="inline-link">Note di rilascio di Active IQ Unified Manager</block>
   <block id="2216048a705ad9a52409473a75b4d6ad" category="summary">Il flusso di lavoro di implementazione descrive le attività da eseguire prima di poter utilizzare Unified Manager.</block>
   <block id="aa6d1a2e27b6e5456d746d62b1002336" category="doc">Panoramica del processo di implementazione</block>
-  <block id="726763bf5aecf665420de6eeab308805" category="image-alt">sequenza di implementazione oc 6 0</block>
   <block id="8c9d08852e8e1febedc693013a4f0f93" category="summary">Il flusso di lavoro di installazione descrive le attività da eseguire prima di poter utilizzare Unified Manager.</block>
   <block id="bed7b91a2df8076097fedfb7b87f92e7" category="doc">Panoramica della sequenza di installazione</block>
   <block id="677bb67b43e56c44269810a302788b34" category="paragraph">Queste sezioni descrivono ciascuno degli elementi mostrati nel flusso di lavoro seguente.</block>
-  <block id="322f88fdb47136f0505af3e29d2c5649" category="image-alt">flusso generale di installazione di um</block>
   <block id="81a396f065b27cb051074026c2ea793d" category="summary">Le porte e i protocolli richiesti consentono la comunicazione tra il server Unified Manager e i sistemi di storage gestiti, i server e altri componenti.</block>
   <block id="9311d71ef277bbd7dbcd75abedaada36" category="doc">Requisiti di protocollo e porta</block>
   <block id="75b42433f156711f498d34110214dd60" category="section-title">Connessioni al server Unified Manager</block>
@@ -4002,7 +3995,6 @@
   <block id="0f95c121d7dad838526a7f651b857814" category="list-text">Sei un amministratore dell'applicazione.</block>
   <block id="82860026803af0cdcc831f5f5030ae00" category="list-text">Il cluster su cui si desidera eseguire le operazioni API REST è supportato da ONTAP 9.5 o versione successiva e il cluster viene aggiunto a Unified Manager su HTTPS.</block>
   <block id="98c896958cb9f708964fcc3c7173e78d" category="paragraph">Il seguente diagramma illustra ogni fase del flusso di lavoro per la risoluzione dei problemi relativi all'utilizzo della capacità del volume ONTAP.</block>
-  <block id="3a4d571f6dbcd3bcf57d5650a8d35570" category="image-alt">workflow ONTAP del gateway api</block>
   <block id="76b26371e1f301a312db4d2d46c9befe" category="paragraph">Il flusso di lavoro copre i punti di richiamo delle API REST di Unified Manager e ONTAP.</block>
   <block id="015fada14012e66a3870b9ed0e2d6370" category="list-text">Annotare il nome del volume dell'evento che notifica l'utilizzo della capacità del volume.</block>
   <block id="2217533b12d59ed2edfb6646b767c321" category="list-text">Utilizzando il nome del volume come valore nel parametro name, eseguire una query sul volume eseguendo la seguente API di Unified Manager.</block>
@@ -4033,7 +4025,6 @@
   <block id="c20a54ace8febd13915bab7ed9c22b2b" category="summary">È possibile eseguire il provisioning delle LUN sulle macchine virtuali di storage (SVM) utilizzando le API di provisioning fornite come parte di Active IQ Unified Manager. Questo flusso di lavoro di provisioning descrive in dettaglio i passaggi per il recupero delle chiavi delle SVM, dei livelli di servizio delle performance e delle policy di efficienza dello storage prima della creazione del LUN.</block>
   <block id="686de7649ff29618b2533b83f236c1f9" category="doc">Provisioning delle LUN tramite API</block>
   <block id="95ce53c30b31cee49bc8d6de45470e16" category="paragraph">Il seguente diagramma illustra i passaggi di un flusso di lavoro di provisioning del LUN.</block>
-  <block id="eb6c9e70579153da1799b8b5852bc08a" category="image-alt">creare lun</block>
   <block id="ef1400db90d4de5f78f6366f581fba2a" category="paragraph">Questo flusso di lavoro presuppone che i cluster ONTAP siano stati aggiunti a Unified Manager e che sia stata ottenuta la chiave del cluster. Il flusso di lavoro presuppone inoltre che le SVM siano già state create sui cluster.</block>
   <block id="f51de5616e6ee7f9e60c306178f36de1" category="list-text">Ottenere la chiave SVM per la SVM su cui si desidera creare la LUN, come descritto nell'argomento del flusso di lavoro _Verifying SVM on Clusters_.</block>
   <block id="9a29b5aa4459164aac58ae41bc9859d5" category="list-text">Ottenere la chiave per il livello di servizio Performance eseguendo la seguente API e recuperando la chiave dalla risposta.</block>
@@ -4163,7 +4154,6 @@
   <block id="3e0d371dd6a28821e66400a80ae3293e" category="paragraph">Le API del data center per gli aggregati recuperano le informazioni rilevanti sullo spazio disponibile e utilizzato e le impostazioni di efficienza per il risparmio di spazio. È inoltre possibile filtrare le informazioni recuperate in base agli attributi specificati.</block>
   <block id="b9264bc886fe551515446d6838f25b9a" category="paragraph">Un metodo per determinare l'eventuale mancanza di spazio negli aggregati consiste nel verificare la presenza di volumi nell'ambiente con la modalità di dimensionamento automatico attivata. È quindi necessario identificare i volumi che vengono utilizzati in eccesso ed eseguire eventuali azioni correttive.</block>
   <block id="cc41b5742653a83710790622472b075b" category="paragraph">Il seguente diagramma di flusso illustra il processo di recupero delle informazioni sui volumi con la modalità di dimensionamento automatico attivata:</block>
-  <block id="ad39018ca13824e28f2f9a2cce72cc67" category="image-alt">utilizzo dello spazio</block>
   <block id="4813b0ff95088b1a2c693a9318f0938d" category="paragraph">Questo flusso presuppone che i cluster siano già stati creati in ONTAP e aggiunti a Unified Manager.</block>
   <block id="fc534cd4a3c07959344fdc4231e736c7" category="list-text">Ottenere la chiave del cluster, a meno che non si conosca il valore:</block>
   <block id="ae5c880b0329ee8b59031ec6a7a9e6af" category="paragraph"><block ref="7e97a2d041006ae754c9aafcc8e1d5cd" prefix="" category="inline-code"></block></block>
@@ -4448,7 +4438,6 @@
   <block id="a724824e30a799c8ab8ad6d07591372f" category="summary">È possibile eseguire il provisioning delle condivisioni CIFS e delle condivisioni file NFS sulle macchine virtuali di storage (SVM) utilizzando le API di provisioning fornite come parte di Active IQ Unified Manager. Questo flusso di lavoro di provisioning descrive in dettaglio i passaggi per il recupero delle chiavi delle SVM, dei livelli di servizio delle performance e delle policy di efficienza dello storage prima di creare le condivisioni di file.</block>
   <block id="a04ca9649d91705a1631f7dedd600667" category="doc">Provisioning delle condivisioni di file CIFS e NFS tramite API</block>
   <block id="3e1dc833276a15580a0b71db58bdd106" category="paragraph">Il seguente diagramma illustra ogni fase di un flusso di lavoro di provisioning della condivisione file. Include il provisioning di condivisioni CIFS e file share NFS.</block>
-  <block id="a05f62bb5424e0dbdce8b06a07661d97" category="image-alt">creare file eshare</block>
   <block id="0ee7a846dbd3fbb321e0498c8fec35e0" category="list-text">I cluster ONTAP sono stati aggiunti a Unified Manager ed è stata ottenuta la chiave del cluster.</block>
   <block id="8e7dd4aa06ca40063b5d0e3de192e4d5" category="list-text">Le SVM sono state create sui cluster.</block>
   <block id="f66e00fc3aa4ab94defa328373e381e8" category="list-text">Le SVM supportano i servizi CIFS e NFS. Il provisioning delle condivisioni di file potrebbe non riuscire se le SVM non supportano i servizi richiesti.</block>
@@ -4565,7 +4554,6 @@
   <block id="9f59891ed7805b3befef9ff1ec1a490c" category="summary">Quando un oggetto di storage nel data center supera una soglia, viene inviata una notifica relativa a tale evento. Utilizzando questa notifica, è possibile analizzare il problema e intraprendere azioni correttive utilizzando le API degli eventi.</block>
   <block id="841c51f97743193567036063bf854b04" category="paragraph">Quando un oggetto di storage nel data center supera una soglia, viene inviata una notifica relativa a tale evento. Utilizzando questa notifica, è possibile analizzare il problema e intraprendere azioni correttive utilizzando<block ref="16908b0605f2645dfcb4c3a8d248cef3" prefix=" " category="inline-code"></block> API.</block>
   <block id="97018b0a09f5dff8883bbaab1edaacde" category="paragraph">Questo flusso di lavoro prende l'esempio di un volume come oggetto risorsa. È possibile utilizzare<block ref="16908b0605f2645dfcb4c3a8d248cef3" prefix=" " category="inline-code"></block> API per recuperare l'elenco degli eventi correlati a un volume, analizzare i problemi critici per quel volume e intraprendere azioni correttive per risolvere il problema.</block>
-  <block id="48d9352b608ff2804faa4c081f2c725c" category="image-alt">gestione dei problemi relativi agli eventi di un diagramma di flusso di un oggetto di storage</block>
   <block id="730bf6325271b1c0c231fa74b6b0fe8a" category="paragraph">Prima di intraprendere le azioni correttive, attenersi alla procedura descritta di seguito per determinare i problemi del volume.</block>
   <block id="ba7662ee18a758af81108e87e6f415fd" category="list-text">Analizza le notifiche degli eventi critici di Active IQ Unified Manager per i volumi nel tuo data center.</block>
   <block id="83ca799bd3583d43b47bea0c99beee9a" category="list-text">Eseguire una query su tutti gli eventi dei volumi utilizzando i seguenti parametri nell'API /management-server/events:<block ref="0f29ce039be8ee84014e6576505f8150" prefix=" " category="inline-code"></block><block ref="57105b117b8b770a917bc9a32dc76fcf" prefix=" " category="inline-code"></block></block>
@@ -5533,7 +5521,6 @@
   <block id="cdf293ee43f03915a3f7f1de53213e71" category="list-text">È possibile inviare una trap SNMP al ricevitore della trap.</block>
   <block id="2c19ee2f43897bbfea72b8dc73f92e0c" category="list-text">È possibile eseguire uno script personalizzato per eseguire un'azione.</block>
   <block id="330d4432442808d2f6e07aef3daa80da" category="paragraph">Questo flusso di lavoro è illustrato nel diagramma seguente.</block>
-  <block id="bc4368d495f9c35aae14c797a81d5c9e" category="image-alt">flusso di eventi di soglia um perf</block>
   <block id="f84a9db60d58e4153e63ffd6eca83fcd" category="summary">Si assegna un criterio di soglia delle performance definito dall'utente a un oggetto storage in modo che Unified Manager rifera un evento se il valore del contatore delle performance supera l'impostazione del criterio.</block>
   <block id="3e5e23d6621ccccf4bf965b37143465f" category="doc">Assegnazione di criteri di soglia delle performance agli oggetti di storage</block>
   <block id="8f7eae2a03a34a5f34e82ab8c02d21a4" category="paragraph">I criteri di soglia delle prestazioni che si desidera applicare all'oggetto devono esistere.</block>
@@ -7644,7 +7631,6 @@
   <block id="9e0ca761831fb0f0dabbfe885a87d055" category="doc">Backup e ripristino utilizzando un dump del database MySQL</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">Un backup del dump del database è costituito da un singolo file nella directory di backup e da uno o più file nella directory del repository del database. Il file nella directory di backup è molto piccolo perché contiene solo un puntatore ai file che si trovano nella directory del repository del database necessari per ricreare il backup.</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">La prima volta che si genera un backup del database, viene creato un singolo file nella directory di backup e viene creato un file di backup completo nella directory del repository del database. Alla successiva generazione di un backup, nella directory di backup viene creato un singolo file e nella directory del repository del database viene creato un file di backup incrementale che contiene le differenze rispetto al file di backup completo. Questo processo continua con la creazione di backup aggiuntivi, fino all'impostazione di conservazione massima, come mostrato nella figura seguente.</block>
-  <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">backup del database</block>
   <block id="efbe49949ffa2f8a16f02f4ea7adc56a" category="paragraph">Non rinominare o rimuovere i file di backup in queste due directory, altrimenti le successive operazioni di ripristino non avranno esito positivo.</block>
   <block id="cb923ec5ab7e1a642e7b3ba98abfc4f1" category="paragraph">Se si scrivono i file di backup nel sistema locale, è necessario avviare un processo per copiare i file di backup in una posizione remota in modo che siano disponibili in caso di problemi di sistema che richiedono un ripristino completo.</block>
   <block id="c48f8fd51b32d584ba11d9662e34349b" category="paragraph">Prima di iniziare un'operazione di backup, Active IQ Unified Manager esegue un controllo di integrità per verificare che tutti i file di backup e le directory di backup richiesti esistano e siano scrivibili. Inoltre, verifica che vi sia spazio sufficiente nel sistema per creare il file di backup.</block>
@@ -10483,7 +10469,6 @@
   <block id="4f72d182cd74cecc577c31f8379223b4" category="paragraph">Questa è la directory in cui è installato OpenJDK. Esempio:<block ref="b7373e296aa12e5caf1e84edf230028c" prefix=" " category="inline-code"></block></block>
   <block id="bfb2446e315edcbba47f0c61f07da5e5" category="list-text">Directory dei dati dell'applicazione di Unified Manager (appDataDir)</block>
   <block id="e245a912d513c7363e5be4985ed7b772" category="paragraph">Questa è la directory in cui vengono memorizzati tutti i dati generati dall'applicazione. Sono inclusi log, bundle di supporto, backup e tutti gli altri dati aggiuntivi. Esempio:<block ref="3677e9b386c16e202e4ba66ef943f4fa" prefix=" " category="inline-code"></block></block>
-  <block id="3c5dd4e02fb7c5614c57b78a81e01819" category="image-alt">installazione del flusso su windows</block>
   <block id="ceede60a933cbfe9cb6ef21f0b1f0e00" category="summary">Guida rapida per Unified Manager su piattaforma Windows.</block>
   <block id="69b2ae16273665eaebb99a26650649b5" category="doc">Istruzioni di avvio rapido per le installazioni di Windows</block>
   <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">È possibile scaricare il pacchetto di installazione e installare Unified Manager per monitorare e risolvere i problemi di capacità, disponibilità, performance e protezione dello storage dei dati.</block>
@@ -11010,7 +10995,6 @@
   <block id="0090c85a6817ead6cde33f1e7cabbdcb" category="list-text">Esecuzione delle API REST di Unified Manager per restituire le informazioni che si desidera esaminare.</block>
   <block id="ed48b981e2bb947abc52be3e3b172706" category="summary">Struttura decisionale che descrive il flusso di lavoro del report.</block>
   <block id="784fca41cf2612fc0bc6eb124a244bd2" category="doc">Workflow dei report</block>
-  <block id="78c9a95829a3975e642126c077b652b2" category="image-alt">i report visualizzano il flusso di lavoro</block>
   <block id="1b25146e28d050d17e0ba7f8b9fcfea9" category="summary">È possibile creare un report per visualizzare un elenco di tutte le SVM interrotte.</block>
   <block id="5dcd384c3dae5de8a3ad7971aabe3ef7" category="paragraph">Attenersi alla seguente procedura per creare una vista personalizzata che visualizzi le macchine virtuali di storage interrotte, quindi pianificare la generazione di un report per tale vista.</block>
   <block id="cac14e47dc39d748801c5c5cd5de953a" category="list-text">Nel menu View (Visualizza), selezionare *Health* &gt; *All Storage VMS*.</block>
@@ -12047,7 +12031,6 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="7d2851cca28635a1e83630f7d2e3fc63" category="inline-link">Gestire i certificati ONTAP con System Manager</block>
   <block id="86df35e9b1dffd9ed39a46a4d7ffe7a1" category="paragraph">*Informazioni correlate* <block ref="c4ecef6f58bc214b3174de3e354d0911" category="inline-link-rx"></block></block>
   <block id="3e4eb743748e538f59a50a73d5f8b602" category="doc">Imposta il timeout di inattività della sessione di Unified Manager</block>
-  <block id="e8c80cc36155ada87dc563a78796b92f" category="image-alt">installare il flusso su rhel 2026</block>
   <block id="8645dca85b8ac5fc844aa6c266477f4d" category="summary">Il sistema deve avere accesso a determinati repository e pacchetti affinché il programma di installazione possa accedere e installare tutte le dipendenze software richieste.</block>
   <block id="f0041b2df6c7d0abc50865b06c257260" category="doc">Configurare il software richiesto per Unified Manager</block>
   <block id="2ddfe6c502a2b94b370ca3c37f5b35cc" category="list-text">Python 3.13.3 (dal repository di Red Hat Extra Enterprise Linux Server)</block>
@@ -12114,4 +12097,21 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="6c400d4faf41f7de8a4c911b51918555" category="list-text">OpenJDK versione 17.0.15+6</block>
   <block id="d99d6f4a4a2deff3d04c76cf2a1ab80a" category="list-text">7-zip versione 25.01 o successiva</block>
   <block id="0906e47b7d8a1a05c090ca9c48a976c3" category="list-text">MySQL Community Edition viene aggiornato automaticamente durante l'aggiornamento di Unified Manager. Se la versione di MySQL installata sul tuo sistema è precedente alla 8.4.10, il processo di aggiornamento di Unified Manager aggiorna automaticamente MySQL alla 8.4.10. Non devi eseguire un aggiornamento autonomo di una versione precedente di MySQL alla 8.4.10.</block>
+  <block id="1cc30bff2b84e7dbb26c93008946368f" category="image-alt">Un diagramma di flusso che mostra l'analisi degli eventi di volume dall'elenco degli eventi fino all'azione correttiva fino alla fine</block>
+  <block id="d98ce8622bc7c722fcaa50d67a9cc960" category="image-alt">Un diagramma che mostra i passaggi di Unified Manager e dell'API ONTAP per la risoluzione dei problemi relativi agli avvisi di capacità del volume</block>
+  <block id="7ac0c5f50fb7cdf3dbaf55523a74903e" category="image-alt">Un diagramma che mostra il workflow di provisioning delle condivisioni file CIFS e NFS, dalla configurazione di SVM fino alla creazione della condivisione</block>
+  <block id="b9754edcea8e7458a4fc4b43059bdbef" category="image-alt">Un diagramma che mostra il flusso di lavoro per la creazione di una LUN, inclusi i passaggi relativi a Storage VM, livello di servizio e igroup</block>
+  <block id="f62942f0e6b5f47ad12ab0f0a5f5a152" category="image-alt">Diagramma di flusso per identificare i volumi sovrautilizzati con modalità di ridimensionamento automatico abilitata negli aggregati di cluster</block>
+  <block id="94d1891c253fd9543379f72f98b66db2" category="image-alt">Un diagramma che mostra il workflow di configurazione iniziale di Unified Manager e le attività di impostazione amministrativa</block>
+  <block id="164f08e4aee5d801ac4725f2a6956d02" category="image-alt">Un diagramma che mostra l'elaborazione degli eventi di soglia dalla raccolta dei dati del contatore alla notifica via email</block>
+  <block id="2300be0d474b8db24490f2217835c7d6" category="image-alt">Un diagramma che mostra tre file di directory di backup che puntano a file completi e incrementali nel repository del database</block>
+  <block id="124e47082818e619d401d9bdfe8d24ff" category="image-alt">Un diagramma che mostra i prerequisiti, l'installazione di Unified Manager e i flussi di lavoro di configurazione iniziale su Red Hat Linux</block>
+  <block id="ef63b242e03a7363693688e53654ba1a" category="image-alt">Un diagramma che mostra i flussi di lavoro relativi all'installazione, alla configurazione iniziale e alle impostazioni amministrative di Unified Manager</block>
+  <block id="9e937dd680d7be51e4bfb7fcebb49a52" category="image-alt">Un diagramma che mostra i prerequisiti per la distribuzione di Unified Manager, la distribuzione dell'appliance e i passaggi di configurazione iniziale</block>
+  <block id="611e3261f759280b352d61fb660a297c" category="image-alt">Un diagramma che mostra i prerequisiti, l'installazione di Unified Manager e i passaggi del flusso di lavoro per la configurazione iniziale</block>
+  <block id="a4f4483ccd93f8d27cc242331a618d06" category="image-alt">Un diagramma che mostra un flusso di lavoro ad albero decisionale per la visualizzazione, la personalizzazione, il caricamento e il download dei report</block>
+  <block id="76bf2fdea1570becb5b97b7df5f76c5a" category="image-alt">Un diagramma che mostra host VMware, VM, datastore, VMDK, rete IP e connessioni di storage</block>
+  <block id="e1f09e41d18a2f354b0f54a78d35a0c0" category="image-alt">Un diagramma che mostra un flusso di lavoro per individuare la latenza delle applicazioni VM attraverso i livelli di elaborazione, rete e storage</block>
+  <block id="090c8104c89a24e16b32214c066c6f21" category="image-alt">Uno screenshot della finestra dell'elenco oggetti di Active IQ Unified Manager con i controlli di navigazione, ricerca, filtro e report etichettati</block>
+  <block id="fd5189ced6c908af40fee28d211b4c0a" category="image-alt">Uno screenshot che mostra una finestra dei dettagli del volume di Active IQ Unified Manager con schede, dettagli sulla capacità, oggetti correlati, cronologia ed eventi</block>
 </blocks>

@@ -20,11 +20,11 @@ Non tutte le finestre contengono tutti gli elementi dei seguenti diagrammi.
 [[object-list-window-layout]]
 == Layout della finestra dell'elenco oggetti
 
-image::../media/object_list.png[elenco di oggetti]
+image::../media/object_list.png[Uno screenshot della finestra dell'elenco oggetti di Active IQ Unified Manager con i controlli di navigazione, ricerca, filtro e report etichettati]
 
 
 
 [[object-details-window-layout]]
 == Layout della finestra Dettagli oggetto
 
-image::../media/object_details.gif[dettagli dell'oggetto]
+image::../media/object_details.gif[Uno screenshot che mostra una finestra dei dettagli del volume di Active IQ Unified Manager con schede, dettagli sulla capacità, oggetti correlati, cronologia ed eventi]

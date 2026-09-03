@@ -15,7 +15,7 @@ summary: 'È possibile eseguire il provisioning delle condivisioni CIFS e delle 
 
 Il seguente diagramma illustra ogni fase di un flusso di lavoro di provisioning della condivisione file. Include il provisioning di condivisioni CIFS e file share NFS.
 
-image::../media/create_fileshares.gif[creare file eshare]
+image::../media/create_fileshares.gif[Un diagramma che mostra il workflow di provisioning delle condivisioni file CIFS e NFS, dalla configurazione di SVM fino alla creazione della condivisione]
 
 [NOTE]
 ====

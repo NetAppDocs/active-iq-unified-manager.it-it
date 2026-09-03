@@ -25,4 +25,4 @@ A seconda della configurazione delle impostazioni nella pagina Configurazione av
 
 Questo flusso di lavoro è illustrato nel diagramma seguente.
 
-image::../media/um_perf_threshold_event_flow.gif[flusso di eventi di soglia um perf]
+image::../media/um_perf_threshold_event_flow.gif[Un diagramma che mostra l'elaborazione degli eventi di soglia dalla raccolta dei dati del contatore alla notifica via email]
