@@ -20,6 +20,11 @@ Questa attività rimuove il cluster selezionato da Unified Manager. Una volta ri
 
 La rimozione di un cluster elimina anche tutti gli oggetti di storage, i dati storici, i servizi di storage e tutti gli eventi associati da Unified Manager. Queste modifiche si riflettono sulle pagine di inventario e sui dettagli dopo il successivo ciclo di raccolta dei dati.
 
+[NOTE]
+====
+Devi rimuovere un cluster da Unified Manager prima di disattivarlo. Se il cluster è già offline o irraggiungibile quando provi a rimuoverlo, Unified Manager non può comunicare con il cluster per rimuovere il record dell'applicazione e gli abbonamenti EMS (Event Management System) configurati. Questo farà sì che il processo di rimozione fallisca o diventi non responsivo prima del completamento.
+
+====
 .Fasi
 . Nel riquadro di navigazione a sinistra, fare clic su *Storage Management* > *Cluster Setup*.
 . Nella pagina Cluster Setup, selezionare il cluster che si desidera rimuovere e fare clic su *Remove* (Rimuovi).
