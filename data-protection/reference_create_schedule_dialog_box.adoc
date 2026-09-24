@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, schedule, dialog box 
 summary: La finestra di dialogo Crea pianificazione consente di creare una pianificazione di protezione di base o avanzata per i trasferimenti di relazione SnapMirror e SnapVault. È possibile creare una nuova pianificazione per aumentare la frequenza dei trasferimenti di dati a causa di frequenti aggiornamenti dei dati oppure creare una pianificazione meno frequente quando i dati cambiano di rado. 
 ---
-= Finestra di dialogo Crea pianificazione
+= Usa la finestra di dialogo Crea pianificazione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

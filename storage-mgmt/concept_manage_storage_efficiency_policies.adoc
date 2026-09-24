@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policies, guidelines, create, custom 
 summary: 'Una Storage Efficiency Policy (SEP) consente di definire le caratteristiche di efficienza dello storage di un workload. È possibile assegnare UN SET a un workload durante la creazione iniziale del workload o successivamente modificando il workload.' 
 ---
-= Gestire le policy di efficienza dello storage
+= Gestisci le policy di efficienza dello storage in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

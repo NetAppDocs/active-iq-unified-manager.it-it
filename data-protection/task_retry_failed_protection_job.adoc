@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: retry, failed, protection job 
 summary: 'Una volta adottate le misure necessarie per correggere un processo di protezione non riuscito, è possibile utilizzare Riprova per eseguire nuovamente il processo. Il nuovo tentativo di un lavoro crea un nuovo lavoro utilizzando l"ID lavoro originale.' 
 ---
-= Riprova un processo di protezione non riuscito
+= Riprova un'operazione di protezione non riuscita in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

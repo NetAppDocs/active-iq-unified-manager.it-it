@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, event, retention, settings 
 summary: È possibile specificare il numero di mesi in cui un evento viene conservato nel server di Unified Manager prima che venga eliminato automaticamente. 
 ---
-= Configurare le impostazioni di conservazione degli eventi
+= Configura le impostazioni di conservazione degli eventi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

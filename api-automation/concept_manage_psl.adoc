@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, performance, service, level 
 summary: È possibile visualizzare, creare, modificare ed eliminare i livelli dei servizi di performance utilizzando le API del provider di storage per sul proprio Active IQ Unified Manager. 
 ---
-= Gestire i livelli di servizio delle prestazioni utilizzando le API
+= Gestisci i livelli di servizio delle prestazioni usando le API in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

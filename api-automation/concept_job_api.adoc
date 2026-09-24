@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, view 
 summary: 'È possibile utilizzare l"API dei job nella categoria server di gestione per visualizzare i dettagli di esecuzione delle operazioni asincrone.' 
 ---
-= Visualizza i lavori e i dettagli del sistema
+= Visualizza lavori e dettagli di sistema tramite API in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

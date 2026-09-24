@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, health details page 
 summary: È possibile utilizzare la pagina Volume / Health Details per visualizzare informazioni dettagliate su un volume selezionato, ad esempio capacità, efficienza dello storage, configurazione, protezione, annotazioni ed eventi generati. È inoltre possibile visualizzare informazioni sugli oggetti correlati e sugli avvisi correlati per il volume. 
 ---
-= Pagina dei dettagli relativi a volume/salute
+= Visualizza la pagina dei dettagli Volume / Salute in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

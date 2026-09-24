@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs 
 summary: Un lavoro è una serie di attività che è possibile monitorare utilizzando Unified Manager. La visualizzazione dei job e delle attività associate consente di determinare se sono stati completati correttamente. 
 ---
-= Quali sono i posti di lavoro
+= Scopri i job in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

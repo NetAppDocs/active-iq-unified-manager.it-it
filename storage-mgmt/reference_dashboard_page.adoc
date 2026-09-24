@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dashboard page, 
 summary: 'La pagina Dashboard contiene "pannelli" che visualizzano l"elevato livello di capacità, performance e sicurezza dei cluster monitorati. Questa pagina fornisce anche un pannello azioni di gestione che elenca le correzioni che Unified Manager può apportare per risolvere determinati eventi.' 
 ---
-= Pagina del dashboard
+= Scopri la pagina Dashboard di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

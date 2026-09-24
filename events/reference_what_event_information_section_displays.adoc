@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, information, section, displays 
 summary: 'La sezione informazioni evento della pagina Dettagli evento consente di visualizzare i dettagli relativi a un evento selezionato, ad esempio la gravità, il livello di impatto, l"area di impatto e l"origine dell"evento.' 
 ---
-= Visualizzazione della sezione informazioni evento
+= Scopri la sezione Informazioni sull'evento in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

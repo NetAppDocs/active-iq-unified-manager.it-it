@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: jobs, page 
 summary: La pagina lavori consente di visualizzare lo stato corrente e altre informazioni su tutti i processi di protezione delle applicazioni partner attualmente in esecuzione, nonché i processi completati. È possibile utilizzare queste informazioni per verificare quali lavori sono ancora in esecuzione e se un lavoro ha avuto esito positivo o negativo. 
 ---
-= Pagina lavori
+= Scopri la pagina dei job in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

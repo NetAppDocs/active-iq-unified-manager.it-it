@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: determine, volume, offline, broken disks, aggregate 
 summary: 'È possibile utilizzare l"interfaccia utente Web di Unified Manager per confermare o eliminare la possibilità che un volume sia offline perché i problemi del disco RAID hanno portato l"aggregato host offline.' 
 ---
-= Determina se un volume è offline a causa di dischi danneggiati in un aggregato
+= Determina se un volume è offline a causa di dischi danneggiati in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

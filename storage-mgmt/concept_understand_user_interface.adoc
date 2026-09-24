@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, user, interface 
 summary: 'L"interfaccia utente di Unified Manager è costituita principalmente da una dashboard che fornisce una vista a colpo d"occhio degli oggetti monitorati. L"interfaccia utente consente inoltre di visualizzare tutti gli oggetti del cluster.' 
 ---
-= Comprendere l'interfaccia utente
+= Scopri l'interfaccia utente di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

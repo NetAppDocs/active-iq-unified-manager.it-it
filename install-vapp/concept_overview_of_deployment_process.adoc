@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: overview, deployment, process 
 summary: Il flusso di lavoro di implementazione descrive le attività da eseguire prima di poter utilizzare Unified Manager. 
 ---
-= Panoramica del processo di implementazione
+= Scopri il processo di implementazione di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

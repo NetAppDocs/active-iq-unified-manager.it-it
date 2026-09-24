@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, breached 
 summary: Quando un valore del contatore supera il valore di soglia delle prestazioni definito per il periodo di tempo specificato nella durata, la soglia viene violata e viene segnalato un evento. 
 ---
-= Cosa accade quando una policy di soglia delle performance viene violata
+= Rispondi alle policy di superamento delle soglie di prestazione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

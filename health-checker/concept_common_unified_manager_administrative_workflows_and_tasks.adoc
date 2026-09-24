@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: Common, unified, manager, health, workflows, tasks 
 summary: 'Alcuni dei flussi di lavoro e delle attività amministrative più comuni associati a Unified Manager includono la selezione dei cluster di storage da monitorare, la diagnosi di condizioni che influiscono negativamente sulla disponibilità, la capacità e la protezione dei dati, il ripristino dei dati persi, la configurazione e la gestione dei volumi, il raggruppamento e l"invio di dati diagnostici al supporto tecnico (se necessario).' 
 ---
-= Flussi di lavoro e attività comuni per lo stato di salute di Unified Manager
+= Scopri i flussi di lavoro e le attività comuni di Active IQ Unified Manager relativi alla salute
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

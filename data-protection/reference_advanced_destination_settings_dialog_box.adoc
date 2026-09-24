@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: advanced, destination, settings, dialog box 
 summary: 'È possibile utilizzare la finestra di dialogo Advanced Destination Settings (Impostazioni destinazione avanzate) per attivare le impostazioni di garanzia dello spazio su un volume di destinazione. È possibile selezionare le impostazioni avanzate quando la garanzia di spazio è disattivata sull"origine, ma si desidera attivarla sulla destinazione. Le impostazioni di deduplica, compressione e crescita automatica in una relazione SnapMirror vengono ereditate dal volume di origine e non possono essere modificate.' 
 ---
-= Finestra di dialogo Advanced Destination Settings
+= Usa la finestra di dialogo Impostazioni di destinazione avanzate in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: port, events, impact area, availability, performance 
 summary: Gli eventi delle porte forniscono informazioni sullo stato delle porte del cluster, in modo da poter monitorare le modifiche o i problemi della porta, ad esempio se la porta non è attiva. 
 ---
-= Eventi delle porte
+= Scopri gli eventi delle porte in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

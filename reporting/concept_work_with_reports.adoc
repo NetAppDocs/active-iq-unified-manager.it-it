@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: work, reports 
 summary: Scopri come trovare e personalizzare le visualizzazioni delle pagine di inventario in report pianificati condivisibili. 
 ---
-= Lavorare con i report
+= Lavora con i report in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

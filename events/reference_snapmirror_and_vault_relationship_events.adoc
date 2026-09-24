@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: asynchronous, mirror, vault, relationship, events, impact area, protection 
 summary: 'Gli eventi di relazione di mirroring asincrono e vault forniscono informazioni sullo stato delle relazioni di SnapMirror asincrono e Vault in modo da poter monitorare eventuali problemi. Gli eventi di relazione asincroni Mirror e Vault sono supportati sia per le relazioni di protezione dei volumi che per le Storage VM. Tuttavia, solo le relazioni del vault non sono supportate per il disaster recovery delle macchine virtuali di storage. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
 ---
-= Eventi di relazione di mirroring asincrono e vault
+= Scopri gli eventi relativi alle relazioni di Mirror e Vault asincroni in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

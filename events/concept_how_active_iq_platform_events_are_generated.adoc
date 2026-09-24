@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active IQ, platform, events, generated 
 summary: Gli incidenti e i rischi della piattaforma Active IQ vengono convertiti in eventi di Unified Manager come mostrato nel diagramma seguente. 
 ---
-= Come vengono generati gli eventi della piattaforma Active IQ
+= Come Active IQ Unified Manager genera gli eventi della piattaforma Active IQ
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

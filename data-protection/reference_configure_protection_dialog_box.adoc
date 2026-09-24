@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, protection, dialog box 
 summary: È possibile utilizzare la finestra di dialogo Configura protezione per creare relazioni SnapMirror e SnapVault per tutti i volumi di protezione dati, lettura e scrittura sui cluster, in modo da garantire la replica dei dati su un volume di origine o su un volume primario. 
 ---
-= Finestra di dialogo Configure Protection (Configura protezione)
+= Usa la finestra di dialogo Configura protezione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

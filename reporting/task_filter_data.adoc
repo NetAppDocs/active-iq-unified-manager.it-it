@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: filtering, data 
 summary: Filtrare i dati per assicurarsi che i risultati corrispondano ai requisiti del report. Il filtraggio consente di visualizzare solo i dati interessati. 
 ---
-= Filtra i dati
+= Filtra i dati in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

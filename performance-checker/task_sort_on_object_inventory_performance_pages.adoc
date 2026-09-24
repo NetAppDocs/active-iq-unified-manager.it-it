@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sort, object, inventory, performance, pages 
 summary: È possibile ordinare tutti i dati nelle pagine Object Inventory Performance in base a qualsiasi colonna in ordine crescente o decrescente. Ciò consente di individuare rapidamente i dati di inventario degli oggetti, cosa utile quando si esaminano le prestazioni o si avvia un processo di risoluzione dei problemi. 
 ---
-= Ordina nelle pagine Prestazioni inventario oggetti
+= Ordina i dati nelle pagine Prestazioni dell'inventario degli oggetti in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

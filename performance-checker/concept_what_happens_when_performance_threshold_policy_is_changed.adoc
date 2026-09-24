@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policy, changed 
 summary: Se si regola il valore del contatore o la durata di un criterio di soglia delle prestazioni esistente, la modifica del criterio viene applicata a tutti gli oggetti di storage che utilizzano il criterio. La nuova impostazione viene eseguita immediatamente e Unified Manager inizia a confrontare i valori dei contatori delle performance con le nuove impostazioni di soglia per tutti i dati delle performance appena raccolti. 
 ---
-= Cosa accade quando viene modificata una policy di soglia delle performance
+= Comprendi le modifiche alle policy relative alle soglie di prestazione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

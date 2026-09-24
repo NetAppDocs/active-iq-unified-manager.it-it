@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, resource pool, dialog box 
 summary: È possibile utilizzare la finestra di dialogo Crea pool di risorse per assegnare un nome a un nuovo pool di risorse e per aggiungere aggregati ed eliminare aggregati da tale pool di risorse. 
 ---
-= Finestra di dialogo Crea pool di risorse
+= Usa la finestra di dialogo Crea pool di risorse in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

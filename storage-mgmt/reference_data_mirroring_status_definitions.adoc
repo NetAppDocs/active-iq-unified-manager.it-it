@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data mirror, status, definitions 
 summary: Le configurazioni MetroCluster offrono il mirroring dei dati e la possibilità aggiuntiva di avviare un failover se un intero sito non è più disponibile. Lo stato del mirroring dei dati tra i cluster in una configurazione MetroCluster può essere normale o mirroring non disponibile. La comprensione dello stato consente di gestire in modo efficace le configurazioni MetroCluster. 
 ---
-= Definizioni dello stato del mirroring dei dati per MetroCluster su FC
+= Scopri la replica dei dati FC di MetroCluster in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

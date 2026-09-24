@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, unified manager, backup 
 summary: È possibile configurare la funzionalità di backup su Unified Manager attraverso una serie di procedure di configurazione da eseguire sui sistemi host e sulla console di manutenzione. 
 ---
-= Configurare il backup di Unified Manager
+= Configura il backup di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

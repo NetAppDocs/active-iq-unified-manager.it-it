@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: information, contained, alert, email 
 summary: 'Le email di avviso di Unified Manager forniscono il tipo di evento, la severità dell"evento, il nome della policy o della soglia che è stata violata per causare l"evento e una descrizione dell"evento. Il messaggio di posta elettronica fornisce inoltre un collegamento ipertestuale per ciascun evento che consente di visualizzare la pagina dei dettagli dell"evento nell"interfaccia utente.' 
 ---
-= Quali informazioni sono contenute in un messaggio di posta elettronica di avviso
+= Esamina le informazioni in un'email di avviso in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, predefined, annotation values 
 summary: 'Data-priority è un"annotazione predefinita con i valori Mission Critical, High e Low. Questi valori consentono di annotare gli oggetti di storage in base alla priorità dei dati in essi contenuti. Non è possibile modificare o eliminare i valori di annotazione predefiniti.' 
 ---
-= Descrizione dei valori di annotazione predefiniti
+= Comprendi i valori di annotazione predefiniti in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

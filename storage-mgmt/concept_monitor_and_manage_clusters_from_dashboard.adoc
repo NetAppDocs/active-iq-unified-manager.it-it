@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, manage, clusters, dashboard 
 summary: 'La dashboard fornisce informazioni cumulative a colpo d"occhio sullo stato attuale dei sistemi ONTAP monitorati. La dashboard fornisce "pannelli" che consentono di valutare la capacità complessiva, le performance e lo stato di sicurezza dei cluster monitorati.' 
 ---
-= Monitora e gestisci i cluster dalla dashboard
+= Monitora e gestisci i cluster dalla dashboard di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, imbalance, performance, events 
 summary: 'Unified Manager genera eventi di avviso di squilibrio del cluster quando un nodo di un cluster opera a un carico molto più elevato rispetto ad altri nodi, con un potenziale impatto sulle latenze dei workload. Questi eventi definiti dal sistema offrono l"opportunità di correggere potenziali problemi di performance prima che molti carichi di lavoro siano influenzati dalla latenza.' 
 ---
-= Rispondere agli eventi di prestazioni di squilibrio del cluster
+= Rispondi agli eventi di squilibrio delle prestazioni del cluster in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

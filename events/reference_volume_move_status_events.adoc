@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: volume, move, status, events, impact area, capacity 
 summary: 'Gli eventi di stato dello spostamento del volume indicano lo stato dello spostamento del volume in modo da poter monitorare eventuali problemi. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
 ---
-= Eventi di stato dello spostamento del volume
+= Scopri gli eventi relativi allo stato di spostamento dei volumi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

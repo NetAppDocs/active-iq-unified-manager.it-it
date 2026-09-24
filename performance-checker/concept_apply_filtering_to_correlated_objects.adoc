@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: apply, filter, reduce, list, correlated, objects, grid 
 summary: Il filtraggio consente di visualizzare un sottoinsieme di oggetti più piccolo e ben definito nella griglia. Ad esempio, se nella griglia sono presenti 25 volumi, il filtraggio consente di visualizzare solo i volumi con throughput inferiore a 90 Mbps o latenza superiore a 1 ms/op. 
 ---
-= Applicare il filtraggio per ridurre l'elenco degli oggetti correlati nella griglia
+= Filtra gli oggetti correlati nella griglia di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

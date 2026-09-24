@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload analyzer, charts, display, data 
 summary: 'La pagina dell"analizzatore del carico di lavoro visualizza informazioni sugli eventi correnti che potrebbero influire sul carico di lavoro, consigli per risolvere il problema che causa l"evento e grafici per l"analisi della cronologia delle performance e della capacità.' 
 ---
-= Quali dati vengono visualizzati dall'analizzatore del carico di lavoro
+= Comprendi i dati dell'analizzatore del carico di lavoro in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

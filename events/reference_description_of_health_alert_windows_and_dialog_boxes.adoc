@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, alert, windows, dialog boxes 
 summary: 'È necessario configurare gli avvisi in modo che ricevano le notifiche relative agli eventi utilizzando la finestra di dialogo Aggiungi avviso. È inoltre possibile visualizzare l"elenco degli avvisi dalla pagina Configurazione avvisi.' 
 ---
-= Descrizione delle finestre di avviso e delle finestre di dialogo
+= Usa la finestra di dialogo Aggiungi avviso in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

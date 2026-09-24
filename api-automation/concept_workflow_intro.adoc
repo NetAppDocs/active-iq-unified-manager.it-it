@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: common, workflows, storage, management 
 summary: 'I flussi di lavoro comuni forniscono agli sviluppatori di applicazioni client esempi di come le API Active IQ Unified Manager possono essere chiamate da un"applicazione client per eseguire funzioni comuni di gestione dello storage. Questa sezione contiene alcuni di questi flussi di lavoro di esempio.' 
 ---
-= Flussi di lavoro API comuni per la gestione dello storage
+= Comprendi i flussi di lavoro API comuni per la gestione dello storage in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: LUN, SnapMirror active sync, Consistency Group, CG 
 summary: Vista unificata delle LUN protette dalla sincronizzazione attiva di SnapMirror. 
 ---
-= Monitorare i LUN in una relazione di gruppo di coerenza
+= Monitora le relazioni LUN del gruppo di coerenza in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

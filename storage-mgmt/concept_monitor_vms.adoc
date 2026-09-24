@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, virtual, machines, view, summary, topology, expand 
 summary: 'In caso di problemi di latenza nelle applicazioni delle macchine virtuali (VM), potrebbe essere necessario monitorare le macchine virtuali per analizzare e risolvere i problemi della causa. Le macchine virtuali sono disponibili quando il server vCenter e i cluster ONTAP che ospitano lo storage delle macchine virtuali vengono aggiunti a Unified Manager.' 
 ---
-= Monitorare le macchine virtuali
+= Capisci come Active IQ Unified Manager monitora le macchine virtuali
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

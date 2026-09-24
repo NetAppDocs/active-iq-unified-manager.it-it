@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: top, performers, page 
 summary: 'La pagina Top Performer visualizza gli oggetti storage con le performance più elevate o più basse, in base al contatore delle performance selezionato. Ad esempio, nella categoria Storage VM, è possibile visualizzare le SVM con IOPS più elevati, latenza più elevata o MB/s più bassi Questa pagina mostra anche se uno qualsiasi dei migliori esecutori ha eventi di performance attivi (nuovi o riconosciuti).' 
 ---
-= Pagina Top Performers
+= Visualizza la pagina Top Performers in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

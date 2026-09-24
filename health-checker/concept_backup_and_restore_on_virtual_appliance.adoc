@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: backup, restore, unified manager, virtual, appliance, snapshot copy, copies 
 summary: 'Il modello di backup e ripristino per Unified Manager installato su un"appliance virtuale consiste nell"acquisire e ripristinare un"immagine dell"applicazione virtuale completa.' 
 ---
-= Backup e ripristino per Unified Manager su appliance virtuali
+= Backup e ripristino per Active IQ Unified Manager su un'appliance virtuale
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

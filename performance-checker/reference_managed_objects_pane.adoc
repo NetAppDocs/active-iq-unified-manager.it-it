@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managed, objects, pane 
 summary: Il riquadro Managed Objects della scheda Performance Summary fornisce una panoramica di primo livello dei tipi di oggetti di storage e dei conteggi per il cluster. Questo riquadro consente di tenere traccia dello stato degli oggetti in ciascun cluster. 
 ---
-= Pannello Managed Objects (oggetti gestiti)
+= Esamina il riquadro Oggetti gestiti in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

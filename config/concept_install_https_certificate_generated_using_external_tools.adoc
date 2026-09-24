@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: install, HTTPS, certificate, generated from external tools 
 summary: È possibile installare i certificati autofirmati o con firma CA e generati utilizzando uno strumento esterno come OpenSSL, BoringSSL, LetsEncrypt. 
 ---
-= Installa un certificato HTTPS generato utilizzando strumenti esterni
+= Scopri i certificati HTTPS generati utilizzando strumenti esterni in Active IQ Unified Manager Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

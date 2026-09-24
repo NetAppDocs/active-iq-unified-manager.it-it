@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, svms, clusters 
 summary: 'Prima di eseguire il provisioning di condivisioni di file o LUN, è necessario verificare se nei cluster sono state create macchine virtuali di storage (SVM).' 
 ---
-= Verificare le SVM sui cluster utilizzando le API
+= Verifica gli SVM sui cluster ONTAP utilizzando le API di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

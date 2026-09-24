@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: quick start guide, getting started, QSG, Windows QSG, quick installation, Windows installer 
 summary: Guida rapida per Unified Manager su piattaforma Windows. 
 ---
-= Istruzioni di avvio rapido per le installazioni di Windows
+= Inizia a usare Active IQ Unified Manager su Windows
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

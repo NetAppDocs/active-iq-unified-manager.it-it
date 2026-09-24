@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapmirror, relationship, version-flexible, replication 
 summary: È possibile creare una relazione SnapMirror con replica flessibile della versione. La replica flessibile della versione consente di implementare la protezione SnapMirror anche se i volumi di origine e di destinazione vengono eseguiti con versioni diverse di ONTAP. 
 ---
-= Crea una relazione SnapMirror con replica flessibile in base alla versione
+= Crea una relazione di SnapMirror con replica flessibile della versione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

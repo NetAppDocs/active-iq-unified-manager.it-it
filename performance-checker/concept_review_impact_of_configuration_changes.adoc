@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: review, impact, configuration, changes, workload, performance 
 summary: Le modifiche alla configurazione del cluster, come un disco guasto, il failover ha o un volume spostato, potrebbero avere un impatto negativo sulle performance del volume e causare una maggiore latenza. 
 ---
-= Esaminare l'impatto delle modifiche alla configurazione sulle performance del carico di lavoro
+= Valuta come le modifiche alla configurazione influenzano le prestazioni del carico di lavoro in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

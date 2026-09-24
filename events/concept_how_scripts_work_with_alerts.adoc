@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: scripts, work, alerts 
 summary: È possibile associare un avviso allo script in modo che venga eseguito quando viene generato un avviso per un evento in Unified Manager. È possibile utilizzare gli script per risolvere i problemi relativi agli oggetti di storage o identificare gli oggetti di storage che generano gli eventi. 
 ---
-= Come funzionano gli script con gli avvisi
+= Come funzionano gli script con gli avvisi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

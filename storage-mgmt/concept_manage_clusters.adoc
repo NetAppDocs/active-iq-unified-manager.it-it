@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, clusters 
 summary: È possibile gestire i cluster ONTAP utilizzando Unified Manager per monitorare, aggiungere, modificare e rimuovere i cluster. 
 ---
-= Gestire i cluster
+= Gestisci i cluster ONTAP in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

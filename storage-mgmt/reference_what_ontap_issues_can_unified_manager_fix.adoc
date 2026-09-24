@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: ontap issues, fix it action, automatic remediation feature, remediation events, fix-it messages, fix-it events 
 summary: 'Questa tabella descrive i problemi di ONTAP che possono essere risolti direttamente dall"interfaccia utente di Unified Manager facendo clic sul pulsante Correggi o Correggi tutto.' 
 ---
-= Quali problemi possono risolvere Unified Manager
+= Scopri i problemi di ONTAP che Active IQ Unified Manager può risolvere
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

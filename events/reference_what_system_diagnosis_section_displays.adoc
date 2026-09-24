@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, diagnosis, section, displays 
 summary: 'La sezione Diagnosi del sistema della pagina Dettagli evento fornisce informazioni utili per diagnosticare i problemi che potrebbero essere stati responsabili dell"evento.' 
 ---
-= Viene visualizzata la sezione Diagnosi del sistema
+= Scopri la diagnostica di sistema in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

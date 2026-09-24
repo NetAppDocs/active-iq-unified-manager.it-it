@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, node, aggregate, performance, capacity, used, values 
 summary: È possibile monitorare i valori della capacità di performance utilizzata per tutti i nodi o per tutti gli aggregati di un cluster oppure visualizzare i dettagli di un singolo nodo o aggregato. 
 ---
-= Visualizza i valori utilizzati per la capacità di prestazioni del nodo e dell'aggregato
+= Visualizza i valori di capacità di prestazione utilizzata del nodo e dell'aggregato in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, impact, levels 
 summary: 'Ogni evento è associato a un livello di impatto (incidente, rischio, evento o aggiornamento) per aiutarti a definire la priorità degli eventi che richiedono un"azione correttiva immediata.' 
 ---
-= Descrizione dei livelli di impatto degli eventi
+= Scopri i livelli di impatto degli eventi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

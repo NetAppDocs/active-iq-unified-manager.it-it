@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, unassigned, events 
 summary: È possibile visualizzare gli eventi non assegnati e assegnarli a un utente in grado di risolverli. 
 ---
-= Visualizza eventi non assegnati
+= Visualizza gli eventi non assegnati in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

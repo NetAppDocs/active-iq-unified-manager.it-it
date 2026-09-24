@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: fix it,fix all 
 summary: 'La pagina delle azioni di gestione fornisce il pulsante Fix it (Correggi tutto) o Fix All (Correggi tutto) per risolvere i problemi di cui Unified Manager è stato informato tramite un evento.' 
 ---
-= Quali sono le opzioni disponibili quando viene visualizzato il pulsante Fix it o Fix All (Correggi tutto)
+= Scopri le opzioni dei pulsanti "Correggi" e "Correggi tutto" in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

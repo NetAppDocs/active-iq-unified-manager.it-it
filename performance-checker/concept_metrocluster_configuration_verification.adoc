@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: metrocluster, configuration, verification 
 summary: È possibile prevenire i problemi di performance per i carichi di lavoro mirrorati in una configurazione MetroCluster garantendo che la configurazione MetroCluster sia impostata correttamente. È inoltre possibile migliorare le performance dei carichi di lavoro modificando la configurazione o aggiornando i componenti software o hardware. 
 ---
-= Verifica della configurazione MetroCluster
+= Verifica le configurazioni di MetroCluster in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

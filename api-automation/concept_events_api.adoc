@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, events, system, details 
 summary: 'L"API degli eventi consente di recuperare gli eventi generati per i cluster monitorati nel data center.' 
 ---
-= Gestisci eventi e avvisi tramite API
+= Gestisci eventi e avvisi tramite API in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

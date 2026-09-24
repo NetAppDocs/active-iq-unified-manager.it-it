@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: troubleshoot, ontap, volumes, gateway, api 
 summary: Le API del gateway fungono da gateway per richiamare le API ONTAP per eseguire query sulle informazioni relative agli oggetti di storage ONTAP e adottare misure correttive per risolvere i problemi segnalati. 
 ---
-= Risolvere i problemi dei volumi ONTAP utilizzando le API del gateway
+= Risolvi i problemi dei volumi ONTAP usando le API gateway di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

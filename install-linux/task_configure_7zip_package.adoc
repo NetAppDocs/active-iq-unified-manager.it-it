@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually, configure, 7-zip package, RHEL, Linux, bundled script 
 summary: 'Per installare correttamente Unified Manager su un sistema Red Hat Enterprise Linux (RHEL), è necessario che il sistema sia configurato con accesso al pacchetto 7-zip.' 
 ---
-= Configurare il pacchetto software 7-zip per Unified Manager
+= Configura il pacchetto software 7-zip in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 'network, interface, (lif) events, impact area, availability, configuration, performance' 
 summary: 'Gli eventi dell"interfaccia di rete forniscono informazioni sullo stato dell"interfaccia di rete (LIF), in modo da poter monitorare eventuali problemi. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
 ---
-= Eventi LIF (Network Interface)
+= Eventi dell'interfaccia di rete in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

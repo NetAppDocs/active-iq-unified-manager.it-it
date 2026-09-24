@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: job, details, page 
 summary: La pagina Dettagli lavoro consente di visualizzare lo stato e altre informazioni su specifiche attività di protezione in esecuzione, in coda o completate. È possibile utilizzare queste informazioni per monitorare lo stato di avanzamento dei lavori di protezione e per risolvere i problemi relativi agli errori dei lavori. 
 ---
-= Pagina dei dettagli del lavoro
+= Scopri la pagina dei dettagli del lavoro in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

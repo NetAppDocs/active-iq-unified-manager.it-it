@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, database, restore 
 summary: 'Un ripristino del database MySQL è il processo di ripristino di un file di backup di Unified Manager esistente sullo stesso server o su un altro server Unified Manager. L"operazione di ripristino viene eseguita dalla console di manutenzione di Unified Manager.' 
 ---
-= Che cos'è un ripristino del database
+= Scopri il ripristino del database in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

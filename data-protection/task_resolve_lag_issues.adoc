@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resolve, lag, issues 
 summary: Questo flusso di lavoro fornisce un esempio di come è possibile risolvere un problema di ritardo. In questo scenario, sei un amministratore o un operatore che accede alla pagina di Unified Manager Dashboard per verificare se ci sono problemi con le tue relazioni di protezione e, se esistono, per trovare soluzioni. 
 ---
-= Risolvere i problemi di ritardo
+= Risolvi i problemi di latenza in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

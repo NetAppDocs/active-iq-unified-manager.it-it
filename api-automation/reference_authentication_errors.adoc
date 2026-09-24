@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: http, status, code, active iq, unified manager 
 summary: 'Durante l"esecuzione delle API o la risoluzione dei problemi, è necessario conoscere i vari codici di stato HTTP e i codici di errore utilizzati dalle API Active IQ Unified Manager.' 
 ---
-= Codici di stato HTTP utilizzati in Active IQ Unified Manager
+= Scopri i codici di stato HTTP di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

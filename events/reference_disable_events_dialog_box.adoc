@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: disable, events, dialog box, properties, area, command buttons 
 summary: 'La finestra di dialogo Disable Events (Disattiva eventi) visualizza l"elenco dei tipi di evento per i quali è possibile disattivare gli eventi. È possibile disattivare gli eventi per un tipo di evento in base a una determinata severità o a una serie di eventi.' 
 ---
-= Finestra di dialogo Disattiva eventi
+= Disabilita la finestra di dialogo Eventi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

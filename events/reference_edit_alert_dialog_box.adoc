@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, alert, dialog box, name, resources, events, actions 
 summary: 'È possibile modificare le proprietà degli avvisi, ad esempio la risorsa a cui è associato l"avviso, gli eventi, gli script e le opzioni di notifica.' 
 ---
-= Finestra di dialogo Edit Alert (Modifica avviso)
+= Modifica le proprietà degli avvisi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

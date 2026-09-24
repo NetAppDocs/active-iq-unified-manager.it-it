@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: not compliant, compliant 
 summary: 'I cluster e le macchine virtuali di storage (SVM) sono considerati non conformi quando uno qualsiasi dei criteri di sicurezza valutati in base alle raccomandazioni definite nella Guida per la protezione avanzata di NetApp per ONTAP 9 non viene soddisfatto. Inoltre, un cluster viene considerato non conforme quando una SVM viene contrassegnata come non conforme.' 
 ---
-= Cosa significa non conformità
+= Scopri lo stato di conformità del cluster e dell'SVM in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: initialize, update, dialog box 
 summary: 'La finestra di dialogo Initialize/Update (Inizializza/Aggiorna) consente di eseguire un primo trasferimento baseline su una nuova relazione di protezione o di aggiornare una relazione se è già inizializzata e si desidera eseguire un aggiornamento incrementale manuale, non pianificato.' 
 ---
-= Finestra di dialogo Initialize/Update
+= Usa la finestra di dialogo Inizializza/Aggiorna in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

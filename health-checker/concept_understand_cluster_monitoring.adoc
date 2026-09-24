@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, cluster, monitor 
 summary: 'È possibile aggiungere cluster al database di Unified Manager per monitorare la disponibilità, la capacità e altri dettagli, come l"utilizzo della CPU, le statistiche dell"interfaccia, lo spazio libero su disco, l"utilizzo di qtree e l"ambiente dello chassis.' 
 ---
-= Comprendere il monitoraggio dei cluster
+= Comprendi il monitoraggio dei cluster in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

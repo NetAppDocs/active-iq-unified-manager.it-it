@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, nfs, file, share, support, cifs 
 summary: 'È possibile modificare una condivisione file NFS per supportare il protocollo CIFS. Durante la creazione della condivisione file, è possibile specificare i parametri dell"elenco di controllo di accesso (ACL) e le regole dei criteri di esportazione per la stessa condivisione file. Tuttavia, se si desidera attivare CIFS sullo stesso volume in cui è stata creata una condivisione file NFS, è possibile aggiornare i parametri ACL su tale condivisione file per supportare CIFS.' 
 ---
-= Modificare una condivisione file NFS utilizzando le API per supportare CIFS
+= Modifica una condivisione file NFS per supportare CIFS usando le API di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: managing, performance, performance, capacity, available, iops, information 
 summary: 'Performance Capacity (capacità delle performance) indica la quantità di throughput che è possibile ottenere da una risorsa senza superare le performance utili di tale risorsa. Quando viene visualizzata utilizzando i contatori delle performance esistenti, la capacità delle performance è il punto in cui si ottiene il massimo utilizzo da un nodo o aggregato prima che la latenza diventi un problema.' 
 ---
-= Gestire le prestazioni utilizzando la capacità delle prestazioni e le informazioni IOPS disponibili
+= Gestisci la capacità prestazionale e gli IOPS disponibili in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: search, refine, view 
 summary: Dopo aver ottenuto la visualizzazione desiderata, è possibile perfezionare ulteriormente i risultati utilizzando il campo Cerca per concentrarsi sui risultati che si desidera includere nel report. 
 ---
-= Utilizzare la funzione di ricerca per perfezionare la visualizzazione
+= Cerca per affinare la visualizzazione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

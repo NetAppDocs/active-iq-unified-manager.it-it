@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sample, custom, reports 
 summary: Questi report personalizzati di esempio vengono comunemente utilizzati per identificare potenziali problemi e per rispondere a potenziali problemi prima che si verifichino. 
 ---
-= Report personalizzati di esempio
+= Comprendi i report personalizzati di esempio in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

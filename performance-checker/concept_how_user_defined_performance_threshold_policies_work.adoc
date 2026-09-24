@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user-defined, performance, threshold, policies, work 
 summary: 'È possibile impostare criteri di soglia delle performance sugli oggetti storage (ad esempio, su aggregati e volumi) in modo che un evento possa essere inviato all"amministratore dello storage per informare l"amministratore che il cluster sta riscontrando un problema di performance.' 
 ---
-= Come funzionano le policy di soglia delle performance definite dall'utente
+= Usa le policy di soglia delle prestazioni definite dall'utente in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, show, aggregate, total, available, capacity, charts 
 summary: È possibile creare un report per analizzare la capacità totale e impegnata dello storage in un formato grafico Excel. 
 ---
-= Crea un report per mostrare grafici aggregati della capacità totale rispetto a quella disponibile
+= Visualizza i grafici della capacità totale aggregata rispetto alla capacità disponibile in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

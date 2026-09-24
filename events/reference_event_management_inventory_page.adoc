@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: event, management, inventory, page, filter, components, xommand buttons, list 
 summary: 'La pagina inventario gestione eventi consente di visualizzare un elenco degli eventi correnti e delle relative proprietà. È possibile eseguire attività come il riconoscimento, la risoluzione e l"assegnazione di eventi. È inoltre possibile aggiungere un avviso per eventi specifici.' 
 ---
-= Pagina dell'inventario di Event Management
+= Scopri la pagina dell'inventario di Gestione eventi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: group 
 summary: 'Un gruppo è una raccolta dinamica di oggetti storage eterogenei (cluster, SVM o volumi). È possibile creare gruppi in Unified Manager per gestire facilmente un set di oggetti di storage. I membri di un gruppo potrebbero cambiare, a seconda degli oggetti di storage monitorati da Unified Manager in un momento specifico.' 
 ---
-= Che cos'è un gruppo
+= Scopri i gruppi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

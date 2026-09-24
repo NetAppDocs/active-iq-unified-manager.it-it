@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, used 
 summary: 'Il contatore delle performance utilizzate consente di identificare se le performance di un nodo o di un aggregato stanno raggiungendo un punto in cui le performance potrebbero degradarsi se i carichi di lavoro aumentano. Può anche mostrare se un nodo o un aggregato è attualmente in uso in eccesso durante periodi di tempo specifici. La capacità di performance utilizzata è simile all"utilizzo, ma la prima fornisce maggiori informazioni sulle capacità di performance disponibili in una risorsa fisica per un carico di lavoro specifico.' 
 ---
-= Qual è la capacità di performance utilizzata
+= Comprendi il contatore della capacità di prestazione utilizzata in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: run, storage, efficiency, operations, less, busy, times 
 summary: È possibile modificare la policy o la pianificazione che gestisce le operazioni di efficienza dello storage da eseguire quando i carichi di lavoro dei volumi interessati sono meno occupati. 
 ---
-= Eseguire operazioni di efficienza dello storage in tempi meno impegnati
+= Pianifica le operazioni di efficienza dello storage nei momenti meno impegnativi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

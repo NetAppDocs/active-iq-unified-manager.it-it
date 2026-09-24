@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, workload, latency, identify, performance, issues 
 summary: 'La latenza del carico di lavoro (tempo di risposta) è il tempo necessario a un volume di un cluster per rispondere alle richieste di i/o provenienti dalle applicazioni client. Unified Manager utilizza la latenza per rilevare e avvisare gli utenti in caso di eventi relativi alle performance.' 
 ---
-= Come Unified Manager utilizza la latenza dei workload per identificare i problemi di performance
+= Utilizza la latenza del carico di lavoro per identificare i problemi di prestazioni in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

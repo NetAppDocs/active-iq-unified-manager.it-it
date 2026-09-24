@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, value, means 
 summary: Il valore utilizzato per la capacità delle performance ti aiuta a identificare i nodi e gli aggregati che sono attualmente sovrautilizzati o sottoutilizzati. Ciò consente di ridistribuire i carichi di lavoro per rendere le risorse di storage più efficienti. 
 ---
-= Cosa significa il valore utilizzato dalla capacità delle performance
+= Usa il valore della capacità prestazionale utilizzata in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

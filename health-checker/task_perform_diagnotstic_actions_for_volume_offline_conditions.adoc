@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, diagnostic actions, volume, offline, conditions 
 summary: Dopo aver effettuato la navigazione nella pagina dei dettagli relativi al volume/salute di un volume che risulta offline, è possibile cercare ulteriori informazioni utili per la diagnosi della condizione di volume offline. 
 ---
-= Eseguire azioni diagnostiche per le condizioni di volume offline
+= Esegui azioni diagnostiche per le condizioni di volume offline in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

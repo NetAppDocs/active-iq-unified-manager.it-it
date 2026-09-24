@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, performance, counter, charts 
 summary: 'Sono disponibili grafici delle prestazioni standard che visualizzano i valori del contatore per l"oggetto di storage selezionato. Ciascuno dei diagrammi dei contatori dei guasti visualizza i valori totali separati in lettura, scrittura e altre categorie. Inoltre, alcuni grafici dei contatori dettagliati visualizzano ulteriori dettagli quando il grafico viene visualizzato nella vista Zoom.' 
 ---
-= Tipi di tabelle dei contatori delle performance
+= Comprendi le tipologie di grafici dei contatori di performance in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: enclosures, events, impact area, availability, configuration 
 summary: 'Gli eventi enclosure forniscono informazioni sullo stato degli shelf enclosure di dischi nel data center, in modo da poter monitorare eventuali problemi. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
 ---
-= Eventi di enclosure
+= Scopri gli eventi relativi agli involucri in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

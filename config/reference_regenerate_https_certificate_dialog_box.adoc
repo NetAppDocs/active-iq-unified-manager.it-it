@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: regenerate, https certificate, dialog, box 
 summary: La finestra di dialogo Rigenera certificato HTTPS consente di personalizzare le informazioni di protezione e generare un nuovo certificato HTTPS con tali informazioni. 
 ---
-= Finestra di dialogo Rigenera certificato HTTPS
+= Finestra di dialogo Rigenera certificato HTTPS in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

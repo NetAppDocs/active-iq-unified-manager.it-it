@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, discovery, process, works 
 summary: 'Dopo aver aggiunto un cluster a Unified Manager, il server rileva gli oggetti del cluster e li aggiunge al database. La comprensione del funzionamento del processo di rilevamento consente di gestire i cluster dell"organizzazione e i relativi oggetti.' 
 ---
-= Come funziona il processo di rilevamento del cluster
+= Scopri come funziona il processo di rilevamento dei cluster in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

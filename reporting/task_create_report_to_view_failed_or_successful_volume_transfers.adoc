@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, failed, successful, volume, transfer 
 summary: È possibile creare un report che visualizzi lo stato dei trasferimenti di volume. In questo report è possibile visualizzare i trasferimenti di volume non riusciti e quelli riusciti. 
 ---
-= Crea un report per visualizzare i trasferimenti di volume riusciti o non riusciti
+= Crea un report per visualizzare i trasferimenti di volume non riusciti o riusciti in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

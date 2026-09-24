@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: active iq, unified manager, api, access, categories 
 summary: 'Le API di Active IQ Unified Manager consentono di gestire ed eseguire il provisioning degli oggetti di storage nel proprio ambiente. È inoltre possibile accedere all"interfaccia utente Web di Unified Manager per eseguire alcune di queste funzioni.' 
 ---
-= Accesso e categorie API Active IQ Unified Manager
+= Gestisci l'accesso alle API e le categorie di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

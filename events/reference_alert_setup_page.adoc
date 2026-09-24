@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: alert, setup, page, command buttons, list view, details area 
 summary: La pagina Configurazione avvisi visualizza un elenco di avvisi e fornisce informazioni sul nome, lo stato, il metodo di notifica e la frequenza di notifica. Da questa pagina è inoltre possibile aggiungere, modificare, rimuovere, attivare o disattivare gli avvisi. 
 ---
-= Pagina Alert Setup
+= Scopri la pagina di configurazione degli avvisi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

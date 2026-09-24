@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: page descriptions, certificate management 
 summary: 'È possibile utilizzare la pagina HTTPS Certificate (certificato HTTPS) per visualizzare i certificati di protezione correnti e generare nuovi certificati HTTPS.' 
 ---
-= Descrizioni delle pagine per la gestione dei certificati
+= Usa la pagina Certificato HTTPS in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

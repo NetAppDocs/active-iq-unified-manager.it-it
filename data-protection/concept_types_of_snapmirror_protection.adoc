@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: types, snapmirror, protection, consistency group, SnapMirror active sync 
 summary: 'In base all"implementazione della topologia dello storage dei dati, Unified Manager consente di configurare diversi tipi di relazioni di protezione di SnapMirror. Tutte le varianti della protezione di SnapMirror offrono una protezione di disaster recovery con failover, ma offrono diverse funzionalità in termini di performance, flessibilità della versione e protezione di più copie di backup.' 
 ---
-= Tipi di protezione SnapMirror
+= Tipi di protezione SnapMirror in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, databases, access, custom, reporting 
 summary: Unified Manager utilizza un database MySQL per memorizzare i dati dei cluster monitorati. I dati vengono memorizzati in diversi schemi nel database MySQL. 
 ---
-= Database di Unified Manager accessibili per la creazione di report personalizzati
+= Accedere ai database per la creazione di report personalizzati in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

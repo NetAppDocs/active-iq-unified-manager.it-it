@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, health details page 
 summary: 'La pagina Cluster / Health Details fornisce informazioni dettagliate su un cluster selezionato, ad esempio informazioni su stato, capacità e configurazione. È inoltre possibile visualizzare informazioni sulle interfacce di rete (LIF), i nodi, i dischi, le periferiche correlate e gli avvisi correlati per il cluster.' 
 ---
-= Pagina dei dettagli del cluster/stato di salute
+= Visualizza la pagina dei dettagli del cluster/stato di salute in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

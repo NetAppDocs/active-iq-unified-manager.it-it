@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, stopped, storage VMs 
 summary: È possibile creare un report per visualizzare un elenco di tutte le SVM interrotte. 
 ---
-= Crea un report per visualizzare le VM di archiviazione arrestate
+= Crea un report per visualizzare le storage VM arrestate in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

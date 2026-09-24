@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volume, transfers, transfer size 
 summary: È possibile creare un report per visualizzare i trasferimenti di volume in base alle dimensioni del trasferimento. 
 ---
-= Crea un report per visualizzare i trasferimenti di volume in base alle dimensioni del trasferimento
+= Crea un report per visualizzare i trasferimenti di volume in base alla dimensione del trasferimento in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

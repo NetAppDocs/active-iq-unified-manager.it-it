@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, resource, pools 
 summary: È possibile modificare un pool di risorse esistente quando si desidera modificare il nome e la descrizione del pool di risorse. 
 ---
-= Modifica pool di risorse
+= Modifica i pool di risorse in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

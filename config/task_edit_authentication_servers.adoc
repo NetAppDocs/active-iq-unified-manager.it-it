@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, authentication servers 
 summary: È possibile modificare la porta utilizzata dal server Unified Manager per comunicare con il server di autenticazione. 
 ---
-= Modifica server di autenticazione
+= Modifica i server di autenticazione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

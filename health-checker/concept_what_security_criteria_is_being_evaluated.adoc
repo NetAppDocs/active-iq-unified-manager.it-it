@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: security criteria, evaluated 
 summary: 'In generale, i criteri di sicurezza per i cluster ONTAP, le macchine virtuali di storage (SVM) e i volumi vengono valutati in base ai consigli definiti nella Guida per l"aumento della sicurezza di NetApp per ONTAP 9.' 
 ---
-= Quali criteri di sicurezza vengono valutati
+= Scopri come Active IQ Unified Manager valuta i criteri di sicurezza
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

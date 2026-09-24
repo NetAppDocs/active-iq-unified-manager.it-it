@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expected, range, performance, latency, forecast, formed 
 summary: La previsione di latenza è una previsione dei valori di performance superiori e inferiori previsti in un momento specifico. Per la latenza del carico di lavoro, i valori superiori costituiscono la soglia di performance. Quando il valore effettivo supera la soglia di performance, Unified Manager attiva un evento di performance dinamico. 
 ---
-= Qual è la gamma di performance prevista
+= Capisci come Active IQ Unified Manager calcola l'intervallo di prestazioni previsto
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

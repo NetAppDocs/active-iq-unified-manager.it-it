@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: bookmark, favorite, help topics 
 summary: 'Nella scheda Help Favorites (Preferiti della Guida), è possibile aggiungere ai preferiti gli argomenti della Guida utilizzati di frequente. I segnalibri di aiuto consentono di accedere rapidamente ai tuoi argomenti preferiti.' 
 ---
-= Aggiungi ai preferiti i tuoi argomenti della Guida preferiti
+= Aggiungi ai segnalibri gli argomenti della Guida che preferisci in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

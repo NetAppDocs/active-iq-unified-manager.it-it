@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, active, directory, mapping 
 summary: È possibile utilizzare le API elencate di seguito per gestire le mappature di Active Directory sulla SVM necessarie per il provisioning delle condivisioni CIFS sulle SVM. È necessario configurare le mappature di Active Directory per il mapping delle SVM con ONTAP. 
 ---
-= Gestire la mappatura di Active Directory tramite API
+= Gestisci le mappature di Active Directory tramite API in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, performance, threshold, policies 
 summary: È possibile visualizzare tutti i criteri di soglia delle performance attualmente definiti dalla pagina soglie delle performance. 
 ---
-= Visualizza i criteri di soglia delle prestazioni
+= Visualizza le policy relative alle soglie di prestazione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

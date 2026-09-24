@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, reallocate, data 
 summary: È possibile aggiungere dischi a un aggregato per aumentare la capacità di storage e le performance di tale aggregato. Dopo aver aggiunto i dischi, si otterrà un miglioramento delle prestazioni di lettura solo dopo aver riallocato i dati tra i dischi aggiunti. 
 ---
-= Aggiungere dischi e riallocare i dati
+= Scopri come l'aggiunta di dischi influisce sulla riallocazione dei dati in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

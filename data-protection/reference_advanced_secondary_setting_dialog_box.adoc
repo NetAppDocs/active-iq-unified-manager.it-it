@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: advanced, secondary, settings, dialog box 
 summary: 'È possibile utilizzare la finestra di dialogo Advanced Secondary Settings (Impostazioni secondarie avanzate) per attivare la replica flessibile della versione, il backup di più copie e le impostazioni relative allo spazio su un volume secondario. È possibile utilizzare la finestra di dialogo Advanced Secondary Settings (Impostazioni secondarie avanzate) per modificare le impostazioni correnti.' 
 ---
-= Finestra di dialogo Advanced Secondary Settings (Impostazioni secondarie avanzate
+= Usa la finestra di dialogo Impostazioni secondarie avanzate in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

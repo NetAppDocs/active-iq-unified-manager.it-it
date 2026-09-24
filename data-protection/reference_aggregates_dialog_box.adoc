@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: aggregates, dialog box 
 summary: È possibile utilizzare la finestra di dialogo aggregati per selezionare gli aggregati che si desidera aggiungere al pool di risorse. 
 ---
-= Finestra di dialogo aggregati
+= Usa la finestra di dialogo Aggregati in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

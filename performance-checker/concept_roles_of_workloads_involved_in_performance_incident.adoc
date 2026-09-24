@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: roles, workloads, involved, performance, event 
 summary: 'Unified Manager utilizza i ruoli per identificare il coinvolgimento di un workload in un evento di performance. I ruoli includono vittime, tori e squali. Un carico di lavoro definito dall"utente può essere una vittima, un bullo e uno squalo allo stesso tempo.' 
 ---
-= Ruoli dei carichi di lavoro coinvolti in un evento di performance
+= Identifica i ruoli del carico di lavoro negli eventi di performance in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

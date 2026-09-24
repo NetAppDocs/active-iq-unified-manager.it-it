@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: guidelines, adding, alerts 
 summary: 'È possibile aggiungere avvisi in base a una risorsa, ad esempio un cluster, un nodo, un aggregato o un volume, nonché eventi di un particolare tipo di severità. Come procedura consigliata, è possibile aggiungere un avviso per qualsiasi oggetto critico dopo aver aggiunto il cluster a cui appartiene l"oggetto.' 
 ---
-= Linee guida per l'aggiunta di avvisi
+= Linee guida per l'aggiunta di avvisi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

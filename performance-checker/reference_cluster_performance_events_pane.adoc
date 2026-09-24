@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, performance, events, pane, counter 
 summary: 'Il pannello Cluster performance events (Eventi delle performance del cluster) visualizza le statistiche delle performance e tutti gli eventi attivi per il cluster. Ciò risulta particolarmente utile quando si monitorano i cluster e tutte le performance e gli eventi correlati al cluster.' 
 ---
-= Pannello degli eventi relativi alle performance del cluster
+= Esamina il riquadro degli eventi relativi alle prestazioni del cluster in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

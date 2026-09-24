@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: logs, troubleshooting 
 summary: 'I registri di sistema consentono di analizzare le cause dei guasti e di risolvere i problemi che possono verificarsi durante l"esecuzione delle API.' 
 ---
-= Registri per la risoluzione dei problemi
+= Risolvi i problemi con i registri di sistema in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

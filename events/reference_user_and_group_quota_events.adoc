@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: user, group, quota, events, impact area, capacity 
 summary: 'Gli eventi di quota di utenti e gruppi forniscono informazioni sulla capacità della quota di utenti e gruppi di utenti, nonché sui limiti di file e dischi, in modo da poter monitorare eventuali problemi. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
 ---
-= Eventi quota utente e gruppo
+= Scopri gli eventi relativi alle quote utente e di gruppo in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

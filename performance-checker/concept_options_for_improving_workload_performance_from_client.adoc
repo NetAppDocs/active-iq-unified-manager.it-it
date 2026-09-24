@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: options, improving, workload, performance, client-side 
 summary: 'È possibile controllare i carichi di lavoro dei client, ad esempio applicazioni o database, che inviano i/o ai volumi coinvolti in un evento di performance per determinare se una modifica lato client potrebbe correggere l"evento.' 
 ---
-= Opzioni per migliorare le performance dei carichi di lavoro dal lato client
+= Migliora le prestazioni del carico di lavoro regolando le impostazioni lato client in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

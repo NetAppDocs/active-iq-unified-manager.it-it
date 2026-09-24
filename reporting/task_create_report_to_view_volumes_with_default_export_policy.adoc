@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, volumes, default, export, policy 
 summary: È possibile creare un report per trovare i volumi che utilizzano il criterio di esportazione predefinito. 
 ---
-= Crea un report per visualizzare i volumi che utilizzano la politica di esportazione predefinita
+= Crea un report per visualizzare i volumi che utilizzano la policy di esportazione predefinita in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

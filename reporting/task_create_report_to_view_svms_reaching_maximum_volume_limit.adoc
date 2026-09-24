@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, report, view, storage VMs, volume, limit 
 summary: È possibile creare un report per individuare le SVM che stanno raggiungendo il limite massimo di volume. 
 ---
-= Crea un report per visualizzare le VM di archiviazione che raggiungono il limite massimo del volume
+= Crea un report per visualizzare le VM di storage che raggiungono il limite massimo di volume in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

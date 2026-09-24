@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: hello, api server 
 summary: 'Il server API Hello è un programma di esempio che dimostra come richiamare un"API REST in Active IQ Unified Manager utilizzando un semplice client REST. Il programma di esempio fornisce informazioni di base sul server API nel formato JSON (il server supporta solo il formato application/json).' 
 ---
-= Ciao API server
+= Scopri il programma di esempio del server Hello API in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

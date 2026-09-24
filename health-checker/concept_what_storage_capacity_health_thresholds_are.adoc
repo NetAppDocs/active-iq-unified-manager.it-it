@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, capacity, health, thresholds 
 summary: Una soglia di stato della capacità di storage è il punto in cui il server Unified Manager genera eventi per segnalare qualsiasi problema di capacità con gli oggetti di storage. È possibile configurare gli avvisi in modo che inviino notifiche ogni volta che si verificano tali eventi. 
 ---
-= Quali sono le soglie di stato della capacità dello storage
+= Scopri le soglie di integrità della capacità di archiviazione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

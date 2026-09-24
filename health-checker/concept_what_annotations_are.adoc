@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: annotations 
 summary: 'Un"annotazione è una stringa di testo (il nome) assegnata a un"altra stringa di testo (il valore). Ogni coppia nome-valore dell"annotazione può essere associata dinamicamente agli oggetti di storage utilizzando regole di annotazione. Quando si associano oggetti di storage con annotazioni predefinite, è possibile filtrare e visualizzare gli eventi ad essi correlati. È possibile applicare annotazioni a cluster, volumi e macchine virtuali di storage (SVM).' 
 ---
-= Quali sono le annotazioni
+= Scopri le annotazioni in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

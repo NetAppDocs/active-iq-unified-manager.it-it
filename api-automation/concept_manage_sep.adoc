@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, storage, efficiency, policy 
 summary: È possibile visualizzare, creare, modificare ed eliminare le policy di efficienza dello storage utilizzando le API del provider di storage. 
 ---
-= Gestire le policy di efficienza dello storage tramite API
+= Gestisci le policy di efficienza dello storage tramite API in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manage, lun 
 summary: 'È possibile utilizzare l"API /storage-provider/lun per visualizzare, aggiungere, modificare ed eliminare le LUN nell"ambiente del data center.' 
 ---
-= Gestire le LUN utilizzando le API
+= Gestisci le LUN tramite API in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

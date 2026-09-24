@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: perform, unattended, installation, unified manager 
 summary: 'È possibile installare Unified Manager senza l"intervento dell"utente utilizzando l"interfaccia della riga di comando. È possibile completare l"installazione automatica passando i parametri in coppie chiave-valore.' 
 ---
-= Eseguire un'installazione non presidiata di Unified Manager
+= Esegui un'installazione automatica di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

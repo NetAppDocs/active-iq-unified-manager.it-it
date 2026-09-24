@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, components, why, contention 
 summary: 'È possibile identificare i problemi di performance del cluster quando un componente del cluster entra in conflitto. Le performance dei carichi di lavoro che utilizzano il componente rallentano e il loro tempo di risposta (latenza) per le richieste dei client aumenta, il che attiva un evento in Unified Manager.' 
 ---
-= Componenti del cluster e perché possono essere in conflitto
+= Comprendi i componenti del cluster e la contesa in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

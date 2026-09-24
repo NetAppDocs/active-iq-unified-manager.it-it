@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: different, types, qos, policies, display, throughput, charts 
 summary: 'È possibile visualizzare le impostazioni dei criteri di qualità del servizio (QoS) definite da ONTAP che sono state applicate a un volume o LUN nei grafici IOPS, IOPS/TB e MB/s di Performance Explorer e Workload Analysis. Le informazioni visualizzate nei grafici variano a seconda del tipo di policy QoS applicata al carico di lavoro.' 
 ---
-= Come vengono visualizzati i diversi tipi di policy QoS nei grafici di throughput
+= Visualizza le policy QoS nei grafici di throughput con Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: email, notification, format, page 
 summary: 'La pagina formato notifica e-mail visualizza le regole del messaggio e-mail inviato a un utente o a un gruppo di utenti quando si verifica un problema relativo alla quota (limite minimo violato o limite massimo raggiunto).' 
 ---
-= Pagina formato notifica email
+= Scopri la pagina Formato notifica e-mail in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified manager, port, requirements, protocol, server 
 summary: Le porte e i protocolli richiesti consentono la comunicazione tra il server Unified Manager e i sistemi di storage gestiti, i server e altri componenti. 
 ---
-= Requisiti di protocollo e porta
+= Scopri i requisiti di protocollo e porta in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

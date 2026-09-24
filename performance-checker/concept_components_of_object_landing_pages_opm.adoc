@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: components, object, landing pages 
 summary: Le pagine di destinazione degli oggetti forniscono dettagli su tutti gli eventi critici, di avviso e informativi. Forniscono una vista dettagliata delle performance di tutti gli oggetti del cluster, consentendo di selezionare e confrontare singoli oggetti in diversi periodi di tempo. 
 ---
-= Componenti delle pagine di destinazione degli oggetti
+= Esamina i componenti delle pagine di destinazione degli oggetti in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

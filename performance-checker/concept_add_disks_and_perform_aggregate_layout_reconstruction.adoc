@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, disks, perform, aggregate, layout, reconstruction 
 summary: 'È possibile aggiungere dischi a un aggregato per aumentare la capacità di storage e le performance di tale aggregato. Dopo aver aggiunto i dischi, si vede un miglioramento delle performance solo dopo la ricostruzione dell"aggregato.' 
 ---
-= Aggiungere dischi ed eseguire la ricostruzione del layout aggregato
+= Scopri come l'aggiunta di dischi influisce sulla configurazione dell'aggregato in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

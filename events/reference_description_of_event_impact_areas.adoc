@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: description, event, impact, areas 
 summary: 'Gli eventi sono suddivisi in sei aree di impatto (disponibilità, capacità, configurazione, performance, protezione, e sicurezza) per consentirti di concentrarti sui tipi di eventi di cui sei responsabile.' 
 ---
-= Descrizione delle aree di impatto degli eventi
+= Scopri le aree di impatto degli eventi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

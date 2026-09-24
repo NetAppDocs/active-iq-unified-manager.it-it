@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: unified, manager, reporting 
 summary: 'Active IQ Unified Manager (in precedenza Unified Manager di OnCommand) consente di visualizzare, personalizzare, scaricare e pianificare report per i sistemi storage ONTAP. I report possono fornire dettagli sulla capacità, lo stato di salute, le performance e le relazioni di protezione del sistema di storage.' 
 ---
-= Reporting di Unified Manager
+= Scopri la creazione di report in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

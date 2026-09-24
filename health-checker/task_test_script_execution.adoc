@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: test, script, execution 
 summary: È possibile verificare che lo script venga eseguito correttamente quando viene generato un avviso per un oggetto di storage. 
 ---
-= Esecuzione dello script di test
+= Esecuzione dello script di test in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

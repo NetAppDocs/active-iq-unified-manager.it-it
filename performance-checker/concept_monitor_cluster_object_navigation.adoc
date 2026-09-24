@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitor, cluster, object, navigation 
 summary: È possibile monitorare le performance di tutti gli oggetti in qualsiasi cluster gestito da Unified Manager. Il monitoraggio degli oggetti storage offre una panoramica delle performance di cluster e oggetti e include il monitoraggio degli eventi delle performance. È possibile visualizzare performance ed eventi a un livello elevato oppure esaminare ulteriormente i dettagli delle performance degli oggetti e degli eventi delle performance. 
 ---
-= Monitorare la navigazione degli oggetti del cluster
+= Monitora la navigazione degli oggetti del cluster in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

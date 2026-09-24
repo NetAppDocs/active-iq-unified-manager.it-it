@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, capacity, threshold, conditions 
 summary: 'È possibile creare criteri di soglia delle performance definiti dall"utente in modo che gli eventi vengano attivati quando il valore della capacità di performance utilizzata per un nodo o aggregato supera l"impostazione di soglia definita per la capacità di performance utilizzata.' 
 ---
-= La capacità di performance ha utilizzato le condizioni di soglia delle performance
+= Configura le soglie di utilizzo della capacità prestazionale in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

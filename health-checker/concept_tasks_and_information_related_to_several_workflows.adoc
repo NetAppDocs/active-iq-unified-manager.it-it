@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: tasks, information, workflows 
 summary: 'Alcune attività e testi di riferimento che possono aiutarti a comprendere e completare un workflow sono comuni a molti dei flussi di lavoro di Unified Manager, tra cui l"aggiunta e la revisione di note su un evento, l"assegnazione di un evento, il riconoscimento e la risoluzione di eventi e dettagli su volumi, storage virtual machine (SVM), aggregati, e così via.' 
 ---
-= Attività e informazioni relative a diversi flussi di lavoro
+= Comprendi le informazioni comuni ai workflow di Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

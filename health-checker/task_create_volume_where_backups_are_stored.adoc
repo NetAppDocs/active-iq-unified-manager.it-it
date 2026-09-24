@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, snapshot copy, copies location 
 summary: 'È possibile configurare il volume in cui memorizzare le copie Snapshot in uno dei cluster ONTAP utilizzando Gestore di sistema di ONTAP o l"interfaccia utente di ONTAP.' 
 ---
-= Configurare la posizione della copia dello snapshot
+= Configura la posizione della copia Snapshot in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

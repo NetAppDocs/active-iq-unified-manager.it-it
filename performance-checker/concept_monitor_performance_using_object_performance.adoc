@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: monitoring, performance, inventory, pages 
 summary: 'Le pagine delle performance dell"inventario degli oggetti visualizzano informazioni sulle performance, eventi delle performance e stato degli oggetti per tutti gli oggetti all"interno di una categoria di tipi di oggetti. In questo modo viene fornita una panoramica immediata dello stato delle performance di ciascun oggetto all"interno di un cluster, ad esempio per tutti i nodi o tutti i volumi.' 
 ---
-= Monitorare le prestazioni utilizzando le pagine Inventario delle prestazioni
+= Monitora le prestazioni degli oggetti utilizzando le pagine di Performance Inventory in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: snapmirror, relationship, events, impact area, protection 
 summary: 'Gli eventi di relazione di SnapMirror forniscono informazioni sullo stato delle relazioni asincrone e sincrona SnapMirror, in modo da poter monitorare eventuali problemi. Gli eventi di relazione SnapMirror asincroni vengono generati sia per le VM di storage che per i volumi, ma gli eventi di relazione SnapMirror sincroni vengono generati solo per le relazioni dei volumi. Non vengono generati eventi per i volumi costituenti che fanno parte delle relazioni di disaster recovery di Storage VM. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
 ---
-= Eventi di relazione SnapMirror
+= Scopri gli eventi relativi alle relazioni di SnapMirror in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, connectivity, status, definitions 
 summary: 'La connettività tra i cluster in una configurazione MetroCluster può essere uno dei seguenti stati: Ottimale, interessato o inattivo. La comprensione degli stati di connettività consente di gestire in modo efficace le configurazioni MetroCluster.' 
 ---
-= Definizioni dello stato di connettività del cluster per la configurazione MetroCluster su FC
+= Comprendi la connettività del cluster in una configurazione MetroCluster over FC in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

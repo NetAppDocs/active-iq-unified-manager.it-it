@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: override, management, actions, scripts 
 summary: È possibile creare script personalizzati e associarli agli avvisi per eseguire azioni specifiche per eventi specifici, senza optare per le azioni di gestione predefinite disponibili nella pagina delle azioni di gestione o nella dashboard di Unified Manager. 
 ---
-= Sovrascrivere le azioni di gestione tramite script
+= Sovrascrivi le azioni di gestione con script in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

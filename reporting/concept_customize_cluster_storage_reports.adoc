@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, cluster, storage, reports 
 summary: I report di esempio relativi allo storage dei cluster di questa sezione sono solo esempi che consentono di comprendere come creare report sulla capacità dei cluster per monitorare le risorse del sistema di storage. 
 ---
-= Personalizza i report di archiviazione del cluster
+= Personalizza i report di archiviazione cluster in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

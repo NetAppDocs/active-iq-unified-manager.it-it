@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, alert, dialog, box, name, resources, events, actions, command buttons 
 summary: 'È possibile creare avvisi per notificare quando viene generato un determinato evento, in modo da poter risolvere il problema rapidamente e ridurre al minimo l"impatto sull"ambiente. È possibile creare avvisi per una singola risorsa o un set di risorse e per eventi di un particolare tipo di severità. È inoltre possibile specificare il metodo di notifica e la frequenza degli avvisi.' 
 ---
-= Finestra di dialogo Add Alert (Aggiungi avviso)
+= Scopri la finestra di dialogo Aggiungi avviso in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

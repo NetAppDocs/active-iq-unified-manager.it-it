@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, edit, storage, efficiency, policies 
 summary: Quando le policy di efficienza dello storage definite dal sistema non corrispondono ai requisiti dei carichi di lavoro, è possibile creare policy di efficienza dello storage personalizzate e ottimizzate per i carichi di lavoro. 
 ---
-= Creare e modificare criteri di efficienza di archiviazione
+= Crea e modifica le policy di efficienza dello storage in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

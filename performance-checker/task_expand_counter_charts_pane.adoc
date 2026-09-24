@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, counter, charts, pane 
 summary: È possibile espandere il riquadro Counter Chart in modo che i grafici siano più grandi e leggibili. 
 ---
-= Espandi il riquadro Grafici dei contatori
+= Espandi il riquadro Grafici contatore in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

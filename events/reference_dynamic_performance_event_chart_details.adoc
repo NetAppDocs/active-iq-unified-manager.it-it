@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: dynamic, performance, event, chart, details 
 summary: 'Per gli eventi di performance dinamiche, la sezione System Diagnosis della pagina Event Details elenca i carichi di lavoro principali con la latenza o l"utilizzo più elevati del componente del cluster in conflitto. Le statistiche delle performance si basano sull"ora in cui l"evento è stato rilevato fino all"ultima volta in cui è stato analizzato l"evento. I grafici visualizzano anche le statistiche cronologiche delle performance per il componente del cluster in conflitto.' 
 ---
-= Dettagli del grafico degli eventi delle performance dinamiche
+= Scopri gli eventi di performance dinamici in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

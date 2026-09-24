@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: reverse, resync, dialog box 
 summary: 'Quando si dispone di una relazione di protezione interrotta perché il volume di origine è disattivato e la destinazione viene creata come volume di lettura/scrittura, la risincronizzazione inversa consente di invertire la direzione della relazione in modo che la destinazione diventi la nuova origine e l"origine diventi la nuova destinazione.' 
 ---
-= Risincronizzazione inversa
+= Risincronizzazione inversa in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

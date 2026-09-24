@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: change, cancel, scheduled, maintenance, window 
 summary: 'Se è stata configurata una finestra di manutenzione di Unified Manager in modo che si verifichi in futuro, è possibile modificare l"ora di inizio e di fine o annullare la finestra di manutenzione.' 
 ---
-= Modificare o annullare una finestra di manutenzione programmata
+= Modifica o annulla una finestra di manutenzione programmata in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

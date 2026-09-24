@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, severity, types 
 summary: 'Ogni evento di performance è associato a un tipo di severità per aiutarti a definire la priorità degli eventi che richiedono un"azione correttiva immediata.' 
 ---
-= Tipi di severità degli eventi relativi alle performance
+= Dai priorità agli eventi di performance in base alla gravità in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

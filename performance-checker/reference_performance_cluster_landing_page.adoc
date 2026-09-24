@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, cluster, landing page 
 summary: La pagina Landing di Performance Cluster visualizza lo stato delle performance di alto livello di un cluster selezionato. La pagina consente di accedere ai dettagli completi di ciascun contatore di performance per gli oggetti di storage nel cluster selezionato. 
 ---
-= Pagina di destinazione del cluster di performance
+= Esamina la pagina iniziale del cluster Performance in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

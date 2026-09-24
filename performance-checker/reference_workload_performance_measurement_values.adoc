@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workload, performance, measurement, values 
 summary: Unified Manager misura le performance dei carichi di lavoro su un cluster in base a valori statistici storici e previsti, che formano la previsione di latenza dei valori per i carichi di lavoro. Confronta i valori statistici effettivi del carico di lavoro con la previsione di latenza per determinare quando le performance del carico di lavoro sono troppo alte o troppo basse. Un carico di lavoro che non funziona come previsto attiva un evento di performance dinamica per la notifica. 
 ---
-= Valori di misurazione delle performance del carico di lavoro
+= Comprendi i valori di misurazione delle prestazioni del carico di lavoro in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

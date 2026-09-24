@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, shelf, events, impact area, availability 
 summary: 'Gli eventi relativi agli shelf di storage indicano se lo shelf di storage presenta anomalie, in modo da poter monitorare potenziali problemi. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
 ---
-= Eventi di shelf storage
+= Scopri gli eventi relativi agli shelf di storage in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

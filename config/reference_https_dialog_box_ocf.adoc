@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: https certificate page 
 summary: 'La pagina HTTPS Certificate (certificato HTTPS) consente di visualizzare il certificato di protezione corrente, scaricare una richiesta di firma del certificato, generare un nuovo certificato HTTPS o installare un nuovo certificato HTTPS.' 
 ---
-= Pagina del certificato HTTPS
+= Scopri la pagina relativa al certificato HTTPS in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

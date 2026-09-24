@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, services, events, impact area, configuration, protection 
 summary: 'Gli eventi relativi ai servizi di storage forniscono informazioni sulla creazione e l"abbonamento dei servizi di storage, in modo da poter monitorare eventuali problemi. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
 ---
-= Eventi relativi ai servizi di storage
+= Scopri gli eventi relativi ai servizi di archiviazione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

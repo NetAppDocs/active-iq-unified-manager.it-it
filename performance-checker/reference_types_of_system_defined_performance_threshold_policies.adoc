@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system-defined, performance, threshold, policies, cluster, node. aggregate, qos 
 summary: Unified Manager fornisce alcune policy di soglia standard che monitorano le performance del cluster e generano automaticamente gli eventi. Questi criteri sono attivati per impostazione predefinita e generano eventi di avviso o informazioni quando le soglie di performance monitorate vengono superate. 
 ---
-= Tipi di criteri di soglia delle performance definiti dal sistema
+= Comprendi le policy relative alle soglie di performance definite dal sistema in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

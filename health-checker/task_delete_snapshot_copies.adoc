@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, snapshot copies 
 summary: È possibile eliminare una copia Snapshot per risparmiare spazio o liberare spazio su disco, oppure eliminare la copia Snapshot se non è più necessaria. 
 ---
-= Eliminare le copie Snapshot
+= Elimina le copie Snapshot in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

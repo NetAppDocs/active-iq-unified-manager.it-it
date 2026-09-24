@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: browse, directories, dialog box 
 summary: 'È possibile utilizzare la finestra di dialogo Sfoglia directory per ripristinare i dati in una directory di un cluster e in una SVM diversa dall"origine originale. Il cluster e il volume di origine originali vengono selezionati per impostazione predefinita.' 
 ---
-= Finestra di dialogo Sfoglia directory
+= Usa la finestra di dialogo Sfoglia directory in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

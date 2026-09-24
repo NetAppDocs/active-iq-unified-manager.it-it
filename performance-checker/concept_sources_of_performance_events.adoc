@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sources, performance, events 
 summary: Gli eventi relativi alle performance sono problemi legati alle performance dei carichi di lavoro su un cluster. Consentono di identificare gli oggetti storage con tempi di risposta lenti, noti anche come alta latenza. Insieme ad altri eventi di salute che si sono verificati contemporaneamente, è possibile determinare i problemi che potrebbero aver causato o contribuito a ridurre i tempi di risposta. 
 ---
-= Fonti di eventi relativi alle performance
+= Identifica le fonti degli eventi di performance in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

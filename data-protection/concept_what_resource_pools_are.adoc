@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: resource pools 
 summary: I pool di risorse sono gruppi di aggregati creati da un amministratore dello storage che utilizza Unified Manager per fornire il provisioning alle applicazioni partner per la gestione del backup. 
 ---
-= Quali sono i pool di risorse
+= Scopri i pool di risorse in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: modify, storage, workloads 
 summary: 'La modifica dei carichi di lavoro dello storage consiste nell"aggiornare le LUN o le condivisioni di file con parametri mancanti o nella modifica dei parametri esistenti.' 
 ---
-= Modificare i carichi di lavoro di archiviazione utilizzando le API
+= Modifica i carichi di lavoro di archiviazione utilizzando le API in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

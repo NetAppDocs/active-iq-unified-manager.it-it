@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: edit, relationship, dialog box 
 summary: È possibile modificare una relazione di protezione esistente per modificare la velocità di trasferimento massima, il criterio di protezione o il programma di protezione. 
 ---
-= Finestra di dialogo Modifica relazione
+= Modifica una relazione di protezione in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

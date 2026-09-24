@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, values, annotations 
 summary: 'È possibile eliminare i valori associati alle annotazioni personalizzate quando tale valore non si applica più all"annotazione.' 
 ---
-= Elimina i valori dalle annotazioni
+= Elimina i valori dalle annotazioni in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

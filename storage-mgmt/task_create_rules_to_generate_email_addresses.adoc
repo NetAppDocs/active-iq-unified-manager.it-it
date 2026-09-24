@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, rules, generate, email, addresses 
 summary: 'È possibile creare regole per specificare l"indirizzo e-mail in base alla quota utente associata a cluster, storage virtual machine (SVM), volumi, qtree, utenti o gruppi di utenti. Quando si verifica una violazione delle quote, viene inviata una notifica all"indirizzo e-mail specificato.' 
 ---
-= Crea regole per generare indirizzi email
+= Crea regole per generare indirizzi email in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

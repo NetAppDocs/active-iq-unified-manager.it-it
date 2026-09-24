@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: assign, policies, workloads, single, multiple, storage, system-recommended, psls 
 summary: 'Puoi assegnare le policy di efficienza dello storage (SEPS) e i livelli di servizio delle performance (PSL) ai carichi di lavoro dello storage dalla pagina tutti i carichi di lavoro utilizzando le diverse opzioni di navigazione.' 
 ---
-= Assegnare policy ai carichi di lavoro
+= Assegna criteri ai carichi di lavoro in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: typical, window, layouts, object, list, details 
 summary: 'La comprensione dei layout tipici delle finestre consente di navigare e utilizzare Active IQ Unified Manager in modo efficace. La maggior parte delle finestre di Unified Manager sono simili a uno dei due layout generali: Elenco oggetti o dettagli. L"impostazione di visualizzazione consigliata è di almeno 1280 x 1024 pixel.' 
 ---
-= Layout tipici delle finestre
+= Layout tipici delle finestre in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

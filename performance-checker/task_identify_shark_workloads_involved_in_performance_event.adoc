@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: identify, shark workloads, involved, dynamic, performance, event 
 summary: 'In Unified Manager, è possibile identificare i carichi di lavoro con la maggiore deviazione nell"utilizzo di un componente storage in conflitto. L"identificazione di questi workload consente di determinare se questi workload devono essere spostati in un cluster meno utilizzato.' 
 ---
-= Identificare i carichi di lavoro degli squali coinvolti in un evento di performance dinamica
+= Identifica i carichi di lavoro shark in un evento di prestazioni dinamico in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

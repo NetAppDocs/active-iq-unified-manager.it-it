@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, qos, control, workload, throughput 
 summary: 'È possibile creare un gruppo di criteri QoS (Quality of Service) per controllare il limite di i/o al secondo (IOPS) o throughput (MB/s) per i carichi di lavoro in esso contenuti. Se i carichi di lavoro si trovano in un gruppo di policy senza limiti impostati, ad esempio il gruppo di policy predefinito, o se il limite impostato non soddisfa le esigenze, è possibile aumentare il limite o spostare i carichi di lavoro in un gruppo di policy nuovo o esistente con il limite desiderato.' 
 ---
-= In che modo la QoS dello storage può controllare il throughput dei carichi di lavoro
+= Controlla il throughput del carico di lavoro con la QoS dello storage in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: timestamp, means, collected, data, events 
 summary: 'L"indicatore data e ora visualizzato nei dati di salute e performance raccolti o visualizzato come ora di rilevamento di un evento si basa sull"ora del cluster ONTAP, regolata in base al fuso orario impostato nel browser Web.' 
 ---
-= Cosa significa il timestamp nei dati e negli eventi raccolti
+= Scopri i timestamp nei dati e negli eventi raccolti in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: schedule, imported, reports 
 summary: È possibile pianificare i report esistenti creati e importati in una release precedente di Unified Manager. 
 ---
-= Pianifica report .rptdesign importati
+= Pianifica i report .rptdesign importati in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

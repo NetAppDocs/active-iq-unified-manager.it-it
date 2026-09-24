@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, counters, tracked, thresholds 
 summary: Alcuni contatori di performance comuni, come IOPS e MB/s, possono avere soglie impostate per tutti gli oggetti di storage. Esistono altri contatori che possono avere soglie impostate solo per determinati oggetti di storage. 
 ---
-= Quali contatori delle performance possono essere monitorati utilizzando le soglie
+= Capisci i contatori delle prestazioni monitorati tramite soglie in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

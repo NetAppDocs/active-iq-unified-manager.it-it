@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: customize, columns 
 summary: Utilizzare Mostra/Nascondi per scegliere le colonne da utilizzare nel report. Trascinare le colonne nella pagina di inventario per riorganizzarle. 
 ---
-= Personalizza colonne
+= Personalizza le colonne in un report in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

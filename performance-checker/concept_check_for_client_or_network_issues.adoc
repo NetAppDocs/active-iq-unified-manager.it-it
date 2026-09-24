@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: check, client, network, issues 
 summary: 'Quando i client connessi ai volumi su un cluster aumentano le richieste di i/o, il cluster deve lavorare di più per soddisfare la domanda. L"aumento della domanda sul cluster può mettere in conflitto un componente, aumentare la latenza dei carichi di lavoro che lo utilizzano e attivare un evento in Unified Manager.' 
 ---
-= Verificare la presenza di problemi relativi al client o alla rete
+= Capisci come i problemi del client o della rete influenzano le prestazioni in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

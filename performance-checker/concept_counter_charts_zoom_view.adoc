@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: counter, charts, zoom, view 
 summary: I Counter Chart forniscono una vista Zoom che consente di ingrandire i dettagli delle performance nel periodo di tempo specificato. In questo modo è possibile visualizzare i dettagli delle performance e gli eventi con una granularità molto più elevata, il che è vantaggioso per la risoluzione dei problemi relativi alle performance. 
 ---
-= Counter Chart Zoom View
+= Scopri la visualizzazione zoom nei grafici a contatore in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

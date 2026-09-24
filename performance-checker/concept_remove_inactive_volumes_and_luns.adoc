@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: remove, inactive, volumes, luns 
 summary: 'Una volta identificato lo spazio libero aggregato come un problema, è possibile cercare volumi e LUN inutilizzati ed eliminarli dall"aggregato. Questo può aiutare a ridurre il problema dello spazio su disco insufficiente.' 
 ---
-= Rimuovere volumi e LUN inattivi
+= Rimuovi volumi e LUN inattivi in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: verify, volumes, qos, policy, group, unusually, high, activity 
 summary: 'È possibile esaminare i carichi di lavoro nel gruppo di policy qualità del servizio (QoS) con il cambiamento più elevato nell"attività per determinare se l"evento è stato causato da più di un carico di lavoro. Puoi anche vedere se altri carichi di lavoro superano ancora il limite di throughput impostato o se rientrano nell"intervallo di attività previsto.' 
 ---
-= Verificare se altri volumi nel gruppo di policy QoS hanno un'attività insolitamente elevata
+= Analizza i volumi ad alta attività all'interno di un gruppo di criteri QoS in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: delete, resource, pools 
 summary: È possibile eliminare i pool di risorse quando non sono più necessari. Ad esempio, è possibile ridistribuire gli aggregati dei membri da un pool di risorse a diversi altri pool di risorse, rendendo obsoleto il pool di risorse originale. 
 ---
-= Elimina pool di risorse
+= Elimina i pool di risorse in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

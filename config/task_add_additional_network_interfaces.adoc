@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, network, interfaces 
 summary: È possibile aggiungere nuove interfacce di rete se è necessario separare il traffico di rete. 
 ---
-= Aggiungere interfacce di rete
+= Aggiungi interfacce di rete ad Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

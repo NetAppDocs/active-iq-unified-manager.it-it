@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: happens, performance, threshold, policies, object, moved 
 summary: 'Poiché i criteri di soglia delle performance vengono assegnati agli oggetti di storage, se si sposta un oggetto, tutti i criteri di soglia assegnati rimangono associati all"oggetto dopo il completamento dello spostamento. Ad esempio, se si sposta un volume o un LUN in un aggregato diverso, i criteri di soglia rimangono attivi per il volume o il LUN sul nuovo aggregato.' 
 ---
-= Cosa accade ai criteri di soglia delle performance quando un oggetto viene spostato
+= Gestisci le politiche di soglia durante lo spostamento degli oggetti in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

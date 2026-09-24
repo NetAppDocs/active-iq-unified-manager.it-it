@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: performance, event, analysis, notification 
 summary: 'Gli eventi relativi alle performance avvisano l"utente in merito a problemi di performance i/o su un carico di lavoro causati da conflitti su un componente del cluster. Unified Manager analizza l"evento per identificare tutti i carichi di lavoro coinvolti, il componente in conflitto e se l"evento è ancora un problema che potrebbe essere necessario risolvere.' 
 ---
-= Analisi e notifica degli eventi relativi alle performance
+= Analizza gli eventi e le notifiche relativi alle prestazioni in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

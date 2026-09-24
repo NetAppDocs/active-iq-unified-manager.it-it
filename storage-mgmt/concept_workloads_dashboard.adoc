@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: workloads, overview, data center, sections 
 summary: 'Un carico di lavoro rappresenta le operazioni di input/output (i/o) di un oggetto storage, ad esempio un volume o un LUN. Il provisioning dello storage si basa sui requisiti di carico di lavoro previsti. Le statistiche dei carichi di lavoro vengono monitorate da Active IQ Unified Manager solo dopo la presenza di traffico da e verso l"oggetto storage. Ad esempio, i valori di IOPS e latenza del carico di lavoro sono disponibili dopo che gli utenti iniziano a utilizzare un database o un"applicazione e-mail.' 
 ---
-= Panoramica sui carichi di lavoro
+= Scopri la dashboard dei carichi di lavoro in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

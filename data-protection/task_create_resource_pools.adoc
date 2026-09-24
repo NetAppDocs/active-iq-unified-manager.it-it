@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: creating, resource, pools 
 summary: È possibile utilizzare la finestra di dialogo Crea pool di risorse per raggruppare gli aggregati a scopo di provisioning. 
 ---
-= Creare pool di risorse
+= Crea pool di risorse in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

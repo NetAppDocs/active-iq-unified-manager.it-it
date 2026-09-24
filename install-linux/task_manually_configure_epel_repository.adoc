@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: manually, configure, epel repository 
 summary: 'Se il sistema su cui si installa Unified Manager non ha accesso al repository Extra Packages for Enterprise Linux (EPEL), è necessario scaricare e configurare manualmente il repository per una corretta installazione.' 
 ---
-= Configurare manualmente il repository EPEL
+= Configura il repository EPEL per Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

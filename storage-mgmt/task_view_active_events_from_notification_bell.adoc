@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: view, active, events, notification, bell 
 summary: Il campanello di notifica nella barra dei menu consente di visualizzare rapidamente gli eventi attivi più importanti che Unified Manager sta monitorando. 
 ---
-= Visualizza gli eventi attivi dalla campana delle notifiche
+= Visualizza gli eventi attivi dalla campanella di notifica in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

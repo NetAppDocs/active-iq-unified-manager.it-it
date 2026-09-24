@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, email, notification, format, user, group, quotas 
 summary: 'È possibile creare un formato di notifica per i messaggi e-mail inviati a un utente o a un gruppo di utenti in caso di problemi relativi alla quota (limite minimo superato o limite massimo raggiunto).' 
 ---
-= Creare un formato di notifica e-mail per le quote degli utenti e dei gruppi di utenti
+= Crea un formato di notifica e-mail per le quote utente e di gruppo in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

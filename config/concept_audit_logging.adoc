@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: audit, logging 
 summary: 'È possibile rilevare se i registri di controllo sono stati compromessi con l"utilizzo dei registri di controllo. Tutte le attività eseguite da un utente vengono monitorate e registrate nei registri di controllo. I controlli vengono eseguiti per tutte le funzionalità dell"interfaccia utente e delle API esposte pubblicamente di Active IQ Unified Manager.' 
 ---
-= Registrazione dell'audit
+= Scopri i registri di controllo in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

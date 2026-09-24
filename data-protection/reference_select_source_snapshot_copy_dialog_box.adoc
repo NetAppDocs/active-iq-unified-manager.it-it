@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: select, source, snapshot, copy, dialog box 
 summary: La finestra di dialogo Seleziona copia snapshot di origine consente di selezionare una copia Snapshot specifica per trasferire i dati tra relazioni di protezione oppure di selezionare il comportamento predefinito, che varia a seconda che si stia inizializzando, aggiornando o risincronizzando una relazione e se la relazione è SnapMirror o SnapVault. 
 ---
-= Finestra di dialogo Select Source Snapshot Copy (Seleziona copia snapshot di origine
+= Usa la finestra di dialogo Seleziona copia Snapshot di origine in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

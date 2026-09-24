@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: objects, counters, combination, threshold, policies 
 summary: Solo alcuni contatori delle performance possono essere utilizzati insieme in policy di combinazione. Quando si specificano i contatori delle prestazioni primari e secondari, entrambi i contatori delle prestazioni devono superare i limiti massimi prima che venga generato un evento. 
 ---
-= Quali oggetti e contatori possono essere utilizzati in policy di soglia combinate
+= Capisci gli oggetti e i contatori delle policy di soglia combinate in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: provision, luns 
 summary: 'È possibile creare LUN che supportano i protocolli CIFS/SMB e NFS su un cluster e una Storage Virtual Machine (Storage VM) esistenti dalla pagina Provision workload (carico di lavoro provisioning).' 
 ---
-= Fornitura di LUN
+= Effettua il provisioning delle LUN in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

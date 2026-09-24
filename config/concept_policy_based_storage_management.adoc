@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: slo, storage efficiency policy, storage workloads 
 summary: 'L"opzione di gestione dello storage basata su policy consente la gestione dello storage in base agli obiettivi del livello di servizio (SLO). Questa opzione è attivata per impostazione predefinita.' 
 ---
-= Gestione dello storage basata su policy
+= Abilita la gestione dello storage basata su policy in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

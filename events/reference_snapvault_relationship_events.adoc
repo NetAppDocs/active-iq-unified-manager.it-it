@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: snapvault, relationship, events, impact area, protection 
 summary: 'Gli eventi di relazione SnapVault forniscono informazioni sullo stato delle relazioni SnapVault in modo da poter monitorare eventuali problemi. Gli eventi sono raggruppati in base all"area di impatto e includono il nome dell"evento e della trap, il livello di impatto, il tipo di origine e la severità.' 
 ---
-= Eventi di relazione SnapVault
+= Scopri gli eventi relativi alle relazioni SnapVault in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

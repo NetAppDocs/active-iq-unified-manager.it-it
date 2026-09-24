@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapvault, policy, dialog box 
 summary: 'La finestra di dialogo Crea criterio SnapVault consente di creare un criterio per impostare la priorità per i trasferimenti SnapVault. Le policy vengono utilizzate per massimizzare l"efficienza dei trasferimenti dal volume primario al volume secondario.' 
 ---
-= Finestra di dialogo Crea policy SnapVault
+= Usa la finestra di dialogo Crea criterio SnapVault in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

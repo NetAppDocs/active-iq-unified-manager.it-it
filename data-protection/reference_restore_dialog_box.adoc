@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: restore, dialog box 
 summary: 'È possibile utilizzare la finestra di dialogo Restore (Ripristina) per ripristinare i dati in un volume da una copia Snapshot specifica.' 
 ---
-= Finestra di dialogo Restore (Ripristina)
+= Usa la finestra di dialogo Ripristina in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

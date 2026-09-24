@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: understand, view, report, relationship 
 summary: Le visualizzazioni e le pagine di inventario diventano report quando vengono scaricate o programmate. 
 ---
-= Comprendere la relazione tra visualizzazione e report
+= Capisci la relazione tra visualizzazione e report in Active IQ Unified Manager
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
