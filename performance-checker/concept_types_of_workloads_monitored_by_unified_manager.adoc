@@ -2,7 +2,7 @@
 permalink: performance-checker/concept_types_of_workloads_monitored_by_unified_manager.html 
 sidebar: sidebar 
 keywords: types, workloads, monitored, unified manager 
-summary: 'È possibile utilizzare Unified Manager per monitorare le performance di due tipi di carichi di lavoro: Definiti dall"utente e definiti dal sistema.' 
+summary: 'Utilizza Unified Manager per monitorare le prestazioni di due tipi di workload, quelli definiti dall"utente e quelli definiti dal sistema.' 
 ---
 = Monitora le tipologie di carico di lavoro con Active IQ Unified Manager
 :allow-uri-read: 

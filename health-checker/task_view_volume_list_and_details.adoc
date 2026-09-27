@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_volume_list_and_details.html 
 sidebar: sidebar 
 keywords: view, volume list, details 
-summary: 'Dalla vista Health: All Volumes (Salute: Tutti i volumi), è possibile monitorare l"inventario dei volumi. La vista Capacity: All Volumes (capacità: Tutti i volumi) consente di visualizzare informazioni sulla capacità e sull"utilizzo dei volumi in un cluster.' 
+summary: 'Usa la visualizzazione "Tutti i volumi" nella pagina Stato di salute per monitorare l"inventario dei volumi e la visualizzazione "Tutti i volumi" nella pagina Capacità per i dettagli su capacità e utilizzo.' 
 ---
 = Visualizza l'elenco dei volumi e i dettagli in Active IQ Unified Manager
 :allow-uri-read: 

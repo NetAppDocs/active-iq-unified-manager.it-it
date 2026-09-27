@@ -2,7 +2,7 @@
 permalink: health-checker/task_view_node_list_and_details.html 
 sidebar: sidebar 
 keywords: view, node list, details 
-summary: 'È possibile utilizzare la vista Health: All Nodes (Salute: Tutti i nodi) per visualizzare l"elenco dei nodi nei cluster. È possibile utilizzare la pagina Cluster / Health Details per visualizzare informazioni dettagliate sui nodi che fanno parte del cluster monitorato.' 
+summary: 'Utilizza la vista Tutti i nodi nella pagina Stato di salute per visualizzare l"elenco dei nodi nei tuoi cluster e la pagina dei dettagli di stato di salute del cluster per informazioni dettagliate sui singoli nodi.' 
 ---
 = Visualizza l'elenco dei nodi e i dettagli in Active IQ Unified Manager
 :allow-uri-read: 

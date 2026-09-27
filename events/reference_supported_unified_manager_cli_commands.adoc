@@ -2,7 +2,7 @@
 permalink: events/reference_supported_unified_manager_cli_commands.html 
 sidebar: sidebar 
 keywords: supported, unified manager, cli, commands, cmd, um cli, um run, 
-summary: In qualità di amministratore dello storage, è possibile utilizzare i comandi CLI per eseguire query sugli oggetti storage, ad esempio su cluster, aggregati, volumi, Qtree e LUN. 
+summary: Utilizza i comandi CLI per eseguire query su oggetti di storage come cluster, aggregati, volumi, qtree e LUN. 
 ---
 = Scopri i comandi CLI di Active IQ Unified Manager supportati
 :allow-uri-read: 

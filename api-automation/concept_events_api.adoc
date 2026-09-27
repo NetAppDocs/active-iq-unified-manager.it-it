@@ -24,7 +24,7 @@ Eseguendo il `GET` metodo per `/management-server/events` API, è possibile eseg
 
 Eseguendo l'operazione DI PATCH per questa API, è possibile attivare il flusso di lavoro di risoluzione per l'evento. È possibile assegnare un evento a se stessi o a un altro utente e confermare la ricezione dell'evento. Quando si eseguono le procedure relative alle risorse per risolvere il problema che ha generato l'evento, è possibile utilizzare questa API per contrassegnare l'evento come risolto.
 
-Per ulteriori informazioni sugli eventi, vedere link:../events/concept_manage_events.html["Gestire gli eventi"].
+Per maggiori informazioni sugli eventi, consulta link:../events/concept_what_active_iq_platform_events_are.html["Scopri gli eventi della piattaforma Active IQ"].
 
 [cols="4*"]
 |===
@@ -60,7 +60,7 @@ Eseguire questa API per assegnare un evento o modificare lo stato in riconosciut
 
 Gli eventi vengono generati automaticamente e continuamente. Unified Manager genera un avviso solo quando un evento soddisfa determinati criteri di filtro. È possibile selezionare gli eventi per i quali devono essere generati gli avvisi. Utilizzando `/management-server/alerts` API, è possibile configurare gli avvisi per inviare automaticamente le notifiche quando si verificano eventi o eventi specifici di determinati tipi di severità.
 
-Per ulteriori informazioni sugli avvisi, vedere link:../events/concept_manage_alerts.html["Gestire gli avvisi"].
+Per ulteriori informazioni sugli avvisi, consulta link:../events/concept_what_alerts_are.html["Scopri gli avvisi"].
 
 [cols="4*"]
 |===

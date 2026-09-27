@@ -3,13 +3,13 @@ section: events
 title: Gestire eventi e avvisi
 entries:
 - title: Gestire gli eventi
-  url: "/events/concept_manage_events.html"
   entries:
   - title: Quali sono gli eventi della piattaforma Active IQ
     url: "/events/concept_what_active_iq_platform_events_are.html"
   - title: Quali sono gli eventi del sistema di gestione degli eventi
-    url: "/events/concept_what_event_management_system_events_are.html"
     entries:
+    - title: Scopri gli eventi del sistema di gestione degli eventi
+      url: "/events/concept_what_event_management_system_events_are.html"
     - title: Eventi EMS aggiunti automaticamente a Unified Manager
       url: "/events/reference_ems_events_that_are_added_automatically_to_um.html"
     - title: Iscrizione a eventi EMS ONTAP
@@ -39,8 +39,9 @@ entries:
   - title: Configurare le impostazioni di conservazione degli eventi
     url: "/events/task_configure_event_retention_settings.html"
   - title: Cos'è una finestra di manutenzione di Unified Manager
-    url: "/events/concept_what_um_maintenance_window_is.html"
     entries:
+    - title: Scopri le finestre di manutenzione di Unified Manager
+      url: "/events/concept_what_um_maintenance_window_is.html"
     - title: Pianifica una finestra di manutenzione per disabilitare le notifiche
         degli eventi del cluster
       url: "/events/task_schedule_maintenance_window_to_disable_cluster_notifications.html"
@@ -52,7 +53,6 @@ entries:
   - title: Gestire gli eventi delle risorse del sistema host
     url: "/events/task_manage_host_system_resource_events.html"
   - title: Scopri di più sugli eventi
-    url: "/events/concept_understand_more_about_events.html"
     entries:
     - title: Definizioni dello stato dell'evento
       url: "/events/concept_event_state_definitions.html"
@@ -69,7 +69,6 @@ entries:
     - title: Modifiche alla configurazione rilevate da Unified Manager
       url: "/events/concept_cluster_configuration_changes_detected_by_um.html"
   - title: Elenco degli eventi e dei tipi di severità
-    url: "/events/reference_list_of_events_and_severity_types.html"
     entries:
     - title: Aggregare gli eventi
       url: "/events/reference_aggregate_events.html"
@@ -136,15 +135,15 @@ entries:
     - title: Eventi di stato dello spostamento del volume
       url: "/events/reference_volume_move_status_events.html"
   - title: Descrizione delle finestre di dialogo e degli eventi
-    url: "/events/reference_description_of_event_windows_and_dialog_boxes.html"
     entries:
     - title: Pagina delle notifiche
       url: "/events/reference_notifications_page.html"
     - title: Pagina dell'inventario di Event Management
       url: "/events/reference_event_management_inventory_page.html"
     - title: Pagina dei dettagli dell'evento
-      url: "/events/reference_event_details_page.html"
       entries:
+      - title: Scopri la pagina dei dettagli dell'evento
+        url: "/events/reference_event_details_page.html"
       - title: Visualizzazione della sezione informazioni evento
         url: "/events/reference_what_event_information_section_displays.html"
       - title: Viene visualizzata la sezione azioni consigliate
@@ -156,7 +155,6 @@ entries:
     - title: Finestra di dialogo Disattiva eventi
       url: "/events/reference_disable_events_dialog_box.html"
 - title: Gestire gli avvisi
-  url: "/events/concept_manage_alerts.html"
   entries:
   - title: Quali sono gli avvisi
     url: "/events/concept_what_alerts_are.html"
@@ -164,8 +162,9 @@ entries:
       di avviso
     url: "/events/concept_what_information_is_contained_in_an_alert_email.html"
   - title: Aggiungere avvisi
-    url: "/events/task_add_alerts.html"
     entries:
+    - title: Aggiungi avvisi in Unified Manager
+      url: "/events/task_add_alerts.html"
     - title: Linee guida per l'aggiunta di avvisi
       url: "/events/concept_guidelines_for_adding_alerts.html"
   - title: Aggiungi avvisi per eventi di performance
@@ -184,7 +183,6 @@ entries:
   - title: Elimina avvisi
     url: "/events/task_delete_alerts.html"
   - title: Descrizione delle finestre di avviso e delle finestre di dialogo
-    url: "/events/reference_description_of_health_alert_windows_and_dialog_boxes.html"
     entries:
     - title: Pagina Alert Setup
       url: "/events/reference_alert_setup_page.html"
@@ -193,8 +191,9 @@ entries:
     - title: Finestra di dialogo Edit Alert (Modifica avviso)
       url: "/events/reference_edit_alert_dialog_box.html"
 - title: Gestire gli script
-  url: "/events/concept_manage_scripts.html"
   entries:
+  - title: Scopri come gestire gli script
+    url: "/events/concept_manage_scripts.html"
   - title: Come funzionano gli script con gli avvisi
     url: "/events/concept_how_scripts_work_with_alerts.html"
   - title: Aggiungi script
@@ -206,7 +205,6 @@ entries:
   - title: Comandi CLI di Unified Manager supportati
     url: "/events/reference_supported_unified_manager_cli_commands.html"
   - title: Descrizione delle finestre di script e delle finestre di dialogo
-    url: "/events/reference_description_of_script_windows_and_dialog_boxes.html"
     entries:
     - title: Pagina degli script
       url: "/events/reference_management_scripts_page.html"

@@ -2,7 +2,7 @@
 permalink: events/task_disable_alerts_for_resolved_and_obsolete_events.html 
 sidebar: sidebar 
 keywords: enable, disable, alerts, resolved, obsolete, events 
-summary: 'Per tutti gli eventi configurati per l"invio di avvisi, viene inviato un messaggio di avviso quando tali eventi passano attraverso tutti gli stati disponibili: Nuovo, confermato, risolto e obsoleto. Se non si desidera ricevere avvisi per gli eventi quando si spostano negli stati Resolved (risolto) e obsoleto, è possibile configurare un"impostazione globale per eliminare tali avvisi.' 
+summary: 'Configura un"impostazione globale per sopprimere gli avvisi relativi agli eventi che passano agli stati Resolved e Obsolete.' 
 ---
 = Disabilita gli avvisi per gli eventi Risolti e Obsoleti in Active IQ Unified Manager
 :allow-uri-read: 

@@ -83,7 +83,7 @@ Ripristina i dati selezionati in una nuova posizione:
 +
 ** Percorso di ripristino
 +
-Specifica un percorso alternativo per il ripristino dei dati selezionati. Il percorso deve già esistere. È possibile utilizzare il pulsante *Browse* (Sfoglia) per raggiungere la posizione in cui si desidera ripristinare i dati oppure inserire il percorso manualmente utilizzando il formato cluster://svm/volume/path.
+Specifica un percorso alternativo per il ripristino dei dati selezionati. Il percorso deve già esistere. Puoi usare il pulsante *Sfoglia* per individuare la posizione in cui vuoi ripristinare i dati oppure puoi immettere il percorso manualmente utilizzando il formato `cluster://svm/volume/path`.
 
 ** Preservare la gerarchia di directory
 +

@@ -2,7 +2,7 @@
 permalink: storage-mgmt/reference_cluster_connectivity_status_definitions.html 
 sidebar: sidebar 
 keywords: cluster, connectivity, status, definitions 
-summary: 'La connettività tra i cluster in una configurazione MetroCluster può essere uno dei seguenti stati: Ottimale, interessato o inattivo. La comprensione degli stati di connettività consente di gestire in modo efficace le configurazioni MetroCluster.' 
+summary: Comprendi gli stati di connettività tra i cluster in una configurazione MetroCluster, ad esempio Ottimale, Compromessa o Non disponibile. 
 ---
 = Comprendi la connettività del cluster in una configurazione MetroCluster over FC in Active IQ Unified Manager
 :allow-uri-read: 

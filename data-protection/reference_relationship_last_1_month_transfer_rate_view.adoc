@@ -2,7 +2,7 @@
 permalink: data-protection/reference_relationship_last_1_month_transfer_rate_view.html 
 sidebar: sidebar 
 keywords: relationship, 1 month, transfer rate, view 
-summary: 'La vista Relationship: Last 1 Month Transfer Rate consente di analizzare la quantità di volume di dati che viene trasferita giorno per giorno per i volumi in relazioni asincrone. Questa pagina fornisce inoltre informazioni dettagliate sui trasferimenti giornalieri e sul tempo necessario per completare l"operazione di trasferimento per volumi e macchine virtuali di storage.' 
+summary: 'La vista "Tasso di trasferimento dell"ultimo mese" nella pagina "Relazione" mostra il volume giornaliero di trasferimento dei dati e il tempo di trasferimento per i volumi nelle relazioni asincrone.' 
 ---
 = Visualizza la relazione: vista Tasso di trasferimento dell'ultimo mese in Active IQ Unified Manager
 :allow-uri-read: 

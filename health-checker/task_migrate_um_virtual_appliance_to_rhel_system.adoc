@@ -22,7 +22,7 @@ Puoi ripristinare il backup dump del database MySQL di Unified Manager da un'app
 
 * Sul sistema Linux:
 +
-** È necessario aver installato Unified Manager su un server Linux seguendo le istruzioni riportate in link:../install-linux/concept_install_unified_manager_on_rhel.html["Installazione di Unified Manager su sistemi Linux"].
+** Devi aver installato Unified Manager su un server Linux seguendo le istruzioni in link:../install-linux/task_install_unified_manager_linux.html["Installazione di Unified Manager su sistemi Linux"].
 ** La versione di Unified Manager su questo server deve essere uguale a quella dell'appliance virtuale da cui si utilizza il file di backup.
 ** Non avviare l'interfaccia utente né configurare cluster, utenti o impostazioni di autenticazione sul sistema Linux dopo l'installazione. Il file di backup inserisce queste informazioni durante il processo di ripristino.
 ** È necessario disporre delle credenziali dell'utente root per l'host Linux.

@@ -2,7 +2,7 @@
 permalink: performance-checker/reference_summary_page_opm.html 
 sidebar: sidebar 
 keywords: summary page, charts, counter, statistics 
-summary: 'La pagina Summary (Riepilogo) visualizza i diagrammi dei contatori che contengono dettagli sugli eventi e sulle performance per oggetto per il periodo di 72 ore precedente. Questi dati non vengono aggiornati automaticamente, ma sono aggiornati al momento dell"ultimo caricamento della pagina. I grafici nella pagina di riepilogo rispondono alla domanda devo approfondire?' 
+summary: 'La pagina Riepilogo visualizza grafici dei contatori con dettagli su eventi e prestazioni per ciascun oggetto relativi alle 72 ore precedenti, aggiornati all"ultimo caricamento.' 
 ---
 = Consulta la pagina Riepilogo prestazioni in Active IQ Unified Manager
 :allow-uri-read: 

@@ -2,7 +2,7 @@
 permalink: data-protection/task_perform_protection_relationship_failover_and_failback.html 
 sidebar: sidebar 
 keywords: perform, protection, relationship, failover, failback 
-summary: 'Quando un volume di origine nella relazione di protezione viene disattivato a causa di un guasto hardware o di un disastro, è possibile utilizzare le funzionalità delle relazioni di protezione di Unified Manager per rendere la destinazione di protezione accessibile in lettura/scrittura e eseguire il failover su tale volume fino a quando l"origine non è nuovamente online; quindi, è possibile tornare all"origine originale quando è disponibile per la distribuzione dei dati.' 
+summary: 'In caso di indisponibilità del volume di origine, esegui il failover verso una destinazione di protezione, quindi il failback all"origine originale una volta che è di nuovo disponibile.' 
 ---
 = Esegui un failover e un failback della relazione di protezione in Active IQ Unified Manager
 :allow-uri-read: 
