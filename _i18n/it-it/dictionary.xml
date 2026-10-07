@@ -11153,7 +11153,6 @@
   <block id="ab71876b04bdf2178a36a1f75c0b521f" category="admonition">Il server Graphite non riceve i dati sulle performance per i volumi da Unified Manager.</block>
   <block id="9f05e01be7e6790732b731bbb5ffe318" category="admonition">La funzionalità di monitoraggio dei volumi root dei nodi non è disponibile, se i cluster eseguono ONTAP 9.14.1 o versione successiva.</block>
   <block id="2bff5bcae094d4c1fca66b645c79b006" category="admonition">La funzionalità di monitoring degli aggregati root dei nodi non è disponibile, se i cluster eseguono ONTAP 9.14.1 o versione successiva.</block>
-  <block id="2466264a3b3e9cd0747d6419241007ef" category="paragraph">Il server deve essere dedicato all'esecuzione di Unified Manager. Sul server non devono essere installate altre applicazioni. È possibile che uno scanner per vulnerabilità come Qualys sia installato sul sistema Linux a causa delle normative aziendali. È necessario disattivare il programma di scansione delle vulnerabilità prima di installare Unified Manager per evitare errori nell'installazione.</block>
   <block id="d399c2619eb2015cdbc0feeecd5393c0" category="inline-link">ActiveIQ Unified Manager non riesce a installare un certificato generato esternamente</block>
   <block id="ceb9d7e61726cd2e35badf78afd8453a" category="paragraph">È necessario definire le regole per gli indirizzi email di quota e inserirle nell'ordine in cui si desidera eseguirli. Ad esempio, se desideri utilizzare l'indirizzo e-mail abc@xyz.com per ricevere notifiche sulle violazioni delle quote per abc e utilizzare l'indirizzo e-mail dl-$GROUP@$DOMAIN per tutti gli altri gruppi, le regole devono essere elencate nel seguente ordine:</block>
   <block id="b3740ac32eb3afc08f5d73d7308fc75d" category="list-text">Se ( $USER == 'abc' ) allora abc@xyz.com</block>
@@ -11852,7 +11851,6 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="d940b6d335f7a34f0e4b4bc38551cbb7" category="paragraph">Ad esempio, se hai creato un backup su Unified Manager 9.18, il backup può essere ripristinato solo sui sistemi Unified Manager 9.18.</block>
   <block id="8961a4d8d4d7912111f44031511afc59" category="paragraph">Non tutte le versioni di Unified Manager possono eseguire un aggiornamento sul posto alle versioni successive.  Gli aggiornamenti di Unified Manager sono limitati al modello N-2.  Ciò significa che è possibile eseguire l'aggiornamento solo alle due versioni successive su tutte le piattaforme.  Ad esempio, è possibile eseguire un aggiornamento a Unified Manager 9.18 solo da Unified Manager 9.14 e 9.16.</block>
   <block id="53379802a4d81e82337b2c52ccf2deb3" category="list-text">Aggiorna 9.14 o 9.16 -&gt; 9.18</block>
-  <block id="6787fe3d88502c7e30ca4888c36420e1" category="list-text">Red Hat Enterprise Linux versioni 8.x e 9.6, basate sull'architettura x86_64.</block>
   <block id="074a139785c8177508b3b6c1771be1b9" category="list-text">OpenJDK versione 17.0.14+6 (dal repository Red Hat Extra Enterprise Linux Server)</block>
   <block id="effd4488452f14b70bc4664d81f2c4cf" category="paragraph">OpenJDK versione 17.0.14+6</block>
   <block id="b052ad2f2a24341b706280b74b01f4cf" category="paragraph">È possibile effettuare l'aggiornamento da Unified Manager 9.14 o 9.16 alla versione 9.18 scaricando ed eseguendo il file di installazione sulla piattaforma Linux.</block>
@@ -12842,4 +12840,9 @@ Proteggi le applicazioni con i LUN, puoi visualizzare e monitorare queste LUN su
   <block id="a6e16397851d52fce837670c7fe5c107" category="sidebar">Scopri le policy di efficienza dello storage</block>
   <block id="442ea426f05852b9149238a396ebc980" category="sidebar">Usa la finestra di dialogo Quote</block>
   <block id="d476210c705af2dbde35b19ec388481b" category="sidebar">Scopri come aggiungere spazio su disco alla directory del database</block>
+  <block id="8862bfdb779b55db7354b5395ef7912e" category="paragraph">Il sistema Linux su cui installi Unified Manager richiede versioni specifiche del sistema operativo e del software di supporto. Per le installazioni Linux, Unified Manager può essere installato solo su un sistema operativo Red Hat Enterprise Linux. Non può essere installato su nessun altro sistema operativo.</block>
+  <block id="f3622d009fee7f204f8320b21b353eee" category="list-text">Versioni 8.x e 9.6 di Red Hat Enterprise Linux, basate sull'architettura x86_64</block>
+  <block id="bc8be72fdc9d6054f356bb2b7f80fd12" category="inline-link">Matrice di interoperabilità NetApp</block>
+  <block id="57e8907ee54130f9131ad948e8b40a5f" category="paragraph"><block ref="57e8907ee54130f9131ad948e8b40a5f" category="inline-link-rx"></block></block>
+  <block id="ddb394221852f5631862ea9ec9cd9673" category="paragraph">Il server deve essere dedicato esclusivamente all'esecuzione di Unified Manager. Non devi installare altre applicazioni sul server. In alcuni ambienti, a causa delle policy aziendali, sul sistema Linux è installato uno scanner di vulnerabilità come Qualys. Devi disabilitare lo scanner di vulnerabilità prima di installare Unified Manager per evitare errori di installazione.</block>
 </blocks>
